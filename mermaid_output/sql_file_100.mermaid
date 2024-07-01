@@ -1,0 +1,45 @@
+erDiagram
+    head ||--o{ situation : not
+    head {
+        DATE not
+        TEXT line
+        VARCHAR(50) soldier
+    }
+    situation ||--o{ call : own
+    situation {
+        VARCHAR(50) own
+        DATE body
+    }
+    call ||--o{ always : once
+    call {
+        DATE once
+        TEXT real
+        VARCHAR(50) few
+    }
+    always ||--o{ back : approach
+    always {
+        VARCHAR(50) approach
+        DATE ever
+    }
+    back ||--o{ hand : since
+    back {
+        DATE since
+        TEXT top
+        VARCHAR(50) office
+    }
+    hand ||--o{ single : decision
+    hand {
+        VARCHAR(50) decision
+        DATE prove
+    }
+    single ||--o{ leave : effect
+    single {
+        DATE effect
+        TEXT her
+        VARCHAR(50) public
+    }
+    leave ||--o{ head : day
+    leave {
+        VARCHAR(50) day
+        DATE international
+    }

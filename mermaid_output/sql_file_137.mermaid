@@ -1,0 +1,34 @@
+erDiagram
+    charge ||--o{ responsibility : low
+    charge {
+        DATE low
+        TEXT image
+        VARCHAR(50) pressure
+    }
+    responsibility ||--o{ usually : husband
+    responsibility {
+        VARCHAR(50) husband
+        DATE early
+    }
+    usually ||--o{ family : goal
+    usually {
+        DATE goal
+        TEXT four
+        VARCHAR(50) character
+    }
+    family ||--o{ factor : arrive
+    family {
+        VARCHAR(50) arrive
+        DATE population
+    }
+    factor ||--o{ recent : fall
+    factor {
+        DATE fall
+        TEXT list
+        VARCHAR(50) wait
+    }
+    recent ||--o{ charge : here
+    recent {
+        VARCHAR(50) here
+        DATE care
+    }

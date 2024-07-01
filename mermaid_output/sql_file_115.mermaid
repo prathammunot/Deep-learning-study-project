@@ -1,0 +1,29 @@
+erDiagram
+    present ||--o{ keep : history
+    present {
+        DATE history
+        TEXT citizen
+        VARCHAR(50) class
+    }
+    keep ||--o{ avoid : choose
+    keep {
+        VARCHAR(50) choose
+        DATE old
+    }
+    avoid ||--o{ official : also
+    avoid {
+        DATE also
+        TEXT decade
+        VARCHAR(50) responsibility
+    }
+    official ||--o{ throughout : color
+    official {
+        VARCHAR(50) color
+        DATE fight
+    }
+    throughout ||--o{ present : others
+    throughout {
+        DATE others
+        TEXT senior
+        VARCHAR(50) themselves
+    }

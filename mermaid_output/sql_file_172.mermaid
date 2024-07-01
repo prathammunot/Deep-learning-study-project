@@ -1,0 +1,40 @@
+erDiagram
+    stand ||--o{ lead : turn
+    stand {
+        DATE turn
+        TEXT while
+        VARCHAR(50) media
+    }
+    lead ||--o{ movement : drop
+    lead {
+        VARCHAR(50) drop
+        DATE beat
+    }
+    movement ||--o{ set : individual
+    movement {
+        DATE individual
+        TEXT while
+        VARCHAR(50) continue
+    }
+    set ||--o{ third : draw
+    set {
+        VARCHAR(50) draw
+        DATE option
+    }
+    third ||--o{ trial : development
+    third {
+        DATE development
+        TEXT material
+        VARCHAR(50) card
+    }
+    trial ||--o{ race : top
+    trial {
+        VARCHAR(50) top
+        DATE thing
+    }
+    race ||--o{ stand : fill
+    race {
+        DATE fill
+        TEXT away
+        VARCHAR(50) start
+    }

@@ -1,0 +1,56 @@
+erDiagram
+    movement ||--o{ responsibility : space
+    movement {
+        DATE space
+        TEXT score
+        VARCHAR(50) protect
+    }
+    responsibility ||--o{ act : right
+    responsibility {
+        VARCHAR(50) right
+        DATE race
+    }
+    act ||--o{ change : goal
+    act {
+        DATE goal
+        TEXT behind
+        VARCHAR(50) grow
+    }
+    change ||--o{ particularly : present
+    change {
+        VARCHAR(50) present
+        DATE including
+    }
+    particularly ||--o{ voice : enough
+    particularly {
+        DATE enough
+        TEXT ok
+        VARCHAR(50) morning
+    }
+    voice ||--o{ heavy : leader
+    voice {
+        VARCHAR(50) leader
+        DATE nice
+    }
+    heavy ||--o{ these : eye
+    heavy {
+        DATE eye
+        TEXT station
+        VARCHAR(50) too
+    }
+    these ||--o{ responsibility : minute
+    these {
+        VARCHAR(50) minute
+        DATE TV
+    }
+    responsibility ||--o{ recent : table
+    responsibility {
+        DATE table
+        TEXT time
+        VARCHAR(50) class
+    }
+    recent ||--o{ movement : well
+    recent {
+        VARCHAR(50) well
+        DATE across
+    }

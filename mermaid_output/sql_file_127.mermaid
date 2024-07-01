@@ -1,0 +1,40 @@
+erDiagram
+    personal ||--o{ political : teach
+    personal {
+        DATE teach
+        TEXT network
+        VARCHAR(50) four
+    }
+    political ||--o{ meeting : rather
+    political {
+        VARCHAR(50) rather
+        DATE course
+    }
+    meeting ||--o{ garden : truth
+    meeting {
+        DATE truth
+        TEXT guess
+        VARCHAR(50) political
+    }
+    garden ||--o{ material : prepare
+    garden {
+        VARCHAR(50) prepare
+        DATE technology
+    }
+    material ||--o{ give : maybe
+    material {
+        DATE maybe
+        TEXT focus
+        VARCHAR(50) enough
+    }
+    give ||--o{ commercial : feel
+    give {
+        VARCHAR(50) feel
+        DATE lose
+    }
+    commercial ||--o{ personal : wife
+    commercial {
+        DATE wife
+        TEXT body
+        VARCHAR(50) second
+    }

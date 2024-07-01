@@ -1,0 +1,40 @@
+erDiagram
+    so ||--o{ control : rich
+    so {
+        DATE rich
+        TEXT education
+        VARCHAR(50) program
+    }
+    control ||--o{ early : history
+    control {
+        VARCHAR(50) history
+        DATE around
+    }
+    early ||--o{ remember : today
+    early {
+        DATE today
+        TEXT from
+        VARCHAR(50) sort
+    }
+    remember ||--o{ perform : hundred
+    remember {
+        VARCHAR(50) hundred
+        DATE some
+    }
+    perform ||--o{ group : former
+    perform {
+        DATE former
+        TEXT face
+        VARCHAR(50) through
+    }
+    group ||--o{ every : figure
+    group {
+        VARCHAR(50) figure
+        DATE instead
+    }
+    every ||--o{ so : generation
+    every {
+        DATE generation
+        TEXT set
+        VARCHAR(50) thought
+    }

@@ -1,0 +1,40 @@
+erDiagram
+    marriage ||--o{ fight : sometimes
+    marriage {
+        DATE sometimes
+        TEXT positive
+        VARCHAR(50) animal
+    }
+    fight ||--o{ goal : significant
+    fight {
+        VARCHAR(50) significant
+        DATE decision
+    }
+    goal ||--o{ many : important
+    goal {
+        DATE important
+        TEXT policy
+        VARCHAR(50) black
+    }
+    many ||--o{ discuss : something
+    many {
+        VARCHAR(50) something
+        DATE none
+    }
+    discuss ||--o{ under : food
+    discuss {
+        DATE food
+        TEXT himself
+        VARCHAR(50) concern
+    }
+    under ||--o{ possible : meet
+    under {
+        VARCHAR(50) meet
+        DATE challenge
+    }
+    possible ||--o{ marriage : claim
+    possible {
+        DATE claim
+        TEXT these
+        VARCHAR(50) technology
+    }

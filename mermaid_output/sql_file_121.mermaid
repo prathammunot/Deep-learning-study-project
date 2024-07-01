@@ -1,0 +1,34 @@
+erDiagram
+    someone ||--o{ pattern : father
+    someone {
+        DATE father
+        TEXT citizen
+        VARCHAR(50) news
+    }
+    pattern ||--o{ positive : place
+    pattern {
+        VARCHAR(50) place
+        DATE left
+    }
+    positive ||--o{ some : because
+    positive {
+        DATE because
+        TEXT develop
+        VARCHAR(50) too
+    }
+    some ||--o{ force : term
+    some {
+        VARCHAR(50) term
+        DATE save
+    }
+    force ||--o{ government : loss
+    force {
+        DATE loss
+        TEXT evening
+        VARCHAR(50) child
+    }
+    government ||--o{ someone : early
+    government {
+        VARCHAR(50) early
+        DATE model
+    }

@@ -1,0 +1,62 @@
+erDiagram
+    force ||--o{ recognize : point
+    force {
+        DATE point
+        TEXT partner
+        VARCHAR(50) industry
+    }
+    recognize ||--o{ also : detail
+    recognize {
+        VARCHAR(50) detail
+        DATE perform
+    }
+    also ||--o{ school : order
+    also {
+        DATE order
+        TEXT age
+        VARCHAR(50) protect
+    }
+    school ||--o{ dog : partner
+    school {
+        VARCHAR(50) partner
+        DATE agent
+    }
+    dog ||--o{ effect : father
+    dog {
+        DATE father
+        TEXT present
+        VARCHAR(50) single
+    }
+    effect ||--o{ so : forget
+    effect {
+        VARCHAR(50) forget
+        DATE adult
+    }
+    so ||--o{ television : keep
+    so {
+        DATE keep
+        TEXT keep
+        VARCHAR(50) smile
+    }
+    television ||--o{ suddenly : yard
+    television {
+        VARCHAR(50) yard
+        DATE house
+    }
+    suddenly ||--o{ final : claim
+    suddenly {
+        DATE claim
+        TEXT return
+        VARCHAR(50) score
+    }
+    final ||--o{ news : five
+    final {
+        VARCHAR(50) five
+        DATE explain
+    }
+    news ||--o{ force : improve
+    news {
+        DATE improve
+        TEXT say
+        VARCHAR(50) business
+    }

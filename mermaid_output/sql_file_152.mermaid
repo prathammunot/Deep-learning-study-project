@@ -1,0 +1,45 @@
+erDiagram
+    population ||--o{ down : hit
+    population {
+        DATE hit
+        TEXT cause
+        VARCHAR(50) about
+    }
+    down ||--o{ visit : well
+    down {
+        VARCHAR(50) well
+        DATE large
+    }
+    visit ||--o{ necessary : social
+    visit {
+        DATE social
+        TEXT finally
+        VARCHAR(50) huge
+    }
+    necessary ||--o{ happen : necessary
+    necessary {
+        VARCHAR(50) necessary
+        DATE similar
+    }
+    happen ||--o{ police : could
+    happen {
+        DATE could
+        TEXT day
+        VARCHAR(50) policy
+    }
+    police ||--o{ picture : avoid
+    police {
+        VARCHAR(50) avoid
+        DATE state
+    }
+    picture ||--o{ town : prevent
+    picture {
+        DATE prevent
+        TEXT art
+        VARCHAR(50) card
+    }
+    town ||--o{ population : meet
+    town {
+        VARCHAR(50) meet
+        DATE know
+    }

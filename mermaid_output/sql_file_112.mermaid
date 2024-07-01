@@ -1,0 +1,62 @@
+erDiagram
+    eat ||--o{ majority : detail
+    eat {
+        DATE detail
+        TEXT course
+        VARCHAR(50) meeting
+    }
+    majority ||--o{ collection : black
+    majority {
+        VARCHAR(50) black
+        DATE both
+    }
+    collection ||--o{ else : issue
+    collection {
+        DATE issue
+        TEXT everyone
+        VARCHAR(50) like
+    }
+    else ||--o{ world : audience
+    else {
+        VARCHAR(50) audience
+        DATE Democrat
+    }
+    world ||--o{ fast : drug
+    world {
+        DATE drug
+        TEXT measure
+        VARCHAR(50) center
+    }
+    fast ||--o{ thus : window
+    fast {
+        VARCHAR(50) window
+        DATE itself
+    }
+    thus ||--o{ early : share
+    thus {
+        DATE share
+        TEXT pick
+        VARCHAR(50) young
+    }
+    early ||--o{ many : attack
+    early {
+        VARCHAR(50) attack
+        DATE outside
+    }
+    many ||--o{ deal : music
+    many {
+        DATE music
+        TEXT what
+        VARCHAR(50) difference
+    }
+    deal ||--o{ green : arrive
+    deal {
+        VARCHAR(50) arrive
+        DATE key
+    }
+    green ||--o{ eat : stop
+    green {
+        DATE stop
+        TEXT hold
+        VARCHAR(50) war
+    }
