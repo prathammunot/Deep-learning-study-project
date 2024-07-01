@@ -1,0 +1,176 @@
+[
+    {
+        "name": "crime",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "listen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "economic"
+            }
+        ]
+    },
+    {
+        "name": "economic",
+        "columns": [
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "to",
+        "foreign_keys": [
+            {
+                "column": "to",
+                "references": "look"
+            }
+        ]
+    },
+    {
+        "name": "look",
+        "columns": [
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "project",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trouble",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "position",
+        "foreign_keys": [
+            {
+                "column": "position",
+                "references": "final"
+            }
+        ]
+    },
+    {
+        "name": "final",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "own",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "which",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "point",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "own",
+        "foreign_keys": [
+            {
+                "column": "own",
+                "references": "crime"
+            }
+        ]
+    }
+]

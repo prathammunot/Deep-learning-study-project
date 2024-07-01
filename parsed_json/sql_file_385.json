@@ -1,0 +1,296 @@
+[
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "assume",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "president",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "assume",
+        "foreign_keys": [
+            {
+                "column": "assume",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "data"
+            }
+        ]
+    },
+    {
+        "name": "data",
+        "columns": [
+            {
+                "name": "face",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "of",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "face",
+        "foreign_keys": [
+            {
+                "column": "face",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "alone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "wrong"
+            }
+        ]
+    },
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "air",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "church"
+            }
+        ]
+    },
+    {
+        "name": "church",
+        "columns": [
+            {
+                "name": "free",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "free",
+        "foreign_keys": [
+            {
+                "column": "free",
+                "references": "young"
+            }
+        ]
+    },
+    {
+        "name": "young",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "particular"
+            }
+        ]
+    },
+    {
+        "name": "particular",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cause",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "team",
+        "foreign_keys": [
+            {
+                "column": "team",
+                "references": "send"
+            }
+        ]
+    },
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "class",
+        "foreign_keys": [
+            {
+                "column": "class",
+                "references": "law"
+            }
+        ]
+    },
+    {
+        "name": "law",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rise",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "should"
+            }
+        ]
+    },
+    {
+        "name": "should",
+        "columns": [
+            {
+                "name": "look",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "perform"
+            }
+        ]
+    }
+]

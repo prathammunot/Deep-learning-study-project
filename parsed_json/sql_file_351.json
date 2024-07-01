@@ -1,0 +1,149 @@
+[
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "card",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "magazine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "card",
+        "foreign_keys": [
+            {
+                "column": "card",
+                "references": "case"
+            }
+        ]
+    },
+    {
+        "name": "case",
+        "columns": [
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "place",
+        "foreign_keys": [
+            {
+                "column": "place",
+                "references": "tonight"
+            }
+        ]
+    },
+    {
+        "name": "tonight",
+        "columns": [
+            {
+                "name": "sign",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sign",
+        "foreign_keys": [
+            {
+                "column": "sign",
+                "references": "health"
+            }
+        ]
+    },
+    {
+        "name": "health",
+        "columns": [
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "western",
+        "foreign_keys": [
+            {
+                "column": "western",
+                "references": "enter"
+            }
+        ]
+    },
+    {
+        "name": "enter",
+        "columns": [
+            {
+                "name": "kitchen",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yes",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kitchen",
+        "foreign_keys": [
+            {
+                "column": "kitchen",
+                "references": "fund"
+            }
+        ]
+    },
+    {
+        "name": "fund",
+        "columns": [
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "it"
+            }
+        ]
+    }
+]

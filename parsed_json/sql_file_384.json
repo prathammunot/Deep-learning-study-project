@@ -1,0 +1,274 @@
+[
+    {
+        "name": "until",
+        "columns": [
+            {
+                "name": "pay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pay",
+        "foreign_keys": [
+            {
+                "column": "pay",
+                "references": "page"
+            }
+        ]
+    },
+    {
+        "name": "page",
+        "columns": [
+            {
+                "name": "car",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "source",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "car",
+        "foreign_keys": [
+            {
+                "column": "car",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "yard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yard",
+        "foreign_keys": [
+            {
+                "column": "yard",
+                "references": "modern"
+            }
+        ]
+    },
+    {
+        "name": "modern",
+        "columns": [
+            {
+                "name": "likely",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "likely",
+        "foreign_keys": [
+            {
+                "column": "likely",
+                "references": "if"
+            }
+        ]
+    },
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "movement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "less",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movement",
+        "foreign_keys": [
+            {
+                "column": "movement",
+                "references": "serve"
+            }
+        ]
+    },
+    {
+        "name": "serve",
+        "columns": [
+            {
+                "name": "position",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "position",
+        "foreign_keys": [
+            {
+                "column": "position",
+                "references": "natural"
+            }
+        ]
+    },
+    {
+        "name": "natural",
+        "columns": [
+            {
+                "name": "cut",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "find",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cut",
+        "foreign_keys": [
+            {
+                "column": "cut",
+                "references": "near"
+            }
+        ]
+    },
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "apply",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "apply",
+        "foreign_keys": [
+            {
+                "column": "apply",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "treatment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cover",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "treatment",
+        "foreign_keys": [
+            {
+                "column": "treatment",
+                "references": "population"
+            }
+        ]
+    },
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "because",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "because",
+        "foreign_keys": [
+            {
+                "column": "because",
+                "references": "develop"
+            }
+        ]
+    },
+    {
+        "name": "develop",
+        "columns": [
+            {
+                "name": "authority",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "authority",
+        "foreign_keys": [
+            {
+                "column": "authority",
+                "references": "until"
+            }
+        ]
+    }
+]

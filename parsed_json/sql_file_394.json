@@ -1,0 +1,274 @@
+[
+    {
+        "name": "poor",
+        "columns": [
+            {
+                "name": "by",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "note",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "by",
+        "foreign_keys": [
+            {
+                "column": "by",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "exist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "exist",
+        "foreign_keys": [
+            {
+                "column": "exist",
+                "references": "way"
+            }
+        ]
+    },
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "among",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "floor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "among",
+        "foreign_keys": [
+            {
+                "column": "among",
+                "references": "realize"
+            }
+        ]
+    },
+    {
+        "name": "realize",
+        "columns": [
+            {
+                "name": "director",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "director",
+        "foreign_keys": [
+            {
+                "column": "director",
+                "references": "trouble"
+            }
+        ]
+    },
+    {
+        "name": "trouble",
+        "columns": [
+            {
+                "name": "TV",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "accept",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "TV",
+        "foreign_keys": [
+            {
+                "column": "TV",
+                "references": "pattern"
+            }
+        ]
+    },
+    {
+        "name": "pattern",
+        "columns": [
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "he",
+        "foreign_keys": [
+            {
+                "column": "he",
+                "references": "reality"
+            }
+        ]
+    },
+    {
+        "name": "reality",
+        "columns": [
+            {
+                "name": "they",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "show",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "they",
+        "foreign_keys": [
+            {
+                "column": "they",
+                "references": "positive"
+            }
+        ]
+    },
+    {
+        "name": "positive",
+        "columns": [
+            {
+                "name": "fill",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fill",
+        "foreign_keys": [
+            {
+                "column": "fill",
+                "references": "general"
+            }
+        ]
+    },
+    {
+        "name": "general",
+        "columns": [
+            {
+                "name": "though",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "growth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "though",
+        "foreign_keys": [
+            {
+                "column": "though",
+                "references": "rock"
+            }
+        ]
+    },
+    {
+        "name": "rock",
+        "columns": [
+            {
+                "name": "between",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "between",
+        "foreign_keys": [
+            {
+                "column": "between",
+                "references": "across"
+            }
+        ]
+    },
+    {
+        "name": "across",
+        "columns": [
+            {
+                "name": "subject",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "subject",
+        "foreign_keys": [
+            {
+                "column": "subject",
+                "references": "poor"
+            }
+        ]
+    }
+]

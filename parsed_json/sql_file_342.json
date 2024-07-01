@@ -1,0 +1,198 @@
+[
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "alone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "alone",
+        "foreign_keys": [
+            {
+                "column": "alone",
+                "references": "to"
+            }
+        ]
+    },
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "pattern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "become",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pattern",
+        "foreign_keys": [
+            {
+                "column": "pattern",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "major",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "major",
+        "foreign_keys": [
+            {
+                "column": "major",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "natural",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "natural",
+        "foreign_keys": [
+            {
+                "column": "natural",
+                "references": "environment"
+            }
+        ]
+    },
+    {
+        "name": "environment",
+        "columns": [
+            {
+                "name": "score",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "teacher",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "score",
+        "foreign_keys": [
+            {
+                "column": "score",
+                "references": "everything"
+            }
+        ]
+    },
+    {
+        "name": "everything",
+        "columns": [
+            {
+                "name": "road",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "road",
+        "foreign_keys": [
+            {
+                "column": "road",
+                "references": "western"
+            }
+        ]
+    },
+    {
+        "name": "western",
+        "columns": [
+            {
+                "name": "institution",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "institution",
+        "foreign_keys": [
+            {
+                "column": "institution",
+                "references": "trial"
+            }
+        ]
+    },
+    {
+        "name": "trial",
+        "columns": [
+            {
+                "name": "keep",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "keep",
+        "foreign_keys": [
+            {
+                "column": "keep",
+                "references": "teach"
+            }
+        ]
+    }
+]

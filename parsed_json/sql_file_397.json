@@ -1,0 +1,225 @@
+[
+    {
+        "name": "or",
+        "columns": [
+            {
+                "name": "over",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "instead"
+            }
+        ]
+    },
+    {
+        "name": "instead",
+        "columns": [
+            {
+                "name": "alone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "alone",
+        "foreign_keys": [
+            {
+                "column": "alone",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "energy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "deep",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "energy",
+        "foreign_keys": [
+            {
+                "column": "energy",
+                "references": "increase"
+            }
+        ]
+    },
+    {
+        "name": "increase",
+        "columns": [
+            {
+                "name": "every",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "street",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "every",
+        "foreign_keys": [
+            {
+                "column": "every",
+                "references": "administration"
+            }
+        ]
+    },
+    {
+        "name": "administration",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "by",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "by",
+        "foreign_keys": [
+            {
+                "column": "by",
+                "references": "series"
+            }
+        ]
+    },
+    {
+        "name": "series",
+        "columns": [
+            {
+                "name": "black",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "evidence",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "black",
+        "foreign_keys": [
+            {
+                "column": "black",
+                "references": "yeah"
+            }
+        ]
+    },
+    {
+        "name": "yeah",
+        "columns": [
+            {
+                "name": "foot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "foot",
+        "foreign_keys": [
+            {
+                "column": "foot",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "they",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "moment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "they",
+        "foreign_keys": [
+            {
+                "column": "they",
+                "references": "or"
+            }
+        ]
+    }
+]

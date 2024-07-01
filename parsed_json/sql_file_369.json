@@ -1,0 +1,274 @@
+[
+    {
+        "name": "partner",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "ground"
+            }
+        ]
+    },
+    {
+        "name": "ground",
+        "columns": [
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "little",
+        "foreign_keys": [
+            {
+                "column": "little",
+                "references": "behind"
+            }
+        ]
+    },
+    {
+        "name": "behind",
+        "columns": [
+            {
+                "name": "scene",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "scene",
+        "foreign_keys": [
+            {
+                "column": "scene",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behavior",
+        "foreign_keys": [
+            {
+                "column": "behavior",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "ball",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "memory",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ball",
+        "foreign_keys": [
+            {
+                "column": "ball",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "win",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "win",
+        "foreign_keys": [
+            {
+                "column": "win",
+                "references": "through"
+            }
+        ]
+    },
+    {
+        "name": "through",
+        "columns": [
+            {
+                "name": "officer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "choose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "officer",
+        "foreign_keys": [
+            {
+                "column": "officer",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "that"
+            }
+        ]
+    },
+    {
+        "name": "that",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "from",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "from",
+        "foreign_keys": [
+            {
+                "column": "from",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "speech",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "partner"
+            }
+        ]
+    }
+]

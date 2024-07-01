@@ -1,0 +1,176 @@
+[
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "similar",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "summer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "similar",
+        "foreign_keys": [
+            {
+                "column": "similar",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "week",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "week",
+        "foreign_keys": [
+            {
+                "column": "week",
+                "references": "support"
+            }
+        ]
+    },
+    {
+        "name": "support",
+        "columns": [
+            {
+                "name": "together",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "free",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "together",
+        "foreign_keys": [
+            {
+                "column": "together",
+                "references": "data"
+            }
+        ]
+    },
+    {
+        "name": "data",
+        "columns": [
+            {
+                "name": "question",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "determine",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "question",
+        "foreign_keys": [
+            {
+                "column": "question",
+                "references": "officer"
+            }
+        ]
+    },
+    {
+        "name": "officer",
+        "columns": [
+            {
+                "name": "step",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "step",
+        "foreign_keys": [
+            {
+                "column": "step",
+                "references": "peace"
+            }
+        ]
+    },
+    {
+        "name": "peace",
+        "columns": [
+            {
+                "name": "against",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "against",
+        "foreign_keys": [
+            {
+                "column": "against",
+                "references": "wind"
+            }
+        ]
+    },
+    {
+        "name": "wind",
+        "columns": [
+            {
+                "name": "small",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "air"
+            }
+        ]
+    }
+]

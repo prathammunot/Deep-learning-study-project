@@ -1,0 +1,176 @@
+[
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "TV",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "TV",
+        "foreign_keys": [
+            {
+                "column": "TV",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "life",
+        "foreign_keys": [
+            {
+                "column": "life",
+                "references": "job"
+            }
+        ]
+    },
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "every",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "every",
+        "foreign_keys": [
+            {
+                "column": "every",
+                "references": "win"
+            }
+        ]
+    },
+    {
+        "name": "win",
+        "columns": [
+            {
+                "name": "stand",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stand",
+        "foreign_keys": [
+            {
+                "column": "stand",
+                "references": "relate"
+            }
+        ]
+    },
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "something",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "something",
+        "foreign_keys": [
+            {
+                "column": "something",
+                "references": "ground"
+            }
+        ]
+    },
+    {
+        "name": "ground",
+        "columns": [
+            {
+                "name": "whom",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enough",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whom",
+        "foreign_keys": [
+            {
+                "column": "whom",
+                "references": "sound"
+            }
+        ]
+    },
+    {
+        "name": "sound",
+        "columns": [
+            {
+                "name": "standard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "standard",
+        "foreign_keys": [
+            {
+                "column": "standard",
+                "references": "hit"
+            }
+        ]
+    }
+]

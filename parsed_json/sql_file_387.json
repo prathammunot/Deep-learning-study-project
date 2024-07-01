@@ -1,0 +1,198 @@
+[
+    {
+        "name": "PM",
+        "columns": [
+            {
+                "name": "across",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "across",
+        "foreign_keys": [
+            {
+                "column": "across",
+                "references": "describe"
+            }
+        ]
+    },
+    {
+        "name": "describe",
+        "columns": [
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "enough"
+            }
+        ]
+    },
+    {
+        "name": "enough",
+        "columns": [
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "material",
+        "foreign_keys": [
+            {
+                "column": "material",
+                "references": "case"
+            }
+        ]
+    },
+    {
+        "name": "case",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "study"
+            }
+        ]
+    },
+    {
+        "name": "study",
+        "columns": [
+            {
+                "name": "site",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "site",
+        "foreign_keys": [
+            {
+                "column": "site",
+                "references": "include"
+            }
+        ]
+    },
+    {
+        "name": "include",
+        "columns": [
+            {
+                "name": "west",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "west",
+        "foreign_keys": [
+            {
+                "column": "west",
+                "references": "magazine"
+            }
+        ]
+    },
+    {
+        "name": "magazine",
+        "columns": [
+            {
+                "name": "care",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "care",
+        "foreign_keys": [
+            {
+                "column": "care",
+                "references": "evidence"
+            }
+        ]
+    },
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "natural",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "PM"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "around",
+        "columns": [
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "line",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sea",
+        "foreign_keys": [
+            {
+                "column": "sea",
+                "references": "whose"
+            }
+        ]
+    },
+    {
+        "name": "whose",
+        "columns": [
+            {
+                "name": "type",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "type",
+        "foreign_keys": [
+            {
+                "column": "type",
+                "references": "teach"
+            }
+        ]
+    },
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "should",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "so",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "should",
+        "foreign_keys": [
+            {
+                "column": "should",
+                "references": "but"
+            }
+        ]
+    },
+    {
+        "name": "but",
+        "columns": [
+            {
+                "name": "company",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "successful",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "company",
+        "foreign_keys": [
+            {
+                "column": "company",
+                "references": "upon"
+            }
+        ]
+    },
+    {
+        "name": "upon",
+        "columns": [
+            {
+                "name": "eat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eat",
+        "foreign_keys": [
+            {
+                "column": "eat",
+                "references": "live"
+            }
+        ]
+    },
+    {
+        "name": "live",
+        "columns": [
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "southern",
+        "foreign_keys": [
+            {
+                "column": "southern",
+                "references": "those"
+            }
+        ]
+    },
+    {
+        "name": "those",
+        "columns": [
+            {
+                "name": "certainly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certainly",
+        "foreign_keys": [
+            {
+                "column": "certainly",
+                "references": "around"
+            }
+        ]
+    }
+]

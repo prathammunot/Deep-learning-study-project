@@ -1,0 +1,247 @@
+[
+    {
+        "name": "see",
+        "columns": [
+            {
+                "name": "country",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "paper",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "country",
+        "foreign_keys": [
+            {
+                "column": "country",
+                "references": "color"
+            }
+        ]
+    },
+    {
+        "name": "color",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "imagine"
+            }
+        ]
+    },
+    {
+        "name": "imagine",
+        "columns": [
+            {
+                "name": "decade",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decade",
+        "foreign_keys": [
+            {
+                "column": "decade",
+                "references": "Mr"
+            }
+        ]
+    },
+    {
+        "name": "Mr",
+        "columns": [
+            {
+                "name": "see",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "program"
+            }
+        ]
+    },
+    {
+        "name": "program",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "join",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "field",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "item"
+            }
+        ]
+    },
+    {
+        "name": "item",
+        "columns": [
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "real",
+        "foreign_keys": [
+            {
+                "column": "real",
+                "references": "could"
+            }
+        ]
+    },
+    {
+        "name": "could",
+        "columns": [
+            {
+                "name": "nothing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hundred",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nothing",
+        "foreign_keys": [
+            {
+                "column": "nothing",
+                "references": "same"
+            }
+        ]
+    },
+    {
+        "name": "same",
+        "columns": [
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "him",
+        "foreign_keys": [
+            {
+                "column": "him",
+                "references": "behavior"
+            }
+        ]
+    },
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "ball",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "find",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ball",
+        "foreign_keys": [
+            {
+                "column": "ball",
+                "references": "data"
+            }
+        ]
+    },
+    {
+        "name": "data",
+        "columns": [
+            {
+                "name": "situation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "situation",
+        "foreign_keys": [
+            {
+                "column": "situation",
+                "references": "see"
+            }
+        ]
+    }
+]

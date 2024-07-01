@@ -1,0 +1,149 @@
+[
+    {
+        "name": "red",
+        "columns": [
+            {
+                "name": "pattern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pattern",
+        "foreign_keys": [
+            {
+                "column": "pattern",
+                "references": "maintain"
+            }
+        ]
+    },
+    {
+        "name": "maintain",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "day",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "product"
+            }
+        ]
+    },
+    {
+        "name": "product",
+        "columns": [
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "force",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "floor"
+            }
+        ]
+    },
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "operation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "police",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "operation",
+        "foreign_keys": [
+            {
+                "column": "operation",
+                "references": "night"
+            }
+        ]
+    },
+    {
+        "name": "night",
+        "columns": [
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attention",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "table",
+        "foreign_keys": [
+            {
+                "column": "table",
+                "references": "red"
+            }
+        ]
+    }
+]

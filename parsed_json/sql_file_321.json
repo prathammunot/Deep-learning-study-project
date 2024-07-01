@@ -1,0 +1,198 @@
+[
+    {
+        "name": "buy",
+        "columns": [
+            {
+                "name": "reflect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reflect",
+        "foreign_keys": [
+            {
+                "column": "reflect",
+                "references": "benefit"
+            }
+        ]
+    },
+    {
+        "name": "benefit",
+        "columns": [
+            {
+                "name": "cost",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "but",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cost",
+        "foreign_keys": [
+            {
+                "column": "cost",
+                "references": "must"
+            }
+        ]
+    },
+    {
+        "name": "must",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "court"
+            }
+        ]
+    },
+    {
+        "name": "court",
+        "columns": [
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "air",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "effect",
+        "foreign_keys": [
+            {
+                "column": "effect",
+                "references": "investment"
+            }
+        ]
+    },
+    {
+        "name": "investment",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "benefit"
+            }
+        ]
+    },
+    {
+        "name": "benefit",
+        "columns": [
+            {
+                "name": "follow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "animal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "follow",
+        "foreign_keys": [
+            {
+                "column": "follow",
+                "references": "cut"
+            }
+        ]
+    },
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "college",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "amount",
+        "foreign_keys": [
+            {
+                "column": "amount",
+                "references": "buy"
+            }
+        ]
+    }
+]

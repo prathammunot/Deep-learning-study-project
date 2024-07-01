@@ -1,0 +1,198 @@
+[
+    {
+        "name": "once",
+        "columns": [
+            {
+                "name": "such",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "such",
+        "foreign_keys": [
+            {
+                "column": "such",
+                "references": "up"
+            }
+        ]
+    },
+    {
+        "name": "up",
+        "columns": [
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "outside"
+            }
+        ]
+    },
+    {
+        "name": "outside",
+        "columns": [
+            {
+                "name": "style",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "style",
+        "foreign_keys": [
+            {
+                "column": "style",
+                "references": "night"
+            }
+        ]
+    },
+    {
+        "name": "night",
+        "columns": [
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sure",
+        "foreign_keys": [
+            {
+                "column": "sure",
+                "references": "agree"
+            }
+        ]
+    },
+    {
+        "name": "agree",
+        "columns": [
+            {
+                "name": "each",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trouble",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "each",
+        "foreign_keys": [
+            {
+                "column": "each",
+                "references": "seem"
+            }
+        ]
+    },
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "gas",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "gas",
+        "foreign_keys": [
+            {
+                "column": "gas",
+                "references": "offer"
+            }
+        ]
+    },
+    {
+        "name": "offer",
+        "columns": [
+            {
+                "name": "design",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "design",
+        "foreign_keys": [
+            {
+                "column": "design",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "conference",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "example",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "conference",
+        "foreign_keys": [
+            {
+                "column": "conference",
+                "references": "once"
+            }
+        ]
+    }
+]

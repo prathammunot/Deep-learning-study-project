@@ -1,0 +1,225 @@
+[
+    {
+        "name": "wonder",
+        "columns": [
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "six",
+        "foreign_keys": [
+            {
+                "column": "six",
+                "references": "occur"
+            }
+        ]
+    },
+    {
+        "name": "occur",
+        "columns": [
+            {
+                "name": "let",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "let",
+        "foreign_keys": [
+            {
+                "column": "let",
+                "references": "from"
+            }
+        ]
+    },
+    {
+        "name": "from",
+        "columns": [
+            {
+                "name": "have",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "have",
+        "foreign_keys": [
+            {
+                "column": "have",
+                "references": "car"
+            }
+        ]
+    },
+    {
+        "name": "car",
+        "columns": [
+            {
+                "name": "bank",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bank",
+        "foreign_keys": [
+            {
+                "column": "bank",
+                "references": "front"
+            }
+        ]
+    },
+    {
+        "name": "front",
+        "columns": [
+            {
+                "name": "wait",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wait",
+        "foreign_keys": [
+            {
+                "column": "wait",
+                "references": "rise"
+            }
+        ]
+    },
+    {
+        "name": "rise",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "remain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "child",
+        "foreign_keys": [
+            {
+                "column": "child",
+                "references": "result"
+            }
+        ]
+    },
+    {
+        "name": "result",
+        "columns": [
+            {
+                "name": "red",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "red",
+        "foreign_keys": [
+            {
+                "column": "red",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "teacher",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "subject",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "teacher",
+        "foreign_keys": [
+            {
+                "column": "teacher",
+                "references": "wonder"
+            }
+        ]
+    }
+]

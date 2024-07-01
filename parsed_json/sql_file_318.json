@@ -1,0 +1,198 @@
+[
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "organization",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "organization",
+        "foreign_keys": [
+            {
+                "column": "organization",
+                "references": "south"
+            }
+        ]
+    },
+    {
+        "name": "south",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "pick"
+            }
+        ]
+    },
+    {
+        "name": "pick",
+        "columns": [
+            {
+                "name": "interesting",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "myself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "interesting",
+        "foreign_keys": [
+            {
+                "column": "interesting",
+                "references": "resource"
+            }
+        ]
+    },
+    {
+        "name": "resource",
+        "columns": [
+            {
+                "name": "bring",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bring",
+        "foreign_keys": [
+            {
+                "column": "bring",
+                "references": "finish"
+            }
+        ]
+    },
+    {
+        "name": "finish",
+        "columns": [
+            {
+                "name": "writer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "between",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "writer",
+        "foreign_keys": [
+            {
+                "column": "writer",
+                "references": "wife"
+            }
+        ]
+    },
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "black",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "black",
+        "foreign_keys": [
+            {
+                "column": "black",
+                "references": "where"
+            }
+        ]
+    },
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "game",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "sign"
+            }
+        ]
+    },
+    {
+        "name": "sign",
+        "columns": [
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "assume",
+        "foreign_keys": [
+            {
+                "column": "assume",
+                "references": "possible"
+            }
+        ]
+    }
+]

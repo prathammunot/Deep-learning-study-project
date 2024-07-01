@@ -1,0 +1,198 @@
+[
+    {
+        "name": "good",
+        "columns": [
+            {
+                "name": "wife",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wife",
+        "foreign_keys": [
+            {
+                "column": "wife",
+                "references": "democratic"
+            }
+        ]
+    },
+    {
+        "name": "democratic",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "focus"
+            }
+        ]
+    },
+    {
+        "name": "focus",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "resource",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "safe"
+            }
+        ]
+    },
+    {
+        "name": "safe",
+        "columns": [
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "read",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "child",
+        "foreign_keys": [
+            {
+                "column": "child",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "protect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "protect",
+        "foreign_keys": [
+            {
+                "column": "protect",
+                "references": "Republican"
+            }
+        ]
+    },
+    {
+        "name": "Republican",
+        "columns": [
+            {
+                "name": "sign",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "evidence",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sign",
+        "foreign_keys": [
+            {
+                "column": "sign",
+                "references": "generation"
+            }
+        ]
+    },
+    {
+        "name": "generation",
+        "columns": [
+            {
+                "name": "someone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "someone",
+        "foreign_keys": [
+            {
+                "column": "someone",
+                "references": "good"
+            }
+        ]
+    }
+]

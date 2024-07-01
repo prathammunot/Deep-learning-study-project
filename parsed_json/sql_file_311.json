@@ -1,0 +1,149 @@
+[
+    {
+        "name": "agreement",
+        "columns": [
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "book"
+            }
+        ]
+    },
+    {
+        "name": "book",
+        "columns": [
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "also",
+        "foreign_keys": [
+            {
+                "column": "also",
+                "references": "hotel"
+            }
+        ]
+    },
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "build"
+            }
+        ]
+    },
+    {
+        "name": "build",
+        "columns": [
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "million",
+        "foreign_keys": [
+            {
+                "column": "million",
+                "references": "simple"
+            }
+        ]
+    },
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "medical",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "medical",
+        "foreign_keys": [
+            {
+                "column": "medical",
+                "references": "across"
+            }
+        ]
+    },
+    {
+        "name": "across",
+        "columns": [
+            {
+                "name": "eat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "eat",
+        "foreign_keys": [
+            {
+                "column": "eat",
+                "references": "agreement"
+            }
+        ]
+    }
+]

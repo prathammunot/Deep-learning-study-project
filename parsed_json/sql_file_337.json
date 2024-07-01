@@ -1,0 +1,296 @@
+[
+    {
+        "name": "public",
+        "columns": [
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "food",
+        "foreign_keys": [
+            {
+                "column": "food",
+                "references": "Congress"
+            }
+        ]
+    },
+    {
+        "name": "Congress",
+        "columns": [
+            {
+                "name": "manage",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "manage",
+        "foreign_keys": [
+            {
+                "column": "manage",
+                "references": "kind"
+            }
+        ]
+    },
+    {
+        "name": "kind",
+        "columns": [
+            {
+                "name": "rest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "high",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rest",
+        "foreign_keys": [
+            {
+                "column": "rest",
+                "references": "deep"
+            }
+        ]
+    },
+    {
+        "name": "deep",
+        "columns": [
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "positive",
+        "foreign_keys": [
+            {
+                "column": "positive",
+                "references": "natural"
+            }
+        ]
+    },
+    {
+        "name": "natural",
+        "columns": [
+            {
+                "name": "push",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "strong",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "push",
+        "foreign_keys": [
+            {
+                "column": "push",
+                "references": "media"
+            }
+        ]
+    },
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "our",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "our",
+        "foreign_keys": [
+            {
+                "column": "our",
+                "references": "although"
+            }
+        ]
+    },
+    {
+        "name": "although",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "from",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "everyone"
+            }
+        ]
+    },
+    {
+        "name": "everyone",
+        "columns": [
+            {
+                "name": "court",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "court",
+        "foreign_keys": [
+            {
+                "column": "court",
+                "references": "cell"
+            }
+        ]
+    },
+    {
+        "name": "cell",
+        "columns": [
+            {
+                "name": "computer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "management",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "computer",
+        "foreign_keys": [
+            {
+                "column": "computer",
+                "references": "best"
+            }
+        ]
+    },
+    {
+        "name": "best",
+        "columns": [
+            {
+                "name": "respond",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "respond",
+        "foreign_keys": [
+            {
+                "column": "respond",
+                "references": "soon"
+            }
+        ]
+    },
+    {
+        "name": "soon",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pretty",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "buy"
+            }
+        ]
+    },
+    {
+        "name": "buy",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "public"
+            }
+        ]
+    }
+]

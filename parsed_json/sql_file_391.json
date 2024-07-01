@@ -1,0 +1,247 @@
+[
+    {
+        "name": "because",
+        "columns": [
+            {
+                "name": "parent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "environmental",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "parent",
+        "foreign_keys": [
+            {
+                "column": "parent",
+                "references": "purpose"
+            }
+        ]
+    },
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "fly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "analysis",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fly",
+        "foreign_keys": [
+            {
+                "column": "fly",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "I",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "buy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "focus",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "I",
+        "foreign_keys": [
+            {
+                "column": "I",
+                "references": "benefit"
+            }
+        ]
+    },
+    {
+        "name": "benefit",
+        "columns": [
+            {
+                "name": "college",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "college",
+        "foreign_keys": [
+            {
+                "column": "college",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "fight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fight",
+        "foreign_keys": [
+            {
+                "column": "fight",
+                "references": "important"
+            }
+        ]
+    },
+    {
+        "name": "important",
+        "columns": [
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "painting",
+        "foreign_keys": [
+            {
+                "column": "painting",
+                "references": "take"
+            }
+        ]
+    },
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "very",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "very",
+        "foreign_keys": [
+            {
+                "column": "very",
+                "references": "receive"
+            }
+        ]
+    },
+    {
+        "name": "receive",
+        "columns": [
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "human",
+        "foreign_keys": [
+            {
+                "column": "human",
+                "references": "along"
+            }
+        ]
+    },
+    {
+        "name": "along",
+        "columns": [
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "everything"
+            }
+        ]
+    },
+    {
+        "name": "everything",
+        "columns": [
+            {
+                "name": "every",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "every",
+        "foreign_keys": [
+            {
+                "column": "every",
+                "references": "because"
+            }
+        ]
+    }
+]

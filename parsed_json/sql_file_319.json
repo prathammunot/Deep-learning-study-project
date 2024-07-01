@@ -1,0 +1,225 @@
+[
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "board"
+            }
+        ]
+    },
+    {
+        "name": "board",
+        "columns": [
+            {
+                "name": "per",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "per",
+        "foreign_keys": [
+            {
+                "column": "per",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "imagine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "billion",
+        "foreign_keys": [
+            {
+                "column": "billion",
+                "references": "west"
+            }
+        ]
+    },
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "century",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "spring"
+            }
+        ]
+    },
+    {
+        "name": "spring",
+        "columns": [
+            {
+                "name": "account",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "account",
+        "foreign_keys": [
+            {
+                "column": "account",
+                "references": "final"
+            }
+        ]
+    },
+    {
+        "name": "final",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "toward"
+            }
+        ]
+    },
+    {
+        "name": "toward",
+        "columns": [
+            {
+                "name": "wrong",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wrong",
+        "foreign_keys": [
+            {
+                "column": "wrong",
+                "references": "shoulder"
+            }
+        ]
+    },
+    {
+        "name": "shoulder",
+        "columns": [
+            {
+                "name": "lead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lead",
+        "foreign_keys": [
+            {
+                "column": "lead",
+                "references": "building"
+            }
+        ]
+    }
+]

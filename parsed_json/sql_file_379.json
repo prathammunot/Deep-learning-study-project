@@ -1,0 +1,198 @@
+[
+    {
+        "name": "glass",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "most"
+            }
+        ]
+    },
+    {
+        "name": "most",
+        "columns": [
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "student",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "nature"
+            }
+        ]
+    },
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "woman",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "figure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "woman",
+        "foreign_keys": [
+            {
+                "column": "woman",
+                "references": "but"
+            }
+        ]
+    },
+    {
+        "name": "but",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "I"
+            }
+        ]
+    },
+    {
+        "name": "I",
+        "columns": [
+            {
+                "name": "use",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "successful",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "use",
+        "foreign_keys": [
+            {
+                "column": "use",
+                "references": "measure"
+            }
+        ]
+    },
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "PM"
+            }
+        ]
+    },
+    {
+        "name": "PM",
+        "columns": [
+            {
+                "name": "edge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "show",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "laugh",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "edge",
+        "foreign_keys": [
+            {
+                "column": "edge",
+                "references": "head"
+            }
+        ]
+    },
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "daughter",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "daughter",
+        "foreign_keys": [
+            {
+                "column": "daughter",
+                "references": "glass"
+            }
+        ]
+    }
+]

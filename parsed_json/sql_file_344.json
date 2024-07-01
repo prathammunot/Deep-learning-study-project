@@ -1,0 +1,247 @@
+[
+    {
+        "name": "hot",
+        "columns": [
+            {
+                "name": "action",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "include",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "action",
+        "foreign_keys": [
+            {
+                "column": "action",
+                "references": "summer"
+            }
+        ]
+    },
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "citizen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "citizen",
+        "foreign_keys": [
+            {
+                "column": "citizen",
+                "references": "PM"
+            }
+        ]
+    },
+    {
+        "name": "PM",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "buy"
+            }
+        ]
+    },
+    {
+        "name": "buy",
+        "columns": [
+            {
+                "name": "walk",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "walk",
+        "foreign_keys": [
+            {
+                "column": "walk",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "find",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "president",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "find",
+        "foreign_keys": [
+            {
+                "column": "find",
+                "references": "might"
+            }
+        ]
+    },
+    {
+        "name": "might",
+        "columns": [
+            {
+                "name": "according",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "according",
+        "foreign_keys": [
+            {
+                "column": "according",
+                "references": "outside"
+            }
+        ]
+    },
+    {
+        "name": "outside",
+        "columns": [
+            {
+                "name": "remember",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "remember",
+        "foreign_keys": [
+            {
+                "column": "remember",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "believe",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "believe",
+        "foreign_keys": [
+            {
+                "column": "believe",
+                "references": "take"
+            }
+        ]
+    },
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "some",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "product",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "hot"
+            }
+        ]
+    }
+]

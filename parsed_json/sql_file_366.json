@@ -1,0 +1,225 @@
+[
+    {
+        "name": "agent",
+        "columns": [
+            {
+                "name": "street",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "and",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "street",
+        "foreign_keys": [
+            {
+                "column": "street",
+                "references": "can"
+            }
+        ]
+    },
+    {
+        "name": "can",
+        "columns": [
+            {
+                "name": "poor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "poor",
+        "foreign_keys": [
+            {
+                "column": "poor",
+                "references": "hope"
+            }
+        ]
+    },
+    {
+        "name": "hope",
+        "columns": [
+            {
+                "name": "relationship",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relationship",
+        "foreign_keys": [
+            {
+                "column": "relationship",
+                "references": "during"
+            }
+        ]
+    },
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "expect",
+        "foreign_keys": [
+            {
+                "column": "expect",
+                "references": "feeling"
+            }
+        ]
+    },
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "address",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "society",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "address",
+        "foreign_keys": [
+            {
+                "column": "address",
+                "references": "front"
+            }
+        ]
+    },
+    {
+        "name": "front",
+        "columns": [
+            {
+                "name": "fight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fight",
+        "foreign_keys": [
+            {
+                "column": "fight",
+                "references": "detail"
+            }
+        ]
+    },
+    {
+        "name": "detail",
+        "columns": [
+            {
+                "name": "organization",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "organization",
+        "foreign_keys": [
+            {
+                "column": "organization",
+                "references": "with"
+            }
+        ]
+    },
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "place",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "none",
+        "foreign_keys": [
+            {
+                "column": "none",
+                "references": "board"
+            }
+        ]
+    },
+    {
+        "name": "board",
+        "columns": [
+            {
+                "name": "eat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "instead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eat",
+        "foreign_keys": [
+            {
+                "column": "eat",
+                "references": "agent"
+            }
+        ]
+    }
+]

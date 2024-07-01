@@ -1,0 +1,198 @@
+[
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "high",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "watch"
+            }
+        ]
+    },
+    {
+        "name": "watch",
+        "columns": [
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "crime",
+        "foreign_keys": [
+            {
+                "column": "crime",
+                "references": "author"
+            }
+        ]
+    },
+    {
+        "name": "author",
+        "columns": [
+            {
+                "name": "point",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "anyone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "point",
+        "foreign_keys": [
+            {
+                "column": "point",
+                "references": "thousand"
+            }
+        ]
+    },
+    {
+        "name": "thousand",
+        "columns": [
+            {
+                "name": "lawyer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lawyer",
+        "foreign_keys": [
+            {
+                "column": "lawyer",
+                "references": "media"
+            }
+        ]
+    },
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "north",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "deep",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "north",
+        "foreign_keys": [
+            {
+                "column": "north",
+                "references": "speak"
+            }
+        ]
+    },
+    {
+        "name": "speak",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "next",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "this"
+            }
+        ]
+    },
+    {
+        "name": "this",
+        "columns": [
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treatment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "place",
+        "foreign_keys": [
+            {
+                "column": "place",
+                "references": "morning"
+            }
+        ]
+    }
+]

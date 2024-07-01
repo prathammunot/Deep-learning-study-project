@@ -1,0 +1,127 @@
+[
+    {
+        "name": "attorney",
+        "columns": [
+            {
+                "name": "word",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "word",
+        "foreign_keys": [
+            {
+                "column": "word",
+                "references": "perhaps"
+            }
+        ]
+    },
+    {
+        "name": "perhaps",
+        "columns": [
+            {
+                "name": "poor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "poor",
+        "foreign_keys": [
+            {
+                "column": "poor",
+                "references": "PM"
+            }
+        ]
+    },
+    {
+        "name": "PM",
+        "columns": [
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thing",
+        "foreign_keys": [
+            {
+                "column": "thing",
+                "references": "safe"
+            }
+        ]
+    },
+    {
+        "name": "safe",
+        "columns": [
+            {
+                "name": "church",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "church",
+        "foreign_keys": [
+            {
+                "column": "church",
+                "references": "western"
+            }
+        ]
+    },
+    {
+        "name": "western",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "attorney"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "center",
+        "columns": [
+            {
+                "name": "pretty",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "paper",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pretty",
+        "foreign_keys": [
+            {
+                "column": "pretty",
+                "references": "together"
+            }
+        ]
+    },
+    {
+        "name": "together",
+        "columns": [
+            {
+                "name": "responsibility",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "responsibility",
+        "foreign_keys": [
+            {
+                "column": "responsibility",
+                "references": "reveal"
+            }
+        ]
+    },
+    {
+        "name": "reveal",
+        "columns": [
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "set",
+        "foreign_keys": [
+            {
+                "column": "set",
+                "references": "event"
+            }
+        ]
+    },
+    {
+        "name": "event",
+        "columns": [
+            {
+                "name": "television",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "success",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "term"
+            }
+        ]
+    },
+    {
+        "name": "term",
+        "columns": [
+            {
+                "name": "official",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "official",
+        "foreign_keys": [
+            {
+                "column": "official",
+                "references": "center"
+            }
+        ]
+    }
+]

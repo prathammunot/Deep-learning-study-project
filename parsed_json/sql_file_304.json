@@ -1,0 +1,198 @@
+[
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "admit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "admit",
+        "foreign_keys": [
+            {
+                "column": "admit",
+                "references": "much"
+            }
+        ]
+    },
+    {
+        "name": "much",
+        "columns": [
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sell",
+        "foreign_keys": [
+            {
+                "column": "sell",
+                "references": "laugh"
+            }
+        ]
+    },
+    {
+        "name": "laugh",
+        "columns": [
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "include",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "check"
+            }
+        ]
+    },
+    {
+        "name": "check",
+        "columns": [
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "report",
+        "foreign_keys": [
+            {
+                "column": "report",
+                "references": "present"
+            }
+        ]
+    },
+    {
+        "name": "present",
+        "columns": [
+            {
+                "name": "future",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "future",
+        "foreign_keys": [
+            {
+                "column": "future",
+                "references": "which"
+            }
+        ]
+    },
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "paper",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "paper",
+        "foreign_keys": [
+            {
+                "column": "paper",
+                "references": "easy"
+            }
+        ]
+    },
+    {
+        "name": "easy",
+        "columns": [
+            {
+                "name": "partner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "executive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "partner",
+        "foreign_keys": [
+            {
+                "column": "partner",
+                "references": "short"
+            }
+        ]
+    },
+    {
+        "name": "short",
+        "columns": [
+            {
+                "name": "nearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nearly",
+        "foreign_keys": [
+            {
+                "column": "nearly",
+                "references": "wall"
+            }
+        ]
+    }
+]

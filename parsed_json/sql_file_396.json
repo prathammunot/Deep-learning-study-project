@@ -1,0 +1,176 @@
+[
+    {
+        "name": "crime",
+        "columns": [
+            {
+                "name": "drug",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drug",
+        "foreign_keys": [
+            {
+                "column": "drug",
+                "references": "enter"
+            }
+        ]
+    },
+    {
+        "name": "enter",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "relate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "discuss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "discuss",
+        "foreign_keys": [
+            {
+                "column": "discuss",
+                "references": "buy"
+            }
+        ]
+    },
+    {
+        "name": "buy",
+        "columns": [
+            {
+                "name": "over",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attention",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "listen"
+            }
+        ]
+    },
+    {
+        "name": "listen",
+        "columns": [
+            {
+                "name": "range",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "range",
+        "foreign_keys": [
+            {
+                "column": "range",
+                "references": "character"
+            }
+        ]
+    },
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "what",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "two",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "what",
+        "foreign_keys": [
+            {
+                "column": "what",
+                "references": "crime"
+            }
+        ]
+    }
+]

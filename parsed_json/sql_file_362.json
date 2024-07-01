@@ -1,0 +1,225 @@
+[
+    {
+        "name": "strong",
+        "columns": [
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "win",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "here",
+        "foreign_keys": [
+            {
+                "column": "here",
+                "references": "concern"
+            }
+        ]
+    },
+    {
+        "name": "concern",
+        "columns": [
+            {
+                "name": "who",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "who",
+        "foreign_keys": [
+            {
+                "column": "who",
+                "references": "task"
+            }
+        ]
+    },
+    {
+        "name": "task",
+        "columns": [
+            {
+                "name": "remain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "value",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "remain",
+        "foreign_keys": [
+            {
+                "column": "remain",
+                "references": "must"
+            }
+        ]
+    },
+    {
+        "name": "must",
+        "columns": [
+            {
+                "name": "form",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "behind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "form",
+        "foreign_keys": [
+            {
+                "column": "form",
+                "references": "after"
+            }
+        ]
+    },
+    {
+        "name": "after",
+        "columns": [
+            {
+                "name": "admit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "admit",
+        "foreign_keys": [
+            {
+                "column": "admit",
+                "references": "draw"
+            }
+        ]
+    },
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "center",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whatever",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "center",
+        "foreign_keys": [
+            {
+                "column": "center",
+                "references": "firm"
+            }
+        ]
+    },
+    {
+        "name": "firm",
+        "columns": [
+            {
+                "name": "book",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "book",
+        "foreign_keys": [
+            {
+                "column": "book",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thing",
+        "foreign_keys": [
+            {
+                "column": "thing",
+                "references": "strong"
+            }
+        ]
+    }
+]

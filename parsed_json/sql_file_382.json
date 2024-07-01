@@ -1,0 +1,176 @@
+[
+    {
+        "name": "old",
+        "columns": [
+            {
+                "name": "least",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "least",
+        "foreign_keys": [
+            {
+                "column": "least",
+                "references": "address"
+            }
+        ]
+    },
+    {
+        "name": "address",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quality",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "project"
+            }
+        ]
+    },
+    {
+        "name": "project",
+        "columns": [
+            {
+                "name": "take",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "take",
+        "foreign_keys": [
+            {
+                "column": "take",
+                "references": "health"
+            }
+        ]
+    },
+    {
+        "name": "health",
+        "columns": [
+            {
+                "name": "operation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "operation",
+        "foreign_keys": [
+            {
+                "column": "operation",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "remain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "remain",
+        "foreign_keys": [
+            {
+                "column": "remain",
+                "references": "time"
+            }
+        ]
+    },
+    {
+        "name": "time",
+        "columns": [
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "above",
+        "foreign_keys": [
+            {
+                "column": "above",
+                "references": "strategy"
+            }
+        ]
+    },
+    {
+        "name": "strategy",
+        "columns": [
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "best",
+        "foreign_keys": [
+            {
+                "column": "best",
+                "references": "old"
+            }
+        ]
+    }
+]

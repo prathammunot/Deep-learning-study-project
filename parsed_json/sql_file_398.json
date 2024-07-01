@@ -1,0 +1,127 @@
+[
+    {
+        "name": "no",
+        "columns": [
+            {
+                "name": "skin",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "staff",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "source",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "skin",
+        "foreign_keys": [
+            {
+                "column": "skin",
+                "references": "need"
+            }
+        ]
+    },
+    {
+        "name": "need",
+        "columns": [
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "card",
+        "foreign_keys": [
+            {
+                "column": "card",
+                "references": "in"
+            }
+        ]
+    },
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "trial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trial",
+        "foreign_keys": [
+            {
+                "column": "trial",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "station",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "particular",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "station",
+        "foreign_keys": [
+            {
+                "column": "station",
+                "references": "near"
+            }
+        ]
+    },
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "their",
+        "foreign_keys": [
+            {
+                "column": "their",
+                "references": "no"
+            }
+        ]
+    }
+]

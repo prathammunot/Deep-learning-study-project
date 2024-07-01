@@ -1,0 +1,247 @@
+[
+    {
+        "name": "road",
+        "columns": [
+            {
+                "name": "foot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "foot",
+        "foreign_keys": [
+            {
+                "column": "foot",
+                "references": "view"
+            }
+        ]
+    },
+    {
+        "name": "view",
+        "columns": [
+            {
+                "name": "beyond",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beyond",
+        "foreign_keys": [
+            {
+                "column": "beyond",
+                "references": "feel"
+            }
+        ]
+    },
+    {
+        "name": "feel",
+        "columns": [
+            {
+                "name": "form",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "form",
+        "foreign_keys": [
+            {
+                "column": "form",
+                "references": "outside"
+            }
+        ]
+    },
+    {
+        "name": "outside",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Mrs",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "either"
+            }
+        ]
+    },
+    {
+        "name": "either",
+        "columns": [
+            {
+                "name": "during",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "during",
+        "foreign_keys": [
+            {
+                "column": "during",
+                "references": "listen"
+            }
+        ]
+    },
+    {
+        "name": "listen",
+        "columns": [
+            {
+                "name": "message",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "message",
+        "foreign_keys": [
+            {
+                "column": "message",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "major",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "major",
+        "foreign_keys": [
+            {
+                "column": "major",
+                "references": "feel"
+            }
+        ]
+    },
+    {
+        "name": "feel",
+        "columns": [
+            {
+                "name": "do",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "do",
+        "foreign_keys": [
+            {
+                "column": "do",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "work",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "current",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "work",
+        "foreign_keys": [
+            {
+                "column": "work",
+                "references": "indicate"
+            }
+        ]
+    },
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "shake",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "shake",
+        "foreign_keys": [
+            {
+                "column": "shake",
+                "references": "road"
+            }
+        ]
+    }
+]

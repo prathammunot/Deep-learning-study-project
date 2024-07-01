@@ -1,0 +1,176 @@
+[
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "husband",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "apply",
+        "foreign_keys": [
+            {
+                "column": "apply",
+                "references": "officer"
+            }
+        ]
+    },
+    {
+        "name": "officer",
+        "columns": [
+            {
+                "name": "somebody",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "somebody",
+        "foreign_keys": [
+            {
+                "column": "somebody",
+                "references": "wind"
+            }
+        ]
+    },
+    {
+        "name": "wind",
+        "columns": [
+            {
+                "name": "young",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "young",
+        "foreign_keys": [
+            {
+                "column": "young",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "here",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "here",
+        "foreign_keys": [
+            {
+                "column": "here",
+                "references": "end"
+            }
+        ]
+    },
+    {
+        "name": "end",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "analysis",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "worry"
+            }
+        ]
+    },
+    {
+        "name": "worry",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "almost"
+            }
+        ]
+    },
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "various",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "news"
+            }
+        ]
+    }
+]

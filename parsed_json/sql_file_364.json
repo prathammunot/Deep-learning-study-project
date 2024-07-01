@@ -1,0 +1,225 @@
+[
+    {
+        "name": "fly",
+        "columns": [
+            {
+                "name": "pretty",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pretty",
+        "foreign_keys": [
+            {
+                "column": "pretty",
+                "references": "produce"
+            }
+        ]
+    },
+    {
+        "name": "produce",
+        "columns": [
+            {
+                "name": "beyond",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beyond",
+        "foreign_keys": [
+            {
+                "column": "beyond",
+                "references": "personal"
+            }
+        ]
+    },
+    {
+        "name": "personal",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "power",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "product",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "such"
+            }
+        ]
+    },
+    {
+        "name": "such",
+        "columns": [
+            {
+                "name": "fall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fall",
+        "foreign_keys": [
+            {
+                "column": "fall",
+                "references": "writer"
+            }
+        ]
+    },
+    {
+        "name": "writer",
+        "columns": [
+            {
+                "name": "remain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "scene",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "remain",
+        "foreign_keys": [
+            {
+                "column": "remain",
+                "references": "middle"
+            }
+        ]
+    },
+    {
+        "name": "middle",
+        "columns": [
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "south",
+        "foreign_keys": [
+            {
+                "column": "south",
+                "references": "per"
+            }
+        ]
+    },
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "southern",
+        "foreign_keys": [
+            {
+                "column": "southern",
+                "references": "performance"
+            }
+        ]
+    },
+    {
+        "name": "performance",
+        "columns": [
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "level",
+        "foreign_keys": [
+            {
+                "column": "level",
+                "references": "fly"
+            }
+        ]
+    }
+]

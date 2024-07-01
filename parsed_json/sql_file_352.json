@@ -1,0 +1,149 @@
+[
+    {
+        "name": "company",
+        "columns": [
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "line",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "short",
+        "foreign_keys": [
+            {
+                "column": "short",
+                "references": "heavy"
+            }
+        ]
+    },
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "player",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "top"
+            }
+        ]
+    },
+    {
+        "name": "top",
+        "columns": [
+            {
+                "name": "well",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "well",
+        "foreign_keys": [
+            {
+                "column": "well",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "ago"
+            }
+        ]
+    },
+    {
+        "name": "ago",
+        "columns": [
+            {
+                "name": "enter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enter",
+        "foreign_keys": [
+            {
+                "column": "enter",
+                "references": "above"
+            }
+        ]
+    },
+    {
+        "name": "above",
+        "columns": [
+            {
+                "name": "build",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "build",
+        "foreign_keys": [
+            {
+                "column": "build",
+                "references": "company"
+            }
+        ]
+    }
+]

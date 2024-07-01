@@ -1,0 +1,225 @@
+[
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "peace",
+        "foreign_keys": [
+            {
+                "column": "peace",
+                "references": "money"
+            }
+        ]
+    },
+    {
+        "name": "money",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "senior"
+            }
+        ]
+    },
+    {
+        "name": "senior",
+        "columns": [
+            {
+                "name": "your",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "note"
+            }
+        ]
+    },
+    {
+        "name": "note",
+        "columns": [
+            {
+                "name": "about",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "about",
+        "foreign_keys": [
+            {
+                "column": "about",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "military"
+            }
+        ]
+    },
+    {
+        "name": "military",
+        "columns": [
+            {
+                "name": "free",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "free",
+        "foreign_keys": [
+            {
+                "column": "free",
+                "references": "concern"
+            }
+        ]
+    },
+    {
+        "name": "concern",
+        "columns": [
+            {
+                "name": "general",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "general",
+        "foreign_keys": [
+            {
+                "column": "general",
+                "references": "new"
+            }
+        ]
+    },
+    {
+        "name": "new",
+        "columns": [
+            {
+                "name": "I",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "I",
+        "foreign_keys": [
+            {
+                "column": "I",
+                "references": "measure"
+            }
+        ]
+    },
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "put",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "put",
+        "foreign_keys": [
+            {
+                "column": "put",
+                "references": "boy"
+            }
+        ]
+    }
+]

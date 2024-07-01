@@ -1,0 +1,149 @@
+[
+    {
+        "name": "sign",
+        "columns": [
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "factor"
+            }
+        ]
+    },
+    {
+        "name": "factor",
+        "columns": [
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seem",
+        "foreign_keys": [
+            {
+                "column": "seem",
+                "references": "son"
+            }
+        ]
+    },
+    {
+        "name": "son",
+        "columns": [
+            {
+                "name": "let",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "alone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "let",
+        "foreign_keys": [
+            {
+                "column": "let",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "from",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "ability",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "town",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ability",
+        "foreign_keys": [
+            {
+                "column": "ability",
+                "references": "relate"
+            }
+        ]
+    },
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "sign"
+            }
+        ]
+    }
+]

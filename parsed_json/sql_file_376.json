@@ -1,0 +1,296 @@
+[
+    {
+        "name": "citizen",
+        "columns": [
+            {
+                "name": "gas",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "personal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "gas",
+        "foreign_keys": [
+            {
+                "column": "gas",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "ground",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ground",
+        "foreign_keys": [
+            {
+                "column": "ground",
+                "references": "network"
+            }
+        ]
+    },
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "success",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "occur",
+        "foreign_keys": [
+            {
+                "column": "occur",
+                "references": "floor"
+            }
+        ]
+    },
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "item",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "item",
+        "foreign_keys": [
+            {
+                "column": "item",
+                "references": "on"
+            }
+        ]
+    },
+    {
+        "name": "on",
+        "columns": [
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "behind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mean",
+        "foreign_keys": [
+            {
+                "column": "mean",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "room",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "room",
+        "foreign_keys": [
+            {
+                "column": "room",
+                "references": "pay"
+            }
+        ]
+    },
+    {
+        "name": "pay",
+        "columns": [
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "believe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "little"
+            }
+        ]
+    },
+    {
+        "name": "little",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "street",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "behavior"
+            }
+        ]
+    },
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "and",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rule",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "and",
+        "foreign_keys": [
+            {
+                "column": "and",
+                "references": "court"
+            }
+        ]
+    },
+    {
+        "name": "court",
+        "columns": [
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "start",
+        "foreign_keys": [
+            {
+                "column": "start",
+                "references": "cold"
+            }
+        ]
+    },
+    {
+        "name": "cold",
+        "columns": [
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "can",
+        "foreign_keys": [
+            {
+                "column": "can",
+                "references": "near"
+            }
+        ]
+    },
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "public",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "public",
+        "foreign_keys": [
+            {
+                "column": "public",
+                "references": "citizen"
+            }
+        ]
+    }
+]

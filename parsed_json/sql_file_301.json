@@ -1,0 +1,176 @@
+[
+    {
+        "name": "sign",
+        "columns": [
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "for",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "south",
+        "foreign_keys": [
+            {
+                "column": "south",
+                "references": "major"
+            }
+        ]
+    },
+    {
+        "name": "major",
+        "columns": [
+            {
+                "name": "cut",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cut",
+        "foreign_keys": [
+            {
+                "column": "cut",
+                "references": "wide"
+            }
+        ]
+    },
+    {
+        "name": "wide",
+        "columns": [
+            {
+                "name": "front",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "most",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "front",
+        "foreign_keys": [
+            {
+                "column": "front",
+                "references": "growth"
+            }
+        ]
+    },
+    {
+        "name": "growth",
+        "columns": [
+            {
+                "name": "close",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "close",
+        "foreign_keys": [
+            {
+                "column": "close",
+                "references": "and"
+            }
+        ]
+    },
+    {
+        "name": "and",
+        "columns": [
+            {
+                "name": "change",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "issue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "left"
+            }
+        ]
+    },
+    {
+        "name": "left",
+        "columns": [
+            {
+                "name": "mother",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mother",
+        "foreign_keys": [
+            {
+                "column": "mother",
+                "references": "hope"
+            }
+        ]
+    },
+    {
+        "name": "hope",
+        "columns": [
+            {
+                "name": "expect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "expect",
+        "foreign_keys": [
+            {
+                "column": "expect",
+                "references": "sign"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "decide",
+        "columns": [
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "market",
+        "foreign_keys": [
+            {
+                "column": "market",
+                "references": "professional"
+            }
+        ]
+    },
+    {
+        "name": "professional",
+        "columns": [
+            {
+                "name": "hold",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hold",
+        "foreign_keys": [
+            {
+                "column": "hold",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "base",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "base",
+        "foreign_keys": [
+            {
+                "column": "base",
+                "references": "cold"
+            }
+        ]
+    },
+    {
+        "name": "cold",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "discuss",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "individual"
+            }
+        ]
+    },
+    {
+        "name": "individual",
+        "columns": [
+            {
+                "name": "anything",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "create",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discuss",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anything",
+        "foreign_keys": [
+            {
+                "column": "anything",
+                "references": "decide"
+            }
+        ]
+    }
+]

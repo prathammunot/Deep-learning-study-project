@@ -1,0 +1,247 @@
+[
+    {
+        "name": "southern",
+        "columns": [
+            {
+                "name": "full",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "full",
+        "foreign_keys": [
+            {
+                "column": "full",
+                "references": "air"
+            }
+        ]
+    },
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "behind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behind",
+        "foreign_keys": [
+            {
+                "column": "behind",
+                "references": "describe"
+            }
+        ]
+    },
+    {
+        "name": "describe",
+        "columns": [
+            {
+                "name": "anything",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "create",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anything",
+        "foreign_keys": [
+            {
+                "column": "anything",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "TV"
+            }
+        ]
+    },
+    {
+        "name": "TV",
+        "columns": [
+            {
+                "name": "close",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "close",
+        "foreign_keys": [
+            {
+                "column": "close",
+                "references": "suggest"
+            }
+        ]
+    },
+    {
+        "name": "suggest",
+        "columns": [
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "you"
+            }
+        ]
+    },
+    {
+        "name": "you",
+        "columns": [
+            {
+                "name": "than",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "than",
+        "foreign_keys": [
+            {
+                "column": "than",
+                "references": "town"
+            }
+        ]
+    },
+    {
+        "name": "town",
+        "columns": [
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "themselves",
+        "foreign_keys": [
+            {
+                "column": "themselves",
+                "references": "stuff"
+            }
+        ]
+    },
+    {
+        "name": "stuff",
+        "columns": [
+            {
+                "name": "appear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "appear",
+        "foreign_keys": [
+            {
+                "column": "appear",
+                "references": "them"
+            }
+        ]
+    },
+    {
+        "name": "them",
+        "columns": [
+            {
+                "name": "create",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "create",
+        "foreign_keys": [
+            {
+                "column": "create",
+                "references": "southern"
+            }
+        ]
+    }
+]

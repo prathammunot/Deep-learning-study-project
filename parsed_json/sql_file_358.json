@@ -1,0 +1,274 @@
+[
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "change",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "their"
+            }
+        ]
+    },
+    {
+        "name": "their",
+        "columns": [
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "report",
+        "foreign_keys": [
+            {
+                "column": "report",
+                "references": "deal"
+            }
+        ]
+    },
+    {
+        "name": "deal",
+        "columns": [
+            {
+                "name": "responsibility",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "computer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "responsibility",
+        "foreign_keys": [
+            {
+                "column": "responsibility",
+                "references": "product"
+            }
+        ]
+    },
+    {
+        "name": "product",
+        "columns": [
+            {
+                "name": "until",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "source",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "until",
+        "foreign_keys": [
+            {
+                "column": "until",
+                "references": "game"
+            }
+        ]
+    },
+    {
+        "name": "game",
+        "columns": [
+            {
+                "name": "sort",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sort",
+        "foreign_keys": [
+            {
+                "column": "sort",
+                "references": "so"
+            }
+        ]
+    },
+    {
+        "name": "so",
+        "columns": [
+            {
+                "name": "official",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "official",
+        "foreign_keys": [
+            {
+                "column": "official",
+                "references": "away"
+            }
+        ]
+    },
+    {
+        "name": "away",
+        "columns": [
+            {
+                "name": "owner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "point",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "owner",
+        "foreign_keys": [
+            {
+                "column": "owner",
+                "references": "style"
+            }
+        ]
+    },
+    {
+        "name": "style",
+        "columns": [
+            {
+                "name": "figure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "figure",
+        "foreign_keys": [
+            {
+                "column": "figure",
+                "references": "provide"
+            }
+        ]
+    },
+    {
+        "name": "provide",
+        "columns": [
+            {
+                "name": "last",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "last",
+        "foreign_keys": [
+            {
+                "column": "last",
+                "references": "second"
+            }
+        ]
+    },
+    {
+        "name": "second",
+        "columns": [
+            {
+                "name": "stand",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stand",
+        "foreign_keys": [
+            {
+                "column": "stand",
+                "references": "own"
+            }
+        ]
+    },
+    {
+        "name": "own",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "in"
+            }
+        ]
+    }
+]

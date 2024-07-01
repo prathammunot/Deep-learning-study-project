@@ -1,0 +1,176 @@
+[
+    {
+        "name": "middle",
+        "columns": [
+            {
+                "name": "bag",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bag",
+        "foreign_keys": [
+            {
+                "column": "bag",
+                "references": "hold"
+            }
+        ]
+    },
+    {
+        "name": "hold",
+        "columns": [
+            {
+                "name": "few",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "few",
+        "foreign_keys": [
+            {
+                "column": "few",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "rather"
+            }
+        ]
+    },
+    {
+        "name": "rather",
+        "columns": [
+            {
+                "name": "each",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "each",
+        "foreign_keys": [
+            {
+                "column": "each",
+                "references": "hair"
+            }
+        ]
+    },
+    {
+        "name": "hair",
+        "columns": [
+            {
+                "name": "speak",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "speak",
+        "foreign_keys": [
+            {
+                "column": "speak",
+                "references": "city"
+            }
+        ]
+    },
+    {
+        "name": "city",
+        "columns": [
+            {
+                "name": "follow",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "follow",
+        "foreign_keys": [
+            {
+                "column": "follow",
+                "references": "network"
+            }
+        ]
+    },
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agency",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agent",
+        "foreign_keys": [
+            {
+                "column": "agent",
+                "references": "middle"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "material",
+        "foreign_keys": [
+            {
+                "column": "material",
+                "references": "particularly"
+            }
+        ]
+    },
+    {
+        "name": "particularly",
+        "columns": [
+            {
+                "name": "foot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "foot",
+        "foreign_keys": [
+            {
+                "column": "foot",
+                "references": "practice"
+            }
+        ]
+    },
+    {
+        "name": "practice",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "least",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "able"
+            }
+        ]
+    },
+    {
+        "name": "able",
+        "columns": [
+            {
+                "name": "interview",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "interview",
+        "foreign_keys": [
+            {
+                "column": "interview",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "down",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "down",
+        "foreign_keys": [
+            {
+                "column": "down",
+                "references": "dinner"
+            }
+        ]
+    },
+    {
+        "name": "dinner",
+        "columns": [
+            {
+                "name": "reflect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reflect",
+        "foreign_keys": [
+            {
+                "column": "reflect",
+                "references": "guess"
+            }
+        ]
+    },
+    {
+        "name": "guess",
+        "columns": [
+            {
+                "name": "show",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "show",
+        "foreign_keys": [
+            {
+                "column": "show",
+                "references": "his"
+            }
+        ]
+    },
+    {
+        "name": "his",
+        "columns": [
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "strong",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "wait"
+            }
+        ]
+    },
+    {
+        "name": "wait",
+        "columns": [
+            {
+                "name": "true",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "true",
+        "foreign_keys": [
+            {
+                "column": "true",
+                "references": "direction"
+            }
+        ]
+    }
+]

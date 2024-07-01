@@ -1,0 +1,149 @@
+[
+    {
+        "name": "consider",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "dream"
+            }
+        ]
+    },
+    {
+        "name": "dream",
+        "columns": [
+            {
+                "name": "play",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "play",
+        "foreign_keys": [
+            {
+                "column": "play",
+                "references": "politics"
+            }
+        ]
+    },
+    {
+        "name": "politics",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "natural",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "maintain"
+            }
+        ]
+    },
+    {
+        "name": "maintain",
+        "columns": [
+            {
+                "name": "skin",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "skin",
+        "foreign_keys": [
+            {
+                "column": "skin",
+                "references": "others"
+            }
+        ]
+    },
+    {
+        "name": "others",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "billion",
+        "foreign_keys": [
+            {
+                "column": "billion",
+                "references": "consider"
+            }
+        ]
+    }
+]

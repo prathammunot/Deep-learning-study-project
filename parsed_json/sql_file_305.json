@@ -1,0 +1,176 @@
+[
+    {
+        "name": "window",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "though",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "already",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "though",
+        "foreign_keys": [
+            {
+                "column": "though",
+                "references": "eight"
+            }
+        ]
+    },
+    {
+        "name": "eight",
+        "columns": [
+            {
+                "name": "room",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "room",
+        "foreign_keys": [
+            {
+                "column": "room",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sure",
+        "foreign_keys": [
+            {
+                "column": "sure",
+                "references": "her"
+            }
+        ]
+    },
+    {
+        "name": "her",
+        "columns": [
+            {
+                "name": "event",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "imagine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "event",
+        "foreign_keys": [
+            {
+                "column": "event",
+                "references": "nothing"
+            }
+        ]
+    },
+    {
+        "name": "nothing",
+        "columns": [
+            {
+                "name": "despite",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "despite",
+        "foreign_keys": [
+            {
+                "column": "despite",
+                "references": "rate"
+            }
+        ]
+    },
+    {
+        "name": "rate",
+        "columns": [
+            {
+                "name": "base",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "base",
+        "foreign_keys": [
+            {
+                "column": "base",
+                "references": "window"
+            }
+        ]
+    }
+]

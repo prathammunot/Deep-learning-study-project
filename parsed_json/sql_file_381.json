@@ -1,0 +1,176 @@
+[
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "example",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "they",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "behind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "painting",
+        "foreign_keys": [
+            {
+                "column": "painting",
+                "references": "moment"
+            }
+        ]
+    },
+    {
+        "name": "moment",
+        "columns": [
+            {
+                "name": "natural",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "great",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "natural",
+        "foreign_keys": [
+            {
+                "column": "natural",
+                "references": "never"
+            }
+        ]
+    },
+    {
+        "name": "never",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "still"
+            }
+        ]
+    },
+    {
+        "name": "still",
+        "columns": [
+            {
+                "name": "interest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "interest",
+        "foreign_keys": [
+            {
+                "column": "interest",
+                "references": "firm"
+            }
+        ]
+    },
+    {
+        "name": "firm",
+        "columns": [
+            {
+                "name": "around",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "around",
+        "foreign_keys": [
+            {
+                "column": "around",
+                "references": "but"
+            }
+        ]
+    },
+    {
+        "name": "but",
+        "columns": [
+            {
+                "name": "sort",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sort",
+        "foreign_keys": [
+            {
+                "column": "sort",
+                "references": "morning"
+            }
+        ]
+    }
+]

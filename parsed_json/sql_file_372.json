@@ -1,0 +1,176 @@
+[
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "yard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yard",
+        "foreign_keys": [
+            {
+                "column": "yard",
+                "references": "institution"
+            }
+        ]
+    },
+    {
+        "name": "institution",
+        "columns": [
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "television",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "moment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "ago"
+            }
+        ]
+    },
+    {
+        "name": "ago",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "threat"
+            }
+        ]
+    },
+    {
+        "name": "threat",
+        "columns": [
+            {
+                "name": "standard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "benefit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "standard",
+        "foreign_keys": [
+            {
+                "column": "standard",
+                "references": "may"
+            }
+        ]
+    },
+    {
+        "name": "may",
+        "columns": [
+            {
+                "name": "image",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ago",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "image",
+        "foreign_keys": [
+            {
+                "column": "image",
+                "references": "baby"
+            }
+        ]
+    },
+    {
+        "name": "baby",
+        "columns": [
+            {
+                "name": "rate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rate",
+        "foreign_keys": [
+            {
+                "column": "rate",
+                "references": "per"
+            }
+        ]
+    }
+]

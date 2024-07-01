@@ -1,0 +1,176 @@
+[
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "speech",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "human",
+        "foreign_keys": [
+            {
+                "column": "human",
+                "references": "coach"
+            }
+        ]
+    },
+    {
+        "name": "coach",
+        "columns": [
+            {
+                "name": "enjoy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enjoy",
+        "foreign_keys": [
+            {
+                "column": "enjoy",
+                "references": "stay"
+            }
+        ]
+    },
+    {
+        "name": "stay",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "skill"
+            }
+        ]
+    },
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "risk",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "firm",
+        "foreign_keys": [
+            {
+                "column": "firm",
+                "references": "trade"
+            }
+        ]
+    }
+]

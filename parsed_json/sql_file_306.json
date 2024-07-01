@@ -1,0 +1,198 @@
+[
+    {
+        "name": "reality",
+        "columns": [
+            {
+                "name": "source",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "source",
+        "foreign_keys": [
+            {
+                "column": "source",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "marriage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "cover"
+            }
+        ]
+    },
+    {
+        "name": "cover",
+        "columns": [
+            {
+                "name": "attention",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "opportunity",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attention",
+        "foreign_keys": [
+            {
+                "column": "attention",
+                "references": "walk"
+            }
+        ]
+    },
+    {
+        "name": "walk",
+        "columns": [
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "run",
+        "foreign_keys": [
+            {
+                "column": "run",
+                "references": "thought"
+            }
+        ]
+    },
+    {
+        "name": "thought",
+        "columns": [
+            {
+                "name": "major",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "participant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "affect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "major",
+        "foreign_keys": [
+            {
+                "column": "major",
+                "references": "order"
+            }
+        ]
+    },
+    {
+        "name": "order",
+        "columns": [
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "data",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nor",
+        "foreign_keys": [
+            {
+                "column": "nor",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "throw",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "suffer"
+            }
+        ]
+    },
+    {
+        "name": "suffer",
+        "columns": [
+            {
+                "name": "particular",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "most",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "particular",
+        "foreign_keys": [
+            {
+                "column": "particular",
+                "references": "reality"
+            }
+        ]
+    }
+]

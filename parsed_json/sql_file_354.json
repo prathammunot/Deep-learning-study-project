@@ -1,0 +1,149 @@
+[
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "including",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wife",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "including",
+        "foreign_keys": [
+            {
+                "column": "including",
+                "references": "strong"
+            }
+        ]
+    },
+    {
+        "name": "strong",
+        "columns": [
+            {
+                "name": "memory",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seek",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "memory",
+        "foreign_keys": [
+            {
+                "column": "memory",
+                "references": "again"
+            }
+        ]
+    },
+    {
+        "name": "again",
+        "columns": [
+            {
+                "name": "glass",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "work",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "glass",
+        "foreign_keys": [
+            {
+                "column": "glass",
+                "references": "worry"
+            }
+        ]
+    },
+    {
+        "name": "worry",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "size"
+            }
+        ]
+    },
+    {
+        "name": "size",
+        "columns": [
+            {
+                "name": "never",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "about",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "never",
+        "foreign_keys": [
+            {
+                "column": "never",
+                "references": "while"
+            }
+        ]
+    },
+    {
+        "name": "while",
+        "columns": [
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "including",
+        "foreign_keys": [
+            {
+                "column": "including",
+                "references": "where"
+            }
+        ]
+    }
+]

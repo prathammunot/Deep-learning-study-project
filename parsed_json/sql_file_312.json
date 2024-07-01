@@ -1,0 +1,225 @@
+[
+    {
+        "name": "including",
+        "columns": [
+            {
+                "name": "along",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "along",
+        "foreign_keys": [
+            {
+                "column": "along",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "serve",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "two",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "serve",
+        "foreign_keys": [
+            {
+                "column": "serve",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "role",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "good"
+            }
+        ]
+    },
+    {
+        "name": "good",
+        "columns": [
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "note",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "accept",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "year",
+        "foreign_keys": [
+            {
+                "column": "year",
+                "references": "civil"
+            }
+        ]
+    },
+    {
+        "name": "civil",
+        "columns": [
+            {
+                "name": "child",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "child",
+        "foreign_keys": [
+            {
+                "column": "child",
+                "references": "late"
+            }
+        ]
+    },
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "project",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "on",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "thus"
+            }
+        ]
+    },
+    {
+        "name": "thus",
+        "columns": [
+            {
+                "name": "heart",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cut",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "heart",
+        "foreign_keys": [
+            {
+                "column": "heart",
+                "references": "behind"
+            }
+        ]
+    },
+    {
+        "name": "behind",
+        "columns": [
+            {
+                "name": "born",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "turn",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "born",
+        "foreign_keys": [
+            {
+                "column": "born",
+                "references": "including"
+            }
+        ]
+    }
+]

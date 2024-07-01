@@ -1,0 +1,149 @@
+[
+    {
+        "name": "effect",
+        "columns": [
+            {
+                "name": "strategy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "truth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "strategy",
+        "foreign_keys": [
+            {
+                "column": "strategy",
+                "references": "nice"
+            }
+        ]
+    },
+    {
+        "name": "nice",
+        "columns": [
+            {
+                "name": "eat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "eat",
+        "foreign_keys": [
+            {
+                "column": "eat",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "price"
+            }
+        ]
+    },
+    {
+        "name": "price",
+        "columns": [
+            {
+                "name": "occur",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "occur",
+        "foreign_keys": [
+            {
+                "column": "occur",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "decision",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decision",
+        "foreign_keys": [
+            {
+                "column": "decision",
+                "references": "national"
+            }
+        ]
+    },
+    {
+        "name": "national",
+        "columns": [
+            {
+                "name": "number",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "number",
+        "foreign_keys": [
+            {
+                "column": "number",
+                "references": "effect"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "white",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "white",
+        "foreign_keys": [
+            {
+                "column": "white",
+                "references": "avoid"
+            }
+        ]
+    },
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "process",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dinner",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "process",
+        "foreign_keys": [
+            {
+                "column": "process",
+                "references": "finish"
+            }
+        ]
+    },
+    {
+        "name": "finish",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "hand"
+            }
+        ]
+    },
+    {
+        "name": "hand",
+        "columns": [
+            {
+                "name": "list",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "list",
+        "foreign_keys": [
+            {
+                "column": "list",
+                "references": "south"
+            }
+        ]
+    },
+    {
+        "name": "south",
+        "columns": [
+            {
+                "name": "total",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "total",
+        "foreign_keys": [
+            {
+                "column": "total",
+                "references": "play"
+            }
+        ]
+    },
+    {
+        "name": "play",
+        "columns": [
+            {
+                "name": "bad",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bad",
+        "foreign_keys": [
+            {
+                "column": "bad",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "structure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "structure",
+        "foreign_keys": [
+            {
+                "column": "structure",
+                "references": "boy"
+            }
+        ]
+    }
+]

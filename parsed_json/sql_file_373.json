@@ -1,0 +1,198 @@
+[
+    {
+        "name": "executive",
+        "columns": [
+            {
+                "name": "example",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simply",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "these",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "example",
+        "foreign_keys": [
+            {
+                "column": "example",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "inside",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "inside",
+        "foreign_keys": [
+            {
+                "column": "inside",
+                "references": "exactly"
+            }
+        ]
+    },
+    {
+        "name": "exactly",
+        "columns": [
+            {
+                "name": "popular",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "popular",
+        "foreign_keys": [
+            {
+                "column": "popular",
+                "references": "threat"
+            }
+        ]
+    },
+    {
+        "name": "threat",
+        "columns": [
+            {
+                "name": "become",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "become",
+        "foreign_keys": [
+            {
+                "column": "become",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "door",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yeah",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "clear"
+            }
+        ]
+    },
+    {
+        "name": "clear",
+        "columns": [
+            {
+                "name": "road",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "road",
+        "foreign_keys": [
+            {
+                "column": "road",
+                "references": "trial"
+            }
+        ]
+    },
+    {
+        "name": "trial",
+        "columns": [
+            {
+                "name": "out",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "out",
+        "foreign_keys": [
+            {
+                "column": "out",
+                "references": "between"
+            }
+        ]
+    },
+    {
+        "name": "between",
+        "columns": [
+            {
+                "name": "skill",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "glass",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "skill",
+        "foreign_keys": [
+            {
+                "column": "skill",
+                "references": "executive"
+            }
+        ]
+    }
+]

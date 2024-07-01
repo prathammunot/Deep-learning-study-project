@@ -1,0 +1,193 @@
+[
+    {
+        "name": "join",
+        "columns": [
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "example",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "effect",
+        "foreign_keys": [
+            {
+                "column": "effect",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "despite",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "despite",
+        "foreign_keys": [
+            {
+                "column": "despite",
+                "references": "capital"
+            }
+        ]
+    },
+    {
+        "name": "capital",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "able"
+            }
+        ]
+    },
+    {
+        "name": "able",
+        "columns": [
+            {
+                "name": "window",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "window",
+        "foreign_keys": [
+            {
+                "column": "window",
+                "references": "reflect"
+            }
+        ]
+    },
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "boy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "boy",
+        "foreign_keys": [
+            {
+                "column": "boy",
+                "references": "whether"
+            }
+        ]
+    },
+    {
+        "name": "whether",
+        "columns": [
+            {
+                "name": "woman",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "woman",
+        "foreign_keys": [
+            {
+                "column": "woman",
+                "references": "person"
+            }
+        ]
+    },
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "against",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "artist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "against",
+        "foreign_keys": [
+            {
+                "column": "against",
+                "references": "sing"
+            }
+        ]
+    },
+    {
+        "name": "sing",
+        "columns": [
+            {
+                "name": "college",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "college",
+        "foreign_keys": [
+            {
+                "column": "college",
+                "references": "join"
+            }
+        ]
+    }
+]

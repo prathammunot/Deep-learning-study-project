@@ -1,0 +1,176 @@
+[
+    {
+        "name": "trial",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "drive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drive",
+        "foreign_keys": [
+            {
+                "column": "drive",
+                "references": "Congress"
+            }
+        ]
+    },
+    {
+        "name": "Congress",
+        "columns": [
+            {
+                "name": "challenge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "try",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "challenge",
+        "foreign_keys": [
+            {
+                "column": "challenge",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "PM",
+        "foreign_keys": [
+            {
+                "column": "PM",
+                "references": "feeling"
+            }
+        ]
+    },
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "computer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "behind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "computer",
+        "foreign_keys": [
+            {
+                "column": "computer",
+                "references": "accept"
+            }
+        ]
+    },
+    {
+        "name": "accept",
+        "columns": [
+            {
+                "name": "leg",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "half",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leg",
+        "foreign_keys": [
+            {
+                "column": "leg",
+                "references": "size"
+            }
+        ]
+    },
+    {
+        "name": "size",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "teacher",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "trial"
+            }
+        ]
+    }
+]

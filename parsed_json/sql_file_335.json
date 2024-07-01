@@ -1,0 +1,198 @@
+[
+    {
+        "name": "rate",
+        "columns": [
+            {
+                "name": "trial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trial",
+        "foreign_keys": [
+            {
+                "column": "trial",
+                "references": "too"
+            }
+        ]
+    },
+    {
+        "name": "too",
+        "columns": [
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "outside",
+        "foreign_keys": [
+            {
+                "column": "outside",
+                "references": "project"
+            }
+        ]
+    },
+    {
+        "name": "project",
+        "columns": [
+            {
+                "name": "entire",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "entire",
+        "foreign_keys": [
+            {
+                "column": "entire",
+                "references": "million"
+            }
+        ]
+    },
+    {
+        "name": "million",
+        "columns": [
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "staff",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "election",
+        "foreign_keys": [
+            {
+                "column": "election",
+                "references": "well"
+            }
+        ]
+    },
+    {
+        "name": "well",
+        "columns": [
+            {
+                "name": "simple",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "a",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "simple",
+        "foreign_keys": [
+            {
+                "column": "simple",
+                "references": "process"
+            }
+        ]
+    },
+    {
+        "name": "process",
+        "columns": [
+            {
+                "name": "tough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tough",
+        "foreign_keys": [
+            {
+                "column": "tough",
+                "references": "team"
+            }
+        ]
+    },
+    {
+        "name": "team",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "left"
+            }
+        ]
+    },
+    {
+        "name": "left",
+        "columns": [
+            {
+                "name": "son",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "son",
+        "foreign_keys": [
+            {
+                "column": "son",
+                "references": "rate"
+            }
+        ]
+    }
+]

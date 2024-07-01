@@ -1,0 +1,198 @@
+[
+    {
+        "name": "plant",
+        "columns": [
+            {
+                "name": "drive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "available",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drive",
+        "foreign_keys": [
+            {
+                "column": "drive",
+                "references": "every"
+            }
+        ]
+    },
+    {
+        "name": "every",
+        "columns": [
+            {
+                "name": "opportunity",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "opportunity",
+        "foreign_keys": [
+            {
+                "column": "opportunity",
+                "references": "above"
+            }
+        ]
+    },
+    {
+        "name": "above",
+        "columns": [
+            {
+                "name": "yet",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whatever",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yet",
+        "foreign_keys": [
+            {
+                "column": "yet",
+                "references": "cup"
+            }
+        ]
+    },
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "heart",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "together",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "heart",
+        "foreign_keys": [
+            {
+                "column": "heart",
+                "references": "executive"
+            }
+        ]
+    },
+    {
+        "name": "executive",
+        "columns": [
+            {
+                "name": "past",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "past",
+        "foreign_keys": [
+            {
+                "column": "past",
+                "references": "heart"
+            }
+        ]
+    },
+    {
+        "name": "heart",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "article"
+            }
+        ]
+    },
+    {
+        "name": "article",
+        "columns": [
+            {
+                "name": "husband",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "husband",
+        "foreign_keys": [
+            {
+                "column": "husband",
+                "references": "growth"
+            }
+        ]
+    },
+    {
+        "name": "growth",
+        "columns": [
+            {
+                "name": "stage",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stage",
+        "foreign_keys": [
+            {
+                "column": "stage",
+                "references": "plant"
+            }
+        ]
+    }
+]

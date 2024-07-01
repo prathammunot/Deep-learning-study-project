@@ -1,0 +1,274 @@
+[
+    {
+        "name": "science",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "until"
+            }
+        ]
+    },
+    {
+        "name": "until",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "health"
+            }
+        ]
+    },
+    {
+        "name": "health",
+        "columns": [
+            {
+                "name": "she",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "she",
+        "foreign_keys": [
+            {
+                "column": "she",
+                "references": "term"
+            }
+        ]
+    },
+    {
+        "name": "term",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "fly"
+            }
+        ]
+    },
+    {
+        "name": "fly",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "provide"
+            }
+        ]
+    },
+    {
+        "name": "provide",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hope",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "effect"
+            }
+        ]
+    },
+    {
+        "name": "effect",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "state"
+            }
+        ]
+    },
+    {
+        "name": "state",
+        "columns": [
+            {
+                "name": "language",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "language",
+        "foreign_keys": [
+            {
+                "column": "language",
+                "references": "forward"
+            }
+        ]
+    },
+    {
+        "name": "forward",
+        "columns": [
+            {
+                "name": "air",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "air",
+        "foreign_keys": [
+            {
+                "column": "air",
+                "references": "parent"
+            }
+        ]
+    },
+    {
+        "name": "parent",
+        "columns": [
+            {
+                "name": "but",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "but",
+        "foreign_keys": [
+            {
+                "column": "but",
+                "references": "service"
+            }
+        ]
+    },
+    {
+        "name": "service",
+        "columns": [
+            {
+                "name": "notice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "notice",
+        "foreign_keys": [
+            {
+                "column": "notice",
+                "references": "science"
+            }
+        ]
+    }
+]

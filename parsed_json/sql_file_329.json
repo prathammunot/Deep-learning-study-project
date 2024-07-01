@@ -1,0 +1,274 @@
+[
+    {
+        "name": "sell",
+        "columns": [
+            {
+                "name": "meet",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "meet",
+        "foreign_keys": [
+            {
+                "column": "meet",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "level",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "form",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "level",
+        "foreign_keys": [
+            {
+                "column": "level",
+                "references": "hold"
+            }
+        ]
+    },
+    {
+        "name": "hold",
+        "columns": [
+            {
+                "name": "specific",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "specific",
+        "foreign_keys": [
+            {
+                "column": "specific",
+                "references": "beyond"
+            }
+        ]
+    },
+    {
+        "name": "beyond",
+        "columns": [
+            {
+                "name": "since",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "since",
+        "foreign_keys": [
+            {
+                "column": "since",
+                "references": "fight"
+            }
+        ]
+    },
+    {
+        "name": "fight",
+        "columns": [
+            {
+                "name": "pick",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pick",
+        "foreign_keys": [
+            {
+                "column": "pick",
+                "references": "southern"
+            }
+        ]
+    },
+    {
+        "name": "southern",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "people",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "we"
+            }
+        ]
+    },
+    {
+        "name": "we",
+        "columns": [
+            {
+                "name": "white",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "name",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "white",
+        "foreign_keys": [
+            {
+                "column": "white",
+                "references": "require"
+            }
+        ]
+    },
+    {
+        "name": "require",
+        "columns": [
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "difficult",
+        "foreign_keys": [
+            {
+                "column": "difficult",
+                "references": "buy"
+            }
+        ]
+    },
+    {
+        "name": "buy",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "significant",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "across"
+            }
+        ]
+    },
+    {
+        "name": "across",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "reflect"
+            }
+        ]
+    },
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "personal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "personal",
+        "foreign_keys": [
+            {
+                "column": "personal",
+                "references": "sell"
+            }
+        ]
+    }
+]

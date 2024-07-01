@@ -1,0 +1,296 @@
+[
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "himself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "himself",
+        "foreign_keys": [
+            {
+                "column": "himself",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "general",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "general",
+        "foreign_keys": [
+            {
+                "column": "general",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "read",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "read",
+        "foreign_keys": [
+            {
+                "column": "read",
+                "references": "lot"
+            }
+        ]
+    },
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "alone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "alone",
+        "foreign_keys": [
+            {
+                "column": "alone",
+                "references": "response"
+            }
+        ]
+    },
+    {
+        "name": "response",
+        "columns": [
+            {
+                "name": "protect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "miss",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "protect",
+        "foreign_keys": [
+            {
+                "column": "protect",
+                "references": "price"
+            }
+        ]
+    },
+    {
+        "name": "price",
+        "columns": [
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "father"
+            }
+        ]
+    },
+    {
+        "name": "father",
+        "columns": [
+            {
+                "name": "whether",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whether",
+        "foreign_keys": [
+            {
+                "column": "whether",
+                "references": "garden"
+            }
+        ]
+    },
+    {
+        "name": "garden",
+        "columns": [
+            {
+                "name": "else",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "service",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "else",
+        "foreign_keys": [
+            {
+                "column": "else",
+                "references": "senior"
+            }
+        ]
+    },
+    {
+        "name": "senior",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "guess",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "consider"
+            }
+        ]
+    },
+    {
+        "name": "consider",
+        "columns": [
+            {
+                "name": "must",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "must",
+        "foreign_keys": [
+            {
+                "column": "must",
+                "references": "capital"
+            }
+        ]
+    },
+    {
+        "name": "capital",
+        "columns": [
+            {
+                "name": "other",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "other",
+        "foreign_keys": [
+            {
+                "column": "other",
+                "references": "challenge"
+            }
+        ]
+    }
+]

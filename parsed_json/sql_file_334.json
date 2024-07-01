@@ -1,0 +1,176 @@
+[
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "believe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "believe",
+        "foreign_keys": [
+            {
+                "column": "believe",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "test",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "test",
+        "foreign_keys": [
+            {
+                "column": "test",
+                "references": "significant"
+            }
+        ]
+    },
+    {
+        "name": "significant",
+        "columns": [
+            {
+                "name": "international",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "international",
+        "foreign_keys": [
+            {
+                "column": "international",
+                "references": "both"
+            }
+        ]
+    },
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "win",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "organization"
+            }
+        ]
+    },
+    {
+        "name": "organization",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "black"
+            }
+        ]
+    },
+    {
+        "name": "black",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "space"
+            }
+        ]
+    }
+]

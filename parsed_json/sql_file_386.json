@@ -1,0 +1,274 @@
+[
+    {
+        "name": "like",
+        "columns": [
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "can",
+        "foreign_keys": [
+            {
+                "column": "can",
+                "references": "traditional"
+            }
+        ]
+    },
+    {
+        "name": "traditional",
+        "columns": [
+            {
+                "name": "reduce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reduce",
+        "foreign_keys": [
+            {
+                "column": "reduce",
+                "references": "share"
+            }
+        ]
+    },
+    {
+        "name": "share",
+        "columns": [
+            {
+                "name": "in",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "in",
+        "foreign_keys": [
+            {
+                "column": "in",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "wrong",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wrong",
+        "foreign_keys": [
+            {
+                "column": "wrong",
+                "references": "third"
+            }
+        ]
+    },
+    {
+        "name": "third",
+        "columns": [
+            {
+                "name": "the",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "without"
+            }
+        ]
+    },
+    {
+        "name": "without",
+        "columns": [
+            {
+                "name": "value",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "discuss",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "value",
+        "foreign_keys": [
+            {
+                "column": "value",
+                "references": "sign"
+            }
+        ]
+    },
+    {
+        "name": "sign",
+        "columns": [
+            {
+                "name": "paper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "of",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "paper",
+        "foreign_keys": [
+            {
+                "column": "paper",
+                "references": "off"
+            }
+        ]
+    },
+    {
+        "name": "off",
+        "columns": [
+            {
+                "name": "young",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "young",
+        "foreign_keys": [
+            {
+                "column": "young",
+                "references": "leg"
+            }
+        ]
+    },
+    {
+        "name": "leg",
+        "columns": [
+            {
+                "name": "feel",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "feel",
+        "foreign_keys": [
+            {
+                "column": "feel",
+                "references": "effect"
+            }
+        ]
+    },
+    {
+        "name": "effect",
+        "columns": [
+            {
+                "name": "case",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "case",
+        "foreign_keys": [
+            {
+                "column": "case",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "themselves",
+        "foreign_keys": [
+            {
+                "column": "themselves",
+                "references": "like"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "deal",
+        "columns": [
+            {
+                "name": "create",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "create",
+        "foreign_keys": [
+            {
+                "column": "create",
+                "references": "write"
+            }
+        ]
+    },
+    {
+        "name": "write",
+        "columns": [
+            {
+                "name": "some",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "where"
+            }
+        ]
+    },
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "work",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "particular",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "particular",
+        "foreign_keys": [
+            {
+                "column": "particular",
+                "references": "instead"
+            }
+        ]
+    },
+    {
+        "name": "instead",
+        "columns": [
+            {
+                "name": "she",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "she",
+        "foreign_keys": [
+            {
+                "column": "she",
+                "references": "number"
+            }
+        ]
+    },
+    {
+        "name": "number",
+        "columns": [
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "north",
+        "foreign_keys": [
+            {
+                "column": "north",
+                "references": "actually"
+            }
+        ]
+    },
+    {
+        "name": "actually",
+        "columns": [
+            {
+                "name": "product",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "myself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "shake",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "shake",
+        "foreign_keys": [
+            {
+                "column": "shake",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "less",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "student",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "chance"
+            }
+        ]
+    },
+    {
+        "name": "chance",
+        "columns": [
+            {
+                "name": "through",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "through",
+        "foreign_keys": [
+            {
+                "column": "through",
+                "references": "deal"
+            }
+        ]
+    }
+]

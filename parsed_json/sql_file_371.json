@@ -1,0 +1,127 @@
+[
+    {
+        "name": "recently",
+        "columns": [
+            {
+                "name": "nation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "institution",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nation",
+        "foreign_keys": [
+            {
+                "column": "nation",
+                "references": "run"
+            }
+        ]
+    },
+    {
+        "name": "run",
+        "columns": [
+            {
+                "name": "time",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "nor"
+            }
+        ]
+    },
+    {
+        "name": "nor",
+        "columns": [
+            {
+                "name": "pretty",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "discover",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "service",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pretty",
+        "foreign_keys": [
+            {
+                "column": "pretty",
+                "references": "again"
+            }
+        ]
+    },
+    {
+        "name": "again",
+        "columns": [
+            {
+                "name": "so",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "best"
+            }
+        ]
+    },
+    {
+        "name": "best",
+        "columns": [
+            {
+                "name": "politics",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "politics",
+        "foreign_keys": [
+            {
+                "column": "politics",
+                "references": "recently"
+            }
+        ]
+    }
+]

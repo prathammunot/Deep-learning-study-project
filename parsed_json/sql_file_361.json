@@ -1,0 +1,149 @@
+[
+    {
+        "name": "difficult",
+        "columns": [
+            {
+                "name": "election",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "election",
+        "foreign_keys": [
+            {
+                "column": "election",
+                "references": "lose"
+            }
+        ]
+    },
+    {
+        "name": "lose",
+        "columns": [
+            {
+                "name": "as",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "as",
+        "foreign_keys": [
+            {
+                "column": "as",
+                "references": "fact"
+            }
+        ]
+    },
+    {
+        "name": "fact",
+        "columns": [
+            {
+                "name": "teacher",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "teacher",
+        "foreign_keys": [
+            {
+                "column": "teacher",
+                "references": "senior"
+            }
+        ]
+    },
+    {
+        "name": "senior",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "perhaps",
+        "foreign_keys": [
+            {
+                "column": "perhaps",
+                "references": "board"
+            }
+        ]
+    },
+    {
+        "name": "board",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "difficult"
+            }
+        ]
+    }
+]

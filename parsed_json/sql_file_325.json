@@ -1,0 +1,127 @@
+[
+    {
+        "name": "whom",
+        "columns": [
+            {
+                "name": "parent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "service",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "parent",
+        "foreign_keys": [
+            {
+                "column": "parent",
+                "references": "operation"
+            }
+        ]
+    },
+    {
+        "name": "operation",
+        "columns": [
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "weight",
+        "foreign_keys": [
+            {
+                "column": "weight",
+                "references": "any"
+            }
+        ]
+    },
+    {
+        "name": "any",
+        "columns": [
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "describe"
+            }
+        ]
+    },
+    {
+        "name": "describe",
+        "columns": [
+            {
+                "name": "voice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "voice",
+        "foreign_keys": [
+            {
+                "column": "voice",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "whom"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "remain",
+        "columns": [
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "material",
+        "foreign_keys": [
+            {
+                "column": "material",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "which",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "wish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wish",
+        "foreign_keys": [
+            {
+                "column": "wish",
+                "references": "reach"
+            }
+        ]
+    },
+    {
+        "name": "reach",
+        "columns": [
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "range"
+            }
+        ]
+    },
+    {
+        "name": "range",
+        "columns": [
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "pull"
+            }
+        ]
+    },
+    {
+        "name": "pull",
+        "columns": [
+            {
+                "name": "property",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "property",
+        "foreign_keys": [
+            {
+                "column": "property",
+                "references": "author"
+            }
+        ]
+    },
+    {
+        "name": "author",
+        "columns": [
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "this",
+        "foreign_keys": [
+            {
+                "column": "this",
+                "references": "a"
+            }
+        ]
+    },
+    {
+        "name": "a",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "risk"
+            }
+        ]
+    },
+    {
+        "name": "risk",
+        "columns": [
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "remain"
+            }
+        ]
+    }
+]

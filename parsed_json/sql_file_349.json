@@ -1,0 +1,127 @@
+[
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "bring"
+            }
+        ]
+    },
+    {
+        "name": "bring",
+        "columns": [
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nor",
+        "foreign_keys": [
+            {
+                "column": "nor",
+                "references": "national"
+            }
+        ]
+    },
+    {
+        "name": "national",
+        "columns": [
+            {
+                "name": "close",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seek",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "close",
+        "foreign_keys": [
+            {
+                "column": "close",
+                "references": "science"
+            }
+        ]
+    },
+    {
+        "name": "science",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "system",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "again"
+            }
+        ]
+    },
+    {
+        "name": "again",
+        "columns": [
+            {
+                "name": "professional",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cover",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "professional",
+        "foreign_keys": [
+            {
+                "column": "professional",
+                "references": "everybody"
+            }
+        ]
+    }
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "structure"
+            }
+        ]
+    },
+    {
+        "name": "structure",
+        "columns": [
+            {
+                "name": "religious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "religious",
+        "foreign_keys": [
+            {
+                "column": "religious",
+                "references": "laugh"
+            }
+        ]
+    },
+    {
+        "name": "laugh",
+        "columns": [
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "fine"
+            }
+        ]
+    },
+    {
+        "name": "fine",
+        "columns": [
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "knowledge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "operation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "operation",
+        "foreign_keys": [
+            {
+                "column": "operation",
+                "references": "wish"
+            }
+        ]
+    },
+    {
+        "name": "wish",
+        "columns": [
+            {
+                "name": "put",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "put",
+        "foreign_keys": [
+            {
+                "column": "put",
+                "references": "dog"
+            }
+        ]
+    },
+    {
+        "name": "dog",
+        "columns": [
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "serious"
+            }
+        ]
+    },
+    {
+        "name": "serious",
+        "columns": [
+            {
+                "name": "degree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "degree",
+        "foreign_keys": [
+            {
+                "column": "degree",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "from",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "per",
+        "foreign_keys": [
+            {
+                "column": "per",
+                "references": "history"
+            }
+        ]
+    },
+    {
+        "name": "history",
+        "columns": [
+            {
+                "name": "sense",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sense",
+        "foreign_keys": [
+            {
+                "column": "sense",
+                "references": "task"
+            }
+        ]
+    },
+    {
+        "name": "task",
+        "columns": [
+            {
+                "name": "sense",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "only",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sense",
+        "foreign_keys": [
+            {
+                "column": "sense",
+                "references": "score"
+            }
+        ]
+    },
+    {
+        "name": "score",
+        "columns": [
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "how"
+            }
+        ]
+    }
+]

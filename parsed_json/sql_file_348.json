@@ -1,0 +1,296 @@
+[
+    {
+        "name": "either",
+        "columns": [
+            {
+                "name": "want",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "green",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "want",
+        "foreign_keys": [
+            {
+                "column": "want",
+                "references": "sure"
+            }
+        ]
+    },
+    {
+        "name": "sure",
+        "columns": [
+            {
+                "name": "do",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "do",
+        "foreign_keys": [
+            {
+                "column": "do",
+                "references": "base"
+            }
+        ]
+    },
+    {
+        "name": "base",
+        "columns": [
+            {
+                "name": "white",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "white",
+        "foreign_keys": [
+            {
+                "column": "white",
+                "references": "road"
+            }
+        ]
+    },
+    {
+        "name": "road",
+        "columns": [
+            {
+                "name": "less",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "full",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "full",
+        "foreign_keys": [
+            {
+                "column": "full",
+                "references": "data"
+            }
+        ]
+    },
+    {
+        "name": "data",
+        "columns": [
+            {
+                "name": "these",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "these",
+        "foreign_keys": [
+            {
+                "column": "these",
+                "references": "financial"
+            }
+        ]
+    },
+    {
+        "name": "financial",
+        "columns": [
+            {
+                "name": "but",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "figure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "but",
+        "foreign_keys": [
+            {
+                "column": "but",
+                "references": "can"
+            }
+        ]
+    },
+    {
+        "name": "can",
+        "columns": [
+            {
+                "name": "candidate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "candidate",
+        "foreign_keys": [
+            {
+                "column": "candidate",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "right"
+            }
+        ]
+    },
+    {
+        "name": "right",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "evening"
+            }
+        ]
+    },
+    {
+        "name": "evening",
+        "columns": [
+            {
+                "name": "speech",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "star",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "speech",
+        "foreign_keys": [
+            {
+                "column": "speech",
+                "references": "water"
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "columns": [
+            {
+                "name": "put",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "put",
+        "foreign_keys": [
+            {
+                "column": "put",
+                "references": "either"
+            }
+        ]
+    }
+]

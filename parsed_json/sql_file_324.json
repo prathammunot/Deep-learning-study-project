@@ -1,0 +1,198 @@
+[
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "big",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "summer"
+            }
+        ]
+    },
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "consumer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "consumer",
+        "foreign_keys": [
+            {
+                "column": "consumer",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "address",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "address",
+        "foreign_keys": [
+            {
+                "column": "address",
+                "references": "from"
+            }
+        ]
+    },
+    {
+        "name": "from",
+        "columns": [
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "what"
+            }
+        ]
+    },
+    {
+        "name": "what",
+        "columns": [
+            {
+                "name": "both",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "know",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "both",
+        "foreign_keys": [
+            {
+                "column": "both",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "discover",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "discover",
+        "foreign_keys": [
+            {
+                "column": "discover",
+                "references": "particular"
+            }
+        ]
+    },
+    {
+        "name": "particular",
+        "columns": [
+            {
+                "name": "idea",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "idea",
+        "foreign_keys": [
+            {
+                "column": "idea",
+                "references": "size"
+            }
+        ]
+    },
+    {
+        "name": "size",
+        "columns": [
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "break",
+        "foreign_keys": [
+            {
+                "column": "break",
+                "references": "floor"
+            }
+        ]
+    }
+]

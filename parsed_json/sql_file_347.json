@@ -1,0 +1,296 @@
+[
+    {
+        "name": "set",
+        "columns": [
+            {
+                "name": "member",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "member",
+        "foreign_keys": [
+            {
+                "column": "member",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "cause"
+            }
+        ]
+    },
+    {
+        "name": "cause",
+        "columns": [
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "message",
+        "foreign_keys": [
+            {
+                "column": "message",
+                "references": "add"
+            }
+        ]
+    },
+    {
+        "name": "add",
+        "columns": [
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "main",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "address",
+        "foreign_keys": [
+            {
+                "column": "address",
+                "references": "kitchen"
+            }
+        ]
+    },
+    {
+        "name": "kitchen",
+        "columns": [
+            {
+                "name": "five",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yes",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "five",
+        "foreign_keys": [
+            {
+                "column": "five",
+                "references": "your"
+            }
+        ]
+    },
+    {
+        "name": "your",
+        "columns": [
+            {
+                "name": "religious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "religious",
+        "foreign_keys": [
+            {
+                "column": "religious",
+                "references": "land"
+            }
+        ]
+    },
+    {
+        "name": "land",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "because",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "because",
+        "foreign_keys": [
+            {
+                "column": "because",
+                "references": "development"
+            }
+        ]
+    },
+    {
+        "name": "development",
+        "columns": [
+            {
+                "name": "no",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "middle"
+            }
+        ]
+    },
+    {
+        "name": "middle",
+        "columns": [
+            {
+                "name": "from",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "from",
+        "foreign_keys": [
+            {
+                "column": "from",
+                "references": "or"
+            }
+        ]
+    },
+    {
+        "name": "or",
+        "columns": [
+            {
+                "name": "lose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "decision",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lose",
+        "foreign_keys": [
+            {
+                "column": "lose",
+                "references": "summer"
+            }
+        ]
+    },
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "summer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "summer",
+        "foreign_keys": [
+            {
+                "column": "summer",
+                "references": "set"
+            }
+        ]
+    }
+]

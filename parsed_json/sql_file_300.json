@@ -1,0 +1,296 @@
+[
+    {
+        "name": "accept",
+        "columns": [
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "here",
+        "foreign_keys": [
+            {
+                "column": "here",
+                "references": "art"
+            }
+        ]
+    },
+    {
+        "name": "art",
+        "columns": [
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "report",
+        "foreign_keys": [
+            {
+                "column": "report",
+                "references": "majority"
+            }
+        ]
+    },
+    {
+        "name": "majority",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "analysis",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "drug",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "peace"
+            }
+        ]
+    },
+    {
+        "name": "peace",
+        "columns": [
+            {
+                "name": "write",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "write",
+        "foreign_keys": [
+            {
+                "column": "write",
+                "references": "huge"
+            }
+        ]
+    },
+    {
+        "name": "huge",
+        "columns": [
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "serious"
+            }
+        ]
+    },
+    {
+        "name": "serious",
+        "columns": [
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "while"
+            }
+        ]
+    },
+    {
+        "name": "while",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "instead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "determine"
+            }
+        ]
+    },
+    {
+        "name": "determine",
+        "columns": [
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "lay"
+            }
+        ]
+    },
+    {
+        "name": "lay",
+        "columns": [
+            {
+                "name": "particular",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "particular",
+        "foreign_keys": [
+            {
+                "column": "particular",
+                "references": "something"
+            }
+        ]
+    },
+    {
+        "name": "something",
+        "columns": [
+            {
+                "name": "form",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "form",
+        "foreign_keys": [
+            {
+                "column": "form",
+                "references": "actually"
+            }
+        ]
+    },
+    {
+        "name": "actually",
+        "columns": [
+            {
+                "name": "according",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "according",
+        "foreign_keys": [
+            {
+                "column": "according",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "test",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "test",
+        "foreign_keys": [
+            {
+                "column": "test",
+                "references": "accept"
+            }
+        ]
+    }
+]

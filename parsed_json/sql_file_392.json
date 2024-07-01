@@ -1,0 +1,296 @@
+[
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "past",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "arrive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "past",
+        "foreign_keys": [
+            {
+                "column": "past",
+                "references": "cold"
+            }
+        ]
+    },
+    {
+        "name": "cold",
+        "columns": [
+            {
+                "name": "model",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "some"
+            }
+        ]
+    },
+    {
+        "name": "some",
+        "columns": [
+            {
+                "name": "receive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "receive",
+        "foreign_keys": [
+            {
+                "column": "receive",
+                "references": "cover"
+            }
+        ]
+    },
+    {
+        "name": "cover",
+        "columns": [
+            {
+                "name": "drug",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drug",
+        "foreign_keys": [
+            {
+                "column": "drug",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "exist",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "true",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exist",
+        "foreign_keys": [
+            {
+                "column": "exist",
+                "references": "purpose"
+            }
+        ]
+    },
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "will",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "will",
+        "foreign_keys": [
+            {
+                "column": "will",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "pressure"
+            }
+        ]
+    },
+    {
+        "name": "pressure",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "big"
+            }
+        ]
+    },
+    {
+        "name": "big",
+        "columns": [
+            {
+                "name": "five",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "five",
+        "foreign_keys": [
+            {
+                "column": "five",
+                "references": "month"
+            }
+        ]
+    },
+    {
+        "name": "month",
+        "columns": [
+            {
+                "name": "family",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "family",
+        "foreign_keys": [
+            {
+                "column": "family",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "themselves",
+        "foreign_keys": [
+            {
+                "column": "themselves",
+                "references": "too"
+            }
+        ]
+    },
+    {
+        "name": "too",
+        "columns": [
+            {
+                "name": "bank",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "determine",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bank",
+        "foreign_keys": [
+            {
+                "column": "bank",
+                "references": "it"
+            }
+        ]
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "name": "color",
+        "columns": [
+            {
+                "name": "affect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "affect",
+        "foreign_keys": [
+            {
+                "column": "affect",
+                "references": "officer"
+            }
+        ]
+    },
+    {
+        "name": "officer",
+        "columns": [
+            {
+                "name": "away",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "away",
+        "foreign_keys": [
+            {
+                "column": "away",
+                "references": "tend"
+            }
+        ]
+    },
+    {
+        "name": "tend",
+        "columns": [
+            {
+                "name": "clear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "clear",
+        "foreign_keys": [
+            {
+                "column": "clear",
+                "references": "similar"
+            }
+        ]
+    },
+    {
+        "name": "similar",
+        "columns": [
+            {
+                "name": "cultural",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "offer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cultural",
+        "foreign_keys": [
+            {
+                "column": "cultural",
+                "references": "move"
+            }
+        ]
+    },
+    {
+        "name": "move",
+        "columns": [
+            {
+                "name": "total",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hotel",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "total",
+        "foreign_keys": [
+            {
+                "column": "total",
+                "references": "study"
+            }
+        ]
+    },
+    {
+        "name": "study",
+        "columns": [
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "color"
+            }
+        ]
+    }
+]

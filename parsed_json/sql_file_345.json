@@ -1,0 +1,225 @@
+[
+    {
+        "name": "continue",
+        "columns": [
+            {
+                "name": "throw",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "throw",
+        "foreign_keys": [
+            {
+                "column": "throw",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "find",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "past"
+            }
+        ]
+    },
+    {
+        "name": "past",
+        "columns": [
+            {
+                "name": "question",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "question",
+        "foreign_keys": [
+            {
+                "column": "question",
+                "references": "successful"
+            }
+        ]
+    },
+    {
+        "name": "successful",
+        "columns": [
+            {
+                "name": "artist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "artist",
+        "foreign_keys": [
+            {
+                "column": "artist",
+                "references": "society"
+            }
+        ]
+    },
+    {
+        "name": "society",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "Congress"
+            }
+        ]
+    },
+    {
+        "name": "Congress",
+        "columns": [
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "discover",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "same",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "same",
+        "foreign_keys": [
+            {
+                "column": "same",
+                "references": "business"
+            }
+        ]
+    },
+    {
+        "name": "business",
+        "columns": [
+            {
+                "name": "clear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "great",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "clear",
+        "foreign_keys": [
+            {
+                "column": "clear",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "economic",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "economic",
+        "foreign_keys": [
+            {
+                "column": "economic",
+                "references": "continue"
+            }
+        ]
+    }
+]

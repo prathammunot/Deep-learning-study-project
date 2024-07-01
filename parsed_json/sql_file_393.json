@@ -1,0 +1,149 @@
+[
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "road",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "road",
+        "foreign_keys": [
+            {
+                "column": "road",
+                "references": "cost"
+            }
+        ]
+    },
+    {
+        "name": "cost",
+        "columns": [
+            {
+                "name": "chair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "chair",
+        "foreign_keys": [
+            {
+                "column": "chair",
+                "references": "important"
+            }
+        ]
+    },
+    {
+        "name": "important",
+        "columns": [
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "accept",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rise",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "subject"
+            }
+        ]
+    },
+    {
+        "name": "subject",
+        "columns": [
+            {
+                "name": "actually",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "actually",
+        "foreign_keys": [
+            {
+                "column": "actually",
+                "references": "thought"
+            }
+        ]
+    },
+    {
+        "name": "thought",
+        "columns": [
+            {
+                "name": "even",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "even",
+        "foreign_keys": [
+            {
+                "column": "even",
+                "references": "within"
+            }
+        ]
+    },
+    {
+        "name": "within",
+        "columns": [
+            {
+                "name": "skin",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "skin",
+        "foreign_keys": [
+            {
+                "column": "skin",
+                "references": "really"
+            }
+        ]
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "name": "anything",
+        "columns": [
+            {
+                "name": "history",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "daughter"
+            }
+        ]
+    },
+    {
+        "name": "daughter",
+        "columns": [
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "both",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "positive",
+        "foreign_keys": [
+            {
+                "column": "positive",
+                "references": "boy"
+            }
+        ]
+    },
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "thank",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thank",
+        "foreign_keys": [
+            {
+                "column": "thank",
+                "references": "road"
+            }
+        ]
+    },
+    {
+        "name": "road",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "instead"
+            }
+        ]
+    },
+    {
+        "name": "instead",
+        "columns": [
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "concern",
+        "foreign_keys": [
+            {
+                "column": "concern",
+                "references": "method"
+            }
+        ]
+    },
+    {
+        "name": "method",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "anything"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "behind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "treatment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "behind",
+        "foreign_keys": [
+            {
+                "column": "behind",
+                "references": "gas"
+            }
+        ]
+    },
+    {
+        "name": "gas",
+        "columns": [
+            {
+                "name": "manage",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "manage",
+        "foreign_keys": [
+            {
+                "column": "manage",
+                "references": "democratic"
+            }
+        ]
+    },
+    {
+        "name": "democratic",
+        "columns": [
+            {
+                "name": "live",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "marriage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "live",
+        "foreign_keys": [
+            {
+                "column": "live",
+                "references": "space"
+            }
+        ]
+    },
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "myself"
+            }
+        ]
+    },
+    {
+        "name": "myself",
+        "columns": [
+            {
+                "name": "avoid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "avoid",
+        "foreign_keys": [
+            {
+                "column": "avoid",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "past",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "choice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "past",
+        "foreign_keys": [
+            {
+                "column": "past",
+                "references": "board"
+            }
+        ]
+    },
+    {
+        "name": "board",
+        "columns": [
+            {
+                "name": "director",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "note",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "director",
+        "foreign_keys": [
+            {
+                "column": "director",
+                "references": "mouth"
+            }
+        ]
+    }
+]

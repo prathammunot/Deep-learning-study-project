@@ -1,0 +1,149 @@
+[
+    {
+        "name": "happen",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "newspaper",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "scene",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "war"
+            }
+        ]
+    },
+    {
+        "name": "war",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "expect"
+            }
+        ]
+    },
+    {
+        "name": "expect",
+        "columns": [
+            {
+                "name": "sing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "job",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sing",
+        "foreign_keys": [
+            {
+                "column": "sing",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "stand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "specific",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "be",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stand",
+        "foreign_keys": [
+            {
+                "column": "stand",
+                "references": "down"
+            }
+        ]
+    },
+    {
+        "name": "down",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "scene",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "happen"
+            }
+        ]
+    }
+]

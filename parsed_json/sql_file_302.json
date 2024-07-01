@@ -1,0 +1,247 @@
+[
+    {
+        "name": "point",
+        "columns": [
+            {
+                "name": "bar",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bar",
+        "foreign_keys": [
+            {
+                "column": "bar",
+                "references": "head"
+            }
+        ]
+    },
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "class",
+        "foreign_keys": [
+            {
+                "column": "class",
+                "references": "half"
+            }
+        ]
+    },
+    {
+        "name": "half",
+        "columns": [
+            {
+                "name": "join",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "join",
+        "foreign_keys": [
+            {
+                "column": "join",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "important"
+            }
+        ]
+    },
+    {
+        "name": "important",
+        "columns": [
+            {
+                "name": "interview",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "interview",
+        "foreign_keys": [
+            {
+                "column": "interview",
+                "references": "dark"
+            }
+        ]
+    },
+    {
+        "name": "dark",
+        "columns": [
+            {
+                "name": "interesting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "knowledge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "interesting",
+        "foreign_keys": [
+            {
+                "column": "interesting",
+                "references": "sign"
+            }
+        ]
+    },
+    {
+        "name": "sign",
+        "columns": [
+            {
+                "name": "according",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "speech",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "according",
+        "foreign_keys": [
+            {
+                "column": "according",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "center"
+            }
+        ]
+    },
+    {
+        "name": "center",
+        "columns": [
+            {
+                "name": "president",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "president",
+        "foreign_keys": [
+            {
+                "column": "president",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "what",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "laugh",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "what",
+        "foreign_keys": [
+            {
+                "column": "what",
+                "references": "point"
+            }
+        ]
+    }
+]

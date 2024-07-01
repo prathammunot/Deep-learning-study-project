@@ -1,0 +1,225 @@
+[
+    {
+        "name": "son",
+        "columns": [
+            {
+                "name": "drop",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drop",
+        "foreign_keys": [
+            {
+                "column": "drop",
+                "references": "inside"
+            }
+        ]
+    },
+    {
+        "name": "inside",
+        "columns": [
+            {
+                "name": "production",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "production",
+        "foreign_keys": [
+            {
+                "column": "production",
+                "references": "ten"
+            }
+        ]
+    },
+    {
+        "name": "ten",
+        "columns": [
+            {
+                "name": "help",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "help",
+        "foreign_keys": [
+            {
+                "column": "help",
+                "references": "red"
+            }
+        ]
+    },
+    {
+        "name": "red",
+        "columns": [
+            {
+                "name": "society",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "society",
+        "foreign_keys": [
+            {
+                "column": "society",
+                "references": "same"
+            }
+        ]
+    },
+    {
+        "name": "same",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "can"
+            }
+        ]
+    },
+    {
+        "name": "can",
+        "columns": [
+            {
+                "name": "technology",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "technology",
+        "foreign_keys": [
+            {
+                "column": "technology",
+                "references": "ground"
+            }
+        ]
+    },
+    {
+        "name": "ground",
+        "columns": [
+            {
+                "name": "newspaper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "newspaper",
+        "foreign_keys": [
+            {
+                "column": "newspaper",
+                "references": "until"
+            }
+        ]
+    },
+    {
+        "name": "until",
+        "columns": [
+            {
+                "name": "employee",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "employee",
+        "foreign_keys": [
+            {
+                "column": "employee",
+                "references": "set"
+            }
+        ]
+    },
+    {
+        "name": "set",
+        "columns": [
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "son"
+            }
+        ]
+    }
+]

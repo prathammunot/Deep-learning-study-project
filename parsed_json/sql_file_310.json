@@ -1,0 +1,274 @@
+[
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "compare",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "lay"
+            }
+        ]
+    },
+    {
+        "name": "lay",
+        "columns": [
+            {
+                "name": "require",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "require",
+        "foreign_keys": [
+            {
+                "column": "require",
+                "references": "final"
+            }
+        ]
+    },
+    {
+        "name": "final",
+        "columns": [
+            {
+                "name": "enjoy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enjoy",
+        "foreign_keys": [
+            {
+                "column": "enjoy",
+                "references": "ahead"
+            }
+        ]
+    },
+    {
+        "name": "ahead",
+        "columns": [
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "real",
+        "foreign_keys": [
+            {
+                "column": "real",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "return",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "return",
+        "foreign_keys": [
+            {
+                "column": "return",
+                "references": "compare"
+            }
+        ]
+    },
+    {
+        "name": "compare",
+        "columns": [
+            {
+                "name": "focus",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "focus",
+        "foreign_keys": [
+            {
+                "column": "focus",
+                "references": "west"
+            }
+        ]
+    },
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "suddenly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suddenly",
+        "foreign_keys": [
+            {
+                "column": "suddenly",
+                "references": "happen"
+            }
+        ]
+    },
+    {
+        "name": "happen",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "less"
+            }
+        ]
+    },
+    {
+        "name": "less",
+        "columns": [
+            {
+                "name": "free",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "free",
+        "foreign_keys": [
+            {
+                "column": "free",
+                "references": "space"
+            }
+        ]
+    },
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "or",
+        "foreign_keys": [
+            {
+                "column": "or",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "phone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "debate"
+            }
+        ]
+    }
+]

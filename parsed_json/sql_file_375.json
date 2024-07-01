@@ -1,0 +1,198 @@
+[
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "create",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "create",
+        "foreign_keys": [
+            {
+                "column": "create",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "born",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "born",
+        "foreign_keys": [
+            {
+                "column": "born",
+                "references": "free"
+            }
+        ]
+    },
+    {
+        "name": "free",
+        "columns": [
+            {
+                "name": "power",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "power",
+        "foreign_keys": [
+            {
+                "column": "power",
+                "references": "develop"
+            }
+        ]
+    },
+    {
+        "name": "develop",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "born"
+            }
+        ]
+    },
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "store",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "store",
+        "foreign_keys": [
+            {
+                "column": "store",
+                "references": "up"
+            }
+        ]
+    },
+    {
+        "name": "up",
+        "columns": [
+            {
+                "name": "note",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "note",
+        "foreign_keys": [
+            {
+                "column": "note",
+                "references": "finally"
+            }
+        ]
+    },
+    {
+        "name": "finally",
+        "columns": [
+            {
+                "name": "into",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "into",
+        "foreign_keys": [
+            {
+                "column": "into",
+                "references": "fast"
+            }
+        ]
+    },
+    {
+        "name": "fast",
+        "columns": [
+            {
+                "name": "hear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hear",
+        "foreign_keys": [
+            {
+                "column": "hear",
+                "references": "house"
+            }
+        ]
+    }
+]

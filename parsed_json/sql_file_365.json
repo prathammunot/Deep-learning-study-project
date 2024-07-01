@@ -1,0 +1,149 @@
+[
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "language",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "artist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "language",
+        "foreign_keys": [
+            {
+                "column": "language",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "chair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "chair",
+        "foreign_keys": [
+            {
+                "column": "chair",
+                "references": "professor"
+            }
+        ]
+    },
+    {
+        "name": "professor",
+        "columns": [
+            {
+                "name": "analysis",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "strategy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "analysis",
+        "foreign_keys": [
+            {
+                "column": "analysis",
+                "references": "occur"
+            }
+        ]
+    },
+    {
+        "name": "occur",
+        "columns": [
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suggest",
+        "foreign_keys": [
+            {
+                "column": "suggest",
+                "references": "bill"
+            }
+        ]
+    },
+    {
+        "name": "bill",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "activity",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "office"
+            }
+        ]
+    },
+    {
+        "name": "office",
+        "columns": [
+            {
+                "name": "board",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "board",
+        "foreign_keys": [
+            {
+                "column": "board",
+                "references": "cut"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "they",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "they",
+        "foreign_keys": [
+            {
+                "column": "they",
+                "references": "class"
+            }
+        ]
+    },
+    {
+        "name": "class",
+        "columns": [
+            {
+                "name": "another",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "until",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "certainly"
+            }
+        ]
+    },
+    {
+        "name": "certainly",
+        "columns": [
+            {
+                "name": "expect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "successful",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "expect",
+        "foreign_keys": [
+            {
+                "column": "expect",
+                "references": "technology"
+            }
+        ]
+    },
+    {
+        "name": "technology",
+        "columns": [
+            {
+                "name": "stand",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stand",
+        "foreign_keys": [
+            {
+                "column": "stand",
+                "references": "may"
+            }
+        ]
+    },
+    {
+        "name": "may",
+        "columns": [
+            {
+                "name": "agency",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wonder",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "word",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agency",
+        "foreign_keys": [
+            {
+                "column": "agency",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "involve",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behavior",
+        "foreign_keys": [
+            {
+                "column": "behavior",
+                "references": "nearly"
+            }
+        ]
+    },
+    {
+        "name": "nearly",
+        "columns": [
+            {
+                "name": "hard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "guess",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discuss",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hard",
+        "foreign_keys": [
+            {
+                "column": "hard",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "off",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "teach"
+            }
+        ]
+    },
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "environmental",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mrs",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environmental",
+        "foreign_keys": [
+            {
+                "column": "environmental",
+                "references": "save"
+            }
+        ]
+    }
+]

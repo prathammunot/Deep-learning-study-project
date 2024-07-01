@@ -1,0 +1,149 @@
+[
+    {
+        "name": "second",
+        "columns": [
+            {
+                "name": "least",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "least",
+        "foreign_keys": [
+            {
+                "column": "least",
+                "references": "interest"
+            }
+        ]
+    },
+    {
+        "name": "interest",
+        "columns": [
+            {
+                "name": "science",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "room",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "science",
+        "foreign_keys": [
+            {
+                "column": "science",
+                "references": "then"
+            }
+        ]
+    },
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "I",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wall",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "I",
+        "foreign_keys": [
+            {
+                "column": "I",
+                "references": "forward"
+            }
+        ]
+    },
+    {
+        "name": "forward",
+        "columns": [
+            {
+                "name": "sometimes",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sometimes",
+        "foreign_keys": [
+            {
+                "column": "sometimes",
+                "references": "arrive"
+            }
+        ]
+    },
+    {
+        "name": "arrive",
+        "columns": [
+            {
+                "name": "meeting",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "meeting",
+        "foreign_keys": [
+            {
+                "column": "meeting",
+                "references": "everyone"
+            }
+        ]
+    },
+    {
+        "name": "everyone",
+        "columns": [
+            {
+                "name": "save",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "create",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "save",
+        "foreign_keys": [
+            {
+                "column": "save",
+                "references": "second"
+            }
+        ]
+    }
+]

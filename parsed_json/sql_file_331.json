@@ -1,0 +1,247 @@
+[
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "knowledge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nothing",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "knowledge",
+        "foreign_keys": [
+            {
+                "column": "knowledge",
+                "references": "along"
+            }
+        ]
+    },
+    {
+        "name": "along",
+        "columns": [
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "start",
+        "foreign_keys": [
+            {
+                "column": "start",
+                "references": "official"
+            }
+        ]
+    },
+    {
+        "name": "official",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "game",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "ago"
+            }
+        ]
+    },
+    {
+        "name": "ago",
+        "columns": [
+            {
+                "name": "including",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "including",
+        "foreign_keys": [
+            {
+                "column": "including",
+                "references": "walk"
+            }
+        ]
+    },
+    {
+        "name": "walk",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "maybe"
+            }
+        ]
+    },
+    {
+        "name": "maybe",
+        "columns": [
+            {
+                "name": "face",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "society",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "face",
+        "foreign_keys": [
+            {
+                "column": "face",
+                "references": "between"
+            }
+        ]
+    },
+    {
+        "name": "between",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "significant"
+            }
+        ]
+    },
+    {
+        "name": "significant",
+        "columns": [
+            {
+                "name": "few",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "few",
+        "foreign_keys": [
+            {
+                "column": "few",
+                "references": "them"
+            }
+        ]
+    },
+    {
+        "name": "them",
+        "columns": [
+            {
+                "name": "my",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "husband",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "my",
+        "foreign_keys": [
+            {
+                "column": "my",
+                "references": "ever"
+            }
+        ]
+    }
+]

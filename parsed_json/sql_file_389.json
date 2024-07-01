@@ -1,0 +1,176 @@
+[
+    {
+        "name": "hot",
+        "columns": [
+            {
+                "name": "evidence",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "evidence",
+        "foreign_keys": [
+            {
+                "column": "evidence",
+                "references": "authority"
+            }
+        ]
+    },
+    {
+        "name": "authority",
+        "columns": [
+            {
+                "name": "case",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "case",
+        "foreign_keys": [
+            {
+                "column": "case",
+                "references": "total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "and",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "peace",
+        "foreign_keys": [
+            {
+                "column": "peace",
+                "references": "high"
+            }
+        ]
+    },
+    {
+        "name": "high",
+        "columns": [
+            {
+                "name": "third",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "third",
+        "foreign_keys": [
+            {
+                "column": "third",
+                "references": "knowledge"
+            }
+        ]
+    },
+    {
+        "name": "knowledge",
+        "columns": [
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "model",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "senior"
+            }
+        ]
+    },
+    {
+        "name": "senior",
+        "columns": [
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "property",
+        "foreign_keys": [
+            {
+                "column": "property",
+                "references": "hot"
+            }
+        ]
+    }
+]

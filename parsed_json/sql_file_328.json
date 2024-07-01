@@ -1,0 +1,198 @@
+[
+    {
+        "name": "everyone",
+        "columns": [
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hotel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interesting",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "street",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "safe"
+            }
+        ]
+    },
+    {
+        "name": "safe",
+        "columns": [
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "dinner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dinner",
+        "foreign_keys": [
+            {
+                "column": "dinner",
+                "references": "so"
+            }
+        ]
+    },
+    {
+        "name": "so",
+        "columns": [
+            {
+                "name": "especially",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "especially",
+        "foreign_keys": [
+            {
+                "column": "especially",
+                "references": "meeting"
+            }
+        ]
+    },
+    {
+        "name": "meeting",
+        "columns": [
+            {
+                "name": "new",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "everyone"
+            }
+        ]
+    }
+]

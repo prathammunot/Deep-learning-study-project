@@ -1,0 +1,225 @@
+[
+    {
+        "name": "fall",
+        "columns": [
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "win",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "win",
+        "foreign_keys": [
+            {
+                "column": "win",
+                "references": "traditional"
+            }
+        ]
+    },
+    {
+        "name": "traditional",
+        "columns": [
+            {
+                "name": "soldier",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "work",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "soldier",
+        "foreign_keys": [
+            {
+                "column": "soldier",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "line",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "line",
+        "foreign_keys": [
+            {
+                "column": "line",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "different",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "different",
+        "foreign_keys": [
+            {
+                "column": "different",
+                "references": "effort"
+            }
+        ]
+    },
+    {
+        "name": "effort",
+        "columns": [
+            {
+                "name": "particularly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "particularly",
+        "foreign_keys": [
+            {
+                "column": "particularly",
+                "references": "nice"
+            }
+        ]
+    },
+    {
+        "name": "nice",
+        "columns": [
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "can",
+        "foreign_keys": [
+            {
+                "column": "can",
+                "references": "large"
+            }
+        ]
+    },
+    {
+        "name": "large",
+        "columns": [
+            {
+                "name": "itself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "itself",
+        "foreign_keys": [
+            {
+                "column": "itself",
+                "references": "a"
+            }
+        ]
+    },
+    {
+        "name": "a",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "fall"
+            }
+        ]
+    }
+]

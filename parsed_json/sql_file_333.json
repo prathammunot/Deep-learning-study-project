@@ -1,0 +1,176 @@
+[
+    {
+        "name": "interview",
+        "columns": [
+            {
+                "name": "PM",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "PM",
+        "foreign_keys": [
+            {
+                "column": "PM",
+                "references": "bank"
+            }
+        ]
+    },
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "reach"
+            }
+        ]
+    },
+    {
+        "name": "reach",
+        "columns": [
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cut",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "child",
+        "foreign_keys": [
+            {
+                "column": "child",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "group",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "door",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "group",
+        "foreign_keys": [
+            {
+                "column": "group",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "free",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "all"
+            }
+        ]
+    },
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "general",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "general",
+        "foreign_keys": [
+            {
+                "column": "general",
+                "references": "generation"
+            }
+        ]
+    },
+    {
+        "name": "generation",
+        "columns": [
+            {
+                "name": "price",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "interview"
+            }
+        ]
+    }
+]
