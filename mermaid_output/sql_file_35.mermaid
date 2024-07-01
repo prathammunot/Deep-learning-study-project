@@ -1,0 +1,34 @@
+erDiagram
+    before ||--o{ season : many
+    before {
+        DATE many
+        TEXT body
+        VARCHAR(50) enter
+    }
+    season ||--o{ arm : against
+    season {
+        VARCHAR(50) against
+        DATE head
+    }
+    arm ||--o{ later : myself
+    arm {
+        DATE myself
+        TEXT attorney
+        VARCHAR(50) type
+    }
+    later ||--o{ consider : happy
+    later {
+        VARCHAR(50) happy
+        DATE produce
+    }
+    consider ||--o{ heavy : paper
+    consider {
+        DATE paper
+        TEXT reduce
+        VARCHAR(50) commercial
+    }
+    heavy ||--o{ before : sure
+    heavy {
+        VARCHAR(50) sure
+        DATE evidence
+    }

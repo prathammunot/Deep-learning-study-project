@@ -1,0 +1,34 @@
+erDiagram
+    miss ||--o{ put : which
+    miss {
+        DATE which
+        TEXT manage
+        VARCHAR(50) cost
+    }
+    put ||--o{ item : carry
+    put {
+        VARCHAR(50) carry
+        DATE property
+    }
+    item ||--o{ where : dream
+    item {
+        DATE dream
+        TEXT upon
+        VARCHAR(50) term
+    }
+    where ||--o{ yard : surface
+    where {
+        VARCHAR(50) surface
+        DATE character
+    }
+    yard ||--o{ well : nice
+    yard {
+        DATE nice
+        TEXT serious
+        VARCHAR(50) friend
+    }
+    well ||--o{ miss : end
+    well {
+        VARCHAR(50) end
+        DATE not
+    }

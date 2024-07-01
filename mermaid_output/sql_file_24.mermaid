@@ -1,0 +1,34 @@
+erDiagram
+    section ||--o{ level : free
+    section {
+        DATE free
+        TEXT machine
+        VARCHAR(50) support
+    }
+    level ||--o{ trade : movie
+    level {
+        VARCHAR(50) movie
+        DATE director
+    }
+    trade ||--o{ song : place
+    trade {
+        DATE place
+        TEXT age
+        VARCHAR(50) create
+    }
+    song ||--o{ guess : many
+    song {
+        VARCHAR(50) many
+        DATE up
+    }
+    guess ||--o{ task : exactly
+    guess {
+        DATE exactly
+        TEXT job
+        VARCHAR(50) hard
+    }
+    task ||--o{ section : painting
+    task {
+        VARCHAR(50) painting
+        DATE some
+    }

@@ -1,0 +1,67 @@
+erDiagram
+    arm ||--o{ product : area
+    arm {
+        DATE area
+        TEXT figure
+        VARCHAR(50) support
+    }
+    product ||--o{ use : make
+    product {
+        VARCHAR(50) make
+        DATE notice
+    }
+    use ||--o{ man : see
+    use {
+        DATE see
+        TEXT natural
+        VARCHAR(50) house
+    }
+    man ||--o{ capital : total
+    man {
+        VARCHAR(50) total
+        DATE apply
+    }
+    capital ||--o{ staff : environment
+    capital {
+        DATE environment
+        TEXT generation
+        VARCHAR(50) travel
+    }
+    staff ||--o{ much : democratic
+    staff {
+        VARCHAR(50) democratic
+        DATE protect
+    }
+    much ||--o{ wonder : response
+    much {
+        DATE response
+        TEXT ability
+        VARCHAR(50) get
+    }
+    wonder ||--o{ message : try
+    wonder {
+        VARCHAR(50) try
+        DATE Mrs
+    }
+    message ||--o{ house : else
+    message {
+        DATE else
+        TEXT medical
+        VARCHAR(50) charge
+    }
+    house ||--o{ offer : cut
+    house {
+        VARCHAR(50) cut
+        DATE accept
+    }
+    offer ||--o{ why : hard
+    offer {
+        DATE hard
+        TEXT these
+        VARCHAR(50) politics
+    }
+    why ||--o{ arm : pay
+    why {
+        VARCHAR(50) pay
+        DATE late
+    }

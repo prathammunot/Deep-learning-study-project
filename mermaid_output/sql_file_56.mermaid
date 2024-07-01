@@ -1,0 +1,34 @@
+erDiagram
+    start ||--o{ meet : one
+    start {
+        DATE one
+        TEXT amount
+        VARCHAR(50) machine
+    }
+    meet ||--o{ weight : race
+    meet {
+        VARCHAR(50) race
+        DATE deep
+    }
+    weight ||--o{ culture : whom
+    weight {
+        DATE whom
+        TEXT act
+        VARCHAR(50) remain
+    }
+    culture ||--o{ brother : carry
+    culture {
+        VARCHAR(50) carry
+        DATE direction
+    }
+    brother ||--o{ student : benefit
+    brother {
+        DATE benefit
+        TEXT find
+        VARCHAR(50) picture
+    }
+    student ||--o{ start : dog
+    student {
+        VARCHAR(50) dog
+        DATE new
+    }

@@ -1,0 +1,34 @@
+erDiagram
+    collection ||--o{ recently : human
+    collection {
+        DATE human
+        TEXT population
+        VARCHAR(50) treatment
+    }
+    recently ||--o{ significant : increase
+    recently {
+        VARCHAR(50) increase
+        DATE charge
+    }
+    significant ||--o{ interesting : reveal
+    significant {
+        DATE reveal
+        TEXT into
+        VARCHAR(50) little
+    }
+    interesting ||--o{ day : system
+    interesting {
+        VARCHAR(50) system
+        DATE cut
+    }
+    day ||--o{ mention : wait
+    day {
+        DATE wait
+        TEXT who
+        VARCHAR(50) account
+    }
+    mention ||--o{ collection : participant
+    mention {
+        VARCHAR(50) participant
+        DATE wrong
+    }

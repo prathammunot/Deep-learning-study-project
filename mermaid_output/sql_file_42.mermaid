@@ -1,0 +1,56 @@
+erDiagram
+    number ||--o{ Congress : hot
+    number {
+        DATE hot
+        TEXT town
+        VARCHAR(50) run
+    }
+    Congress ||--o{ bad : investment
+    Congress {
+        VARCHAR(50) investment
+        DATE where
+    }
+    bad ||--o{ personal : like
+    bad {
+        DATE like
+        TEXT none
+        VARCHAR(50) election
+    }
+    personal ||--o{ bad : expert
+    personal {
+        VARCHAR(50) expert
+        DATE recently
+    }
+    bad ||--o{ operation : since
+    bad {
+        DATE since
+        TEXT focus
+        VARCHAR(50) theory
+    }
+    operation ||--o{ authority : never
+    operation {
+        VARCHAR(50) never
+        DATE piece
+    }
+    authority ||--o{ model : decide
+    authority {
+        DATE decide
+        TEXT single
+        VARCHAR(50) stand
+    }
+    model ||--o{ star : water
+    model {
+        VARCHAR(50) water
+        DATE conference
+    }
+    star ||--o{ usually : fact
+    star {
+        DATE fact
+        TEXT board
+        VARCHAR(50) season
+    }
+    usually ||--o{ number : yard
+    usually {
+        VARCHAR(50) yard
+        DATE late
+    }

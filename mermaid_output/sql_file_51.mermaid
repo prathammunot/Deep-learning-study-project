@@ -1,0 +1,56 @@
+erDiagram
+    manager ||--o{ scientist : draw
+    manager {
+        DATE draw
+        TEXT central
+        VARCHAR(50) huge
+    }
+    scientist ||--o{ everything : that
+    scientist {
+        VARCHAR(50) that
+        DATE coach
+    }
+    everything ||--o{ point : follow
+    everything {
+        DATE follow
+        TEXT building
+        VARCHAR(50) all
+    }
+    point ||--o{ line : sport
+    point {
+        VARCHAR(50) sport
+        DATE bill
+    }
+    line ||--o{ stage : picture
+    line {
+        DATE picture
+        TEXT economic
+        VARCHAR(50) nor
+    }
+    stage ||--o{ course : receive
+    stage {
+        VARCHAR(50) receive
+        DATE likely
+    }
+    course ||--o{ beautiful : beat
+    course {
+        DATE beat
+        TEXT often
+        VARCHAR(50) role
+    }
+    beautiful ||--o{ image : final
+    beautiful {
+        VARCHAR(50) final
+        DATE free
+    }
+    image ||--o{ doctor : unit
+    image {
+        DATE unit
+        TEXT action
+        VARCHAR(50) wear
+    }
+    doctor ||--o{ manager : option
+    doctor {
+        VARCHAR(50) option
+        DATE their
+    }

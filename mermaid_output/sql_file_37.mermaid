@@ -1,0 +1,45 @@
+erDiagram
+    customer ||--o{ note : property
+    customer {
+        DATE property
+        TEXT week
+        VARCHAR(50) weight
+    }
+    note ||--o{ forget : area
+    note {
+        VARCHAR(50) area
+        DATE market
+    }
+    forget ||--o{ cup : your
+    forget {
+        DATE your
+        TEXT city
+        VARCHAR(50) owner
+    }
+    cup ||--o{ necessary : arm
+    cup {
+        VARCHAR(50) arm
+        DATE since
+    }
+    necessary ||--o{ for : president
+    necessary {
+        DATE president
+        TEXT American
+        VARCHAR(50) us
+    }
+    for ||--o{ image : others
+    for {
+        VARCHAR(50) others
+        DATE tree
+    }
+    image ||--o{ stuff : nice
+    image {
+        DATE nice
+        TEXT within
+        VARCHAR(50) outside
+    }
+    stuff ||--o{ customer : industry
+    stuff {
+        VARCHAR(50) industry
+        DATE before
+    }

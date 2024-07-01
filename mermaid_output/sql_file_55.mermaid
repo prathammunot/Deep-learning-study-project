@@ -1,0 +1,56 @@
+erDiagram
+    purpose ||--o{ officer : pressure
+    purpose {
+        DATE pressure
+        TEXT control
+        VARCHAR(50) performance
+    }
+    officer ||--o{ professional : knowledge
+    officer {
+        VARCHAR(50) knowledge
+        DATE become
+    }
+    professional ||--o{ participant : require
+    professional {
+        DATE require
+        TEXT purpose
+        VARCHAR(50) charge
+    }
+    participant ||--o{ amount : less
+    participant {
+        VARCHAR(50) less
+        DATE actually
+    }
+    amount ||--o{ response : cold
+    amount {
+        DATE cold
+        TEXT evening
+        VARCHAR(50) they
+    }
+    response ||--o{ edge : coach
+    response {
+        VARCHAR(50) coach
+        DATE learn
+    }
+    edge ||--o{ develop : left
+    edge {
+        DATE left
+        TEXT learn
+        VARCHAR(50) account
+    }
+    develop ||--o{ security : wonder
+    develop {
+        VARCHAR(50) wonder
+        DATE approach
+    }
+    security ||--o{ form : candidate
+    security {
+        DATE candidate
+        TEXT serious
+        VARCHAR(50) task
+    }
+    form ||--o{ purpose : group
+    form {
+        VARCHAR(50) group
+        DATE just
+    }

@@ -1,0 +1,45 @@
+erDiagram
+    culture ||--o{ thing : believe
+    culture {
+        DATE believe
+        TEXT word
+        VARCHAR(50) likely
+    }
+    thing ||--o{ man : practice
+    thing {
+        VARCHAR(50) practice
+        DATE economy
+    }
+    man ||--o{ check : development
+    man {
+        DATE development
+        TEXT education
+        VARCHAR(50) war
+    }
+    check ||--o{ commercial : learn
+    check {
+        VARCHAR(50) learn
+        DATE station
+    }
+    commercial ||--o{ house : then
+    commercial {
+        DATE then
+        TEXT eye
+        VARCHAR(50) forward
+    }
+    house ||--o{ indeed : check
+    house {
+        VARCHAR(50) check
+        DATE ten
+    }
+    indeed ||--o{ impact : along
+    indeed {
+        DATE along
+        TEXT often
+        VARCHAR(50) past
+    }
+    impact ||--o{ culture : small
+    impact {
+        VARCHAR(50) small
+        DATE direction
+    }

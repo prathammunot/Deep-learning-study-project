@@ -1,0 +1,34 @@
+erDiagram
+    respond ||--o{ ball : word
+    respond {
+        DATE word
+        TEXT thank
+        VARCHAR(50) subject
+    }
+    ball ||--o{ meeting : cause
+    ball {
+        VARCHAR(50) cause
+        DATE speech
+    }
+    meeting ||--o{ employee : Congress
+    meeting {
+        DATE Congress
+        TEXT off
+        VARCHAR(50) audience
+    }
+    employee ||--o{ five : attorney
+    employee {
+        VARCHAR(50) attorney
+        DATE relationship
+    }
+    five ||--o{ talk : my
+    five {
+        DATE my
+        TEXT ask
+        VARCHAR(50) radio
+    }
+    talk ||--o{ respond : care
+    talk {
+        VARCHAR(50) care
+        DATE media
+    }

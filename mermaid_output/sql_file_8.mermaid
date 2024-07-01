@@ -1,0 +1,34 @@
+erDiagram
+    cover ||--o{ risk : others
+    cover {
+        DATE others
+        TEXT baby
+        VARCHAR(50) maybe
+    }
+    risk ||--o{ but : answer
+    risk {
+        VARCHAR(50) answer
+        DATE easy
+    }
+    but ||--o{ leg : from
+    but {
+        DATE from
+        TEXT special
+        VARCHAR(50) begin
+    }
+    leg ||--o{ camera : toward
+    leg {
+        VARCHAR(50) toward
+        DATE road
+    }
+    camera ||--o{ military : contain
+    camera {
+        DATE contain
+        TEXT cost
+        VARCHAR(50) billion
+    }
+    military ||--o{ cover : life
+    military {
+        VARCHAR(50) life
+        DATE happen
+    }

@@ -1,0 +1,51 @@
+erDiagram
+    hotel ||--o{ town : cup
+    hotel {
+        DATE cup
+        TEXT education
+        VARCHAR(50) break
+    }
+    town ||--o{ simple : television
+    town {
+        VARCHAR(50) television
+        DATE trade
+    }
+    simple ||--o{ thought : discover
+    simple {
+        DATE discover
+        TEXT behavior
+        VARCHAR(50) rate
+    }
+    thought ||--o{ goal : economic
+    thought {
+        VARCHAR(50) economic
+        DATE nice
+    }
+    goal ||--o{ vote : standard
+    goal {
+        DATE standard
+        TEXT million
+        VARCHAR(50) particular
+    }
+    vote ||--o{ government : baby
+    vote {
+        VARCHAR(50) baby
+        DATE thought
+    }
+    government ||--o{ garden : machine
+    government {
+        DATE machine
+        TEXT leader
+        VARCHAR(50) well
+    }
+    garden ||--o{ mind : so
+    garden {
+        VARCHAR(50) so
+        DATE away
+    }
+    mind ||--o{ hotel : draw
+    mind {
+        DATE draw
+        TEXT film
+        VARCHAR(50) brother
+    }
