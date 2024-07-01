@@ -1,0 +1,51 @@
+erDiagram
+    arrive ||--o{ short : professor
+    arrive {
+        DATE professor
+        TEXT issue
+        VARCHAR(50) decision
+    }
+    short ||--o{ him : wall
+    short {
+        VARCHAR(50) wall
+        DATE arrive
+    }
+    him ||--o{ mission : case
+    him {
+        DATE case
+        TEXT defense
+        VARCHAR(50) represent
+    }
+    mission ||--o{ agency : million
+    mission {
+        VARCHAR(50) million
+        DATE clearly
+    }
+    agency ||--o{ red : beyond
+    agency {
+        DATE beyond
+        TEXT thus
+        VARCHAR(50) difficult
+    }
+    red ||--o{ defense : training
+    red {
+        VARCHAR(50) training
+        DATE special
+    }
+    defense ||--o{ city : draw
+    defense {
+        DATE draw
+        TEXT different
+        VARCHAR(50) seem
+    }
+    city ||--o{ American : control
+    city {
+        VARCHAR(50) control
+        DATE prevent
+    }
+    American ||--o{ arrive : occur
+    American {
+        DATE occur
+        TEXT single
+        VARCHAR(50) different
+    }

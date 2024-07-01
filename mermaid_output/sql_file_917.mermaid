@@ -1,0 +1,29 @@
+erDiagram
+    institution ||--o{ both : management
+    institution {
+        DATE management
+        TEXT newspaper
+        VARCHAR(50) car
+    }
+    both ||--o{ capital : fast
+    both {
+        VARCHAR(50) fast
+        DATE under
+    }
+    capital ||--o{ cause : responsibility
+    capital {
+        DATE responsibility
+        TEXT think
+        VARCHAR(50) nothing
+    }
+    cause ||--o{ season : final
+    cause {
+        VARCHAR(50) final
+        DATE ahead
+    }
+    season ||--o{ institution : soldier
+    season {
+        DATE soldier
+        TEXT movie
+        VARCHAR(50) speak
+    }

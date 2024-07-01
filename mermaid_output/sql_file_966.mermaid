@@ -1,0 +1,28 @@
+erDiagram
+    science ||--o{ around : action
+    science {
+        DATE action
+        TEXT traditional
+        VARCHAR(50) party
+    }
+    around ||--o{ policy : marriage
+    around {
+        VARCHAR(50) marriage
+        DATE senior
+    }
+    policy ||--o{ professor : magazine
+    policy {
+        DATE magazine
+        TEXT culture
+        VARCHAR(50) nation
+    }
+    professor ||--o{ moment : foreign
+    professor {
+        DATE time
+    }
+    moment ||--o{ science : chance
+    moment {
+        DATE chance
+        TEXT nice
+        VARCHAR(50) police
+    }

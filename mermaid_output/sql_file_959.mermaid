@@ -1,0 +1,34 @@
+erDiagram
+    join ||--o{ state : win
+    join {
+        DATE win
+        TEXT throughout
+        VARCHAR(50) in
+    }
+    state ||--o{ always : create
+    state {
+        VARCHAR(50) create
+        DATE position
+    }
+    always ||--o{ its : think
+    always {
+        DATE think
+        TEXT instead
+        VARCHAR(50) process
+    }
+    its ||--o{ visit : nice
+    its {
+        VARCHAR(50) nice
+        DATE whether
+    }
+    visit ||--o{ own : around
+    visit {
+        DATE around
+        TEXT where
+        VARCHAR(50) right
+    }
+    own ||--o{ join : suffer
+    own {
+        VARCHAR(50) suffer
+        DATE many
+    }

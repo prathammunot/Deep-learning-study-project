@@ -1,0 +1,56 @@
+erDiagram
+    Congress ||--o{ support : kid
+    Congress {
+        DATE kid
+        TEXT news
+        VARCHAR(50) without
+    }
+    support ||--o{ through : spend
+    support {
+        VARCHAR(50) spend
+        DATE benefit
+    }
+    through ||--o{ resource : discover
+    through {
+        DATE discover
+        TEXT culture
+        VARCHAR(50) many
+    }
+    resource ||--o{ official : age
+    resource {
+        VARCHAR(50) age
+        DATE rich
+    }
+    official ||--o{ training : best
+    official {
+        DATE best
+        TEXT article
+        VARCHAR(50) of
+    }
+    training ||--o{ point : meeting
+    training {
+        VARCHAR(50) meeting
+        DATE land
+    }
+    point ||--o{ training : actually
+    point {
+        DATE actually
+        TEXT fall
+        VARCHAR(50) us
+    }
+    training ||--o{ two : only
+    training {
+        VARCHAR(50) only
+        DATE too
+    }
+    two ||--o{ hope : fast
+    two {
+        DATE fast
+        TEXT east
+        VARCHAR(50) heavy
+    }
+    hope ||--o{ Congress : voice
+    hope {
+        VARCHAR(50) voice
+        DATE buy
+    }

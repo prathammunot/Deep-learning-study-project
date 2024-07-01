@@ -1,0 +1,55 @@
+erDiagram
+    relationship ||--o{ knowledge : however
+    relationship {
+        DATE however
+        TEXT fact
+        VARCHAR(50) thought
+    }
+    knowledge ||--o{ avoid : measure
+    knowledge {
+        VARCHAR(50) measure
+        DATE door
+    }
+    avoid ||--o{ drop : example
+    avoid {
+        DATE example
+        TEXT affect
+        VARCHAR(50) word
+    }
+    drop ||--o{ claim : gas
+    drop {
+        VARCHAR(50) gas
+        DATE factor
+    }
+    claim ||--o{ also : sea
+    claim {
+        DATE sea
+        TEXT adult
+        VARCHAR(50) treat
+    }
+    also ||--o{ return : foreign
+    also {
+        DATE million
+    }
+    return ||--o{ occur : author
+    return {
+        DATE author
+        TEXT share
+        VARCHAR(50) read
+    }
+    occur ||--o{ free : identify
+    occur {
+        VARCHAR(50) identify
+        DATE growth
+    }
+    free ||--o{ can : fight
+    free {
+        DATE fight
+        TEXT campaign
+        VARCHAR(50) other
+    }
+    can ||--o{ relationship : hope
+    can {
+        VARCHAR(50) hope
+        DATE south
+    }

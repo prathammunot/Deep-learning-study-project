@@ -1,0 +1,45 @@
+erDiagram
+    less ||--o{ relate : maybe
+    less {
+        DATE maybe
+        TEXT story
+        VARCHAR(50) not
+    }
+    relate ||--o{ light : next
+    relate {
+        VARCHAR(50) next
+        DATE this
+    }
+    light ||--o{ concern : just
+    light {
+        DATE just
+        TEXT plan
+        VARCHAR(50) take
+    }
+    concern ||--o{ staff : indeed
+    concern {
+        VARCHAR(50) indeed
+        DATE physical
+    }
+    staff ||--o{ end : any
+    staff {
+        DATE any
+        TEXT movement
+        VARCHAR(50) serve
+    }
+    end ||--o{ without : board
+    end {
+        VARCHAR(50) board
+        DATE minute
+    }
+    without ||--o{ couple : hand
+    without {
+        DATE hand
+        TEXT method
+        VARCHAR(50) first
+    }
+    couple ||--o{ less : everyone
+    couple {
+        VARCHAR(50) everyone
+        DATE tough
+    }

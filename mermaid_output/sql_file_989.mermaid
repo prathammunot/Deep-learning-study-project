@@ -1,0 +1,67 @@
+erDiagram
+    evening ||--o{ guess : include
+    evening {
+        DATE include
+        TEXT name
+        VARCHAR(50) money
+    }
+    guess ||--o{ save : fish
+    guess {
+        VARCHAR(50) fish
+        DATE continue
+    }
+    save ||--o{ ready : wonder
+    save {
+        DATE wonder
+        TEXT save
+        VARCHAR(50) film
+    }
+    ready ||--o{ beyond : room
+    ready {
+        VARCHAR(50) room
+        DATE wear
+    }
+    beyond ||--o{ opportunity : key
+    beyond {
+        DATE key
+        TEXT spend
+        VARCHAR(50) also
+    }
+    opportunity ||--o{ customer : memory
+    opportunity {
+        VARCHAR(50) memory
+        DATE mind
+    }
+    customer ||--o{ girl : thousand
+    customer {
+        DATE thousand
+        TEXT behind
+        VARCHAR(50) night
+    }
+    girl ||--o{ change : physical
+    girl {
+        VARCHAR(50) physical
+        DATE leave
+    }
+    change ||--o{ happy : true
+    change {
+        DATE true
+        TEXT total
+        VARCHAR(50) story
+    }
+    happy ||--o{ end : partner
+    happy {
+        VARCHAR(50) partner
+        DATE wife
+    }
+    end ||--o{ better : likely
+    end {
+        DATE likely
+        TEXT probably
+        VARCHAR(50) today
+    }
+    better ||--o{ evening : let
+    better {
+        VARCHAR(50) let
+        DATE early
+    }

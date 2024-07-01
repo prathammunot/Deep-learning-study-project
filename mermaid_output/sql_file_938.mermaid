@@ -1,0 +1,40 @@
+erDiagram
+    range ||--o{ then : whose
+    range {
+        DATE whose
+        TEXT morning
+        VARCHAR(50) plan
+    }
+    then ||--o{ man : someone
+    then {
+        VARCHAR(50) someone
+        DATE number
+    }
+    man ||--o{ discussion : natural
+    man {
+        DATE natural
+        TEXT deep
+        VARCHAR(50) best
+    }
+    discussion ||--o{ none : serious
+    discussion {
+        VARCHAR(50) serious
+        DATE above
+    }
+    none ||--o{ discussion : main
+    none {
+        DATE main
+        TEXT apply
+        VARCHAR(50) investment
+    }
+    discussion ||--o{ over : property
+    discussion {
+        VARCHAR(50) property
+        DATE better
+    }
+    over ||--o{ range : inside
+    over {
+        DATE inside
+        TEXT water
+        VARCHAR(50) occur
+    }

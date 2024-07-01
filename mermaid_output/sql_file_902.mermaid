@@ -1,0 +1,45 @@
+erDiagram
+    knowledge ||--o{ general : me
+    knowledge {
+        DATE me
+        TEXT region
+        VARCHAR(50) direction
+    }
+    general ||--o{ entire : behind
+    general {
+        VARCHAR(50) behind
+        DATE above
+    }
+    entire ||--o{ relate : type
+    entire {
+        DATE type
+        TEXT drug
+        VARCHAR(50) wall
+    }
+    relate ||--o{ save : marriage
+    relate {
+        VARCHAR(50) marriage
+        DATE speak
+    }
+    save ||--o{ me : like
+    save {
+        DATE like
+        TEXT there
+        VARCHAR(50) little
+    }
+    me ||--o{ industry : soon
+    me {
+        VARCHAR(50) soon
+        DATE carry
+    }
+    industry ||--o{ person : challenge
+    industry {
+        DATE challenge
+        TEXT everybody
+        VARCHAR(50) wait
+    }
+    person ||--o{ knowledge : realize
+    person {
+        VARCHAR(50) realize
+        DATE in
+    }

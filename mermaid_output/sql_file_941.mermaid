@@ -1,0 +1,29 @@
+erDiagram
+    paper ||--o{ manager : exactly
+    paper {
+        DATE exactly
+        TEXT man
+        VARCHAR(50) feeling
+    }
+    manager ||--o{ where : administration
+    manager {
+        VARCHAR(50) administration
+        DATE bring
+    }
+    where ||--o{ along : during
+    where {
+        DATE during
+        TEXT late
+        VARCHAR(50) around
+    }
+    along ||--o{ environmental : case
+    along {
+        VARCHAR(50) case
+        DATE himself
+    }
+    environmental ||--o{ paper : one
+    environmental {
+        DATE one
+        TEXT base
+        VARCHAR(50) number
+    }

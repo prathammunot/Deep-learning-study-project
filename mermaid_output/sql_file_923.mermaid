@@ -1,0 +1,45 @@
+erDiagram
+    issue ||--o{ end : per
+    issue {
+        DATE per
+        TEXT vote
+        VARCHAR(50) her
+    }
+    end ||--o{ save : pay
+    end {
+        VARCHAR(50) pay
+        DATE look
+    }
+    save ||--o{ bill : list
+    save {
+        DATE list
+        TEXT method
+        VARCHAR(50) along
+    }
+    bill ||--o{ law : writer
+    bill {
+        VARCHAR(50) writer
+        DATE prepare
+    }
+    law ||--o{ enjoy : any
+    law {
+        DATE any
+        TEXT conference
+        VARCHAR(50) economy
+    }
+    enjoy ||--o{ toward : body
+    enjoy {
+        VARCHAR(50) body
+        DATE hear
+    }
+    toward ||--o{ case : design
+    toward {
+        DATE design
+        TEXT between
+        VARCHAR(50) head
+    }
+    case ||--o{ issue : other
+    case {
+        VARCHAR(50) other
+        DATE game
+    }

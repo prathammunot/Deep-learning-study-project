@@ -1,0 +1,45 @@
+erDiagram
+    lay ||--o{ need : relationship
+    lay {
+        DATE relationship
+        TEXT pretty
+        VARCHAR(50) much
+    }
+    need ||--o{ institution : light
+    need {
+        VARCHAR(50) light
+        DATE paper
+    }
+    institution ||--o{ day : occur
+    institution {
+        DATE occur
+        TEXT score
+        VARCHAR(50) under
+    }
+    day ||--o{ once : edge
+    day {
+        VARCHAR(50) edge
+        DATE character
+    }
+    once ||--o{ section : challenge
+    once {
+        DATE challenge
+        TEXT out
+        VARCHAR(50) room
+    }
+    section ||--o{ require : how
+    section {
+        VARCHAR(50) how
+        DATE exactly
+    }
+    require ||--o{ speak : provide
+    require {
+        DATE provide
+        TEXT recent
+        VARCHAR(50) idea
+    }
+    speak ||--o{ lay : among
+    speak {
+        VARCHAR(50) among
+        DATE eight
+    }

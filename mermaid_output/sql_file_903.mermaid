@@ -1,0 +1,45 @@
+erDiagram
+    audience ||--o{ interesting : contain
+    audience {
+        DATE contain
+        TEXT surface
+        VARCHAR(50) hour
+    }
+    interesting ||--o{ push : effort
+    interesting {
+        VARCHAR(50) effort
+        DATE during
+    }
+    push ||--o{ door : brother
+    push {
+        DATE brother
+        TEXT last
+        VARCHAR(50) kitchen
+    }
+    door ||--o{ star : very
+    door {
+        VARCHAR(50) very
+        DATE trial
+    }
+    star ||--o{ far : difficult
+    star {
+        DATE difficult
+        TEXT past
+        VARCHAR(50) leg
+    }
+    far ||--o{ decide : woman
+    far {
+        VARCHAR(50) woman
+        DATE hospital
+    }
+    decide ||--o{ evening : mind
+    decide {
+        DATE mind
+        TEXT small
+        VARCHAR(50) member
+    }
+    evening ||--o{ audience : series
+    evening {
+        VARCHAR(50) series
+        DATE necessary
+    }

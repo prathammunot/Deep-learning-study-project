@@ -1,0 +1,51 @@
+erDiagram
+    road ||--o{ several : plan
+    road {
+        DATE plan
+        TEXT detail
+        VARCHAR(50) wish
+    }
+    several ||--o{ test : occur
+    several {
+        VARCHAR(50) occur
+        DATE meeting
+    }
+    test ||--o{ none : author
+    test {
+        DATE author
+        TEXT chair
+        VARCHAR(50) full
+    }
+    none ||--o{ better : remember
+    none {
+        VARCHAR(50) remember
+        DATE reach
+    }
+    better ||--o{ loss : always
+    better {
+        DATE always
+        TEXT sport
+        VARCHAR(50) more
+    }
+    loss ||--o{ evidence : much
+    loss {
+        VARCHAR(50) much
+        DATE education
+    }
+    evidence ||--o{ southern : cover
+    evidence {
+        DATE cover
+        TEXT change
+        VARCHAR(50) quickly
+    }
+    southern ||--o{ final : young
+    southern {
+        VARCHAR(50) young
+        DATE material
+    }
+    final ||--o{ road : performance
+    final {
+        DATE performance
+        TEXT responsibility
+        VARCHAR(50) someone
+    }

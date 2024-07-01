@@ -1,0 +1,34 @@
+erDiagram
+    support ||--o{ economy : visit
+    support {
+        DATE visit
+        TEXT green
+        VARCHAR(50) discuss
+    }
+    economy ||--o{ stage : get
+    economy {
+        VARCHAR(50) get
+        DATE surface
+    }
+    stage ||--o{ last : quite
+    stage {
+        DATE quite
+        TEXT back
+        VARCHAR(50) economy
+    }
+    last ||--o{ official : toward
+    last {
+        VARCHAR(50) toward
+        DATE argue
+    }
+    official ||--o{ city : sing
+    official {
+        DATE sing
+        TEXT claim
+        VARCHAR(50) how
+    }
+    city ||--o{ support : speak
+    city {
+        VARCHAR(50) speak
+        DATE measure
+    }

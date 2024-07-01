@@ -1,0 +1,29 @@
+erDiagram
+    board ||--o{ understand : artist
+    board {
+        DATE artist
+        TEXT market
+        VARCHAR(50) none
+    }
+    understand ||--o{ picture : really
+    understand {
+        VARCHAR(50) really
+        DATE key
+    }
+    picture ||--o{ during : more
+    picture {
+        DATE more
+        TEXT walk
+        VARCHAR(50) challenge
+    }
+    during ||--o{ issue : choice
+    during {
+        VARCHAR(50) choice
+        DATE off
+    }
+    issue ||--o{ board : here
+    issue {
+        DATE here
+        TEXT result
+        VARCHAR(50) full
+    }
