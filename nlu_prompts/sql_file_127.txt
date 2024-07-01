@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram32'.
+There is a table 'personal' with the columns 'teach' (DATE), 'network' (TEXT), 'four' (VARCHAR(50)). The primary key is 'teach'. 'personal' references another table 'political' in an exactly one to zero or many relationship. The relationship should be called 'teach'. 
+There is another table 'political' with the columns 'rather' (VARCHAR(50)), 'course' (DATE). The primary key is 'rather'. 'political' references another table 'meeting' in an exactly one to zero or many relationship. The relationship should be called 'rather'. 
+There is another table 'meeting' with the columns 'truth' (DATE), 'guess' (TEXT), 'political' (VARCHAR(50)). The primary key is 'truth'. 'meeting' references another table 'garden' in an exactly one to zero or many relationship. The relationship should be called 'truth'. 
+There is another table 'garden' with the columns 'prepare' (VARCHAR(50)), 'technology' (DATE). The primary key is 'prepare'. 'garden' references another table 'material' in an exactly one to zero or many relationship. The relationship should be called 'prepare'. 
+There is another table 'material' with the columns 'maybe' (DATE), 'focus' (TEXT), 'enough' (VARCHAR(50)). The primary key is 'maybe'. 'material' references another table 'give' in an exactly one to zero or many relationship. The relationship should be called 'maybe'. 
+There is another table 'give' with the columns 'feel' (VARCHAR(50)), 'lose' (DATE). The primary key is 'feel'. 'give' references another table 'commercial' in an exactly one to zero or many relationship. The relationship should be called 'feel'. 
+There is another table 'commercial' with the columns 'wife' (DATE), 'body' (TEXT), 'second' (VARCHAR(50)). The primary key is 'wife'. 'commercial' references another table 'personal' in an exactly one to zero or many relationship. The relationship should be called 'wife'. 
+

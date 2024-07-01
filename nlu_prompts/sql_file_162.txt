@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram71'.
+There is a table 'thousand' with the columns 'customer' (DATE), 'network' (TEXT), 'different' (VARCHAR(50)). The primary key is 'customer'. 'thousand' references another table 'gun' in an exactly one to zero or many relationship. The relationship should be called 'customer'. 
+There is another table 'gun' with the columns 'appear' (VARCHAR(50)), 'sense' (DATE). The primary key is 'appear'. 'gun' references another table 'mind' in an exactly one to zero or many relationship. The relationship should be called 'appear'. 
+There is another table 'mind' with the columns 'do' (DATE), 'quickly' (TEXT), 'the' (VARCHAR(50)). The primary key is 'do'. 'mind' references another table 'certainly' in an exactly one to zero or many relationship. The relationship should be called 'do'. 
+There is another table 'certainly' with the columns 'five' (VARCHAR(50)), 'million' (DATE). The primary key is 'five'. 'certainly' references another table 'call' in an exactly one to zero or many relationship. The relationship should be called 'five'. 
+There is another table 'call' with the columns 'though' (DATE), 'pressure' (TEXT), 'keep' (VARCHAR(50)). The primary key is 'though'. 'call' references another table 'very' in an exactly one to zero or many relationship. The relationship should be called 'though'. 
+There is another table 'very' with the columns 'enough' (VARCHAR(50)), 'box' (DATE). The primary key is 'enough'. 'very' references another table 'thousand' in an exactly one to zero or many relationship. The relationship should be called 'enough'. 
+

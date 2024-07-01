@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram27'.
+There is a table 'often' with the columns 'position' (DATE), 'actually' (TEXT), 'large' (VARCHAR(50)). The primary key is 'position'. 'often' references another table 'along' in an exactly one to zero or many relationship. The relationship should be called 'position'. 
+There is another table 'along' with the columns 'seek' (VARCHAR(50)), 'arrive' (DATE). The primary key is 'seek'. 'along' references another table 'dinner' in an exactly one to zero or many relationship. The relationship should be called 'seek'. 
+There is another table 'dinner' with the columns 'key' (DATE), 'will' (TEXT), 'better' (VARCHAR(50)). The primary key is 'key'. 'dinner' references another table 'few' in an exactly one to zero or many relationship. The relationship should be called 'key'. 
+There is another table 'few' with the columns 'right' (VARCHAR(50)), 'arm' (DATE). The primary key is 'right'. 'few' references another table 'discussion' in an exactly one to zero or many relationship. The relationship should be called 'right'. 
+There is another table 'discussion' with the columns 'thing' (DATE), 'always' (TEXT), 'seat' (VARCHAR(50)). The primary key is 'thing'. 'discussion' references another table 'machine' in an exactly one to zero or many relationship. The relationship should be called 'thing'. 
+There is another table 'machine' with the columns 'two' (VARCHAR(50)), 'girl' (DATE). The primary key is 'two'. 'machine' references another table 'even' in an exactly one to zero or many relationship. The relationship should be called 'two'. 
+There is another table 'even' with the columns 'over' (DATE), 'usually' (TEXT), 'plan' (VARCHAR(50)). The primary key is 'over'. 'even' references another table 'often' in an exactly one to zero or many relationship. The relationship should be called 'over'. 
+

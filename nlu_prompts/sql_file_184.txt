@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram95'.
+There is a table 'person' with the columns 'beyond' (DATE), 'attorney' (TEXT), 'spring' (VARCHAR(50)). The primary key is 'beyond'. 'person' references another table 'perform' in an exactly one to zero or many relationship. The relationship should be called 'beyond'. 
+There is another table 'perform' with the columns 'coach' (VARCHAR(50)), 'go' (DATE). The primary key is 'coach'. 'perform' references another table 'lawyer' in an exactly one to zero or many relationship. The relationship should be called 'coach'. 
+There is another table 'lawyer' with the columns 'sport' (DATE), 'serious' (TEXT), 'nothing' (VARCHAR(50)). The primary key is 'sport'. 'lawyer' references another table 'close' in an exactly one to zero or many relationship. The relationship should be called 'sport'. 
+There is another table 'close' with the columns 'build' (VARCHAR(50)), 'deal' (DATE). The primary key is 'build'. 'close' references another table 'wall' in an exactly one to zero or many relationship. The relationship should be called 'build'. 
+There is another table 'wall' with the columns 'floor' (DATE), 'military' (TEXT), 'spend' (VARCHAR(50)). The primary key is 'floor'. 'wall' references another table 'person' in an exactly one to zero or many relationship. The relationship should be called 'floor'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram76'.
+There is a table 'relationship' with the columns 'try' (DATE), 'white' (TEXT), 'often' (VARCHAR(50)). The primary key is 'try'. 'relationship' references another table 'international' in an exactly one to zero or many relationship. The relationship should be called 'try'. 
+There is another table 'international' with the columns 'song' (VARCHAR(50)), 'forget' (DATE). The primary key is 'song'. 'international' references another table 'project' in an exactly one to zero or many relationship. The relationship should be called 'song'. 
+There is another table 'project' with the columns 'by' (DATE), 'idea' (TEXT), 'others' (VARCHAR(50)). The primary key is 'by'. 'project' references another table 'college' in an exactly one to zero or many relationship. The relationship should be called 'by'. 
+There is another table 'college' with the columns 'early' (VARCHAR(50)), 'authority' (DATE). The primary key is 'early'. 'college' references another table 'drug' in an exactly one to zero or many relationship. The relationship should be called 'early'. 
+There is another table 'drug' with the columns 'off' (DATE), 'such' (TEXT), 'court' (VARCHAR(50)). The primary key is 'off'. 'drug' references another table 'garden' in an exactly one to zero or many relationship. The relationship should be called 'off'. 
+There is another table 'garden' with the columns 'within' (VARCHAR(50)), 'exactly' (DATE). The primary key is 'within'. 'garden' references another table 'box' in an exactly one to zero or many relationship. The relationship should be called 'within'. 
+There is another table 'box' with the columns 'analysis' (DATE), 'professor' (TEXT), 'PM' (VARCHAR(50)). The primary key is 'analysis'. 'box' references another table 'relationship' in an exactly one to zero or many relationship. The relationship should be called 'analysis'. 
+

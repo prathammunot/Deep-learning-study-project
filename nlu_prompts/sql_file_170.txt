@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram80'.
+There is a table 'east' with the columns 'about' (DATE), 'reality' (TEXT), 'again' (VARCHAR(50)). The primary key is 'about'. 'east' references another table 'anyone' in an exactly one to zero or many relationship. The relationship should be called 'about'. 
+There is another table 'anyone' with the columns 'garden' (VARCHAR(50)), 'city' (DATE). The primary key is 'garden'. 'anyone' references another table 'goal' in an exactly one to zero or many relationship. The relationship should be called 'garden'. 
+There is another table 'goal' with the columns 'real' (DATE), 'last' (TEXT), 'two' (VARCHAR(50)). The primary key is 'real'. 'goal' references another table 'however' in an exactly one to zero or many relationship. The relationship should be called 'real'. 
+There is another table 'however' with the columns 'price' (VARCHAR(50)), 'stock' (DATE). The primary key is 'price'. 'however' references another table 'by' in an exactly one to zero or many relationship. The relationship should be called 'price'. 
+There is another table 'by' with the columns 'or' (DATE), 'major' (TEXT), 'determine' (VARCHAR(50)). The primary key is 'or'. 'by' references another table 'east' in an exactly one to zero or many relationship. The relationship should be called 'or'. 
+

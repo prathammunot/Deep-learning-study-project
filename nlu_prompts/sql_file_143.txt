@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram50'.
+There is a table 'better' with the columns 'world' (DATE), 'generation' (TEXT), 'us' (VARCHAR(50)). The primary key is 'world'. 'better' references another table 'often' in an exactly one to zero or many relationship. The relationship should be called 'world'. 
+There is another table 'often' with the columns 'draw' (VARCHAR(50)), 'coach' (DATE). The primary key is 'draw'. 'often' references another table 'wish' in an exactly one to zero or many relationship. The relationship should be called 'draw'. 
+There is another table 'wish' with the columns 'grow' (DATE), 'talk' (TEXT), 'bag' (VARCHAR(50)). The primary key is 'grow'. 'wish' references another table 'forward' in an exactly one to zero or many relationship. The relationship should be called 'grow'. 
+There is another table 'forward' with the columns 'leader' (VARCHAR(50)), 'than' (DATE). The primary key is 'leader'. 'forward' references another table 'window' in an exactly one to zero or many relationship. The relationship should be called 'leader'. 
+There is another table 'window' with the columns 'memory' (DATE), 'beat' (TEXT), 'lawyer' (VARCHAR(50)). The primary key is 'memory'. 'window' references another table 'three' in an exactly one to zero or many relationship. The relationship should be called 'memory'. 
+There is another table 'three' with the columns 'toward' (VARCHAR(50)), 'skin' (DATE). The primary key is 'toward'. 'three' references another table 'better' in an exactly one to zero or many relationship. The relationship should be called 'toward'. 
+

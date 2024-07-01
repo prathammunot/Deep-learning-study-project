@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram28'.
+There is a table 'white' with the columns 'somebody' (DATE), 'yourself' (TEXT), 'ever' (VARCHAR(50)). The primary key is 'somebody'. 'white' references another table 'total' in an exactly one to zero or many relationship. The relationship should be called 'somebody'. 
+There is another table 'total' with the columns 'quickly' (VARCHAR(50)), 'spring' (DATE). The primary key is 'quickly'. 'total' references another table 'beat' in an exactly one to zero or many relationship. The relationship should be called 'quickly'. 
+There is another table 'beat' with the columns 'politics' (DATE), 'every' (TEXT), 'clear' (VARCHAR(50)). The primary key is 'politics'. 'beat' references another table 'admit' in an exactly one to zero or many relationship. The relationship should be called 'politics'. 
+There is another table 'admit' with the columns 'would' (VARCHAR(50)), 'light' (DATE). The primary key is 'would'. 'admit' references another table 'side' in an exactly one to zero or many relationship. The relationship should be called 'would'. 
+There is another table 'side' with the columns 'fear' (DATE), 'way' (TEXT), 'leg' (VARCHAR(50)). The primary key is 'fear'. 'side' references another table 'value' in an exactly one to zero or many relationship. The relationship should be called 'fear'. 
+There is another table 'value' with the columns 'mouth' (VARCHAR(50)), 'anything' (DATE). The primary key is 'mouth'. 'value' references another table 'name' in an exactly one to zero or many relationship. The relationship should be called 'mouth'. 
+There is another table 'name' with the columns 'enjoy' (DATE), 'fact' (TEXT), 'stage' (VARCHAR(50)). The primary key is 'enjoy'. 'name' references another table 'group' in an exactly one to zero or many relationship. The relationship should be called 'enjoy'. 
+There is another table 'group' with the columns 'ok' (VARCHAR(50)), 'pick' (DATE). The primary key is 'ok'. 'group' references another table 'know' in an exactly one to zero or many relationship. The relationship should be called 'ok'. 
+There is another table 'know' with the columns 'example' (DATE), 'school' (TEXT), 'fill' (VARCHAR(50)). The primary key is 'example'. 'know' references another table 'white' in an exactly one to zero or many relationship. The relationship should be called 'example'. 
+

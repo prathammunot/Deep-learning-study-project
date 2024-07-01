@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram31'.
+There is a table 'hair' with the columns 'so' (DATE), 'contain' (TEXT), 'bad' (VARCHAR(50)). The primary key is 'so'. 'hair' references another table 'wonder' in an exactly one to zero or many relationship. The relationship should be called 'so'. 
+There is another table 'wonder' with the columns 'expert' (VARCHAR(50)), 'them' (DATE). The primary key is 'expert'. 'wonder' references another table 'enter' in an exactly one to zero or many relationship. The relationship should be called 'expert'. 
+There is another table 'enter' with the columns 'lot' (DATE), 'alone' (TEXT), 'find' (VARCHAR(50)). The primary key is 'lot'. 'enter' references another table 'bit' in an exactly one to zero or many relationship. The relationship should be called 'lot'. 
+There is another table 'bit' with the columns 'star' (VARCHAR(50)), 'board' (DATE). The primary key is 'star'. 'bit' references another table 'support' in an exactly one to zero or many relationship. The relationship should be called 'star'. 
+There is another table 'support' with the columns 'fund' (DATE), 'song' (TEXT), 'their' (VARCHAR(50)). The primary key is 'fund'. 'support' references another table 'fire' in an exactly one to zero or many relationship. The relationship should be called 'fund'. 
+There is another table 'fire' with the columns 'hear' (VARCHAR(50)), 'agreement' (DATE). The primary key is 'hear'. 'fire' references another table 'spring' in an exactly one to zero or many relationship. The relationship should be called 'hear'. 
+There is another table 'spring' with the columns 'another' (DATE), 'house' (TEXT), 'least' (VARCHAR(50)). The primary key is 'another'. 'spring' references another table 'source' in an exactly one to zero or many relationship. The relationship should be called 'another'. 
+There is another table 'source' with the columns 'forward' (VARCHAR(50)), 'shake' (DATE). The primary key is 'forward'. 'source' references another table 'hair' in an exactly one to zero or many relationship. The relationship should be called 'forward'. 
+

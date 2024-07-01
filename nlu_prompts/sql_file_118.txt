@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram22'.
+There is a table 'reduce' with the columns 'good' (DATE), 'over' (TEXT), 'movement' (VARCHAR(50)). The primary key is 'good'. 'reduce' references another table 'then' in an exactly one to zero or many relationship. The relationship should be called 'good'. 
+There is another table 'then' with the columns 'change' (VARCHAR(50)), 'war' (DATE). The primary key is 'change'. 'then' references another table 'yet' in an exactly one to zero or many relationship. The relationship should be called 'change'. 
+There is another table 'yet' with the columns 'check' (DATE), 'area' (TEXT), 'player' (VARCHAR(50)). The primary key is 'check'. 'yet' references another table 'still' in an exactly one to zero or many relationship. The relationship should be called 'check'. 
+There is another table 'still' with the columns 'Mr' (VARCHAR(50)), 'she' (DATE). The primary key is 'Mr'. 'still' references another table 'himself' in an exactly one to zero or many relationship. The relationship should be called 'Mr'. 
+There is another table 'himself' with the columns 'message' (DATE), 'hope' (TEXT), 'leave' (VARCHAR(50)). The primary key is 'message'. 'himself' references another table 'reduce' in an exactly one to zero or many relationship. The relationship should be called 'message'. 
+

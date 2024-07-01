@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram20'.
+There is a table 'big' with the columns 'south' (DATE), 'development' (TEXT), 'most' (VARCHAR(50)). The primary key is 'south'. 'big' references another table 'about' in an exactly one to zero or many relationship. The relationship should be called 'south'. 
+There is another table 'about' with the columns 'drive' (VARCHAR(50)), 'morning' (DATE). The primary key is 'drive'. 'about' references another table 'present' in an exactly one to zero or many relationship. The relationship should be called 'drive'. 
+There is another table 'present' with the columns 'main' (DATE), 'by' (TEXT), 'future' (VARCHAR(50)). The primary key is 'main'. 'present' references another table 'much' in an exactly one to zero or many relationship. The relationship should be called 'main'. 
+There is another table 'much' with the columns 'bar' (VARCHAR(50)), 'senior' (DATE). The primary key is 'bar'. 'much' references another table 'serve' in an exactly one to zero or many relationship. The relationship should be called 'bar'. 
+There is another table 'serve' with the columns 'sea' (DATE), 'fast' (TEXT), 'idea' (VARCHAR(50)). The primary key is 'sea'. 'serve' references another table 'authority' in an exactly one to zero or many relationship. The relationship should be called 'sea'. 
+There is another table 'authority' with the columns 'child' (VARCHAR(50)), 'serve' (DATE). The primary key is 'child'. 'authority' references another table 'market' in an exactly one to zero or many relationship. The relationship should be called 'child'. 
+There is another table 'market' with the columns 'we' (DATE), 'response' (TEXT), 'real' (VARCHAR(50)). The primary key is 'we'. 'market' references another table 'big' in an exactly one to zero or many relationship. The relationship should be called 'we'. 
+

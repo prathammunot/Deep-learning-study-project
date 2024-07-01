@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram29'.
+There is a table 'day' with the columns 'tax' (DATE), 'get' (TEXT), 'your' (VARCHAR(50)). The primary key is 'tax'. 'day' references another table 'chair' in an exactly one to zero or many relationship. The relationship should be called 'tax'. 
+There is another table 'chair' with the columns 'various' (VARCHAR(50)), 'else' (DATE). The primary key is 'various'. 'chair' references another table 'director' in an exactly one to zero or many relationship. The relationship should be called 'various'. 
+There is another table 'director' with the columns 'catch' (DATE), 'back' (TEXT), 'sport' (VARCHAR(50)). The primary key is 'catch'. 'director' references another table 'tend' in an exactly one to zero or many relationship. The relationship should be called 'catch'. 
+There is another table 'tend' with the columns 'free' (VARCHAR(50)), 'political' (DATE). The primary key is 'free'. 'tend' references another table 'among' in an exactly one to zero or many relationship. The relationship should be called 'free'. 
+There is another table 'among' with the columns 'yeah' (DATE), 'record' (TEXT), 'offer' (VARCHAR(50)). The primary key is 'yeah'. 'among' references another table 'day' in an exactly one to zero or many relationship. The relationship should be called 'yeah'. 
+

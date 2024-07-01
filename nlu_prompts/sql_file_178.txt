@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram88'.
+There is a table 'including' with the columns 'because' (DATE), 'let' (TEXT), 'interview' (VARCHAR(50)). The primary key is 'because'. 'including' references another table 'discussion' in an exactly one to zero or many relationship. The relationship should be called 'because'. 
+There is another table 'discussion' with the columns 'business' (VARCHAR(50)), 'travel' (DATE). The primary key is 'business'. 'discussion' references another table 'others' in an exactly one to zero or many relationship. The relationship should be called 'business'. 
+There is another table 'others' with the columns 'color' (DATE), 'reason' (TEXT), 'end' (VARCHAR(50)). The primary key is 'color'. 'others' references another table 'cultural' in an exactly one to zero or many relationship. The relationship should be called 'color'. 
+There is another table 'cultural' with the columns 'represent' (VARCHAR(50)), 'arm' (DATE). The primary key is 'represent'. 'cultural' references another table 'this' in an exactly one to zero or many relationship. The relationship should be called 'represent'. 
+There is another table 'this' with the columns 'kid' (DATE), 'more' (TEXT), 'less' (VARCHAR(50)). The primary key is 'kid'. 'this' references another table 'sort' in an exactly one to zero or many relationship. The relationship should be called 'kid'. 
+There is another table 'sort' with the columns 'hot' (VARCHAR(50)), 'leave' (DATE). The primary key is 'hot'. 'sort' references another table 'heavy' in an exactly one to zero or many relationship. The relationship should be called 'hot'. 
+There is another table 'heavy' with the columns 'available' (DATE), 'list' (TEXT), 'wide' (VARCHAR(50)). The primary key is 'available'. 'heavy' references another table 'head' in an exactly one to zero or many relationship. The relationship should be called 'available'. 
+There is another table 'head' with the columns 'five' (VARCHAR(50)), 'kitchen' (DATE). The primary key is 'five'. 'head' references another table 'including' in an exactly one to zero or many relationship. The relationship should be called 'five'. 
+

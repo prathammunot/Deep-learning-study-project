@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram96'.
+There is a table 'culture' with the columns 'involve' (DATE), 'think' (TEXT), 'middle' (VARCHAR(50)). The primary key is 'involve'. 'culture' references another table 'option' in an exactly one to zero or many relationship. The relationship should be called 'involve'. 
+There is another table 'option' with the columns 'win' (VARCHAR(50)), 'reveal' (DATE). The primary key is 'win'. 'option' references another table 'pass' in an exactly one to zero or many relationship. The relationship should be called 'win'. 
+There is another table 'pass' with the columns 'long' (DATE), 'week' (TEXT), 'within' (VARCHAR(50)). The primary key is 'long'. 'pass' references another table 'story' in an exactly one to zero or many relationship. The relationship should be called 'long'. 
+There is another table 'story' with the columns 'cold' (VARCHAR(50)), 'natural' (DATE). The primary key is 'cold'. 'story' references another table 'care' in an exactly one to zero or many relationship. The relationship should be called 'cold'. 
+There is another table 'care' with the columns 'answer' (DATE), 'tax' (TEXT), 'plan' (VARCHAR(50)). The primary key is 'answer'. 'care' references another table 'beyond' in an exactly one to zero or many relationship. The relationship should be called 'answer'. 
+There is another table 'beyond' with the columns 'level' (VARCHAR(50)), 'beat' (DATE). The primary key is 'level'. 'beyond' references another table 'culture' in an exactly one to zero or many relationship. The relationship should be called 'level'. 
+

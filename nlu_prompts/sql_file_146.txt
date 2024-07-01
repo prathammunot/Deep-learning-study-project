@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram53'.
+There is a table 'challenge' with the columns 'sport' (DATE), 'anything' (TEXT), 'above' (VARCHAR(50)). The primary key is 'sport'. 'challenge' references another table 'surface' in an exactly one to zero or many relationship. The relationship should be called 'sport'. 
+There is another table 'surface' with the columns 'four' (VARCHAR(50)), 'cut' (DATE). The primary key is 'four'. 'surface' references another table 'spring' in an exactly one to zero or many relationship. The relationship should be called 'four'. 
+There is another table 'spring' with the columns 'policy' (DATE), 'buy' (TEXT), 'poor' (VARCHAR(50)). The primary key is 'policy'. 'spring' references another table 'condition' in an exactly one to zero or many relationship. The relationship should be called 'policy'. 
+There is another table 'condition' with the columns 'somebody' (VARCHAR(50)), 'method' (DATE). The primary key is 'somebody'. 'condition' references another table 'level' in an exactly one to zero or many relationship. The relationship should be called 'somebody'. 
+There is another table 'level' with the columns 'daughter' (DATE), 'table' (TEXT), 'ready' (VARCHAR(50)). The primary key is 'daughter'. 'level' references another table 'between' in an exactly one to zero or many relationship. The relationship should be called 'daughter'. 
+There is another table 'between' with the columns 'at' (VARCHAR(50)), 'grow' (DATE). The primary key is 'at'. 'between' references another table 'also' in an exactly one to zero or many relationship. The relationship should be called 'at'. 
+There is another table 'also' with the columns 'none' (DATE), 'face' (TEXT), 'long' (VARCHAR(50)). The primary key is 'none'. 'also' references another table 'challenge' in an exactly one to zero or many relationship. The relationship should be called 'none'. 
+

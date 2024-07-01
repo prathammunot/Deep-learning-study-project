@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram110'.
+There is a table 'source' with the columns 'rise' (DATE), 'lose' (TEXT), 'under' (VARCHAR(50)). The primary key is 'rise'. 'source' references another table 'herself' in an exactly one to zero or many relationship. The relationship should be called 'rise'. 
+There is another table 'herself' with the columns 'fine' (VARCHAR(50)), 'father' (DATE). The primary key is 'fine'. 'herself' references another table 'drive' in an exactly one to zero or many relationship. The relationship should be called 'fine'. 
+There is another table 'drive' with the columns 'talk' (DATE), 'beat' (TEXT), 'us' (VARCHAR(50)). The primary key is 'talk'. 'drive' references another table 'in' in an exactly one to zero or many relationship. The relationship should be called 'talk'. 
+There is another table 'in' with the columns 'reality' (VARCHAR(50)), 'career' (DATE). The primary key is 'reality'. 'in' references another table 'debate' in an exactly one to zero or many relationship. The relationship should be called 'reality'. 
+There is another table 'debate' with the columns 'buy' (DATE), 'research' (TEXT), 'similar' (VARCHAR(50)). The primary key is 'buy'. 'debate' references another table 'source' in an exactly one to zero or many relationship. The relationship should be called 'buy'. 
+

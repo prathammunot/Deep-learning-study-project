@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram44'.
+There is a table 'stand' with the columns 'read' (DATE), 'maintain' (TEXT), 'reflect' (VARCHAR(50)). The primary key is 'read'. 'stand' references another table 'outside' in an exactly one to zero or many relationship. The relationship should be called 'read'. 
+There is another table 'outside' with the columns 'threat' (VARCHAR(50)), 'require' (DATE). The primary key is 'threat'. 'outside' references another table 'north' in an exactly one to zero or many relationship. The relationship should be called 'threat'. 
+There is another table 'north' with the columns 'white' (DATE), 'institution' (TEXT), 'else' (VARCHAR(50)). The primary key is 'white'. 'north' references another table 'sea' in an exactly one to zero or many relationship. The relationship should be called 'white'. 
+There is another table 'sea' with the columns 'minute' (VARCHAR(50)), 'treat' (DATE). The primary key is 'minute'. 'sea' references another table 'morning' in an exactly one to zero or many relationship. The relationship should be called 'minute'. 
+There is another table 'morning' with the columns 'several' (DATE), 'front' (TEXT), 'speak' (VARCHAR(50)). The primary key is 'several'. 'morning' references another table 'perhaps' in an exactly one to zero or many relationship. The relationship should be called 'several'. 
+There is another table 'perhaps' with the columns 'represent' (VARCHAR(50)), 'plant' (DATE). The primary key is 'represent'. 'perhaps' references another table 'market' in an exactly one to zero or many relationship. The relationship should be called 'represent'. 
+There is another table 'market' with the columns 'hold' (DATE), 'according' (TEXT), 'politics' (VARCHAR(50)). The primary key is 'hold'. 'market' references another table 'stand' in an exactly one to zero or many relationship. The relationship should be called 'hold'. 
+

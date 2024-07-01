@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram81'.
+There is a table 'production' with the columns 'commercial' (DATE), 'treat' (TEXT), 'between' (VARCHAR(50)). The primary key is 'commercial'. 'production' references another table 'after' in an exactly one to zero or many relationship. The relationship should be called 'commercial'. 
+There is another table 'after' with the columns 'finally' (VARCHAR(50)), 'push' (DATE). The primary key is 'finally'. 'after' references another table 'area' in an exactly one to zero or many relationship. The relationship should be called 'finally'. 
+There is another table 'area' with the columns 'person' (DATE), 'look' (TEXT), 'when' (VARCHAR(50)). The primary key is 'person'. 'area' references another table 'happen' in an exactly one to zero or many relationship. The relationship should be called 'person'. 
+There is another table 'happen' with the columns 'public' (VARCHAR(50)), 'cultural' (DATE). The primary key is 'public'. 'happen' references another table 'half' in an exactly one to zero or many relationship. The relationship should be called 'public'. 
+There is another table 'half' with the columns 'hair' (DATE), 'set' (TEXT), 'method' (VARCHAR(50)). The primary key is 'hair'. 'half' references another table 'mean' in an exactly one to zero or many relationship. The relationship should be called 'hair'. 
+There is another table 'mean' with the columns 'when' (VARCHAR(50)), 'or' (DATE). The primary key is 'when'. 'mean' references another table 'network' in an exactly one to zero or many relationship. The relationship should be called 'when'. 
+There is another table 'network' with the columns 'morning' (DATE), 'another' (TEXT), 'often' (VARCHAR(50)). The primary key is 'morning'. 'network' references another table 'I' in an exactly one to zero or many relationship. The relationship should be called 'morning'. 
+There is another table 'I' with the columns 'rule' (VARCHAR(50)), 'data' (DATE). The primary key is 'rule'. 'I' references another table 'father' in an exactly one to zero or many relationship. The relationship should be called 'rule'. 
+There is another table 'father' with the columns 'for' (DATE), 'term' (TEXT), 'score' (VARCHAR(50)). The primary key is 'for'. 'father' references another table 'production' in an exactly one to zero or many relationship. The relationship should be called 'for'. 
+

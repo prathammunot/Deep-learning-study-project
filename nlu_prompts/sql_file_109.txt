@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram12'.
+There is a table 'alone' with the columns 'tonight' (DATE), 'anything' (TEXT), 'consumer' (VARCHAR(50)). The primary key is 'tonight'. 'alone' references another table 'tough' in an exactly one to zero or many relationship. The relationship should be called 'tonight'. 
+There is another table 'tough' with the columns 'design' (VARCHAR(50)), 'several' (DATE). The primary key is 'design'. 'tough' references another table 'college' in an exactly one to zero or many relationship. The relationship should be called 'design'. 
+There is another table 'college' with the columns 'main' (DATE), 'yet' (TEXT), 'live' (VARCHAR(50)). The primary key is 'main'. 'college' references another table 'we' in an exactly one to zero or many relationship. The relationship should be called 'main'. 
+There is another table 'we' with the columns 'newspaper' (VARCHAR(50)), 'reflect' (DATE). The primary key is 'newspaper'. 'we' references another table 'worry' in an exactly one to zero or many relationship. The relationship should be called 'newspaper'. 
+There is another table 'worry' with the columns 'final' (DATE), 'together' (TEXT), 'dream' (VARCHAR(50)). The primary key is 'final'. 'worry' references another table 'admit' in an exactly one to zero or many relationship. The relationship should be called 'final'. 
+There is another table 'admit' with the columns 'bed' (VARCHAR(50)), 'since' (DATE). The primary key is 'bed'. 'admit' references another table 'alone' in an exactly one to zero or many relationship. The relationship should be called 'bed'. 
+

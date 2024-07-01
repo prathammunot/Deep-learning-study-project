@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram26'.
+There is a table 'someone' with the columns 'father' (DATE), 'citizen' (TEXT), 'news' (VARCHAR(50)). The primary key is 'father'. 'someone' references another table 'pattern' in an exactly one to zero or many relationship. The relationship should be called 'father'. 
+There is another table 'pattern' with the columns 'place' (VARCHAR(50)), 'left' (DATE). The primary key is 'place'. 'pattern' references another table 'positive' in an exactly one to zero or many relationship. The relationship should be called 'place'. 
+There is another table 'positive' with the columns 'because' (DATE), 'develop' (TEXT), 'too' (VARCHAR(50)). The primary key is 'because'. 'positive' references another table 'some' in an exactly one to zero or many relationship. The relationship should be called 'because'. 
+There is another table 'some' with the columns 'term' (VARCHAR(50)), 'save' (DATE). The primary key is 'term'. 'some' references another table 'force' in an exactly one to zero or many relationship. The relationship should be called 'term'. 
+There is another table 'force' with the columns 'loss' (DATE), 'evening' (TEXT), 'child' (VARCHAR(50)). The primary key is 'loss'. 'force' references another table 'government' in an exactly one to zero or many relationship. The relationship should be called 'loss'. 
+There is another table 'government' with the columns 'early' (VARCHAR(50)), 'model' (DATE). The primary key is 'early'. 'government' references another table 'someone' in an exactly one to zero or many relationship. The relationship should be called 'early'. 
+

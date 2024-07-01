@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram48'.
+There is a table 'my' with the columns 'rate' (DATE), 'mind' (TEXT), 'million' (VARCHAR(50)). The primary key is 'rate'. 'my' references another table 'record' in an exactly one to zero or many relationship. The relationship should be called 'rate'. 
+There is another table 'record' with the columns 'draw' (VARCHAR(50)), 'bed' (DATE). The primary key is 'draw'. 'record' references another table 'off' in an exactly one to zero or many relationship. The relationship should be called 'draw'. 
+There is another table 'off' with the columns 'onto' (DATE), 'agree' (TEXT), 'not' (VARCHAR(50)). The primary key is 'onto'. 'off' references another table 'certain' in an exactly one to zero or many relationship. The relationship should be called 'onto'. 
+There is another table 'certain' with the columns 'different' (VARCHAR(50)), 'effect' (DATE). The primary key is 'different'. 'certain' references another table 'main' in an exactly one to zero or many relationship. The relationship should be called 'different'. 
+There is another table 'main' with the columns 'anyone' (DATE), 'happen' (TEXT), 'fly' (VARCHAR(50)). The primary key is 'anyone'. 'main' references another table 'understand' in an exactly one to zero or many relationship. The relationship should be called 'anyone'. 
+There is another table 'understand' with the columns 'woman' (VARCHAR(50)), 'consumer' (DATE). The primary key is 'woman'. 'understand' references another table 'usually' in an exactly one to zero or many relationship. The relationship should be called 'woman'. 
+There is another table 'usually' with the columns 'six' (DATE), 'now' (TEXT), 'much' (VARCHAR(50)). The primary key is 'six'. 'usually' references another table 'my' in an exactly one to zero or many relationship. The relationship should be called 'six'. 
+

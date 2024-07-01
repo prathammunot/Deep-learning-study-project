@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram11'.
+There is a table 'despite' with the columns 'less' (DATE), 'special' (TEXT), 'debate' (VARCHAR(50)). The primary key is 'less'. 'despite' references another table 'tend' in an exactly one to zero or many relationship. The relationship should be called 'less'. 
+There is another table 'tend' with the columns 'unit' (VARCHAR(50)), 'bed' (DATE). The primary key is 'unit'. 'tend' references another table 'ok' in an exactly one to zero or many relationship. The relationship should be called 'unit'. 
+There is another table 'ok' with the columns 'class' (DATE), 'participant' (TEXT), 'bed' (VARCHAR(50)). The primary key is 'class'. 'ok' references another table 'easy' in an exactly one to zero or many relationship. The relationship should be called 'class'. 
+There is another table 'easy' with the columns 'check' (VARCHAR(50)), 'audience' (DATE). The primary key is 'check'. 'easy' references another table 'particularly' in an exactly one to zero or many relationship. The relationship should be called 'check'. 
+There is another table 'particularly' with the columns 'participant' (DATE), 'among' (TEXT), 'relate' (VARCHAR(50)). The primary key is 'participant'. 'particularly' references another table 'building' in an exactly one to zero or many relationship. The relationship should be called 'participant'. 
+There is another table 'building' with the columns 'available' (VARCHAR(50)), 'positive' (DATE). The primary key is 'available'. 'building' references another table 'entire' in an exactly one to zero or many relationship. The relationship should be called 'available'. 
+There is another table 'entire' with the columns 'team' (DATE), 'put' (TEXT), 'manage' (VARCHAR(50)). The primary key is 'team'. 'entire' references another table 'call' in an exactly one to zero or many relationship. The relationship should be called 'team'. 
+There is another table 'call' with the columns 'person' (VARCHAR(50)), 'same' (DATE). The primary key is 'person'. 'call' references another table 'despite' in an exactly one to zero or many relationship. The relationship should be called 'person'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram3'.
+There is a table 'head' with the columns 'not' (DATE), 'line' (TEXT), 'soldier' (VARCHAR(50)). The primary key is 'not'. 'head' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'not'. 
+There is another table 'situation' with the columns 'own' (VARCHAR(50)), 'body' (DATE). The primary key is 'own'. 'situation' references another table 'call' in an exactly one to zero or many relationship. The relationship should be called 'own'. 
+There is another table 'call' with the columns 'once' (DATE), 'real' (TEXT), 'few' (VARCHAR(50)). The primary key is 'once'. 'call' references another table 'always' in an exactly one to zero or many relationship. The relationship should be called 'once'. 
+There is another table 'always' with the columns 'approach' (VARCHAR(50)), 'ever' (DATE). The primary key is 'approach'. 'always' references another table 'back' in an exactly one to zero or many relationship. The relationship should be called 'approach'. 
+There is another table 'back' with the columns 'since' (DATE), 'top' (TEXT), 'office' (VARCHAR(50)). The primary key is 'since'. 'back' references another table 'hand' in an exactly one to zero or many relationship. The relationship should be called 'since'. 
+There is another table 'hand' with the columns 'decision' (VARCHAR(50)), 'prove' (DATE). The primary key is 'decision'. 'hand' references another table 'single' in an exactly one to zero or many relationship. The relationship should be called 'decision'. 
+There is another table 'single' with the columns 'effect' (DATE), 'her' (TEXT), 'public' (VARCHAR(50)). The primary key is 'effect'. 'single' references another table 'leave' in an exactly one to zero or many relationship. The relationship should be called 'effect'. 
+There is another table 'leave' with the columns 'day' (VARCHAR(50)), 'international' (DATE). The primary key is 'day'. 'leave' references another table 'head' in an exactly one to zero or many relationship. The relationship should be called 'day'. 
+

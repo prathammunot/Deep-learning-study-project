@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram78'.
+There is a table 'fine' with the columns 'product' (DATE), 'color' (TEXT), 'prevent' (VARCHAR(50)). The primary key is 'product'. 'fine' references another table 'job' in an exactly one to zero or many relationship. The relationship should be called 'product'. 
+There is another table 'job' with the columns 'body' (VARCHAR(50)), 'prevent' (DATE). The primary key is 'body'. 'job' references another table 'chair' in an exactly one to zero or many relationship. The relationship should be called 'body'. 
+There is another table 'chair' with the columns 'offer' (DATE), 'cultural' (TEXT), 'common' (VARCHAR(50)). The primary key is 'offer'. 'chair' references another table 'discussion' in an exactly one to zero or many relationship. The relationship should be called 'offer'. 
+There is another table 'discussion' with the columns 'big' (VARCHAR(50)), 'fish' (DATE). The primary key is 'big'. 'discussion' references another table 'last' in an exactly one to zero or many relationship. The relationship should be called 'big'. 
+There is another table 'last' with the columns 'four' (TEXT), 'table' (VARCHAR(50)). The primary key is 'foreign'. 'last' references another table 'generation' in an exactly one to zero or many relationship. The relationship should be called 'foreign'. 
+There is another table 'generation' with the columns 'deep' (VARCHAR(50)), 'yourself' (DATE). The primary key is 'deep'. 'generation' references another table 'fine' in an exactly one to zero or many relationship. The relationship should be called 'deep'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram102'.
+There is a table 'very' with the columns 'yeah' (DATE), 'season' (TEXT), 'ground' (VARCHAR(50)). The primary key is 'yeah'. 'very' references another table 'herself' in an exactly one to zero or many relationship. The relationship should be called 'yeah'. 
+There is another table 'herself' with the columns 'subject' (VARCHAR(50)), 'reach' (DATE). The primary key is 'subject'. 'herself' references another table 'each' in an exactly one to zero or many relationship. The relationship should be called 'subject'. 
+There is another table 'each' with the columns 'bring' (DATE), 'trade' (TEXT), 'attorney' (VARCHAR(50)). The primary key is 'bring'. 'each' references another table 'heart' in an exactly one to zero or many relationship. The relationship should be called 'bring'. 
+There is another table 'heart' with the columns 'value' (VARCHAR(50)), 'about' (DATE). The primary key is 'value'. 'heart' references another table 'threat' in an exactly one to zero or many relationship. The relationship should be called 'value'. 
+There is another table 'threat' with the columns 'eat' (DATE), 'none' (TEXT), 'produce' (VARCHAR(50)). The primary key is 'eat'. 'threat' references another table 'very' in an exactly one to zero or many relationship. The relationship should be called 'eat'. 
+

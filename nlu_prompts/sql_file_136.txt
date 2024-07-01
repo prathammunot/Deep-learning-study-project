@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram42'.
+There is a table 'somebody' with the columns 'factor' (DATE), 'fill' (TEXT), 'beyond' (VARCHAR(50)). The primary key is 'factor'. 'somebody' references another table 'space' in an exactly one to zero or many relationship. The relationship should be called 'factor'. 
+There is another table 'space' with the columns 'shake' (VARCHAR(50)), 'quickly' (DATE). The primary key is 'shake'. 'space' references another table 'lead' in an exactly one to zero or many relationship. The relationship should be called 'shake'. 
+There is another table 'lead' with the columns 'join' (DATE), 'live' (TEXT), 'there' (VARCHAR(50)). The primary key is 'join'. 'lead' references another table 'all' in an exactly one to zero or many relationship. The relationship should be called 'join'. 
+There is another table 'all' with the columns 'mother' (VARCHAR(50)), 'case' (DATE). The primary key is 'mother'. 'all' references another table 'feeling' in an exactly one to zero or many relationship. The relationship should be called 'mother'. 
+There is another table 'feeling' with the columns 'goal' (DATE), 'by' (TEXT), 'pattern' (VARCHAR(50)). The primary key is 'goal'. 'feeling' references another table 'somebody' in an exactly one to zero or many relationship. The relationship should be called 'goal'. 
+

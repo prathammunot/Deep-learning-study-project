@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram77'.
+There is a table 'interesting' with the columns 'speech' (DATE), 'Democrat' (TEXT), 'capital' (VARCHAR(50)). The primary key is 'speech'. 'interesting' references another table 'yet' in an exactly one to zero or many relationship. The relationship should be called 'speech'. 
+There is another table 'yet' with the columns 'fight' (VARCHAR(50)), 'prove' (DATE). The primary key is 'fight'. 'yet' references another table 'dog' in an exactly one to zero or many relationship. The relationship should be called 'fight'. 
+There is another table 'dog' with the columns 'often' (DATE), 'left' (TEXT), 'per' (VARCHAR(50)). The primary key is 'often'. 'dog' references another table 'certain' in an exactly one to zero or many relationship. The relationship should be called 'often'. 
+There is another table 'certain' with the columns 'democratic' (VARCHAR(50)), 'growth' (DATE). The primary key is 'democratic'. 'certain' references another table 'store' in an exactly one to zero or many relationship. The relationship should be called 'democratic'. 
+There is another table 'store' with the columns 'mean' (DATE), 'camera' (TEXT), 'need' (VARCHAR(50)). The primary key is 'mean'. 'store' references another table 'sport' in an exactly one to zero or many relationship. The relationship should be called 'mean'. 
+There is another table 'sport' with the columns 'ability' (VARCHAR(50)), 'space' (DATE). The primary key is 'ability'. 'sport' references another table 'social' in an exactly one to zero or many relationship. The relationship should be called 'ability'. 
+There is another table 'social' with the columns 'former' (DATE), 'enter' (TEXT), 'style' (VARCHAR(50)). The primary key is 'former'. 'social' references another table 'who' in an exactly one to zero or many relationship. The relationship should be called 'former'. 
+There is another table 'who' with the columns 'war' (VARCHAR(50)), 'campaign' (DATE). The primary key is 'war'. 'who' references another table 'interesting' in an exactly one to zero or many relationship. The relationship should be called 'war'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram82'.
+There is a table 'stand' with the columns 'turn' (DATE), 'while' (TEXT), 'media' (VARCHAR(50)). The primary key is 'turn'. 'stand' references another table 'lead' in an exactly one to zero or many relationship. The relationship should be called 'turn'. 
+There is another table 'lead' with the columns 'drop' (VARCHAR(50)), 'beat' (DATE). The primary key is 'drop'. 'lead' references another table 'movement' in an exactly one to zero or many relationship. The relationship should be called 'drop'. 
+There is another table 'movement' with the columns 'individual' (DATE), 'while' (TEXT), 'continue' (VARCHAR(50)). The primary key is 'individual'. 'movement' references another table 'set' in an exactly one to zero or many relationship. The relationship should be called 'individual'. 
+There is another table 'set' with the columns 'draw' (VARCHAR(50)), 'option' (DATE). The primary key is 'draw'. 'set' references another table 'third' in an exactly one to zero or many relationship. The relationship should be called 'draw'. 
+There is another table 'third' with the columns 'development' (DATE), 'material' (TEXT), 'card' (VARCHAR(50)). The primary key is 'development'. 'third' references another table 'trial' in an exactly one to zero or many relationship. The relationship should be called 'development'. 
+There is another table 'trial' with the columns 'top' (VARCHAR(50)), 'thing' (DATE). The primary key is 'top'. 'trial' references another table 'race' in an exactly one to zero or many relationship. The relationship should be called 'top'. 
+There is another table 'race' with the columns 'fill' (DATE), 'away' (TEXT), 'start' (VARCHAR(50)). The primary key is 'fill'. 'race' references another table 'stand' in an exactly one to zero or many relationship. The relationship should be called 'fill'. 
+

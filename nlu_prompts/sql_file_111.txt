@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram15'.
+There is a table 'employee' with the columns 'list' (DATE), 'explain' (TEXT), 'term' (VARCHAR(50)). The primary key is 'list'. 'employee' references another table 'concern' in an exactly one to zero or many relationship. The relationship should be called 'list'. 
+There is another table 'concern' with the columns 'though' (VARCHAR(50)), 'early' (DATE). The primary key is 'though'. 'concern' references another table 'see' in an exactly one to zero or many relationship. The relationship should be called 'though'. 
+There is another table 'see' with the columns 'weight' (DATE), 'despite' (TEXT), 'would' (VARCHAR(50)). The primary key is 'weight'. 'see' references another table 'billion' in an exactly one to zero or many relationship. The relationship should be called 'weight'. 
+There is another table 'billion' with the columns 'wear' (VARCHAR(50)), 'peace' (DATE). The primary key is 'wear'. 'billion' references another table 'call' in an exactly one to zero or many relationship. The relationship should be called 'wear'. 
+There is another table 'call' with the columns 'admit' (DATE), 'nation' (TEXT), 'pattern' (VARCHAR(50)). The primary key is 'admit'. 'call' references another table 'near' in an exactly one to zero or many relationship. The relationship should be called 'admit'. 
+There is another table 'near' with the columns 'among' (VARCHAR(50)), 'me' (DATE). The primary key is 'among'. 'near' references another table 'employee' in an exactly one to zero or many relationship. The relationship should be called 'among'. 
+

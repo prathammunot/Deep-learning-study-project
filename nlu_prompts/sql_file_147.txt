@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram54'.
+There is a table 'so' with the columns 'rich' (DATE), 'education' (TEXT), 'program' (VARCHAR(50)). The primary key is 'rich'. 'so' references another table 'control' in an exactly one to zero or many relationship. The relationship should be called 'rich'. 
+There is another table 'control' with the columns 'history' (VARCHAR(50)), 'around' (DATE). The primary key is 'history'. 'control' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+There is another table 'early' with the columns 'today' (DATE), 'from' (TEXT), 'sort' (VARCHAR(50)). The primary key is 'today'. 'early' references another table 'remember' in an exactly one to zero or many relationship. The relationship should be called 'today'. 
+There is another table 'remember' with the columns 'hundred' (VARCHAR(50)), 'some' (DATE). The primary key is 'hundred'. 'remember' references another table 'perform' in an exactly one to zero or many relationship. The relationship should be called 'hundred'. 
+There is another table 'perform' with the columns 'former' (DATE), 'face' (TEXT), 'through' (VARCHAR(50)). The primary key is 'former'. 'perform' references another table 'group' in an exactly one to zero or many relationship. The relationship should be called 'former'. 
+There is another table 'group' with the columns 'figure' (VARCHAR(50)), 'instead' (DATE). The primary key is 'figure'. 'group' references another table 'every' in an exactly one to zero or many relationship. The relationship should be called 'figure'. 
+There is another table 'every' with the columns 'generation' (DATE), 'set' (TEXT), 'thought' (VARCHAR(50)). The primary key is 'generation'. 'every' references another table 'so' in an exactly one to zero or many relationship. The relationship should be called 'generation'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram52'.
+There is a table 'wish' with the columns 'cell' (DATE), 'his' (TEXT), 'movie' (VARCHAR(50)). The primary key is 'cell'. 'wish' references another table 'Mrs' in an exactly one to zero or many relationship. The relationship should be called 'cell'. 
+There is another table 'Mrs' with the columns 'fall' (VARCHAR(50)), 'dream' (DATE). The primary key is 'fall'. 'Mrs' references another table 'focus' in an exactly one to zero or many relationship. The relationship should be called 'fall'. 
+There is another table 'focus' with the columns 'wall' (DATE), 'bar' (TEXT), 'fire' (VARCHAR(50)). The primary key is 'wall'. 'focus' references another table 'recent' in an exactly one to zero or many relationship. The relationship should be called 'wall'. 
+There is another table 'recent' with the columns 'century' (VARCHAR(50)), 'save' (DATE). The primary key is 'century'. 'recent' references another table 'property' in an exactly one to zero or many relationship. The relationship should be called 'century'. 
+There is another table 'property' with the columns 'she' (DATE), 'job' (TEXT), 'themselves' (VARCHAR(50)). The primary key is 'she'. 'property' references another table 'training' in an exactly one to zero or many relationship. The relationship should be called 'she'. 
+There is another table 'training' with the columns 'court' (VARCHAR(50)), 'half' (DATE). The primary key is 'court'. 'training' references another table 'major' in an exactly one to zero or many relationship. The relationship should be called 'court'. 
+There is another table 'major' with the columns 'push' (DATE), 'let' (TEXT), 'professor' (VARCHAR(50)). The primary key is 'push'. 'major' references another table 'drop' in an exactly one to zero or many relationship. The relationship should be called 'push'. 
+There is another table 'drop' with the columns 'network' (VARCHAR(50)), 'strategy' (DATE). The primary key is 'network'. 'drop' references another table 'wish' in an exactly one to zero or many relationship. The relationship should be called 'network'. 
+

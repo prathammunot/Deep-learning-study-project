@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram18'.
+There is a table 'behavior' with the columns 'after' (DATE), 'answer' (TEXT), 'policy' (VARCHAR(50)). The primary key is 'after'. 'behavior' references another table 'ball' in an exactly one to zero or many relationship. The relationship should be called 'after'. 
+There is another table 'ball' with the columns 'money' (VARCHAR(50)), 'mission' (DATE). The primary key is 'money'. 'ball' references another table 'turn' in an exactly one to zero or many relationship. The relationship should be called 'money'. 
+There is another table 'turn' with the columns 'compare' (DATE), 'fire' (TEXT), 'operation' (VARCHAR(50)). The primary key is 'compare'. 'turn' references another table 'long' in an exactly one to zero or many relationship. The relationship should be called 'compare'. 
+There is another table 'long' with the columns 'hair' (VARCHAR(50)), 'create' (DATE). The primary key is 'hair'. 'long' references another table 'turn' in an exactly one to zero or many relationship. The relationship should be called 'hair'. 
+There is another table 'turn' with the columns 'onto' (DATE), 'economy' (TEXT), 'identify' (VARCHAR(50)). The primary key is 'onto'. 'turn' references another table 'doctor' in an exactly one to zero or many relationship. The relationship should be called 'onto'. 
+There is another table 'doctor' with the columns 'resource' (VARCHAR(50)), 'claim' (DATE). The primary key is 'resource'. 'doctor' references another table 'hit' in an exactly one to zero or many relationship. The relationship should be called 'resource'. 
+There is another table 'hit' with the columns 'relate' (DATE), 'industry' (TEXT), 'per' (VARCHAR(50)). The primary key is 'relate'. 'hit' references another table 'plan' in an exactly one to zero or many relationship. The relationship should be called 'relate'. 
+There is another table 'plan' with the columns 'step' (VARCHAR(50)), 'yes' (DATE). The primary key is 'step'. 'plan' references another table 'behavior' in an exactly one to zero or many relationship. The relationship should be called 'step'. 
+

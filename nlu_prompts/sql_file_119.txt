@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram23'.
+There is a table 'skill' with the columns 'summer' (DATE), 'grow' (TEXT), 'every' (VARCHAR(50)). The primary key is 'summer'. 'skill' references another table 'ten' in an exactly one to zero or many relationship. The relationship should be called 'summer'. 
+There is another table 'ten' with the columns 'study' (VARCHAR(50)), 'threat' (DATE). The primary key is 'study'. 'ten' references another table 'all' in an exactly one to zero or many relationship. The relationship should be called 'study'. 
+There is another table 'all' with the columns 'must' (DATE), 'article' (TEXT), 'ready' (VARCHAR(50)). The primary key is 'must'. 'all' references another table 'democratic' in an exactly one to zero or many relationship. The relationship should be called 'must'. 
+There is another table 'democratic' with the columns 'main' (VARCHAR(50)), 'others' (DATE). The primary key is 'main'. 'democratic' references another table 'institution' in an exactly one to zero or many relationship. The relationship should be called 'main'. 
+There is another table 'institution' with the columns 'general' (DATE), 'various' (TEXT), 'candidate' (VARCHAR(50)). The primary key is 'general'. 'institution' references another table 'good' in an exactly one to zero or many relationship. The relationship should be called 'general'. 
+There is another table 'good' with the columns 'force' (VARCHAR(50)), 'individual' (DATE). The primary key is 'force'. 'good' references another table 'skill' in an exactly one to zero or many relationship. The relationship should be called 'force'. 
+

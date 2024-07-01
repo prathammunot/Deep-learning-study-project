@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram60'.
+There is a table 'population' with the columns 'hit' (DATE), 'cause' (TEXT), 'about' (VARCHAR(50)). The primary key is 'hit'. 'population' references another table 'down' in an exactly one to zero or many relationship. The relationship should be called 'hit'. 
+There is another table 'down' with the columns 'well' (VARCHAR(50)), 'large' (DATE). The primary key is 'well'. 'down' references another table 'visit' in an exactly one to zero or many relationship. The relationship should be called 'well'. 
+There is another table 'visit' with the columns 'social' (DATE), 'finally' (TEXT), 'huge' (VARCHAR(50)). The primary key is 'social'. 'visit' references another table 'necessary' in an exactly one to zero or many relationship. The relationship should be called 'social'. 
+There is another table 'necessary' with the columns 'necessary' (VARCHAR(50)), 'similar' (DATE). The primary key is 'necessary'. 'necessary' references another table 'happen' in an exactly one to zero or many relationship. The relationship should be called 'necessary'. 
+There is another table 'happen' with the columns 'could' (DATE), 'day' (TEXT), 'policy' (VARCHAR(50)). The primary key is 'could'. 'happen' references another table 'police' in an exactly one to zero or many relationship. The relationship should be called 'could'. 
+There is another table 'police' with the columns 'avoid' (VARCHAR(50)), 'state' (DATE). The primary key is 'avoid'. 'police' references another table 'picture' in an exactly one to zero or many relationship. The relationship should be called 'avoid'. 
+There is another table 'picture' with the columns 'prevent' (DATE), 'art' (TEXT), 'card' (VARCHAR(50)). The primary key is 'prevent'. 'picture' references another table 'town' in an exactly one to zero or many relationship. The relationship should be called 'prevent'. 
+There is another table 'town' with the columns 'meet' (VARCHAR(50)), 'know' (DATE). The primary key is 'meet'. 'town' references another table 'population' in an exactly one to zero or many relationship. The relationship should be called 'meet'. 
+

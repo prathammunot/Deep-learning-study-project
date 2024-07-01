@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram21'.
+There is a table 'approach' with the columns 'thousand' (DATE), 'administration' (TEXT), 'customer' (VARCHAR(50)). The primary key is 'thousand'. 'approach' references another table 'which' in an exactly one to zero or many relationship. The relationship should be called 'thousand'. 
+There is another table 'which' with the columns 'reason' (VARCHAR(50)), 'people' (DATE). The primary key is 'reason'. 'which' references another table 'the' in an exactly one to zero or many relationship. The relationship should be called 'reason'. 
+There is another table 'the' with the columns 'hour' (DATE), 'entire' (TEXT), 'nature' (VARCHAR(50)). The primary key is 'hour'. 'the' references another table 'because' in an exactly one to zero or many relationship. The relationship should be called 'hour'. 
+There is another table 'because' with the columns 'occur' (VARCHAR(50)), 'tough' (DATE). The primary key is 'occur'. 'because' references another table 'for' in an exactly one to zero or many relationship. The relationship should be called 'occur'. 
+There is another table 'for' with the columns 'science' (DATE), 'heart' (TEXT), 'herself' (VARCHAR(50)). The primary key is 'science'. 'for' references another table 'draw' in an exactly one to zero or many relationship. The relationship should be called 'science'. 
+There is another table 'draw' with the columns 'main' (VARCHAR(50)), 'important' (DATE). The primary key is 'main'. 'draw' references another table 'check' in an exactly one to zero or many relationship. The relationship should be called 'main'. 
+There is another table 'check' with the columns 'practice' (DATE), 'trade' (TEXT), 'whole' (VARCHAR(50)). The primary key is 'practice'. 'check' references another table 'strong' in an exactly one to zero or many relationship. The relationship should be called 'practice'. 
+There is another table 'strong' with the columns 'record' (VARCHAR(50)), 'today' (DATE). The primary key is 'record'. 'strong' references another table 'approach' in an exactly one to zero or many relationship. The relationship should be called 'record'. 
+

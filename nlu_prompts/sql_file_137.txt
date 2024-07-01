@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram43'.
+There is a table 'charge' with the columns 'low' (DATE), 'image' (TEXT), 'pressure' (VARCHAR(50)). The primary key is 'low'. 'charge' references another table 'responsibility' in an exactly one to zero or many relationship. The relationship should be called 'low'. 
+There is another table 'responsibility' with the columns 'husband' (VARCHAR(50)), 'early' (DATE). The primary key is 'husband'. 'responsibility' references another table 'usually' in an exactly one to zero or many relationship. The relationship should be called 'husband'. 
+There is another table 'usually' with the columns 'goal' (DATE), 'four' (TEXT), 'character' (VARCHAR(50)). The primary key is 'goal'. 'usually' references another table 'family' in an exactly one to zero or many relationship. The relationship should be called 'goal'. 
+There is another table 'family' with the columns 'arrive' (VARCHAR(50)), 'population' (DATE). The primary key is 'arrive'. 'family' references another table 'factor' in an exactly one to zero or many relationship. The relationship should be called 'arrive'. 
+There is another table 'factor' with the columns 'fall' (DATE), 'list' (TEXT), 'wait' (VARCHAR(50)). The primary key is 'fall'. 'factor' references another table 'recent' in an exactly one to zero or many relationship. The relationship should be called 'fall'. 
+There is another table 'recent' with the columns 'here' (VARCHAR(50)), 'care' (DATE). The primary key is 'here'. 'recent' references another table 'charge' in an exactly one to zero or many relationship. The relationship should be called 'here'. 
+

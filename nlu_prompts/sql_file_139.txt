@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram45'.
+There is a table 'yes' with the columns 'less' (DATE), 'church' (TEXT), 'chance' (VARCHAR(50)). The primary key is 'less'. 'yes' references another table 'world' in an exactly one to zero or many relationship. The relationship should be called 'less'. 
+There is another table 'world' with the columns 'major' (VARCHAR(50)), 'phone' (DATE). The primary key is 'major'. 'world' references another table 'PM' in an exactly one to zero or many relationship. The relationship should be called 'major'. 
+There is another table 'PM' with the columns 'amount' (DATE), 'per' (TEXT), 'rich' (VARCHAR(50)). The primary key is 'amount'. 'PM' references another table 'marriage' in an exactly one to zero or many relationship. The relationship should be called 'amount'. 
+There is another table 'marriage' with the columns 'over' (VARCHAR(50)), 'hit' (DATE). The primary key is 'over'. 'marriage' references another table 'that' in an exactly one to zero or many relationship. The relationship should be called 'over'. 
+There is another table 'that' with the columns 'note' (DATE), 'current' (TEXT), 'middle' (VARCHAR(50)). The primary key is 'note'. 'that' references another table 'open' in an exactly one to zero or many relationship. The relationship should be called 'note'. 
+There is another table 'open' with the columns 'current' (VARCHAR(50)), 'expert' (DATE). The primary key is 'current'. 'open' references another table 'just' in an exactly one to zero or many relationship. The relationship should be called 'current'. 
+There is another table 'just' with the columns 'performance' (DATE), 'game' (TEXT), 'if' (VARCHAR(50)). The primary key is 'performance'. 'just' references another table 'yes' in an exactly one to zero or many relationship. The relationship should be called 'performance'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram56'.
+There is a table 'room' with the columns 'light' (DATE), 'recognize' (TEXT), 'read' (VARCHAR(50)). The primary key is 'light'. 'room' references another table 'official' in an exactly one to zero or many relationship. The relationship should be called 'light'. 
+There is another table 'official' with the columns 'price' (VARCHAR(50)), 'laugh' (DATE). The primary key is 'price'. 'official' references another table 'institution' in an exactly one to zero or many relationship. The relationship should be called 'price'. 
+There is another table 'institution' with the columns 'get' (DATE), 'none' (TEXT), 'property' (VARCHAR(50)). The primary key is 'get'. 'institution' references another table 'tell' in an exactly one to zero or many relationship. The relationship should be called 'get'. 
+There is another table 'tell' with the columns 'road' (VARCHAR(50)), 'cup' (DATE). The primary key is 'road'. 'tell' references another table 'safe' in an exactly one to zero or many relationship. The relationship should be called 'road'. 
+There is another table 'safe' with the columns 'couple' (DATE), 'program' (TEXT), 'accept' (VARCHAR(50)). The primary key is 'couple'. 'safe' references another table 'easy' in an exactly one to zero or many relationship. The relationship should be called 'couple'. 
+There is another table 'easy' with the columns 'back' (VARCHAR(50)), 'not' (DATE). The primary key is 'back'. 'easy' references another table 'onto' in an exactly one to zero or many relationship. The relationship should be called 'back'. 
+There is another table 'onto' with the columns 'finish' (DATE), 'nor' (TEXT), 'clearly' (VARCHAR(50)). The primary key is 'finish'. 'onto' references another table 'room' in an exactly one to zero or many relationship. The relationship should be called 'finish'. 
+

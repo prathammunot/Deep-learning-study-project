@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram19'.
+There is a table 'present' with the columns 'history' (DATE), 'citizen' (TEXT), 'class' (VARCHAR(50)). The primary key is 'history'. 'present' references another table 'keep' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+There is another table 'keep' with the columns 'choose' (VARCHAR(50)), 'old' (DATE). The primary key is 'choose'. 'keep' references another table 'avoid' in an exactly one to zero or many relationship. The relationship should be called 'choose'. 
+There is another table 'avoid' with the columns 'also' (DATE), 'decade' (TEXT), 'responsibility' (VARCHAR(50)). The primary key is 'also'. 'avoid' references another table 'official' in an exactly one to zero or many relationship. The relationship should be called 'also'. 
+There is another table 'official' with the columns 'color' (VARCHAR(50)), 'fight' (DATE). The primary key is 'color'. 'official' references another table 'throughout' in an exactly one to zero or many relationship. The relationship should be called 'color'. 
+There is another table 'throughout' with the columns 'others' (DATE), 'senior' (TEXT), 'themselves' (VARCHAR(50)). The primary key is 'others'. 'throughout' references another table 'present' in an exactly one to zero or many relationship. The relationship should be called 'others'. 
+

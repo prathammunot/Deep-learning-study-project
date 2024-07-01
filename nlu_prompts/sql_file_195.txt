@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram107'.
+There is a table 'wear' with the columns 'also' (DATE), 'suddenly' (TEXT), 'interesting' (VARCHAR(50)). The primary key is 'also'. 'wear' references another table 'always' in an exactly one to zero or many relationship. The relationship should be called 'also'. 
+There is another table 'always' with the columns 'probably' (VARCHAR(50)), 'almost' (DATE). The primary key is 'probably'. 'always' references another table 'environmental' in an exactly one to zero or many relationship. The relationship should be called 'probably'. 
+There is another table 'environmental' with the columns 'town' (DATE), 'manage' (TEXT), 'little' (VARCHAR(50)). The primary key is 'town'. 'environmental' references another table 'evidence' in an exactly one to zero or many relationship. The relationship should be called 'town'. 
+There is another table 'evidence' with the columns 'speech' (VARCHAR(50)), 'eat' (DATE). The primary key is 'speech'. 'evidence' references another table 'every' in an exactly one to zero or many relationship. The relationship should be called 'speech'. 
+There is another table 'every' with the columns 'office' (DATE), 'real' (TEXT), 'significant' (VARCHAR(50)). The primary key is 'office'. 'every' references another table 'wear' in an exactly one to zero or many relationship. The relationship should be called 'office'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram87'.
+There is a table 'gas' with the columns 'security' (DATE), 'image' (TEXT), 'painting' (VARCHAR(50)). The primary key is 'security'. 'gas' references another table 'economic' in an exactly one to zero or many relationship. The relationship should be called 'security'. 
+There is another table 'economic' with the columns 'rich' (VARCHAR(50)), 'usually' (DATE). The primary key is 'rich'. 'economic' references another table 'sense' in an exactly one to zero or many relationship. The relationship should be called 'rich'. 
+There is another table 'sense' with the columns 'because' (DATE), 'end' (TEXT), 'today' (VARCHAR(50)). The primary key is 'because'. 'sense' references another table 'test' in an exactly one to zero or many relationship. The relationship should be called 'because'. 
+There is another table 'test' with the columns 'certain' (VARCHAR(50)), 'hour' (DATE). The primary key is 'certain'. 'test' references another table 'president' in an exactly one to zero or many relationship. The relationship should be called 'certain'. 
+There is another table 'president' with the columns 'morning' (DATE), 'series' (TEXT), 'mouth' (VARCHAR(50)). The primary key is 'morning'. 'president' references another table 'respond' in an exactly one to zero or many relationship. The relationship should be called 'morning'. 
+There is another table 'respond' with the columns 'east' (VARCHAR(50)), 'decide' (DATE). The primary key is 'east'. 'respond' references another table 'form' in an exactly one to zero or many relationship. The relationship should be called 'east'. 
+There is another table 'form' with the columns 'which' (DATE), 'art' (TEXT), 'away' (VARCHAR(50)). The primary key is 'which'. 'form' references another table 'citizen' in an exactly one to zero or many relationship. The relationship should be called 'which'. 
+There is another table 'citizen' with the columns 'nation' (VARCHAR(50)), 'health' (DATE). The primary key is 'nation'. 'citizen' references another table 'gas' in an exactly one to zero or many relationship. The relationship should be called 'nation'. 
+

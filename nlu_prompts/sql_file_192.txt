@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram104'.
+There is a table 'whatever' with the columns 'television' (DATE), 'voice' (TEXT), 'million' (VARCHAR(50)). The primary key is 'television'. 'whatever' references another table 'hotel' in an exactly one to zero or many relationship. The relationship should be called 'television'. 
+There is another table 'hotel' with the columns 'movement' (VARCHAR(50)), 'event' (DATE). The primary key is 'movement'. 'hotel' references another table 'truth' in an exactly one to zero or many relationship. The relationship should be called 'movement'. 
+There is another table 'truth' with the columns 'commercial' (DATE), 'point' (TEXT), 'smile' (VARCHAR(50)). The primary key is 'commercial'. 'truth' references another table 'ever' in an exactly one to zero or many relationship. The relationship should be called 'commercial'. 
+There is another table 'ever' with the columns 'successful' (VARCHAR(50)), 'mind' (DATE). The primary key is 'successful'. 'ever' references another table 'claim' in an exactly one to zero or many relationship. The relationship should be called 'successful'. 
+There is another table 'claim' with the columns 'investment' (DATE), 'section' (TEXT), 'friend' (VARCHAR(50)). The primary key is 'investment'. 'claim' references another table 'chair' in an exactly one to zero or many relationship. The relationship should be called 'investment'. 
+There is another table 'chair' with the columns 'rather' (VARCHAR(50)), 'spend' (DATE). The primary key is 'rather'. 'chair' references another table 'own' in an exactly one to zero or many relationship. The relationship should be called 'rather'. 
+There is another table 'own' with the columns 'daughter' (DATE), 'source' (TEXT), 'human' (VARCHAR(50)). The primary key is 'daughter'. 'own' references another table 'whatever' in an exactly one to zero or many relationship. The relationship should be called 'daughter'. 
+

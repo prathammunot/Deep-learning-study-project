@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram38'.
+There is a table 'rise' with the columns 'north' (DATE), 'avoid' (TEXT), 'professor' (VARCHAR(50)). The primary key is 'north'. 'rise' references another table 'mean' in an exactly one to zero or many relationship. The relationship should be called 'north'. 
+There is another table 'mean' with the columns 'writer' (VARCHAR(50)), 'door' (DATE). The primary key is 'writer'. 'mean' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'writer'. 
+There is another table 'out' with the columns 'through' (DATE), 'five' (TEXT), 'seat' (VARCHAR(50)). The primary key is 'through'. 'out' references another table 'now' in an exactly one to zero or many relationship. The relationship should be called 'through'. 
+There is another table 'now' with the columns 'help' (VARCHAR(50)), 'let' (DATE). The primary key is 'help'. 'now' references another table 'strong' in an exactly one to zero or many relationship. The relationship should be called 'help'. 
+There is another table 'strong' with the columns 'inside' (DATE), 'top' (TEXT), 'relationship' (VARCHAR(50)). The primary key is 'inside'. 'strong' references another table 'rise' in an exactly one to zero or many relationship. The relationship should be called 'inside'. 
+

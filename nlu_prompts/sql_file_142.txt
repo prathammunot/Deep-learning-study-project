@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram49'.
+There is a table 'especially' with the columns 'bed' (DATE), 'too' (TEXT), 'mind' (VARCHAR(50)). The primary key is 'bed'. 'especially' references another table 'have' in an exactly one to zero or many relationship. The relationship should be called 'bed'. 
+There is another table 'have' with the columns 'land' (VARCHAR(50)), 'hold' (DATE). The primary key is 'land'. 'have' references another table 'dog' in an exactly one to zero or many relationship. The relationship should be called 'land'. 
+There is another table 'dog' with the columns 'new' (DATE), 'deal' (TEXT), 'almost' (VARCHAR(50)). The primary key is 'new'. 'dog' references another table 'up' in an exactly one to zero or many relationship. The relationship should be called 'new'. 
+There is another table 'up' with the columns 'everything' (VARCHAR(50)), 'bed' (DATE). The primary key is 'everything'. 'up' references another table 'cup' in an exactly one to zero or many relationship. The relationship should be called 'everything'. 
+There is another table 'cup' with the columns 'industry' (DATE), 'modern' (TEXT), 'reach' (VARCHAR(50)). The primary key is 'industry'. 'cup' references another table 'especially' in an exactly one to zero or many relationship. The relationship should be called 'industry'. 
+

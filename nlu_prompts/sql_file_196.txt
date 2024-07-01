@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram108'.
+There is a table 'marriage' with the columns 'sometimes' (DATE), 'positive' (TEXT), 'animal' (VARCHAR(50)). The primary key is 'sometimes'. 'marriage' references another table 'fight' in an exactly one to zero or many relationship. The relationship should be called 'sometimes'. 
+There is another table 'fight' with the columns 'significant' (VARCHAR(50)), 'decision' (DATE). The primary key is 'significant'. 'fight' references another table 'goal' in an exactly one to zero or many relationship. The relationship should be called 'significant'. 
+There is another table 'goal' with the columns 'important' (DATE), 'policy' (TEXT), 'black' (VARCHAR(50)). The primary key is 'important'. 'goal' references another table 'many' in an exactly one to zero or many relationship. The relationship should be called 'important'. 
+There is another table 'many' with the columns 'something' (VARCHAR(50)), 'none' (DATE). The primary key is 'something'. 'many' references another table 'discuss' in an exactly one to zero or many relationship. The relationship should be called 'something'. 
+There is another table 'discuss' with the columns 'food' (DATE), 'himself' (TEXT), 'concern' (VARCHAR(50)). The primary key is 'food'. 'discuss' references another table 'under' in an exactly one to zero or many relationship. The relationship should be called 'food'. 
+There is another table 'under' with the columns 'meet' (VARCHAR(50)), 'challenge' (DATE). The primary key is 'meet'. 'under' references another table 'possible' in an exactly one to zero or many relationship. The relationship should be called 'meet'. 
+There is another table 'possible' with the columns 'claim' (DATE), 'these' (TEXT), 'technology' (VARCHAR(50)). The primary key is 'claim'. 'possible' references another table 'marriage' in an exactly one to zero or many relationship. The relationship should be called 'claim'. 
+

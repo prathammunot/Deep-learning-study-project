@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram5'.
+There is a table 'real' with the columns 'successful' (DATE), 'opportunity' (TEXT), 'environment' (VARCHAR(50)). The primary key is 'successful'. 'real' references another table 'other' in an exactly one to zero or many relationship. The relationship should be called 'successful'. 
+There is another table 'other' with the columns 'read' (VARCHAR(50)), 'skin' (DATE). The primary key is 'read'. 'other' references another table 'speech' in an exactly one to zero or many relationship. The relationship should be called 'read'. 
+There is another table 'speech' with the columns 'seek' (DATE), 'television' (TEXT), 'concern' (VARCHAR(50)). The primary key is 'seek'. 'speech' references another table 'role' in an exactly one to zero or many relationship. The relationship should be called 'seek'. 
+There is another table 'role' with the columns 'center' (VARCHAR(50)), 'benefit' (DATE). The primary key is 'center'. 'role' references another table 'two' in an exactly one to zero or many relationship. The relationship should be called 'center'. 
+There is another table 'two' with the columns 'surface' (DATE), 'front' (TEXT), 'common' (VARCHAR(50)). The primary key is 'surface'. 'two' references another table 'process' in an exactly one to zero or many relationship. The relationship should be called 'surface'. 
+There is another table 'process' with the columns 'health' (VARCHAR(50)), 'wish' (DATE). The primary key is 'health'. 'process' references another table 'couple' in an exactly one to zero or many relationship. The relationship should be called 'health'. 
+There is another table 'couple' with the columns 'show' (DATE), 'again' (TEXT), 'box' (VARCHAR(50)). The primary key is 'show'. 'couple' references another table 'real' in an exactly one to zero or many relationship. The relationship should be called 'show'. 
+

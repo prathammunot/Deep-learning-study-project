@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram61'.
+There is a table 'room' with the columns 'test' (DATE), 'other' (TEXT), 'run' (VARCHAR(50)). The primary key is 'test'. 'room' references another table 'lot' in an exactly one to zero or many relationship. The relationship should be called 'test'. 
+There is another table 'lot' with the columns 'test' (VARCHAR(50)), 'prove' (DATE). The primary key is 'test'. 'lot' references another table 'yet' in an exactly one to zero or many relationship. The relationship should be called 'test'. 
+There is another table 'yet' with the columns 'middle' (DATE), 'market' (TEXT), 'through' (VARCHAR(50)). The primary key is 'middle'. 'yet' references another table 'special' in an exactly one to zero or many relationship. The relationship should be called 'middle'. 
+There is another table 'special' with the columns 'reveal' (VARCHAR(50)), 'gas' (DATE). The primary key is 'reveal'. 'special' references another table 'concern' in an exactly one to zero or many relationship. The relationship should be called 'reveal'. 
+There is another table 'concern' with the columns 'suggest' (DATE), 'save' (TEXT), 'leader' (VARCHAR(50)). The primary key is 'suggest'. 'concern' references another table 'make' in an exactly one to zero or many relationship. The relationship should be called 'suggest'. 
+There is another table 'make' with the columns 'east' (VARCHAR(50)), 'sell' (DATE). The primary key is 'east'. 'make' references another table 'end' in an exactly one to zero or many relationship. The relationship should be called 'east'. 
+There is another table 'end' with the columns 'toward' (DATE), 'will' (TEXT), 'million' (VARCHAR(50)). The primary key is 'toward'. 'end' references another table 'too' in an exactly one to zero or many relationship. The relationship should be called 'toward'. 
+There is another table 'too' with the columns 'suddenly' (VARCHAR(50)), 'he' (DATE). The primary key is 'suddenly'. 'too' references another table 'fact' in an exactly one to zero or many relationship. The relationship should be called 'suddenly'. 
+There is another table 'fact' with the columns 'inside' (DATE), 'believe' (TEXT), 'either' (VARCHAR(50)). The primary key is 'inside'. 'fact' references another table 'room' in an exactly one to zero or many relationship. The relationship should be called 'inside'. 
+

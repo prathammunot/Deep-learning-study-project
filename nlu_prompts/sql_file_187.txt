@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram98'.
+There is a table 'for' with the columns 'bag' (DATE), 'able' (TEXT), 'stuff' (VARCHAR(50)). The primary key is 'bag'. 'for' references another table 'stand' in an exactly one to zero or many relationship. The relationship should be called 'bag'. 
+There is another table 'stand' with the columns 'religious' (VARCHAR(50)), 'maybe' (DATE). The primary key is 'religious'. 'stand' references another table 'cultural' in an exactly one to zero or many relationship. The relationship should be called 'religious'. 
+There is another table 'cultural' with the columns 'within' (DATE), 'good' (TEXT), 'building' (VARCHAR(50)). The primary key is 'within'. 'cultural' references another table 'hot' in an exactly one to zero or many relationship. The relationship should be called 'within'. 
+There is another table 'hot' with the columns 'he' (VARCHAR(50)), 'doctor' (DATE). The primary key is 'he'. 'hot' references another table 'staff' in an exactly one to zero or many relationship. The relationship should be called 'he'. 
+There is another table 'staff' with the columns 'environment' (DATE), 'purpose' (TEXT), 'president' (VARCHAR(50)). The primary key is 'environment'. 'staff' references another table 'for' in an exactly one to zero or many relationship. The relationship should be called 'environment'. 
+

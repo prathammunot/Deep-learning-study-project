@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram85'.
+There is a table 'inside' with the columns 'customer' (DATE), 'six' (TEXT), 'energy' (VARCHAR(50)). The primary key is 'customer'. 'inside' references another table 'heavy' in an exactly one to zero or many relationship. The relationship should be called 'customer'. 
+There is another table 'heavy' with the columns 'than' (VARCHAR(50)), 'right' (DATE). The primary key is 'than'. 'heavy' references another table 'plan' in an exactly one to zero or many relationship. The relationship should be called 'than'. 
+There is another table 'plan' with the columns 'compare' (DATE), 'data' (TEXT), 'staff' (VARCHAR(50)). The primary key is 'compare'. 'plan' references another table 'report' in an exactly one to zero or many relationship. The relationship should be called 'compare'. 
+There is another table 'report' with the columns 'paper' (VARCHAR(50)), 'finally' (DATE). The primary key is 'paper'. 'report' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'paper'. 
+There is another table 'section' with the columns 'pressure' (DATE), 'step' (TEXT), 'prove' (VARCHAR(50)). The primary key is 'pressure'. 'section' references another table 'coach' in an exactly one to zero or many relationship. The relationship should be called 'pressure'. 
+There is another table 'coach' with the columns 'fact' (VARCHAR(50)), 'market' (DATE). The primary key is 'fact'. 'coach' references another table 'perform' in an exactly one to zero or many relationship. The relationship should be called 'fact'. 
+There is another table 'perform' with the columns 'campaign' (DATE), 'likely' (TEXT), 'event' (VARCHAR(50)). The primary key is 'campaign'. 'perform' references another table 'inside' in an exactly one to zero or many relationship. The relationship should be called 'campaign'. 
+

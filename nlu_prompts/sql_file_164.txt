@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram73'.
+There is a table 'take' with the columns 'central' (DATE), 'man' (TEXT), 'forward' (VARCHAR(50)). The primary key is 'central'. 'take' references another table 'our' in an exactly one to zero or many relationship. The relationship should be called 'central'. 
+There is another table 'our' with the columns 'purpose' (VARCHAR(50)), 'most' (DATE). The primary key is 'purpose'. 'our' references another table 'around' in an exactly one to zero or many relationship. The relationship should be called 'purpose'. 
+There is another table 'around' with the columns 'dream' (DATE), 'determine' (TEXT), 'be' (VARCHAR(50)). The primary key is 'dream'. 'around' references another table 'economy' in an exactly one to zero or many relationship. The relationship should be called 'dream'. 
+There is another table 'economy' with the columns 'us' (VARCHAR(50)), 'perform' (DATE). The primary key is 'us'. 'economy' references another table 'also' in an exactly one to zero or many relationship. The relationship should be called 'us'. 
+There is another table 'also' with the columns 'school' (DATE), 'manager' (TEXT), 'true' (VARCHAR(50)). The primary key is 'school'. 'also' references another table 'understand' in an exactly one to zero or many relationship. The relationship should be called 'school'. 
+There is another table 'understand' with the columns 'boy' (VARCHAR(50)), 'collection' (DATE). The primary key is 'boy'. 'understand' references another table 'quality' in an exactly one to zero or many relationship. The relationship should be called 'boy'. 
+There is another table 'quality' with the columns 'a' (DATE), 'week' (TEXT), 'quickly' (VARCHAR(50)). The primary key is 'a'. 'quality' references another table 'field' in an exactly one to zero or many relationship. The relationship should be called 'a'. 
+There is another table 'field' with the columns 'baby' (VARCHAR(50)), 'message' (DATE). The primary key is 'baby'. 'field' references another table 'take' in an exactly one to zero or many relationship. The relationship should be called 'baby'. 
+
