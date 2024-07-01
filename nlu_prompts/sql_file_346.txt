@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram275'.
+There is a table 'color' with the columns 'affect' (DATE), 'difficult' (TEXT), 'state' (VARCHAR(50)). The primary key is 'affect'. 'color' references another table 'officer' in an exactly one to zero or many relationship. The relationship should be called 'affect'. 
+There is another table 'officer' with the columns 'away' (VARCHAR(50)), 'six' (DATE). The primary key is 'away'. 'officer' references another table 'tend' in an exactly one to zero or many relationship. The relationship should be called 'away'. 
+There is another table 'tend' with the columns 'clear' (DATE), 'dog' (TEXT), 'late' (VARCHAR(50)). The primary key is 'clear'. 'tend' references another table 'similar' in an exactly one to zero or many relationship. The relationship should be called 'clear'. 
+There is another table 'similar' with the columns 'cultural' (VARCHAR(50)), 'offer' (DATE). The primary key is 'cultural'. 'similar' references another table 'move' in an exactly one to zero or many relationship. The relationship should be called 'cultural'. 
+There is another table 'move' with the columns 'total' (DATE), 'hotel' (TEXT), 'think' (VARCHAR(50)). The primary key is 'total'. 'move' references another table 'study' in an exactly one to zero or many relationship. The relationship should be called 'total'. 
+There is another table 'study' with the columns 'after' (VARCHAR(50)), 'weight' (DATE). The primary key is 'after'. 'study' references another table 'color' in an exactly one to zero or many relationship. The relationship should be called 'after'. 
+

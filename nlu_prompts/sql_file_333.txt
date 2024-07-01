@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram261'.
+There is a table 'interview' with the columns 'PM' (DATE), 'tonight' (TEXT), 'hundred' (VARCHAR(50)). The primary key is 'PM'. 'interview' references another table 'bank' in an exactly one to zero or many relationship. The relationship should be called 'PM'. 
+There is another table 'bank' with the columns 'surface' (VARCHAR(50)), 'particularly' (DATE). The primary key is 'surface'. 'bank' references another table 'reach' in an exactly one to zero or many relationship. The relationship should be called 'surface'. 
+There is another table 'reach' with the columns 'child' (DATE), 'cut' (TEXT), 'add' (VARCHAR(50)). The primary key is 'child'. 'reach' references another table 'single' in an exactly one to zero or many relationship. The relationship should be called 'child'. 
+There is another table 'single' with the columns 'group' (VARCHAR(50)), 'door' (DATE). The primary key is 'group'. 'single' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'group'. 
+There is another table 'situation' with the columns 'right' (DATE), 'occur' (TEXT), 'free' (VARCHAR(50)). The primary key is 'right'. 'situation' references another table 'all' in an exactly one to zero or many relationship. The relationship should be called 'right'. 
+There is another table 'all' with the columns 'general' (VARCHAR(50)), 'wear' (DATE). The primary key is 'general'. 'all' references another table 'generation' in an exactly one to zero or many relationship. The relationship should be called 'general'. 
+There is another table 'generation' with the columns 'price' (DATE), 'sense' (TEXT), 'quite' (VARCHAR(50)). The primary key is 'price'. 'generation' references another table 'interview' in an exactly one to zero or many relationship. The relationship should be called 'price'. 
+

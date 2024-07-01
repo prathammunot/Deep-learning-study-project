@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram249'.
+There is a table 'boy' with the columns 'peace' (DATE), 'population' (TEXT), 'production' (VARCHAR(50)). The primary key is 'peace'. 'boy' references another table 'money' in an exactly one to zero or many relationship. The relationship should be called 'peace'. 
+There is another table 'money' with the columns 'involve' (VARCHAR(50)), 'by' (DATE). The primary key is 'involve'. 'money' references another table 'senior' in an exactly one to zero or many relationship. The relationship should be called 'involve'. 
+There is another table 'senior' with the columns 'your' (DATE), 'common' (TEXT), 'soldier' (VARCHAR(50)). The primary key is 'your'. 'senior' references another table 'note' in an exactly one to zero or many relationship. The relationship should be called 'your'. 
+There is another table 'note' with the columns 'about' (VARCHAR(50)), 'worry' (DATE). The primary key is 'about'. 'note' references another table 'available' in an exactly one to zero or many relationship. The relationship should be called 'about'. 
+There is another table 'available' with the columns 'deal' (DATE), 'how' (TEXT), 'total' (VARCHAR(50)). The primary key is 'deal'. 'available' references another table 'military' in an exactly one to zero or many relationship. The relationship should be called 'deal'. 
+There is another table 'military' with the columns 'free' (VARCHAR(50)), 'identify' (DATE). The primary key is 'free'. 'military' references another table 'concern' in an exactly one to zero or many relationship. The relationship should be called 'free'. 
+There is another table 'concern' with the columns 'general' (DATE), 'different' (TEXT), 'safe' (VARCHAR(50)). The primary key is 'general'. 'concern' references another table 'new' in an exactly one to zero or many relationship. The relationship should be called 'general'. 
+There is another table 'new' with the columns 'I' (VARCHAR(50)), 'bed' (DATE). The primary key is 'I'. 'new' references another table 'measure' in an exactly one to zero or many relationship. The relationship should be called 'I'. 
+There is another table 'measure' with the columns 'put' (DATE), 'none' (TEXT), 'health' (VARCHAR(50)). The primary key is 'put'. 'measure' references another table 'boy' in an exactly one to zero or many relationship. The relationship should be called 'put'. 
+

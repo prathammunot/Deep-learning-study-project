@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram299'.
+There is a table 'plant' with the columns 'drive' (DATE), 'when' (TEXT), 'available' (VARCHAR(50)). The primary key is 'drive'. 'plant' references another table 'every' in an exactly one to zero or many relationship. The relationship should be called 'drive'. 
+There is another table 'every' with the columns 'opportunity' (VARCHAR(50)), 'it' (DATE). The primary key is 'opportunity'. 'every' references another table 'above' in an exactly one to zero or many relationship. The relationship should be called 'opportunity'. 
+There is another table 'above' with the columns 'yet' (DATE), 'whatever' (TEXT), 'couple' (VARCHAR(50)). The primary key is 'yet'. 'above' references another table 'cup' in an exactly one to zero or many relationship. The relationship should be called 'yet'. 
+There is another table 'cup' with the columns 'heart' (VARCHAR(50)), 'together' (DATE). The primary key is 'heart'. 'cup' references another table 'executive' in an exactly one to zero or many relationship. The relationship should be called 'heart'. 
+There is another table 'executive' with the columns 'past' (DATE), 'food' (TEXT), 'door' (VARCHAR(50)). The primary key is 'past'. 'executive' references another table 'heart' in an exactly one to zero or many relationship. The relationship should be called 'past'. 
+There is another table 'heart' with the columns 'indicate' (VARCHAR(50)), 'couple' (DATE). The primary key is 'indicate'. 'heart' references another table 'article' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'article' with the columns 'husband' (DATE), 'ready' (TEXT), 'positive' (VARCHAR(50)). The primary key is 'husband'. 'article' references another table 'growth' in an exactly one to zero or many relationship. The relationship should be called 'husband'. 
+There is another table 'growth' with the columns 'stage' (VARCHAR(50)), 'section' (DATE). The primary key is 'stage'. 'growth' references another table 'plant' in an exactly one to zero or many relationship. The relationship should be called 'stage'. 
+

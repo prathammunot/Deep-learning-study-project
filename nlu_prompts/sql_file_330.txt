@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram258'.
+There is a table 'join' with the columns 'effect' (DATE), 'heart' (TEXT), 'example' (VARCHAR(50)). The primary key is 'effect'. 'join' references another table 'form' in an exactly one to zero or many relationship. The relationship should be called 'effect'. 
+There is another table 'form' with the columns 'despite' (VARCHAR(50)), 'bag' (DATE). The primary key is 'despite'. 'form' references another table 'capital' in an exactly one to zero or many relationship. The relationship should be called 'despite'. 
+There is another table 'capital' with the columns 'argue' (DATE), 'out' (VARCHAR(50)). The primary key is 'argue'. 'capital' references another table 'able' in an exactly one to zero or many relationship. The relationship should be called 'argue'. 
+There is another table 'able' with the columns 'window' (VARCHAR(50)), 'ask' (DATE). The primary key is 'window'. 'able' references another table 'reflect' in an exactly one to zero or many relationship. The relationship should be called 'window'. 
+There is another table 'reflect' with the columns 'boy' (DATE), 'keep' (TEXT), 'election' (VARCHAR(50)). The primary key is 'boy'. 'reflect' references another table 'whether' in an exactly one to zero or many relationship. The relationship should be called 'boy'. 
+There is another table 'whether' with the columns 'woman' (VARCHAR(50)), 'reason' (DATE). The primary key is 'woman'. 'whether' references another table 'person' in an exactly one to zero or many relationship. The relationship should be called 'woman'. 
+There is another table 'person' with the columns 'against' (DATE), 'address' (TEXT), 'artist' (VARCHAR(50)). The primary key is 'against'. 'person' references another table 'sing' in an exactly one to zero or many relationship. The relationship should be called 'against'. 
+There is another table 'sing' with the columns 'college' (VARCHAR(50)), 'us' (DATE). The primary key is 'college'. 'sing' references another table 'join' in an exactly one to zero or many relationship. The relationship should be called 'college'. 
+

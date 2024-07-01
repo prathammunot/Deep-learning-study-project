@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram296'.
+There is a table 'cut' with the columns 'language' (DATE), 'night' (TEXT), 'artist' (VARCHAR(50)). The primary key is 'language'. 'cut' references another table 'director' in an exactly one to zero or many relationship. The relationship should be called 'language'. 
+There is another table 'director' with the columns 'chair' (VARCHAR(50)), 'else' (DATE). The primary key is 'chair'. 'director' references another table 'professor' in an exactly one to zero or many relationship. The relationship should be called 'chair'. 
+There is another table 'professor' with the columns 'analysis' (DATE), 'attack' (TEXT), 'strategy' (VARCHAR(50)). The primary key is 'analysis'. 'professor' references another table 'occur' in an exactly one to zero or many relationship. The relationship should be called 'analysis'. 
+There is another table 'occur' with the columns 'suggest' (VARCHAR(50)), 'by' (DATE). The primary key is 'suggest'. 'occur' references another table 'bill' in an exactly one to zero or many relationship. The relationship should be called 'suggest'. 
+There is another table 'bill' with the columns 'hundred' (DATE), 'explain' (TEXT), 'activity' (VARCHAR(50)). The primary key is 'hundred'. 'bill' references another table 'office' in an exactly one to zero or many relationship. The relationship should be called 'hundred'. 
+There is another table 'office' with the columns 'board' (VARCHAR(50)), 'agreement' (DATE). The primary key is 'board'. 'office' references another table 'cut' in an exactly one to zero or many relationship. The relationship should be called 'board'. 
+

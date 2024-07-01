@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram310'.
+There is a table 'news' with the columns 'apply' (DATE), 'baby' (TEXT), 'husband' (VARCHAR(50)). The primary key is 'apply'. 'news' references another table 'officer' in an exactly one to zero or many relationship. The relationship should be called 'apply'. 
+There is another table 'officer' with the columns 'somebody' (VARCHAR(50)), 'campaign' (DATE). The primary key is 'somebody'. 'officer' references another table 'wind' in an exactly one to zero or many relationship. The relationship should be called 'somebody'. 
+There is another table 'wind' with the columns 'young' (DATE), 'especially' (TEXT), 'others' (VARCHAR(50)). The primary key is 'young'. 'wind' references another table 'oil' in an exactly one to zero or many relationship. The relationship should be called 'young'. 
+There is another table 'oil' with the columns 'here' (VARCHAR(50)), 'able' (DATE). The primary key is 'here'. 'oil' references another table 'end' in an exactly one to zero or many relationship. The relationship should be called 'here'. 
+There is another table 'end' with the columns 'plant' (DATE), 'little' (TEXT), 'analysis' (VARCHAR(50)). The primary key is 'plant'. 'end' references another table 'worry' in an exactly one to zero or many relationship. The relationship should be called 'plant'. 
+There is another table 'worry' with the columns 'camera' (VARCHAR(50)), 'minute' (DATE). The primary key is 'camera'. 'worry' references another table 'almost' in an exactly one to zero or many relationship. The relationship should be called 'camera'. 
+There is another table 'almost' with the columns 'various' (DATE), 'indeed' (TEXT), 'major' (VARCHAR(50)). The primary key is 'various'. 'almost' references another table 'news' in an exactly one to zero or many relationship. The relationship should be called 'various'. 
+

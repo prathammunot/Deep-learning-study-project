@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram322'.
+There is a table 'hot' with the columns 'evidence' (DATE), 'career' (TEXT), 'cost' (VARCHAR(50)). The primary key is 'evidence'. 'hot' references another table 'authority' in an exactly one to zero or many relationship. The relationship should be called 'evidence'. 
+There is another table 'authority' with the columns 'case' (VARCHAR(50)), 'send' (DATE). The primary key is 'case'. 'authority' references another table 'total' in an exactly one to zero or many relationship. The relationship should be called 'case'. 
+There is another table 'total' with the columns 'peace' (DATE), 'rest' (TEXT), 'and' (VARCHAR(50)). The primary key is 'peace'. 'total' references another table 'high' in an exactly one to zero or many relationship. The relationship should be called 'peace'. 
+There is another table 'high' with the columns 'third' (VARCHAR(50)), 'itself' (DATE). The primary key is 'third'. 'high' references another table 'knowledge' in an exactly one to zero or many relationship. The relationship should be called 'third'. 
+There is another table 'knowledge' with the columns 'business' (DATE), 'member' (TEXT), 'culture' (VARCHAR(50)). The primary key is 'business'. 'knowledge' references another table 'smile' in an exactly one to zero or many relationship. The relationship should be called 'business'. 
+There is another table 'smile' with the columns 'model' (VARCHAR(50)), 'style' (DATE). The primary key is 'model'. 'smile' references another table 'senior' in an exactly one to zero or many relationship. The relationship should be called 'model'. 
+There is another table 'senior' with the columns 'property' (DATE), 'kitchen' (TEXT), 'around' (VARCHAR(50)). The primary key is 'property'. 'senior' references another table 'hot' in an exactly one to zero or many relationship. The relationship should be called 'property'. 
+

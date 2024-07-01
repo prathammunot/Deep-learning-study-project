@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram324'.
+There is a table 'second' with the columns 'least' (DATE), 'would' (TEXT), 'night' (VARCHAR(50)). The primary key is 'least'. 'second' references another table 'interest' in an exactly one to zero or many relationship. The relationship should be called 'least'. 
+There is another table 'interest' with the columns 'science' (VARCHAR(50)), 'room' (DATE). The primary key is 'science'. 'interest' references another table 'then' in an exactly one to zero or many relationship. The relationship should be called 'science'. 
+There is another table 'then' with the columns 'I' (DATE), 'smile' (TEXT), 'wall' (VARCHAR(50)). The primary key is 'I'. 'then' references another table 'forward' in an exactly one to zero or many relationship. The relationship should be called 'I'. 
+There is another table 'forward' with the columns 'sometimes' (VARCHAR(50)), 'into' (DATE). The primary key is 'sometimes'. 'forward' references another table 'arrive' in an exactly one to zero or many relationship. The relationship should be called 'sometimes'. 
+There is another table 'arrive' with the columns 'meeting' (DATE), 'over' (TEXT), 'at' (VARCHAR(50)). The primary key is 'meeting'. 'arrive' references another table 'everyone' in an exactly one to zero or many relationship. The relationship should be called 'meeting'. 
+There is another table 'everyone' with the columns 'save' (VARCHAR(50)), 'create' (DATE). The primary key is 'save'. 'everyone' references another table 'second' in an exactly one to zero or many relationship. The relationship should be called 'save'. 
+

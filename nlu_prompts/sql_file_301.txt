@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram226'.
+There is a table 'sign' with the columns 'south' (DATE), 'break' (TEXT), 'for' (VARCHAR(50)). The primary key is 'south'. 'sign' references another table 'major' in an exactly one to zero or many relationship. The relationship should be called 'south'. 
+There is another table 'major' with the columns 'cut' (VARCHAR(50)), 'treat' (DATE). The primary key is 'cut'. 'major' references another table 'wide' in an exactly one to zero or many relationship. The relationship should be called 'cut'. 
+There is another table 'wide' with the columns 'front' (DATE), 'most' (TEXT), 'none' (VARCHAR(50)). The primary key is 'front'. 'wide' references another table 'growth' in an exactly one to zero or many relationship. The relationship should be called 'front'. 
+There is another table 'growth' with the columns 'close' (VARCHAR(50)), 'small' (DATE). The primary key is 'close'. 'growth' references another table 'and' in an exactly one to zero or many relationship. The relationship should be called 'close'. 
+There is another table 'and' with the columns 'change' (DATE), 'issue' (TEXT), 'change' (VARCHAR(50)). The primary key is 'change'. 'and' references another table 'left' in an exactly one to zero or many relationship. The relationship should be called 'change'. 
+There is another table 'left' with the columns 'mother' (VARCHAR(50)), 'concern' (DATE). The primary key is 'mother'. 'left' references another table 'hope' in an exactly one to zero or many relationship. The relationship should be called 'mother'. 
+There is another table 'hope' with the columns 'expect' (DATE), 'what' (TEXT), 'several' (VARCHAR(50)). The primary key is 'expect'. 'hope' references another table 'sign' in an exactly one to zero or many relationship. The relationship should be called 'expect'. 
+

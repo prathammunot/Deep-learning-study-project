@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram280'.
+There is a table 'decide' with the columns 'market' (DATE), 'wish' (TEXT), 'someone' (VARCHAR(50)). The primary key is 'market'. 'decide' references another table 'professional' in an exactly one to zero or many relationship. The relationship should be called 'market'. 
+There is another table 'professional' with the columns 'hold' (VARCHAR(50)), 'sort' (DATE). The primary key is 'hold'. 'professional' references another table 'mouth' in an exactly one to zero or many relationship. The relationship should be called 'hold'. 
+There is another table 'mouth' with the columns 'base' (DATE), 'level' (TEXT), 'blood' (VARCHAR(50)). The primary key is 'base'. 'mouth' references another table 'cold' in an exactly one to zero or many relationship. The relationship should be called 'base'. 
+There is another table 'cold' with the columns 'rich' (VARCHAR(50)), 'discuss' (DATE). The primary key is 'rich'. 'cold' references another table 'individual' in an exactly one to zero or many relationship. The relationship should be called 'rich'. 
+There is another table 'individual' with the columns 'anything' (DATE), 'create' (TEXT), 'discuss' (VARCHAR(50)). The primary key is 'anything'. 'individual' references another table 'decide' in an exactly one to zero or many relationship. The relationship should be called 'anything'. 
+

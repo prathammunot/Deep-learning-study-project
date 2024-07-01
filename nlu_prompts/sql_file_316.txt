@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram242'.
+There is a table 'boy' with the columns 'white' (DATE), 'catch' (TEXT), 'information' (VARCHAR(50)). The primary key is 'white'. 'boy' references another table 'avoid' in an exactly one to zero or many relationship. The relationship should be called 'white'. 
+There is another table 'avoid' with the columns 'process' (VARCHAR(50)), 'dinner' (DATE). The primary key is 'process'. 'avoid' references another table 'finish' in an exactly one to zero or many relationship. The relationship should be called 'process'. 
+There is another table 'finish' with the columns 'lot' (DATE), 'tonight' (TEXT), 'quite' (VARCHAR(50)). The primary key is 'lot'. 'finish' references another table 'hand' in an exactly one to zero or many relationship. The relationship should be called 'lot'. 
+There is another table 'hand' with the columns 'list' (VARCHAR(50)), 'when' (DATE). The primary key is 'list'. 'hand' references another table 'south' in an exactly one to zero or many relationship. The relationship should be called 'list'. 
+There is another table 'south' with the columns 'total' (DATE), 'television' (TEXT), 'forget' (VARCHAR(50)). The primary key is 'total'. 'south' references another table 'play' in an exactly one to zero or many relationship. The relationship should be called 'total'. 
+There is another table 'play' with the columns 'bad' (VARCHAR(50)), 'vote' (DATE). The primary key is 'bad'. 'play' references another table 'assume' in an exactly one to zero or many relationship. The relationship should be called 'bad'. 
+There is another table 'assume' with the columns 'structure' (DATE), 'research' (TEXT), 'blood' (VARCHAR(50)). The primary key is 'structure'. 'assume' references another table 'boy' in an exactly one to zero or many relationship. The relationship should be called 'structure'. 
+

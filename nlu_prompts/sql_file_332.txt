@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram260'.
+There is a table 'trade' with the columns 'democratic' (DATE), 'lead' (TEXT), 'speech' (VARCHAR(50)). The primary key is 'democratic'. 'trade' references another table 'get' in an exactly one to zero or many relationship. The relationship should be called 'democratic'. 
+There is another table 'get' with the columns 'human' (VARCHAR(50)), 'career' (DATE). The primary key is 'human'. 'get' references another table 'coach' in an exactly one to zero or many relationship. The relationship should be called 'human'. 
+There is another table 'coach' with the columns 'enjoy' (DATE), 'do' (TEXT), 'minute' (VARCHAR(50)). The primary key is 'enjoy'. 'coach' references another table 'stay' in an exactly one to zero or many relationship. The relationship should be called 'enjoy'. 
+There is another table 'stay' with the columns 'debate' (VARCHAR(50)), 'perform' (DATE). The primary key is 'debate'. 'stay' references another table 'herself' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+There is another table 'herself' with the columns 'check' (DATE), 'generation' (TEXT), 'matter' (VARCHAR(50)). The primary key is 'check'. 'herself' references another table 'skill' in an exactly one to zero or many relationship. The relationship should be called 'check'. 
+There is another table 'skill' with the columns 'person' (VARCHAR(50)), 'risk' (DATE). The primary key is 'person'. 'skill' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'person'. 
+There is another table 'situation' with the columns 'firm' (DATE), 'reach' (TEXT), 'shoulder' (VARCHAR(50)). The primary key is 'firm'. 'situation' references another table 'trade' in an exactly one to zero or many relationship. The relationship should be called 'firm'. 
+

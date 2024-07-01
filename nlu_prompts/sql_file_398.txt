@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram332'.
+There is a table 'no' with the columns 'skin' (DATE), 'staff' (TEXT), 'source' (VARCHAR(50)). The primary key is 'skin'. 'no' references another table 'need' in an exactly one to zero or many relationship. The relationship should be called 'skin'. 
+There is another table 'need' with the columns 'card' (VARCHAR(50)), 'city' (DATE). The primary key is 'card'. 'need' references another table 'in' in an exactly one to zero or many relationship. The relationship should be called 'card'. 
+There is another table 'in' with the columns 'trial' (DATE), 'the' (TEXT), 'reduce' (VARCHAR(50)). The primary key is 'trial'. 'in' references another table 'news' in an exactly one to zero or many relationship. The relationship should be called 'trial'. 
+There is another table 'news' with the columns 'station' (VARCHAR(50)), 'particular' (DATE). The primary key is 'station'. 'news' references another table 'near' in an exactly one to zero or many relationship. The relationship should be called 'station'. 
+There is another table 'near' with the columns 'their' (DATE), 'radio' (TEXT), 'painting' (VARCHAR(50)). The primary key is 'their'. 'near' references another table 'no' in an exactly one to zero or many relationship. The relationship should be called 'their'. 
+

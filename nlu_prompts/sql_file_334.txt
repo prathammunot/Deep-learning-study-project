@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram262'.
+There is a table 'space' with the columns 'believe' (DATE), 'clear' (TEXT), 'bring' (VARCHAR(50)). The primary key is 'believe'. 'space' references another table 'respond' in an exactly one to zero or many relationship. The relationship should be called 'believe'. 
+There is another table 'respond' with the columns 'Mr' (VARCHAR(50)), 'campaign' (DATE). The primary key is 'Mr'. 'respond' references another table 'billion' in an exactly one to zero or many relationship. The relationship should be called 'Mr'. 
+There is another table 'billion' with the columns 'test' (DATE), 'human' (TEXT), 'exist' (VARCHAR(50)). The primary key is 'test'. 'billion' references another table 'significant' in an exactly one to zero or many relationship. The relationship should be called 'test'. 
+There is another table 'significant' with the columns 'international' (VARCHAR(50)), 'if' (DATE). The primary key is 'international'. 'significant' references another table 'both' in an exactly one to zero or many relationship. The relationship should be called 'international'. 
+There is another table 'both' with the columns 'back' (DATE), 'win' (TEXT), 'he' (VARCHAR(50)). The primary key is 'back'. 'both' references another table 'organization' in an exactly one to zero or many relationship. The relationship should be called 'back'. 
+There is another table 'organization' with the columns 'movie' (VARCHAR(50)), 'class' (DATE). The primary key is 'movie'. 'organization' references another table 'black' in an exactly one to zero or many relationship. The relationship should be called 'movie'. 
+There is another table 'black' with the columns 'so' (DATE), 'south' (TEXT), 'movie' (VARCHAR(50)). The primary key is 'so'. 'black' references another table 'space' in an exactly one to zero or many relationship. The relationship should be called 'so'. 
+

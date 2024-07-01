@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram285'.
+There is a table 'professional' with the columns 'support' (DATE), 'edge' (TEXT), 'among' (VARCHAR(50)). The primary key is 'support'. 'professional' references another table 'off' in an exactly one to zero or many relationship. The relationship should be called 'support'. 
+There is another table 'off' with the columns 'system' (VARCHAR(50)), 'market' (DATE). The primary key is 'system'. 'off' references another table 'who' in an exactly one to zero or many relationship. The relationship should be called 'system'. 
+There is another table 'who' with the columns 'clear' (DATE), 'street' (TEXT), 'economic' (VARCHAR(50)). The primary key is 'clear'. 'who' references another table 'least' in an exactly one to zero or many relationship. The relationship should be called 'clear'. 
+There is another table 'least' with the columns 'ok' (VARCHAR(50)), 'meet' (DATE). The primary key is 'ok'. 'least' references another table 'above' in an exactly one to zero or many relationship. The relationship should be called 'ok'. 
+There is another table 'above' with the columns 'some' (DATE), 'general' (TEXT), 'only' (VARCHAR(50)). The primary key is 'some'. 'above' references another table 'contain' in an exactly one to zero or many relationship. The relationship should be called 'some'. 
+There is another table 'contain' with the columns 'lawyer' (VARCHAR(50)), 'because' (DATE). The primary key is 'lawyer'. 'contain' references another table 'professional' in an exactly one to zero or many relationship. The relationship should be called 'lawyer'. 
+

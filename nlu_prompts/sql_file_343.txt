@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram272'.
+There is a table 'attorney' with the columns 'word' (DATE), 'nation' (TEXT), 'sure' (VARCHAR(50)). The primary key is 'word'. 'attorney' references another table 'perhaps' in an exactly one to zero or many relationship. The relationship should be called 'word'. 
+There is another table 'perhaps' with the columns 'poor' (VARCHAR(50)), 'time' (DATE). The primary key is 'poor'. 'perhaps' references another table 'PM' in an exactly one to zero or many relationship. The relationship should be called 'poor'. 
+There is another table 'PM' with the columns 'thing' (DATE), 'suddenly' (TEXT), 'wait' (VARCHAR(50)). The primary key is 'thing'. 'PM' references another table 'safe' in an exactly one to zero or many relationship. The relationship should be called 'thing'. 
+There is another table 'safe' with the columns 'church' (VARCHAR(50)), 'sport' (DATE). The primary key is 'church'. 'safe' references another table 'western' in an exactly one to zero or many relationship. The relationship should be called 'church'. 
+There is another table 'western' with the columns 'tend' (DATE), 'few' (TEXT), 'choice' (VARCHAR(50)). The primary key is 'tend'. 'western' references another table 'attorney' in an exactly one to zero or many relationship. The relationship should be called 'tend'. 
+

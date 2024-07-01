@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram244'.
+There is a table 'possible' with the columns 'organization' (DATE), 'move' (TEXT), 'parent' (VARCHAR(50)). The primary key is 'organization'. 'possible' references another table 'south' in an exactly one to zero or many relationship. The relationship should be called 'organization'. 
+There is another table 'south' with the columns 'deal' (VARCHAR(50)), 'side' (DATE). The primary key is 'deal'. 'south' references another table 'pick' in an exactly one to zero or many relationship. The relationship should be called 'deal'. 
+There is another table 'pick' with the columns 'interesting' (DATE), 'myself' (TEXT), 'back' (VARCHAR(50)). The primary key is 'interesting'. 'pick' references another table 'resource' in an exactly one to zero or many relationship. The relationship should be called 'interesting'. 
+There is another table 'resource' with the columns 'bring' (VARCHAR(50)), 'call' (DATE). The primary key is 'bring'. 'resource' references another table 'finish' in an exactly one to zero or many relationship. The relationship should be called 'bring'. 
+There is another table 'finish' with the columns 'writer' (DATE), 'road' (TEXT), 'between' (VARCHAR(50)). The primary key is 'writer'. 'finish' references another table 'wife' in an exactly one to zero or many relationship. The relationship should be called 'writer'. 
+There is another table 'wife' with the columns 'black' (VARCHAR(50)), 'community' (DATE). The primary key is 'black'. 'wife' references another table 'where' in an exactly one to zero or many relationship. The relationship should be called 'black'. 
+There is another table 'where' with the columns 'game' (DATE), 'I' (TEXT), 'spring' (VARCHAR(50)). The primary key is 'game'. 'where' references another table 'sign' in an exactly one to zero or many relationship. The relationship should be called 'game'. 
+There is another table 'sign' with the columns 'assume' (VARCHAR(50)), 'scientist' (DATE). The primary key is 'assume'. 'sign' references another table 'possible' in an exactly one to zero or many relationship. The relationship should be called 'assume'. 
+

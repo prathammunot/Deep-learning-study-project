@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram255'.
+There is a table 'everyone' with the columns 'community' (DATE), 'he' (TEXT), 'hotel' (VARCHAR(50)). The primary key is 'community'. 'everyone' references another table 'only' in an exactly one to zero or many relationship. The relationship should be called 'community'. 
+There is another table 'only' with the columns 'nature' (VARCHAR(50)), 'interesting' (DATE). The primary key is 'nature'. 'only' references another table 'rich' in an exactly one to zero or many relationship. The relationship should be called 'nature'. 
+There is another table 'rich' with the columns 'wide' (DATE), 'difficult' (TEXT), 'street' (VARCHAR(50)). The primary key is 'wide'. 'rich' references another table 'safe' in an exactly one to zero or many relationship. The relationship should be called 'wide'. 
+There is another table 'safe' with the columns 'body' (VARCHAR(50)), 'dog' (DATE). The primary key is 'body'. 'safe' references another table 'tell' in an exactly one to zero or many relationship. The relationship should be called 'body'. 
+There is another table 'tell' with the columns 'dinner' (DATE), 'Congress' (TEXT), 'explain' (VARCHAR(50)). The primary key is 'dinner'. 'tell' references another table 'so' in an exactly one to zero or many relationship. The relationship should be called 'dinner'. 
+There is another table 'so' with the columns 'especially' (VARCHAR(50)), 'four' (DATE). The primary key is 'especially'. 'so' references another table 'meeting' in an exactly one to zero or many relationship. The relationship should be called 'especially'. 
+There is another table 'meeting' with the columns 'new' (DATE), 'because' (TEXT), 'final' (VARCHAR(50)). The primary key is 'new'. 'meeting' references another table 'yard' in an exactly one to zero or many relationship. The relationship should be called 'new'. 
+There is another table 'yard' with the columns 'body' (VARCHAR(50)), 'candidate' (DATE). The primary key is 'body'. 'yard' references another table 'everyone' in an exactly one to zero or many relationship. The relationship should be called 'body'. 
+

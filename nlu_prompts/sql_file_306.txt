@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram231'.
+There is a table 'reality' with the columns 'source' (DATE), 'material' (TEXT), 'north' (VARCHAR(50)). The primary key is 'source'. 'reality' references another table 'arm' in an exactly one to zero or many relationship. The relationship should be called 'source'. 
+There is another table 'arm' with the columns 'purpose' (VARCHAR(50)), 'marriage' (DATE). The primary key is 'purpose'. 'arm' references another table 'cover' in an exactly one to zero or many relationship. The relationship should be called 'purpose'. 
+There is another table 'cover' with the columns 'attention' (DATE), 'opportunity' (TEXT), 'food' (VARCHAR(50)). The primary key is 'attention'. 'cover' references another table 'walk' in an exactly one to zero or many relationship. The relationship should be called 'attention'. 
+There is another table 'walk' with the columns 'run' (VARCHAR(50)), 'outside' (DATE). The primary key is 'run'. 'walk' references another table 'thought' in an exactly one to zero or many relationship. The relationship should be called 'run'. 
+There is another table 'thought' with the columns 'major' (DATE), 'participant' (TEXT), 'affect' (VARCHAR(50)). The primary key is 'major'. 'thought' references another table 'order' in an exactly one to zero or many relationship. The relationship should be called 'major'. 
+There is another table 'order' with the columns 'nor' (VARCHAR(50)), 'data' (DATE). The primary key is 'nor'. 'order' references another table 'assume' in an exactly one to zero or many relationship. The relationship should be called 'nor'. 
+There is another table 'assume' with the columns 'time' (DATE), 'wish' (TEXT), 'throw' (VARCHAR(50)). The primary key is 'time'. 'assume' references another table 'suffer' in an exactly one to zero or many relationship. The relationship should be called 'time'. 
+There is another table 'suffer' with the columns 'particular' (VARCHAR(50)), 'most' (DATE). The primary key is 'particular'. 'suffer' references another table 'reality' in an exactly one to zero or many relationship. The relationship should be called 'particular'. 
+

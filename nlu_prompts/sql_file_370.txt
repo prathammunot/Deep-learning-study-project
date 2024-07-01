@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram302'.
+There is a table 'off' with the columns 'happen' (DATE), 'girl' (TEXT), 'so' (VARCHAR(50)). The primary key is 'happen'. 'off' references another table 'challenge' in an exactly one to zero or many relationship. The relationship should be called 'happen'. 
+There is another table 'challenge' with the columns 'fine' (VARCHAR(50)), 'industry' (DATE). The primary key is 'fine'. 'challenge' references another table 'skill' in an exactly one to zero or many relationship. The relationship should be called 'fine'. 
+There is another table 'skill' with the columns 'left' (DATE), 'quality' (TEXT), 'field' (VARCHAR(50)). The primary key is 'left'. 'skill' references another table 'hot' in an exactly one to zero or many relationship. The relationship should be called 'left'. 
+There is another table 'hot' with the columns 'heart' (VARCHAR(50)), 'player' (DATE). The primary key is 'heart'. 'hot' references another table 'upon' in an exactly one to zero or many relationship. The relationship should be called 'heart'. 
+There is another table 'upon' with the columns 'investment' (DATE), 'foot' (TEXT), 'save' (VARCHAR(50)). The primary key is 'investment'. 'upon' references another table 'off' in an exactly one to zero or many relationship. The relationship should be called 'investment'. 
+

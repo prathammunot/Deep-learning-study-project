@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram305'.
+There is a table 'executive' with the columns 'example' (DATE), 'simply' (TEXT), 'these' (VARCHAR(50)). The primary key is 'example'. 'executive' references another table 'herself' in an exactly one to zero or many relationship. The relationship should be called 'example'. 
+There is another table 'herself' with the columns 'inside' (VARCHAR(50)), 'share' (DATE). The primary key is 'inside'. 'herself' references another table 'exactly' in an exactly one to zero or many relationship. The relationship should be called 'inside'. 
+There is another table 'exactly' with the columns 'popular' (DATE), 'hard' (TEXT), 'hour' (VARCHAR(50)). The primary key is 'popular'. 'exactly' references another table 'threat' in an exactly one to zero or many relationship. The relationship should be called 'popular'. 
+There is another table 'threat' with the columns 'become' (VARCHAR(50)), 'far' (DATE). The primary key is 'become'. 'threat' references another table 'throughout' in an exactly one to zero or many relationship. The relationship should be called 'become'. 
+There is another table 'throughout' with the columns 'door' (DATE), 'suddenly' (TEXT), 'yeah' (VARCHAR(50)). The primary key is 'door'. 'throughout' references another table 'clear' in an exactly one to zero or many relationship. The relationship should be called 'door'. 
+There is another table 'clear' with the columns 'road' (VARCHAR(50)), 'my' (DATE). The primary key is 'road'. 'clear' references another table 'trial' in an exactly one to zero or many relationship. The relationship should be called 'road'. 
+There is another table 'trial' with the columns 'out' (DATE), 'run' (TEXT), 'indeed' (VARCHAR(50)). The primary key is 'out'. 'trial' references another table 'between' in an exactly one to zero or many relationship. The relationship should be called 'out'. 
+There is another table 'between' with the columns 'skill' (VARCHAR(50)), 'glass' (DATE). The primary key is 'skill'. 'between' references another table 'executive' in an exactly one to zero or many relationship. The relationship should be called 'skill'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram314'.
+There is a table 'morning' with the columns 'easy' (DATE), 'example' (TEXT), 'they' (VARCHAR(50)). The primary key is 'easy'. 'morning' references another table 'two' in an exactly one to zero or many relationship. The relationship should be called 'easy'. 
+There is another table 'two' with the columns 'painting' (VARCHAR(50)), 'behind' (DATE). The primary key is 'painting'. 'two' references another table 'moment' in an exactly one to zero or many relationship. The relationship should be called 'painting'. 
+There is another table 'moment' with the columns 'natural' (DATE), 'clear' (TEXT), 'great' (VARCHAR(50)). The primary key is 'natural'. 'moment' references another table 'never' in an exactly one to zero or many relationship. The relationship should be called 'natural'. 
+There is another table 'never' with the columns 'prepare' (VARCHAR(50)), 'hand' (DATE). The primary key is 'prepare'. 'never' references another table 'still' in an exactly one to zero or many relationship. The relationship should be called 'prepare'. 
+There is another table 'still' with the columns 'interest' (DATE), 'generation' (TEXT), 'such' (VARCHAR(50)). The primary key is 'interest'. 'still' references another table 'firm' in an exactly one to zero or many relationship. The relationship should be called 'interest'. 
+There is another table 'firm' with the columns 'around' (VARCHAR(50)), 'follow' (DATE). The primary key is 'around'. 'firm' references another table 'but' in an exactly one to zero or many relationship. The relationship should be called 'around'. 
+There is another table 'but' with the columns 'sort' (DATE), 'short' (TEXT), 'every' (VARCHAR(50)). The primary key is 'sort'. 'but' references another table 'morning' in an exactly one to zero or many relationship. The relationship should be called 'sort'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram287'.
+There is a table 'center' with the columns 'pretty' (DATE), 'perform' (TEXT), 'paper' (VARCHAR(50)). The primary key is 'pretty'. 'center' references another table 'together' in an exactly one to zero or many relationship. The relationship should be called 'pretty'. 
+There is another table 'together' with the columns 'responsibility' (VARCHAR(50)), 'statement' (DATE). The primary key is 'responsibility'. 'together' references another table 'reveal' in an exactly one to zero or many relationship. The relationship should be called 'responsibility'. 
+There is another table 'reveal' with the columns 'set' (DATE), 'sell' (TEXT), 'need' (VARCHAR(50)). The primary key is 'set'. 'reveal' references another table 'event' in an exactly one to zero or many relationship. The relationship should be called 'set'. 
+There is another table 'event' with the columns 'television' (VARCHAR(50)), 'success' (DATE). The primary key is 'television'. 'event' references another table 'term' in an exactly one to zero or many relationship. The relationship should be called 'television'. 
+There is another table 'term' with the columns 'official' (DATE), 'picture' (TEXT), 'dog' (VARCHAR(50)). The primary key is 'official'. 'term' references another table 'center' in an exactly one to zero or many relationship. The relationship should be called 'official'. 
+

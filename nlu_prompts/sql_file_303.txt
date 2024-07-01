@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram228'.
+There is a table 'hit' with the columns 'TV' (DATE), 'late' (TEXT), 'several' (VARCHAR(50)). The primary key is 'TV'. 'hit' references another table 'trade' in an exactly one to zero or many relationship. The relationship should be called 'TV'. 
+There is another table 'trade' with the columns 'life' (VARCHAR(50)), 'cost' (DATE). The primary key is 'life'. 'trade' references another table 'job' in an exactly one to zero or many relationship. The relationship should be called 'life'. 
+There is another table 'job' with the columns 'every' (DATE), 'base' (TEXT), 'close' (VARCHAR(50)). The primary key is 'every'. 'job' references another table 'win' in an exactly one to zero or many relationship. The relationship should be called 'every'. 
+There is another table 'win' with the columns 'stand' (VARCHAR(50)), 'history' (DATE). The primary key is 'stand'. 'win' references another table 'relate' in an exactly one to zero or many relationship. The relationship should be called 'stand'. 
+There is another table 'relate' with the columns 'something' (DATE), 'open' (TEXT), 'section' (VARCHAR(50)). The primary key is 'something'. 'relate' references another table 'ground' in an exactly one to zero or many relationship. The relationship should be called 'something'. 
+There is another table 'ground' with the columns 'whom' (VARCHAR(50)), 'enough' (DATE). The primary key is 'whom'. 'ground' references another table 'sound' in an exactly one to zero or many relationship. The relationship should be called 'whom'. 
+There is another table 'sound' with the columns 'standard' (DATE), 'model' (TEXT), 'develop' (VARCHAR(50)). The primary key is 'standard'. 'sound' references another table 'hit' in an exactly one to zero or many relationship. The relationship should be called 'standard'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram330'.
+There is a table 'crime' with the columns 'drug' (DATE), 'gas' (TEXT), 'themselves' (VARCHAR(50)). The primary key is 'drug'. 'crime' references another table 'enter' in an exactly one to zero or many relationship. The relationship should be called 'drug'. 
+There is another table 'enter' with the columns 'agree' (VARCHAR(50)), 'relate' (DATE). The primary key is 'agree'. 'enter' references another table 'make' in an exactly one to zero or many relationship. The relationship should be called 'agree'. 
+There is another table 'make' with the columns 'dream' (DATE), 'agent' (TEXT), 'add' (VARCHAR(50)). The primary key is 'dream'. 'make' references another table 'think' in an exactly one to zero or many relationship. The relationship should be called 'dream'. 
+There is another table 'think' with the columns 'discuss' (VARCHAR(50)), 'property' (DATE). The primary key is 'discuss'. 'think' references another table 'buy' in an exactly one to zero or many relationship. The relationship should be called 'discuss'. 
+There is another table 'buy' with the columns 'over' (DATE), 'attention' (TEXT), 'task' (VARCHAR(50)). The primary key is 'over'. 'buy' references another table 'listen' in an exactly one to zero or many relationship. The relationship should be called 'over'. 
+There is another table 'listen' with the columns 'range' (VARCHAR(50)), 'per' (DATE). The primary key is 'range'. 'listen' references another table 'character' in an exactly one to zero or many relationship. The relationship should be called 'range'. 
+There is another table 'character' with the columns 'what' (DATE), 'every' (TEXT), 'two' (VARCHAR(50)). The primary key is 'what'. 'character' references another table 'crime' in an exactly one to zero or many relationship. The relationship should be called 'what'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram243'.
+There is a table 'trial' with the columns 'turn' (DATE), 'in' (TEXT), 'officer' (VARCHAR(50)). The primary key is 'turn'. 'trial' references another table 'herself' in an exactly one to zero or many relationship. The relationship should be called 'turn'. 
+There is another table 'herself' with the columns 'drive' (VARCHAR(50)), 'ask' (DATE). The primary key is 'drive'. 'herself' references another table 'Congress' in an exactly one to zero or many relationship. The relationship should be called 'drive'. 
+There is another table 'Congress' with the columns 'challenge' (DATE), 'try' (TEXT), 'human' (VARCHAR(50)). The primary key is 'challenge'. 'Congress' references another table 'entire' in an exactly one to zero or many relationship. The relationship should be called 'challenge'. 
+There is another table 'entire' with the columns 'PM' (VARCHAR(50)), 'either' (DATE). The primary key is 'PM'. 'entire' references another table 'feeling' in an exactly one to zero or many relationship. The relationship should be called 'PM'. 
+There is another table 'feeling' with the columns 'computer' (DATE), 'land' (TEXT), 'behind' (VARCHAR(50)). The primary key is 'computer'. 'feeling' references another table 'accept' in an exactly one to zero or many relationship. The relationship should be called 'computer'. 
+There is another table 'accept' with the columns 'leg' (VARCHAR(50)), 'half' (DATE). The primary key is 'leg'. 'accept' references another table 'size' in an exactly one to zero or many relationship. The relationship should be called 'leg'. 
+There is another table 'size' with the columns 'green' (DATE), 'teacher' (TEXT), 'chair' (VARCHAR(50)). The primary key is 'green'. 'size' references another table 'trial' in an exactly one to zero or many relationship. The relationship should be called 'green'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram303'.
+There is a table 'recently' with the columns 'nation' (DATE), 'institution' (TEXT), 'more' (VARCHAR(50)). The primary key is 'nation'. 'recently' references another table 'run' in an exactly one to zero or many relationship. The relationship should be called 'nation'. 
+There is another table 'run' with the columns 'time' (VARCHAR(50)), 'at' (DATE). The primary key is 'time'. 'run' references another table 'nor' in an exactly one to zero or many relationship. The relationship should be called 'time'. 
+There is another table 'nor' with the columns 'pretty' (DATE), 'discover' (TEXT), 'service' (VARCHAR(50)). The primary key is 'pretty'. 'nor' references another table 'again' in an exactly one to zero or many relationship. The relationship should be called 'pretty'. 
+There is another table 'again' with the columns 'so' (VARCHAR(50)), 'film' (DATE). The primary key is 'so'. 'again' references another table 'best' in an exactly one to zero or many relationship. The relationship should be called 'so'. 
+There is another table 'best' with the columns 'politics' (DATE), 'fight' (TEXT), 'goal' (VARCHAR(50)). The primary key is 'politics'. 'best' references another table 'recently' in an exactly one to zero or many relationship. The relationship should be called 'politics'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram264'.
+There is a table 'red' with the columns 'pattern' (DATE), 'different' (TEXT), 'third' (VARCHAR(50)). The primary key is 'pattern'. 'red' references another table 'maintain' in an exactly one to zero or many relationship. The relationship should be called 'pattern'. 
+There is another table 'maintain' with the columns 'everyone' (VARCHAR(50)), 'day' (DATE). The primary key is 'everyone'. 'maintain' references another table 'product' in an exactly one to zero or many relationship. The relationship should be called 'everyone'. 
+There is another table 'product' with the columns 'model' (DATE), 'force' (TEXT), 'decade' (VARCHAR(50)). The primary key is 'model'. 'product' references another table 'floor' in an exactly one to zero or many relationship. The relationship should be called 'model'. 
+There is another table 'floor' with the columns 'relate' (VARCHAR(50)), 'claim' (DATE). The primary key is 'relate'. 'floor' references another table 'us' in an exactly one to zero or many relationship. The relationship should be called 'relate'. 
+There is another table 'us' with the columns 'operation' (DATE), 'stock' (TEXT), 'police' (VARCHAR(50)). The primary key is 'operation'. 'us' references another table 'night' in an exactly one to zero or many relationship. The relationship should be called 'operation'. 
+There is another table 'night' with the columns 'table' (VARCHAR(50)), 'attention' (DATE). The primary key is 'table'. 'night' references another table 'red' in an exactly one to zero or many relationship. The relationship should be called 'table'. 
+

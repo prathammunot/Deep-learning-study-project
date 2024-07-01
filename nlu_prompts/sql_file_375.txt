@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram307'.
+There is a table 'house' with the columns 'create' (DATE), 'news' (TEXT), 'else' (VARCHAR(50)). The primary key is 'create'. 'house' references another table 'image' in an exactly one to zero or many relationship. The relationship should be called 'create'. 
+There is another table 'image' with the columns 'born' (VARCHAR(50)), 'national' (DATE). The primary key is 'born'. 'image' references another table 'free' in an exactly one to zero or many relationship. The relationship should be called 'born'. 
+There is another table 'free' with the columns 'power' (DATE), 'surface' (TEXT), 'training' (VARCHAR(50)). The primary key is 'power'. 'free' references another table 'develop' in an exactly one to zero or many relationship. The relationship should be called 'power'. 
+There is another table 'develop' with the columns 'participant' (VARCHAR(50)), 'if' (DATE). The primary key is 'participant'. 'develop' references another table 'born' in an exactly one to zero or many relationship. The relationship should be called 'participant'. 
+There is another table 'born' with the columns 'store' (DATE), 'difficult' (TEXT), 'since' (VARCHAR(50)). The primary key is 'store'. 'born' references another table 'up' in an exactly one to zero or many relationship. The relationship should be called 'store'. 
+There is another table 'up' with the columns 'note' (VARCHAR(50)), 'good' (DATE). The primary key is 'note'. 'up' references another table 'finally' in an exactly one to zero or many relationship. The relationship should be called 'note'. 
+There is another table 'finally' with the columns 'into' (DATE), 'do' (TEXT), 'plant' (VARCHAR(50)). The primary key is 'into'. 'finally' references another table 'fast' in an exactly one to zero or many relationship. The relationship should be called 'into'. 
+There is another table 'fast' with the columns 'hear' (VARCHAR(50)), 'art' (DATE). The primary key is 'hear'. 'fast' references another table 'house' in an exactly one to zero or many relationship. The relationship should be called 'hear'. 
+

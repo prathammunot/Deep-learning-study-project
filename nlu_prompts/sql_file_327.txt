@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram254'.
+There is a table 'middle' with the columns 'bag' (DATE), 'begin' (TEXT), 'do' (VARCHAR(50)). The primary key is 'bag'. 'middle' references another table 'hold' in an exactly one to zero or many relationship. The relationship should be called 'bag'. 
+There is another table 'hold' with the columns 'few' (VARCHAR(50)), 'charge' (DATE). The primary key is 'few'. 'hold' references another table 'suddenly' in an exactly one to zero or many relationship. The relationship should be called 'few'. 
+There is another table 'suddenly' with the columns 'why' (DATE), 'actually' (TEXT), 'light' (VARCHAR(50)). The primary key is 'why'. 'suddenly' references another table 'rather' in an exactly one to zero or many relationship. The relationship should be called 'why'. 
+There is another table 'rather' with the columns 'each' (VARCHAR(50)), 'fear' (DATE). The primary key is 'each'. 'rather' references another table 'hair' in an exactly one to zero or many relationship. The relationship should be called 'each'. 
+There is another table 'hair' with the columns 'speak' (DATE), 'recent' (TEXT), 'human' (VARCHAR(50)). The primary key is 'speak'. 'hair' references another table 'city' in an exactly one to zero or many relationship. The relationship should be called 'speak'. 
+There is another table 'city' with the columns 'follow' (VARCHAR(50)), 'goal' (DATE). The primary key is 'follow'. 'city' references another table 'network' in an exactly one to zero or many relationship. The relationship should be called 'follow'. 
+There is another table 'network' with the columns 'agent' (DATE), 'many' (TEXT), 'agency' (VARCHAR(50)). The primary key is 'agent'. 'network' references another table 'middle' in an exactly one to zero or many relationship. The relationship should be called 'agent'. 
+

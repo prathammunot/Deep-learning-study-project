@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram247'.
+There is a table 'morning' with the columns 'high' (DATE), 'whose' (TEXT), 'beautiful' (VARCHAR(50)). The primary key is 'high'. 'morning' references another table 'watch' in an exactly one to zero or many relationship. The relationship should be called 'high'. 
+There is another table 'watch' with the columns 'crime' (VARCHAR(50)), 'stage' (DATE). The primary key is 'crime'. 'watch' references another table 'author' in an exactly one to zero or many relationship. The relationship should be called 'crime'. 
+There is another table 'author' with the columns 'point' (DATE), 'anyone' (TEXT), 'might' (VARCHAR(50)). The primary key is 'point'. 'author' references another table 'thousand' in an exactly one to zero or many relationship. The relationship should be called 'point'. 
+There is another table 'thousand' with the columns 'lawyer' (VARCHAR(50)), 'yet' (DATE). The primary key is 'lawyer'. 'thousand' references another table 'media' in an exactly one to zero or many relationship. The relationship should be called 'lawyer'. 
+There is another table 'media' with the columns 'north' (DATE), 'deep' (TEXT), 'sign' (VARCHAR(50)). The primary key is 'north'. 'media' references another table 'speak' in an exactly one to zero or many relationship. The relationship should be called 'north'. 
+There is another table 'speak' with the columns 'executive' (VARCHAR(50)), 'single' (DATE). The primary key is 'executive'. 'speak' references another table 'different' in an exactly one to zero or many relationship. The relationship should be called 'executive'. 
+There is another table 'different' with the columns 'next' (DATE), 'build' (TEXT), 'assume' (VARCHAR(50)). The primary key is 'next'. 'different' references another table 'this' in an exactly one to zero or many relationship. The relationship should be called 'next'. 
+There is another table 'this' with the columns 'place' (VARCHAR(50)), 'treatment' (DATE). The primary key is 'place'. 'this' references another table 'morning' in an exactly one to zero or many relationship. The relationship should be called 'place'. 
+

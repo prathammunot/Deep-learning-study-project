@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram282'.
+There is a table 'company' with the columns 'short' (DATE), 'agent' (TEXT), 'line' (VARCHAR(50)). The primary key is 'short'. 'company' references another table 'heavy' in an exactly one to zero or many relationship. The relationship should be called 'short'. 
+There is another table 'heavy' with the columns 'lay' (VARCHAR(50)), 'player' (DATE). The primary key is 'lay'. 'heavy' references another table 'top' in an exactly one to zero or many relationship. The relationship should be called 'lay'. 
+There is another table 'top' with the columns 'well' (DATE), 'reflect' (TEXT), 'keep' (VARCHAR(50)). The primary key is 'well'. 'top' references another table 'arm' in an exactly one to zero or many relationship. The relationship should be called 'well'. 
+There is another table 'arm' with the columns 'final' (VARCHAR(50)), 'effort' (DATE). The primary key is 'final'. 'arm' references another table 'ago' in an exactly one to zero or many relationship. The relationship should be called 'final'. 
+There is another table 'ago' with the columns 'enter' (DATE), 'clear' (TEXT), 'situation' (VARCHAR(50)). The primary key is 'enter'. 'ago' references another table 'above' in an exactly one to zero or many relationship. The relationship should be called 'enter'. 
+There is another table 'above' with the columns 'build' (VARCHAR(50)), 'human' (DATE). The primary key is 'build'. 'above' references another table 'company' in an exactly one to zero or many relationship. The relationship should be called 'build'. 
+

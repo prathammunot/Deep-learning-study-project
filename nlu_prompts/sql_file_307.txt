@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram232'.
+There is a table 'wonder' with the columns 'six' (DATE), 'painting' (TEXT), 'sign' (VARCHAR(50)). The primary key is 'six'. 'wonder' references another table 'occur' in an exactly one to zero or many relationship. The relationship should be called 'six'. 
+There is another table 'occur' with the columns 'let' (VARCHAR(50)), 'today' (DATE). The primary key is 'let'. 'occur' references another table 'from' in an exactly one to zero or many relationship. The relationship should be called 'let'. 
+There is another table 'from' with the columns 'have' (DATE), 'station' (TEXT), 'capital' (VARCHAR(50)). The primary key is 'have'. 'from' references another table 'car' in an exactly one to zero or many relationship. The relationship should be called 'have'. 
+There is another table 'car' with the columns 'bank' (VARCHAR(50)), 'bill' (DATE). The primary key is 'bank'. 'car' references another table 'front' in an exactly one to zero or many relationship. The relationship should be called 'bank'. 
+There is another table 'front' with the columns 'wait' (DATE), 'officer' (TEXT), 'weight' (VARCHAR(50)). The primary key is 'wait'. 'front' references another table 'rise' in an exactly one to zero or many relationship. The relationship should be called 'wait'. 
+There is another table 'rise' with the columns 'toward' (VARCHAR(50)), 'support' (DATE). The primary key is 'toward'. 'rise' references another table 'sea' in an exactly one to zero or many relationship. The relationship should be called 'toward'. 
+There is another table 'sea' with the columns 'child' (DATE), 'remain' (TEXT), 'run' (VARCHAR(50)). The primary key is 'child'. 'sea' references another table 'result' in an exactly one to zero or many relationship. The relationship should be called 'child'. 
+There is another table 'result' with the columns 'red' (VARCHAR(50)), 'any' (DATE). The primary key is 'red'. 'result' references another table 'bar' in an exactly one to zero or many relationship. The relationship should be called 'red'. 
+There is another table 'bar' with the columns 'teacher' (DATE), 'subject' (TEXT), 'may' (VARCHAR(50)). The primary key is 'teacher'. 'bar' references another table 'wonder' in an exactly one to zero or many relationship. The relationship should be called 'teacher'. 
+

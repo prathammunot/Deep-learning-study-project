@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram316'.
+There is a table 'crime' with the columns 'camera' (DATE), 'class' (TEXT), 'listen' (VARCHAR(50)). The primary key is 'camera'. 'crime' references another table 'next' in an exactly one to zero or many relationship. The relationship should be called 'camera'. 
+There is another table 'next' with the columns 'indicate' (VARCHAR(50)), 'including' (DATE). The primary key is 'indicate'. 'next' references another table 'economic' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'economic' with the columns 'see' (DATE), 'why' (TEXT), 'table' (VARCHAR(50)). The primary key is 'see'. 'economic' references another table 'hard' in an exactly one to zero or many relationship. The relationship should be called 'see'. 
+There is another table 'hard' with the columns 'to' (VARCHAR(50)), 'nice' (DATE). The primary key is 'to'. 'hard' references another table 'look' in an exactly one to zero or many relationship. The relationship should be called 'to'. 
+There is another table 'look' with the columns 'position' (DATE), 'project' (TEXT), 'trouble' (VARCHAR(50)). The primary key is 'position'. 'look' references another table 'final' in an exactly one to zero or many relationship. The relationship should be called 'position'. 
+There is another table 'final' with the columns 'nature' (VARCHAR(50)), 'forget' (DATE). The primary key is 'nature'. 'final' references another table 'follow' in an exactly one to zero or many relationship. The relationship should be called 'nature'. 
+There is another table 'follow' with the columns 'own' (DATE), 'which' (TEXT), 'point' (VARCHAR(50)). The primary key is 'own'. 'follow' references another table 'crime' in an exactly one to zero or many relationship. The relationship should be called 'own'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram320'.
+There is a table 'PM' with the columns 'across' (DATE), 'away' (TEXT), 'statement' (VARCHAR(50)). The primary key is 'across'. 'PM' references another table 'describe' in an exactly one to zero or many relationship. The relationship should be called 'across'. 
+There is another table 'describe' with the columns 'student' (VARCHAR(50)), 'firm' (DATE). The primary key is 'student'. 'describe' references another table 'enough' in an exactly one to zero or many relationship. The relationship should be called 'student'. 
+There is another table 'enough' with the columns 'material' (DATE), 'road' (TEXT), 'gun' (VARCHAR(50)). The primary key is 'material'. 'enough' references another table 'case' in an exactly one to zero or many relationship. The relationship should be called 'material'. 
+There is another table 'case' with the columns 'fact' (VARCHAR(50)), 'real' (DATE). The primary key is 'fact'. 'case' references another table 'study' in an exactly one to zero or many relationship. The relationship should be called 'fact'. 
+There is another table 'study' with the columns 'site' (DATE), 'last' (TEXT), 'can' (VARCHAR(50)). The primary key is 'site'. 'study' references another table 'include' in an exactly one to zero or many relationship. The relationship should be called 'site'. 
+There is another table 'include' with the columns 'west' (VARCHAR(50)), 'rest' (DATE). The primary key is 'west'. 'include' references another table 'magazine' in an exactly one to zero or many relationship. The relationship should be called 'west'. 
+There is another table 'magazine' with the columns 'care' (DATE), 'left' (TEXT), 'outside' (VARCHAR(50)). The primary key is 'care'. 'magazine' references another table 'evidence' in an exactly one to zero or many relationship. The relationship should be called 'care'. 
+There is another table 'evidence' with the columns 'lay' (VARCHAR(50)), 'natural' (DATE). The primary key is 'lay'. 'evidence' references another table 'PM' in an exactly one to zero or many relationship. The relationship should be called 'lay'. 
+

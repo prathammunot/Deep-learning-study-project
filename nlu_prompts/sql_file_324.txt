@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram251'.
+There is a table 'floor' with the columns 'big' (DATE), 'once' (TEXT), 'to' (VARCHAR(50)). The primary key is 'big'. 'floor' references another table 'summer' in an exactly one to zero or many relationship. The relationship should be called 'big'. 
+There is another table 'summer' with the columns 'consumer' (VARCHAR(50)), 'anyone' (DATE). The primary key is 'consumer'. 'summer' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'consumer'. 
+There is another table 'early' with the columns 'address' (DATE), 'policy' (TEXT), 'main' (VARCHAR(50)). The primary key is 'address'. 'early' references another table 'from' in an exactly one to zero or many relationship. The relationship should be called 'address'. 
+There is another table 'from' with the columns 'game' (VARCHAR(50)), 'painting' (DATE). The primary key is 'game'. 'from' references another table 'what' in an exactly one to zero or many relationship. The relationship should be called 'game'. 
+There is another table 'what' with the columns 'both' (DATE), 'know' (TEXT), 'condition' (VARCHAR(50)). The primary key is 'both'. 'what' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'both'. 
+There is another table 'situation' with the columns 'discover' (VARCHAR(50)), 'bed' (DATE). The primary key is 'discover'. 'situation' references another table 'particular' in an exactly one to zero or many relationship. The relationship should be called 'discover'. 
+There is another table 'particular' with the columns 'idea' (DATE), 'someone' (TEXT), 'keep' (VARCHAR(50)). The primary key is 'idea'. 'particular' references another table 'size' in an exactly one to zero or many relationship. The relationship should be called 'idea'. 
+There is another table 'size' with the columns 'break' (VARCHAR(50)), 'economic' (DATE). The primary key is 'break'. 'size' references another table 'floor' in an exactly one to zero or many relationship. The relationship should be called 'break'. 
+

@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram313'.
+There is a table 'remain' with the columns 'material' (DATE), 'level' (TEXT), 'nice' (VARCHAR(50)). The primary key is 'material'. 'remain' references another table 'by' in an exactly one to zero or many relationship. The relationship should be called 'material'. 
+There is another table 'by' with the columns 'thought' (VARCHAR(50)), 'which' (DATE). The primary key is 'thought'. 'by' references another table 'day' in an exactly one to zero or many relationship. The relationship should be called 'thought'. 
+There is another table 'day' with the columns 'wish' (DATE), 'measure' (TEXT), 'blood' (VARCHAR(50)). The primary key is 'wish'. 'day' references another table 'reach' in an exactly one to zero or many relationship. The relationship should be called 'wish'. 
+There is another table 'reach' with the columns 'long' (VARCHAR(50)), 'study' (DATE). The primary key is 'long'. 'reach' references another table 'range' in an exactly one to zero or many relationship. The relationship should be called 'long'. 
+There is another table 'range' with the columns 'before' (DATE), 'guy' (TEXT), 'face' (VARCHAR(50)). The primary key is 'before'. 'range' references another table 'pull' in an exactly one to zero or many relationship. The relationship should be called 'before'. 
+There is another table 'pull' with the columns 'property' (VARCHAR(50)), 'surface' (DATE). The primary key is 'property'. 'pull' references another table 'author' in an exactly one to zero or many relationship. The relationship should be called 'property'. 
+There is another table 'author' with the columns 'this' (DATE), 'use' (TEXT), 'many' (VARCHAR(50)). The primary key is 'this'. 'author' references another table 'a' in an exactly one to zero or many relationship. The relationship should be called 'this'. 
+There is another table 'a' with the columns 'huge' (VARCHAR(50)), 'reveal' (DATE). The primary key is 'huge'. 'a' references another table 'risk' in an exactly one to zero or many relationship. The relationship should be called 'huge'. 
+There is another table 'risk' with the columns 'community' (DATE), 'inside' (TEXT), 'city' (VARCHAR(50)). The primary key is 'community'. 'risk' references another table 'remain' in an exactly one to zero or many relationship. The relationship should be called 'community'. 
+

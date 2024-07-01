@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram298'.
+There is a table 'good' with the columns 'wife' (DATE), 'movie' (TEXT), 'north' (VARCHAR(50)). The primary key is 'wife'. 'good' references another table 'democratic' in an exactly one to zero or many relationship. The relationship should be called 'wife'. 
+There is another table 'democratic' with the columns 'nice' (VARCHAR(50)), 'course' (DATE). The primary key is 'nice'. 'democratic' references another table 'focus' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+There is another table 'focus' with the columns 'baby' (DATE), 'worry' (TEXT), 'resource' (VARCHAR(50)). The primary key is 'baby'. 'focus' references another table 'safe' in an exactly one to zero or many relationship. The relationship should be called 'baby'. 
+There is another table 'safe' with the columns 'us' (VARCHAR(50)), 'upon' (DATE). The primary key is 'us'. 'safe' references another table 'wall' in an exactly one to zero or many relationship. The relationship should be called 'us'. 
+There is another table 'wall' with the columns 'child' (DATE), 'read' (TEXT), 'them' (VARCHAR(50)). The primary key is 'child'. 'wall' references another table 'often' in an exactly one to zero or many relationship. The relationship should be called 'child'. 
+There is another table 'often' with the columns 'protect' (VARCHAR(50)), 'character' (DATE). The primary key is 'protect'. 'often' references another table 'Republican' in an exactly one to zero or many relationship. The relationship should be called 'protect'. 
+There is another table 'Republican' with the columns 'sign' (DATE), 'evidence' (TEXT), 'family' (VARCHAR(50)). The primary key is 'sign'. 'Republican' references another table 'generation' in an exactly one to zero or many relationship. The relationship should be called 'sign'. 
+There is another table 'generation' with the columns 'someone' (VARCHAR(50)), 'charge' (DATE). The primary key is 'someone'. 'generation' references another table 'good' in an exactly one to zero or many relationship. The relationship should be called 'someone'. 
+

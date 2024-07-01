@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram294'.
+There is a table 'mouth' with the columns 'behind' (DATE), 'treatment' (TEXT), 'one' (VARCHAR(50)). The primary key is 'behind'. 'mouth' references another table 'gas' in an exactly one to zero or many relationship. The relationship should be called 'behind'. 
+There is another table 'gas' with the columns 'manage' (VARCHAR(50)), 'culture' (DATE). The primary key is 'manage'. 'gas' references another table 'democratic' in an exactly one to zero or many relationship. The relationship should be called 'manage'. 
+There is another table 'democratic' with the columns 'live' (DATE), 'check' (TEXT), 'marriage' (VARCHAR(50)). The primary key is 'live'. 'democratic' references another table 'space' in an exactly one to zero or many relationship. The relationship should be called 'live'. 
+There is another table 'space' with the columns 'relate' (VARCHAR(50)), 'heavy' (DATE). The primary key is 'relate'. 'space' references another table 'myself' in an exactly one to zero or many relationship. The relationship should be called 'relate'. 
+There is another table 'myself' with the columns 'avoid' (DATE), 'dream' (TEXT), 'I' (VARCHAR(50)). The primary key is 'avoid'. 'myself' references another table 'morning' in an exactly one to zero or many relationship. The relationship should be called 'avoid'. 
+There is another table 'morning' with the columns 'past' (VARCHAR(50)), 'choice' (DATE). The primary key is 'past'. 'morning' references another table 'board' in an exactly one to zero or many relationship. The relationship should be called 'past'. 
+There is another table 'board' with the columns 'director' (DATE), 'real' (TEXT), 'note' (VARCHAR(50)). The primary key is 'director'. 'board' references another table 'mouth' in an exactly one to zero or many relationship. The relationship should be called 'director'. 
+

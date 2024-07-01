@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram271'.
+There is a table 'teach' with the columns 'alone' (DATE), 'to' (TEXT), 'spend' (VARCHAR(50)). The primary key is 'alone'. 'teach' references another table 'to' in an exactly one to zero or many relationship. The relationship should be called 'alone'. 
+There is another table 'to' with the columns 'pattern' (VARCHAR(50)), 'become' (DATE). The primary key is 'pattern'. 'to' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'pattern'. 
+There is another table 'section' with the columns 'major' (DATE), 'team' (TEXT), 'write' (VARCHAR(50)). The primary key is 'major'. 'section' references another table 'hospital' in an exactly one to zero or many relationship. The relationship should be called 'major'. 
+There is another table 'hospital' with the columns 'natural' (VARCHAR(50)), 'green' (DATE). The primary key is 'natural'. 'hospital' references another table 'environment' in an exactly one to zero or many relationship. The relationship should be called 'natural'. 
+There is another table 'environment' with the columns 'score' (DATE), 'live' (TEXT), 'teacher' (VARCHAR(50)). The primary key is 'score'. 'environment' references another table 'everything' in an exactly one to zero or many relationship. The relationship should be called 'score'. 
+There is another table 'everything' with the columns 'road' (VARCHAR(50)), 'sit' (DATE). The primary key is 'road'. 'everything' references another table 'western' in an exactly one to zero or many relationship. The relationship should be called 'road'. 
+There is another table 'western' with the columns 'institution' (DATE), 'eye' (TEXT), 'actually' (VARCHAR(50)). The primary key is 'institution'. 'western' references another table 'trial' in an exactly one to zero or many relationship. The relationship should be called 'institution'. 
+There is another table 'trial' with the columns 'keep' (VARCHAR(50)), 'control' (DATE). The primary key is 'keep'. 'trial' references another table 'teach' in an exactly one to zero or many relationship. The relationship should be called 'keep'. 
+

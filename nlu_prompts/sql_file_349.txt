@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram278'.
+There is a table 'everybody' with the columns 'indicate' (DATE), 'follow' (TEXT), 'safe' (VARCHAR(50)). The primary key is 'indicate'. 'everybody' references another table 'bring' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'bring' with the columns 'nor' (VARCHAR(50)), 'shake' (DATE). The primary key is 'nor'. 'bring' references another table 'national' in an exactly one to zero or many relationship. The relationship should be called 'nor'. 
+There is another table 'national' with the columns 'close' (DATE), 'leader' (TEXT), 'seek' (VARCHAR(50)). The primary key is 'close'. 'national' references another table 'science' in an exactly one to zero or many relationship. The relationship should be called 'close'. 
+There is another table 'science' with the columns 'purpose' (VARCHAR(50)), 'system' (DATE). The primary key is 'purpose'. 'science' references another table 'again' in an exactly one to zero or many relationship. The relationship should be called 'purpose'. 
+There is another table 'again' with the columns 'professional' (DATE), 'cover' (TEXT), 'debate' (VARCHAR(50)). The primary key is 'professional'. 'again' references another table 'everybody' in an exactly one to zero or many relationship. The relationship should be called 'professional'. 
+

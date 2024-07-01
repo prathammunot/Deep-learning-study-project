@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram253'.
+There is a table 'air' with the columns 'similar' (DATE), 'summer' (TEXT), 'all' (VARCHAR(50)). The primary key is 'similar'. 'air' references another table 'among' in an exactly one to zero or many relationship. The relationship should be called 'similar'. 
+There is another table 'among' with the columns 'week' (VARCHAR(50)), 'it' (DATE). The primary key is 'week'. 'among' references another table 'support' in an exactly one to zero or many relationship. The relationship should be called 'week'. 
+There is another table 'support' with the columns 'together' (DATE), 'free' (TEXT), 'film' (VARCHAR(50)). The primary key is 'together'. 'support' references another table 'data' in an exactly one to zero or many relationship. The relationship should be called 'together'. 
+There is another table 'data' with the columns 'question' (VARCHAR(50)), 'determine' (DATE). The primary key is 'question'. 'data' references another table 'officer' in an exactly one to zero or many relationship. The relationship should be called 'question'. 
+There is another table 'officer' with the columns 'step' (DATE), 'statement' (TEXT), 'expect' (VARCHAR(50)). The primary key is 'step'. 'officer' references another table 'peace' in an exactly one to zero or many relationship. The relationship should be called 'step'. 
+There is another table 'peace' with the columns 'against' (VARCHAR(50)), 'recent' (DATE). The primary key is 'against'. 'peace' references another table 'wind' in an exactly one to zero or many relationship. The relationship should be called 'against'. 
+There is another table 'wind' with the columns 'small' (DATE), 'lose' (TEXT), 'still' (VARCHAR(50)). The primary key is 'small'. 'wind' references another table 'air' in an exactly one to zero or many relationship. The relationship should be called 'small'. 
+

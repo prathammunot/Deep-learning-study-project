@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram237'.
+There is a table 'agreement' with the columns 'back' (DATE), 'series' (TEXT), 'number' (VARCHAR(50)). The primary key is 'back'. 'agreement' references another table 'book' in an exactly one to zero or many relationship. The relationship should be called 'back'. 
+There is another table 'book' with the columns 'also' (VARCHAR(50)), 'dog' (DATE). The primary key is 'also'. 'book' references another table 'hotel' in an exactly one to zero or many relationship. The relationship should be called 'also'. 
+There is another table 'hotel' with the columns 'give' (DATE), 'million' (TEXT), 'back' (VARCHAR(50)). The primary key is 'give'. 'hotel' references another table 'build' in an exactly one to zero or many relationship. The relationship should be called 'give'. 
+There is another table 'build' with the columns 'million' (VARCHAR(50)), 'near' (DATE). The primary key is 'million'. 'build' references another table 'simple' in an exactly one to zero or many relationship. The relationship should be called 'million'. 
+There is another table 'simple' with the columns 'medical' (DATE), 'learn' (TEXT), 'represent' (VARCHAR(50)). The primary key is 'medical'. 'simple' references another table 'across' in an exactly one to zero or many relationship. The relationship should be called 'medical'. 
+There is another table 'across' with the columns 'eat' (VARCHAR(50)), 'case' (DATE). The primary key is 'eat'. 'across' references another table 'agreement' in an exactly one to zero or many relationship. The relationship should be called 'eat'. 
+

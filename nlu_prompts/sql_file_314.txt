@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram240'.
+There is a table 'around' with the columns 'sea' (DATE), 'lot' (TEXT), 'line' (VARCHAR(50)). The primary key is 'sea'. 'around' references another table 'whose' in an exactly one to zero or many relationship. The relationship should be called 'sea'. 
+There is another table 'whose' with the columns 'type' (VARCHAR(50)), 'course' (DATE). The primary key is 'type'. 'whose' references another table 'teach' in an exactly one to zero or many relationship. The relationship should be called 'type'. 
+There is another table 'teach' with the columns 'should' (DATE), 'us' (TEXT), 'so' (VARCHAR(50)). The primary key is 'should'. 'teach' references another table 'but' in an exactly one to zero or many relationship. The relationship should be called 'should'. 
+There is another table 'but' with the columns 'company' (VARCHAR(50)), 'successful' (DATE). The primary key is 'company'. 'but' references another table 'upon' in an exactly one to zero or many relationship. The relationship should be called 'company'. 
+There is another table 'upon' with the columns 'eat' (DATE), 'test' (TEXT), 'financial' (VARCHAR(50)). The primary key is 'eat'. 'upon' references another table 'live' in an exactly one to zero or many relationship. The relationship should be called 'eat'. 
+There is another table 'live' with the columns 'southern' (VARCHAR(50)), 'matter' (DATE). The primary key is 'southern'. 'live' references another table 'those' in an exactly one to zero or many relationship. The relationship should be called 'southern'. 
+There is another table 'those' with the columns 'certainly' (DATE), 'mouth' (TEXT), 'national' (VARCHAR(50)). The primary key is 'certainly'. 'those' references another table 'around' in an exactly one to zero or many relationship. The relationship should be called 'certainly'. 
+

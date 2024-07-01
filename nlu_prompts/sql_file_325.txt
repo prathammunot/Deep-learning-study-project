@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram252'.
+There is a table 'whom' with the columns 'parent' (DATE), 'service' (TEXT), 'deal' (VARCHAR(50)). The primary key is 'parent'. 'whom' references another table 'operation' in an exactly one to zero or many relationship. The relationship should be called 'parent'. 
+There is another table 'operation' with the columns 'weight' (VARCHAR(50)), 'stuff' (DATE). The primary key is 'weight'. 'operation' references another table 'any' in an exactly one to zero or many relationship. The relationship should be called 'weight'. 
+There is another table 'any' with the columns 'back' (DATE), 'realize' (TEXT), 'especially' (VARCHAR(50)). The primary key is 'back'. 'any' references another table 'describe' in an exactly one to zero or many relationship. The relationship should be called 'back'. 
+There is another table 'describe' with the columns 'voice' (VARCHAR(50)), 'fill' (DATE). The primary key is 'voice'. 'describe' references another table 'create' in an exactly one to zero or many relationship. The relationship should be called 'voice'. 
+There is another table 'create' with the columns 'machine' (DATE), 'pattern' (TEXT), 'war' (VARCHAR(50)). The primary key is 'machine'. 'create' references another table 'whom' in an exactly one to zero or many relationship. The relationship should be called 'machine'. 
+

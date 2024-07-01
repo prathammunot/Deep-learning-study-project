@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram229'.
+There is a table 'wall' with the columns 'admit' (DATE), 'different' (TEXT), 'card' (VARCHAR(50)). The primary key is 'admit'. 'wall' references another table 'much' in an exactly one to zero or many relationship. The relationship should be called 'admit'. 
+There is another table 'much' with the columns 'sell' (VARCHAR(50)), 'loss' (DATE). The primary key is 'sell'. 'much' references another table 'laugh' in an exactly one to zero or many relationship. The relationship should be called 'sell'. 
+There is another table 'laugh' with the columns 'give' (DATE), 'include' (TEXT), 'fine' (VARCHAR(50)). The primary key is 'give'. 'laugh' references another table 'check' in an exactly one to zero or many relationship. The relationship should be called 'give'. 
+There is another table 'check' with the columns 'report' (VARCHAR(50)), 'common' (DATE). The primary key is 'report'. 'check' references another table 'present' in an exactly one to zero or many relationship. The relationship should be called 'report'. 
+There is another table 'present' with the columns 'future' (DATE), 'cold' (TEXT), 'model' (VARCHAR(50)). The primary key is 'future'. 'present' references another table 'which' in an exactly one to zero or many relationship. The relationship should be called 'future'. 
+There is another table 'which' with the columns 'paper' (VARCHAR(50)), 'country' (DATE). The primary key is 'paper'. 'which' references another table 'easy' in an exactly one to zero or many relationship. The relationship should be called 'paper'. 
+There is another table 'easy' with the columns 'partner' (DATE), 'table' (TEXT), 'executive' (VARCHAR(50)). The primary key is 'partner'. 'easy' references another table 'short' in an exactly one to zero or many relationship. The relationship should be called 'partner'. 
+There is another table 'short' with the columns 'nearly' (VARCHAR(50)), 'government' (DATE). The primary key is 'nearly'. 'short' references another table 'wall' in an exactly one to zero or many relationship. The relationship should be called 'nearly'. 
+

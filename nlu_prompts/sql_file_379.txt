@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram311'.
+There is a table 'glass' with the columns 'trip' (DATE), 'citizen' (TEXT), 'your' (VARCHAR(50)). The primary key is 'trip'. 'glass' references another table 'most' in an exactly one to zero or many relationship. The relationship should be called 'trip'. 
+There is another table 'most' with the columns 'order' (VARCHAR(50)), 'student' (DATE). The primary key is 'order'. 'most' references another table 'nature' in an exactly one to zero or many relationship. The relationship should be called 'order'. 
+There is another table 'nature' with the columns 'woman' (DATE), 'mention' (TEXT), 'figure' (VARCHAR(50)). The primary key is 'woman'. 'nature' references another table 'but' in an exactly one to zero or many relationship. The relationship should be called 'woman'. 
+There is another table 'but' with the columns 'culture' (VARCHAR(50)), 'material' (DATE). The primary key is 'culture'. 'but' references another table 'I' in an exactly one to zero or many relationship. The relationship should be called 'culture'. 
+There is another table 'I' with the columns 'use' (DATE), 'four' (TEXT), 'successful' (VARCHAR(50)). The primary key is 'use'. 'I' references another table 'measure' in an exactly one to zero or many relationship. The relationship should be called 'use'. 
+There is another table 'measure' with the columns 'hundred' (VARCHAR(50)), 'none' (DATE). The primary key is 'hundred'. 'measure' references another table 'PM' in an exactly one to zero or many relationship. The relationship should be called 'hundred'. 
+There is another table 'PM' with the columns 'edge' (DATE), 'show' (TEXT), 'laugh' (VARCHAR(50)). The primary key is 'edge'. 'PM' references another table 'head' in an exactly one to zero or many relationship. The relationship should be called 'edge'. 
+There is another table 'head' with the columns 'daughter' (VARCHAR(50)), 'general' (DATE). The primary key is 'daughter'. 'head' references another table 'glass' in an exactly one to zero or many relationship. The relationship should be called 'daughter'. 
+

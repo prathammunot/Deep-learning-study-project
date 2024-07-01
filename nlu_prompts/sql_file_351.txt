@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram281'.
+There is a table 'it' with the columns 'card' (DATE), 'reach' (TEXT), 'magazine' (VARCHAR(50)). The primary key is 'card'. 'it' references another table 'case' in an exactly one to zero or many relationship. The relationship should be called 'card'. 
+There is another table 'case' with the columns 'place' (VARCHAR(50)), 'white' (DATE). The primary key is 'place'. 'case' references another table 'tonight' in an exactly one to zero or many relationship. The relationship should be called 'place'. 
+There is another table 'tonight' with the columns 'sign' (DATE), 'million' (TEXT), 'nor' (VARCHAR(50)). The primary key is 'sign'. 'tonight' references another table 'health' in an exactly one to zero or many relationship. The relationship should be called 'sign'. 
+There is another table 'health' with the columns 'western' (VARCHAR(50)), 'office' (DATE). The primary key is 'western'. 'health' references another table 'enter' in an exactly one to zero or many relationship. The relationship should be called 'western'. 
+There is another table 'enter' with the columns 'kitchen' (DATE), 'while' (TEXT), 'yes' (VARCHAR(50)). The primary key is 'kitchen'. 'enter' references another table 'fund' in an exactly one to zero or many relationship. The relationship should be called 'kitchen'. 
+There is another table 'fund' with the columns 'world' (VARCHAR(50)), 'course' (DATE). The primary key is 'world'. 'fund' references another table 'it' in an exactly one to zero or many relationship. The relationship should be called 'world'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram263'.
+There is a table 'rate' with the columns 'trial' (DATE), 'describe' (TEXT), 'animal' (VARCHAR(50)). The primary key is 'trial'. 'rate' references another table 'too' in an exactly one to zero or many relationship. The relationship should be called 'trial'. 
+There is another table 'too' with the columns 'outside' (VARCHAR(50)), 'response' (DATE). The primary key is 'outside'. 'too' references another table 'project' in an exactly one to zero or many relationship. The relationship should be called 'outside'. 
+There is another table 'project' with the columns 'entire' (DATE), 'maybe' (TEXT), 'back' (VARCHAR(50)). The primary key is 'entire'. 'project' references another table 'million' in an exactly one to zero or many relationship. The relationship should be called 'entire'. 
+There is another table 'million' with the columns 'election' (VARCHAR(50)), 'staff' (DATE). The primary key is 'election'. 'million' references another table 'well' in an exactly one to zero or many relationship. The relationship should be called 'election'. 
+There is another table 'well' with the columns 'simple' (DATE), 'a' (TEXT), 'goal' (VARCHAR(50)). The primary key is 'simple'. 'well' references another table 'process' in an exactly one to zero or many relationship. The relationship should be called 'simple'. 
+There is another table 'process' with the columns 'tough' (VARCHAR(50)), 'finish' (DATE). The primary key is 'tough'. 'process' references another table 'team' in an exactly one to zero or many relationship. The relationship should be called 'tough'. 
+There is another table 'team' with the columns 'plant' (DATE), 'article' (TEXT), 'near' (VARCHAR(50)). The primary key is 'plant'. 'team' references another table 'left' in an exactly one to zero or many relationship. The relationship should be called 'plant'. 
+There is another table 'left' with the columns 'son' (VARCHAR(50)), 'sit' (DATE). The primary key is 'son'. 'left' references another table 'rate' in an exactly one to zero or many relationship. The relationship should be called 'son'. 
+

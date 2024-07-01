@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram304'.
+There is a table 'per' with the columns 'yard' (DATE), 'share' (TEXT), 'however' (VARCHAR(50)). The primary key is 'yard'. 'per' references another table 'institution' in an exactly one to zero or many relationship. The relationship should be called 'yard'. 
+There is another table 'institution' with the columns 'not' (VARCHAR(50)), 'debate' (DATE). The primary key is 'not'. 'institution' references another table 'ball' in an exactly one to zero or many relationship. The relationship should be called 'not'. 
+There is another table 'ball' with the columns 'television' (DATE), 'moment' (TEXT), 'rest' (VARCHAR(50)). The primary key is 'television'. 'ball' references another table 'ago' in an exactly one to zero or many relationship. The relationship should be called 'television'. 
+There is another table 'ago' with the columns 'kid' (VARCHAR(50)), 'member' (DATE). The primary key is 'kid'. 'ago' references another table 'threat' in an exactly one to zero or many relationship. The relationship should be called 'kid'. 
+There is another table 'threat' with the columns 'standard' (DATE), 'general' (TEXT), 'benefit' (VARCHAR(50)). The primary key is 'standard'. 'threat' references another table 'may' in an exactly one to zero or many relationship. The relationship should be called 'standard'. 
+There is another table 'may' with the columns 'image' (VARCHAR(50)), 'ago' (DATE). The primary key is 'image'. 'may' references another table 'baby' in an exactly one to zero or many relationship. The relationship should be called 'image'. 
+There is another table 'baby' with the columns 'rate' (DATE), 'sign' (TEXT), 'kitchen' (VARCHAR(50)). The primary key is 'rate'. 'baby' references another table 'per' in an exactly one to zero or many relationship. The relationship should be called 'rate'. 
+

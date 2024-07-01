@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram250'.
+There is a table 'happen' with the columns 'maintain' (DATE), 'newspaper' (TEXT), 'scene' (VARCHAR(50)). The primary key is 'maintain'. 'happen' references another table 'war' in an exactly one to zero or many relationship. The relationship should be called 'maintain'. 
+There is another table 'war' with the columns 'senior' (VARCHAR(50)), 'case' (DATE). The primary key is 'senior'. 'war' references another table 'expect' in an exactly one to zero or many relationship. The relationship should be called 'senior'. 
+There is another table 'expect' with the columns 'sing' (DATE), 'protect' (TEXT), 'job' (VARCHAR(50)). The primary key is 'sing'. 'expect' references another table 'fear' in an exactly one to zero or many relationship. The relationship should be called 'sing'. 
+There is another table 'fear' with the columns 'plan' (VARCHAR(50)), 'can' (DATE). The primary key is 'plan'. 'fear' references another table 'admit' in an exactly one to zero or many relationship. The relationship should be called 'plan'. 
+There is another table 'admit' with the columns 'stand' (DATE), 'specific' (TEXT), 'be' (VARCHAR(50)). The primary key is 'stand'. 'admit' references another table 'down' in an exactly one to zero or many relationship. The relationship should be called 'stand'. 
+There is another table 'down' with the columns 'nice' (VARCHAR(50)), 'scene' (DATE). The primary key is 'nice'. 'down' references another table 'happen' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+

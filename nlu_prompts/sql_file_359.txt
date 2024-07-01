@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram289'.
+There is a table 'once' with the columns 'such' (DATE), 'minute' (TEXT), 'enter' (VARCHAR(50)). The primary key is 'such'. 'once' references another table 'up' in an exactly one to zero or many relationship. The relationship should be called 'such'. 
+There is another table 'up' with the columns 'character' (VARCHAR(50)), 'similar' (DATE). The primary key is 'character'. 'up' references another table 'outside' in an exactly one to zero or many relationship. The relationship should be called 'character'. 
+There is another table 'outside' with the columns 'style' (DATE), 'campaign' (TEXT), 'such' (VARCHAR(50)). The primary key is 'style'. 'outside' references another table 'night' in an exactly one to zero or many relationship. The relationship should be called 'style'. 
+There is another table 'night' with the columns 'sure' (VARCHAR(50)), 'popular' (DATE). The primary key is 'sure'. 'night' references another table 'agree' in an exactly one to zero or many relationship. The relationship should be called 'sure'. 
+There is another table 'agree' with the columns 'each' (DATE), 'write' (TEXT), 'trouble' (VARCHAR(50)). The primary key is 'each'. 'agree' references another table 'seem' in an exactly one to zero or many relationship. The relationship should be called 'each'. 
+There is another table 'seem' with the columns 'gas' (VARCHAR(50)), 'apply' (DATE). The primary key is 'gas'. 'seem' references another table 'offer' in an exactly one to zero or many relationship. The relationship should be called 'gas'. 
+There is another table 'offer' with the columns 'design' (DATE), 'popular' (TEXT), 'some' (VARCHAR(50)). The primary key is 'design'. 'offer' references another table 'attack' in an exactly one to zero or many relationship. The relationship should be called 'design'. 
+There is another table 'attack' with the columns 'conference' (VARCHAR(50)), 'example' (DATE). The primary key is 'conference'. 'attack' references another table 'once' in an exactly one to zero or many relationship. The relationship should be called 'conference'. 
+

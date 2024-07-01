@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram284'.
+There is a table 'where' with the columns 'including' (DATE), 'wife' (TEXT), 'itself' (VARCHAR(50)). The primary key is 'including'. 'where' references another table 'strong' in an exactly one to zero or many relationship. The relationship should be called 'including'. 
+There is another table 'strong' with the columns 'memory' (VARCHAR(50)), 'seek' (DATE). The primary key is 'memory'. 'strong' references another table 'again' in an exactly one to zero or many relationship. The relationship should be called 'memory'. 
+There is another table 'again' with the columns 'glass' (DATE), 'production' (TEXT), 'work' (VARCHAR(50)). The primary key is 'glass'. 'again' references another table 'worry' in an exactly one to zero or many relationship. The relationship should be called 'glass'. 
+There is another table 'worry' with the columns 'thousand' (VARCHAR(50)), 'each' (DATE). The primary key is 'thousand'. 'worry' references another table 'size' in an exactly one to zero or many relationship. The relationship should be called 'thousand'. 
+There is another table 'size' with the columns 'never' (DATE), 'grow' (TEXT), 'about' (VARCHAR(50)). The primary key is 'never'. 'size' references another table 'while' in an exactly one to zero or many relationship. The relationship should be called 'never'. 
+There is another table 'while' with the columns 'including' (VARCHAR(50)), 'American' (DATE). The primary key is 'including'. 'while' references another table 'where' in an exactly one to zero or many relationship. The relationship should be called 'including'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram230'.
+There is a table 'window' with the columns 'truth' (DATE), 'rate' (TEXT), 'book' (VARCHAR(50)). The primary key is 'truth'. 'window' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'truth'. 
+There is another table 'section' with the columns 'though' (VARCHAR(50)), 'already' (DATE). The primary key is 'though'. 'section' references another table 'eight' in an exactly one to zero or many relationship. The relationship should be called 'though'. 
+There is another table 'eight' with the columns 'room' (DATE), 'wrong' (TEXT), 'practice' (VARCHAR(50)). The primary key is 'room'. 'eight' references another table 'another' in an exactly one to zero or many relationship. The relationship should be called 'room'. 
+There is another table 'another' with the columns 'sure' (VARCHAR(50)), 'consumer' (DATE). The primary key is 'sure'. 'another' references another table 'her' in an exactly one to zero or many relationship. The relationship should be called 'sure'. 
+There is another table 'her' with the columns 'event' (DATE), 'imagine' (TEXT), 'prepare' (VARCHAR(50)). The primary key is 'event'. 'her' references another table 'nothing' in an exactly one to zero or many relationship. The relationship should be called 'event'. 
+There is another table 'nothing' with the columns 'despite' (VARCHAR(50)), 'receive' (DATE). The primary key is 'despite'. 'nothing' references another table 'rate' in an exactly one to zero or many relationship. The relationship should be called 'despite'. 
+There is another table 'rate' with the columns 'base' (DATE), 'large' (TEXT), 'change' (VARCHAR(50)). The primary key is 'base'. 'rate' references another table 'window' in an exactly one to zero or many relationship. The relationship should be called 'base'. 
+

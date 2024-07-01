@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram329'.
+There is a table 'plan' with the columns 'teacher' (DATE), 'near' (TEXT), 'establish' (VARCHAR(50)). The primary key is 'teacher'. 'plan' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'teacher'. 
+There is another table 'out' with the columns 'trip' (VARCHAR(50)), 'per' (DATE). The primary key is 'trip'. 'out' references another table 'land' in an exactly one to zero or many relationship. The relationship should be called 'trip'. 
+There is another table 'land' with the columns 'could' (DATE), 'seem' (TEXT), 'resource' (VARCHAR(50)). The primary key is 'could'. 'land' references another table 'imagine' in an exactly one to zero or many relationship. The relationship should be called 'could'. 
+There is another table 'imagine' with the columns 'image' (VARCHAR(50)), 'rich' (DATE). The primary key is 'image'. 'imagine' references another table 'wife' in an exactly one to zero or many relationship. The relationship should be called 'image'. 
+There is another table 'wife' with the columns 'nation' (DATE), 'plant' (TEXT), 'behind' (VARCHAR(50)). The primary key is 'nation'. 'wife' references another table 'plan' in an exactly one to zero or many relationship. The relationship should be called 'nation'. 
+

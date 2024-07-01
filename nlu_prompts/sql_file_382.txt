@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram315'.
+There is a table 'old' with the columns 'least' (DATE), 'western' (TEXT), 'three' (VARCHAR(50)). The primary key is 'least'. 'old' references another table 'address' in an exactly one to zero or many relationship. The relationship should be called 'least'. 
+There is another table 'address' with the columns 'federal' (VARCHAR(50)), 'quality' (DATE). The primary key is 'federal'. 'address' references another table 'project' in an exactly one to zero or many relationship. The relationship should be called 'federal'. 
+There is another table 'project' with the columns 'take' (DATE), 'maybe' (TEXT), 'very' (VARCHAR(50)). The primary key is 'take'. 'project' references another table 'health' in an exactly one to zero or many relationship. The relationship should be called 'take'. 
+There is another table 'health' with the columns 'operation' (VARCHAR(50)), 'former' (DATE). The primary key is 'operation'. 'health' references another table 'tell' in an exactly one to zero or many relationship. The relationship should be called 'operation'. 
+There is another table 'tell' with the columns 'remain' (DATE), 'themselves' (TEXT), 'American' (VARCHAR(50)). The primary key is 'remain'. 'tell' references another table 'time' in an exactly one to zero or many relationship. The relationship should be called 'remain'. 
+There is another table 'time' with the columns 'above' (VARCHAR(50)), 'may' (DATE). The primary key is 'above'. 'time' references another table 'strategy' in an exactly one to zero or many relationship. The relationship should be called 'above'. 
+There is another table 'strategy' with the columns 'best' (DATE), 'occur' (TEXT), 'price' (VARCHAR(50)). The primary key is 'best'. 'strategy' references another table 'old' in an exactly one to zero or many relationship. The relationship should be called 'best'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram292'.
+There is a table 'difficult' with the columns 'election' (DATE), 'size' (TEXT), 'election' (VARCHAR(50)). The primary key is 'election'. 'difficult' references another table 'lose' in an exactly one to zero or many relationship. The relationship should be called 'election'. 
+There is another table 'lose' with the columns 'as' (VARCHAR(50)), 'bit' (DATE). The primary key is 'as'. 'lose' references another table 'fact' in an exactly one to zero or many relationship. The relationship should be called 'as'. 
+There is another table 'fact' with the columns 'teacher' (DATE), 'case' (TEXT), 'require' (VARCHAR(50)). The primary key is 'teacher'. 'fact' references another table 'senior' in an exactly one to zero or many relationship. The relationship should be called 'teacher'. 
+There is another table 'senior' with the columns 'moment' (VARCHAR(50)), 'type' (DATE). The primary key is 'moment'. 'senior' references another table 'street' in an exactly one to zero or many relationship. The relationship should be called 'moment'. 
+There is another table 'street' with the columns 'perhaps' (DATE), 'yard' (TEXT), 'beyond' (VARCHAR(50)). The primary key is 'perhaps'. 'street' references another table 'board' in an exactly one to zero or many relationship. The relationship should be called 'perhaps'. 
+There is another table 'board' with the columns 'culture' (VARCHAR(50)), 'level' (DATE). The primary key is 'culture'. 'board' references another table 'difficult' in an exactly one to zero or many relationship. The relationship should be called 'culture'. 
+

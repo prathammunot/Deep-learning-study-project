@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram327'.
+There is a table 'really' with the columns 'road' (DATE), 'different' (TEXT), 'many' (VARCHAR(50)). The primary key is 'road'. 'really' references another table 'cost' in an exactly one to zero or many relationship. The relationship should be called 'road'. 
+There is another table 'cost' with the columns 'chair' (VARCHAR(50)), 'receive' (DATE). The primary key is 'chair'. 'cost' references another table 'important' in an exactly one to zero or many relationship. The relationship should be called 'chair'. 
+There is another table 'important' with the columns 'give' (DATE), 'accept' (TEXT), 'rise' (VARCHAR(50)). The primary key is 'give'. 'important' references another table 'subject' in an exactly one to zero or many relationship. The relationship should be called 'give'. 
+There is another table 'subject' with the columns 'actually' (VARCHAR(50)), 'quite' (DATE). The primary key is 'actually'. 'subject' references another table 'thought' in an exactly one to zero or many relationship. The relationship should be called 'actually'. 
+There is another table 'thought' with the columns 'even' (DATE), 'mouth' (TEXT), 'minute' (VARCHAR(50)). The primary key is 'even'. 'thought' references another table 'within' in an exactly one to zero or many relationship. The relationship should be called 'even'. 
+There is another table 'within' with the columns 'skin' (VARCHAR(50)), 'them' (DATE). The primary key is 'skin'. 'within' references another table 'really' in an exactly one to zero or many relationship. The relationship should be called 'skin'. 
+

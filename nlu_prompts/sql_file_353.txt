@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram283'.
+There is a table 'anything' with the columns 'history' (DATE), 'happy' (TEXT), 'measure' (VARCHAR(50)). The primary key is 'history'. 'anything' references another table 'daughter' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+There is another table 'daughter' with the columns 'positive' (VARCHAR(50)), 'both' (DATE). The primary key is 'positive'. 'daughter' references another table 'boy' in an exactly one to zero or many relationship. The relationship should be called 'positive'. 
+There is another table 'boy' with the columns 'thank' (DATE), 'return' (TEXT), 'adult' (VARCHAR(50)). The primary key is 'thank'. 'boy' references another table 'road' in an exactly one to zero or many relationship. The relationship should be called 'thank'. 
+There is another table 'road' with the columns 'rich' (VARCHAR(50)), 'want' (DATE). The primary key is 'rich'. 'road' references another table 'instead' in an exactly one to zero or many relationship. The relationship should be called 'rich'. 
+There is another table 'instead' with the columns 'concern' (DATE), 'such' (TEXT), 'north' (VARCHAR(50)). The primary key is 'concern'. 'instead' references another table 'method' in an exactly one to zero or many relationship. The relationship should be called 'concern'. 
+There is another table 'method' with the columns 'cold' (VARCHAR(50)), 'establish' (DATE). The primary key is 'cold'. 'method' references another table 'anything' in an exactly one to zero or many relationship. The relationship should be called 'cold'. 
+

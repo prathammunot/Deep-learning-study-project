@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram306'.
+There is a table 'sign' with the columns 'look' (DATE), 'sit' (TEXT), 'senior' (VARCHAR(50)). The primary key is 'look'. 'sign' references another table 'factor' in an exactly one to zero or many relationship. The relationship should be called 'look'. 
+There is another table 'factor' with the columns 'seem' (VARCHAR(50)), 'condition' (DATE). The primary key is 'seem'. 'factor' references another table 'son' in an exactly one to zero or many relationship. The relationship should be called 'seem'. 
+There is another table 'son' with the columns 'let' (DATE), 'some' (TEXT), 'alone' (VARCHAR(50)). The primary key is 'let'. 'son' references another table 'create' in an exactly one to zero or many relationship. The relationship should be called 'let'. 
+There is another table 'create' with the columns 'simply' (VARCHAR(50)), 'from' (DATE). The primary key is 'simply'. 'create' references another table 'throughout' in an exactly one to zero or many relationship. The relationship should be called 'simply'. 
+There is another table 'throughout' with the columns 'ability' (DATE), 'identify' (TEXT), 'town' (VARCHAR(50)). The primary key is 'ability'. 'throughout' references another table 'relate' in an exactly one to zero or many relationship. The relationship should be called 'ability'. 
+There is another table 'relate' with the columns 'no' (VARCHAR(50)), 'important' (DATE). The primary key is 'no'. 'relate' references another table 'sign' in an exactly one to zero or many relationship. The relationship should be called 'no'. 
+

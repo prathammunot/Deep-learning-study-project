@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram270'.
+There is a table 'effect' with the columns 'strategy' (DATE), 'deal' (TEXT), 'truth' (VARCHAR(50)). The primary key is 'strategy'. 'effect' references another table 'nice' in an exactly one to zero or many relationship. The relationship should be called 'strategy'. 
+There is another table 'nice' with the columns 'eat' (VARCHAR(50)), 'man' (DATE). The primary key is 'eat'. 'nice' references another table 'goal' in an exactly one to zero or many relationship. The relationship should be called 'eat'. 
+There is another table 'goal' with the columns 'others' (DATE), 'heavy' (TEXT), 'lay' (VARCHAR(50)). The primary key is 'others'. 'goal' references another table 'price' in an exactly one to zero or many relationship. The relationship should be called 'others'. 
+There is another table 'price' with the columns 'occur' (VARCHAR(50)), 'state' (DATE). The primary key is 'occur'. 'price' references another table 'action' in an exactly one to zero or many relationship. The relationship should be called 'occur'. 
+There is another table 'action' with the columns 'decision' (DATE), 'production' (TEXT), 'place' (VARCHAR(50)). The primary key is 'decision'. 'action' references another table 'national' in an exactly one to zero or many relationship. The relationship should be called 'decision'. 
+There is another table 'national' with the columns 'number' (VARCHAR(50)), 'family' (DATE). The primary key is 'number'. 'national' references another table 'effect' in an exactly one to zero or many relationship. The relationship should be called 'number'. 
+

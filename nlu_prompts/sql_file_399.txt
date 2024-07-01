@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram333'.
+There is a table 'consider' with the columns 'goal' (DATE), 'agent' (TEXT), 'view' (VARCHAR(50)). The primary key is 'goal'. 'consider' references another table 'dream' in an exactly one to zero or many relationship. The relationship should be called 'goal'. 
+There is another table 'dream' with the columns 'play' (VARCHAR(50)), 'box' (DATE). The primary key is 'play'. 'dream' references another table 'politics' in an exactly one to zero or many relationship. The relationship should be called 'play'. 
+There is another table 'politics' with the columns 'tend' (DATE), 'far' (TEXT), 'natural' (VARCHAR(50)). The primary key is 'tend'. 'politics' references another table 'maintain' in an exactly one to zero or many relationship. The relationship should be called 'tend'. 
+There is another table 'maintain' with the columns 'skin' (VARCHAR(50)), 'trial' (DATE). The primary key is 'skin'. 'maintain' references another table 'others' in an exactly one to zero or many relationship. The relationship should be called 'skin'. 
+There is another table 'others' with the columns 'ready' (DATE), 'whole' (TEXT), 'now' (VARCHAR(50)). The primary key is 'ready'. 'others' references another table 'fire' in an exactly one to zero or many relationship. The relationship should be called 'ready'. 
+There is another table 'fire' with the columns 'billion' (VARCHAR(50)), 'dream' (DATE). The primary key is 'billion'. 'fire' references another table 'consider' in an exactly one to zero or many relationship. The relationship should be called 'billion'. 
+

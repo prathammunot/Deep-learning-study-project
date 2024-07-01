@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram248'.
+There is a table 'buy' with the columns 'reflect' (DATE), 'plant' (TEXT), 'debate' (VARCHAR(50)). The primary key is 'reflect'. 'buy' references another table 'benefit' in an exactly one to zero or many relationship. The relationship should be called 'reflect'. 
+There is another table 'benefit' with the columns 'cost' (VARCHAR(50)), 'but' (DATE). The primary key is 'cost'. 'benefit' references another table 'must' in an exactly one to zero or many relationship. The relationship should be called 'cost'. 
+There is another table 'must' with the columns 'involve' (DATE), 'close' (TEXT), 'represent' (VARCHAR(50)). The primary key is 'involve'. 'must' references another table 'get' in an exactly one to zero or many relationship. The relationship should be called 'involve'. 
+There is another table 'get' with the columns 'yourself' (VARCHAR(50)), 'it' (DATE). The primary key is 'yourself'. 'get' references another table 'court' in an exactly one to zero or many relationship. The relationship should be called 'yourself'. 
+There is another table 'court' with the columns 'effect' (DATE), 'air' (TEXT), 'keep' (VARCHAR(50)). The primary key is 'effect'. 'court' references another table 'investment' in an exactly one to zero or many relationship. The relationship should be called 'effect'. 
+There is another table 'investment' with the columns 'expert' (VARCHAR(50)), 'new' (DATE). The primary key is 'expert'. 'investment' references another table 'benefit' in an exactly one to zero or many relationship. The relationship should be called 'expert'. 
+There is another table 'benefit' with the columns 'follow' (DATE), 'animal' (TEXT), 'race' (VARCHAR(50)). The primary key is 'follow'. 'benefit' references another table 'cut' in an exactly one to zero or many relationship. The relationship should be called 'follow'. 
+There is another table 'cut' with the columns 'amount' (VARCHAR(50)), 'college' (DATE). The primary key is 'amount'. 'cut' references another table 'buy' in an exactly one to zero or many relationship. The relationship should be called 'amount'. 
+
