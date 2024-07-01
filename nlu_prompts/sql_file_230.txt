@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram147'.
+There is a table 'effort' with the columns 'not' (DATE), 'space' (TEXT), 'system' (VARCHAR(50)). The primary key is 'not'. 'effort' references another table 'remember' in an exactly one to zero or many relationship. The relationship should be called 'not'. 
+There is another table 'remember' with the columns 'manager' (VARCHAR(50)), 'decade' (DATE). The primary key is 'manager'. 'remember' references another table 'late' in an exactly one to zero or many relationship. The relationship should be called 'manager'. 
+There is another table 'late' with the columns 'perform' (DATE), 'establish' (TEXT), 'organization' (VARCHAR(50)). The primary key is 'perform'. 'late' references another table 'phone' in an exactly one to zero or many relationship. The relationship should be called 'perform'. 
+There is another table 'phone' with the columns 'alone' (VARCHAR(50)), 'between' (DATE). The primary key is 'alone'. 'phone' references another table 'too' in an exactly one to zero or many relationship. The relationship should be called 'alone'. 
+There is another table 'too' with the columns 'decision' (DATE), 'authority' (TEXT), 'notice' (VARCHAR(50)). The primary key is 'decision'. 'too' references another table 'effort' in an exactly one to zero or many relationship. The relationship should be called 'decision'. 
+

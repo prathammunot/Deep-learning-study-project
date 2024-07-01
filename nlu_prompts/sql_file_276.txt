@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram197'.
+There is a table 'same' with the columns 'agreement' (DATE), 'development' (TEXT), 'develop' (VARCHAR(50)). The primary key is 'agreement'. 'same' references another table 'might' in an exactly one to zero or many relationship. The relationship should be called 'agreement'. 
+There is another table 'might' with the columns 'beat' (VARCHAR(50)), 'television' (DATE). The primary key is 'beat'. 'might' references another table 'trade' in an exactly one to zero or many relationship. The relationship should be called 'beat'. 
+There is another table 'trade' with the columns 'with' (DATE), 'send' (TEXT), 'work' (VARCHAR(50)). The primary key is 'with'. 'trade' references another table 'action' in an exactly one to zero or many relationship. The relationship should be called 'with'. 
+There is another table 'action' with the columns 'accept' (VARCHAR(50)), 'dream' (DATE). The primary key is 'accept'. 'action' references another table 'smile' in an exactly one to zero or many relationship. The relationship should be called 'accept'. 
+There is another table 'smile' with the columns 'share' (DATE), 'she' (TEXT), 'establish' (VARCHAR(50)). The primary key is 'share'. 'smile' references another table 'almost' in an exactly one to zero or many relationship. The relationship should be called 'share'. 
+There is another table 'almost' with the columns 'lot' (VARCHAR(50)), 'everything' (DATE). The primary key is 'lot'. 'almost' references another table 'family' in an exactly one to zero or many relationship. The relationship should be called 'lot'. 
+There is another table 'family' with the columns 'form' (DATE), 'production' (TEXT), 'trade' (VARCHAR(50)). The primary key is 'form'. 'family' references another table 'outside' in an exactly one to zero or many relationship. The relationship should be called 'form'. 
+There is another table 'outside' with the columns 'community' (VARCHAR(50)), 'I' (DATE). The primary key is 'community'. 'outside' references another table 'same' in an exactly one to zero or many relationship. The relationship should be called 'community'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram183'.
+There is a table 'act' with the columns 'growth' (DATE), 'guy' (TEXT), 'area' (VARCHAR(50)). The primary key is 'growth'. 'act' references another table 'bed' in an exactly one to zero or many relationship. The relationship should be called 'growth'. 
+There is another table 'bed' with the columns 'girl' (VARCHAR(50)), 'wall' (DATE). The primary key is 'girl'. 'bed' references another table 'dark' in an exactly one to zero or many relationship. The relationship should be called 'girl'. 
+There is another table 'dark' with the columns 'huge' (DATE), 'increase' (TEXT), 'civil' (VARCHAR(50)). The primary key is 'huge'. 'dark' references another table 'lay' in an exactly one to zero or many relationship. The relationship should be called 'huge'. 
+There is another table 'lay' with the columns 'prepare' (VARCHAR(50)), 'measure' (DATE). The primary key is 'prepare'. 'lay' references another table 'political' in an exactly one to zero or many relationship. The relationship should be called 'prepare'. 
+There is another table 'political' with the columns 'matter' (DATE), 'nearly' (TEXT), 'board' (VARCHAR(50)). The primary key is 'matter'. 'political' references another table 'name' in an exactly one to zero or many relationship. The relationship should be called 'matter'. 
+There is another table 'name' with the columns 'history' (VARCHAR(50)), 'wait' (DATE). The primary key is 'history'. 'name' references another table 'factor' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+There is another table 'factor' with the columns 'so' (DATE), 'fish' (TEXT), 'partner' (VARCHAR(50)). The primary key is 'so'. 'factor' references another table 'act' in an exactly one to zero or many relationship. The relationship should be called 'so'. 
+

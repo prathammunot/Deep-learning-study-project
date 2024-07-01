@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram138'.
+There is a table 'magazine' with the columns 'surface' (DATE), 'plant' (TEXT), 'change' (VARCHAR(50)). The primary key is 'surface'. 'magazine' references another table 'cut' in an exactly one to zero or many relationship. The relationship should be called 'surface'. 
+There is another table 'cut' with the columns 'several' (VARCHAR(50)), 'onto' (DATE). The primary key is 'several'. 'cut' references another table 'another' in an exactly one to zero or many relationship. The relationship should be called 'several'. 
+There is another table 'another' with the columns 'rather' (DATE), 'along' (TEXT), 'analysis' (VARCHAR(50)). The primary key is 'rather'. 'another' references another table 'nor' in an exactly one to zero or many relationship. The relationship should be called 'rather'. 
+There is another table 'nor' with the columns 'imagine' (VARCHAR(50)), 'sometimes' (DATE). The primary key is 'imagine'. 'nor' references another table 'item' in an exactly one to zero or many relationship. The relationship should be called 'imagine'. 
+There is another table 'item' with the columns 'player' (DATE), 'break' (TEXT), 'girl' (VARCHAR(50)). The primary key is 'player'. 'item' references another table 'magazine' in an exactly one to zero or many relationship. The relationship should be called 'player'. 
+

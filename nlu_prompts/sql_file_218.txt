@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram133'.
+There is a table 'technology' with the columns 'should' (DATE), 'particularly' (TEXT), 'claim' (VARCHAR(50)). The primary key is 'should'. 'technology' references another table 'smile' in an exactly one to zero or many relationship. The relationship should be called 'should'. 
+There is another table 'smile' with the columns 'free' (VARCHAR(50)), 'site' (DATE). The primary key is 'free'. 'smile' references another table 'student' in an exactly one to zero or many relationship. The relationship should be called 'free'. 
+There is another table 'student' with the columns 'reach' (DATE), 'sure' (TEXT), 'although' (VARCHAR(50)). The primary key is 'reach'. 'student' references another table 'nearly' in an exactly one to zero or many relationship. The relationship should be called 'reach'. 
+There is another table 'nearly' with the columns 'else' (VARCHAR(50)), 'these' (DATE). The primary key is 'else'. 'nearly' references another table 'newspaper' in an exactly one to zero or many relationship. The relationship should be called 'else'. 
+There is another table 'newspaper' with the columns 'at' (DATE), 'bring' (TEXT), 'lay' (VARCHAR(50)). The primary key is 'at'. 'newspaper' references another table 'individual' in an exactly one to zero or many relationship. The relationship should be called 'at'. 
+There is another table 'individual' with the columns 'pull' (VARCHAR(50)), 'mention' (DATE). The primary key is 'pull'. 'individual' references another table 'somebody' in an exactly one to zero or many relationship. The relationship should be called 'pull'. 
+There is another table 'somebody' with the columns 'song' (DATE), 'matter' (TEXT), 'exactly' (VARCHAR(50)). The primary key is 'song'. 'somebody' references another table 'people' in an exactly one to zero or many relationship. The relationship should be called 'song'. 
+There is another table 'people' with the columns 'environment' (VARCHAR(50)), 'thought' (DATE). The primary key is 'environment'. 'people' references another table 'technology' in an exactly one to zero or many relationship. The relationship should be called 'environment'. 
+

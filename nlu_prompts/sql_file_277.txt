@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram198'.
+There is a table 'everybody' with the columns 'as' (DATE), 'recent' (TEXT), 'safe' (VARCHAR(50)). The primary key is 'as'. 'everybody' references another table 'way' in an exactly one to zero or many relationship. The relationship should be called 'as'. 
+There is another table 'way' with the columns 'two' (VARCHAR(50)), 'reveal' (DATE). The primary key is 'two'. 'way' references another table 'media' in an exactly one to zero or many relationship. The relationship should be called 'two'. 
+There is another table 'media' with the columns 'yes' (DATE), 'former' (TEXT), 'control' (VARCHAR(50)). The primary key is 'yes'. 'media' references another table 'person' in an exactly one to zero or many relationship. The relationship should be called 'yes'. 
+There is another table 'person' with the columns 'approach' (VARCHAR(50)), 'yeah' (DATE). The primary key is 'approach'. 'person' references another table 'consider' in an exactly one to zero or many relationship. The relationship should be called 'approach'. 
+There is another table 'consider' with the columns 'tough' (DATE), 'admit' (TEXT), 'political' (VARCHAR(50)). The primary key is 'tough'. 'consider' references another table 'everybody' in an exactly one to zero or many relationship. The relationship should be called 'tough'. 
+

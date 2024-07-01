@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram186'.
+There is a table 'sea' with the columns 'feeling' (DATE), 'building' (TEXT), 'family' (VARCHAR(50)). The primary key is 'feeling'. 'sea' references another table 'upon' in an exactly one to zero or many relationship. The relationship should be called 'feeling'. 
+There is another table 'upon' with the columns 'order' (VARCHAR(50)), 'official' (DATE). The primary key is 'order'. 'upon' references another table 'one' in an exactly one to zero or many relationship. The relationship should be called 'order'. 
+There is another table 'one' with the columns 'exist' (DATE), 'also' (TEXT), 'assume' (VARCHAR(50)). The primary key is 'exist'. 'one' references another table 'scene' in an exactly one to zero or many relationship. The relationship should be called 'exist'. 
+There is another table 'scene' with the columns 'plan' (VARCHAR(50)), 'its' (DATE). The primary key is 'plan'. 'scene' references another table 'cut' in an exactly one to zero or many relationship. The relationship should be called 'plan'. 
+There is another table 'cut' with the columns 'kitchen' (DATE), 'summer' (TEXT), 'interesting' (VARCHAR(50)). The primary key is 'kitchen'. 'cut' references another table 'sea' in an exactly one to zero or many relationship. The relationship should be called 'kitchen'. 
+

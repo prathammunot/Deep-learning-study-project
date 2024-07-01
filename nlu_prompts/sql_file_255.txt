@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram174'.
+There is a table 'share' with the columns 'drive' (DATE), 'could' (TEXT), 'agree' (VARCHAR(50)). The primary key is 'drive'. 'share' references another table 'right' in an exactly one to zero or many relationship. The relationship should be called 'drive'. 
+There is another table 'right' with the columns 'role' (VARCHAR(50)), 'sea' (DATE). The primary key is 'role'. 'right' references another table 'paper' in an exactly one to zero or many relationship. The relationship should be called 'role'. 
+There is another table 'paper' with the columns 'nice' (DATE), 'fight' (TEXT), 'mission' (VARCHAR(50)). The primary key is 'nice'. 'paper' references another table 'single' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+There is another table 'single' with the columns 'back' (VARCHAR(50)), 'sell' (DATE). The primary key is 'back'. 'single' references another table 'big' in an exactly one to zero or many relationship. The relationship should be called 'back'. 
+There is another table 'big' with the columns 'collection' (DATE), 'try' (TEXT), 'also' (VARCHAR(50)). The primary key is 'collection'. 'big' references another table 'similar' in an exactly one to zero or many relationship. The relationship should be called 'collection'. 
+There is another table 'similar' with the columns 'floor' (VARCHAR(50)), 'make' (DATE). The primary key is 'floor'. 'similar' references another table 'yeah' in an exactly one to zero or many relationship. The relationship should be called 'floor'. 
+There is another table 'yeah' with the columns 'at' (DATE), 'indeed' (TEXT), 'operation' (VARCHAR(50)). The primary key is 'at'. 'yeah' references another table 'share' in an exactly one to zero or many relationship. The relationship should be called 'at'. 
+

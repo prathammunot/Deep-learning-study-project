@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram129'.
+There is a table 'generation' with the columns 'from' (DATE), 'vote' (TEXT), 'set' (VARCHAR(50)). The primary key is 'from'. 'generation' references another table 'education' in an exactly one to zero or many relationship. The relationship should be called 'from'. 
+There is another table 'education' with the columns 'including' (VARCHAR(50)), 'method' (DATE). The primary key is 'including'. 'education' references another table 'price' in an exactly one to zero or many relationship. The relationship should be called 'including'. 
+There is another table 'price' with the columns 'cold' (DATE), 'that' (TEXT), 'during' (VARCHAR(50)). The primary key is 'cold'. 'price' references another table 'by' in an exactly one to zero or many relationship. The relationship should be called 'cold'. 
+There is another table 'by' with the columns 'important' (VARCHAR(50)), 'field' (DATE). The primary key is 'important'. 'by' references another table 'figure' in an exactly one to zero or many relationship. The relationship should be called 'important'. 
+There is another table 'figure' with the columns 'plan' (DATE), 'against' (TEXT), 'just' (VARCHAR(50)). The primary key is 'plan'. 'figure' references another table 'reveal' in an exactly one to zero or many relationship. The relationship should be called 'plan'. 
+There is another table 'reveal' with the columns 'usually' (VARCHAR(50)), 'million' (DATE). The primary key is 'usually'. 'reveal' references another table 'instead' in an exactly one to zero or many relationship. The relationship should be called 'usually'. 
+There is another table 'instead' with the columns 'per' (DATE), 'read' (TEXT), 'commercial' (VARCHAR(50)). The primary key is 'per'. 'instead' references another table 'generation' in an exactly one to zero or many relationship. The relationship should be called 'per'. 
+

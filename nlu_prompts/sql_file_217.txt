@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram132'.
+There is a table 'during' with the columns 'family' (DATE), 'individual' (TEXT), 'threat' (VARCHAR(50)). The primary key is 'family'. 'during' references another table 'someone' in an exactly one to zero or many relationship. The relationship should be called 'family'. 
+There is another table 'someone' with the columns 'bad' (VARCHAR(50)), 'technology' (DATE). The primary key is 'bad'. 'someone' references another table 'lawyer' in an exactly one to zero or many relationship. The relationship should be called 'bad'. 
+There is another table 'lawyer' with the columns 'Congress' (DATE), 'price' (TEXT), 'realize' (VARCHAR(50)). The primary key is 'Congress'. 'lawyer' references another table 'lose' in an exactly one to zero or many relationship. The relationship should be called 'Congress'. 
+There is another table 'lose' with the columns 'onto' (VARCHAR(50)), 'fear' (DATE). The primary key is 'onto'. 'lose' references another table 'tax' in an exactly one to zero or many relationship. The relationship should be called 'onto'. 
+There is another table 'tax' with the columns 'design' (DATE), 'those' (TEXT), 'indeed' (VARCHAR(50)). The primary key is 'design'. 'tax' references another table 'during' in an exactly one to zero or many relationship. The relationship should be called 'design'. 
+

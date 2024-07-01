@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram178'.
+There is a table 'onto' with the columns 'far' (DATE), 'our' (TEXT), 'own' (VARCHAR(50)). The primary key is 'far'. 'onto' references another table 'environment' in an exactly one to zero or many relationship. The relationship should be called 'far'. 
+There is another table 'environment' with the columns 'window' (VARCHAR(50)), 'usually' (DATE). The primary key is 'window'. 'environment' references another table 'medical' in an exactly one to zero or many relationship. The relationship should be called 'window'. 
+There is another table 'medical' with the columns 'democratic' (DATE), 'director' (TEXT), 'high' (VARCHAR(50)). The primary key is 'democratic'. 'medical' references another table 'nature' in an exactly one to zero or many relationship. The relationship should be called 'democratic'. 
+There is another table 'nature' with the columns 'late' (VARCHAR(50)), 'catch' (DATE). The primary key is 'late'. 'nature' references another table 'on' in an exactly one to zero or many relationship. The relationship should be called 'late'. 
+There is another table 'on' with the columns 'work' (DATE), 'leave' (TEXT), 'whom' (VARCHAR(50)). The primary key is 'work'. 'on' references another table 'sense' in an exactly one to zero or many relationship. The relationship should be called 'work'. 
+There is another table 'sense' with the columns 'spring' (VARCHAR(50)), 'able' (DATE). The primary key is 'spring'. 'sense' references another table 'onto' in an exactly one to zero or many relationship. The relationship should be called 'spring'. 
+

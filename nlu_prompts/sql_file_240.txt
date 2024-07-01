@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram158'.
+There is a table 'style' with the columns 'exactly' (DATE), 'enter' (TEXT), 'health' (VARCHAR(50)). The primary key is 'exactly'. 'style' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'exactly'. 
+There is another table 'out' with the columns 'fact' (VARCHAR(50)), 'claim' (DATE). The primary key is 'fact'. 'out' references another table 'responsibility' in an exactly one to zero or many relationship. The relationship should be called 'fact'. 
+There is another table 'responsibility' with the columns 'this' (DATE), 'so' (TEXT), 'relationship' (VARCHAR(50)). The primary key is 'this'. 'responsibility' references another table 'low' in an exactly one to zero or many relationship. The relationship should be called 'this'. 
+There is another table 'low' with the columns 'box' (VARCHAR(50)), 'over' (DATE). The primary key is 'box'. 'low' references another table 'simple' in an exactly one to zero or many relationship. The relationship should be called 'box'. 
+There is another table 'simple' with the columns 'our' (DATE), 'race' (TEXT), 'table' (VARCHAR(50)). The primary key is 'our'. 'simple' references another table 'coach' in an exactly one to zero or many relationship. The relationship should be called 'our'. 
+There is another table 'coach' with the columns 'information' (VARCHAR(50)), 'dark' (DATE). The primary key is 'information'. 'coach' references another table 'ago' in an exactly one to zero or many relationship. The relationship should be called 'information'. 
+There is another table 'ago' with the columns 'hard' (DATE), 'low' (TEXT), 'choose' (VARCHAR(50)). The primary key is 'hard'. 'ago' references another table 'picture' in an exactly one to zero or many relationship. The relationship should be called 'hard'. 
+There is another table 'picture' with the columns 'one' (VARCHAR(50)), 'employee' (DATE). The primary key is 'one'. 'picture' references another table 'style' in an exactly one to zero or many relationship. The relationship should be called 'one'. 
+

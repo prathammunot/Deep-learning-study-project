@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram222'.
+There is a table 'buy' with the columns 'daughter' (DATE), 'long' (TEXT), 'him' (VARCHAR(50)). The primary key is 'daughter'. 'buy' references another table 'dog' in an exactly one to zero or many relationship. The relationship should be called 'daughter'. 
+There is another table 'dog' with the columns 'agency' (VARCHAR(50)), 'however' (DATE). The primary key is 'agency'. 'dog' references another table 'radio' in an exactly one to zero or many relationship. The relationship should be called 'agency'. 
+There is another table 'radio' with the columns 'side' (DATE), 'rich' (TEXT), 'cover' (VARCHAR(50)). The primary key is 'side'. 'radio' references another table 'you' in an exactly one to zero or many relationship. The relationship should be called 'side'. 
+There is another table 'you' with the columns 'apply' (VARCHAR(50)), 'return' (DATE). The primary key is 'apply'. 'you' references another table 'bank' in an exactly one to zero or many relationship. The relationship should be called 'apply'. 
+There is another table 'bank' with the columns 'condition' (DATE), 'yeah' (TEXT), 'prove' (VARCHAR(50)). The primary key is 'condition'. 'bank' references another table 'buy' in an exactly one to zero or many relationship. The relationship should be called 'condition'. 
+

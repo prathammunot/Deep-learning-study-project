@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram130'.
+There is a table 'way' with the columns 'someone' (DATE), 'shake' (TEXT), 'learn' (VARCHAR(50)). The primary key is 'someone'. 'way' references another table 'explain' in an exactly one to zero or many relationship. The relationship should be called 'someone'. 
+There is another table 'explain' with the columns 'them' (VARCHAR(50)), 'act' (DATE). The primary key is 'them'. 'explain' references another table 'usually' in an exactly one to zero or many relationship. The relationship should be called 'them'. 
+There is another table 'usually' with the columns 'bring' (DATE), 'then' (TEXT), 'Congress' (VARCHAR(50)). The primary key is 'bring'. 'usually' references another table 'long' in an exactly one to zero or many relationship. The relationship should be called 'bring'. 
+There is another table 'long' with the columns 'bar' (VARCHAR(50)), 'house' (DATE). The primary key is 'bar'. 'long' references another table 'third' in an exactly one to zero or many relationship. The relationship should be called 'bar'. 
+There is another table 'third' with the columns 'officer' (DATE), 'within' (TEXT), 'hotel' (VARCHAR(50)). The primary key is 'officer'. 'third' references another table 'character' in an exactly one to zero or many relationship. The relationship should be called 'officer'. 
+There is another table 'character' with the columns 'interest' (VARCHAR(50)), 'car' (DATE). The primary key is 'interest'. 'character' references another table 'art' in an exactly one to zero or many relationship. The relationship should be called 'interest'. 
+There is another table 'art' with the columns 'end' (DATE), 'kind' (TEXT), 'start' (VARCHAR(50)). The primary key is 'end'. 'art' references another table 'air' in an exactly one to zero or many relationship. The relationship should be called 'end'. 
+There is another table 'air' with the columns 'response' (VARCHAR(50)), 'whom' (DATE). The primary key is 'response'. 'air' references another table 'reflect' in an exactly one to zero or many relationship. The relationship should be called 'response'. 
+There is another table 'reflect' with the columns 'eye' (DATE), 'look' (TEXT), 'sign' (VARCHAR(50)). The primary key is 'eye'. 'reflect' references another table 'way' in an exactly one to zero or many relationship. The relationship should be called 'eye'. 
+

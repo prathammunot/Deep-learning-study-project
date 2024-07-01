@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram204'.
+There is a table 'senior' with the columns 'artist' (DATE), 'size' (TEXT), 'interview' (VARCHAR(50)). The primary key is 'artist'. 'senior' references another table 'money' in an exactly one to zero or many relationship. The relationship should be called 'artist'. 
+There is another table 'money' with the columns 'fish' (VARCHAR(50)), 'discuss' (DATE). The primary key is 'fish'. 'money' references another table 'we' in an exactly one to zero or many relationship. The relationship should be called 'fish'. 
+There is another table 'we' with the columns 'experience' (DATE), 'month' (TEXT), 'total' (VARCHAR(50)). The primary key is 'experience'. 'we' references another table 'serious' in an exactly one to zero or many relationship. The relationship should be called 'experience'. 
+There is another table 'serious' with the columns 'big' (VARCHAR(50)), 'consumer' (DATE). The primary key is 'big'. 'serious' references another table 'close' in an exactly one to zero or many relationship. The relationship should be called 'big'. 
+There is another table 'close' with the columns 'very' (DATE), 'tell' (TEXT), 'Congress' (VARCHAR(50)). The primary key is 'very'. 'close' references another table 'hand' in an exactly one to zero or many relationship. The relationship should be called 'very'. 
+There is another table 'hand' with the columns 'main' (VARCHAR(50)), 'with' (DATE). The primary key is 'main'. 'hand' references another table 'price' in an exactly one to zero or many relationship. The relationship should be called 'main'. 
+There is another table 'price' with the columns 'stay' (DATE), 'rate' (TEXT), 'control' (VARCHAR(50)). The primary key is 'stay'. 'price' references another table 'director' in an exactly one to zero or many relationship. The relationship should be called 'stay'. 
+There is another table 'director' with the columns 'season' (VARCHAR(50)), 'determine' (DATE). The primary key is 'season'. 'director' references another table 'senior' in an exactly one to zero or many relationship. The relationship should be called 'season'. 
+

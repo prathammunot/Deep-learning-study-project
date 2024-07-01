@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram120'.
+There is a table 'clear' with the columns 'total' (DATE), 'next' (TEXT), 'fine' (VARCHAR(50)). The primary key is 'total'. 'clear' references another table 'only' in an exactly one to zero or many relationship. The relationship should be called 'total'. 
+There is another table 'only' with the columns 'strong' (VARCHAR(50)), 'quickly' (DATE). The primary key is 'strong'. 'only' references another table 'deep' in an exactly one to zero or many relationship. The relationship should be called 'strong'. 
+There is another table 'deep' with the columns 'produce' (DATE), 'among' (TEXT), 'material' (VARCHAR(50)). The primary key is 'produce'. 'deep' references another table 'answer' in an exactly one to zero or many relationship. The relationship should be called 'produce'. 
+There is another table 'answer' with the columns 'become' (VARCHAR(50)), 'government' (DATE). The primary key is 'become'. 'answer' references another table 'whose' in an exactly one to zero or many relationship. The relationship should be called 'become'. 
+There is another table 'whose' with the columns 'learn' (DATE), 'tough' (TEXT), 'full' (VARCHAR(50)). The primary key is 'learn'. 'whose' references another table 'official' in an exactly one to zero or many relationship. The relationship should be called 'learn'. 
+There is another table 'official' with the columns 'charge' (VARCHAR(50)), 'debate' (DATE). The primary key is 'charge'. 'official' references another table 'industry' in an exactly one to zero or many relationship. The relationship should be called 'charge'. 
+There is another table 'industry' with the columns 'grow' (DATE), 'her' (TEXT), 'course' (VARCHAR(50)). The primary key is 'grow'. 'industry' references another table 'get' in an exactly one to zero or many relationship. The relationship should be called 'grow'. 
+There is another table 'get' with the columns 'age' (VARCHAR(50)), 'expert' (DATE). The primary key is 'age'. 'get' references another table 'clear' in an exactly one to zero or many relationship. The relationship should be called 'age'. 
+

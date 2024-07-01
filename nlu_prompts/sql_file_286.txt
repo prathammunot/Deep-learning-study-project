@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram208'.
+There is a table 'spring' with the columns 'successful' (DATE), 'soon' (TEXT), 'conference' (VARCHAR(50)). The primary key is 'successful'. 'spring' references another table 'finally' in an exactly one to zero or many relationship. The relationship should be called 'successful'. 
+There is another table 'finally' with the columns 'moment' (VARCHAR(50)), 'now' (DATE). The primary key is 'moment'. 'finally' references another table 'news' in an exactly one to zero or many relationship. The relationship should be called 'moment'. 
+There is another table 'news' with the columns 'management' (DATE), 'base' (TEXT), 'within' (VARCHAR(50)). The primary key is 'management'. 'news' references another table 'set' in an exactly one to zero or many relationship. The relationship should be called 'management'. 
+There is another table 'set' with the columns 'election' (VARCHAR(50)), 'share' (DATE). The primary key is 'election'. 'set' references another table 'culture' in an exactly one to zero or many relationship. The relationship should be called 'election'. 
+There is another table 'culture' with the columns 'skin' (DATE), 'man' (TEXT), 'cut' (VARCHAR(50)). The primary key is 'skin'. 'culture' references another table 'piece' in an exactly one to zero or many relationship. The relationship should be called 'skin'. 
+There is another table 'piece' with the columns 'system' (VARCHAR(50)), 'certainly' (DATE). The primary key is 'system'. 'piece' references another table 'spring' in an exactly one to zero or many relationship. The relationship should be called 'system'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram180'.
+There is a table 'author' with the columns 'any' (DATE), 'change' (TEXT), 'kid' (VARCHAR(50)). The primary key is 'any'. 'author' references another table 'wall' in an exactly one to zero or many relationship. The relationship should be called 'any'. 
+There is another table 'wall' with the columns 'recently' (VARCHAR(50)), 'others' (DATE). The primary key is 'recently'. 'wall' references another table 'old' in an exactly one to zero or many relationship. The relationship should be called 'recently'. 
+There is another table 'old' with the columns 'middle' (DATE), 'score' (TEXT), 'consumer' (VARCHAR(50)). The primary key is 'middle'. 'old' references another table 'see' in an exactly one to zero or many relationship. The relationship should be called 'middle'. 
+There is another table 'see' with the columns 'property' (VARCHAR(50)), 'section' (DATE). The primary key is 'property'. 'see' references another table 'effort' in an exactly one to zero or many relationship. The relationship should be called 'property'. 
+There is another table 'effort' with the columns 'ahead' (DATE), 'prepare' (TEXT), 'not' (VARCHAR(50)). The primary key is 'ahead'. 'effort' references another table 'admit' in an exactly one to zero or many relationship. The relationship should be called 'ahead'. 
+There is another table 'admit' with the columns 'fish' (VARCHAR(50)), 'likely' (DATE). The primary key is 'fish'. 'admit' references another table 'woman' in an exactly one to zero or many relationship. The relationship should be called 'fish'. 
+There is another table 'woman' with the columns 'model' (DATE), 'build' (TEXT), 'tell' (VARCHAR(50)). The primary key is 'model'. 'woman' references another table 'professor' in an exactly one to zero or many relationship. The relationship should be called 'model'. 
+There is another table 'professor' with the columns 'successful' (VARCHAR(50)), 'minute' (DATE). The primary key is 'successful'. 'professor' references another table 'author' in an exactly one to zero or many relationship. The relationship should be called 'successful'. 
+

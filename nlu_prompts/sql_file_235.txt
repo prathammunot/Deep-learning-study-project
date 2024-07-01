@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram152'.
+There is a table 'identify' with the columns 'figure' (DATE), 'year' (TEXT), 'law' (VARCHAR(50)). The primary key is 'figure'. 'identify' references another table 'century' in an exactly one to zero or many relationship. The relationship should be called 'figure'. 
+There is another table 'century' with the columns 'ground' (VARCHAR(50)), 'born' (DATE). The primary key is 'ground'. 'century' references another table 'oil' in an exactly one to zero or many relationship. The relationship should be called 'ground'. 
+There is another table 'oil' with the columns 'position' (DATE), 'become' (TEXT), 'debate' (VARCHAR(50)). The primary key is 'position'. 'oil' references another table 'require' in an exactly one to zero or many relationship. The relationship should be called 'position'. 
+There is another table 'require' with the columns 'possible' (VARCHAR(50)), 'right' (DATE). The primary key is 'possible'. 'require' references another table 'officer' in an exactly one to zero or many relationship. The relationship should be called 'possible'. 
+There is another table 'officer' with the columns 'avoid' (DATE), 'general' (TEXT), 'personal' (VARCHAR(50)). The primary key is 'avoid'. 'officer' references another table 'force' in an exactly one to zero or many relationship. The relationship should be called 'avoid'. 
+There is another table 'force' with the columns 'tend' (VARCHAR(50)), 'wide' (DATE). The primary key is 'tend'. 'force' references another table 'by' in an exactly one to zero or many relationship. The relationship should be called 'tend'. 
+There is another table 'by' with the columns 'black' (DATE), 'physical' (TEXT), 'under' (VARCHAR(50)). The primary key is 'black'. 'by' references another table 'special' in an exactly one to zero or many relationship. The relationship should be called 'black'. 
+There is another table 'special' with the columns 'provide' (VARCHAR(50)), 'loss' (DATE). The primary key is 'provide'. 'special' references another table 'identify' in an exactly one to zero or many relationship. The relationship should be called 'provide'. 
+

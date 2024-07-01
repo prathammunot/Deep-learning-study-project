@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram214'.
+There is a table 'article' with the columns 'rule' (DATE), 'happy' (TEXT), 'may' (VARCHAR(50)). The primary key is 'rule'. 'article' references another table 'open' in an exactly one to zero or many relationship. The relationship should be called 'rule'. 
+There is another table 'open' with the columns 'cut' (VARCHAR(50)), 'music' (DATE). The primary key is 'cut'. 'open' references another table 'fill' in an exactly one to zero or many relationship. The relationship should be called 'cut'. 
+There is another table 'fill' with the columns 'budget' (DATE), 'social' (TEXT), 'pick' (VARCHAR(50)). The primary key is 'budget'. 'fill' references another table 'sell' in an exactly one to zero or many relationship. The relationship should be called 'budget'. 
+There is another table 'sell' with the columns 'artist' (VARCHAR(50)), 'two' (DATE). The primary key is 'artist'. 'sell' references another table 'participant' in an exactly one to zero or many relationship. The relationship should be called 'artist'. 
+There is another table 'participant' with the columns 'while' (DATE), 'outside' (TEXT), 'month' (VARCHAR(50)). The primary key is 'while'. 'participant' references another table 'article' in an exactly one to zero or many relationship. The relationship should be called 'while'. 
+

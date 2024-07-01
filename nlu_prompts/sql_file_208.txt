@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram122'.
+There is a table 'source' with the columns 'big' (DATE), 'throw' (TEXT), 'usually' (VARCHAR(50)). The primary key is 'big'. 'source' references another table 'ball' in an exactly one to zero or many relationship. The relationship should be called 'big'. 
+There is another table 'ball' with the columns 'however' (VARCHAR(50)), 'form' (DATE). The primary key is 'however'. 'ball' references another table 'sell' in an exactly one to zero or many relationship. The relationship should be called 'however'. 
+There is another table 'sell' with the columns 'dinner' (DATE), 'subject' (TEXT), 'fill' (VARCHAR(50)). The primary key is 'dinner'. 'sell' references another table 'drop' in an exactly one to zero or many relationship. The relationship should be called 'dinner'. 
+There is another table 'drop' with the columns 'girl' (VARCHAR(50)), 'space' (DATE). The primary key is 'girl'. 'drop' references another table 'while' in an exactly one to zero or many relationship. The relationship should be called 'girl'. 
+There is another table 'while' with the columns 'mention' (DATE), 'front' (TEXT), 'deal' (VARCHAR(50)). The primary key is 'mention'. 'while' references another table 'line' in an exactly one to zero or many relationship. The relationship should be called 'mention'. 
+There is another table 'line' with the columns 'lot' (VARCHAR(50)), 'center' (DATE). The primary key is 'lot'. 'line' references another table 'forward' in an exactly one to zero or many relationship. The relationship should be called 'lot'. 
+There is another table 'forward' with the columns 'bit' (DATE), 'need' (TEXT), 'physical' (VARCHAR(50)). The primary key is 'bit'. 'forward' references another table 'realize' in an exactly one to zero or many relationship. The relationship should be called 'bit'. 
+There is another table 'realize' with the columns 'two' (VARCHAR(50)), 'send' (DATE). The primary key is 'two'. 'realize' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'two'. 
+There is another table 'section' with the columns 'water' (DATE), 'tend' (TEXT), 'require' (VARCHAR(50)). The primary key is 'water'. 'section' references another table 'source' in an exactly one to zero or many relationship. The relationship should be called 'water'. 
+

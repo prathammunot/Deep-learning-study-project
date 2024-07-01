@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram149'.
+There is a table 'clear' with the columns 'democratic' (DATE), 'natural' (TEXT), 'million' (VARCHAR(50)). The primary key is 'democratic'. 'clear' references another table 'six' in an exactly one to zero or many relationship. The relationship should be called 'democratic'. 
+There is another table 'six' with the columns 'good' (VARCHAR(50)), 'million' (DATE). The primary key is 'good'. 'six' references another table 'allow' in an exactly one to zero or many relationship. The relationship should be called 'good'. 
+There is another table 'allow' with the columns 'determine' (DATE), 'buy' (TEXT), 'idea' (VARCHAR(50)). The primary key is 'determine'. 'allow' references another table 'pull' in an exactly one to zero or many relationship. The relationship should be called 'determine'. 
+There is another table 'pull' with the columns 'others' (VARCHAR(50)), 'into' (DATE). The primary key is 'others'. 'pull' references another table 'ready' in an exactly one to zero or many relationship. The relationship should be called 'others'. 
+There is another table 'ready' with the columns 'really' (DATE), 'doctor' (TEXT), 'wind' (VARCHAR(50)). The primary key is 'really'. 'ready' references another table 'put' in an exactly one to zero or many relationship. The relationship should be called 'really'. 
+There is another table 'put' with the columns 'customer' (VARCHAR(50)), 'might' (DATE). The primary key is 'customer'. 'put' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'customer'. 
+There is another table 'situation' with the columns 'would' (DATE), 'sign' (TEXT), 'anything' (VARCHAR(50)). The primary key is 'would'. 'situation' references another table 'clear' in an exactly one to zero or many relationship. The relationship should be called 'would'. 
+

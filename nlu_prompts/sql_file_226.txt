@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram142'.
+There is a table 'risk' with the columns 'debate' (DATE), 'analysis' (TEXT), 'heavy' (VARCHAR(50)). The primary key is 'debate'. 'risk' references another table 'letter' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+There is another table 'letter' with the columns 'still' (VARCHAR(50)), 'dinner' (DATE). The primary key is 'still'. 'letter' references another table 'old' in an exactly one to zero or many relationship. The relationship should be called 'still'. 
+There is another table 'old' with the columns 'now' (DATE), 'face' (TEXT), 'theory' (VARCHAR(50)). The primary key is 'now'. 'old' references another table 'want' in an exactly one to zero or many relationship. The relationship should be called 'now'. 
+There is another table 'want' with the columns 'character' (VARCHAR(50)), 'others' (DATE). The primary key is 'character'. 'want' references another table 'the' in an exactly one to zero or many relationship. The relationship should be called 'character'. 
+There is another table 'the' with the columns 'about' (DATE), 'section' (TEXT), 'son' (VARCHAR(50)). The primary key is 'about'. 'the' references another table 'evidence' in an exactly one to zero or many relationship. The relationship should be called 'about'. 
+There is another table 'evidence' with the columns 'bill' (VARCHAR(50)), 'receive' (DATE). The primary key is 'bill'. 'evidence' references another table 'how' in an exactly one to zero or many relationship. The relationship should be called 'bill'. 
+There is another table 'how' with the columns 'manager' (DATE), 'tonight' (TEXT), 'stock' (VARCHAR(50)). The primary key is 'manager'. 'how' references another table 'create' in an exactly one to zero or many relationship. The relationship should be called 'manager'. 
+There is another table 'create' with the columns 'husband' (VARCHAR(50)), 'cell' (DATE). The primary key is 'husband'. 'create' references another table 'risk' in an exactly one to zero or many relationship. The relationship should be called 'husband'. 
+

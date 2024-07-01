@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram175'.
+There is a table 'religious' with the columns 'reality' (DATE), 'effort' (TEXT), 'section' (VARCHAR(50)). The primary key is 'reality'. 'religious' references another table 'current' in an exactly one to zero or many relationship. The relationship should be called 'reality'. 
+There is another table 'current' with the columns 'buy' (VARCHAR(50)), 'meet' (DATE). The primary key is 'buy'. 'current' references another table 'soon' in an exactly one to zero or many relationship. The relationship should be called 'buy'. 
+There is another table 'soon' with the columns 'should' (DATE), 'likely' (TEXT), 'too' (VARCHAR(50)). The primary key is 'should'. 'soon' references another table 'clearly' in an exactly one to zero or many relationship. The relationship should be called 'should'. 
+There is another table 'clearly' with the columns 'sell' (VARCHAR(50)), 'use' (DATE). The primary key is 'sell'. 'clearly' references another table 'record' in an exactly one to zero or many relationship. The relationship should be called 'sell'. 
+There is another table 'record' with the columns 'article' (DATE), 'visit' (TEXT), 'game' (VARCHAR(50)). The primary key is 'article'. 'record' references another table 'into' in an exactly one to zero or many relationship. The relationship should be called 'article'. 
+There is another table 'into' with the columns 'bad' (VARCHAR(50)), 'effect' (DATE). The primary key is 'bad'. 'into' references another table 'religious' in an exactly one to zero or many relationship. The relationship should be called 'bad'. 
+

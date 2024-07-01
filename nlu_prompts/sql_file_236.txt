@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram153'.
+There is a table 'him' with the columns 'call' (DATE), 'central' (TEXT), 'meet' (VARCHAR(50)). The primary key is 'call'. 'him' references another table 'quite' in an exactly one to zero or many relationship. The relationship should be called 'call'. 
+There is another table 'quite' with the columns 'case' (VARCHAR(50)), 'sing' (DATE). The primary key is 'case'. 'quite' references another table 'how' in an exactly one to zero or many relationship. The relationship should be called 'case'. 
+There is another table 'how' with the columns 'responsibility' (DATE), 'send' (TEXT), 'partner' (VARCHAR(50)). The primary key is 'responsibility'. 'how' references another table 'executive' in an exactly one to zero or many relationship. The relationship should be called 'responsibility'. 
+There is another table 'executive' with the columns 'require' (VARCHAR(50)), 'example' (DATE). The primary key is 'require'. 'executive' references another table 'southern' in an exactly one to zero or many relationship. The relationship should be called 'require'. 
+There is another table 'southern' with the columns 'my' (DATE), 'ok' (TEXT), 'base' (VARCHAR(50)). The primary key is 'my'. 'southern' references another table 'responsibility' in an exactly one to zero or many relationship. The relationship should be called 'my'. 
+There is another table 'responsibility' with the columns 'matter' (VARCHAR(50)), 'agreement' (DATE). The primary key is 'matter'. 'responsibility' references another table 'ahead' in an exactly one to zero or many relationship. The relationship should be called 'matter'. 
+There is another table 'ahead' with the columns 'few' (DATE), 'over' (TEXT), 'well' (VARCHAR(50)). The primary key is 'few'. 'ahead' references another table 'him' in an exactly one to zero or many relationship. The relationship should be called 'few'. 
+

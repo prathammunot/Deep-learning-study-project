@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram156'.
+There is a table 'social' with the columns 'cut' (DATE), 'international' (TEXT), 'possible' (VARCHAR(50)). The primary key is 'cut'. 'social' references another table 'need' in an exactly one to zero or many relationship. The relationship should be called 'cut'. 
+There is another table 'need' with the columns 'environment' (VARCHAR(50)), 'media' (DATE). The primary key is 'environment'. 'need' references another table 'develop' in an exactly one to zero or many relationship. The relationship should be called 'environment'. 
+There is another table 'develop' with the columns 'according' (DATE), 'east' (TEXT), 'short' (VARCHAR(50)). The primary key is 'according'. 'develop' references another table 'main' in an exactly one to zero or many relationship. The relationship should be called 'according'. 
+There is another table 'main' with the columns 'up' (VARCHAR(50)), 'own' (DATE). The primary key is 'up'. 'main' references another table 'upon' in an exactly one to zero or many relationship. The relationship should be called 'up'. 
+There is another table 'upon' with the columns 'letter' (DATE), 'buy' (TEXT), 'pattern' (VARCHAR(50)). The primary key is 'letter'. 'upon' references another table 'social' in an exactly one to zero or many relationship. The relationship should be called 'letter'. 
+

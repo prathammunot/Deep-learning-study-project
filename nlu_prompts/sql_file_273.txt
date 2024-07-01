@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram194'.
+There is a table 'run' with the columns 'situation' (DATE), 'just' (TEXT), 'ability' (VARCHAR(50)). The primary key is 'situation'. 'run' references another table 'hair' in an exactly one to zero or many relationship. The relationship should be called 'situation'. 
+There is another table 'hair' with the columns 'arm' (VARCHAR(50)), 'likely' (DATE). The primary key is 'arm'. 'hair' references another table 'blue' in an exactly one to zero or many relationship. The relationship should be called 'arm'. 
+There is another table 'blue' with the columns 'Congress' (DATE), 'side' (TEXT), 'on' (VARCHAR(50)). The primary key is 'Congress'. 'blue' references another table 'event' in an exactly one to zero or many relationship. The relationship should be called 'Congress'. 
+There is another table 'event' with the columns 'imagine' (VARCHAR(50)), 'sense' (DATE). The primary key is 'imagine'. 'event' references another table 'choice' in an exactly one to zero or many relationship. The relationship should be called 'imagine'. 
+There is another table 'choice' with the columns 'new' (DATE), 'Mr' (TEXT), 'population' (VARCHAR(50)). The primary key is 'new'. 'choice' references another table 'low' in an exactly one to zero or many relationship. The relationship should be called 'new'. 
+There is another table 'low' with the columns 'your' (VARCHAR(50)), 'line' (DATE). The primary key is 'your'. 'low' references another table 'run' in an exactly one to zero or many relationship. The relationship should be called 'your'. 
+

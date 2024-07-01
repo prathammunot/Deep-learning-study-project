@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram140'.
+There is a table 'alone' with the columns 'raise' (DATE), 'factor' (TEXT), 'visit' (VARCHAR(50)). The primary key is 'raise'. 'alone' references another table 'century' in an exactly one to zero or many relationship. The relationship should be called 'raise'. 
+There is another table 'century' with the columns 'tough' (VARCHAR(50)), 'large' (DATE). The primary key is 'tough'. 'century' references another table 'me' in an exactly one to zero or many relationship. The relationship should be called 'tough'. 
+There is another table 'me' with the columns 'security' (DATE), 'film' (TEXT), 'so' (VARCHAR(50)). The primary key is 'security'. 'me' references another table 'child' in an exactly one to zero or many relationship. The relationship should be called 'security'. 
+There is another table 'child' with the columns 'produce' (VARCHAR(50)), 'material' (DATE). The primary key is 'produce'. 'child' references another table 'technology' in an exactly one to zero or many relationship. The relationship should be called 'produce'. 
+There is another table 'technology' with the columns 'meet' (DATE), 'democratic' (TEXT), 'step' (VARCHAR(50)). The primary key is 'meet'. 'technology' references another table 'alone' in an exactly one to zero or many relationship. The relationship should be called 'meet'. 
+

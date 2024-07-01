@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram205'.
+There is a table 'evidence' with the columns 'exist' (DATE), 'event' (TEXT), 'base' (VARCHAR(50)). The primary key is 'exist'. 'evidence' references another table 'too' in an exactly one to zero or many relationship. The relationship should be called 'exist'. 
+There is another table 'too' with the columns 'like' (VARCHAR(50)), 'arm' (DATE). The primary key is 'like'. 'too' references another table 'support' in an exactly one to zero or many relationship. The relationship should be called 'like'. 
+There is another table 'support' with the columns 'eight' (DATE), 'fear' (TEXT), 'month' (VARCHAR(50)). The primary key is 'eight'. 'support' references another table 'capital' in an exactly one to zero or many relationship. The relationship should be called 'eight'. 
+There is another table 'capital' with the columns 'none' (VARCHAR(50)), 'wife' (DATE). The primary key is 'none'. 'capital' references another table 'nor' in an exactly one to zero or many relationship. The relationship should be called 'none'. 
+There is another table 'nor' with the columns 'talk' (DATE), 'star' (TEXT), 'pretty' (VARCHAR(50)). The primary key is 'talk'. 'nor' references another table 'human' in an exactly one to zero or many relationship. The relationship should be called 'talk'. 
+There is another table 'human' with the columns 'loss' (VARCHAR(50)), 'hospital' (DATE). The primary key is 'loss'. 'human' references another table 'indicate' in an exactly one to zero or many relationship. The relationship should be called 'loss'. 
+There is another table 'indicate' with the columns 'environment' (DATE), 'shake' (TEXT), 'team' (VARCHAR(50)). The primary key is 'environment'. 'indicate' references another table 'evidence' in an exactly one to zero or many relationship. The relationship should be called 'environment'. 
+

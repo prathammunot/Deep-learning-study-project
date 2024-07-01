@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram171'.
+There is a table 'evidence' with the columns 'ready' (DATE), 'event' (TEXT), 'remember' (VARCHAR(50)). The primary key is 'ready'. 'evidence' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'ready'. 
+There is another table 'situation' with the columns 'heavy' (VARCHAR(50)), 'necessary' (DATE). The primary key is 'heavy'. 'situation' references another table 'never' in an exactly one to zero or many relationship. The relationship should be called 'heavy'. 
+There is another table 'never' with the columns 'born' (DATE), 'bank' (TEXT), 'building' (VARCHAR(50)). The primary key is 'born'. 'never' references another table 'house' in an exactly one to zero or many relationship. The relationship should be called 'born'. 
+There is another table 'house' with the columns 'future' (VARCHAR(50)), 'continue' (DATE). The primary key is 'future'. 'house' references another table 'card' in an exactly one to zero or many relationship. The relationship should be called 'future'. 
+There is another table 'card' with the columns 'way' (DATE), 'indicate' (TEXT), 'hot' (VARCHAR(50)). The primary key is 'way'. 'card' references another table 'most' in an exactly one to zero or many relationship. The relationship should be called 'way'. 
+There is another table 'most' with the columns 'set' (DATE). The primary key is 'foreign'. 'most' references another table 'evidence' in an exactly one to zero or many relationship. The relationship should be called 'foreign'. 
+

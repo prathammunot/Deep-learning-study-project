@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram185'.
+There is a table 'bed' with the columns 'fish' (DATE), 'TV' (TEXT), 'reason' (VARCHAR(50)). The primary key is 'fish'. 'bed' references another table 'probably' in an exactly one to zero or many relationship. The relationship should be called 'fish'. 
+There is another table 'probably' with the columns 'dog' (VARCHAR(50)), 'unit' (DATE). The primary key is 'dog'. 'probably' references another table 'my' in an exactly one to zero or many relationship. The relationship should be called 'dog'. 
+There is another table 'my' with the columns 'account' (DATE), 'soldier' (TEXT), 'stock' (VARCHAR(50)). The primary key is 'account'. 'my' references another table 'foreign' in an exactly one to zero or many relationship. The relationship should be called 'account'. 
+There is another table 'foreign' with the columns 'its' (VARCHAR(50)), 'plan' (DATE). The primary key is 'its'. 'foreign' references another table 'cut' in an exactly one to zero or many relationship. The relationship should be called 'its'. 
+There is another table 'cut' with the columns 'green' (DATE), 'born' (TEXT), 'practice' (VARCHAR(50)). The primary key is 'green'. 'cut' references another table 'across' in an exactly one to zero or many relationship. The relationship should be called 'green'. 
+There is another table 'across' with the columns 'improve' (VARCHAR(50)), 'difficult' (DATE). The primary key is 'improve'. 'across' references another table 'bed' in an exactly one to zero or many relationship. The relationship should be called 'improve'. 
+

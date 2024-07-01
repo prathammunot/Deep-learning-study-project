@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram215'.
+There is a table 'memory' with the columns 'hand' (DATE), 'strategy' (TEXT), 'over' (VARCHAR(50)). The primary key is 'hand'. 'memory' references another table 'eye' in an exactly one to zero or many relationship. The relationship should be called 'hand'. 
+There is another table 'eye' with the columns 'skin' (VARCHAR(50)), 'table' (DATE). The primary key is 'skin'. 'eye' references another table 'number' in an exactly one to zero or many relationship. The relationship should be called 'skin'. 
+There is another table 'number' with the columns 'step' (DATE), 'training' (TEXT), 'arrive' (VARCHAR(50)). The primary key is 'step'. 'number' references another table 'run' in an exactly one to zero or many relationship. The relationship should be called 'step'. 
+There is another table 'run' with the columns 'present' (VARCHAR(50)), 'matter' (DATE). The primary key is 'present'. 'run' references another table 'get' in an exactly one to zero or many relationship. The relationship should be called 'present'. 
+There is another table 'get' with the columns 'kitchen' (DATE), 'watch' (TEXT), 'western' (VARCHAR(50)). The primary key is 'kitchen'. 'get' references another table 'least' in an exactly one to zero or many relationship. The relationship should be called 'kitchen'. 
+There is another table 'least' with the columns 'way' (VARCHAR(50)), 'there' (DATE). The primary key is 'way'. 'least' references another table 'lead' in an exactly one to zero or many relationship. The relationship should be called 'way'. 
+There is another table 'lead' with the columns 'look' (DATE), 'life' (TEXT), 'whether' (VARCHAR(50)). The primary key is 'look'. 'lead' references another table 'house' in an exactly one to zero or many relationship. The relationship should be called 'look'. 
+There is another table 'house' with the columns 'increase' (VARCHAR(50)), 'visit' (DATE). The primary key is 'increase'. 'house' references another table 'other' in an exactly one to zero or many relationship. The relationship should be called 'increase'. 
+There is another table 'other' with the columns 'cost' (DATE), 'necessary' (TEXT), 'ok' (VARCHAR(50)). The primary key is 'cost'. 'other' references another table 'memory' in an exactly one to zero or many relationship. The relationship should be called 'cost'. 
+

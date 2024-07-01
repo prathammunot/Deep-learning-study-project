@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram176'.
+There is a table 'business' with the columns 'movement' (DATE), 'clear' (TEXT), 'factor' (VARCHAR(50)). The primary key is 'movement'. 'business' references another table 'sister' in an exactly one to zero or many relationship. The relationship should be called 'movement'. 
+There is another table 'sister' with the columns 'gun' (VARCHAR(50)), 'cold' (DATE). The primary key is 'gun'. 'sister' references another table 'military' in an exactly one to zero or many relationship. The relationship should be called 'gun'. 
+There is another table 'military' with the columns 'make' (DATE), 'model' (TEXT), 'economic' (VARCHAR(50)). The primary key is 'make'. 'military' references another table 'theory' in an exactly one to zero or many relationship. The relationship should be called 'make'. 
+There is another table 'theory' with the columns 'cut' (VARCHAR(50)), 'maintain' (DATE). The primary key is 'cut'. 'theory' references another table 'beyond' in an exactly one to zero or many relationship. The relationship should be called 'cut'. 
+There is another table 'beyond' with the columns 'school' (DATE), 'describe' (TEXT), 'for' (VARCHAR(50)). The primary key is 'school'. 'beyond' references another table 'business' in an exactly one to zero or many relationship. The relationship should be called 'school'. 
+

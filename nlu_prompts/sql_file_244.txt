@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram162'.
+There is a table 'treat' with the columns 'tonight' (DATE), 'who' (TEXT), 'trip' (VARCHAR(50)). The primary key is 'tonight'. 'treat' references another table 'owner' in an exactly one to zero or many relationship. The relationship should be called 'tonight'. 
+There is another table 'owner' with the columns 'talk' (VARCHAR(50)), 'cold' (DATE). The primary key is 'talk'. 'owner' references another table 'meet' in an exactly one to zero or many relationship. The relationship should be called 'talk'. 
+There is another table 'meet' with the columns 'indicate' (DATE), 'industry' (TEXT), 'realize' (VARCHAR(50)). The primary key is 'indicate'. 'meet' references another table 'special' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'special' with the columns 'kid' (VARCHAR(50)), 'certainly' (DATE). The primary key is 'kid'. 'special' references another table 'fly' in an exactly one to zero or many relationship. The relationship should be called 'kid'. 
+There is another table 'fly' with the columns 'your' (DATE), 'area' (TEXT), 'north' (VARCHAR(50)). The primary key is 'your'. 'fly' references another table 'mission' in an exactly one to zero or many relationship. The relationship should be called 'your'. 
+There is another table 'mission' with the columns 'result' (VARCHAR(50)), 'together' (DATE). The primary key is 'result'. 'mission' references another table 'well' in an exactly one to zero or many relationship. The relationship should be called 'result'. 
+There is another table 'well' with the columns 'which' (DATE), 'pass' (TEXT), 'friend' (VARCHAR(50)). The primary key is 'which'. 'well' references another table 'late' in an exactly one to zero or many relationship. The relationship should be called 'which'. 
+There is another table 'late' with the columns 'guess' (VARCHAR(50)), 'letter' (DATE). The primary key is 'guess'. 'late' references another table 'treat' in an exactly one to zero or many relationship. The relationship should be called 'guess'. 
+

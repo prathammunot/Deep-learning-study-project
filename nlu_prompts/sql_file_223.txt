@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram139'.
+There is a table 'identify' with the columns 'rate' (DATE), 'recently' (TEXT), 'radio' (VARCHAR(50)). The primary key is 'rate'. 'identify' references another table 'at' in an exactly one to zero or many relationship. The relationship should be called 'rate'. 
+There is another table 'at' with the columns 'answer' (VARCHAR(50)), 'field' (DATE). The primary key is 'answer'. 'at' references another table 'size' in an exactly one to zero or many relationship. The relationship should be called 'answer'. 
+There is another table 'size' with the columns 'magazine' (DATE), 'future' (TEXT), 'right' (VARCHAR(50)). The primary key is 'magazine'. 'size' references another table 'sit' in an exactly one to zero or many relationship. The relationship should be called 'magazine'. 
+There is another table 'sit' with the columns 'yeah' (VARCHAR(50)), 'staff' (DATE). The primary key is 'yeah'. 'sit' references another table 'charge' in an exactly one to zero or many relationship. The relationship should be called 'yeah'. 
+There is another table 'charge' with the columns 'statement' (DATE), 'whole' (TEXT), 'prepare' (VARCHAR(50)). The primary key is 'statement'. 'charge' references another table 'beautiful' in an exactly one to zero or many relationship. The relationship should be called 'statement'. 
+There is another table 'beautiful' with the columns 'amount' (VARCHAR(50)), 'single' (DATE). The primary key is 'amount'. 'beautiful' references another table 'whose' in an exactly one to zero or many relationship. The relationship should be called 'amount'. 
+There is another table 'whose' with the columns 'next' (DATE), 'modern' (TEXT), 'practice' (VARCHAR(50)). The primary key is 'next'. 'whose' references another table 'identify' in an exactly one to zero or many relationship. The relationship should be called 'next'. 
+

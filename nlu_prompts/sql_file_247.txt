@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram165'.
+There is a table 'late' with the columns 'peace' (DATE), 'begin' (TEXT), 'left' (VARCHAR(50)). The primary key is 'peace'. 'late' references another table 'fire' in an exactly one to zero or many relationship. The relationship should be called 'peace'. 
+There is another table 'fire' with the columns 'local' (VARCHAR(50)), 'age' (DATE). The primary key is 'local'. 'fire' references another table 'can' in an exactly one to zero or many relationship. The relationship should be called 'local'. 
+There is another table 'can' with the columns 'seek' (DATE), 'short' (TEXT), 'capital' (VARCHAR(50)). The primary key is 'seek'. 'can' references another table 'society' in an exactly one to zero or many relationship. The relationship should be called 'seek'. 
+There is another table 'society' with the columns 'entire' (VARCHAR(50)), 'officer' (DATE). The primary key is 'entire'. 'society' references another table 'on' in an exactly one to zero or many relationship. The relationship should be called 'entire'. 
+There is another table 'on' with the columns 'tough' (DATE), 'drive' (TEXT), 'ahead' (VARCHAR(50)). The primary key is 'tough'. 'on' references another table 'produce' in an exactly one to zero or many relationship. The relationship should be called 'tough'. 
+There is another table 'produce' with the columns 'Mr' (VARCHAR(50)), 'image' (DATE). The primary key is 'Mr'. 'produce' references another table 'late' in an exactly one to zero or many relationship. The relationship should be called 'Mr'. 
+

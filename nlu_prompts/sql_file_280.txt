@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram202'.
+There is a table 'gun' with the columns 'work' (DATE), 'fact' (TEXT), 'citizen' (VARCHAR(50)). The primary key is 'work'. 'gun' references another table 'relate' in an exactly one to zero or many relationship. The relationship should be called 'work'. 
+There is another table 'relate' with the columns 'economy' (VARCHAR(50)), 'study' (DATE). The primary key is 'economy'. 'relate' references another table 'executive' in an exactly one to zero or many relationship. The relationship should be called 'economy'. 
+There is another table 'executive' with the columns 'check' (DATE), 'same' (TEXT), 'word' (VARCHAR(50)). The primary key is 'check'. 'executive' references another table 'hard' in an exactly one to zero or many relationship. The relationship should be called 'check'. 
+There is another table 'hard' with the columns 'positive' (VARCHAR(50)), 'various' (DATE). The primary key is 'positive'. 'hard' references another table 'idea' in an exactly one to zero or many relationship. The relationship should be called 'positive'. 
+There is another table 'idea' with the columns 'feel' (DATE), 'medical' (TEXT), 'care' (VARCHAR(50)). The primary key is 'feel'. 'idea' references another table 'gun' in an exactly one to zero or many relationship. The relationship should be called 'feel'. 
+

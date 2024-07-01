@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram115'.
+There is a table 'walk' with the columns 'not' (DATE), 'no' (TEXT), 'far' (VARCHAR(50)). The primary key is 'not'. 'walk' references another table 'entire' in an exactly one to zero or many relationship. The relationship should be called 'not'. 
+There is another table 'entire' with the columns 'father' (VARCHAR(50)), 'another' (DATE). The primary key is 'father'. 'entire' references another table 'herself' in an exactly one to zero or many relationship. The relationship should be called 'father'. 
+There is another table 'herself' with the columns 'all' (DATE), 'move' (TEXT), 'administration' (VARCHAR(50)). The primary key is 'all'. 'herself' references another table 'music' in an exactly one to zero or many relationship. The relationship should be called 'all'. 
+There is another table 'music' with the columns 'station' (VARCHAR(50)), 'law' (DATE). The primary key is 'station'. 'music' references another table 'inside' in an exactly one to zero or many relationship. The relationship should be called 'station'. 
+There is another table 'inside' with the columns 'mouth' (DATE), 'mind' (TEXT), 'happen' (VARCHAR(50)). The primary key is 'mouth'. 'inside' references another table 'expect' in an exactly one to zero or many relationship. The relationship should be called 'mouth'. 
+There is another table 'expect' with the columns 'court' (VARCHAR(50)), 'look' (DATE). The primary key is 'court'. 'expect' references another table 'walk' in an exactly one to zero or many relationship. The relationship should be called 'court'. 
+

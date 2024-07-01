@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram200'.
+There is a table 'trial' with the columns 'business' (DATE), 'bit' (TEXT), 'partner' (VARCHAR(50)). The primary key is 'business'. 'trial' references another table 'care' in an exactly one to zero or many relationship. The relationship should be called 'business'. 
+There is another table 'care' with the columns 'make' (VARCHAR(50)), 'same' (DATE). The primary key is 'make'. 'care' references another table 'structure' in an exactly one to zero or many relationship. The relationship should be called 'make'. 
+There is another table 'structure' with the columns 'understand' (DATE), 'investment' (TEXT), 'day' (VARCHAR(50)). The primary key is 'understand'. 'structure' references another table 'agency' in an exactly one to zero or many relationship. The relationship should be called 'understand'. 
+There is another table 'agency' with the columns 'whether' (VARCHAR(50)), 'best' (DATE). The primary key is 'whether'. 'agency' references another table 'agent' in an exactly one to zero or many relationship. The relationship should be called 'whether'. 
+There is another table 'agent' with the columns 'while' (DATE), 'own' (TEXT), 'raise' (VARCHAR(50)). The primary key is 'while'. 'agent' references another table 'voice' in an exactly one to zero or many relationship. The relationship should be called 'while'. 
+There is another table 'voice' with the columns 'world' (VARCHAR(50)), 'blue' (DATE). The primary key is 'world'. 'voice' references another table 'trial' in an exactly one to zero or many relationship. The relationship should be called 'world'. 
+

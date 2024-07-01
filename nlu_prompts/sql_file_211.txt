@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram126'.
+There is a table 'exist' with the columns 'almost' (DATE), 'police' (TEXT), 'particularly' (VARCHAR(50)). The primary key is 'almost'. 'exist' references another table 'factor' in an exactly one to zero or many relationship. The relationship should be called 'almost'. 
+There is another table 'factor' with the columns 'reveal' (VARCHAR(50)), 'who' (DATE). The primary key is 'reveal'. 'factor' references another table 'force' in an exactly one to zero or many relationship. The relationship should be called 'reveal'. 
+There is another table 'force' with the columns 'forget' (DATE), 'test' (TEXT), 'fast' (VARCHAR(50)). The primary key is 'forget'. 'force' references another table 'short' in an exactly one to zero or many relationship. The relationship should be called 'forget'. 
+There is another table 'short' with the columns 'one' (VARCHAR(50)), 'cost' (DATE). The primary key is 'one'. 'short' references another table 'however' in an exactly one to zero or many relationship. The relationship should be called 'one'. 
+There is another table 'however' with the columns 'hit' (DATE), 'social' (TEXT), 'official' (VARCHAR(50)). The primary key is 'hit'. 'however' references another table 'know' in an exactly one to zero or many relationship. The relationship should be called 'hit'. 
+There is another table 'know' with the columns 'various' (VARCHAR(50)), 'group' (DATE). The primary key is 'various'. 'know' references another table 'pattern' in an exactly one to zero or many relationship. The relationship should be called 'various'. 
+There is another table 'pattern' with the columns 'fish' (DATE), 'feel' (TEXT), 'outside' (VARCHAR(50)). The primary key is 'fish'. 'pattern' references another table 'so' in an exactly one to zero or many relationship. The relationship should be called 'fish'. 
+There is another table 'so' with the columns 'ten' (VARCHAR(50)), 'everything' (DATE). The primary key is 'ten'. 'so' references another table 'exist' in an exactly one to zero or many relationship. The relationship should be called 'ten'. 
+

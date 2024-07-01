@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram141'.
+There is a table 'decide' with the columns 'worry' (DATE), 'fund' (TEXT), 'commercial' (VARCHAR(50)). The primary key is 'worry'. 'decide' references another table 'wife' in an exactly one to zero or many relationship. The relationship should be called 'worry'. 
+There is another table 'wife' with the columns 'game' (VARCHAR(50)), 'half' (DATE). The primary key is 'game'. 'wife' references another table 'follow' in an exactly one to zero or many relationship. The relationship should be called 'game'. 
+There is another table 'follow' with the columns 'control' (DATE), 'plant' (TEXT), 'level' (VARCHAR(50)). The primary key is 'control'. 'follow' references another table 'may' in an exactly one to zero or many relationship. The relationship should be called 'control'. 
+There is another table 'may' with the columns 'ask' (VARCHAR(50)), 'wonder' (DATE). The primary key is 'ask'. 'may' references another table 'pretty' in an exactly one to zero or many relationship. The relationship should be called 'ask'. 
+There is another table 'pretty' with the columns 'same' (DATE), 'tonight' (TEXT), 'set' (VARCHAR(50)). The primary key is 'same'. 'pretty' references another table 'success' in an exactly one to zero or many relationship. The relationship should be called 'same'. 
+There is another table 'success' with the columns 'fund' (VARCHAR(50)), 'test' (DATE). The primary key is 'fund'. 'success' references another table 'writer' in an exactly one to zero or many relationship. The relationship should be called 'fund'. 
+There is another table 'writer' with the columns 'feeling' (DATE), 'some' (TEXT), 'property' (VARCHAR(50)). The primary key is 'feeling'. 'writer' references another table 'it' in an exactly one to zero or many relationship. The relationship should be called 'feeling'. 
+There is another table 'it' with the columns 'follow' (VARCHAR(50)), 'three' (DATE). The primary key is 'follow'. 'it' references another table 'trial' in an exactly one to zero or many relationship. The relationship should be called 'follow'. 
+There is another table 'trial' with the columns 'three' (DATE), 'though' (TEXT), 'government' (VARCHAR(50)). The primary key is 'three'. 'trial' references another table 'decide' in an exactly one to zero or many relationship. The relationship should be called 'three'. 
+

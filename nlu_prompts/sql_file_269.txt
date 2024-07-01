@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram189'.
+There is a table 'area' with the columns 'tend' (DATE), 'word' (TEXT), 'mind' (VARCHAR(50)). The primary key is 'tend'. 'area' references another table 'voice' in an exactly one to zero or many relationship. The relationship should be called 'tend'. 
+There is another table 'voice' with the columns 'worker' (VARCHAR(50)), 'body' (DATE). The primary key is 'worker'. 'voice' references another table 'important' in an exactly one to zero or many relationship. The relationship should be called 'worker'. 
+There is another table 'important' with the columns 'walk' (DATE), 'east' (TEXT), 'view' (VARCHAR(50)). The primary key is 'walk'. 'important' references another table 'stage' in an exactly one to zero or many relationship. The relationship should be called 'walk'. 
+There is another table 'stage' with the columns 'bed' (VARCHAR(50)), 'size' (DATE). The primary key is 'bed'. 'stage' references another table 'professional' in an exactly one to zero or many relationship. The relationship should be called 'bed'. 
+There is another table 'professional' with the columns 'by' (DATE), 'building' (TEXT), 'serve' (VARCHAR(50)). The primary key is 'by'. 'professional' references another table 'whole' in an exactly one to zero or many relationship. The relationship should be called 'by'. 
+There is another table 'whole' with the columns 'place' (VARCHAR(50)), 'audience' (DATE). The primary key is 'place'. 'whole' references another table 'phone' in an exactly one to zero or many relationship. The relationship should be called 'place'. 
+There is another table 'phone' with the columns 'large' (DATE), 'little' (TEXT), 'tell' (VARCHAR(50)). The primary key is 'large'. 'phone' references another table 'how' in an exactly one to zero or many relationship. The relationship should be called 'large'. 
+There is another table 'how' with the columns 'audience' (VARCHAR(50)), 'cover' (DATE). The primary key is 'audience'. 'how' references another table 'green' in an exactly one to zero or many relationship. The relationship should be called 'audience'. 
+There is another table 'green' with the columns 'later' (DATE), 'them' (TEXT), 'by' (VARCHAR(50)). The primary key is 'later'. 'green' references another table 'area' in an exactly one to zero or many relationship. The relationship should be called 'later'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram173'.
+There is a table 'prevent' with the columns 'general' (DATE), 'some' (TEXT), 'daughter' (VARCHAR(50)). The primary key is 'general'. 'prevent' references another table 'include' in an exactly one to zero or many relationship. The relationship should be called 'general'. 
+There is another table 'include' with the columns 'brother' (VARCHAR(50)), 'about' (DATE). The primary key is 'brother'. 'include' references another table 'model' in an exactly one to zero or many relationship. The relationship should be called 'brother'. 
+There is another table 'model' with the columns 'rather' (DATE), 'physical' (TEXT), 'lay' (VARCHAR(50)). The primary key is 'rather'. 'model' references another table 'tax' in an exactly one to zero or many relationship. The relationship should be called 'rather'. 
+There is another table 'tax' with the columns 'both' (VARCHAR(50)), 'business' (DATE). The primary key is 'both'. 'tax' references another table 'hear' in an exactly one to zero or many relationship. The relationship should be called 'both'. 
+There is another table 'hear' with the columns 'different' (DATE), 'one' (TEXT), 'program' (VARCHAR(50)). The primary key is 'different'. 'hear' references another table 'reality' in an exactly one to zero or many relationship. The relationship should be called 'different'. 
+There is another table 'reality' with the columns 'girl' (VARCHAR(50)), 'even' (DATE). The primary key is 'girl'. 'reality' references another table 'history' in an exactly one to zero or many relationship. The relationship should be called 'girl'. 
+There is another table 'history' with the columns 'imagine' (DATE), 'book' (TEXT), 'however' (VARCHAR(50)). The primary key is 'imagine'. 'history' references another table 'defense' in an exactly one to zero or many relationship. The relationship should be called 'imagine'. 
+There is another table 'defense' with the columns 'newspaper' (VARCHAR(50)), 'find' (DATE). The primary key is 'newspaper'. 'defense' references another table 'prevent' in an exactly one to zero or many relationship. The relationship should be called 'newspaper'. 
+

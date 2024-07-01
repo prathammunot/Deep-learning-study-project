@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram210'.
+There is a table 'spend' with the columns 'adult' (DATE), 'realize' (TEXT), 'respond' (VARCHAR(50)). The primary key is 'adult'. 'spend' references another table 'matter' in an exactly one to zero or many relationship. The relationship should be called 'adult'. 
+There is another table 'matter' with the columns 'can' (VARCHAR(50)), 'industry' (DATE). The primary key is 'can'. 'matter' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'can'. 
+There is another table 'situation' with the columns 'pretty' (DATE), 'today' (TEXT), 'because' (VARCHAR(50)). The primary key is 'pretty'. 'situation' references another table 'since' in an exactly one to zero or many relationship. The relationship should be called 'pretty'. 
+There is another table 'since' with the columns 'yard' (VARCHAR(50)), 'rock' (DATE). The primary key is 'yard'. 'since' references another table 'them' in an exactly one to zero or many relationship. The relationship should be called 'yard'. 
+There is another table 'them' with the columns 'best' (DATE), 'audience' (TEXT), 'attention' (VARCHAR(50)). The primary key is 'best'. 'them' references another table 'five' in an exactly one to zero or many relationship. The relationship should be called 'best'. 
+There is another table 'five' with the columns 'firm' (VARCHAR(50)), 'go' (DATE). The primary key is 'firm'. 'five' references another table 'director' in an exactly one to zero or many relationship. The relationship should be called 'firm'. 
+There is another table 'director' with the columns 'increase' (DATE), 'old' (TEXT), 'role' (VARCHAR(50)). The primary key is 'increase'. 'director' references another table 'for' in an exactly one to zero or many relationship. The relationship should be called 'increase'. 
+There is another table 'for' with the columns 'even' (VARCHAR(50)), 'live' (DATE). The primary key is 'even'. 'for' references another table 'spend' in an exactly one to zero or many relationship. The relationship should be called 'even'. 
+

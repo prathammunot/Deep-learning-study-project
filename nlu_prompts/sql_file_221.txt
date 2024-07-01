@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram137'.
+There is a table 'throughout' with the columns 'too' (DATE), 'store' (TEXT), 'during' (VARCHAR(50)). The primary key is 'too'. 'throughout' references another table 'music' in an exactly one to zero or many relationship. The relationship should be called 'too'. 
+There is another table 'music' with the columns 'majority' (VARCHAR(50)), 'game' (DATE). The primary key is 'majority'. 'music' references another table 'type' in an exactly one to zero or many relationship. The relationship should be called 'majority'. 
+There is another table 'type' with the columns 'fire' (DATE), 'individual' (TEXT), 'very' (VARCHAR(50)). The primary key is 'fire'. 'type' references another table 'about' in an exactly one to zero or many relationship. The relationship should be called 'fire'. 
+There is another table 'about' with the columns 'store' (VARCHAR(50)), 'protect' (DATE). The primary key is 'store'. 'about' references another table 'people' in an exactly one to zero or many relationship. The relationship should be called 'store'. 
+There is another table 'people' with the columns 'radio' (DATE), 'industry' (TEXT), 'other' (VARCHAR(50)). The primary key is 'radio'. 'people' references another table 'throughout' in an exactly one to zero or many relationship. The relationship should be called 'radio'. 
+

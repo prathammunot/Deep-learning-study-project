@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram134'.
+There is a table 'teach' with the columns 'still' (DATE), 'sport' (TEXT), 'rich' (VARCHAR(50)). The primary key is 'still'. 'teach' references another table 'already' in an exactly one to zero or many relationship. The relationship should be called 'still'. 
+There is another table 'already' with the columns 'man' (VARCHAR(50)), 'part' (DATE). The primary key is 'man'. 'already' references another table 'already' in an exactly one to zero or many relationship. The relationship should be called 'man'. 
+There is another table 'already' with the columns 'nice' (DATE), 'program' (TEXT), 'few' (VARCHAR(50)). The primary key is 'nice'. 'already' references another table 'free' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+There is another table 'free' with the columns 'money' (VARCHAR(50)), 'financial' (DATE). The primary key is 'money'. 'free' references another table 'cost' in an exactly one to zero or many relationship. The relationship should be called 'money'. 
+There is another table 'cost' with the columns 'drop' (DATE), 'hospital' (TEXT), 'television' (VARCHAR(50)). The primary key is 'drop'. 'cost' references another table 'case' in an exactly one to zero or many relationship. The relationship should be called 'drop'. 
+There is another table 'case' with the columns 'life' (VARCHAR(50)), 'marriage' (DATE). The primary key is 'life'. 'case' references another table 'hit' in an exactly one to zero or many relationship. The relationship should be called 'life'. 
+There is another table 'hit' with the columns 'institution' (DATE), 'expect' (TEXT), 'receive' (VARCHAR(50)). The primary key is 'institution'. 'hit' references another table 'tax' in an exactly one to zero or many relationship. The relationship should be called 'institution'. 
+There is another table 'tax' with the columns 'laugh' (VARCHAR(50)), 'industry' (DATE). The primary key is 'laugh'. 'tax' references another table 'memory' in an exactly one to zero or many relationship. The relationship should be called 'laugh'. 
+There is another table 'memory' with the columns 'beyond' (DATE), 'education' (TEXT), 'us' (VARCHAR(50)). The primary key is 'beyond'. 'memory' references another table 'teach' in an exactly one to zero or many relationship. The relationship should be called 'beyond'. 
+

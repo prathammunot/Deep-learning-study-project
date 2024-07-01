@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram125'.
+There is a table 'decide' with the columns 'notice' (DATE), 'finish' (TEXT), 'well' (VARCHAR(50)). The primary key is 'notice'. 'decide' references another table 'interest' in an exactly one to zero or many relationship. The relationship should be called 'notice'. 
+There is another table 'interest' with the columns 'yourself' (VARCHAR(50)), 'mention' (DATE). The primary key is 'yourself'. 'interest' references another table 'single' in an exactly one to zero or many relationship. The relationship should be called 'yourself'. 
+There is another table 'single' with the columns 'any' (DATE), 'while' (TEXT), 'else' (VARCHAR(50)). The primary key is 'any'. 'single' references another table 'challenge' in an exactly one to zero or many relationship. The relationship should be called 'any'. 
+There is another table 'challenge' with the columns 'who' (VARCHAR(50)), 'maintain' (DATE). The primary key is 'who'. 'challenge' references another table 'together' in an exactly one to zero or many relationship. The relationship should be called 'who'. 
+There is another table 'together' with the columns 'minute' (DATE), 'pretty' (TEXT), 'guess' (VARCHAR(50)). The primary key is 'minute'. 'together' references another table 'executive' in an exactly one to zero or many relationship. The relationship should be called 'minute'. 
+There is another table 'executive' with the columns 'image' (VARCHAR(50)), 'standard' (DATE). The primary key is 'image'. 'executive' references another table 'decide' in an exactly one to zero or many relationship. The relationship should be called 'image'. 
+

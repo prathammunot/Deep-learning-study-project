@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram166'.
+There is a table 'remember' with the columns 'common' (DATE), 'air' (TEXT), 'life' (VARCHAR(50)). The primary key is 'common'. 'remember' references another table 'age' in an exactly one to zero or many relationship. The relationship should be called 'common'. 
+There is another table 'age' with the columns 'fact' (VARCHAR(50)), 'hundred' (DATE). The primary key is 'fact'. 'age' references another table 'than' in an exactly one to zero or many relationship. The relationship should be called 'fact'. 
+There is another table 'than' with the columns 'focus' (DATE), 'if' (TEXT), 'least' (VARCHAR(50)). The primary key is 'focus'. 'than' references another table 'type' in an exactly one to zero or many relationship. The relationship should be called 'focus'. 
+There is another table 'type' with the columns 'lose' (VARCHAR(50)), 'senior' (DATE). The primary key is 'lose'. 'type' references another table 'total' in an exactly one to zero or many relationship. The relationship should be called 'lose'. 
+There is another table 'total' with the columns 'such' (DATE), 'information' (TEXT), 'than' (VARCHAR(50)). The primary key is 'such'. 'total' references another table 'fight' in an exactly one to zero or many relationship. The relationship should be called 'such'. 
+There is another table 'fight' with the columns 'to' (VARCHAR(50)), 'month' (DATE). The primary key is 'to'. 'fight' references another table 'charge' in an exactly one to zero or many relationship. The relationship should be called 'to'. 
+There is another table 'charge' with the columns 'draw' (DATE), 'common' (TEXT), 'strong' (VARCHAR(50)). The primary key is 'draw'. 'charge' references another table 'treat' in an exactly one to zero or many relationship. The relationship should be called 'draw'. 
+There is another table 'treat' with the columns 'together' (VARCHAR(50)), 'red' (DATE). The primary key is 'together'. 'treat' references another table 'yourself' in an exactly one to zero or many relationship. The relationship should be called 'together'. 
+There is another table 'yourself' with the columns 'walk' (DATE), 'far' (TEXT), 'can' (VARCHAR(50)). The primary key is 'walk'. 'yourself' references another table 'remember' in an exactly one to zero or many relationship. The relationship should be called 'walk'. 
+

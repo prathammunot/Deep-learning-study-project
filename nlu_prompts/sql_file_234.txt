@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram151'.
+There is a table 'second' with the columns 'school' (DATE), 'order' (TEXT), 'pay' (VARCHAR(50)). The primary key is 'school'. 'second' references another table 'star' in an exactly one to zero or many relationship. The relationship should be called 'school'. 
+There is another table 'star' with the columns 'price' (VARCHAR(50)), 'concern' (DATE). The primary key is 'price'. 'star' references another table 'enjoy' in an exactly one to zero or many relationship. The relationship should be called 'price'. 
+There is another table 'enjoy' with the columns 'method' (DATE), 'four' (TEXT), 'soldier' (VARCHAR(50)). The primary key is 'method'. 'enjoy' references another table 'next' in an exactly one to zero or many relationship. The relationship should be called 'method'. 
+There is another table 'next' with the columns 'mention' (VARCHAR(50)), 'might' (DATE). The primary key is 'mention'. 'next' references another table 'affect' in an exactly one to zero or many relationship. The relationship should be called 'mention'. 
+There is another table 'affect' with the columns 'bar' (DATE), 'want' (TEXT), 'price' (VARCHAR(50)). The primary key is 'bar'. 'affect' references another table 'ok' in an exactly one to zero or many relationship. The relationship should be called 'bar'. 
+There is another table 'ok' with the columns 'word' (VARCHAR(50)), 'per' (DATE). The primary key is 'word'. 'ok' references another table 'concern' in an exactly one to zero or many relationship. The relationship should be called 'word'. 
+There is another table 'concern' with the columns 'successful' (DATE), 'pay' (TEXT), 'worry' (VARCHAR(50)). The primary key is 'successful'. 'concern' references another table 'power' in an exactly one to zero or many relationship. The relationship should be called 'successful'. 
+There is another table 'power' with the columns 'blue' (VARCHAR(50)), 'beyond' (DATE). The primary key is 'blue'. 'power' references another table 'skin' in an exactly one to zero or many relationship. The relationship should be called 'blue'. 
+There is another table 'skin' with the columns 'activity' (DATE), 'worry' (TEXT), 'actually' (VARCHAR(50)). The primary key is 'activity'. 'skin' references another table 'second' in an exactly one to zero or many relationship. The relationship should be called 'activity'. 
+

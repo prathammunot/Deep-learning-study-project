@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram143'.
+There is a table 'thus' with the columns 'move' (DATE), 'present' (TEXT), 'perhaps' (VARCHAR(50)). The primary key is 'move'. 'thus' references another table 'almost' in an exactly one to zero or many relationship. The relationship should be called 'move'. 
+There is another table 'almost' with the columns 'police' (VARCHAR(50)), 'other' (DATE). The primary key is 'police'. 'almost' references another table 'risk' in an exactly one to zero or many relationship. The relationship should be called 'police'. 
+There is another table 'risk' with the columns 'appear' (DATE), 'down' (TEXT), 'lay' (VARCHAR(50)). The primary key is 'appear'. 'risk' references another table 'everything' in an exactly one to zero or many relationship. The relationship should be called 'appear'. 
+There is another table 'everything' with the columns 'seem' (VARCHAR(50)), 'wife' (DATE). The primary key is 'seem'. 'everything' references another table 'teach' in an exactly one to zero or many relationship. The relationship should be called 'seem'. 
+There is another table 'teach' with the columns 'course' (DATE), 'story' (TEXT), 'travel' (VARCHAR(50)). The primary key is 'course'. 'teach' references another table 'thus' in an exactly one to zero or many relationship. The relationship should be called 'course'. 
+
