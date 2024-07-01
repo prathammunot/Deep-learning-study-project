@@ -1,0 +1,149 @@
+[
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "attention",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "environmental",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "true",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attention",
+        "foreign_keys": [
+            {
+                "column": "attention",
+                "references": "crime"
+            }
+        ]
+    },
+    {
+        "name": "crime",
+        "columns": [
+            {
+                "name": "take",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "take",
+        "foreign_keys": [
+            {
+                "column": "take",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "well",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "well",
+        "foreign_keys": [
+            {
+                "column": "well",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "age"
+            }
+        ]
+    },
+    {
+        "name": "age",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "least",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "in"
+            }
+        ]
+    },
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "may",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "may",
+        "foreign_keys": [
+            {
+                "column": "may",
+                "references": "seem"
+            }
+        ]
+    }
+]

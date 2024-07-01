@@ -1,0 +1,225 @@
+[
+    {
+        "name": "listen",
+        "columns": [
+            {
+                "name": "try",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "issue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "try",
+        "foreign_keys": [
+            {
+                "column": "try",
+                "references": "new"
+            }
+        ]
+    },
+    {
+        "name": "new",
+        "columns": [
+            {
+                "name": "color",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "street",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "when"
+            }
+        ]
+    },
+    {
+        "name": "when",
+        "columns": [
+            {
+                "name": "listen",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "listen",
+        "foreign_keys": [
+            {
+                "column": "listen",
+                "references": "protect"
+            }
+        ]
+    },
+    {
+        "name": "protect",
+        "columns": [
+            {
+                "name": "space",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "century",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "what",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "affect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "what",
+        "foreign_keys": [
+            {
+                "column": "what",
+                "references": "use"
+            }
+        ]
+    },
+    {
+        "name": "use",
+        "columns": [
+            {
+                "name": "large",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "myself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "large",
+        "foreign_keys": [
+            {
+                "column": "large",
+                "references": "other"
+            }
+        ]
+    },
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "listen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "seem"
+            }
+        ]
+    },
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "various"
+            }
+        ]
+    },
+    {
+        "name": "various",
+        "columns": [
+            {
+                "name": "respond",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "respond",
+        "foreign_keys": [
+            {
+                "column": "respond",
+                "references": "listen"
+            }
+        ]
+    }
+]

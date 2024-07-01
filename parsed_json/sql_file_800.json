@@ -1,0 +1,247 @@
+[
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "move"
+            }
+        ]
+    },
+    {
+        "name": "move",
+        "columns": [
+            {
+                "name": "budget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "glass",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "budget",
+        "foreign_keys": [
+            {
+                "column": "budget",
+                "references": "apply"
+            }
+        ]
+    },
+    {
+        "name": "apply",
+        "columns": [
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "apply",
+        "foreign_keys": [
+            {
+                "column": "apply",
+                "references": "yet"
+            }
+        ]
+    },
+    {
+        "name": "yet",
+        "columns": [
+            {
+                "name": "bit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bit",
+        "foreign_keys": [
+            {
+                "column": "bit",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "contain"
+            }
+        ]
+    },
+    {
+        "name": "contain",
+        "columns": [
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "possible",
+        "foreign_keys": [
+            {
+                "column": "possible",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "day",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "day",
+        "foreign_keys": [
+            {
+                "column": "day",
+                "references": "close"
+            }
+        ]
+    },
+    {
+        "name": "close",
+        "columns": [
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "other"
+            }
+        ]
+    },
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "law",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "detail",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "law",
+        "foreign_keys": [
+            {
+                "column": "law",
+                "references": "trip"
+            }
+        ]
+    },
+    {
+        "name": "trip",
+        "columns": [
+            {
+                "name": "teach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "teach",
+        "foreign_keys": [
+            {
+                "column": "teach",
+                "references": "person"
+            }
+        ]
+    }
+]

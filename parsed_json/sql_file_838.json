@@ -1,0 +1,296 @@
+[
+    {
+        "name": "discover",
+        "columns": [
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "onto",
+        "foreign_keys": [
+            {
+                "column": "onto",
+                "references": "break"
+            }
+        ]
+    },
+    {
+        "name": "break",
+        "columns": [
+            {
+                "name": "summer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "summer",
+        "foreign_keys": [
+            {
+                "column": "summer",
+                "references": "in"
+            }
+        ]
+    },
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "sure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sure",
+        "foreign_keys": [
+            {
+                "column": "sure",
+                "references": "here"
+            }
+        ]
+    },
+    {
+        "name": "here",
+        "columns": [
+            {
+                "name": "recently",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recently",
+        "foreign_keys": [
+            {
+                "column": "recently",
+                "references": "three"
+            }
+        ]
+    },
+    {
+        "name": "three",
+        "columns": [
+            {
+                "name": "show",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "budget",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "show",
+        "foreign_keys": [
+            {
+                "column": "show",
+                "references": "over"
+            }
+        ]
+    },
+    {
+        "name": "over",
+        "columns": [
+            {
+                "name": "six",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "six",
+        "foreign_keys": [
+            {
+                "column": "six",
+                "references": "box"
+            }
+        ]
+    },
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "with",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "with",
+        "foreign_keys": [
+            {
+                "column": "with",
+                "references": "recognize"
+            }
+        ]
+    },
+    {
+        "name": "recognize",
+        "columns": [
+            {
+                "name": "employee",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "employee",
+        "foreign_keys": [
+            {
+                "column": "employee",
+                "references": "authority"
+            }
+        ]
+    },
+    {
+        "name": "authority",
+        "columns": [
+            {
+                "name": "other",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "other",
+        "foreign_keys": [
+            {
+                "column": "other",
+                "references": "message"
+            }
+        ]
+    },
+    {
+        "name": "message",
+        "columns": [
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "of"
+            }
+        ]
+    },
+    {
+        "name": "of",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "seven"
+            }
+        ]
+    },
+    {
+        "name": "seven",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "discover"
+            }
+        ]
+    }
+]

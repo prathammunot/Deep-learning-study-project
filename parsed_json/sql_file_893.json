@@ -1,0 +1,176 @@
+[
+    {
+        "name": "offer",
+        "columns": [
+            {
+                "name": "face",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "star",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "face",
+        "foreign_keys": [
+            {
+                "column": "face",
+                "references": "develop"
+            }
+        ]
+    },
+    {
+        "name": "develop",
+        "columns": [
+            {
+                "name": "theory",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "strategy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "theory",
+        "foreign_keys": [
+            {
+                "column": "theory",
+                "references": "throw"
+            }
+        ]
+    },
+    {
+        "name": "throw",
+        "columns": [
+            {
+                "name": "bag",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bag",
+        "foreign_keys": [
+            {
+                "column": "bag",
+                "references": "develop"
+            }
+        ]
+    },
+    {
+        "name": "develop",
+        "columns": [
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "real",
+        "foreign_keys": [
+            {
+                "column": "real",
+                "references": "main"
+            }
+        ]
+    },
+    {
+        "name": "main",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "late"
+            }
+        ]
+    },
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "great",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "great",
+        "foreign_keys": [
+            {
+                "column": "great",
+                "references": "three"
+            }
+        ]
+    },
+    {
+        "name": "three",
+        "columns": [
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "job",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "offer"
+            }
+        ]
+    }
+]

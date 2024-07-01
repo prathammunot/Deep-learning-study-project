@@ -1,0 +1,149 @@
+[
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "green",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "firm",
+        "foreign_keys": [
+            {
+                "column": "firm",
+                "references": "radio"
+            }
+        ]
+    },
+    {
+        "name": "radio",
+        "columns": [
+            {
+                "name": "record",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "record",
+        "foreign_keys": [
+            {
+                "column": "record",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hair",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stock",
+        "foreign_keys": [
+            {
+                "column": "stock",
+                "references": "occur"
+            }
+        ]
+    },
+    {
+        "name": "occur",
+        "columns": [
+            {
+                "name": "over",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "safe"
+            }
+        ]
+    },
+    {
+        "name": "safe",
+        "columns": [
+            {
+                "name": "according",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "according",
+        "foreign_keys": [
+            {
+                "column": "according",
+                "references": "person"
+            }
+        ]
+    }
+]

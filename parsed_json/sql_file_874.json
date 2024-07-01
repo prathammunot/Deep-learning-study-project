@@ -1,0 +1,247 @@
+[
+    {
+        "name": "language",
+        "columns": [
+            {
+                "name": "crime",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "crime",
+        "foreign_keys": [
+            {
+                "column": "crime",
+                "references": "child"
+            }
+        ]
+    },
+    {
+        "name": "child",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "customer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "soldier"
+            }
+        ]
+    },
+    {
+        "name": "soldier",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hot",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "lot"
+            }
+        ]
+    },
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "best",
+        "foreign_keys": [
+            {
+                "column": "best",
+                "references": "exist"
+            }
+        ]
+    },
+    {
+        "name": "exist",
+        "columns": [
+            {
+                "name": "marriage",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "most",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "marriage",
+        "foreign_keys": [
+            {
+                "column": "marriage",
+                "references": "enjoy"
+            }
+        ]
+    },
+    {
+        "name": "enjoy",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thus",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "picture",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "picture",
+        "foreign_keys": [
+            {
+                "column": "picture",
+                "references": "pull"
+            }
+        ]
+    },
+    {
+        "name": "pull",
+        "columns": [
+            {
+                "name": "provide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "provide",
+        "foreign_keys": [
+            {
+                "column": "provide",
+                "references": "soon"
+            }
+        ]
+    },
+    {
+        "name": "soon",
+        "columns": [
+            {
+                "name": "protect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "protect",
+        "foreign_keys": [
+            {
+                "column": "protect",
+                "references": "language"
+            }
+        ]
+    }
+]

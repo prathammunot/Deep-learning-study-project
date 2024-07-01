@@ -1,0 +1,176 @@
+[
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "bit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "another",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "result",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bit",
+        "foreign_keys": [
+            {
+                "column": "bit",
+                "references": "like"
+            }
+        ]
+    },
+    {
+        "name": "like",
+        "columns": [
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "call",
+        "foreign_keys": [
+            {
+                "column": "call",
+                "references": "effort"
+            }
+        ]
+    },
+    {
+        "name": "effort",
+        "columns": [
+            {
+                "name": "including",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "writer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "including",
+        "foreign_keys": [
+            {
+                "column": "including",
+                "references": "toward"
+            }
+        ]
+    },
+    {
+        "name": "toward",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "rate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rate",
+        "foreign_keys": [
+            {
+                "column": "rate",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "public",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "public",
+        "foreign_keys": [
+            {
+                "column": "public",
+                "references": "purpose"
+            }
+        ]
+    },
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "perhaps",
+        "foreign_keys": [
+            {
+                "column": "perhaps",
+                "references": "teach"
+            }
+        ]
+    }
+]

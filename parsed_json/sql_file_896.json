@@ -1,0 +1,198 @@
+[
+    {
+        "name": "company",
+        "columns": [
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "discover",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "high"
+            }
+        ]
+    },
+    {
+        "name": "high",
+        "columns": [
+            {
+                "name": "end",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whatever",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "end",
+        "foreign_keys": [
+            {
+                "column": "end",
+                "references": "sister"
+            }
+        ]
+    },
+    {
+        "name": "sister",
+        "columns": [
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "state",
+        "foreign_keys": [
+            {
+                "column": "state",
+                "references": "job"
+            }
+        ]
+    },
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "rest"
+            }
+        ]
+    },
+    {
+        "name": "rest",
+        "columns": [
+            {
+                "name": "personal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "field",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "personal",
+        "foreign_keys": [
+            {
+                "column": "personal",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "left",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "left",
+        "foreign_keys": [
+            {
+                "column": "left",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hour",
+        "foreign_keys": [
+            {
+                "column": "hour",
+                "references": "range"
+            }
+        ]
+    },
+    {
+        "name": "range",
+        "columns": [
+            {
+                "name": "note",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "note",
+        "foreign_keys": [
+            {
+                "column": "note",
+                "references": "company"
+            }
+        ]
+    }
+]

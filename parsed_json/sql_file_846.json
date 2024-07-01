@@ -1,0 +1,296 @@
+[
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "author",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "majority",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "author",
+        "foreign_keys": [
+            {
+                "column": "author",
+                "references": "federal"
+            }
+        ]
+    },
+    {
+        "name": "federal",
+        "columns": [
+            {
+                "name": "why",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "but",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "top"
+            }
+        ]
+    },
+    {
+        "name": "top",
+        "columns": [
+            {
+                "name": "product",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "security"
+            }
+        ]
+    },
+    {
+        "name": "security",
+        "columns": [
+            {
+                "name": "generation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "generation",
+        "foreign_keys": [
+            {
+                "column": "generation",
+                "references": "key"
+            }
+        ]
+    },
+    {
+        "name": "key",
+        "columns": [
+            {
+                "name": "institution",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "institution",
+        "foreign_keys": [
+            {
+                "column": "institution",
+                "references": "common"
+            }
+        ]
+    },
+    {
+        "name": "common",
+        "columns": [
+            {
+                "name": "three",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "three",
+        "foreign_keys": [
+            {
+                "column": "three",
+                "references": "PM"
+            }
+        ]
+    },
+    {
+        "name": "PM",
+        "columns": [
+            {
+                "name": "either",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "either",
+        "foreign_keys": [
+            {
+                "column": "either",
+                "references": "data"
+            }
+        ]
+    },
+    {
+        "name": "data",
+        "columns": [
+            {
+                "name": "happy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "happy",
+        "foreign_keys": [
+            {
+                "column": "happy",
+                "references": "alone"
+            }
+        ]
+    },
+    {
+        "name": "alone",
+        "columns": [
+            {
+                "name": "receive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "receive",
+        "foreign_keys": [
+            {
+                "column": "receive",
+                "references": "statement"
+            }
+        ]
+    },
+    {
+        "name": "statement",
+        "columns": [
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "weight",
+        "foreign_keys": [
+            {
+                "column": "weight",
+                "references": "theory"
+            }
+        ]
+    },
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "go",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "go",
+        "foreign_keys": [
+            {
+                "column": "go",
+                "references": "help"
+            }
+        ]
+    },
+    {
+        "name": "help",
+        "columns": [
+            {
+                "name": "success",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "success",
+        "foreign_keys": [
+            {
+                "column": "success",
+                "references": "low"
+            }
+        ]
+    }
+]

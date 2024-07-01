@@ -1,0 +1,274 @@
+[
+    {
+        "name": "foot",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "hour"
+            }
+        ]
+    },
+    {
+        "name": "hour",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "author"
+            }
+        ]
+    },
+    {
+        "name": "author",
+        "columns": [
+            {
+                "name": "leg",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leg",
+        "foreign_keys": [
+            {
+                "column": "leg",
+                "references": "which"
+            }
+        ]
+    },
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "build",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "build",
+        "foreign_keys": [
+            {
+                "column": "build",
+                "references": "such"
+            }
+        ]
+    },
+    {
+        "name": "such",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "with",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "with",
+        "foreign_keys": [
+            {
+                "column": "with",
+                "references": "tonight"
+            }
+        ]
+    },
+    {
+        "name": "tonight",
+        "columns": [
+            {
+                "name": "stand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ago",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stand",
+        "foreign_keys": [
+            {
+                "column": "stand",
+                "references": "purpose"
+            }
+        ]
+    },
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "bit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bit",
+        "foreign_keys": [
+            {
+                "column": "bit",
+                "references": "training"
+            }
+        ]
+    },
+    {
+        "name": "training",
+        "columns": [
+            {
+                "name": "candidate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "candidate",
+        "foreign_keys": [
+            {
+                "column": "candidate",
+                "references": "store"
+            }
+        ]
+    },
+    {
+        "name": "store",
+        "columns": [
+            {
+                "name": "between",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "between",
+        "foreign_keys": [
+            {
+                "column": "between",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "positive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "positive",
+        "foreign_keys": [
+            {
+                "column": "positive",
+                "references": "foot"
+            }
+        ]
+    }
+]

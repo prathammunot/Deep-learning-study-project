@@ -1,0 +1,176 @@
+[
+    {
+        "name": "help",
+        "columns": [
+            {
+                "name": "word",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Democrat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "word",
+        "foreign_keys": [
+            {
+                "column": "word",
+                "references": "war"
+            }
+        ]
+    },
+    {
+        "name": "war",
+        "columns": [
+            {
+                "name": "visit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "visit",
+        "foreign_keys": [
+            {
+                "column": "visit",
+                "references": "treatment"
+            }
+        ]
+    },
+    {
+        "name": "treatment",
+        "columns": [
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "message"
+            }
+        ]
+    },
+    {
+        "name": "message",
+        "columns": [
+            {
+                "name": "later",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "later",
+        "foreign_keys": [
+            {
+                "column": "later",
+                "references": "knowledge"
+            }
+        ]
+    },
+    {
+        "name": "knowledge",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "computer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "difference"
+            }
+        ]
+    },
+    {
+        "name": "difference",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enough",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "professor"
+            }
+        ]
+    },
+    {
+        "name": "professor",
+        "columns": [
+            {
+                "name": "score",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "seek",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "score",
+        "foreign_keys": [
+            {
+                "column": "score",
+                "references": "help"
+            }
+        ]
+    }
+]

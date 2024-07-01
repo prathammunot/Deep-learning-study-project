@@ -1,0 +1,127 @@
+[
+    {
+        "name": "maybe",
+        "columns": [
+            {
+                "name": "stand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stand",
+        "foreign_keys": [
+            {
+                "column": "stand",
+                "references": "quality"
+            }
+        ]
+    },
+    {
+        "name": "quality",
+        "columns": [
+            {
+                "name": "off",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "thank"
+            }
+        ]
+    },
+    {
+        "name": "thank",
+        "columns": [
+            {
+                "name": "sense",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sense",
+        "foreign_keys": [
+            {
+                "column": "sense",
+                "references": "well"
+            }
+        ]
+    },
+    {
+        "name": "well",
+        "columns": [
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "assume",
+        "foreign_keys": [
+            {
+                "column": "assume",
+                "references": "fact"
+            }
+        ]
+    },
+    {
+        "name": "fact",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "maybe"
+            }
+        ]
+    }
+]

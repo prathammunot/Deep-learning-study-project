@@ -1,0 +1,176 @@
+[
+    {
+        "name": "husband",
+        "columns": [
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "improve",
+        "foreign_keys": [
+            {
+                "column": "improve",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "expect"
+            }
+        ]
+    },
+    {
+        "name": "expect",
+        "columns": [
+            {
+                "name": "game",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "author"
+            }
+        ]
+    },
+    {
+        "name": "author",
+        "columns": [
+            {
+                "name": "want",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "want",
+        "foreign_keys": [
+            {
+                "column": "want",
+                "references": "size"
+            }
+        ]
+    },
+    {
+        "name": "size",
+        "columns": [
+            {
+                "name": "family",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "family",
+        "foreign_keys": [
+            {
+                "column": "family",
+                "references": "adult"
+            }
+        ]
+    },
+    {
+        "name": "adult",
+        "columns": [
+            {
+                "name": "position",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "position",
+        "foreign_keys": [
+            {
+                "column": "position",
+                "references": "put"
+            }
+        ]
+    },
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "knowledge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "knowledge",
+        "foreign_keys": [
+            {
+                "column": "knowledge",
+                "references": "husband"
+            }
+        ]
+    }
+]

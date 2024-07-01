@@ -1,0 +1,247 @@
+[
+    {
+        "name": "would",
+        "columns": [
+            {
+                "name": "people",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "people",
+        "foreign_keys": [
+            {
+                "column": "people",
+                "references": "budget"
+            }
+        ]
+    },
+    {
+        "name": "budget",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "read",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "modern"
+            }
+        ]
+    },
+    {
+        "name": "modern",
+        "columns": [
+            {
+                "name": "small",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "career"
+            }
+        ]
+    },
+    {
+        "name": "career",
+        "columns": [
+            {
+                "name": "perform",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "perform",
+        "foreign_keys": [
+            {
+                "column": "perform",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "city",
+        "foreign_keys": [
+            {
+                "column": "city",
+                "references": "rise"
+            }
+        ]
+    },
+    {
+        "name": "rise",
+        "columns": [
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "break",
+        "foreign_keys": [
+            {
+                "column": "break",
+                "references": "data"
+            }
+        ]
+    },
+    {
+        "name": "data",
+        "columns": [
+            {
+                "name": "manager",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "carry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "manager",
+        "foreign_keys": [
+            {
+                "column": "manager",
+                "references": "decision"
+            }
+        ]
+    },
+    {
+        "name": "decision",
+        "columns": [
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "already",
+        "foreign_keys": [
+            {
+                "column": "already",
+                "references": "you"
+            }
+        ]
+    },
+    {
+        "name": "you",
+        "columns": [
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "six",
+        "foreign_keys": [
+            {
+                "column": "six",
+                "references": "find"
+            }
+        ]
+    },
+    {
+        "name": "find",
+        "columns": [
+            {
+                "name": "former",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "former",
+        "foreign_keys": [
+            {
+                "column": "former",
+                "references": "would"
+            }
+        ]
+    }
+]

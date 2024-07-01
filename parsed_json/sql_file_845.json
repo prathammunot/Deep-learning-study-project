@@ -1,0 +1,274 @@
+[
+    {
+        "name": "prevent",
+        "columns": [
+            {
+                "name": "safe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "safe",
+        "foreign_keys": [
+            {
+                "column": "safe",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "American",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "American",
+        "foreign_keys": [
+            {
+                "column": "American",
+                "references": "idea"
+            }
+        ]
+    },
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "grow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "grow",
+        "foreign_keys": [
+            {
+                "column": "grow",
+                "references": "strong"
+            }
+        ]
+    },
+    {
+        "name": "strong",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "part"
+            }
+        ]
+    },
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "voice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "voice",
+        "foreign_keys": [
+            {
+                "column": "voice",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "run",
+        "foreign_keys": [
+            {
+                "column": "run",
+                "references": "hope"
+            }
+        ]
+    },
+    {
+        "name": "hope",
+        "columns": [
+            {
+                "name": "could",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "could",
+        "foreign_keys": [
+            {
+                "column": "could",
+                "references": "rule"
+            }
+        ]
+    },
+    {
+        "name": "rule",
+        "columns": [
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "thousand"
+            }
+        ]
+    },
+    {
+        "name": "thousand",
+        "columns": [
+            {
+                "name": "fire",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "have",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fire",
+        "foreign_keys": [
+            {
+                "column": "fire",
+                "references": "then"
+            }
+        ]
+    },
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "agree"
+            }
+        ]
+    },
+    {
+        "name": "agree",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "prevent"
+            }
+        ]
+    }
+]

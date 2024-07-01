@@ -1,0 +1,247 @@
+[
+    {
+        "name": "trip",
+        "columns": [
+            {
+                "name": "season",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "seek",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "season",
+        "foreign_keys": [
+            {
+                "column": "season",
+                "references": "with"
+            }
+        ]
+    },
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "market",
+        "foreign_keys": [
+            {
+                "column": "market",
+                "references": "simple"
+            }
+        ]
+    },
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "analysis",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "analysis",
+        "foreign_keys": [
+            {
+                "column": "analysis",
+                "references": "person"
+            }
+        ]
+    },
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "east",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "east",
+        "foreign_keys": [
+            {
+                "column": "east",
+                "references": "year"
+            }
+        ]
+    },
+    {
+        "name": "year",
+        "columns": [
+            {
+                "name": "travel",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "interesting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "travel",
+        "foreign_keys": [
+            {
+                "column": "travel",
+                "references": "season"
+            }
+        ]
+    },
+    {
+        "name": "season",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "personal"
+            }
+        ]
+    },
+    {
+        "name": "personal",
+        "columns": [
+            {
+                "name": "each",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "each",
+        "foreign_keys": [
+            {
+                "column": "each",
+                "references": "scientist"
+            }
+        ]
+    },
+    {
+        "name": "scientist",
+        "columns": [
+            {
+                "name": "phone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "phone",
+        "foreign_keys": [
+            {
+                "column": "phone",
+                "references": "to"
+            }
+        ]
+    },
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "above"
+            }
+        ]
+    },
+    {
+        "name": "above",
+        "columns": [
+            {
+                "name": "source",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "source",
+        "foreign_keys": [
+            {
+                "column": "source",
+                "references": "trip"
+            }
+        ]
+    }
+]

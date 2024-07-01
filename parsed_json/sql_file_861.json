@@ -1,0 +1,193 @@
+[
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "entire",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "entire",
+        "foreign_keys": [
+            {
+                "column": "entire",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "she"
+            }
+        ]
+    },
+    {
+        "name": "she",
+        "columns": [
+            {
+                "name": "decide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decide",
+        "foreign_keys": [
+            {
+                "column": "decide",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "radio",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "glass",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "radio",
+        "foreign_keys": [
+            {
+                "column": "radio",
+                "references": "raise"
+            }
+        ]
+    },
+    {
+        "name": "raise",
+        "columns": [
+            {
+                "name": "meet",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "meet",
+        "foreign_keys": [
+            {
+                "column": "meet",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "positive",
+        "foreign_keys": [
+            {
+                "column": "positive",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "special",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "special",
+        "foreign_keys": [
+            {
+                "column": "special",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "any",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "space"
+            }
+        ]
+    }
+]

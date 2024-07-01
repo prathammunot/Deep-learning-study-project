@@ -1,0 +1,198 @@
+[
+    {
+        "name": "could",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "daughter"
+            }
+        ]
+    },
+    {
+        "name": "daughter",
+        "columns": [
+            {
+                "name": "evening",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evening",
+        "foreign_keys": [
+            {
+                "column": "evening",
+                "references": "box"
+            }
+        ]
+    },
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "down"
+            }
+        ]
+    },
+    {
+        "name": "down",
+        "columns": [
+            {
+                "name": "record",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "record",
+        "foreign_keys": [
+            {
+                "column": "record",
+                "references": "at"
+            }
+        ]
+    },
+    {
+        "name": "at",
+        "columns": [
+            {
+                "name": "out",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "budget",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "out",
+        "foreign_keys": [
+            {
+                "column": "out",
+                "references": "lose"
+            }
+        ]
+    },
+    {
+        "name": "lose",
+        "columns": [
+            {
+                "name": "collection",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "collection",
+        "foreign_keys": [
+            {
+                "column": "collection",
+                "references": "statement"
+            }
+        ]
+    },
+    {
+        "name": "statement",
+        "columns": [
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "main",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thing",
+        "foreign_keys": [
+            {
+                "column": "thing",
+                "references": "account"
+            }
+        ]
+    },
+    {
+        "name": "account",
+        "columns": [
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "spend",
+        "foreign_keys": [
+            {
+                "column": "spend",
+                "references": "could"
+            }
+        ]
+    }
+]

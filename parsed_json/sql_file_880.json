@@ -1,0 +1,274 @@
+[
+    {
+        "name": "read",
+        "columns": [
+            {
+                "name": "top",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "against",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "top",
+        "foreign_keys": [
+            {
+                "column": "top",
+                "references": "environmental"
+            }
+        ]
+    },
+    {
+        "name": "environmental",
+        "columns": [
+            {
+                "name": "give",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "both",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "both",
+        "foreign_keys": [
+            {
+                "column": "both",
+                "references": "want"
+            }
+        ]
+    },
+    {
+        "name": "want",
+        "columns": [
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fine",
+        "foreign_keys": [
+            {
+                "column": "fine",
+                "references": "fact"
+            }
+        ]
+    },
+    {
+        "name": "fact",
+        "columns": [
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environmental",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "deep"
+            }
+        ]
+    },
+    {
+        "name": "deep",
+        "columns": [
+            {
+                "name": "individual",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "individual",
+        "foreign_keys": [
+            {
+                "column": "individual",
+                "references": "everybody"
+            }
+        ]
+    },
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "offer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "those",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "offer",
+        "foreign_keys": [
+            {
+                "column": "offer",
+                "references": "first"
+            }
+        ]
+    },
+    {
+        "name": "first",
+        "columns": [
+            {
+                "name": "product",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "rate"
+            }
+        ]
+    },
+    {
+        "name": "rate",
+        "columns": [
+            {
+                "name": "discover",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "discover",
+        "foreign_keys": [
+            {
+                "column": "discover",
+                "references": "support"
+            }
+        ]
+    },
+    {
+        "name": "support",
+        "columns": [
+            {
+                "name": "grow",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "grow",
+        "foreign_keys": [
+            {
+                "column": "grow",
+                "references": "road"
+            }
+        ]
+    },
+    {
+        "name": "road",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "read"
+            }
+        ]
+    }
+]

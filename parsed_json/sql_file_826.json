@@ -1,0 +1,198 @@
+[
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "rock",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rock",
+        "foreign_keys": [
+            {
+                "column": "rock",
+                "references": "staff"
+            }
+        ]
+    },
+    {
+        "name": "staff",
+        "columns": [
+            {
+                "name": "commercial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "commercial",
+        "foreign_keys": [
+            {
+                "column": "commercial",
+                "references": "prepare"
+            }
+        ]
+    },
+    {
+        "name": "prepare",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "include",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "once"
+            }
+        ]
+    },
+    {
+        "name": "once",
+        "columns": [
+            {
+                "name": "score",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "score",
+        "foreign_keys": [
+            {
+                "column": "score",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prevent",
+        "foreign_keys": [
+            {
+                "column": "prevent",
+                "references": "debate"
+            }
+        ]
+    },
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "have",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "player",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "have",
+        "foreign_keys": [
+            {
+                "column": "have",
+                "references": "conference"
+            }
+        ]
+    },
+    {
+        "name": "conference",
+        "columns": [
+            {
+                "name": "staff",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "staff",
+        "foreign_keys": [
+            {
+                "column": "staff",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "certainly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "but",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certainly",
+        "foreign_keys": [
+            {
+                "column": "certainly",
+                "references": "image"
+            }
+        ]
+    }
+]

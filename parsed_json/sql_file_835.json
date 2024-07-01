@@ -1,0 +1,149 @@
+[
+    {
+        "name": "tough",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "race",
+        "foreign_keys": [
+            {
+                "column": "race",
+                "references": "hear"
+            }
+        ]
+    },
+    {
+        "name": "hear",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "for",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "personal"
+            }
+        ]
+    },
+    {
+        "name": "personal",
+        "columns": [
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "last"
+            }
+        ]
+    },
+    {
+        "name": "last",
+        "columns": [
+            {
+                "name": "ball",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ball",
+        "foreign_keys": [
+            {
+                "column": "ball",
+                "references": "resource"
+            }
+        ]
+    },
+    {
+        "name": "resource",
+        "columns": [
+            {
+                "name": "east",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "east",
+        "foreign_keys": [
+            {
+                "column": "east",
+                "references": "tough"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "water",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "water",
+        "foreign_keys": [
+            {
+                "column": "water",
+                "references": "strategy"
+            }
+        ]
+    },
+    {
+        "name": "strategy",
+        "columns": [
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nor",
+        "foreign_keys": [
+            {
+                "column": "nor",
+                "references": "animal"
+            }
+        ]
+    },
+    {
+        "name": "animal",
+        "columns": [
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "industry",
+        "foreign_keys": [
+            {
+                "column": "industry",
+                "references": "Republican"
+            }
+        ]
+    },
+    {
+        "name": "Republican",
+        "columns": [
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "pretty"
+            }
+        ]
+    },
+    {
+        "name": "pretty",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "though"
+            }
+        ]
+    },
+    {
+        "name": "though",
+        "columns": [
+            {
+                "name": "bar",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bar",
+        "foreign_keys": [
+            {
+                "column": "bar",
+                "references": "statement"
+            }
+        ]
+    },
+    {
+        "name": "statement",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "woman",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "today",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "today",
+        "foreign_keys": [
+            {
+                "column": "today",
+                "references": "their"
+            }
+        ]
+    },
+    {
+        "name": "their",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "better",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "simple"
+            }
+        ]
+    }
+]

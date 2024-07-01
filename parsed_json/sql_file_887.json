@@ -1,0 +1,127 @@
+[
+    {
+        "name": "dog",
+        "columns": [
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "here",
+        "foreign_keys": [
+            {
+                "column": "here",
+                "references": "dog"
+            }
+        ]
+    },
+    {
+        "name": "dog",
+        "columns": [
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "PM",
+        "foreign_keys": [
+            {
+                "column": "PM",
+                "references": "wrong"
+            }
+        ]
+    },
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trouble",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "later",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "later",
+        "foreign_keys": [
+            {
+                "column": "later",
+                "references": "dog"
+            }
+        ]
+    }
+]
