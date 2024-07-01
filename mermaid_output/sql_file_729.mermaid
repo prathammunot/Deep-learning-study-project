@@ -1,0 +1,34 @@
+erDiagram
+    player ||--o{ lead : end
+    player {
+        DATE end
+        TEXT black
+        VARCHAR(50) price
+    }
+    lead ||--o{ inside : with
+    lead {
+        VARCHAR(50) with
+        DATE shoulder
+    }
+    inside ||--o{ each : politics
+    inside {
+        DATE politics
+        TEXT too
+        VARCHAR(50) another
+    }
+    each ||--o{ range : reach
+    each {
+        VARCHAR(50) reach
+        DATE war
+    }
+    range ||--o{ or : live
+    range {
+        DATE live
+        TEXT you
+        VARCHAR(50) enough
+    }
+    or ||--o{ player : Democrat
+    or {
+        VARCHAR(50) Democrat
+        DATE inside
+    }

@@ -1,0 +1,29 @@
+erDiagram
+    us ||--o{ relationship : concern
+    us {
+        DATE concern
+        TEXT owner
+        VARCHAR(50) small
+    }
+    relationship ||--o{ character : network
+    relationship {
+        VARCHAR(50) network
+        DATE more
+    }
+    character ||--o{ side : hundred
+    character {
+        DATE hundred
+        TEXT administration
+        VARCHAR(50) many
+    }
+    side ||--o{ run : begin
+    side {
+        VARCHAR(50) begin
+        DATE as
+    }
+    run ||--o{ us : whom
+    run {
+        DATE whom
+        TEXT put
+        VARCHAR(50) general
+    }

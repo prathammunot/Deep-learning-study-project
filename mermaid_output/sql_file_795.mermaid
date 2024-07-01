@@ -1,0 +1,34 @@
+erDiagram
+    study ||--o{ organization : expert
+    study {
+        DATE expert
+        TEXT chance
+        VARCHAR(50) pretty
+    }
+    organization ||--o{ good : small
+    organization {
+        VARCHAR(50) small
+        DATE prepare
+    }
+    good ||--o{ save : necessary
+    good {
+        DATE necessary
+        TEXT gas
+        VARCHAR(50) make
+    }
+    save ||--o{ yet : some
+    save {
+        VARCHAR(50) some
+        DATE drive
+    }
+    yet ||--o{ face : talk
+    yet {
+        DATE talk
+        TEXT under
+        VARCHAR(50) health
+    }
+    face ||--o{ study : goal
+    face {
+        VARCHAR(50) goal
+        DATE pressure
+    }

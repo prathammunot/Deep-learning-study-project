@@ -1,0 +1,29 @@
+erDiagram
+    art ||--o{ interview : upon
+    art {
+        DATE upon
+        TEXT full
+        VARCHAR(50) month
+    }
+    interview ||--o{ test : beat
+    interview {
+        VARCHAR(50) beat
+        DATE summer
+    }
+    test ||--o{ citizen : production
+    test {
+        DATE production
+        TEXT this
+        VARCHAR(50) card
+    }
+    citizen ||--o{ candidate : miss
+    citizen {
+        VARCHAR(50) miss
+        DATE want
+    }
+    candidate ||--o{ art : magazine
+    candidate {
+        DATE magazine
+        TEXT opportunity
+        VARCHAR(50) specific
+    }

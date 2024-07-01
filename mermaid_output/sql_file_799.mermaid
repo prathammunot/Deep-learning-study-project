@@ -1,0 +1,51 @@
+erDiagram
+    five ||--o{ resource : Republican
+    five {
+        DATE Republican
+        TEXT physical
+        VARCHAR(50) house
+    }
+    resource ||--o{ tree : set
+    resource {
+        VARCHAR(50) set
+        DATE direction
+    }
+    tree ||--o{ under : foot
+    tree {
+        DATE foot
+        TEXT consider
+        VARCHAR(50) decide
+    }
+    under ||--o{ still : detail
+    under {
+        VARCHAR(50) detail
+        DATE book
+    }
+    still ||--o{ real : contain
+    still {
+        DATE contain
+        TEXT since
+        VARCHAR(50) after
+    }
+    real ||--o{ direction : ahead
+    real {
+        VARCHAR(50) ahead
+        DATE address
+    }
+    direction ||--o{ floor : protect
+    direction {
+        DATE protect
+        TEXT summer
+        VARCHAR(50) clear
+    }
+    floor ||--o{ past : ago
+    floor {
+        VARCHAR(50) ago
+        DATE if
+    }
+    past ||--o{ five : key
+    past {
+        DATE key
+        TEXT although
+        VARCHAR(50) success
+    }

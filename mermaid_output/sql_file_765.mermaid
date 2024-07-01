@@ -1,0 +1,29 @@
+erDiagram
+    movie ||--o{ rest : off
+    movie {
+        DATE off
+        TEXT approach
+        VARCHAR(50) force
+    }
+    rest ||--o{ mother : exist
+    rest {
+        VARCHAR(50) exist
+        DATE young
+    }
+    mother ||--o{ contain : senior
+    mother {
+        DATE senior
+        TEXT action
+        VARCHAR(50) try
+    }
+    contain ||--o{ future : able
+    contain {
+        VARCHAR(50) able
+        DATE should
+    }
+    future ||--o{ movie : economic
+    future {
+        DATE economic
+        TEXT outside
+        VARCHAR(50) bit
+    }

@@ -1,0 +1,40 @@
+erDiagram
+    day ||--o{ see : food
+    day {
+        DATE food
+        TEXT watch
+        VARCHAR(50) college
+    }
+    see ||--o{ follow : especially
+    see {
+        VARCHAR(50) especially
+        DATE career
+    }
+    follow ||--o{ more : someone
+    follow {
+        DATE someone
+        TEXT rather
+        VARCHAR(50) happy
+    }
+    more ||--o{ something : officer
+    more {
+        VARCHAR(50) officer
+        DATE see
+    }
+    something ||--o{ author : strong
+    something {
+        DATE strong
+        TEXT never
+        VARCHAR(50) later
+    }
+    author ||--o{ us : not
+    author {
+        VARCHAR(50) not
+        DATE group
+    }
+    us ||--o{ day : even
+    us {
+        DATE even
+        TEXT friend
+        VARCHAR(50) approach
+    }

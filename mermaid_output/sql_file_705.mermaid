@@ -1,0 +1,51 @@
+erDiagram
+    size ||--o{ direction : parent
+    size {
+        DATE parent
+        TEXT friend
+        VARCHAR(50) middle
+    }
+    direction ||--o{ reduce : including
+    direction {
+        VARCHAR(50) including
+        DATE around
+    }
+    reduce ||--o{ expert : hit
+    reduce {
+        DATE hit
+        TEXT those
+        VARCHAR(50) beautiful
+    }
+    expert ||--o{ throw : camera
+    expert {
+        VARCHAR(50) camera
+        DATE modern
+    }
+    throw ||--o{ son : beat
+    throw {
+        DATE beat
+        TEXT write
+        VARCHAR(50) company
+    }
+    son ||--o{ stop : particular
+    son {
+        VARCHAR(50) particular
+        DATE finish
+    }
+    stop ||--o{ occur : race
+    stop {
+        DATE race
+        TEXT center
+        VARCHAR(50) wife
+    }
+    occur ||--o{ side : lot
+    occur {
+        VARCHAR(50) lot
+        DATE reason
+    }
+    side ||--o{ size : body
+    side {
+        DATE body
+        TEXT manager
+        VARCHAR(50) left
+    }

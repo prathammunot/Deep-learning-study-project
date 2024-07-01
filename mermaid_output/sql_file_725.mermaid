@@ -1,0 +1,29 @@
+erDiagram
+    hotel ||--o{ bring : series
+    hotel {
+        DATE series
+        TEXT step
+        VARCHAR(50) remain
+    }
+    bring ||--o{ add : bed
+    bring {
+        VARCHAR(50) bed
+        DATE matter
+    }
+    add ||--o{ four : vote
+    add {
+        DATE vote
+        TEXT office
+        VARCHAR(50) small
+    }
+    four ||--o{ back : subject
+    four {
+        VARCHAR(50) subject
+        DATE bar
+    }
+    back ||--o{ hotel : indeed
+    back {
+        DATE indeed
+        TEXT computer
+        VARCHAR(50) could
+    }

@@ -1,0 +1,34 @@
+erDiagram
+    turn ||--o{ answer : study
+    turn {
+        DATE study
+        TEXT company
+        VARCHAR(50) character
+    }
+    answer ||--o{ mean : final
+    answer {
+        VARCHAR(50) final
+        DATE nor
+    }
+    mean ||--o{ stock : trouble
+    mean {
+        DATE trouble
+        TEXT improve
+        VARCHAR(50) mission
+    }
+    stock ||--o{ fish : which
+    stock {
+        VARCHAR(50) which
+        DATE to
+    }
+    fish ||--o{ sort : special
+    fish {
+        DATE special
+        TEXT might
+        VARCHAR(50) material
+    }
+    sort ||--o{ turn : mission
+    sort {
+        VARCHAR(50) mission
+        DATE those
+    }

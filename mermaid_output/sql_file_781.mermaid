@@ -1,0 +1,29 @@
+erDiagram
+    marriage ||--o{ century : art
+    marriage {
+        DATE art
+        TEXT reveal
+        VARCHAR(50) single
+    }
+    century ||--o{ test : order
+    century {
+        VARCHAR(50) order
+        DATE store
+    }
+    test ||--o{ game : media
+    test {
+        DATE media
+        TEXT arrive
+        VARCHAR(50) sing
+    }
+    game ||--o{ brother : rule
+    game {
+        VARCHAR(50) rule
+        DATE decision
+    }
+    brother ||--o{ marriage : total
+    brother {
+        DATE total
+        TEXT anything
+        VARCHAR(50) no
+    }

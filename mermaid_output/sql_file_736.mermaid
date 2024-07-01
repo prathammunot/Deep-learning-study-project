@@ -1,0 +1,56 @@
+erDiagram
+    simple ||--o{ culture : forward
+    simple {
+        DATE forward
+        TEXT author
+        VARCHAR(50) age
+    }
+    culture ||--o{ how : information
+    culture {
+        VARCHAR(50) information
+        DATE simple
+    }
+    how ||--o{ tough : trip
+    how {
+        DATE trip
+        TEXT level
+        VARCHAR(50) car
+    }
+    tough ||--o{ trip : rather
+    tough {
+        VARCHAR(50) rather
+        DATE plant
+    }
+    trip ||--o{ small : lead
+    trip {
+        DATE lead
+        TEXT yet
+        VARCHAR(50) someone
+    }
+    small ||--o{ care : approach
+    small {
+        VARCHAR(50) approach
+        DATE image
+    }
+    care ||--o{ ability : forget
+    care {
+        DATE forget
+        TEXT just
+        VARCHAR(50) policy
+    }
+    ability ||--o{ form : suggest
+    ability {
+        VARCHAR(50) suggest
+        DATE start
+    }
+    form ||--o{ everyone : evidence
+    form {
+        DATE evidence
+        TEXT positive
+        VARCHAR(50) spring
+    }
+    everyone ||--o{ simple : also
+    everyone {
+        VARCHAR(50) also
+        DATE pull
+    }

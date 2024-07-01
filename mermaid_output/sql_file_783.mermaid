@@ -1,0 +1,62 @@
+erDiagram
+    campaign ||--o{ experience : check
+    campaign {
+        DATE check
+        TEXT live
+        VARCHAR(50) sort
+    }
+    experience ||--o{ population : parent
+    experience {
+        VARCHAR(50) parent
+        DATE week
+    }
+    population ||--o{ baby : through
+    population {
+        DATE through
+        TEXT brother
+        VARCHAR(50) difference
+    }
+    baby ||--o{ list : appear
+    baby {
+        VARCHAR(50) appear
+        DATE specific
+    }
+    list ||--o{ within : system
+    list {
+        DATE system
+        TEXT sure
+        VARCHAR(50) environment
+    }
+    within ||--o{ outside : behavior
+    within {
+        VARCHAR(50) behavior
+        DATE impact
+    }
+    outside ||--o{ far : owner
+    outside {
+        DATE owner
+        TEXT hotel
+        VARCHAR(50) network
+    }
+    far ||--o{ way : than
+    far {
+        VARCHAR(50) than
+        DATE impact
+    }
+    way ||--o{ wall : several
+    way {
+        DATE several
+        TEXT market
+        VARCHAR(50) guy
+    }
+    wall ||--o{ teacher : next
+    wall {
+        VARCHAR(50) next
+        DATE and
+    }
+    teacher ||--o{ campaign : hope
+    teacher {
+        DATE hope
+        TEXT laugh
+        VARCHAR(50) father
+    }

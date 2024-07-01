@@ -1,0 +1,56 @@
+erDiagram
+    character ||--o{ table : practice
+    character {
+        DATE practice
+        TEXT season
+        VARCHAR(50) meeting
+    }
+    table ||--o{ choose : magazine
+    table {
+        VARCHAR(50) magazine
+        DATE executive
+    }
+    choose ||--o{ house : rate
+    choose {
+        DATE rate
+        TEXT him
+        VARCHAR(50) its
+    }
+    house ||--o{ argue : forget
+    house {
+        VARCHAR(50) forget
+        DATE where
+    }
+    argue ||--o{ marriage : north
+    argue {
+        DATE north
+        TEXT young
+        VARCHAR(50) raise
+    }
+    marriage ||--o{ series : certainly
+    marriage {
+        VARCHAR(50) certainly
+        DATE school
+    }
+    series ||--o{ hotel : do
+    series {
+        DATE do
+        TEXT create
+        VARCHAR(50) strong
+    }
+    hotel ||--o{ event : late
+    hotel {
+        VARCHAR(50) late
+        DATE risk
+    }
+    event ||--o{ store : sea
+    event {
+        DATE sea
+        TEXT future
+        VARCHAR(50) prevent
+    }
+    store ||--o{ character : media
+    store {
+        VARCHAR(50) media
+        DATE southern
+    }
