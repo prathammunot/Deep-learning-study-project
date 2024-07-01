@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram871'.
+There is a table 'quickly' with the columns 'compare' (DATE), 'already' (TEXT), 'care' (VARCHAR(50)). The primary key is 'compare'. 'quickly' references another table 'mother' in an exactly one to zero or many relationship. The relationship should be called 'compare'. 
+There is another table 'mother' with the columns 'every' (VARCHAR(50)), 'determine' (DATE). The primary key is 'every'. 'mother' references another table 'argue' in an exactly one to zero or many relationship. The relationship should be called 'every'. 
+There is another table 'argue' with the columns 'threat' (DATE), 'son' (TEXT), 'themselves' (VARCHAR(50)). The primary key is 'threat'. 'argue' references another table 'professor' in an exactly one to zero or many relationship. The relationship should be called 'threat'. 
+There is another table 'professor' with the columns 'front' (VARCHAR(50)), 'whom' (DATE). The primary key is 'front'. 'professor' references another table 'generation' in an exactly one to zero or many relationship. The relationship should be called 'front'. 
+There is another table 'generation' with the columns 'artist' (DATE), 'positive' (TEXT), 'church' (VARCHAR(50)). The primary key is 'artist'. 'generation' references another table 'court' in an exactly one to zero or many relationship. The relationship should be called 'artist'. 
+There is another table 'court' with the columns 'total' (VARCHAR(50)), 'end' (DATE). The primary key is 'total'. 'court' references another table 'game' in an exactly one to zero or many relationship. The relationship should be called 'total'. 
+There is another table 'game' with the columns 'strategy' (DATE), 'develop' (TEXT), 'early' (VARCHAR(50)). The primary key is 'strategy'. 'game' references another table 'quickly' in an exactly one to zero or many relationship. The relationship should be called 'strategy'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram883'.
+There is a table 'federal' with the columns 'letter' (DATE), 'picture' (TEXT), 'world' (VARCHAR(50)). The primary key is 'letter'. 'federal' references another table 'environment' in an exactly one to zero or many relationship. The relationship should be called 'letter'. 
+There is another table 'environment' with the columns 'power' (VARCHAR(50)), 'case' (DATE). The primary key is 'power'. 'environment' references another table 'no' in an exactly one to zero or many relationship. The relationship should be called 'power'. 
+There is another table 'no' with the columns 'board' (DATE), 'success' (TEXT), 'mother' (VARCHAR(50)). The primary key is 'board'. 'no' references another table 'rich' in an exactly one to zero or many relationship. The relationship should be called 'board'. 
+There is another table 'rich' with the columns 'size' (VARCHAR(50)), 'spring' (DATE). The primary key is 'size'. 'rich' references another table 'certain' in an exactly one to zero or many relationship. The relationship should be called 'size'. 
+There is another table 'certain' with the columns 'science' (DATE), 'price' (TEXT), 'build' (VARCHAR(50)). The primary key is 'science'. 'certain' references another table 'wall' in an exactly one to zero or many relationship. The relationship should be called 'science'. 
+There is another table 'wall' with the columns 'around' (VARCHAR(50)), 'any' (DATE). The primary key is 'around'. 'wall' references another table 'follow' in an exactly one to zero or many relationship. The relationship should be called 'around'. 
+There is another table 'follow' with the columns 'play' (DATE), 'kid' (TEXT), 'contain' (VARCHAR(50)). The primary key is 'play'. 'follow' references another table 'science' in an exactly one to zero or many relationship. The relationship should be called 'play'. 
+There is another table 'science' with the columns 'fine' (VARCHAR(50)), 'contain' (DATE). The primary key is 'fine'. 'science' references another table 'federal' in an exactly one to zero or many relationship. The relationship should be called 'fine'. 
+

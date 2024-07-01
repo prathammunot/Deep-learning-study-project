@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram825'.
+There is a table 'person' with the columns 'firm' (DATE), 'American' (TEXT), 'green' (VARCHAR(50)). The primary key is 'firm'. 'person' references another table 'radio' in an exactly one to zero or many relationship. The relationship should be called 'firm'. 
+There is another table 'radio' with the columns 'record' (VARCHAR(50)), 'talk' (DATE). The primary key is 'record'. 'radio' references another table 'respond' in an exactly one to zero or many relationship. The relationship should be called 'record'. 
+There is another table 'respond' with the columns 'age' (DATE), 'still' (TEXT), 'positive' (VARCHAR(50)). The primary key is 'age'. 'respond' references another table 'bar' in an exactly one to zero or many relationship. The relationship should be called 'age'. 
+There is another table 'bar' with the columns 'stock' (VARCHAR(50)), 'hair' (DATE). The primary key is 'stock'. 'bar' references another table 'occur' in an exactly one to zero or many relationship. The relationship should be called 'stock'. 
+There is another table 'occur' with the columns 'over' (DATE), 'such' (TEXT), 'professor' (VARCHAR(50)). The primary key is 'over'. 'occur' references another table 'safe' in an exactly one to zero or many relationship. The relationship should be called 'over'. 
+There is another table 'safe' with the columns 'according' (VARCHAR(50)), 'inside' (DATE). The primary key is 'according'. 'safe' references another table 'person' in an exactly one to zero or many relationship. The relationship should be called 'according'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram816'.
+There is a table 'somebody' with the columns 'current' (DATE), 'course' (TEXT), 'than' (VARCHAR(50)). The primary key is 'current'. 'somebody' references another table 'send' in an exactly one to zero or many relationship. The relationship should be called 'current'. 
+There is another table 'send' with the columns 'product' (VARCHAR(50)), 'appear' (DATE). The primary key is 'product'. 'send' references another table 'sea' in an exactly one to zero or many relationship. The relationship should be called 'product'. 
+There is another table 'sea' with the columns 'despite' (DATE), 'suggest' (TEXT), 'new' (VARCHAR(50)). The primary key is 'despite'. 'sea' references another table 'feel' in an exactly one to zero or many relationship. The relationship should be called 'despite'. 
+There is another table 'feel' with the columns 'role' (VARCHAR(50)), 'watch' (DATE). The primary key is 'role'. 'feel' references another table 'fish' in an exactly one to zero or many relationship. The relationship should be called 'role'. 
+There is another table 'fish' with the columns 'describe' (DATE), 'well' (TEXT), 'land' (VARCHAR(50)). The primary key is 'describe'. 'fish' references another table 'somebody' in an exactly one to zero or many relationship. The relationship should be called 'describe'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram850'.
+There is a table 'half' with the columns 'water' (DATE), 'prove' (TEXT), 'trade' (VARCHAR(50)). The primary key is 'water'. 'half' references another table 'task' in an exactly one to zero or many relationship. The relationship should be called 'water'. 
+There is another table 'task' with the columns 'audience' (VARCHAR(50)), 'design' (DATE). The primary key is 'audience'. 'task' references another table 'investment' in an exactly one to zero or many relationship. The relationship should be called 'audience'. 
+There is another table 'investment' with the columns 'quickly' (DATE), 'through' (TEXT), 'start' (VARCHAR(50)). The primary key is 'quickly'. 'investment' references another table 'hope' in an exactly one to zero or many relationship. The relationship should be called 'quickly'. 
+There is another table 'hope' with the columns 'father' (VARCHAR(50)), 'real' (DATE). The primary key is 'father'. 'hope' references another table 'degree' in an exactly one to zero or many relationship. The relationship should be called 'father'. 
+There is another table 'degree' with the columns 'positive' (DATE), 'physical' (TEXT), 'sister' (VARCHAR(50)). The primary key is 'positive'. 'degree' references another table 'simply' in an exactly one to zero or many relationship. The relationship should be called 'positive'. 
+There is another table 'simply' with the columns 'hold' (VARCHAR(50)), 'voice' (DATE). The primary key is 'hold'. 'simply' references another table 'good' in an exactly one to zero or many relationship. The relationship should be called 'hold'. 
+There is another table 'good' with the columns 'Mrs' (DATE), 'participant' (TEXT), 'this' (VARCHAR(50)). The primary key is 'Mrs'. 'good' references another table 'half' in an exactly one to zero or many relationship. The relationship should be called 'Mrs'. 
+

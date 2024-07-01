@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram884'.
+There is a table 'way' with the columns 'agreement' (DATE), 'doctor' (TEXT), 'cold' (VARCHAR(50)). The primary key is 'agreement'. 'way' references another table 'reduce' in an exactly one to zero or many relationship. The relationship should be called 'agreement'. 
+There is another table 'reduce' with the columns 'mouth' (VARCHAR(50)), 'color' (DATE). The primary key is 'mouth'. 'reduce' references another table 'line' in an exactly one to zero or many relationship. The relationship should be called 'mouth'. 
+There is another table 'line' with the columns 'art' (DATE), 'move' (TEXT), 'could' (VARCHAR(50)). The primary key is 'art'. 'line' references another table 'be' in an exactly one to zero or many relationship. The relationship should be called 'art'. 
+There is another table 'be' with the columns 'especially' (VARCHAR(50)), 'production' (DATE). The primary key is 'especially'. 'be' references another table 'dark' in an exactly one to zero or many relationship. The relationship should be called 'especially'. 
+There is another table 'dark' with the columns 'open' (DATE), 'medical' (TEXT), 'fill' (VARCHAR(50)). The primary key is 'open'. 'dark' references another table 'way' in an exactly one to zero or many relationship. The relationship should be called 'open'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram874'.
+There is a table 'teach' with the columns 'bit' (DATE), 'another' (TEXT), 'result' (VARCHAR(50)). The primary key is 'bit'. 'teach' references another table 'like' in an exactly one to zero or many relationship. The relationship should be called 'bit'. 
+There is another table 'like' with the columns 'call' (VARCHAR(50)), 'fire' (DATE). The primary key is 'call'. 'like' references another table 'effort' in an exactly one to zero or many relationship. The relationship should be called 'call'. 
+There is another table 'effort' with the columns 'including' (DATE), 'light' (TEXT), 'writer' (VARCHAR(50)). The primary key is 'including'. 'effort' references another table 'toward' in an exactly one to zero or many relationship. The relationship should be called 'including'. 
+There is another table 'toward' with the columns 'expert' (VARCHAR(50)), 'oil' (DATE). The primary key is 'expert'. 'toward' references another table 'cultural' in an exactly one to zero or many relationship. The relationship should be called 'expert'. 
+There is another table 'cultural' with the columns 'rate' (DATE), 'one' (TEXT), 'image' (VARCHAR(50)). The primary key is 'rate'. 'cultural' references another table 'special' in an exactly one to zero or many relationship. The relationship should be called 'rate'. 
+There is another table 'special' with the columns 'public' (VARCHAR(50)), 'politics' (DATE). The primary key is 'public'. 'special' references another table 'purpose' in an exactly one to zero or many relationship. The relationship should be called 'public'. 
+There is another table 'purpose' with the columns 'perhaps' (DATE), 'talk' (TEXT), 'economy' (VARCHAR(50)). The primary key is 'perhaps'. 'purpose' references another table 'teach' in an exactly one to zero or many relationship. The relationship should be called 'perhaps'. 
+

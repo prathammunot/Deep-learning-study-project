@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram877'.
+There is a table 'could' with the columns 'bed' (DATE), 'far' (TEXT), 'section' (VARCHAR(50)). The primary key is 'bed'. 'could' references another table 'daughter' in an exactly one to zero or many relationship. The relationship should be called 'bed'. 
+There is another table 'daughter' with the columns 'evening' (VARCHAR(50)), 'than' (DATE). The primary key is 'evening'. 'daughter' references another table 'box' in an exactly one to zero or many relationship. The relationship should be called 'evening'. 
+There is another table 'box' with the columns 'so' (DATE), 'particularly' (TEXT), 'threat' (VARCHAR(50)). The primary key is 'so'. 'box' references another table 'down' in an exactly one to zero or many relationship. The relationship should be called 'so'. 
+There is another table 'down' with the columns 'record' (VARCHAR(50)), 'right' (DATE). The primary key is 'record'. 'down' references another table 'at' in an exactly one to zero or many relationship. The relationship should be called 'record'. 
+There is another table 'at' with the columns 'out' (DATE), 'matter' (TEXT), 'budget' (VARCHAR(50)). The primary key is 'out'. 'at' references another table 'lose' in an exactly one to zero or many relationship. The relationship should be called 'out'. 
+There is another table 'lose' with the columns 'collection' (VARCHAR(50)), 'their' (DATE). The primary key is 'collection'. 'lose' references another table 'statement' in an exactly one to zero or many relationship. The relationship should be called 'collection'. 
+There is another table 'statement' with the columns 'thing' (DATE), 'main' (TEXT), 'professor' (VARCHAR(50)). The primary key is 'thing'. 'statement' references another table 'account' in an exactly one to zero or many relationship. The relationship should be called 'thing'. 
+There is another table 'account' with the columns 'spend' (VARCHAR(50)), 'modern' (DATE). The primary key is 'spend'. 'account' references another table 'could' in an exactly one to zero or many relationship. The relationship should be called 'spend'. 
+

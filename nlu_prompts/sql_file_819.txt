@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram800'.
+There is a table 'voice' with the columns 'company' (DATE), 'pressure' (TEXT), 'tax' (VARCHAR(50)). The primary key is 'company'. 'voice' references another table 'would' in an exactly one to zero or many relationship. The relationship should be called 'company'. 
+There is another table 'would' with the columns 'interesting' (VARCHAR(50)), 'way' (DATE). The primary key is 'interesting'. 'would' references another table 'stand' in an exactly one to zero or many relationship. The relationship should be called 'interesting'. 
+There is another table 'stand' with the columns 'ability' (DATE), 'onto' (TEXT), 'third' (VARCHAR(50)). The primary key is 'ability'. 'stand' references another table 'history' in an exactly one to zero or many relationship. The relationship should be called 'ability'. 
+There is another table 'history' with the columns 'born' (VARCHAR(50)), 'or' (DATE). The primary key is 'born'. 'history' references another table 'treatment' in an exactly one to zero or many relationship. The relationship should be called 'born'. 
+There is another table 'treatment' with the columns 'career' (DATE), 'design' (TEXT), 'view' (VARCHAR(50)). The primary key is 'career'. 'treatment' references another table 'east' in an exactly one to zero or many relationship. The relationship should be called 'career'. 
+There is another table 'east' with the columns 'democratic' (VARCHAR(50)), 'democratic' (DATE). The primary key is 'democratic'. 'east' references another table 'one' in an exactly one to zero or many relationship. The relationship should be called 'democratic'. 
+There is another table 'one' with the columns 'certain' (DATE), 'until' (TEXT), 'establish' (VARCHAR(50)). The primary key is 'certain'. 'one' references another table 'voice' in an exactly one to zero or many relationship. The relationship should be called 'certain'. 
+

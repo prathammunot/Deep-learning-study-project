@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram869'.
+There is a table 'ago' with the columns 'news' (DATE), 'participant' (TEXT), 'him' (VARCHAR(50)). The primary key is 'news'. 'ago' references another table 'must' in an exactly one to zero or many relationship. The relationship should be called 'news'. 
+There is another table 'must' with the columns 'present' (VARCHAR(50)), 'expect' (DATE). The primary key is 'present'. 'must' references another table 'soon' in an exactly one to zero or many relationship. The relationship should be called 'present'. 
+There is another table 'soon' with the columns 'because' (DATE), 'she' (TEXT), 'office' (VARCHAR(50)). The primary key is 'because'. 'soon' references another table 'job' in an exactly one to zero or many relationship. The relationship should be called 'because'. 
+There is another table 'job' with the columns 'both' (VARCHAR(50)), 'bad' (DATE). The primary key is 'both'. 'job' references another table 'two' in an exactly one to zero or many relationship. The relationship should be called 'both'. 
+There is another table 'two' with the columns 'family' (DATE), 'difficult' (TEXT), 'money' (VARCHAR(50)). The primary key is 'family'. 'two' references another table 'ago' in an exactly one to zero or many relationship. The relationship should be called 'family'. 
+

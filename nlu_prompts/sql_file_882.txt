@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram870'.
+There is a table 'consider' with the columns 'social' (DATE), 'room' (TEXT), 'success' (VARCHAR(50)). The primary key is 'social'. 'consider' references another table 'even' in an exactly one to zero or many relationship. The relationship should be called 'social'. 
+There is another table 'even' with the columns 'report' (VARCHAR(50)), 'example' (DATE). The primary key is 'report'. 'even' references another table 'not' in an exactly one to zero or many relationship. The relationship should be called 'report'. 
+There is another table 'not' with the columns 'glass' (DATE), 'president' (TEXT), 'certainly' (VARCHAR(50)). The primary key is 'glass'. 'not' references another table 'skin' in an exactly one to zero or many relationship. The relationship should be called 'glass'. 
+There is another table 'skin' with the columns 'question' (VARCHAR(50)), 'sound' (DATE). The primary key is 'question'. 'skin' references another table 'board' in an exactly one to zero or many relationship. The relationship should be called 'question'. 
+There is another table 'board' with the columns 'watch' (DATE), 'speech' (TEXT), 'fall' (VARCHAR(50)). The primary key is 'watch'. 'board' references another table 'consider' in an exactly one to zero or many relationship. The relationship should be called 'watch'. 
+

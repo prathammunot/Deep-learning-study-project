@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram797'.
+There is a table 'listen' with the columns 'try' (DATE), 'issue' (TEXT), 'ask' (VARCHAR(50)). The primary key is 'try'. 'listen' references another table 'new' in an exactly one to zero or many relationship. The relationship should be called 'try'. 
+There is another table 'new' with the columns 'color' (VARCHAR(50)), 'street' (DATE). The primary key is 'color'. 'new' references another table 'when' in an exactly one to zero or many relationship. The relationship should be called 'color'. 
+There is another table 'when' with the columns 'listen' (DATE), 'not' (TEXT), 'yet' (VARCHAR(50)). The primary key is 'listen'. 'when' references another table 'protect' in an exactly one to zero or many relationship. The relationship should be called 'listen'. 
+There is another table 'protect' with the columns 'space' (VARCHAR(50)), 'century' (DATE). The primary key is 'space'. 'protect' references another table 'picture' in an exactly one to zero or many relationship. The relationship should be called 'space'. 
+There is another table 'picture' with the columns 'what' (DATE), 'affect' (TEXT), 'simple' (VARCHAR(50)). The primary key is 'what'. 'picture' references another table 'use' in an exactly one to zero or many relationship. The relationship should be called 'what'. 
+There is another table 'use' with the columns 'large' (VARCHAR(50)), 'myself' (DATE). The primary key is 'large'. 'use' references another table 'other' in an exactly one to zero or many relationship. The relationship should be called 'large'. 
+There is another table 'other' with the columns 'time' (DATE), 'mind' (TEXT), 'listen' (VARCHAR(50)). The primary key is 'time'. 'other' references another table 'seem' in an exactly one to zero or many relationship. The relationship should be called 'time'. 
+There is another table 'seem' with the columns 'baby' (VARCHAR(50)), 'Mr' (DATE). The primary key is 'baby'. 'seem' references another table 'various' in an exactly one to zero or many relationship. The relationship should be called 'baby'. 
+There is another table 'various' with the columns 'respond' (DATE), 'stage' (TEXT), 'your' (VARCHAR(50)). The primary key is 'respond'. 'various' references another table 'listen' in an exactly one to zero or many relationship. The relationship should be called 'respond'. 
+

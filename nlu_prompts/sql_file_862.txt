@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram848'.
+There is a table 'five' with the columns 'church' (DATE), 'behavior' (TEXT), 'suggest' (VARCHAR(50)). The primary key is 'church'. 'five' references another table 'debate' in an exactly one to zero or many relationship. The relationship should be called 'church'. 
+There is another table 'debate' with the columns 'shake' (VARCHAR(50)), 'though' (DATE). The primary key is 'shake'. 'debate' references another table 'newspaper' in an exactly one to zero or many relationship. The relationship should be called 'shake'. 
+There is another table 'newspaper' with the columns 'just' (DATE), 'statement' (TEXT), 'best' (VARCHAR(50)). The primary key is 'just'. 'newspaper' references another table 'development' in an exactly one to zero or many relationship. The relationship should be called 'just'. 
+There is another table 'development' with the columns 'indicate' (VARCHAR(50)), 'quality' (DATE). The primary key is 'indicate'. 'development' references another table 'article' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'article' with the columns 'recognize' (DATE), 'debate' (TEXT), 'receive' (VARCHAR(50)). The primary key is 'recognize'. 'article' references another table 'act' in an exactly one to zero or many relationship. The relationship should be called 'recognize'. 
+There is another table 'act' with the columns 'woman' (VARCHAR(50)), 'kid' (DATE). The primary key is 'woman'. 'act' references another table 'five' in an exactly one to zero or many relationship. The relationship should be called 'woman'. 
+

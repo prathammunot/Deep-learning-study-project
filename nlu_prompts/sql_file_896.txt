@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram885'.
+There is a table 'company' with the columns 'model' (DATE), 'discover' (TEXT), 'fire' (VARCHAR(50)). The primary key is 'model'. 'company' references another table 'high' in an exactly one to zero or many relationship. The relationship should be called 'model'. 
+There is another table 'high' with the columns 'end' (VARCHAR(50)), 'whatever' (DATE). The primary key is 'end'. 'high' references another table 'sister' in an exactly one to zero or many relationship. The relationship should be called 'end'. 
+There is another table 'sister' with the columns 'state' (DATE), 'go' (TEXT), 'why' (VARCHAR(50)). The primary key is 'state'. 'sister' references another table 'job' in an exactly one to zero or many relationship. The relationship should be called 'state'. 
+There is another table 'job' with the columns 'leave' (VARCHAR(50)), 'sport' (DATE). The primary key is 'leave'. 'job' references another table 'rest' in an exactly one to zero or many relationship. The relationship should be called 'leave'. 
+There is another table 'rest' with the columns 'personal' (DATE), 'nature' (TEXT), 'field' (VARCHAR(50)). The primary key is 'personal'. 'rest' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'personal'. 
+There is another table 'early' with the columns 'left' (VARCHAR(50)), 'able' (DATE). The primary key is 'left'. 'early' references another table 'herself' in an exactly one to zero or many relationship. The relationship should be called 'left'. 
+There is another table 'herself' with the columns 'hour' (DATE), 'friend' (TEXT), 'center' (VARCHAR(50)). The primary key is 'hour'. 'herself' references another table 'range' in an exactly one to zero or many relationship. The relationship should be called 'hour'. 
+There is another table 'range' with the columns 'note' (VARCHAR(50)), 'bed' (DATE). The primary key is 'note'. 'range' references another table 'company' in an exactly one to zero or many relationship. The relationship should be called 'note'. 
+

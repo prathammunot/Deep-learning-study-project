@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram832'.
+There is a table 'education' with the columns 'company' (DATE), 'recently' (TEXT), 'style' (VARCHAR(50)). The primary key is 'company'. 'education' references another table 'cell' in an exactly one to zero or many relationship. The relationship should be called 'company'. 
+There is another table 'cell' with the columns 'get' (VARCHAR(50)), 'skill' (DATE). The primary key is 'get'. 'cell' references another table 'fear' in an exactly one to zero or many relationship. The relationship should be called 'get'. 
+There is another table 'fear' with the columns 'conference' (DATE), 'artist' (TEXT), 'say' (VARCHAR(50)). The primary key is 'conference'. 'fear' references another table 'dark' in an exactly one to zero or many relationship. The relationship should be called 'conference'. 
+There is another table 'dark' with the columns 'first' (VARCHAR(50)), 'area' (DATE). The primary key is 'first'. 'dark' references another table 'seek' in an exactly one to zero or many relationship. The relationship should be called 'first'. 
+There is another table 'seek' with the columns 'produce' (DATE), 'affect' (TEXT), 'by' (VARCHAR(50)). The primary key is 'produce'. 'seek' references another table 'prevent' in an exactly one to zero or many relationship. The relationship should be called 'produce'. 
+There is another table 'prevent' with the columns 'as' (VARCHAR(50)), 'if' (DATE). The primary key is 'as'. 'prevent' references another table 'remain' in an exactly one to zero or many relationship. The relationship should be called 'as'. 
+There is another table 'remain' with the columns 'couple' (DATE), 'social' (TEXT), 'safe' (VARCHAR(50)). The primary key is 'couple'. 'remain' references another table 'education' in an exactly one to zero or many relationship. The relationship should be called 'couple'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram789'.
+There is a table 'game' with the columns 'town' (DATE), 'fact' (TEXT), 'body' (VARCHAR(50)). The primary key is 'town'. 'game' references another table 'billion' in an exactly one to zero or many relationship. The relationship should be called 'town'. 
+There is another table 'billion' with the columns 'benefit' (VARCHAR(50)), 'drive' (DATE). The primary key is 'benefit'. 'billion' references another table 'human' in an exactly one to zero or many relationship. The relationship should be called 'benefit'. 
+There is another table 'human' with the columns 'effect' (DATE), 'different' (TEXT), 'protect' (VARCHAR(50)). The primary key is 'effect'. 'human' references another table 'fall' in an exactly one to zero or many relationship. The relationship should be called 'effect'. 
+There is another table 'fall' with the columns 'moment' (VARCHAR(50)), 'chance' (DATE). The primary key is 'moment'. 'fall' references another table 'peace' in an exactly one to zero or many relationship. The relationship should be called 'moment'. 
+There is another table 'peace' with the columns 'generation' (DATE), 'understand' (TEXT), 'lose' (VARCHAR(50)). The primary key is 'generation'. 'peace' references another table 'protect' in an exactly one to zero or many relationship. The relationship should be called 'generation'. 
+There is another table 'protect' with the columns 'bank' (VARCHAR(50)), 'health' (DATE). The primary key is 'bank'. 'protect' references another table 'game' in an exactly one to zero or many relationship. The relationship should be called 'bank'. 
+

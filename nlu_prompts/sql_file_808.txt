@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram788'.
+There is a table 'light' with the columns 'next' (DATE), 'music' (TEXT), 'bill' (VARCHAR(50)). The primary key is 'next'. 'light' references another table 'stage' in an exactly one to zero or many relationship. The relationship should be called 'next'. 
+There is another table 'stage' with the columns 'music' (VARCHAR(50)), 'study' (DATE). The primary key is 'music'. 'stage' references another table 'cost' in an exactly one to zero or many relationship. The relationship should be called 'music'. 
+There is another table 'cost' with the columns 'discuss' (DATE), 'outside' (TEXT), 'leave' (VARCHAR(50)). The primary key is 'discuss'. 'cost' references another table 'everyone' in an exactly one to zero or many relationship. The relationship should be called 'discuss'. 
+There is another table 'everyone' with the columns 'hospital' (VARCHAR(50)), 'mother' (DATE). The primary key is 'hospital'. 'everyone' references another table 'age' in an exactly one to zero or many relationship. The relationship should be called 'hospital'. 
+There is another table 'age' with the columns 'democratic' (DATE), 'stand' (TEXT), 'as' (VARCHAR(50)). The primary key is 'democratic'. 'age' references another table 'light' in an exactly one to zero or many relationship. The relationship should be called 'democratic'. 
+

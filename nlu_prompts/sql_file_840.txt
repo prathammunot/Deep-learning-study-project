@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram824'.
+There is a table 'seem' with the columns 'and' (DATE), 'home' (TEXT), 'series' (VARCHAR(50)). The primary key is 'and'. 'seem' references another table 'attack' in an exactly one to zero or many relationship. The relationship should be called 'and'. 
+There is another table 'attack' with the columns 'population' (VARCHAR(50)), 'south' (DATE). The primary key is 'population'. 'attack' references another table 'get' in an exactly one to zero or many relationship. The relationship should be called 'population'. 
+There is another table 'get' with the columns 'area' (DATE), 'size' (TEXT), 'many' (VARCHAR(50)). The primary key is 'area'. 'get' references another table 'might' in an exactly one to zero or many relationship. The relationship should be called 'area'. 
+There is another table 'might' with the columns 'as' (VARCHAR(50)), 'through' (DATE). The primary key is 'as'. 'might' references another table 'think' in an exactly one to zero or many relationship. The relationship should be called 'as'. 
+There is another table 'think' with the columns 'test' (DATE), 'single' (TEXT), 'sure' (VARCHAR(50)). The primary key is 'test'. 'think' references another table 'myself' in an exactly one to zero or many relationship. The relationship should be called 'test'. 
+There is another table 'myself' with the columns 'perform' (VARCHAR(50)), 'sure' (DATE). The primary key is 'perform'. 'myself' references another table 'seem' in an exactly one to zero or many relationship. The relationship should be called 'perform'. 
+

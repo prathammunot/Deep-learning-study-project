@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram803'.
+There is a table 'pay' with the columns 'line' (DATE), 'there' (TEXT), 'century' (VARCHAR(50)). The primary key is 'line'. 'pay' references another table 'while' in an exactly one to zero or many relationship. The relationship should be called 'line'. 
+There is another table 'while' with the columns 'cold' (VARCHAR(50)), 'recent' (DATE). The primary key is 'cold'. 'while' references another table 'light' in an exactly one to zero or many relationship. The relationship should be called 'cold'. 
+There is another table 'light' with the columns 'ten' (DATE), 'sure' (TEXT), 'course' (VARCHAR(50)). The primary key is 'ten'. 'light' references another table 'discussion' in an exactly one to zero or many relationship. The relationship should be called 'ten'. 
+There is another table 'discussion' with the columns 'red' (VARCHAR(50)), 'executive' (DATE). The primary key is 'red'. 'discussion' references another table 'direction' in an exactly one to zero or many relationship. The relationship should be called 'red'. 
+There is another table 'direction' with the columns 'size' (DATE), 'character' (TEXT), 'offer' (VARCHAR(50)). The primary key is 'size'. 'direction' references another table 'pay' in an exactly one to zero or many relationship. The relationship should be called 'size'. 
+

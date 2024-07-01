@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram840'.
+There is a table 'act' with the columns 'piece' (DATE), 'hold' (TEXT), 'newspaper' (VARCHAR(50)). The primary key is 'piece'. 'act' references another table 'month' in an exactly one to zero or many relationship. The relationship should be called 'piece'. 
+There is another table 'month' with the columns 'for' (VARCHAR(50)), 'her' (DATE). The primary key is 'for'. 'month' references another table 'some' in an exactly one to zero or many relationship. The relationship should be called 'for'. 
+There is another table 'some' with the columns 'measure' (DATE), 'beat' (TEXT), 'five' (VARCHAR(50)). The primary key is 'measure'. 'some' references another table 'hit' in an exactly one to zero or many relationship. The relationship should be called 'measure'. 
+There is another table 'hit' with the columns 'recent' (VARCHAR(50)), 'safe' (DATE). The primary key is 'recent'. 'hit' references another table 'edge' in an exactly one to zero or many relationship. The relationship should be called 'recent'. 
+There is another table 'edge' with the columns 'order' (DATE), 'which' (TEXT), 'go' (VARCHAR(50)). The primary key is 'order'. 'edge' references another table 'feel' in an exactly one to zero or many relationship. The relationship should be called 'order'. 
+There is another table 'feel' with the columns 'individual' (VARCHAR(50)), 'explain' (DATE). The primary key is 'individual'. 'feel' references another table 'single' in an exactly one to zero or many relationship. The relationship should be called 'individual'. 
+There is another table 'single' with the columns 'talk' (DATE), 'out' (TEXT), 'catch' (VARCHAR(50)). The primary key is 'talk'. 'single' references another table 'participant' in an exactly one to zero or many relationship. The relationship should be called 'talk'. 
+There is another table 'participant' with the columns 'activity' (VARCHAR(50)), 'we' (DATE). The primary key is 'activity'. 'participant' references another table 'act' in an exactly one to zero or many relationship. The relationship should be called 'activity'. 
+

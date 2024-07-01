@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram879'.
+There is a table 'myself' with the columns 'might' (DATE), 'decision' (TEXT), 'finally' (VARCHAR(50)). The primary key is 'might'. 'myself' references another table 'take' in an exactly one to zero or many relationship. The relationship should be called 'might'. 
+There is another table 'take' with the columns 'activity' (VARCHAR(50)), 'member' (DATE). The primary key is 'activity'. 'take' references another table 'business' in an exactly one to zero or many relationship. The relationship should be called 'activity'. 
+There is another table 'business' with the columns 'bring' (DATE), 'building' (TEXT), 'it' (VARCHAR(50)). The primary key is 'bring'. 'business' references another table 'start' in an exactly one to zero or many relationship. The relationship should be called 'bring'. 
+There is another table 'start' with the columns 'building' (VARCHAR(50)), 'next' (DATE). The primary key is 'building'. 'start' references another table 'dream' in an exactly one to zero or many relationship. The relationship should be called 'building'. 
+There is another table 'dream' with the columns 'yourself' (DATE), 'who' (TEXT), 'voice' (VARCHAR(50)). The primary key is 'yourself'. 'dream' references another table 'trouble' in an exactly one to zero or many relationship. The relationship should be called 'yourself'. 
+There is another table 'trouble' with the columns 'forward' (VARCHAR(50)), 'red' (DATE). The primary key is 'forward'. 'trouble' references another table 'friend' in an exactly one to zero or many relationship. The relationship should be called 'forward'. 
+There is another table 'friend' with the columns 'increase' (DATE), 'effort' (TEXT), 'she' (VARCHAR(50)). The primary key is 'increase'. 'friend' references another table 'onto' in an exactly one to zero or many relationship. The relationship should be called 'increase'. 
+There is another table 'onto' with the columns 'relationship' (VARCHAR(50)), 'yourself' (DATE). The primary key is 'relationship'. 'onto' references another table 'myself' in an exactly one to zero or many relationship. The relationship should be called 'relationship'. 
+

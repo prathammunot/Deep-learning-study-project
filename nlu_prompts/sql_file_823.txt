@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram805'.
+There is a table 'eye' with the columns 'answer' (DATE), 'traditional' (TEXT), 'defense' (VARCHAR(50)). The primary key is 'answer'. 'eye' references another table 'talk' in an exactly one to zero or many relationship. The relationship should be called 'answer'. 
+There is another table 'talk' with the columns 'new' (VARCHAR(50)), 'apply' (DATE). The primary key is 'new'. 'talk' references another table 'the' in an exactly one to zero or many relationship. The relationship should be called 'new'. 
+There is another table 'the' with the columns 'occur' (DATE), 'special' (TEXT), 'study' (VARCHAR(50)). The primary key is 'occur'. 'the' references another table 'finish' in an exactly one to zero or many relationship. The relationship should be called 'occur'. 
+There is another table 'finish' with the columns 'cell' (VARCHAR(50)), 'statement' (DATE). The primary key is 'cell'. 'finish' references another table 'sure' in an exactly one to zero or many relationship. The relationship should be called 'cell'. 
+There is another table 'sure' with the columns 'degree' (DATE), 'response' (TEXT), 'owner' (VARCHAR(50)). The primary key is 'degree'. 'sure' references another table 'bag' in an exactly one to zero or many relationship. The relationship should be called 'degree'. 
+There is another table 'bag' with the columns 'simple' (VARCHAR(50)), 'third' (DATE). The primary key is 'simple'. 'bag' references another table 'eye' in an exactly one to zero or many relationship. The relationship should be called 'simple'. 
+
