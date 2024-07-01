@@ -1,0 +1,176 @@
+[
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "skin",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "skin",
+        "foreign_keys": [
+            {
+                "column": "skin",
+                "references": "production"
+            }
+        ]
+    },
+    {
+        "name": "production",
+        "columns": [
+            {
+                "name": "against",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "against",
+        "foreign_keys": [
+            {
+                "column": "against",
+                "references": "alone"
+            }
+        ]
+    },
+    {
+        "name": "alone",
+        "columns": [
+            {
+                "name": "a",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "a",
+        "foreign_keys": [
+            {
+                "column": "a",
+                "references": "civil"
+            }
+        ]
+    },
+    {
+        "name": "civil",
+        "columns": [
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sure",
+        "foreign_keys": [
+            {
+                "column": "sure",
+                "references": "full"
+            }
+        ]
+    },
+    {
+        "name": "full",
+        "columns": [
+            {
+                "name": "know",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "writer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "know",
+        "foreign_keys": [
+            {
+                "column": "know",
+                "references": "hear"
+            }
+        ]
+    },
+    {
+        "name": "hear",
+        "columns": [
+            {
+                "name": "level",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "level",
+        "foreign_keys": [
+            {
+                "column": "level",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "it"
+            }
+        ]
+    }
+]

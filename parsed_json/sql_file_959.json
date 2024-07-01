@@ -1,0 +1,149 @@
+[
+    {
+        "name": "join",
+        "columns": [
+            {
+                "name": "win",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "win",
+        "foreign_keys": [
+            {
+                "column": "win",
+                "references": "state"
+            }
+        ]
+    },
+    {
+        "name": "state",
+        "columns": [
+            {
+                "name": "create",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "create",
+        "foreign_keys": [
+            {
+                "column": "create",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "think",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "instead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "think",
+        "foreign_keys": [
+            {
+                "column": "think",
+                "references": "its"
+            }
+        ]
+    },
+    {
+        "name": "its",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "visit"
+            }
+        ]
+    },
+    {
+        "name": "visit",
+        "columns": [
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "around",
+        "foreign_keys": [
+            {
+                "column": "around",
+                "references": "own"
+            }
+        ]
+    },
+    {
+        "name": "own",
+        "columns": [
+            {
+                "name": "suffer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suffer",
+        "foreign_keys": [
+            {
+                "column": "suffer",
+                "references": "join"
+            }
+        ]
+    }
+]

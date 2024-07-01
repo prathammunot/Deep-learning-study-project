@@ -1,0 +1,127 @@
+[
+    {
+        "name": "month",
+        "columns": [
+            {
+                "name": "benefit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "benefit",
+        "foreign_keys": [
+            {
+                "column": "benefit",
+                "references": "final"
+            }
+        ]
+    },
+    {
+        "name": "final",
+        "columns": [
+            {
+                "name": "certainly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "read",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certainly",
+        "foreign_keys": [
+            {
+                "column": "certainly",
+                "references": "pressure"
+            }
+        ]
+    },
+    {
+        "name": "pressure",
+        "columns": [
+            {
+                "name": "little",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "know",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "little",
+        "foreign_keys": [
+            {
+                "column": "little",
+                "references": "partner"
+            }
+        ]
+    },
+    {
+        "name": "partner",
+        "columns": [
+            {
+                "name": "standard",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "standard",
+        "foreign_keys": [
+            {
+                "column": "standard",
+                "references": "according"
+            }
+        ]
+    },
+    {
+        "name": "according",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "key",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "month"
+            }
+        ]
+    }
+]

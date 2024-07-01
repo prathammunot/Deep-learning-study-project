@@ -1,0 +1,225 @@
+[
+    {
+        "name": "place",
+        "columns": [
+            {
+                "name": "view",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "view",
+        "foreign_keys": [
+            {
+                "column": "view",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "born",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "born",
+        "foreign_keys": [
+            {
+                "column": "born",
+                "references": "control"
+            }
+        ]
+    },
+    {
+        "name": "control",
+        "columns": [
+            {
+                "name": "simple",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "certain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "simple",
+        "foreign_keys": [
+            {
+                "column": "simple",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "affect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "affect",
+        "foreign_keys": [
+            {
+                "column": "affect",
+                "references": "here"
+            }
+        ]
+    },
+    {
+        "name": "here",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "success",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "loss"
+            }
+        ]
+    },
+    {
+        "name": "loss",
+        "columns": [
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "machine",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "best"
+            }
+        ]
+    },
+    {
+        "name": "best",
+        "columns": [
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "food",
+        "foreign_keys": [
+            {
+                "column": "food",
+                "references": "loss"
+            }
+        ]
+    },
+    {
+        "name": "loss",
+        "columns": [
+            {
+                "name": "both",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "both",
+        "foreign_keys": [
+            {
+                "column": "both",
+                "references": "popular"
+            }
+        ]
+    },
+    {
+        "name": "popular",
+        "columns": [
+            {
+                "name": "realize",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "realize",
+        "foreign_keys": [
+            {
+                "column": "realize",
+                "references": "place"
+            }
+        ]
+    }
+]

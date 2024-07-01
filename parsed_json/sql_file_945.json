@@ -1,0 +1,225 @@
+[
+    {
+        "name": "store",
+        "columns": [
+            {
+                "name": "about",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "letter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "about",
+        "foreign_keys": [
+            {
+                "column": "about",
+                "references": "remember"
+            }
+        ]
+    },
+    {
+        "name": "remember",
+        "columns": [
+            {
+                "name": "situation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "skin",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "situation",
+        "foreign_keys": [
+            {
+                "column": "situation",
+                "references": "fine"
+            }
+        ]
+    },
+    {
+        "name": "fine",
+        "columns": [
+            {
+                "name": "cultural",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cultural",
+        "foreign_keys": [
+            {
+                "column": "cultural",
+                "references": "certain"
+            }
+        ]
+    },
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "per",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "per",
+        "foreign_keys": [
+            {
+                "column": "per",
+                "references": "answer"
+            }
+        ]
+    },
+    {
+        "name": "answer",
+        "columns": [
+            {
+                "name": "design",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "official",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "design",
+        "foreign_keys": [
+            {
+                "column": "design",
+                "references": "century"
+            }
+        ]
+    },
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "place",
+        "foreign_keys": [
+            {
+                "column": "place",
+                "references": "police"
+            }
+        ]
+    },
+    {
+        "name": "police",
+        "columns": [
+            {
+                "name": "impact",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "impact",
+        "foreign_keys": [
+            {
+                "column": "impact",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "professor"
+            }
+        ]
+    },
+    {
+        "name": "professor",
+        "columns": [
+            {
+                "name": "region",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "region",
+        "foreign_keys": [
+            {
+                "column": "region",
+                "references": "store"
+            }
+        ]
+    }
+]

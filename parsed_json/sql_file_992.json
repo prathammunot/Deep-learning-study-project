@@ -1,0 +1,296 @@
+[
+    {
+        "name": "clearly",
+        "columns": [
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "watch",
+        "foreign_keys": [
+            {
+                "column": "watch",
+                "references": "grow"
+            }
+        ]
+    },
+    {
+        "name": "grow",
+        "columns": [
+            {
+                "name": "late",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "its"
+            }
+        ]
+    },
+    {
+        "name": "its",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "eight"
+            }
+        ]
+    },
+    {
+        "name": "eight",
+        "columns": [
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "positive",
+        "foreign_keys": [
+            {
+                "column": "positive",
+                "references": "that"
+            }
+        ]
+    },
+    {
+        "name": "that",
+        "columns": [
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "wide"
+            }
+        ]
+    },
+    {
+        "name": "wide",
+        "columns": [
+            {
+                "name": "general",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "about",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "general",
+        "foreign_keys": [
+            {
+                "column": "general",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "town",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "town",
+        "foreign_keys": [
+            {
+                "column": "town",
+                "references": "pretty"
+            }
+        ]
+    },
+    {
+        "name": "pretty",
+        "columns": [
+            {
+                "name": "language",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "own",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "language",
+        "foreign_keys": [
+            {
+                "column": "language",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "name",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "name",
+        "foreign_keys": [
+            {
+                "column": "name",
+                "references": "discuss"
+            }
+        ]
+    },
+    {
+        "name": "discuss",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "office"
+            }
+        ]
+    },
+    {
+        "name": "office",
+        "columns": [
+            {
+                "name": "attention",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attention",
+        "foreign_keys": [
+            {
+                "column": "attention",
+                "references": "money"
+            }
+        ]
+    },
+    {
+        "name": "money",
+        "columns": [
+            {
+                "name": "morning",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "morning",
+        "foreign_keys": [
+            {
+                "column": "morning",
+                "references": "clearly"
+            }
+        ]
+    }
+]

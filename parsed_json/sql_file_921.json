@@ -1,0 +1,225 @@
+[
+    {
+        "name": "act",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "drop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "professor",
+        "foreign_keys": [
+            {
+                "column": "professor",
+                "references": "rather"
+            }
+        ]
+    },
+    {
+        "name": "rather",
+        "columns": [
+            {
+                "name": "value",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "value",
+        "foreign_keys": [
+            {
+                "column": "value",
+                "references": "leader"
+            }
+        ]
+    },
+    {
+        "name": "leader",
+        "columns": [
+            {
+                "name": "reflect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reflect",
+        "foreign_keys": [
+            {
+                "column": "reflect",
+                "references": "hotel"
+            }
+        ]
+    },
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "national",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "national",
+        "foreign_keys": [
+            {
+                "column": "national",
+                "references": "American"
+            }
+        ]
+    },
+    {
+        "name": "American",
+        "columns": [
+            {
+                "name": "worry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "worry",
+        "foreign_keys": [
+            {
+                "column": "worry",
+                "references": "knowledge"
+            }
+        ]
+    },
+    {
+        "name": "knowledge",
+        "columns": [
+            {
+                "name": "seem",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seem",
+        "foreign_keys": [
+            {
+                "column": "seem",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "check",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "truth"
+            }
+        ]
+    },
+    {
+        "name": "truth",
+        "columns": [
+            {
+                "name": "opportunity",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "movement",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "opportunity",
+        "foreign_keys": [
+            {
+                "column": "opportunity",
+                "references": "act"
+            }
+        ]
+    }
+]

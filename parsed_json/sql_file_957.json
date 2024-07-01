@@ -1,0 +1,225 @@
+[
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "price",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "even"
+            }
+        ]
+    },
+    {
+        "name": "even",
+        "columns": [
+            {
+                "name": "challenge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "significant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "challenge",
+        "foreign_keys": [
+            {
+                "column": "challenge",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "stay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discuss",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stay",
+        "foreign_keys": [
+            {
+                "column": "stay",
+                "references": "performance"
+            }
+        ]
+    },
+    {
+        "name": "performance",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "challenge"
+            }
+        ]
+    },
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "area",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "own",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "area",
+        "foreign_keys": [
+            {
+                "column": "area",
+                "references": "stay"
+            }
+        ]
+    },
+    {
+        "name": "stay",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "determine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "high",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sister",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "measure"
+            }
+        ]
+    }
+]

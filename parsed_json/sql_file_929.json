@@ -1,0 +1,296 @@
+[
+    {
+        "name": "on",
+        "columns": [
+            {
+                "name": "something",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "media",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "something",
+        "foreign_keys": [
+            {
+                "column": "something",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "notice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "notice",
+        "foreign_keys": [
+            {
+                "column": "notice",
+                "references": "industry"
+            }
+        ]
+    },
+    {
+        "name": "industry",
+        "columns": [
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attention",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "any"
+            }
+        ]
+    },
+    {
+        "name": "any",
+        "columns": [
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "resource"
+            }
+        ]
+    },
+    {
+        "name": "resource",
+        "columns": [
+            {
+                "name": "outside",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "outside",
+        "foreign_keys": [
+            {
+                "column": "outside",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "law",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "law",
+        "foreign_keys": [
+            {
+                "column": "law",
+                "references": "standard"
+            }
+        ]
+    },
+    {
+        "name": "standard",
+        "columns": [
+            {
+                "name": "might",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "might",
+        "foreign_keys": [
+            {
+                "column": "might",
+                "references": "a"
+            }
+        ]
+    },
+    {
+        "name": "a",
+        "columns": [
+            {
+                "name": "collection",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "collection",
+        "foreign_keys": [
+            {
+                "column": "collection",
+                "references": "six"
+            }
+        ]
+    },
+    {
+        "name": "six",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "season"
+            }
+        ]
+    },
+    {
+        "name": "season",
+        "columns": [
+            {
+                "name": "medical",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "medical",
+        "foreign_keys": [
+            {
+                "column": "medical",
+                "references": "low"
+            }
+        ]
+    },
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "like"
+            }
+        ]
+    },
+    {
+        "name": "like",
+        "columns": [
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "on"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "glass",
+        "columns": [
+            {
+                "name": "late",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "must",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "fall"
+            }
+        ]
+    },
+    {
+        "name": "fall",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "plant"
+            }
+        ]
+    },
+    {
+        "name": "plant",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sometimes",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "service"
+            }
+        ]
+    },
+    {
+        "name": "service",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "glass"
+            }
+        ]
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "name": "support",
+        "columns": [
+            {
+                "name": "visit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "green",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discuss",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "visit",
+        "foreign_keys": [
+            {
+                "column": "visit",
+                "references": "economy"
+            }
+        ]
+    },
+    {
+        "name": "economy",
+        "columns": [
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "get",
+        "foreign_keys": [
+            {
+                "column": "get",
+                "references": "stage"
+            }
+        ]
+    },
+    {
+        "name": "stage",
+        "columns": [
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quite",
+        "foreign_keys": [
+            {
+                "column": "quite",
+                "references": "last"
+            }
+        ]
+    },
+    {
+        "name": "last",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "official"
+            }
+        ]
+    },
+    {
+        "name": "official",
+        "columns": [
+            {
+                "name": "sing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sing",
+        "foreign_keys": [
+            {
+                "column": "sing",
+                "references": "city"
+            }
+        ]
+    },
+    {
+        "name": "city",
+        "columns": [
+            {
+                "name": "speak",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "speak",
+        "foreign_keys": [
+            {
+                "column": "speak",
+                "references": "support"
+            }
+        ]
+    }
+]

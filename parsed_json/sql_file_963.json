@@ -1,0 +1,198 @@
+[
+    {
+        "name": "lay",
+        "columns": [
+            {
+                "name": "relationship",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pretty",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relationship",
+        "foreign_keys": [
+            {
+                "column": "relationship",
+                "references": "need"
+            }
+        ]
+    },
+    {
+        "name": "need",
+        "columns": [
+            {
+                "name": "light",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "paper",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "light",
+        "foreign_keys": [
+            {
+                "column": "light",
+                "references": "institution"
+            }
+        ]
+    },
+    {
+        "name": "institution",
+        "columns": [
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "occur",
+        "foreign_keys": [
+            {
+                "column": "occur",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "edge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "edge",
+        "foreign_keys": [
+            {
+                "column": "edge",
+                "references": "once"
+            }
+        ]
+    },
+    {
+        "name": "once",
+        "columns": [
+            {
+                "name": "challenge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "room",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "challenge",
+        "foreign_keys": [
+            {
+                "column": "challenge",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "how",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "how",
+        "foreign_keys": [
+            {
+                "column": "how",
+                "references": "require"
+            }
+        ]
+    },
+    {
+        "name": "require",
+        "columns": [
+            {
+                "name": "provide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "provide",
+        "foreign_keys": [
+            {
+                "column": "provide",
+                "references": "speak"
+            }
+        ]
+    },
+    {
+        "name": "speak",
+        "columns": [
+            {
+                "name": "among",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "among",
+        "foreign_keys": [
+            {
+                "column": "among",
+                "references": "lay"
+            }
+        ]
+    }
+]

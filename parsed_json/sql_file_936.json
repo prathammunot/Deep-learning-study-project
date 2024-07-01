@@ -1,0 +1,198 @@
+[
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "gas",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "gas",
+        "foreign_keys": [
+            {
+                "column": "gas",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "month",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "choose"
+            }
+        ]
+    },
+    {
+        "name": "choose",
+        "columns": [
+            {
+                "name": "cover",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cover",
+        "foreign_keys": [
+            {
+                "column": "cover",
+                "references": "catch"
+            }
+        ]
+    },
+    {
+        "name": "catch",
+        "columns": [
+            {
+                "name": "myself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "myself",
+        "foreign_keys": [
+            {
+                "column": "myself",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "floor"
+            }
+        ]
+    },
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "firm",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "firm",
+        "foreign_keys": [
+            {
+                "column": "firm",
+                "references": "southern"
+            }
+        ]
+    },
+    {
+        "name": "southern",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "fly"
+            }
+        ]
+    },
+    {
+        "name": "fly",
+        "columns": [
+            {
+                "name": "throw",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "paper",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "throw",
+        "foreign_keys": [
+            {
+                "column": "throw",
+                "references": "measure"
+            }
+        ]
+    }
+]

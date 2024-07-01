@@ -1,0 +1,127 @@
+[
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "increase"
+            }
+        ]
+    },
+    {
+        "name": "increase",
+        "columns": [
+            {
+                "name": "skin",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "skin",
+        "foreign_keys": [
+            {
+                "column": "skin",
+                "references": "listen"
+            }
+        ]
+    },
+    {
+        "name": "listen",
+        "columns": [
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "cost"
+            }
+        ]
+    },
+    {
+        "name": "cost",
+        "columns": [
+            {
+                "name": "catch",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "media",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "catch",
+        "foreign_keys": [
+            {
+                "column": "catch",
+                "references": "many"
+            }
+        ]
+    },
+    {
+        "name": "many",
+        "columns": [
+            {
+                "name": "style",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "style",
+        "foreign_keys": [
+            {
+                "column": "style",
+                "references": "way"
+            }
+        ]
+    }
+]

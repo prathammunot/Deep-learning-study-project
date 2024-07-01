@@ -1,0 +1,127 @@
+[
+    {
+        "name": "board",
+        "columns": [
+            {
+                "name": "artist",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "artist",
+        "foreign_keys": [
+            {
+                "column": "artist",
+                "references": "understand"
+            }
+        ]
+    },
+    {
+        "name": "understand",
+        "columns": [
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "key",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "challenge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "more",
+        "foreign_keys": [
+            {
+                "column": "more",
+                "references": "during"
+            }
+        ]
+    },
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "issue"
+            }
+        ]
+    },
+    {
+        "name": "issue",
+        "columns": [
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "result",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "here",
+        "foreign_keys": [
+            {
+                "column": "here",
+                "references": "board"
+            }
+        ]
+    }
+]

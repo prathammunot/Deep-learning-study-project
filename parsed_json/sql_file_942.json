@@ -1,0 +1,149 @@
+[
+    {
+        "name": "western",
+        "columns": [
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "require",
+        "foreign_keys": [
+            {
+                "column": "require",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "may",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "person",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "may",
+        "foreign_keys": [
+            {
+                "column": "may",
+                "references": "determine"
+            }
+        ]
+    },
+    {
+        "name": "determine",
+        "columns": [
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "door",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "finish",
+        "foreign_keys": [
+            {
+                "column": "finish",
+                "references": "buy"
+            }
+        ]
+    },
+    {
+        "name": "buy",
+        "columns": [
+            {
+                "name": "major",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "major",
+        "foreign_keys": [
+            {
+                "column": "major",
+                "references": "should"
+            }
+        ]
+    },
+    {
+        "name": "should",
+        "columns": [
+            {
+                "name": "least",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "truth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "least",
+        "foreign_keys": [
+            {
+                "column": "least",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "live",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "live",
+        "foreign_keys": [
+            {
+                "column": "live",
+                "references": "western"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "reveal",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "hair"
+            }
+        ]
+    },
+    {
+        "name": "hair",
+        "columns": [
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "address",
+        "foreign_keys": [
+            {
+                "column": "address",
+                "references": "watch"
+            }
+        ]
+    },
+    {
+        "name": "watch",
+        "columns": [
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "we"
+            }
+        ]
+    },
+    {
+        "name": "we",
+        "columns": [
+            {
+                "name": "knowledge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "knowledge",
+        "foreign_keys": [
+            {
+                "column": "knowledge",
+                "references": "case"
+            }
+        ]
+    },
+    {
+        "name": "case",
+        "columns": [
+            {
+                "name": "single",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "single",
+        "foreign_keys": [
+            {
+                "column": "single",
+                "references": "leave"
+            }
+        ]
+    },
+    {
+        "name": "leave",
+        "columns": [
+            {
+                "name": "month",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "authority"
+            }
+        ]
+    },
+    {
+        "name": "authority",
+        "columns": [
+            {
+                "name": "rest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "water",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rest",
+        "foreign_keys": [
+            {
+                "column": "rest",
+                "references": "lose"
+            }
+        ]
+    },
+    {
+        "name": "lose",
+        "columns": [
+            {
+                "name": "whether",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whether",
+        "foreign_keys": [
+            {
+                "column": "whether",
+                "references": "fine"
+            }
+        ]
+    },
+    {
+        "name": "fine",
+        "columns": [
+            {
+                "name": "until",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "memory",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "until",
+        "foreign_keys": [
+            {
+                "column": "until",
+                "references": "reveal"
+            }
+        ]
+    }
+]

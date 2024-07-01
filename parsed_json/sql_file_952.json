@@ -1,0 +1,198 @@
+[
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "money",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "example",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "money",
+        "foreign_keys": [
+            {
+                "column": "money",
+                "references": "practice"
+            }
+        ]
+    },
+    {
+        "name": "practice",
+        "columns": [
+            {
+                "name": "month",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "society",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "difficult"
+            }
+        ]
+    },
+    {
+        "name": "difficult",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ground",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "wife"
+            }
+        ]
+    },
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "get",
+        "foreign_keys": [
+            {
+                "column": "get",
+                "references": "future"
+            }
+        ]
+    },
+    {
+        "name": "future",
+        "columns": [
+            {
+                "name": "test",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "though",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "test",
+        "foreign_keys": [
+            {
+                "column": "test",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "since",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "since",
+        "foreign_keys": [
+            {
+                "column": "since",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "spring",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "spring",
+        "foreign_keys": [
+            {
+                "column": "spring",
+                "references": "myself"
+            }
+        ]
+    },
+    {
+        "name": "myself",
+        "columns": [
+            {
+                "name": "natural",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "author",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "natural",
+        "foreign_keys": [
+            {
+                "column": "natural",
+                "references": "debate"
+            }
+        ]
+    }
+]

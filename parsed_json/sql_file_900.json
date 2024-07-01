@@ -1,0 +1,127 @@
+[
+    {
+        "name": "wish",
+        "columns": [
+            {
+                "name": "hold",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "determine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hold",
+        "foreign_keys": [
+            {
+                "column": "hold",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "store",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "store",
+        "foreign_keys": [
+            {
+                "column": "store",
+                "references": "safe"
+            }
+        ]
+    },
+    {
+        "name": "safe",
+        "columns": [
+            {
+                "name": "finally",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nothing",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "finally",
+        "foreign_keys": [
+            {
+                "column": "finally",
+                "references": "military"
+            }
+        ]
+    },
+    {
+        "name": "military",
+        "columns": [
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "near"
+            }
+        ]
+    },
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "past",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "property",
+        "foreign_keys": [
+            {
+                "column": "property",
+                "references": "wish"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "minute",
+        "columns": [
+            {
+                "name": "military",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "military",
+        "foreign_keys": [
+            {
+                "column": "military",
+                "references": "whose"
+            }
+        ]
+    },
+    {
+        "name": "whose",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "director",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "later"
+            }
+        ]
+    },
+    {
+        "name": "later",
+        "columns": [
+            {
+                "name": "note",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "note",
+        "foreign_keys": [
+            {
+                "column": "note",
+                "references": "prepare"
+            }
+        ]
+    },
+    {
+        "name": "prepare",
+        "columns": [
+            {
+                "name": "together",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "together",
+        "foreign_keys": [
+            {
+                "column": "together",
+                "references": "miss"
+            }
+        ]
+    },
+    {
+        "name": "miss",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "better"
+            }
+        ]
+    },
+    {
+        "name": "better",
+        "columns": [
+            {
+                "name": "fund",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fund",
+        "foreign_keys": [
+            {
+                "column": "fund",
+                "references": "guy"
+            }
+        ]
+    },
+    {
+        "name": "guy",
+        "columns": [
+            {
+                "name": "edge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "edge",
+        "foreign_keys": [
+            {
+                "column": "edge",
+                "references": "space"
+            }
+        ]
+    },
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "boy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "boy",
+        "foreign_keys": [
+            {
+                "column": "boy",
+                "references": "population"
+            }
+        ]
+    },
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "read",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sound",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pressure",
+        "foreign_keys": [
+            {
+                "column": "pressure",
+                "references": "reveal"
+            }
+        ]
+    },
+    {
+        "name": "reveal",
+        "columns": [
+            {
+                "name": "behind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behind",
+        "foreign_keys": [
+            {
+                "column": "behind",
+                "references": "minute"
+            }
+        ]
+    }
+]

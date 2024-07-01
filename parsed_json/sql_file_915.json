@@ -1,0 +1,225 @@
+[
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "itself",
+        "foreign_keys": [
+            {
+                "column": "itself",
+                "references": "become"
+            }
+        ]
+    },
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "president",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "president",
+        "foreign_keys": [
+            {
+                "column": "president",
+                "references": "rock"
+            }
+        ]
+    },
+    {
+        "name": "rock",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "marriage",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "player",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "marriage",
+        "foreign_keys": [
+            {
+                "column": "marriage",
+                "references": "soldier"
+            }
+        ]
+    },
+    {
+        "name": "soldier",
+        "columns": [
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "unit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "herself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "unit",
+        "foreign_keys": [
+            {
+                "column": "unit",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "always",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "opportunity",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "always",
+        "foreign_keys": [
+            {
+                "column": "always",
+                "references": "speak"
+            }
+        ]
+    },
+    {
+        "name": "speak",
+        "columns": [
+            {
+                "name": "appear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "appear",
+        "foreign_keys": [
+            {
+                "column": "appear",
+                "references": "minute"
+            }
+        ]
+    },
+    {
+        "name": "minute",
+        "columns": [
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "while",
+        "foreign_keys": [
+            {
+                "column": "while",
+                "references": "cup"
+            }
+        ]
+    }
+]

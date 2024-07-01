@@ -1,0 +1,247 @@
+[
+    {
+        "name": "see",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "least",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "manager"
+            }
+        ]
+    },
+    {
+        "name": "manager",
+        "columns": [
+            {
+                "name": "first",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "first",
+        "foreign_keys": [
+            {
+                "column": "first",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "this",
+        "foreign_keys": [
+            {
+                "column": "this",
+                "references": "which"
+            }
+        ]
+    },
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "data",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "data",
+        "foreign_keys": [
+            {
+                "column": "data",
+                "references": "let"
+            }
+        ]
+    },
+    {
+        "name": "let",
+        "columns": [
+            {
+                "name": "according",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "step",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "according",
+        "foreign_keys": [
+            {
+                "column": "according",
+                "references": "trial"
+            }
+        ]
+    },
+    {
+        "name": "trial",
+        "columns": [
+            {
+                "name": "who",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "who",
+        "foreign_keys": [
+            {
+                "column": "who",
+                "references": "air"
+            }
+        ]
+    },
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "yet",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yet",
+        "foreign_keys": [
+            {
+                "column": "yet",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "ok",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "involve",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ok",
+        "foreign_keys": [
+            {
+                "column": "ok",
+                "references": "process"
+            }
+        ]
+    },
+    {
+        "name": "process",
+        "columns": [
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "fire",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fire",
+        "foreign_keys": [
+            {
+                "column": "fire",
+                "references": "see"
+            }
+        ]
+    }
+]

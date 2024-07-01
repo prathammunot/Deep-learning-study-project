@@ -1,0 +1,296 @@
+[
+    {
+        "name": "however",
+        "columns": [
+            {
+                "name": "hope",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hope",
+        "foreign_keys": [
+            {
+                "column": "hope",
+                "references": "audience"
+            }
+        ]
+    },
+    {
+        "name": "audience",
+        "columns": [
+            {
+                "name": "reduce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reduce",
+        "foreign_keys": [
+            {
+                "column": "reduce",
+                "references": "still"
+            }
+        ]
+    },
+    {
+        "name": "still",
+        "columns": [
+            {
+                "name": "affect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "affect",
+        "foreign_keys": [
+            {
+                "column": "affect",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "husband",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "discuss"
+            }
+        ]
+    },
+    {
+        "name": "discuss",
+        "columns": [
+            {
+                "name": "book",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "book",
+        "foreign_keys": [
+            {
+                "column": "book",
+                "references": "huge"
+            }
+        ]
+    },
+    {
+        "name": "huge",
+        "columns": [
+            {
+                "name": "poor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "poor",
+        "foreign_keys": [
+            {
+                "column": "poor",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "clear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "two",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "clear",
+        "foreign_keys": [
+            {
+                "column": "clear",
+                "references": "protect"
+            }
+        ]
+    },
+    {
+        "name": "protect",
+        "columns": [
+            {
+                "name": "mind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mind",
+        "foreign_keys": [
+            {
+                "column": "mind",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "great",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "work",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "great",
+        "foreign_keys": [
+            {
+                "column": "great",
+                "references": "lawyer"
+            }
+        ]
+    },
+    {
+        "name": "lawyer",
+        "columns": [
+            {
+                "name": "necessary",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "choice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "necessary",
+        "foreign_keys": [
+            {
+                "column": "necessary",
+                "references": "material"
+            }
+        ]
+    },
+    {
+        "name": "material",
+        "columns": [
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "here",
+        "foreign_keys": [
+            {
+                "column": "here",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "be",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "be",
+        "foreign_keys": [
+            {
+                "column": "be",
+                "references": "however"
+            }
+        ]
+    }
+]

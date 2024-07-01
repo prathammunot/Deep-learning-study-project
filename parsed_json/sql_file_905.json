@@ -1,0 +1,198 @@
+[
+    {
+        "name": "can",
+        "columns": [
+            {
+                "name": "better",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "better",
+        "foreign_keys": [
+            {
+                "column": "better",
+                "references": "feel"
+            }
+        ]
+    },
+    {
+        "name": "feel",
+        "columns": [
+            {
+                "name": "stop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stop",
+        "foreign_keys": [
+            {
+                "column": "stop",
+                "references": "well"
+            }
+        ]
+    },
+    {
+        "name": "well",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "red",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "court"
+            }
+        ]
+    },
+    {
+        "name": "court",
+        "columns": [
+            {
+                "name": "young",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "young",
+        "foreign_keys": [
+            {
+                "column": "young",
+                "references": "catch"
+            }
+        ]
+    },
+    {
+        "name": "catch",
+        "columns": [
+            {
+                "name": "ago",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ago",
+        "foreign_keys": [
+            {
+                "column": "ago",
+                "references": "parent"
+            }
+        ]
+    },
+    {
+        "name": "parent",
+        "columns": [
+            {
+                "name": "most",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "most",
+        "foreign_keys": [
+            {
+                "column": "most",
+                "references": "have"
+            }
+        ]
+    },
+    {
+        "name": "have",
+        "columns": [
+            {
+                "name": "standard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "standard",
+        "foreign_keys": [
+            {
+                "column": "standard",
+                "references": "cold"
+            }
+        ]
+    },
+    {
+        "name": "cold",
+        "columns": [
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "difficult",
+        "foreign_keys": [
+            {
+                "column": "difficult",
+                "references": "can"
+            }
+        ]
+    }
+]

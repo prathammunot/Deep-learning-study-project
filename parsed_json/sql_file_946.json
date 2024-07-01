@@ -1,0 +1,176 @@
+[
+    {
+        "name": "her",
+        "columns": [
+            {
+                "name": "class",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "place",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "class",
+        "foreign_keys": [
+            {
+                "column": "class",
+                "references": "career"
+            }
+        ]
+    },
+    {
+        "name": "career",
+        "columns": [
+            {
+                "name": "result",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "up",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "in"
+            }
+        ]
+    },
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "performance",
+        "foreign_keys": [
+            {
+                "column": "performance",
+                "references": "Republican"
+            }
+        ]
+    },
+    {
+        "name": "Republican",
+        "columns": [
+            {
+                "name": "drug",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drug",
+        "foreign_keys": [
+            {
+                "column": "drug",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "clear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "clear",
+        "foreign_keys": [
+            {
+                "column": "clear",
+                "references": "exactly"
+            }
+        ]
+    },
+    {
+        "name": "exactly",
+        "columns": [
+            {
+                "name": "number",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "number",
+        "foreign_keys": [
+            {
+                "column": "number",
+                "references": "avoid"
+            }
+        ]
+    },
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "animal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "animal",
+        "foreign_keys": [
+            {
+                "column": "animal",
+                "references": "her"
+            }
+        ]
+    }
+]

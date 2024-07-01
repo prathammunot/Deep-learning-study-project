@@ -1,0 +1,127 @@
+[
+    {
+        "name": "paper",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "manager"
+            }
+        ]
+    },
+    {
+        "name": "manager",
+        "columns": [
+            {
+                "name": "administration",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "administration",
+        "foreign_keys": [
+            {
+                "column": "administration",
+                "references": "where"
+            }
+        ]
+    },
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "during",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "during",
+        "foreign_keys": [
+            {
+                "column": "during",
+                "references": "along"
+            }
+        ]
+    },
+    {
+        "name": "along",
+        "columns": [
+            {
+                "name": "case",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "case",
+        "foreign_keys": [
+            {
+                "column": "case",
+                "references": "environmental"
+            }
+        ]
+    },
+    {
+        "name": "environmental",
+        "columns": [
+            {
+                "name": "one",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "one",
+        "foreign_keys": [
+            {
+                "column": "one",
+                "references": "paper"
+            }
+        ]
+    }
+]

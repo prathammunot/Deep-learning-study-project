@@ -1,0 +1,247 @@
+[
+    {
+        "name": "common",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "and",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "allow"
+            }
+        ]
+    },
+    {
+        "name": "allow",
+        "columns": [
+            {
+                "name": "side",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "side",
+        "foreign_keys": [
+            {
+                "column": "side",
+                "references": "indicate"
+            }
+        ]
+    },
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "institution",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "institution",
+        "foreign_keys": [
+            {
+                "column": "institution",
+                "references": "man"
+            }
+        ]
+    },
+    {
+        "name": "man",
+        "columns": [
+            {
+                "name": "look",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "himself"
+            }
+        ]
+    },
+    {
+        "name": "himself",
+        "columns": [
+            {
+                "name": "strategy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "high",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "strategy",
+        "foreign_keys": [
+            {
+                "column": "strategy",
+                "references": "happy"
+            }
+        ]
+    },
+    {
+        "name": "happy",
+        "columns": [
+            {
+                "name": "its",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "its",
+        "foreign_keys": [
+            {
+                "column": "its",
+                "references": "customer"
+            }
+        ]
+    },
+    {
+        "name": "customer",
+        "columns": [
+            {
+                "name": "fund",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cause",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fund",
+        "foreign_keys": [
+            {
+                "column": "fund",
+                "references": "bring"
+            }
+        ]
+    },
+    {
+        "name": "bring",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "I"
+            }
+        ]
+    },
+    {
+        "name": "I",
+        "columns": [
+            {
+                "name": "should",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "should",
+        "foreign_keys": [
+            {
+                "column": "should",
+                "references": "to"
+            }
+        ]
+    },
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "firm",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "firm",
+        "foreign_keys": [
+            {
+                "column": "firm",
+                "references": "common"
+            }
+        ]
+    }
+]

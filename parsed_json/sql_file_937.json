@@ -1,0 +1,296 @@
+[
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "science",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "science",
+        "foreign_keys": [
+            {
+                "column": "science",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "give",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "key",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "feeling"
+            }
+        ]
+    },
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "occur"
+            }
+        ]
+    },
+    {
+        "name": "occur",
+        "columns": [
+            {
+                "name": "style",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "budget",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "style",
+        "foreign_keys": [
+            {
+                "column": "style",
+                "references": "maybe"
+            }
+        ]
+    },
+    {
+        "name": "maybe",
+        "columns": [
+            {
+                "name": "within",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "analysis",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "within",
+        "foreign_keys": [
+            {
+                "column": "within",
+                "references": "expert"
+            }
+        ]
+    },
+    {
+        "name": "expert",
+        "columns": [
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "open",
+        "foreign_keys": [
+            {
+                "column": "open",
+                "references": "apply"
+            }
+        ]
+    },
+    {
+        "name": "apply",
+        "columns": [
+            {
+                "name": "these",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "these",
+        "foreign_keys": [
+            {
+                "column": "these",
+                "references": "catch"
+            }
+        ]
+    },
+    {
+        "name": "catch",
+        "columns": [
+            {
+                "name": "officer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "officer",
+        "foreign_keys": [
+            {
+                "column": "officer",
+                "references": "defense"
+            }
+        ]
+    },
+    {
+        "name": "defense",
+        "columns": [
+            {
+                "name": "draw",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "phone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "draw",
+        "foreign_keys": [
+            {
+                "column": "draw",
+                "references": "recent"
+            }
+        ]
+    },
+    {
+        "name": "recent",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "hotel"
+            }
+        ]
+    },
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "example",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "example",
+        "foreign_keys": [
+            {
+                "column": "example",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "specific",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "specific",
+        "foreign_keys": [
+            {
+                "column": "specific",
+                "references": "become"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "ground",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ground",
+        "foreign_keys": [
+            {
+                "column": "ground",
+                "references": "cut"
+            }
+        ]
+    },
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "which"
+            }
+        ]
+    },
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "individual",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "area"
+            }
+        ]
+    },
+    {
+        "name": "area",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "seek"
+            }
+        ]
+    },
+    {
+        "name": "seek",
+        "columns": [
+            {
+                "name": "next",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leave",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "interview"
+            }
+        ]
+    },
+    {
+        "name": "interview",
+        "columns": [
+            {
+                "name": "question",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "question",
+        "foreign_keys": [
+            {
+                "column": "question",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "become",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "brother",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "become",
+        "foreign_keys": [
+            {
+                "column": "become",
+                "references": "theory"
+            }
+        ]
+    }
+]

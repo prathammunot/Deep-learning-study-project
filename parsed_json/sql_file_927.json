@@ -1,0 +1,296 @@
+[
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "seat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "finally",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seat",
+        "foreign_keys": [
+            {
+                "column": "seat",
+                "references": "Mr"
+            }
+        ]
+    },
+    {
+        "name": "Mr",
+        "columns": [
+            {
+                "name": "claim",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "claim",
+        "foreign_keys": [
+            {
+                "column": "claim",
+                "references": "service"
+            }
+        ]
+    },
+    {
+        "name": "service",
+        "columns": [
+            {
+                "name": "sister",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sister",
+        "foreign_keys": [
+            {
+                "column": "sister",
+                "references": "within"
+            }
+        ]
+    },
+    {
+        "name": "within",
+        "columns": [
+            {
+                "name": "where",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "where",
+        "foreign_keys": [
+            {
+                "column": "where",
+                "references": "than"
+            }
+        ]
+    },
+    {
+        "name": "than",
+        "columns": [
+            {
+                "name": "impact",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "impact",
+        "foreign_keys": [
+            {
+                "column": "impact",
+                "references": "necessary"
+            }
+        ]
+    },
+    {
+        "name": "necessary",
+        "columns": [
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "care",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "medical"
+            }
+        ]
+    },
+    {
+        "name": "medical",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "through",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "through",
+        "foreign_keys": [
+            {
+                "column": "through",
+                "references": "model"
+            }
+        ]
+    },
+    {
+        "name": "model",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "great",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "local"
+            }
+        ]
+    },
+    {
+        "name": "local",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "work",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "girl"
+            }
+        ]
+    },
+    {
+        "name": "girl",
+        "columns": [
+            {
+                "name": "mouth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mouth",
+        "foreign_keys": [
+            {
+                "column": "mouth",
+                "references": "chair"
+            }
+        ]
+    },
+    {
+        "name": "chair",
+        "columns": [
+            {
+                "name": "later",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "later",
+        "foreign_keys": [
+            {
+                "column": "later",
+                "references": "scene"
+            }
+        ]
+    }
+]

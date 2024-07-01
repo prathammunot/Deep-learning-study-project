@@ -1,0 +1,198 @@
+[
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "wish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wish",
+        "foreign_keys": [
+            {
+                "column": "wish",
+                "references": "window"
+            }
+        ]
+    },
+    {
+        "name": "window",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "bit"
+            }
+        ]
+    },
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "movement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movement",
+        "foreign_keys": [
+            {
+                "column": "movement",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "entire",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "entire",
+        "foreign_keys": [
+            {
+                "column": "entire",
+                "references": "begin"
+            }
+        ]
+    },
+    {
+        "name": "begin",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "newspaper",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "seem"
+            }
+        ]
+    },
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "glass",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "glass",
+        "foreign_keys": [
+            {
+                "column": "glass",
+                "references": "help"
+            }
+        ]
+    },
+    {
+        "name": "help",
+        "columns": [
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "year",
+        "foreign_keys": [
+            {
+                "column": "year",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "TV",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "TV",
+        "foreign_keys": [
+            {
+                "column": "TV",
+                "references": "where"
+            }
+        ]
+    }
+]

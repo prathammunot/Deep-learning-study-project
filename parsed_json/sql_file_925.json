@@ -1,0 +1,127 @@
+[
+    {
+        "name": "but",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "owner"
+            }
+        ]
+    },
+    {
+        "name": "owner",
+        "columns": [
+            {
+                "name": "statement",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "statement",
+        "foreign_keys": [
+            {
+                "column": "statement",
+                "references": "hear"
+            }
+        ]
+    },
+    {
+        "name": "hear",
+        "columns": [
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "onto",
+        "foreign_keys": [
+            {
+                "column": "onto",
+                "references": "long"
+            }
+        ]
+    },
+    {
+        "name": "long",
+        "columns": [
+            {
+                "name": "artist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "artist",
+        "foreign_keys": [
+            {
+                "column": "artist",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "condition",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "free",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "condition",
+        "foreign_keys": [
+            {
+                "column": "condition",
+                "references": "but"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "center",
+        "columns": [
+            {
+                "name": "base",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "force",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "base",
+        "foreign_keys": [
+            {
+                "column": "base",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "trade",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trade",
+        "foreign_keys": [
+            {
+                "column": "trade",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "property",
+        "foreign_keys": [
+            {
+                "column": "property",
+                "references": "issue"
+            }
+        ]
+    },
+    {
+        "name": "issue",
+        "columns": [
+            {
+                "name": "follow",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "follow",
+        "foreign_keys": [
+            {
+                "column": "follow",
+                "references": "option"
+            }
+        ]
+    },
+    {
+        "name": "option",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "line",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "line",
+        "foreign_keys": [
+            {
+                "column": "line",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "television",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "individual",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "option",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "individual",
+        "foreign_keys": [
+            {
+                "column": "individual",
+                "references": "stand"
+            }
+        ]
+    },
+    {
+        "name": "stand",
+        "columns": [
+            {
+                "name": "manager",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "manager",
+        "foreign_keys": [
+            {
+                "column": "manager",
+                "references": "deal"
+            }
+        ]
+    },
+    {
+        "name": "deal",
+        "columns": [
+            {
+                "name": "become",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "become",
+        "foreign_keys": [
+            {
+                "column": "become",
+                "references": "center"
+            }
+        ]
+    }
+]

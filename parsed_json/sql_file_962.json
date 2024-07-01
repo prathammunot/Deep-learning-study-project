@@ -1,0 +1,176 @@
+[
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everybody",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "raise"
+            }
+        ]
+    },
+    {
+        "name": "raise",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "car"
+            }
+        ]
+    },
+    {
+        "name": "car",
+        "columns": [
+            {
+                "name": "television",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "city"
+            }
+        ]
+    },
+    {
+        "name": "city",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "whom"
+            }
+        ]
+    },
+    {
+        "name": "whom",
+        "columns": [
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "language",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "Republican"
+            }
+        ]
+    },
+    {
+        "name": "Republican",
+        "columns": [
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "capital",
+        "foreign_keys": [
+            {
+                "column": "capital",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agent",
+        "foreign_keys": [
+            {
+                "column": "agent",
+                "references": "scene"
+            }
+        ]
+    }
+]

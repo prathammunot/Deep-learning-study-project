@@ -1,0 +1,127 @@
+[
+    {
+        "name": "former",
+        "columns": [
+            {
+                "name": "that",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "that",
+        "foreign_keys": [
+            {
+                "column": "that",
+                "references": "represent"
+            }
+        ]
+    },
+    {
+        "name": "represent",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "write"
+            }
+        ]
+    },
+    {
+        "name": "write",
+        "columns": [
+            {
+                "name": "policy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "policy",
+        "foreign_keys": [
+            {
+                "column": "policy",
+                "references": "statement"
+            }
+        ]
+    },
+    {
+        "name": "statement",
+        "columns": [
+            {
+                "name": "happen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "happen",
+        "foreign_keys": [
+            {
+                "column": "happen",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sea",
+        "foreign_keys": [
+            {
+                "column": "sea",
+                "references": "former"
+            }
+        ]
+    }
+]

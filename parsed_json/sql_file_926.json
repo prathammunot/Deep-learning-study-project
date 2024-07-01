@@ -1,0 +1,198 @@
+[
+    {
+        "name": "less",
+        "columns": [
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maybe",
+        "foreign_keys": [
+            {
+                "column": "maybe",
+                "references": "relate"
+            }
+        ]
+    },
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "next",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "light"
+            }
+        ]
+    },
+    {
+        "name": "light",
+        "columns": [
+            {
+                "name": "just",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "just",
+        "foreign_keys": [
+            {
+                "column": "just",
+                "references": "concern"
+            }
+        ]
+    },
+    {
+        "name": "concern",
+        "columns": [
+            {
+                "name": "indeed",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "indeed",
+        "foreign_keys": [
+            {
+                "column": "indeed",
+                "references": "staff"
+            }
+        ]
+    },
+    {
+        "name": "staff",
+        "columns": [
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "movement",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "end"
+            }
+        ]
+    },
+    {
+        "name": "end",
+        "columns": [
+            {
+                "name": "board",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "board",
+        "foreign_keys": [
+            {
+                "column": "board",
+                "references": "without"
+            }
+        ]
+    },
+    {
+        "name": "without",
+        "columns": [
+            {
+                "name": "hand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hand",
+        "foreign_keys": [
+            {
+                "column": "hand",
+                "references": "couple"
+            }
+        ]
+    },
+    {
+        "name": "couple",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "less"
+            }
+        ]
+    }
+]

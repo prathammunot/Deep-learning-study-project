@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Congress",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "support"
+            }
+        ]
+    },
+    {
+        "name": "support",
+        "columns": [
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "benefit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "spend",
+        "foreign_keys": [
+            {
+                "column": "spend",
+                "references": "through"
+            }
+        ]
+    },
+    {
+        "name": "through",
+        "columns": [
+            {
+                "name": "discover",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "discover",
+        "foreign_keys": [
+            {
+                "column": "discover",
+                "references": "resource"
+            }
+        ]
+    },
+    {
+        "name": "resource",
+        "columns": [
+            {
+                "name": "age",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "official"
+            }
+        ]
+    },
+    {
+        "name": "official",
+        "columns": [
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "of",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "best",
+        "foreign_keys": [
+            {
+                "column": "best",
+                "references": "training"
+            }
+        ]
+    },
+    {
+        "name": "training",
+        "columns": [
+            {
+                "name": "meeting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "meeting",
+        "foreign_keys": [
+            {
+                "column": "meeting",
+                "references": "point"
+            }
+        ]
+    },
+    {
+        "name": "point",
+        "columns": [
+            {
+                "name": "actually",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "actually",
+        "foreign_keys": [
+            {
+                "column": "actually",
+                "references": "training"
+            }
+        ]
+    },
+    {
+        "name": "training",
+        "columns": [
+            {
+                "name": "only",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "only",
+        "foreign_keys": [
+            {
+                "column": "only",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "fast",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fast",
+        "foreign_keys": [
+            {
+                "column": "fast",
+                "references": "hope"
+            }
+        ]
+    },
+    {
+        "name": "hope",
+        "columns": [
+            {
+                "name": "voice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "buy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "voice",
+        "foreign_keys": [
+            {
+                "column": "voice",
+                "references": "Congress"
+            }
+        ]
+    }
+]

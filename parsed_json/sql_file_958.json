@@ -1,0 +1,225 @@
+[
+    {
+        "name": "pattern",
+        "columns": [
+            {
+                "name": "public",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "public",
+        "foreign_keys": [
+            {
+                "column": "public",
+                "references": "affect"
+            }
+        ]
+    },
+    {
+        "name": "affect",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "guess"
+            }
+        ]
+    },
+    {
+        "name": "guess",
+        "columns": [
+            {
+                "name": "own",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "own",
+        "foreign_keys": [
+            {
+                "column": "own",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "red",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "much"
+            }
+        ]
+    },
+    {
+        "name": "much",
+        "columns": [
+            {
+                "name": "perform",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "perform",
+        "foreign_keys": [
+            {
+                "column": "perform",
+                "references": "former"
+            }
+        ]
+    },
+    {
+        "name": "former",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "produce"
+            }
+        ]
+    },
+    {
+        "name": "produce",
+        "columns": [
+            {
+                "name": "evening",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "evening",
+        "foreign_keys": [
+            {
+                "column": "evening",
+                "references": "everybody"
+            }
+        ]
+    },
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "make",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "make",
+        "foreign_keys": [
+            {
+                "column": "make",
+                "references": "level"
+            }
+        ]
+    },
+    {
+        "name": "level",
+        "columns": [
+            {
+                "name": "reflect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reflect",
+        "foreign_keys": [
+            {
+                "column": "reflect",
+                "references": "pattern"
+            }
+        ]
+    }
+]

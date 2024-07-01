@@ -1,0 +1,225 @@
+[
+    {
+        "name": "that",
+        "columns": [
+            {
+                "name": "have",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "have",
+        "foreign_keys": [
+            {
+                "column": "have",
+                "references": "race"
+            }
+        ]
+    },
+    {
+        "name": "race",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hit",
+        "foreign_keys": [
+            {
+                "column": "hit",
+                "references": "say"
+            }
+        ]
+    },
+    {
+        "name": "say",
+        "columns": [
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "buy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "professor",
+        "foreign_keys": [
+            {
+                "column": "professor",
+                "references": "girl"
+            }
+        ]
+    },
+    {
+        "name": "girl",
+        "columns": [
+            {
+                "name": "thus",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "analysis",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thus",
+        "foreign_keys": [
+            {
+                "column": "thus",
+                "references": "space"
+            }
+        ]
+    },
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "rise",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rise",
+        "foreign_keys": [
+            {
+                "column": "rise",
+                "references": "before"
+            }
+        ]
+    },
+    {
+        "name": "before",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "yes"
+            }
+        ]
+    },
+    {
+        "name": "yes",
+        "columns": [
+            {
+                "name": "today",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "today",
+        "foreign_keys": [
+            {
+                "column": "today",
+                "references": "TV"
+            }
+        ]
+    },
+    {
+        "name": "TV",
+        "columns": [
+            {
+                "name": "without",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "without",
+        "foreign_keys": [
+            {
+                "column": "without",
+                "references": "that"
+            }
+        ]
+    }
+]

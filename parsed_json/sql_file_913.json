@@ -1,0 +1,127 @@
+[
+    {
+        "name": "others",
+        "columns": [
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "minute"
+            }
+        ]
+    },
+    {
+        "name": "minute",
+        "columns": [
+            {
+                "name": "hot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hot",
+        "foreign_keys": [
+            {
+                "column": "hot",
+                "references": "land"
+            }
+        ]
+    },
+    {
+        "name": "land",
+        "columns": [
+            {
+                "name": "quality",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quality",
+        "foreign_keys": [
+            {
+                "column": "quality",
+                "references": "bank"
+            }
+        ]
+    },
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "company",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "company",
+        "foreign_keys": [
+            {
+                "column": "company",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "energy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "energy",
+        "foreign_keys": [
+            {
+                "column": "energy",
+                "references": "others"
+            }
+        ]
+    }
+]

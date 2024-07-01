@@ -1,0 +1,296 @@
+[
+    {
+        "name": "seek",
+        "columns": [
+            {
+                "name": "suddenly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "see",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suddenly",
+        "foreign_keys": [
+            {
+                "column": "suddenly",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "still",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "still",
+        "foreign_keys": [
+            {
+                "column": "still",
+                "references": "other"
+            }
+        ]
+    },
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "station",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "station",
+        "foreign_keys": [
+            {
+                "column": "station",
+                "references": "benefit"
+            }
+        ]
+    },
+    {
+        "name": "benefit",
+        "columns": [
+            {
+                "name": "politics",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "better",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "politics",
+        "foreign_keys": [
+            {
+                "column": "politics",
+                "references": "almost"
+            }
+        ]
+    },
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "apply",
+        "foreign_keys": [
+            {
+                "column": "apply",
+                "references": "end"
+            }
+        ]
+    },
+    {
+        "name": "end",
+        "columns": [
+            {
+                "name": "size",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "say",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "size",
+        "foreign_keys": [
+            {
+                "column": "size",
+                "references": "prove"
+            }
+        ]
+    },
+    {
+        "name": "prove",
+        "columns": [
+            {
+                "name": "morning",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "morning",
+        "foreign_keys": [
+            {
+                "column": "morning",
+                "references": "along"
+            }
+        ]
+    },
+    {
+        "name": "along",
+        "columns": [
+            {
+                "name": "let",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "let",
+        "foreign_keys": [
+            {
+                "column": "let",
+                "references": "concern"
+            }
+        ]
+    },
+    {
+        "name": "concern",
+        "columns": [
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "image",
+        "foreign_keys": [
+            {
+                "column": "image",
+                "references": "which"
+            }
+        ]
+    },
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "security",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "security",
+        "foreign_keys": [
+            {
+                "column": "security",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cost",
+        "foreign_keys": [
+            {
+                "column": "cost",
+                "references": "administration"
+            }
+        ]
+    },
+    {
+        "name": "administration",
+        "columns": [
+            {
+                "name": "remember",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "remember",
+        "foreign_keys": [
+            {
+                "column": "remember",
+                "references": "seek"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "care"
+            }
+        ]
+    },
+    {
+        "name": "care",
+        "columns": [
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suggest",
+        "foreign_keys": [
+            {
+                "column": "suggest",
+                "references": "reason"
+            }
+        ]
+    },
+    {
+        "name": "reason",
+        "columns": [
+            {
+                "name": "social",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "social",
+        "foreign_keys": [
+            {
+                "column": "social",
+                "references": "his"
+            }
+        ]
+    },
+    {
+        "name": "his",
+        "columns": [
+            {
+                "name": "international",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "international",
+        "foreign_keys": [
+            {
+                "column": "international",
+                "references": "continue"
+            }
+        ]
+    },
+    {
+        "name": "continue",
+        "columns": [
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "test"
+            }
+        ]
+    },
+    {
+        "name": "test",
+        "columns": [
+            {
+                "name": "deep",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deep",
+        "foreign_keys": [
+            {
+                "column": "deep",
+                "references": "change"
+            }
+        ]
+    },
+    {
+        "name": "change",
+        "columns": [
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "level",
+        "foreign_keys": [
+            {
+                "column": "level",
+                "references": "idea"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "factor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "range"
+            }
+        ]
+    },
+    {
+        "name": "range",
+        "columns": [
+            {
+                "name": "six",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "six",
+        "foreign_keys": [
+            {
+                "column": "six",
+                "references": "without"
+            }
+        ]
+    },
+    {
+        "name": "without",
+        "columns": [
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "catch"
+            }
+        ]
+    },
+    {
+        "name": "catch",
+        "columns": [
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "defense"
+            }
+        ]
+    },
+    {
+        "name": "defense",
+        "columns": [
+            {
+                "name": "where",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "listen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "where",
+        "foreign_keys": [
+            {
+                "column": "where",
+                "references": "mind"
+            }
+        ]
+    },
+    {
+        "name": "mind",
+        "columns": [
+            {
+                "name": "nearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nearly",
+        "foreign_keys": [
+            {
+                "column": "nearly",
+                "references": "step"
+            }
+        ]
+    },
+    {
+        "name": "step",
+        "columns": [
+            {
+                "name": "future",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "future",
+        "foreign_keys": [
+            {
+                "column": "future",
+                "references": "part"
+            }
+        ]
+    }
+]

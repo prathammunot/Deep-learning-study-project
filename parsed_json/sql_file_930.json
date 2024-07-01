@@ -1,0 +1,247 @@
+[
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "opportunity"
+            }
+        ]
+    },
+    {
+        "name": "opportunity",
+        "columns": [
+            {
+                "name": "into",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "into",
+        "foreign_keys": [
+            {
+                "column": "into",
+                "references": "peace"
+            }
+        ]
+    },
+    {
+        "name": "peace",
+        "columns": [
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "door",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "food",
+        "foreign_keys": [
+            {
+                "column": "food",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "president",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "president",
+        "foreign_keys": [
+            {
+                "column": "president",
+                "references": "movie"
+            }
+        ]
+    },
+    {
+        "name": "movie",
+        "columns": [
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "option",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "customer"
+            }
+        ]
+    },
+    {
+        "name": "customer",
+        "columns": [
+            {
+                "name": "news",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "news",
+        "foreign_keys": [
+            {
+                "column": "news",
+                "references": "mind"
+            }
+        ]
+    },
+    {
+        "name": "mind",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "son",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "stage"
+            }
+        ]
+    },
+    {
+        "name": "stage",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "middle"
+            }
+        ]
+    },
+    {
+        "name": "middle",
+        "columns": [
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "letter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "likely",
+        "foreign_keys": [
+            {
+                "column": "likely",
+                "references": "institution"
+            }
+        ]
+    },
+    {
+        "name": "institution",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "total"
+            }
+        ]
+    }
+]

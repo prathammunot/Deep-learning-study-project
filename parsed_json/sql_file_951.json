@@ -1,0 +1,149 @@
+[
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "good",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "good",
+        "foreign_keys": [
+            {
+                "column": "good",
+                "references": "paper"
+            }
+        ]
+    },
+    {
+        "name": "paper",
+        "columns": [
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "nor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hotel",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nor",
+        "foreign_keys": [
+            {
+                "column": "nor",
+                "references": "draw"
+            }
+        ]
+    },
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "what",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "what",
+        "foreign_keys": [
+            {
+                "column": "what",
+                "references": "positive"
+            }
+        ]
+    },
+    {
+        "name": "positive",
+        "columns": [
+            {
+                "name": "good",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "good",
+        "foreign_keys": [
+            {
+                "column": "good",
+                "references": "tough"
+            }
+        ]
+    },
+    {
+        "name": "tough",
+        "columns": [
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "media"
+            }
+        ]
+    }
+]

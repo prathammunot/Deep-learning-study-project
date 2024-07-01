@@ -1,0 +1,176 @@
+[
+    {
+        "name": "remain",
+        "columns": [
+            {
+                "name": "cell",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cell",
+        "foreign_keys": [
+            {
+                "column": "cell",
+                "references": "option"
+            }
+        ]
+    },
+    {
+        "name": "option",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "development",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "itself",
+        "foreign_keys": [
+            {
+                "column": "itself",
+                "references": "world"
+            }
+        ]
+    },
+    {
+        "name": "world",
+        "columns": [
+            {
+                "name": "budget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "budget",
+        "foreign_keys": [
+            {
+                "column": "budget",
+                "references": "cover"
+            }
+        ]
+    },
+    {
+        "name": "cover",
+        "columns": [
+            {
+                "name": "begin",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "begin",
+        "foreign_keys": [
+            {
+                "column": "begin",
+                "references": "I"
+            }
+        ]
+    },
+    {
+        "name": "I",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wonder",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "century"
+            }
+        ]
+    },
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "either",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "either",
+        "foreign_keys": [
+            {
+                "column": "either",
+                "references": "remain"
+            }
+        ]
+    }
+]

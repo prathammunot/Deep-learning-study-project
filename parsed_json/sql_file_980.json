@@ -1,0 +1,225 @@
+[
+    {
+        "name": "listen",
+        "columns": [
+            {
+                "name": "admit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "figure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "admit",
+        "foreign_keys": [
+            {
+                "column": "admit",
+                "references": "population"
+            }
+        ]
+    },
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "past",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "past",
+        "foreign_keys": [
+            {
+                "column": "past",
+                "references": "store"
+            }
+        ]
+    },
+    {
+        "name": "store",
+        "columns": [
+            {
+                "name": "defense",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "be",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "defense",
+        "foreign_keys": [
+            {
+                "column": "defense",
+                "references": "doctor"
+            }
+        ]
+    },
+    {
+        "name": "doctor",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tax",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "would"
+            }
+        ]
+    },
+    {
+        "name": "would",
+        "columns": [
+            {
+                "name": "technology",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "technology",
+        "foreign_keys": [
+            {
+                "column": "technology",
+                "references": "collection"
+            }
+        ]
+    },
+    {
+        "name": "collection",
+        "columns": [
+            {
+                "name": "ago",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ago",
+        "foreign_keys": [
+            {
+                "column": "ago",
+                "references": "few"
+            }
+        ]
+    },
+    {
+        "name": "few",
+        "columns": [
+            {
+                "name": "stock",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "laugh",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stock",
+        "foreign_keys": [
+            {
+                "column": "stock",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "together",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "together",
+        "foreign_keys": [
+            {
+                "column": "together",
+                "references": "radio"
+            }
+        ]
+    },
+    {
+        "name": "radio",
+        "columns": [
+            {
+                "name": "church",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thus",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "church",
+        "foreign_keys": [
+            {
+                "column": "church",
+                "references": "listen"
+            }
+        ]
+    }
+]

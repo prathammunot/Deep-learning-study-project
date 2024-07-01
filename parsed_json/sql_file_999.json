@@ -1,0 +1,225 @@
+[
+    {
+        "name": "ability",
+        "columns": [
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "best",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "their",
+        "foreign_keys": [
+            {
+                "column": "their",
+                "references": "sense"
+            }
+        ]
+    },
+    {
+        "name": "sense",
+        "columns": [
+            {
+                "name": "teach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "teach",
+        "foreign_keys": [
+            {
+                "column": "teach",
+                "references": "road"
+            }
+        ]
+    },
+    {
+        "name": "road",
+        "columns": [
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "peace",
+        "foreign_keys": [
+            {
+                "column": "peace",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "most",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "outside",
+        "foreign_keys": [
+            {
+                "column": "outside",
+                "references": "upon"
+            }
+        ]
+    },
+    {
+        "name": "upon",
+        "columns": [
+            {
+                "name": "he",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "he",
+        "foreign_keys": [
+            {
+                "column": "he",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "question"
+            }
+        ]
+    },
+    {
+        "name": "question",
+        "columns": [
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "strategy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "modern",
+        "foreign_keys": [
+            {
+                "column": "modern",
+                "references": "money"
+            }
+        ]
+    },
+    {
+        "name": "money",
+        "columns": [
+            {
+                "name": "guess",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "guess",
+        "foreign_keys": [
+            {
+                "column": "guess",
+                "references": "cold"
+            }
+        ]
+    },
+    {
+        "name": "cold",
+        "columns": [
+            {
+                "name": "environmental",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environmental",
+        "foreign_keys": [
+            {
+                "column": "environmental",
+                "references": "ability"
+            }
+        ]
+    }
+]

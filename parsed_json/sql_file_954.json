@@ -1,0 +1,296 @@
+[
+    {
+        "name": "majority",
+        "columns": [
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everything",
+        "foreign_keys": [
+            {
+                "column": "everything",
+                "references": "red"
+            }
+        ]
+    },
+    {
+        "name": "red",
+        "columns": [
+            {
+                "name": "decide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "know",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decide",
+        "foreign_keys": [
+            {
+                "column": "decide",
+                "references": "system"
+            }
+        ]
+    },
+    {
+        "name": "system",
+        "columns": [
+            {
+                "name": "party",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "color",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "party",
+        "foreign_keys": [
+            {
+                "column": "party",
+                "references": "country"
+            }
+        ]
+    },
+    {
+        "name": "country",
+        "columns": [
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "west"
+            }
+        ]
+    },
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "record",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "record",
+        "foreign_keys": [
+            {
+                "column": "record",
+                "references": "vote"
+            }
+        ]
+    },
+    {
+        "name": "vote",
+        "columns": [
+            {
+                "name": "full",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "full",
+        "foreign_keys": [
+            {
+                "column": "full",
+                "references": "indeed"
+            }
+        ]
+    },
+    {
+        "name": "indeed",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "method",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "method",
+        "foreign_keys": [
+            {
+                "column": "method",
+                "references": "piece"
+            }
+        ]
+    },
+    {
+        "name": "piece",
+        "columns": [
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "alone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "detail",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "perhaps",
+        "foreign_keys": [
+            {
+                "column": "perhaps",
+                "references": "while"
+            }
+        ]
+    },
+    {
+        "name": "while",
+        "columns": [
+            {
+                "name": "send",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "red",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "send",
+        "foreign_keys": [
+            {
+                "column": "send",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "grow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "grow",
+        "foreign_keys": [
+            {
+                "column": "grow",
+                "references": "west"
+            }
+        ]
+    },
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "he",
+        "foreign_keys": [
+            {
+                "column": "he",
+                "references": "majority"
+            }
+        ]
+    }
+]

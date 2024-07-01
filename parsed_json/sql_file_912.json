@@ -1,0 +1,225 @@
+[
+    {
+        "name": "energy",
+        "columns": [
+            {
+                "name": "realize",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "realize",
+        "foreign_keys": [
+            {
+                "column": "realize",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "especially"
+            }
+        ]
+    },
+    {
+        "name": "especially",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "new"
+            }
+        ]
+    },
+    {
+        "name": "new",
+        "columns": [
+            {
+                "name": "any",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "really"
+            }
+        ]
+    },
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "young",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "young",
+        "foreign_keys": [
+            {
+                "column": "young",
+                "references": "with"
+            }
+        ]
+    },
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "foot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "foot",
+        "foreign_keys": [
+            {
+                "column": "foot",
+                "references": "more"
+            }
+        ]
+    },
+    {
+        "name": "more",
+        "columns": [
+            {
+                "name": "affect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "key",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "affect",
+        "foreign_keys": [
+            {
+                "column": "affect",
+                "references": "thus"
+            }
+        ]
+    },
+    {
+        "name": "thus",
+        "columns": [
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "product"
+            }
+        ]
+    },
+    {
+        "name": "product",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "data",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "energy"
+            }
+        ]
+    }
+]

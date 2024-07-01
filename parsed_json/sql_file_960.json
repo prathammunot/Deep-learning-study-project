@@ -1,0 +1,247 @@
+[
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "amount",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "amount",
+        "foreign_keys": [
+            {
+                "column": "amount",
+                "references": "toward"
+            }
+        ]
+    },
+    {
+        "name": "toward",
+        "columns": [
+            {
+                "name": "morning",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "morning",
+        "foreign_keys": [
+            {
+                "column": "morning",
+                "references": "shake"
+            }
+        ]
+    },
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "lose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lose",
+        "foreign_keys": [
+            {
+                "column": "lose",
+                "references": "car"
+            }
+        ]
+    },
+    {
+        "name": "car",
+        "columns": [
+            {
+                "name": "section",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "section",
+        "foreign_keys": [
+            {
+                "column": "section",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "indeed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "special",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indeed",
+        "foreign_keys": [
+            {
+                "column": "indeed",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "capital",
+        "foreign_keys": [
+            {
+                "column": "capital",
+                "references": "material"
+            }
+        ]
+    },
+    {
+        "name": "material",
+        "columns": [
+            {
+                "name": "common",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "center"
+            }
+        ]
+    },
+    {
+        "name": "center",
+        "columns": [
+            {
+                "name": "which",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "theory",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "which",
+        "foreign_keys": [
+            {
+                "column": "which",
+                "references": "law"
+            }
+        ]
+    },
+    {
+        "name": "law",
+        "columns": [
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "ask"
+            }
+        ]
+    },
+    {
+        "name": "ask",
+        "columns": [
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "option",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fine",
+        "foreign_keys": [
+            {
+                "column": "fine",
+                "references": "fire"
+            }
+        ]
+    }
+]

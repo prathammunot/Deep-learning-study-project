@@ -1,0 +1,198 @@
+[
+    {
+        "name": "knowledge",
+        "columns": [
+            {
+                "name": "me",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "me",
+        "foreign_keys": [
+            {
+                "column": "me",
+                "references": "general"
+            }
+        ]
+    },
+    {
+        "name": "general",
+        "columns": [
+            {
+                "name": "behind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behind",
+        "foreign_keys": [
+            {
+                "column": "behind",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "type",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "drug",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wall",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "type",
+        "foreign_keys": [
+            {
+                "column": "type",
+                "references": "relate"
+            }
+        ]
+    },
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "marriage",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "speak",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "marriage",
+        "foreign_keys": [
+            {
+                "column": "marriage",
+                "references": "save"
+            }
+        ]
+    },
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "like",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "like",
+        "foreign_keys": [
+            {
+                "column": "like",
+                "references": "me"
+            }
+        ]
+    },
+    {
+        "name": "me",
+        "columns": [
+            {
+                "name": "soon",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "carry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "soon",
+        "foreign_keys": [
+            {
+                "column": "soon",
+                "references": "industry"
+            }
+        ]
+    },
+    {
+        "name": "industry",
+        "columns": [
+            {
+                "name": "challenge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everybody",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "challenge",
+        "foreign_keys": [
+            {
+                "column": "challenge",
+                "references": "person"
+            }
+        ]
+    },
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "realize",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "realize",
+        "foreign_keys": [
+            {
+                "column": "realize",
+                "references": "knowledge"
+            }
+        ]
+    }
+]

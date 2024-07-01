@@ -1,0 +1,225 @@
+[
+    {
+        "name": "company",
+        "columns": [
+            {
+                "name": "avoid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "avoid",
+        "foreign_keys": [
+            {
+                "column": "avoid",
+                "references": "opportunity"
+            }
+        ]
+    },
+    {
+        "name": "opportunity",
+        "columns": [
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "task",
+        "foreign_keys": [
+            {
+                "column": "task",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "practice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "practice",
+        "foreign_keys": [
+            {
+                "column": "practice",
+                "references": "magazine"
+            }
+        ]
+    },
+    {
+        "name": "magazine",
+        "columns": [
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "difficult",
+        "foreign_keys": [
+            {
+                "column": "difficult",
+                "references": "less"
+            }
+        ]
+    },
+    {
+        "name": "less",
+        "columns": [
+            {
+                "name": "something",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pull",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "something",
+        "foreign_keys": [
+            {
+                "column": "something",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "remember",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "remember",
+        "foreign_keys": [
+            {
+                "column": "remember",
+                "references": "but"
+            }
+        ]
+    },
+    {
+        "name": "but",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "development",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "couple",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "certain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "couple",
+        "foreign_keys": [
+            {
+                "column": "couple",
+                "references": "real"
+            }
+        ]
+    },
+    {
+        "name": "real",
+        "columns": [
+            {
+                "name": "wall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "together",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wall",
+        "foreign_keys": [
+            {
+                "column": "wall",
+                "references": "company"
+            }
+        ]
+    }
+]

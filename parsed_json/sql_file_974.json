@@ -1,0 +1,149 @@
+[
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "upon",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "upon",
+        "foreign_keys": [
+            {
+                "column": "upon",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "third",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "third",
+        "foreign_keys": [
+            {
+                "column": "third",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "story"
+            }
+        ]
+    },
+    {
+        "name": "story",
+        "columns": [
+            {
+                "name": "travel",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "travel",
+        "foreign_keys": [
+            {
+                "column": "travel",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "social",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "social",
+        "foreign_keys": [
+            {
+                "column": "social",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "perform"
+            }
+        ]
+    }
+]

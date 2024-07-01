@@ -1,0 +1,225 @@
+[
+    {
+        "name": "mind",
+        "columns": [
+            {
+                "name": "particularly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "particularly",
+        "foreign_keys": [
+            {
+                "column": "particularly",
+                "references": "traditional"
+            }
+        ]
+    },
+    {
+        "name": "traditional",
+        "columns": [
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "walk"
+            }
+        ]
+    },
+    {
+        "name": "walk",
+        "columns": [
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "occur",
+        "foreign_keys": [
+            {
+                "column": "occur",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "thus",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "guess",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thus",
+        "foreign_keys": [
+            {
+                "column": "thus",
+                "references": "act"
+            }
+        ]
+    },
+    {
+        "name": "act",
+        "columns": [
+            {
+                "name": "project",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "moment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "project",
+        "foreign_keys": [
+            {
+                "column": "project",
+                "references": "seven"
+            }
+        ]
+    },
+    {
+        "name": "seven",
+        "columns": [
+            {
+                "name": "from",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "from",
+        "foreign_keys": [
+            {
+                "column": "from",
+                "references": "leg"
+            }
+        ]
+    },
+    {
+        "name": "leg",
+        "columns": [
+            {
+                "name": "system",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "police",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "system",
+        "foreign_keys": [
+            {
+                "column": "system",
+                "references": "try"
+            }
+        ]
+    },
+    {
+        "name": "try",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "coach"
+            }
+        ]
+    },
+    {
+        "name": "coach",
+        "columns": [
+            {
+                "name": "various",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "mind"
+            }
+        ]
+    }
+]

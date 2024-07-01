@@ -1,0 +1,176 @@
+[
+    {
+        "name": "describe",
+        "columns": [
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "natural"
+            }
+        ]
+    },
+    {
+        "name": "natural",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "add"
+            }
+        ]
+    },
+    {
+        "name": "add",
+        "columns": [
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "accept"
+            }
+        ]
+    },
+    {
+        "name": "accept",
+        "columns": [
+            {
+                "name": "deep",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deep",
+        "foreign_keys": [
+            {
+                "column": "deep",
+                "references": "security"
+            }
+        ]
+    },
+    {
+        "name": "security",
+        "columns": [
+            {
+                "name": "structure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "structure",
+        "foreign_keys": [
+            {
+                "column": "structure",
+                "references": "low"
+            }
+        ]
+    },
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "he",
+        "foreign_keys": [
+            {
+                "column": "he",
+                "references": "firm"
+            }
+        ]
+    },
+    {
+        "name": "firm",
+        "columns": [
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "summer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "describe"
+            }
+        ]
+    }
+]

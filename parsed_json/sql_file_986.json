@@ -1,0 +1,296 @@
+[
+    {
+        "name": "front",
+        "columns": [
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sit",
+        "foreign_keys": [
+            {
+                "column": "sit",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "quickly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "quickly",
+        "foreign_keys": [
+            {
+                "column": "quickly",
+                "references": "artist"
+            }
+        ]
+    },
+    {
+        "name": "artist",
+        "columns": [
+            {
+                "name": "candidate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "candidate",
+        "foreign_keys": [
+            {
+                "column": "candidate",
+                "references": "need"
+            }
+        ]
+    },
+    {
+        "name": "need",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "story"
+            }
+        ]
+    },
+    {
+        "name": "story",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "field"
+            }
+        ]
+    },
+    {
+        "name": "field",
+        "columns": [
+            {
+                "name": "list",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "list",
+        "foreign_keys": [
+            {
+                "column": "list",
+                "references": "left"
+            }
+        ]
+    },
+    {
+        "name": "left",
+        "columns": [
+            {
+                "name": "health",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "health",
+        "foreign_keys": [
+            {
+                "column": "health",
+                "references": "concern"
+            }
+        ]
+    },
+    {
+        "name": "concern",
+        "columns": [
+            {
+                "name": "develop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "develop",
+        "foreign_keys": [
+            {
+                "column": "develop",
+                "references": "can"
+            }
+        ]
+    },
+    {
+        "name": "can",
+        "columns": [
+            {
+                "name": "win",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "coach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "win",
+        "foreign_keys": [
+            {
+                "column": "win",
+                "references": "stock"
+            }
+        ]
+    },
+    {
+        "name": "stock",
+        "columns": [
+            {
+                "name": "stop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stop",
+        "foreign_keys": [
+            {
+                "column": "stop",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "best",
+        "foreign_keys": [
+            {
+                "column": "best",
+                "references": "debate"
+            }
+        ]
+    },
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "conference",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "conference",
+        "foreign_keys": [
+            {
+                "column": "conference",
+                "references": "front"
+            }
+        ]
+    }
+]

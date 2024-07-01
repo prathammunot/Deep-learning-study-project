@@ -1,0 +1,274 @@
+[
+    {
+        "name": "conference",
+        "columns": [
+            {
+                "name": "long",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "generation"
+            }
+        ]
+    },
+    {
+        "name": "generation",
+        "columns": [
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "one",
+        "foreign_keys": [
+            {
+                "column": "one",
+                "references": "manager"
+            }
+        ]
+    },
+    {
+        "name": "manager",
+        "columns": [
+            {
+                "name": "series",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "series",
+        "foreign_keys": [
+            {
+                "column": "series",
+                "references": "teach"
+            }
+        ]
+    },
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "provide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "provide",
+        "foreign_keys": [
+            {
+                "column": "provide",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "those",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "likely",
+        "foreign_keys": [
+            {
+                "column": "likely",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "cup",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cup",
+        "foreign_keys": [
+            {
+                "column": "cup",
+                "references": "purpose"
+            }
+        ]
+    },
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "body",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "design"
+            }
+        ]
+    },
+    {
+        "name": "design",
+        "columns": [
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "drop",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nor",
+        "foreign_keys": [
+            {
+                "column": "nor",
+                "references": "whatever"
+            }
+        ]
+    },
+    {
+        "name": "whatever",
+        "columns": [
+            {
+                "name": "management",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "management",
+        "foreign_keys": [
+            {
+                "column": "management",
+                "references": "feel"
+            }
+        ]
+    },
+    {
+        "name": "feel",
+        "columns": [
+            {
+                "name": "trade",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trade",
+        "foreign_keys": [
+            {
+                "column": "trade",
+                "references": "happy"
+            }
+        ]
+    },
+    {
+        "name": "happy",
+        "columns": [
+            {
+                "name": "person",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "conference"
+            }
+        ]
+    }
+]

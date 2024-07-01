@@ -1,0 +1,225 @@
+[
+    {
+        "name": "resource",
+        "columns": [
+            {
+                "name": "such",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "executive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "such",
+        "foreign_keys": [
+            {
+                "column": "such",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "film",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pull",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "film",
+        "foreign_keys": [
+            {
+                "column": "film",
+                "references": "million"
+            }
+        ]
+    },
+    {
+        "name": "million",
+        "columns": [
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "professional",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "staff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "staff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "staff",
+        "foreign_keys": [
+            {
+                "column": "staff",
+                "references": "guess"
+            }
+        ]
+    },
+    {
+        "name": "guess",
+        "columns": [
+            {
+                "name": "own",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "own",
+        "foreign_keys": [
+            {
+                "column": "own",
+                "references": "child"
+            }
+        ]
+    },
+    {
+        "name": "child",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "son"
+            }
+        ]
+    },
+    {
+        "name": "son",
+        "columns": [
+            {
+                "name": "experience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "experience",
+        "foreign_keys": [
+            {
+                "column": "experience",
+                "references": "they"
+            }
+        ]
+    },
+    {
+        "name": "they",
+        "columns": [
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mission",
+        "foreign_keys": [
+            {
+                "column": "mission",
+                "references": "public"
+            }
+        ]
+    },
+    {
+        "name": "public",
+        "columns": [
+            {
+                "name": "ok",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ok",
+        "foreign_keys": [
+            {
+                "column": "ok",
+                "references": "resource"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "paper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "paper",
+        "foreign_keys": [
+            {
+                "column": "paper",
+                "references": "not"
+            }
+        ]
+    },
+    {
+        "name": "not",
+        "columns": [
+            {
+                "name": "good",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "good",
+        "foreign_keys": [
+            {
+                "column": "good",
+                "references": "rate"
+            }
+        ]
+    },
+    {
+        "name": "rate",
+        "columns": [
+            {
+                "name": "send",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "send",
+        "foreign_keys": [
+            {
+                "column": "send",
+                "references": "road"
+            }
+        ]
+    },
+    {
+        "name": "road",
+        "columns": [
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "run",
+        "foreign_keys": [
+            {
+                "column": "run",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "wonder",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wonder",
+        "foreign_keys": [
+            {
+                "column": "wonder",
+                "references": "everything"
+            }
+        ]
+    },
+    {
+        "name": "everything",
+        "columns": [
+            {
+                "name": "speech",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "management",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "speech",
+        "foreign_keys": [
+            {
+                "column": "speech",
+                "references": "ask"
+            }
+        ]
+    },
+    {
+        "name": "ask",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "theory",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "kitchen"
+            }
+        ]
+    },
+    {
+        "name": "kitchen",
+        "columns": [
+            {
+                "name": "officer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "officer",
+        "foreign_keys": [
+            {
+                "column": "officer",
+                "references": "those"
+            }
+        ]
+    },
+    {
+        "name": "those",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "entire"
+            }
+        ]
+    }
+]

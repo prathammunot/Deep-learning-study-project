@@ -1,0 +1,296 @@
+[
+    {
+        "name": "big",
+        "columns": [
+            {
+                "name": "say",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "half",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "say",
+        "foreign_keys": [
+            {
+                "column": "say",
+                "references": "market"
+            }
+        ]
+    },
+    {
+        "name": "market",
+        "columns": [
+            {
+                "name": "family",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "family",
+        "foreign_keys": [
+            {
+                "column": "family",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "size",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "window",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "size",
+        "foreign_keys": [
+            {
+                "column": "size",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "religious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "religious",
+        "foreign_keys": [
+            {
+                "column": "religious",
+                "references": "cut"
+            }
+        ]
+    },
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "but",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "but",
+        "foreign_keys": [
+            {
+                "column": "but",
+                "references": "have"
+            }
+        ]
+    },
+    {
+        "name": "have",
+        "columns": [
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "member",
+        "foreign_keys": [
+            {
+                "column": "member",
+                "references": "trouble"
+            }
+        ]
+    },
+    {
+        "name": "trouble",
+        "columns": [
+            {
+                "name": "full",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "full",
+        "foreign_keys": [
+            {
+                "column": "full",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "night"
+            }
+        ]
+    },
+    {
+        "name": "night",
+        "columns": [
+            {
+                "name": "media",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "lay"
+            }
+        ]
+    },
+    {
+        "name": "lay",
+        "columns": [
+            {
+                "name": "detail",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "detail",
+        "foreign_keys": [
+            {
+                "column": "detail",
+                "references": "these"
+            }
+        ]
+    },
+    {
+        "name": "these",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "great",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "hot"
+            }
+        ]
+    },
+    {
+        "name": "hot",
+        "columns": [
+            {
+                "name": "include",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "include",
+        "foreign_keys": [
+            {
+                "column": "include",
+                "references": "big"
+            }
+        ]
+    }
+]

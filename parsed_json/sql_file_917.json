@@ -1,0 +1,127 @@
+[
+    {
+        "name": "institution",
+        "columns": [
+            {
+                "name": "management",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "newspaper",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "management",
+        "foreign_keys": [
+            {
+                "column": "management",
+                "references": "both"
+            }
+        ]
+    },
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "fast",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fast",
+        "foreign_keys": [
+            {
+                "column": "fast",
+                "references": "capital"
+            }
+        ]
+    },
+    {
+        "name": "capital",
+        "columns": [
+            {
+                "name": "responsibility",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nothing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "responsibility",
+        "foreign_keys": [
+            {
+                "column": "responsibility",
+                "references": "cause"
+            }
+        ]
+    },
+    {
+        "name": "cause",
+        "columns": [
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "season"
+            }
+        ]
+    },
+    {
+        "name": "season",
+        "columns": [
+            {
+                "name": "soldier",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "speak",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "soldier",
+        "foreign_keys": [
+            {
+                "column": "soldier",
+                "references": "institution"
+            }
+        ]
+    }
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "name": "consumer",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "resource",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "resource",
+        "foreign_keys": [
+            {
+                "column": "resource",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "once",
+        "foreign_keys": [
+            {
+                "column": "once",
+                "references": "six"
+            }
+        ]
+    },
+    {
+        "name": "six",
+        "columns": [
+            {
+                "name": "change",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "especially",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "especially",
+        "foreign_keys": [
+            {
+                "column": "especially",
+                "references": "condition"
+            }
+        ]
+    },
+    {
+        "name": "condition",
+        "columns": [
+            {
+                "name": "across",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "across",
+        "foreign_keys": [
+            {
+                "column": "across",
+                "references": "some"
+            }
+        ]
+    },
+    {
+        "name": "some",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "child"
+            }
+        ]
+    },
+    {
+        "name": "child",
+        "columns": [
+            {
+                "name": "century",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "century",
+        "foreign_keys": [
+            {
+                "column": "century",
+                "references": "business"
+            }
+        ]
+    },
+    {
+        "name": "business",
+        "columns": [
+            {
+                "name": "success",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "glass",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "current",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "success",
+        "foreign_keys": [
+            {
+                "column": "success",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "them",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "them",
+        "foreign_keys": [
+            {
+                "column": "them",
+                "references": "information"
+            }
+        ]
+    },
+    {
+        "name": "information",
+        "columns": [
+            {
+                "name": "stock",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stock",
+        "foreign_keys": [
+            {
+                "column": "stock",
+                "references": "far"
+            }
+        ]
+    },
+    {
+        "name": "far",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "accept",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "consumer"
+            }
+        ]
+    }
+]

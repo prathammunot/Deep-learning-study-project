@@ -1,0 +1,127 @@
+[
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "believe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "believe",
+        "foreign_keys": [
+            {
+                "column": "believe",
+                "references": "until"
+            }
+        ]
+    },
+    {
+        "name": "until",
+        "columns": [
+            {
+                "name": "film",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "film",
+        "foreign_keys": [
+            {
+                "column": "film",
+                "references": "air"
+            }
+        ]
+    },
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "test"
+            }
+        ]
+    },
+    {
+        "name": "test",
+        "columns": [
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "life",
+        "foreign_keys": [
+            {
+                "column": "life",
+                "references": "couple"
+            }
+        ]
+    },
+    {
+        "name": "couple",
+        "columns": [
+            {
+                "name": "blood",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "drop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "blood",
+        "foreign_keys": [
+            {
+                "column": "blood",
+                "references": "ever"
+            }
+        ]
+    }
+]

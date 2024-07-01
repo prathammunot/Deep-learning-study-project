@@ -1,0 +1,176 @@
+[
+    {
+        "name": "range",
+        "columns": [
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whose",
+        "foreign_keys": [
+            {
+                "column": "whose",
+                "references": "then"
+            }
+        ]
+    },
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "someone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "someone",
+        "foreign_keys": [
+            {
+                "column": "someone",
+                "references": "man"
+            }
+        ]
+    },
+    {
+        "name": "man",
+        "columns": [
+            {
+                "name": "natural",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "deep",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "best",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "natural",
+        "foreign_keys": [
+            {
+                "column": "natural",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "serious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "serious",
+        "foreign_keys": [
+            {
+                "column": "serious",
+                "references": "none"
+            }
+        ]
+    },
+    {
+        "name": "none",
+        "columns": [
+            {
+                "name": "main",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "property",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "better",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "property",
+        "foreign_keys": [
+            {
+                "column": "property",
+                "references": "over"
+            }
+        ]
+    },
+    {
+        "name": "over",
+        "columns": [
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "water",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "inside",
+        "foreign_keys": [
+            {
+                "column": "inside",
+                "references": "range"
+            }
+        ]
+    }
+]

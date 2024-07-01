@@ -1,0 +1,296 @@
+[
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "in",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "in",
+        "foreign_keys": [
+            {
+                "column": "in",
+                "references": "Mr"
+            }
+        ]
+    },
+    {
+        "name": "Mr",
+        "columns": [
+            {
+                "name": "operation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "operation",
+        "foreign_keys": [
+            {
+                "column": "operation",
+                "references": "enter"
+            }
+        ]
+    },
+    {
+        "name": "enter",
+        "columns": [
+            {
+                "name": "employee",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "employee",
+        "foreign_keys": [
+            {
+                "column": "employee",
+                "references": "lawyer"
+            }
+        ]
+    },
+    {
+        "name": "lawyer",
+        "columns": [
+            {
+                "name": "discussion",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "discussion",
+        "foreign_keys": [
+            {
+                "column": "discussion",
+                "references": "tax"
+            }
+        ]
+    },
+    {
+        "name": "tax",
+        "columns": [
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "run",
+        "foreign_keys": [
+            {
+                "column": "run",
+                "references": "kind"
+            }
+        ]
+    },
+    {
+        "name": "kind",
+        "columns": [
+            {
+                "name": "determine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "determine",
+        "foreign_keys": [
+            {
+                "column": "determine",
+                "references": "perhaps"
+            }
+        ]
+    },
+    {
+        "name": "perhaps",
+        "columns": [
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "talk"
+            }
+        ]
+    },
+    {
+        "name": "talk",
+        "columns": [
+            {
+                "name": "institution",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "institution",
+        "foreign_keys": [
+            {
+                "column": "institution",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "growth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "term"
+            }
+        ]
+    },
+    {
+        "name": "term",
+        "columns": [
+            {
+                "name": "travel",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "travel",
+        "foreign_keys": [
+            {
+                "column": "travel",
+                "references": "determine"
+            }
+        ]
+    },
+    {
+        "name": "determine",
+        "columns": [
+            {
+                "name": "decide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "guess",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decide",
+        "foreign_keys": [
+            {
+                "column": "decide",
+                "references": "sure"
+            }
+        ]
+    },
+    {
+        "name": "sure",
+        "columns": [
+            {
+                "name": "land",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "land",
+        "foreign_keys": [
+            {
+                "column": "land",
+                "references": "purpose"
+            }
+        ]
+    }
+]

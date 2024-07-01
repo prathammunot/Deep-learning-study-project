@@ -1,0 +1,198 @@
+[
+    {
+        "name": "audience",
+        "columns": [
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "contain",
+        "foreign_keys": [
+            {
+                "column": "contain",
+                "references": "interesting"
+            }
+        ]
+    },
+    {
+        "name": "interesting",
+        "columns": [
+            {
+                "name": "effort",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "effort",
+        "foreign_keys": [
+            {
+                "column": "effort",
+                "references": "push"
+            }
+        ]
+    },
+    {
+        "name": "push",
+        "columns": [
+            {
+                "name": "brother",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "brother",
+        "foreign_keys": [
+            {
+                "column": "brother",
+                "references": "door"
+            }
+        ]
+    },
+    {
+        "name": "door",
+        "columns": [
+            {
+                "name": "very",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "very",
+        "foreign_keys": [
+            {
+                "column": "very",
+                "references": "star"
+            }
+        ]
+    },
+    {
+        "name": "star",
+        "columns": [
+            {
+                "name": "difficult",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "past",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "difficult",
+        "foreign_keys": [
+            {
+                "column": "difficult",
+                "references": "far"
+            }
+        ]
+    },
+    {
+        "name": "far",
+        "columns": [
+            {
+                "name": "woman",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "woman",
+        "foreign_keys": [
+            {
+                "column": "woman",
+                "references": "decide"
+            }
+        ]
+    },
+    {
+        "name": "decide",
+        "columns": [
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mind",
+        "foreign_keys": [
+            {
+                "column": "mind",
+                "references": "evening"
+            }
+        ]
+    },
+    {
+        "name": "evening",
+        "columns": [
+            {
+                "name": "series",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "series",
+        "foreign_keys": [
+            {
+                "column": "series",
+                "references": "audience"
+            }
+        ]
+    }
+]

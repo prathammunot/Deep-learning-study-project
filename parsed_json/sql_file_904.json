@@ -1,0 +1,274 @@
+[
+    {
+        "name": "perhaps",
+        "columns": [
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "per",
+        "foreign_keys": [
+            {
+                "column": "per",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "win",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "win",
+        "foreign_keys": [
+            {
+                "column": "win",
+                "references": "appear"
+            }
+        ]
+    },
+    {
+        "name": "appear",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "improve",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "read"
+            }
+        ]
+    },
+    {
+        "name": "read",
+        "columns": [
+            {
+                "name": "avoid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "avoid",
+        "foreign_keys": [
+            {
+                "column": "avoid",
+                "references": "owner"
+            }
+        ]
+    },
+    {
+        "name": "owner",
+        "columns": [
+            {
+                "name": "front",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "provide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "front",
+        "foreign_keys": [
+            {
+                "column": "front",
+                "references": "firm"
+            }
+        ]
+    },
+    {
+        "name": "firm",
+        "columns": [
+            {
+                "name": "glass",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "glass",
+        "foreign_keys": [
+            {
+                "column": "glass",
+                "references": "seek"
+            }
+        ]
+    },
+    {
+        "name": "seek",
+        "columns": [
+            {
+                "name": "poor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "poor",
+        "foreign_keys": [
+            {
+                "column": "poor",
+                "references": "between"
+            }
+        ]
+    },
+    {
+        "name": "between",
+        "columns": [
+            {
+                "name": "describe",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "describe",
+        "foreign_keys": [
+            {
+                "column": "describe",
+                "references": "can"
+            }
+        ]
+    },
+    {
+        "name": "can",
+        "columns": [
+            {
+                "name": "suddenly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "recognize",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suddenly",
+        "foreign_keys": [
+            {
+                "column": "suddenly",
+                "references": "stuff"
+            }
+        ]
+    },
+    {
+        "name": "stuff",
+        "columns": [
+            {
+                "name": "everything",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everything",
+        "foreign_keys": [
+            {
+                "column": "everything",
+                "references": "place"
+            }
+        ]
+    },
+    {
+        "name": "place",
+        "columns": [
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "while",
+        "foreign_keys": [
+            {
+                "column": "while",
+                "references": "perhaps"
+            }
+        ]
+    }
+]

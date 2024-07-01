@@ -1,0 +1,127 @@
+[
+    {
+        "name": "huge",
+        "columns": [
+            {
+                "name": "too",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "too",
+        "foreign_keys": [
+            {
+                "column": "too",
+                "references": "serve"
+            }
+        ]
+    },
+    {
+        "name": "serve",
+        "columns": [
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "open",
+        "foreign_keys": [
+            {
+                "column": "open",
+                "references": "commercial"
+            }
+        ]
+    },
+    {
+        "name": "commercial",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "second",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "state"
+            }
+        ]
+    },
+    {
+        "name": "state",
+        "columns": [
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "to",
+        "foreign_keys": [
+            {
+                "column": "to",
+                "references": "meeting"
+            }
+        ]
+    },
+    {
+        "name": "meeting",
+        "columns": [
+            {
+                "name": "rest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "admit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rest",
+        "foreign_keys": [
+            {
+                "column": "rest",
+                "references": "huge"
+            }
+        ]
+    }
+]

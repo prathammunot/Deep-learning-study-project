@@ -1,0 +1,296 @@
+[
+    {
+        "name": "various",
+        "columns": [
+            {
+                "name": "eat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eat",
+        "foreign_keys": [
+            {
+                "column": "eat",
+                "references": "feeling"
+            }
+        ]
+    },
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "sound",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sound",
+        "foreign_keys": [
+            {
+                "column": "sound",
+                "references": "none"
+            }
+        ]
+    },
+    {
+        "name": "none",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "structure"
+            }
+        ]
+    },
+    {
+        "name": "structure",
+        "columns": [
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "and",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "through"
+            }
+        ]
+    },
+    {
+        "name": "through",
+        "columns": [
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "oil",
+        "foreign_keys": [
+            {
+                "column": "oil",
+                "references": "approach"
+            }
+        ]
+    },
+    {
+        "name": "approach",
+        "columns": [
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everybody",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "or",
+        "foreign_keys": [
+            {
+                "column": "or",
+                "references": "southern"
+            }
+        ]
+    },
+    {
+        "name": "southern",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "whom"
+            }
+        ]
+    },
+    {
+        "name": "whom",
+        "columns": [
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "weight",
+        "foreign_keys": [
+            {
+                "column": "weight",
+                "references": "drive"
+            }
+        ]
+    },
+    {
+        "name": "drive",
+        "columns": [
+            {
+                "name": "establish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cultural",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "establish",
+        "foreign_keys": [
+            {
+                "column": "establish",
+                "references": "affect"
+            }
+        ]
+    },
+    {
+        "name": "affect",
+        "columns": [
+            {
+                "name": "indeed",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "indeed",
+        "foreign_keys": [
+            {
+                "column": "indeed",
+                "references": "media"
+            }
+        ]
+    },
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "just",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "notice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "just",
+        "foreign_keys": [
+            {
+                "column": "just",
+                "references": "east"
+            }
+        ]
+    },
+    {
+        "name": "east",
+        "columns": [
+            {
+                "name": "Republican",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Republican",
+        "foreign_keys": [
+            {
+                "column": "Republican",
+                "references": "various"
+            }
+        ]
+    }
+]
