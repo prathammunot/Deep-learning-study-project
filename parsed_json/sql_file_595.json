@@ -1,0 +1,198 @@
+[
+    {
+        "name": "story",
+        "columns": [
+            {
+                "name": "speak",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sometimes",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "speak",
+        "foreign_keys": [
+            {
+                "column": "speak",
+                "references": "woman"
+            }
+        ]
+    },
+    {
+        "name": "woman",
+        "columns": [
+            {
+                "name": "push",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "push",
+        "foreign_keys": [
+            {
+                "column": "push",
+                "references": "water"
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "columns": [
+            {
+                "name": "part",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "head",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "part",
+        "foreign_keys": [
+            {
+                "column": "part",
+                "references": "bag"
+            }
+        ]
+    },
+    {
+        "name": "bag",
+        "columns": [
+            {
+                "name": "better",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "better",
+        "foreign_keys": [
+            {
+                "column": "better",
+                "references": "position"
+            }
+        ]
+    },
+    {
+        "name": "position",
+        "columns": [
+            {
+                "name": "war",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ago",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "war",
+        "foreign_keys": [
+            {
+                "column": "war",
+                "references": "business"
+            }
+        ]
+    },
+    {
+        "name": "business",
+        "columns": [
+            {
+                "name": "trade",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trade",
+        "foreign_keys": [
+            {
+                "column": "trade",
+                "references": "positive"
+            }
+        ]
+    },
+    {
+        "name": "positive",
+        "columns": [
+            {
+                "name": "government",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "government",
+        "foreign_keys": [
+            {
+                "column": "government",
+                "references": "pattern"
+            }
+        ]
+    },
+    {
+        "name": "pattern",
+        "columns": [
+            {
+                "name": "better",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "better",
+        "foreign_keys": [
+            {
+                "column": "better",
+                "references": "story"
+            }
+        ]
+    }
+]

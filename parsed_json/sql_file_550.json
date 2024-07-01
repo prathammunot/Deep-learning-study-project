@@ -1,0 +1,149 @@
+[
+    {
+        "name": "Mr",
+        "columns": [
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "apply",
+        "foreign_keys": [
+            {
+                "column": "apply",
+                "references": "husband"
+            }
+        ]
+    },
+    {
+        "name": "husband",
+        "columns": [
+            {
+                "name": "newspaper",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "newspaper",
+        "foreign_keys": [
+            {
+                "column": "newspaper",
+                "references": "doctor"
+            }
+        ]
+    },
+    {
+        "name": "doctor",
+        "columns": [
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "more",
+        "foreign_keys": [
+            {
+                "column": "more",
+                "references": "expert"
+            }
+        ]
+    },
+    {
+        "name": "expert",
+        "columns": [
+            {
+                "name": "seat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seat",
+        "foreign_keys": [
+            {
+                "column": "seat",
+                "references": "above"
+            }
+        ]
+    },
+    {
+        "name": "above",
+        "columns": [
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dark",
+        "foreign_keys": [
+            {
+                "column": "dark",
+                "references": "stop"
+            }
+        ]
+    },
+    {
+        "name": "stop",
+        "columns": [
+            {
+                "name": "second",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "Mr"
+            }
+        ]
+    }
+]

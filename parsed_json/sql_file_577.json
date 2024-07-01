@@ -1,0 +1,127 @@
+[
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "he",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "he",
+        "foreign_keys": [
+            {
+                "column": "he",
+                "references": "step"
+            }
+        ]
+    },
+    {
+        "name": "step",
+        "columns": [
+            {
+                "name": "among",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "among",
+        "foreign_keys": [
+            {
+                "column": "among",
+                "references": "source"
+            }
+        ]
+    },
+    {
+        "name": "source",
+        "columns": [
+            {
+                "name": "strong",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sister",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "strong",
+        "foreign_keys": [
+            {
+                "column": "strong",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reveal",
+        "foreign_keys": [
+            {
+                "column": "reveal",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "job"
+            }
+        ]
+    }
+]

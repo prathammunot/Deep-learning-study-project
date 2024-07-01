@@ -1,0 +1,247 @@
+[
+    {
+        "name": "hour",
+        "columns": [
+            {
+                "name": "morning",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "morning",
+        "foreign_keys": [
+            {
+                "column": "morning",
+                "references": "watch"
+            }
+        ]
+    },
+    {
+        "name": "watch",
+        "columns": [
+            {
+                "name": "scene",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scene",
+        "foreign_keys": [
+            {
+                "column": "scene",
+                "references": "table"
+            }
+        ]
+    },
+    {
+        "name": "table",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rule",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "idea"
+            }
+        ]
+    },
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "kind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kind",
+        "foreign_keys": [
+            {
+                "column": "kind",
+                "references": "film"
+            }
+        ]
+    },
+    {
+        "name": "film",
+        "columns": [
+            {
+                "name": "foot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "foot",
+        "foreign_keys": [
+            {
+                "column": "foot",
+                "references": "yet"
+            }
+        ]
+    },
+    {
+        "name": "yet",
+        "columns": [
+            {
+                "name": "instead",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "instead",
+        "foreign_keys": [
+            {
+                "column": "instead",
+                "references": "indeed"
+            }
+        ]
+    },
+    {
+        "name": "indeed",
+        "columns": [
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "head",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "eye"
+            }
+        ]
+    },
+    {
+        "name": "eye",
+        "columns": [
+            {
+                "name": "explain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "magazine",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "explain",
+        "foreign_keys": [
+            {
+                "column": "explain",
+                "references": "during"
+            }
+        ]
+    },
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "by",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "by",
+        "foreign_keys": [
+            {
+                "column": "by",
+                "references": "exist"
+            }
+        ]
+    },
+    {
+        "name": "exist",
+        "columns": [
+            {
+                "name": "look",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "hour"
+            }
+        ]
+    }
+]

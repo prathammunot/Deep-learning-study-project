@@ -1,0 +1,198 @@
+[
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "other",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "other",
+        "foreign_keys": [
+            {
+                "column": "other",
+                "references": "particular"
+            }
+        ]
+    },
+    {
+        "name": "particular",
+        "columns": [
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "difficult",
+        "foreign_keys": [
+            {
+                "column": "difficult",
+                "references": "technology"
+            }
+        ]
+    },
+    {
+        "name": "technology",
+        "columns": [
+            {
+                "name": "same",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "speak",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "majority",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "same",
+        "foreign_keys": [
+            {
+                "column": "same",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "event",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "event",
+        "foreign_keys": [
+            {
+                "column": "event",
+                "references": "town"
+            }
+        ]
+    },
+    {
+        "name": "town",
+        "columns": [
+            {
+                "name": "word",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "word",
+        "foreign_keys": [
+            {
+                "column": "word",
+                "references": "all"
+            }
+        ]
+    },
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "study",
+        "foreign_keys": [
+            {
+                "column": "study",
+                "references": "once"
+            }
+        ]
+    },
+    {
+        "name": "once",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "food"
+            }
+        ]
+    },
+    {
+        "name": "food",
+        "columns": [
+            {
+                "name": "evidence",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "leave",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evidence",
+        "foreign_keys": [
+            {
+                "column": "evidence",
+                "references": "idea"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "send",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "author",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "send",
+        "foreign_keys": [
+            {
+                "column": "send",
+                "references": "record"
+            }
+        ]
+    },
+    {
+        "name": "record",
+        "columns": [
+            {
+                "name": "pass",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pass",
+        "foreign_keys": [
+            {
+                "column": "pass",
+                "references": "in"
+            }
+        ]
+    },
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "course",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "course",
+        "foreign_keys": [
+            {
+                "column": "course",
+                "references": "activity"
+            }
+        ]
+    },
+    {
+        "name": "activity",
+        "columns": [
+            {
+                "name": "attention",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "attention",
+        "foreign_keys": [
+            {
+                "column": "attention",
+                "references": "lot"
+            }
+        ]
+    },
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "next",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "join",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "represent"
+            }
+        ]
+    },
+    {
+        "name": "represent",
+        "columns": [
+            {
+                "name": "sister",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sister",
+        "foreign_keys": [
+            {
+                "column": "sister",
+                "references": "with"
+            }
+        ]
+    },
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "good",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "for",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "good",
+        "foreign_keys": [
+            {
+                "column": "good",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "receive",
+        "foreign_keys": [
+            {
+                "column": "receive",
+                "references": "shake"
+            }
+        ]
+    },
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whose",
+        "foreign_keys": [
+            {
+                "column": "whose",
+                "references": "side"
+            }
+        ]
+    }
+]

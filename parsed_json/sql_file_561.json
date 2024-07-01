@@ -1,0 +1,296 @@
+[
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "sound"
+            }
+        ]
+    },
+    {
+        "name": "sound",
+        "columns": [
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "expect",
+        "foreign_keys": [
+            {
+                "column": "expect",
+                "references": "poor"
+            }
+        ]
+    },
+    {
+        "name": "poor",
+        "columns": [
+            {
+                "name": "claim",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "technology",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "claim",
+        "foreign_keys": [
+            {
+                "column": "claim",
+                "references": "chance"
+            }
+        ]
+    },
+    {
+        "name": "chance",
+        "columns": [
+            {
+                "name": "change",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "stock"
+            }
+        ]
+    },
+    {
+        "name": "stock",
+        "columns": [
+            {
+                "name": "blue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "show",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "blue",
+        "foreign_keys": [
+            {
+                "column": "blue",
+                "references": "police"
+            }
+        ]
+    },
+    {
+        "name": "police",
+        "columns": [
+            {
+                "name": "national",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hot",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "national",
+        "foreign_keys": [
+            {
+                "column": "national",
+                "references": "glass"
+            }
+        ]
+    },
+    {
+        "name": "glass",
+        "columns": [
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "second",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "performance",
+        "foreign_keys": [
+            {
+                "column": "performance",
+                "references": "movie"
+            }
+        ]
+    },
+    {
+        "name": "movie",
+        "columns": [
+            {
+                "name": "still",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "still",
+        "foreign_keys": [
+            {
+                "column": "still",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "blood",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "blood",
+        "foreign_keys": [
+            {
+                "column": "blood",
+                "references": "themselves"
+            }
+        ]
+    },
+    {
+        "name": "themselves",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "manage"
+            }
+        ]
+    },
+    {
+        "name": "manage",
+        "columns": [
+            {
+                "name": "speak",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "speak",
+        "foreign_keys": [
+            {
+                "column": "speak",
+                "references": "world"
+            }
+        ]
+    },
+    {
+        "name": "world",
+        "columns": [
+            {
+                "name": "reflect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reflect",
+        "foreign_keys": [
+            {
+                "column": "reflect",
+                "references": "form"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "name": "walk",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "power",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "week"
+            }
+        ]
+    },
+    {
+        "name": "week",
+        "columns": [
+            {
+                "name": "actually",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "actually",
+        "foreign_keys": [
+            {
+                "column": "actually",
+                "references": "treat"
+            }
+        ]
+    },
+    {
+        "name": "treat",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "daughter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "boy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "eight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "eight",
+        "foreign_keys": [
+            {
+                "column": "eight",
+                "references": "right"
+            }
+        ]
+    },
+    {
+        "name": "right",
+        "columns": [
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "home",
+        "foreign_keys": [
+            {
+                "column": "home",
+                "references": "week"
+            }
+        ]
+    },
+    {
+        "name": "week",
+        "columns": [
+            {
+                "name": "history",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "win"
+            }
+        ]
+    },
+    {
+        "name": "win",
+        "columns": [
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "field",
+        "foreign_keys": [
+            {
+                "column": "field",
+                "references": "majority"
+            }
+        ]
+    },
+    {
+        "name": "majority",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "walk"
+            }
+        ]
+    }
+]

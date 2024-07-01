@@ -1,0 +1,176 @@
+[
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "gas",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "turn",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "gas",
+        "foreign_keys": [
+            {
+                "column": "gas",
+                "references": "want"
+            }
+        ]
+    },
+    {
+        "name": "want",
+        "columns": [
+            {
+                "name": "would",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "would",
+        "foreign_keys": [
+            {
+                "column": "would",
+                "references": "recently"
+            }
+        ]
+    },
+    {
+        "name": "recently",
+        "columns": [
+            {
+                "name": "road",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "room",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "road",
+        "foreign_keys": [
+            {
+                "column": "road",
+                "references": "wrong"
+            }
+        ]
+    },
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "road",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "road",
+        "foreign_keys": [
+            {
+                "column": "road",
+                "references": "newspaper"
+            }
+        ]
+    },
+    {
+        "name": "newspaper",
+        "columns": [
+            {
+                "name": "do",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "do",
+        "foreign_keys": [
+            {
+                "column": "do",
+                "references": "scientist"
+            }
+        ]
+    },
+    {
+        "name": "scientist",
+        "columns": [
+            {
+                "name": "far",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "far",
+        "foreign_keys": [
+            {
+                "column": "far",
+                "references": "late"
+            }
+        ]
+    },
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "attorney",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attorney",
+        "foreign_keys": [
+            {
+                "column": "attorney",
+                "references": "different"
+            }
+        ]
+    }
+]

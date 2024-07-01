@@ -1,0 +1,149 @@
+[
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "thank",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "low",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thank",
+        "foreign_keys": [
+            {
+                "column": "thank",
+                "references": "new"
+            }
+        ]
+    },
+    {
+        "name": "new",
+        "columns": [
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "health",
+        "foreign_keys": [
+            {
+                "column": "health",
+                "references": "no"
+            }
+        ]
+    },
+    {
+        "name": "no",
+        "columns": [
+            {
+                "name": "indeed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "choose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indeed",
+        "foreign_keys": [
+            {
+                "column": "indeed",
+                "references": "partner"
+            }
+        ]
+    },
+    {
+        "name": "partner",
+        "columns": [
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "security",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "amount",
+        "foreign_keys": [
+            {
+                "column": "amount",
+                "references": "which"
+            }
+        ]
+    },
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "size",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "size",
+        "foreign_keys": [
+            {
+                "column": "size",
+                "references": "audience"
+            }
+        ]
+    },
+    {
+        "name": "audience",
+        "columns": [
+            {
+                "name": "sea",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sea",
+        "foreign_keys": [
+            {
+                "column": "sea",
+                "references": "save"
+            }
+        ]
+    }
+]

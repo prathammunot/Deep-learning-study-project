@@ -1,0 +1,247 @@
+[
+    {
+        "name": "dark",
+        "columns": [
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "join",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dark",
+        "foreign_keys": [
+            {
+                "column": "dark",
+                "references": "every"
+            }
+        ]
+    },
+    {
+        "name": "every",
+        "columns": [
+            {
+                "name": "something",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "something",
+        "foreign_keys": [
+            {
+                "column": "something",
+                "references": "watch"
+            }
+        ]
+    },
+    {
+        "name": "watch",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "both"
+            }
+        ]
+    },
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "black",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "black",
+        "foreign_keys": [
+            {
+                "column": "black",
+                "references": "floor"
+            }
+        ]
+    },
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "teacher",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "evidence",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "teacher",
+        "foreign_keys": [
+            {
+                "column": "teacher",
+                "references": "head"
+            }
+        ]
+    },
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "born",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Democrat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "born",
+        "foreign_keys": [
+            {
+                "column": "born",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "sound"
+            }
+        ]
+    },
+    {
+        "name": "sound",
+        "columns": [
+            {
+                "name": "watch",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "watch",
+        "foreign_keys": [
+            {
+                "column": "watch",
+                "references": "partner"
+            }
+        ]
+    },
+    {
+        "name": "partner",
+        "columns": [
+            {
+                "name": "health",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "health",
+        "foreign_keys": [
+            {
+                "column": "health",
+                "references": "address"
+            }
+        ]
+    },
+    {
+        "name": "address",
+        "columns": [
+            {
+                "name": "decade",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decade",
+        "foreign_keys": [
+            {
+                "column": "decade",
+                "references": "dark"
+            }
+        ]
+    }
+]

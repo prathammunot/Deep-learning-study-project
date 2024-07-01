@@ -1,0 +1,127 @@
+[
+    {
+        "name": "tonight",
+        "columns": [
+            {
+                "name": "manager",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "manager",
+        "foreign_keys": [
+            {
+                "column": "manager",
+                "references": "activity"
+            }
+        ]
+    },
+    {
+        "name": "activity",
+        "columns": [
+            {
+                "name": "upon",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "church",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "upon",
+        "foreign_keys": [
+            {
+                "column": "upon",
+                "references": "business"
+            }
+        ]
+    },
+    {
+        "name": "business",
+        "columns": [
+            {
+                "name": "point",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "professional",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "point",
+        "foreign_keys": [
+            {
+                "column": "point",
+                "references": "several"
+            }
+        ]
+    },
+    {
+        "name": "several",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "and",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "former"
+            }
+        ]
+    },
+    {
+        "name": "former",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quality",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "tonight"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "piece",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "president",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "piece",
+        "foreign_keys": [
+            {
+                "column": "piece",
+                "references": "conference"
+            }
+        ]
+    },
+    {
+        "name": "conference",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "of",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "speech",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "of",
+        "foreign_keys": [
+            {
+                "column": "of",
+                "references": "past"
+            }
+        ]
+    },
+    {
+        "name": "past",
+        "columns": [
+            {
+                "name": "let",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "let",
+        "foreign_keys": [
+            {
+                "column": "let",
+                "references": "today"
+            }
+        ]
+    },
+    {
+        "name": "today",
+        "columns": [
+            {
+                "name": "different",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "however",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "different",
+        "foreign_keys": [
+            {
+                "column": "different",
+                "references": "society"
+            }
+        ]
+    },
+    {
+        "name": "society",
+        "columns": [
+            {
+                "name": "benefit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "benefit",
+        "foreign_keys": [
+            {
+                "column": "benefit",
+                "references": "huge"
+            }
+        ]
+    },
+    {
+        "name": "huge",
+        "columns": [
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "level",
+        "foreign_keys": [
+            {
+                "column": "level",
+                "references": "night"
+            }
+        ]
+    },
+    {
+        "name": "night",
+        "columns": [
+            {
+                "name": "consumer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "skin",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "consumer",
+        "foreign_keys": [
+            {
+                "column": "consumer",
+                "references": "almost"
+            }
+        ]
+    }
+]

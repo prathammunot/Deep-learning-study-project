@@ -1,0 +1,176 @@
+[
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "yes",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yes",
+        "foreign_keys": [
+            {
+                "column": "yes",
+                "references": "wait"
+            }
+        ]
+    },
+    {
+        "name": "wait",
+        "columns": [
+            {
+                "name": "decision",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "see",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decision",
+        "foreign_keys": [
+            {
+                "column": "decision",
+                "references": "again"
+            }
+        ]
+    },
+    {
+        "name": "again",
+        "columns": [
+            {
+                "name": "name",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "believe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "name",
+        "foreign_keys": [
+            {
+                "column": "name",
+                "references": "like"
+            }
+        ]
+    },
+    {
+        "name": "like",
+        "columns": [
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "daughter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "image",
+        "foreign_keys": [
+            {
+                "column": "image",
+                "references": "down"
+            }
+        ]
+    },
+    {
+        "name": "down",
+        "columns": [
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "themselves",
+        "foreign_keys": [
+            {
+                "column": "themselves",
+                "references": "drive"
+            }
+        ]
+    },
+    {
+        "name": "drive",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "step",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "cultural"
+            }
+        ]
+    }
+]

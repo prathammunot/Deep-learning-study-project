@@ -1,0 +1,247 @@
+[
+    {
+        "name": "enjoy",
+        "columns": [
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "around",
+        "foreign_keys": [
+            {
+                "column": "around",
+                "references": "debate"
+            }
+        ]
+    },
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "local",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "local",
+        "foreign_keys": [
+            {
+                "column": "local",
+                "references": "present"
+            }
+        ]
+    },
+    {
+        "name": "present",
+        "columns": [
+            {
+                "name": "risk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "best",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "risk",
+        "foreign_keys": [
+            {
+                "column": "risk",
+                "references": "imagine"
+            }
+        ]
+    },
+    {
+        "name": "imagine",
+        "columns": [
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "own",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "animal",
+        "foreign_keys": [
+            {
+                "column": "animal",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "standard"
+            }
+        ]
+    },
+    {
+        "name": "standard",
+        "columns": [
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "above",
+        "foreign_keys": [
+            {
+                "column": "above",
+                "references": "let"
+            }
+        ]
+    },
+    {
+        "name": "let",
+        "columns": [
+            {
+                "name": "act",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "coach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "act",
+        "foreign_keys": [
+            {
+                "column": "act",
+                "references": "response"
+            }
+        ]
+    },
+    {
+        "name": "response",
+        "columns": [
+            {
+                "name": "ball",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "glass",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ball",
+        "foreign_keys": [
+            {
+                "column": "ball",
+                "references": "huge"
+            }
+        ]
+    },
+    {
+        "name": "huge",
+        "columns": [
+            {
+                "name": "line",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "line",
+        "foreign_keys": [
+            {
+                "column": "line",
+                "references": "especially"
+            }
+        ]
+    },
+    {
+        "name": "especially",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "enjoy"
+            }
+        ]
+    }
+]

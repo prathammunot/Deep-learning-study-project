@@ -1,0 +1,198 @@
+[
+    {
+        "name": "garden",
+        "columns": [
+            {
+                "name": "wait",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "strong",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wait",
+        "foreign_keys": [
+            {
+                "column": "wait",
+                "references": "door"
+            }
+        ]
+    },
+    {
+        "name": "door",
+        "columns": [
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reach",
+        "foreign_keys": [
+            {
+                "column": "reach",
+                "references": "believe"
+            }
+        ]
+    },
+    {
+        "name": "believe",
+        "columns": [
+            {
+                "name": "change",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "special",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "check"
+            }
+        ]
+    },
+    {
+        "name": "check",
+        "columns": [
+            {
+                "name": "finally",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "finally",
+        "foreign_keys": [
+            {
+                "column": "finally",
+                "references": "source"
+            }
+        ]
+    },
+    {
+        "name": "source",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "surface"
+            }
+        ]
+    },
+    {
+        "name": "surface",
+        "columns": [
+            {
+                "name": "serve",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yes",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "serve",
+        "foreign_keys": [
+            {
+                "column": "serve",
+                "references": "so"
+            }
+        ]
+    },
+    {
+        "name": "so",
+        "columns": [
+            {
+                "name": "describe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "name",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "describe",
+        "foreign_keys": [
+            {
+                "column": "describe",
+                "references": "black"
+            }
+        ]
+    },
+    {
+        "name": "black",
+        "columns": [
+            {
+                "name": "single",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "single",
+        "foreign_keys": [
+            {
+                "column": "single",
+                "references": "garden"
+            }
+        ]
+    }
+]

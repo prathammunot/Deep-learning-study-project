@@ -1,0 +1,176 @@
+[
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "commercial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "commercial",
+        "foreign_keys": [
+            {
+                "column": "commercial",
+                "references": "practice"
+            }
+        ]
+    },
+    {
+        "name": "practice",
+        "columns": [
+            {
+                "name": "system",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "system",
+        "foreign_keys": [
+            {
+                "column": "system",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "guy"
+            }
+        ]
+    },
+    {
+        "name": "guy",
+        "columns": [
+            {
+                "name": "treat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "treat",
+        "foreign_keys": [
+            {
+                "column": "treat",
+                "references": "week"
+            }
+        ]
+    },
+    {
+        "name": "week",
+        "columns": [
+            {
+                "name": "increase",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "increase",
+        "foreign_keys": [
+            {
+                "column": "increase",
+                "references": "behavior"
+            }
+        ]
+    },
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "development",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "development",
+        "foreign_keys": [
+            {
+                "column": "development",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "walk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "win",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "majority",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "walk",
+        "foreign_keys": [
+            {
+                "column": "walk",
+                "references": "send"
+            }
+        ]
+    }
+]

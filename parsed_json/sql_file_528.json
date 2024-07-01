@@ -1,0 +1,296 @@
+[
+    {
+        "name": "outside",
+        "columns": [
+            {
+                "name": "movement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movement",
+        "foreign_keys": [
+            {
+                "column": "movement",
+                "references": "win"
+            }
+        ]
+    },
+    {
+        "name": "win",
+        "columns": [
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "arm",
+        "foreign_keys": [
+            {
+                "column": "arm",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "address",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "address",
+        "foreign_keys": [
+            {
+                "column": "address",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "national",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "national",
+        "foreign_keys": [
+            {
+                "column": "national",
+                "references": "talk"
+            }
+        ]
+    },
+    {
+        "name": "talk",
+        "columns": [
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "drop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "property"
+            }
+        ]
+    },
+    {
+        "name": "property",
+        "columns": [
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "learn",
+        "foreign_keys": [
+            {
+                "column": "learn",
+                "references": "there"
+            }
+        ]
+    },
+    {
+        "name": "there",
+        "columns": [
+            {
+                "name": "attention",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attention",
+        "foreign_keys": [
+            {
+                "column": "attention",
+                "references": "I"
+            }
+        ]
+    },
+    {
+        "name": "I",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "imagine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "guess",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "imagine",
+        "foreign_keys": [
+            {
+                "column": "imagine",
+                "references": "drive"
+            }
+        ]
+    },
+    {
+        "name": "drive",
+        "columns": [
+            {
+                "name": "such",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "such",
+        "foreign_keys": [
+            {
+                "column": "such",
+                "references": "century"
+            }
+        ]
+    },
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "region",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "region",
+        "foreign_keys": [
+            {
+                "column": "region",
+                "references": "project"
+            }
+        ]
+    },
+    {
+        "name": "project",
+        "columns": [
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "card",
+        "foreign_keys": [
+            {
+                "column": "card",
+                "references": "outside"
+            }
+        ]
+    }
+]

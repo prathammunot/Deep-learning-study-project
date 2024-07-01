@@ -1,0 +1,274 @@
+[
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "food"
+            }
+        ]
+    },
+    {
+        "name": "food",
+        "columns": [
+            {
+                "name": "decade",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decade",
+        "foreign_keys": [
+            {
+                "column": "decade",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "car",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "company",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "car",
+        "foreign_keys": [
+            {
+                "column": "car",
+                "references": "article"
+            }
+        ]
+    },
+    {
+        "name": "article",
+        "columns": [
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sort",
+        "foreign_keys": [
+            {
+                "column": "sort",
+                "references": "man"
+            }
+        ]
+    },
+    {
+        "name": "man",
+        "columns": [
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "which",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "image",
+        "foreign_keys": [
+            {
+                "column": "image",
+                "references": "fast"
+            }
+        ]
+    },
+    {
+        "name": "fast",
+        "columns": [
+            {
+                "name": "performance",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "performance",
+        "foreign_keys": [
+            {
+                "column": "performance",
+                "references": "point"
+            }
+        ]
+    },
+    {
+        "name": "point",
+        "columns": [
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trouble",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "occur",
+        "foreign_keys": [
+            {
+                "column": "occur",
+                "references": "beat"
+            }
+        ]
+    },
+    {
+        "name": "beat",
+        "columns": [
+            {
+                "name": "art",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professional",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "effect"
+            }
+        ]
+    },
+    {
+        "name": "effect",
+        "columns": [
+            {
+                "name": "enjoy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enjoy",
+        "foreign_keys": [
+            {
+                "column": "enjoy",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "create",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "create",
+        "foreign_keys": [
+            {
+                "column": "create",
+                "references": "everybody"
+            }
+        ]
+    },
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "chance",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "chance",
+        "foreign_keys": [
+            {
+                "column": "chance",
+                "references": "onto"
+            }
+        ]
+    }
+]

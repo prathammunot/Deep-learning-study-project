@@ -1,0 +1,127 @@
+[
+    {
+        "name": "rise",
+        "columns": [
+            {
+                "name": "recently",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "recently",
+        "foreign_keys": [
+            {
+                "column": "recently",
+                "references": "ever"
+            }
+        ]
+    },
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "try",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "try",
+        "foreign_keys": [
+            {
+                "column": "try",
+                "references": "key"
+            }
+        ]
+    },
+    {
+        "name": "key",
+        "columns": [
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "admit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prevent",
+        "foreign_keys": [
+            {
+                "column": "prevent",
+                "references": "until"
+            }
+        ]
+    },
+    {
+        "name": "until",
+        "columns": [
+            {
+                "name": "third",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "third",
+        "foreign_keys": [
+            {
+                "column": "third",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "cell",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "certain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "old",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cell",
+        "foreign_keys": [
+            {
+                "column": "cell",
+                "references": "rise"
+            }
+        ]
+    }
+]
