@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram2'.
+There is a table 'by' with the columns 'college' (DATE), 'your' (TEXT), 'ground' (VARCHAR(50)). The primary key is 'college'. 'by' references another table 'amount' in an exactly one to zero or many relationship. The relationship should be called 'college'. 
+There is another table 'amount' with the columns 'sometimes' (VARCHAR(50)), 'then' (DATE). The primary key is 'sometimes'. 'amount' references another table 'share' in an exactly one to zero or many relationship. The relationship should be called 'sometimes'. 
+There is another table 'share' with the columns 'window' (DATE), 'position' (TEXT), 'she' (VARCHAR(50)). The primary key is 'window'. 'share' references another table 'fire' in an exactly one to zero or many relationship. The relationship should be called 'window'. 
+There is another table 'fire' with the columns 'exist' (VARCHAR(50)), 'official' (DATE). The primary key is 'exist'. 'fire' references another table 'per' in an exactly one to zero or many relationship. The relationship should be called 'exist'. 
+There is another table 'per' with the columns 'act' (DATE), 'mind' (TEXT), 'film' (VARCHAR(50)). The primary key is 'act'. 'per' references another table 'by' in an exactly one to zero or many relationship. The relationship should be called 'act'. 
+

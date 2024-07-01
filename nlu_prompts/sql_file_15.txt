@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram57'.
+There is a table 'first' with the columns 'his' (DATE), 'safe' (TEXT), 'born' (VARCHAR(50)). The primary key is 'his'. 'first' references another table 'ago' in an exactly one to zero or many relationship. The relationship should be called 'his'. 
+There is another table 'ago' with the columns 'his' (VARCHAR(50)), 'mission' (DATE). The primary key is 'his'. 'ago' references another table 'PM' in an exactly one to zero or many relationship. The relationship should be called 'his'. 
+There is another table 'PM' with the columns 'might' (DATE), 'whether' (TEXT), 'end' (VARCHAR(50)). The primary key is 'might'. 'PM' references another table 'college' in an exactly one to zero or many relationship. The relationship should be called 'might'. 
+There is another table 'college' with the columns 'serious' (VARCHAR(50)), 'fine' (DATE). The primary key is 'serious'. 'college' references another table 'room' in an exactly one to zero or many relationship. The relationship should be called 'serious'. 
+There is another table 'room' with the columns 'consider' (DATE), 'have' (TEXT), 'deal' (VARCHAR(50)). The primary key is 'consider'. 'room' references another table 'government' in an exactly one to zero or many relationship. The relationship should be called 'consider'. 
+There is another table 'government' with the columns 'leave' (VARCHAR(50)), 'house' (DATE). The primary key is 'leave'. 'government' references another table 'enjoy' in an exactly one to zero or many relationship. The relationship should be called 'leave'. 
+There is another table 'enjoy' with the columns 'right' (DATE), 'we' (TEXT), 'candidate' (VARCHAR(50)). The primary key is 'right'. 'enjoy' references another table 'learn' in an exactly one to zero or many relationship. The relationship should be called 'right'. 
+There is another table 'learn' with the columns 'model' (VARCHAR(50)), 'economy' (DATE). The primary key is 'model'. 'learn' references another table 'first' in an exactly one to zero or many relationship. The relationship should be called 'model'. 
+

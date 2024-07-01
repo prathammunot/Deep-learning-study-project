@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram523'.
+There is a table 'take' with the columns 'everyone' (DATE), 'throw' (TEXT), 'again' (VARCHAR(50)). The primary key is 'everyone'. 'take' references another table 'woman' in an exactly one to zero or many relationship. The relationship should be called 'everyone'. 
+There is another table 'woman' with the columns 'short' (VARCHAR(50)), 'focus' (DATE). The primary key is 'short'. 'woman' references another table 'again' in an exactly one to zero or many relationship. The relationship should be called 'short'. 
+There is another table 'again' with the columns 'early' (DATE), 'their' (TEXT), 'box' (VARCHAR(50)). The primary key is 'early'. 'again' references another table 'put' in an exactly one to zero or many relationship. The relationship should be called 'early'. 
+There is another table 'put' with the columns 'shoulder' (VARCHAR(50)), 'may' (DATE). The primary key is 'shoulder'. 'put' references another table 'instead' in an exactly one to zero or many relationship. The relationship should be called 'shoulder'. 
+There is another table 'instead' with the columns 'moment' (DATE), 'each' (TEXT), 'personal' (VARCHAR(50)). The primary key is 'moment'. 'instead' references another table 'charge' in an exactly one to zero or many relationship. The relationship should be called 'moment'. 
+There is another table 'charge' with the columns 'majority' (VARCHAR(50)), 'four' (DATE). The primary key is 'majority'. 'charge' references another table 'establish' in an exactly one to zero or many relationship. The relationship should be called 'majority'. 
+There is another table 'establish' with the columns 'skin' (DATE), 'according' (TEXT), 'lead' (VARCHAR(50)). The primary key is 'skin'. 'establish' references another table 'chance' in an exactly one to zero or many relationship. The relationship should be called 'skin'. 
+There is another table 'chance' with the columns 'late' (VARCHAR(50)), 'time' (DATE). The primary key is 'late'. 'chance' references another table 'take' in an exactly one to zero or many relationship. The relationship should be called 'late'. 
+

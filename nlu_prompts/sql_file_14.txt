@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram46'.
+There is a table 'consider' with the columns 'hard' (DATE), 'girl' (TEXT), 'bag' (VARCHAR(50)). The primary key is 'hard'. 'consider' references another table 'food' in an exactly one to zero or many relationship. The relationship should be called 'hard'. 
+There is another table 'food' with the columns 'have' (VARCHAR(50)), 'should' (DATE). The primary key is 'have'. 'food' references another table 'blood' in an exactly one to zero or many relationship. The relationship should be called 'have'. 
+There is another table 'blood' with the columns 'late' (DATE), 'father' (TEXT), 'school' (VARCHAR(50)). The primary key is 'late'. 'blood' references another table 'stuff' in an exactly one to zero or many relationship. The relationship should be called 'late'. 
+There is another table 'stuff' with the columns 'machine' (VARCHAR(50)), 'enjoy' (DATE). The primary key is 'machine'. 'stuff' references another table 'shake' in an exactly one to zero or many relationship. The relationship should be called 'machine'. 
+There is another table 'shake' with the columns 'also' (DATE), 'close' (TEXT), 'draw' (VARCHAR(50)). The primary key is 'also'. 'shake' references another table 'high' in an exactly one to zero or many relationship. The relationship should be called 'also'. 
+There is another table 'high' with the columns 'night' (VARCHAR(50)), 'series' (DATE). The primary key is 'night'. 'high' references another table 'personal' in an exactly one to zero or many relationship. The relationship should be called 'night'. 
+There is another table 'personal' with the columns 'light' (DATE), 'resource' (TEXT), 'address' (VARCHAR(50)). The primary key is 'light'. 'personal' references another table 'wall' in an exactly one to zero or many relationship. The relationship should be called 'light'. 
+There is another table 'wall' with the columns 'music' (VARCHAR(50)), 'account' (DATE). The primary key is 'music'. 'wall' references another table 'consider' in an exactly one to zero or many relationship. The relationship should be called 'music'. 
+

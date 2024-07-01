@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram923'.
+There is a table 'collection' with the columns 'human' (DATE), 'population' (TEXT), 'treatment' (VARCHAR(50)). The primary key is 'human'. 'collection' references another table 'recently' in an exactly one to zero or many relationship. The relationship should be called 'human'. 
+There is another table 'recently' with the columns 'increase' (VARCHAR(50)), 'charge' (DATE). The primary key is 'increase'. 'recently' references another table 'significant' in an exactly one to zero or many relationship. The relationship should be called 'increase'. 
+There is another table 'significant' with the columns 'reveal' (DATE), 'into' (TEXT), 'little' (VARCHAR(50)). The primary key is 'reveal'. 'significant' references another table 'interesting' in an exactly one to zero or many relationship. The relationship should be called 'reveal'. 
+There is another table 'interesting' with the columns 'system' (VARCHAR(50)), 'cut' (DATE). The primary key is 'system'. 'interesting' references another table 'day' in an exactly one to zero or many relationship. The relationship should be called 'system'. 
+There is another table 'day' with the columns 'wait' (DATE), 'who' (TEXT), 'account' (VARCHAR(50)). The primary key is 'wait'. 'day' references another table 'mention' in an exactly one to zero or many relationship. The relationship should be called 'wait'. 
+There is another table 'mention' with the columns 'participant' (VARCHAR(50)), 'wrong' (DATE). The primary key is 'participant'. 'mention' references another table 'collection' in an exactly one to zero or many relationship. The relationship should be called 'participant'. 
+

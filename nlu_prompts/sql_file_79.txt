@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram767'.
+There is a table 'if' with the columns 'decide' (DATE), 'necessary' (TEXT), 'camera' (VARCHAR(50)). The primary key is 'decide'. 'if' references another table 'nature' in an exactly one to zero or many relationship. The relationship should be called 'decide'. 
+There is another table 'nature' with the columns 'main' (VARCHAR(50)), 'growth' (DATE). The primary key is 'main'. 'nature' references another table 'Democrat' in an exactly one to zero or many relationship. The relationship should be called 'main'. 
+There is another table 'Democrat' with the columns 'usually' (DATE), 'public' (TEXT), 'back' (VARCHAR(50)). The primary key is 'usually'. 'Democrat' references another table 'television' in an exactly one to zero or many relationship. The relationship should be called 'usually'. 
+There is another table 'television' with the columns 'name' (VARCHAR(50)), 'maybe' (DATE). The primary key is 'name'. 'television' references another table 'within' in an exactly one to zero or many relationship. The relationship should be called 'name'. 
+There is another table 'within' with the columns 'nothing' (DATE), 'grow' (TEXT), 'candidate' (VARCHAR(50)). The primary key is 'nothing'. 'within' references another table 'service' in an exactly one to zero or many relationship. The relationship should be called 'nothing'. 
+There is another table 'service' with the columns 'painting' (VARCHAR(50)), 'career' (DATE). The primary key is 'painting'. 'service' references another table 'if' in an exactly one to zero or many relationship. The relationship should be called 'painting'. 
+

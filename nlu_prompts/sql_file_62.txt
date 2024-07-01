@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram579'.
+There is a table 'area' with the columns 'down' (DATE), 'know' (TEXT), 'wall' (VARCHAR(50)). The primary key is 'down'. 'area' references another table 'any' in an exactly one to zero or many relationship. The relationship should be called 'down'. 
+There is another table 'any' with the columns 'poor' (VARCHAR(50)), 'ever' (DATE). The primary key is 'poor'. 'any' references another table 'decision' in an exactly one to zero or many relationship. The relationship should be called 'poor'. 
+There is another table 'decision' with the columns 'weight' (DATE), 'of' (TEXT), 'then' (VARCHAR(50)). The primary key is 'weight'. 'decision' references another table 'there' in an exactly one to zero or many relationship. The relationship should be called 'weight'. 
+There is another table 'there' with the columns 'always' (VARCHAR(50)), 'change' (DATE). The primary key is 'always'. 'there' references another table 'middle' in an exactly one to zero or many relationship. The relationship should be called 'always'. 
+There is another table 'middle' with the columns 'Congress' (DATE), 'some' (TEXT), 'cold' (VARCHAR(50)). The primary key is 'Congress'. 'middle' references another table 'vote' in an exactly one to zero or many relationship. The relationship should be called 'Congress'. 
+There is another table 'vote' with the columns 'state' (VARCHAR(50)), 'interest' (DATE). The primary key is 'state'. 'vote' references another table 'area' in an exactly one to zero or many relationship. The relationship should be called 'state'. 
+

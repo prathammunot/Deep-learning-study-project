@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram634'.
+There is a table 'draw' with the columns 'wonder' (DATE), 'such' (TEXT), 'far' (VARCHAR(50)). The primary key is 'wonder'. 'draw' references another table 'production' in an exactly one to zero or many relationship. The relationship should be called 'wonder'. 
+There is another table 'production' with the columns 'nature' (VARCHAR(50)), 'training' (DATE). The primary key is 'nature'. 'production' references another table 'toward' in an exactly one to zero or many relationship. The relationship should be called 'nature'. 
+There is another table 'toward' with the columns 'explain' (DATE), 'despite' (TEXT), 'power' (VARCHAR(50)). The primary key is 'explain'. 'toward' references another table 'impact' in an exactly one to zero or many relationship. The relationship should be called 'explain'. 
+There is another table 'impact' with the columns 'challenge' (VARCHAR(50)), 'choose' (DATE). The primary key is 'challenge'. 'impact' references another table 'research' in an exactly one to zero or many relationship. The relationship should be called 'challenge'. 
+There is another table 'research' with the columns 'edge' (DATE), 'hard' (TEXT), 'move' (VARCHAR(50)). The primary key is 'edge'. 'research' references another table 'size' in an exactly one to zero or many relationship. The relationship should be called 'edge'. 
+There is another table 'size' with the columns 'federal' (VARCHAR(50)), 'call' (DATE). The primary key is 'federal'. 'size' references another table 'goal' in an exactly one to zero or many relationship. The relationship should be called 'federal'. 
+There is another table 'goal' with the columns 'just' (DATE), 'process' (TEXT), 'stay' (VARCHAR(50)). The primary key is 'just'. 'goal' references another table 'draw' in an exactly one to zero or many relationship. The relationship should be called 'just'. 
+

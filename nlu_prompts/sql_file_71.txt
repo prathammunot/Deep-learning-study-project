@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram679'.
+There is a table 'hand' with the columns 'early' (DATE), 'toward' (TEXT), 'although' (VARCHAR(50)). The primary key is 'early'. 'hand' references another table 'front' in an exactly one to zero or many relationship. The relationship should be called 'early'. 
+There is another table 'front' with the columns 'police' (VARCHAR(50)), 'education' (DATE). The primary key is 'police'. 'front' references another table 'receive' in an exactly one to zero or many relationship. The relationship should be called 'police'. 
+There is another table 'receive' with the columns 'international' (DATE), 'before' (TEXT), 'whom' (VARCHAR(50)). The primary key is 'international'. 'receive' references another table 'cover' in an exactly one to zero or many relationship. The relationship should be called 'international'. 
+There is another table 'cover' with the columns 'world' (VARCHAR(50)), 'article' (DATE). The primary key is 'world'. 'cover' references another table 'month' in an exactly one to zero or many relationship. The relationship should be called 'world'. 
+There is another table 'month' with the columns 'allow' (DATE), 'add' (TEXT), 'crime' (VARCHAR(50)). The primary key is 'allow'. 'month' references another table 'both' in an exactly one to zero or many relationship. The relationship should be called 'allow'. 
+There is another table 'both' with the columns 'most' (VARCHAR(50)), 'form' (DATE). The primary key is 'most'. 'both' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'most'. 
+There is another table 'out' with the columns 'wish' (DATE), 'type' (TEXT), 'education' (VARCHAR(50)). The primary key is 'wish'. 'out' references another table 'box' in an exactly one to zero or many relationship. The relationship should be called 'wish'. 
+There is another table 'box' with the columns 'tax' (VARCHAR(50)), 'fight' (DATE). The primary key is 'tax'. 'box' references another table 'hand' in an exactly one to zero or many relationship. The relationship should be called 'tax'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram124'.
+There is a table 'expect' with the columns 'the' (DATE), 'cold' (TEXT), 'newspaper' (VARCHAR(50)). The primary key is 'the'. 'expect' references another table 'own' in an exactly one to zero or many relationship. The relationship should be called 'the'. 
+There is another table 'own' with the columns 'family' (VARCHAR(50)), 'federal' (DATE). The primary key is 'family'. 'own' references another table 'call' in an exactly one to zero or many relationship. The relationship should be called 'family'. 
+There is another table 'call' with the columns 'author' (DATE), 'purpose' (TEXT), 'everybody' (VARCHAR(50)). The primary key is 'author'. 'call' references another table 'half' in an exactly one to zero or many relationship. The relationship should be called 'author'. 
+There is another table 'half' with the columns 'book' (VARCHAR(50)), 'half' (DATE). The primary key is 'book'. 'half' references another table 'business' in an exactly one to zero or many relationship. The relationship should be called 'book'. 
+There is another table 'business' with the columns 'beat' (DATE), 'answer' (TEXT), 'case' (VARCHAR(50)). The primary key is 'beat'. 'business' references another table 'expect' in an exactly one to zero or many relationship. The relationship should be called 'beat'. 
+

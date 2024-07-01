@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram346'.
+There is a table 'level' with the columns 'more' (DATE), 'officer' (TEXT), 'key' (VARCHAR(50)). The primary key is 'more'. 'level' references another table 'international' in an exactly one to zero or many relationship. The relationship should be called 'more'. 
+There is another table 'international' with the columns 'write' (VARCHAR(50)), 'hit' (DATE). The primary key is 'write'. 'international' references another table 'challenge' in an exactly one to zero or many relationship. The relationship should be called 'write'. 
+There is another table 'challenge' with the columns 'three' (DATE), 'white' (TEXT), 'marriage' (VARCHAR(50)). The primary key is 'three'. 'challenge' references another table 'perform' in an exactly one to zero or many relationship. The relationship should be called 'three'. 
+There is another table 'perform' with the columns 'example' (VARCHAR(50)), 'increase' (DATE). The primary key is 'example'. 'perform' references another table 'how' in an exactly one to zero or many relationship. The relationship should be called 'example'. 
+There is another table 'how' with the columns 'week' (DATE), 'various' (TEXT), 'chance' (VARCHAR(50)). The primary key is 'week'. 'how' references another table 'ready' in an exactly one to zero or many relationship. The relationship should be called 'week'. 
+There is another table 'ready' with the columns 'evening' (VARCHAR(50)), 'commercial' (DATE). The primary key is 'evening'. 'ready' references another table 'level' in an exactly one to zero or many relationship. The relationship should be called 'evening'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram423'.
+There is a table 'challenge' with the columns 'heavy' (DATE), 'write' (TEXT), 'ok' (VARCHAR(50)). The primary key is 'heavy'. 'challenge' references another table 'hotel' in an exactly one to zero or many relationship. The relationship should be called 'heavy'. 
+There is another table 'hotel' with the columns 'until' (VARCHAR(50)), 'subject' (DATE). The primary key is 'until'. 'hotel' references another table 'scene' in an exactly one to zero or many relationship. The relationship should be called 'until'. 
+There is another table 'scene' with the columns 'billion' (DATE), 'politics' (TEXT), 'blue' (VARCHAR(50)). The primary key is 'billion'. 'scene' references another table 'hand' in an exactly one to zero or many relationship. The relationship should be called 'billion'. 
+There is another table 'hand' with the columns 'look' (VARCHAR(50)), 'would' (DATE). The primary key is 'look'. 'hand' references another table 'ball' in an exactly one to zero or many relationship. The relationship should be called 'look'. 
+There is another table 'ball' with the columns 'day' (DATE), 'voice' (TEXT), 'product' (VARCHAR(50)). The primary key is 'day'. 'ball' references another table 'physical' in an exactly one to zero or many relationship. The relationship should be called 'day'. 
+There is another table 'physical' with the columns 'sister' (VARCHAR(50)), 'today' (DATE). The primary key is 'sister'. 'physical' references another table 'beautiful' in an exactly one to zero or many relationship. The relationship should be called 'sister'. 
+There is another table 'beautiful' with the columns 'performance' (DATE), 'leave' (TEXT), 'expect' (VARCHAR(50)). The primary key is 'performance'. 'beautiful' references another table 'challenge' in an exactly one to zero or many relationship. The relationship should be called 'performance'. 
+

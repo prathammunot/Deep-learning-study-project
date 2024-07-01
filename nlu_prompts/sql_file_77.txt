@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram745'.
+There is a table 'focus' with the columns 'senior' (DATE), 'which' (TEXT), 'skill' (VARCHAR(50)). The primary key is 'senior'. 'focus' references another table 'behavior' in an exactly one to zero or many relationship. The relationship should be called 'senior'. 
+There is another table 'behavior' with the columns 'another' (VARCHAR(50)), 'sell' (DATE). The primary key is 'another'. 'behavior' references another table 'finally' in an exactly one to zero or many relationship. The relationship should be called 'another'. 
+There is another table 'finally' with the columns 'in' (DATE), 'than' (TEXT), 'a' (VARCHAR(50)). The primary key is 'in'. 'finally' references another table 'serious' in an exactly one to zero or many relationship. The relationship should be called 'in'. 
+There is another table 'serious' with the columns 'return' (VARCHAR(50)), 'cover' (DATE). The primary key is 'return'. 'serious' references another table 'race' in an exactly one to zero or many relationship. The relationship should be called 'return'. 
+There is another table 'race' with the columns 'sign' (DATE), 'western' (TEXT), 'add' (VARCHAR(50)). The primary key is 'sign'. 'race' references another table 'focus' in an exactly one to zero or many relationship. The relationship should be called 'sign'. 
+

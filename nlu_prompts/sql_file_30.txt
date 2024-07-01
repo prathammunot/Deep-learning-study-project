@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram224'.
+There is a table 'with' with the columns 'common' (DATE), 'then' (TEXT), 'whole' (VARCHAR(50)). The primary key is 'common'. 'with' references another table 'fill' in an exactly one to zero or many relationship. The relationship should be called 'common'. 
+There is another table 'fill' with the columns 'century' (VARCHAR(50)), 'task' (DATE). The primary key is 'century'. 'fill' references another table 'suddenly' in an exactly one to zero or many relationship. The relationship should be called 'century'. 
+There is another table 'suddenly' with the columns 'trip' (DATE), 'family' (TEXT), 'agree' (VARCHAR(50)). The primary key is 'trip'. 'suddenly' references another table 'him' in an exactly one to zero or many relationship. The relationship should be called 'trip'. 
+There is another table 'him' with the columns 'individual' (VARCHAR(50)), 'increase' (DATE). The primary key is 'individual'. 'him' references another table 'network' in an exactly one to zero or many relationship. The relationship should be called 'individual'. 
+There is another table 'network' with the columns 'tree' (DATE), 'even' (TEXT), 'standard' (VARCHAR(50)). The primary key is 'tree'. 'network' references another table 'city' in an exactly one to zero or many relationship. The relationship should be called 'tree'. 
+There is another table 'city' with the columns 'lay' (VARCHAR(50)), 'street' (DATE). The primary key is 'lay'. 'city' references another table 'hot' in an exactly one to zero or many relationship. The relationship should be called 'lay'. 
+There is another table 'hot' with the columns 'cause' (DATE), 'film' (TEXT), 'politics' (VARCHAR(50)). The primary key is 'cause'. 'hot' references another table 'leader' in an exactly one to zero or many relationship. The relationship should be called 'cause'. 
+There is another table 'leader' with the columns 'now' (VARCHAR(50)), 'test' (DATE). The primary key is 'now'. 'leader' references another table 'make' in an exactly one to zero or many relationship. The relationship should be called 'now'. 
+There is another table 'make' with the columns 'pattern' (DATE), 'detail' (TEXT), 'ball' (VARCHAR(50)). The primary key is 'pattern'. 'make' references another table 'with' in an exactly one to zero or many relationship. The relationship should be called 'pattern'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram556'.
+There is a table 'main' with the columns 'appear' (DATE), 'degree' (TEXT), 'police' (VARCHAR(50)). The primary key is 'appear'. 'main' references another table 'behind' in an exactly one to zero or many relationship. The relationship should be called 'appear'. 
+There is another table 'behind' with the columns 'small' (VARCHAR(50)), 'have' (DATE). The primary key is 'small'. 'behind' references another table 'break' in an exactly one to zero or many relationship. The relationship should be called 'small'. 
+There is another table 'break' with the columns 'very' (DATE), 'pretty' (TEXT), 'rest' (VARCHAR(50)). The primary key is 'very'. 'break' references another table 'budget' in an exactly one to zero or many relationship. The relationship should be called 'very'. 
+There is another table 'budget' with the columns 'serve' (VARCHAR(50)), 'culture' (DATE). The primary key is 'serve'. 'budget' references another table 'clearly' in an exactly one to zero or many relationship. The relationship should be called 'serve'. 
+There is another table 'clearly' with the columns 'five' (DATE), 'shoulder' (TEXT), 'decision' (VARCHAR(50)). The primary key is 'five'. 'clearly' references another table 'conference' in an exactly one to zero or many relationship. The relationship should be called 'five'. 
+There is another table 'conference' with the columns 'debate' (VARCHAR(50)), 'change' (DATE). The primary key is 'debate'. 'conference' references another table 'partner' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+There is another table 'partner' with the columns 'project' (DATE), 'give' (TEXT), 'animal' (VARCHAR(50)). The primary key is 'project'. 'partner' references another table 'such' in an exactly one to zero or many relationship. The relationship should be called 'project'. 
+There is another table 'such' with the columns 'contain' (VARCHAR(50)), 'security' (DATE). The primary key is 'contain'. 'such' references another table 'main' in an exactly one to zero or many relationship. The relationship should be called 'contain'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram778'.
+There is a table 'cover' with the columns 'others' (DATE), 'baby' (TEXT), 'maybe' (VARCHAR(50)). The primary key is 'others'. 'cover' references another table 'risk' in an exactly one to zero or many relationship. The relationship should be called 'others'. 
+There is another table 'risk' with the columns 'answer' (VARCHAR(50)), 'easy' (DATE). The primary key is 'answer'. 'risk' references another table 'but' in an exactly one to zero or many relationship. The relationship should be called 'answer'. 
+There is another table 'but' with the columns 'from' (DATE), 'special' (TEXT), 'begin' (VARCHAR(50)). The primary key is 'from'. 'but' references another table 'leg' in an exactly one to zero or many relationship. The relationship should be called 'from'. 
+There is another table 'leg' with the columns 'toward' (VARCHAR(50)), 'road' (DATE). The primary key is 'toward'. 'leg' references another table 'camera' in an exactly one to zero or many relationship. The relationship should be called 'toward'. 
+There is another table 'camera' with the columns 'contain' (DATE), 'cost' (TEXT), 'billion' (VARCHAR(50)). The primary key is 'contain'. 'camera' references another table 'military' in an exactly one to zero or many relationship. The relationship should be called 'contain'. 
+There is another table 'military' with the columns 'life' (VARCHAR(50)), 'happen' (DATE). The primary key is 'life'. 'military' references another table 'cover' in an exactly one to zero or many relationship. The relationship should be called 'life'. 
+

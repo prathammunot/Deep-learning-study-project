@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram712'.
+There is a table 'respond' with the columns 'word' (DATE), 'thank' (TEXT), 'subject' (VARCHAR(50)). The primary key is 'word'. 'respond' references another table 'ball' in an exactly one to zero or many relationship. The relationship should be called 'word'. 
+There is another table 'ball' with the columns 'cause' (VARCHAR(50)), 'speech' (DATE). The primary key is 'cause'. 'ball' references another table 'meeting' in an exactly one to zero or many relationship. The relationship should be called 'cause'. 
+There is another table 'meeting' with the columns 'Congress' (DATE), 'off' (TEXT), 'audience' (VARCHAR(50)). The primary key is 'Congress'. 'meeting' references another table 'employee' in an exactly one to zero or many relationship. The relationship should be called 'Congress'. 
+There is another table 'employee' with the columns 'attorney' (VARCHAR(50)), 'relationship' (DATE). The primary key is 'attorney'. 'employee' references another table 'five' in an exactly one to zero or many relationship. The relationship should be called 'attorney'. 
+There is another table 'five' with the columns 'my' (DATE), 'ask' (TEXT), 'radio' (VARCHAR(50)). The primary key is 'my'. 'five' references another table 'talk' in an exactly one to zero or many relationship. The relationship should be called 'my'. 
+There is another table 'talk' with the columns 'care' (VARCHAR(50)), 'media' (DATE). The primary key is 'care'. 'talk' references another table 'respond' in an exactly one to zero or many relationship. The relationship should be called 'care'. 
+

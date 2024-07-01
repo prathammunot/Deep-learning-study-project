@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram490'.
+There is a table 'eight' with the columns 'throughout' (DATE), 'federal' (TEXT), 'per' (VARCHAR(50)). The primary key is 'throughout'. 'eight' references another table 'myself' in an exactly one to zero or many relationship. The relationship should be called 'throughout'. 
+There is another table 'myself' with the columns 'meet' (VARCHAR(50)), 'skill' (DATE). The primary key is 'meet'. 'myself' references another table 'same' in an exactly one to zero or many relationship. The relationship should be called 'meet'. 
+There is another table 'same' with the columns 'west' (DATE), 'serve' (TEXT), 'section' (VARCHAR(50)). The primary key is 'west'. 'same' references another table 'begin' in an exactly one to zero or many relationship. The relationship should be called 'west'. 
+There is another table 'begin' with the columns 'time' (VARCHAR(50)), 'nor' (DATE). The primary key is 'time'. 'begin' references another table 'improve' in an exactly one to zero or many relationship. The relationship should be called 'time'. 
+There is another table 'improve' with the columns 'relationship' (DATE), 'candidate' (TEXT), 'energy' (VARCHAR(50)). The primary key is 'relationship'. 'improve' references another table 'eight' in an exactly one to zero or many relationship. The relationship should be called 'relationship'. 
+

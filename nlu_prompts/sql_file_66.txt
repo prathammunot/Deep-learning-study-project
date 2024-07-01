@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram623'.
+There is a table 'city' with the columns 'lead' (DATE), 'civil' (TEXT), 'nor' (VARCHAR(50)). The primary key is 'lead'. 'city' references another table 'appear' in an exactly one to zero or many relationship. The relationship should be called 'lead'. 
+There is another table 'appear' with the columns 'year' (VARCHAR(50)), 'fire' (DATE). The primary key is 'year'. 'appear' references another table 'most' in an exactly one to zero or many relationship. The relationship should be called 'year'. 
+There is another table 'most' with the columns 'brother' (DATE), 'fund' (TEXT), 'the' (VARCHAR(50)). The primary key is 'brother'. 'most' references another table 'especially' in an exactly one to zero or many relationship. The relationship should be called 'brother'. 
+There is another table 'especially' with the columns 'place' (VARCHAR(50)), 'best' (DATE). The primary key is 'place'. 'especially' references another table 'whom' in an exactly one to zero or many relationship. The relationship should be called 'place'. 
+There is another table 'whom' with the columns 'house' (DATE), 'dream' (TEXT), 'try' (VARCHAR(50)). The primary key is 'house'. 'whom' references another table 'city' in an exactly one to zero or many relationship. The relationship should be called 'house'. 
+

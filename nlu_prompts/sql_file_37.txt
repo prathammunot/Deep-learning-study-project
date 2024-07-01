@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram301'.
+There is a table 'customer' with the columns 'property' (DATE), 'week' (TEXT), 'weight' (VARCHAR(50)). The primary key is 'property'. 'customer' references another table 'note' in an exactly one to zero or many relationship. The relationship should be called 'property'. 
+There is another table 'note' with the columns 'area' (VARCHAR(50)), 'market' (DATE). The primary key is 'area'. 'note' references another table 'forget' in an exactly one to zero or many relationship. The relationship should be called 'area'. 
+There is another table 'forget' with the columns 'your' (DATE), 'city' (TEXT), 'owner' (VARCHAR(50)). The primary key is 'your'. 'forget' references another table 'cup' in an exactly one to zero or many relationship. The relationship should be called 'your'. 
+There is another table 'cup' with the columns 'arm' (VARCHAR(50)), 'since' (DATE). The primary key is 'arm'. 'cup' references another table 'necessary' in an exactly one to zero or many relationship. The relationship should be called 'arm'. 
+There is another table 'necessary' with the columns 'president' (DATE), 'American' (TEXT), 'us' (VARCHAR(50)). The primary key is 'president'. 'necessary' references another table 'for' in an exactly one to zero or many relationship. The relationship should be called 'president'. 
+There is another table 'for' with the columns 'others' (VARCHAR(50)), 'tree' (DATE). The primary key is 'others'. 'for' references another table 'image' in an exactly one to zero or many relationship. The relationship should be called 'others'. 
+There is another table 'image' with the columns 'nice' (DATE), 'within' (TEXT), 'outside' (VARCHAR(50)). The primary key is 'nice'. 'image' references another table 'stuff' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+There is another table 'stuff' with the columns 'industry' (VARCHAR(50)), 'before' (DATE). The primary key is 'industry'. 'stuff' references another table 'customer' in an exactly one to zero or many relationship. The relationship should be called 'industry'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram412'.
+There is a table 'another' with the columns 'Mr' (DATE), 'fine' (TEXT), 'member' (VARCHAR(50)). The primary key is 'Mr'. 'another' references another table 'knowledge' in an exactly one to zero or many relationship. The relationship should be called 'Mr'. 
+There is another table 'knowledge' with the columns 'production' (VARCHAR(50)), 'my' (DATE). The primary key is 'production'. 'knowledge' references another table 'reason' in an exactly one to zero or many relationship. The relationship should be called 'production'. 
+There is another table 'reason' with the columns 'person' (DATE), 'drive' (TEXT), 'himself' (VARCHAR(50)). The primary key is 'person'. 'reason' references another table 'voice' in an exactly one to zero or many relationship. The relationship should be called 'person'. 
+There is another table 'voice' with the columns 'reflect' (VARCHAR(50)), 'business' (DATE). The primary key is 'reflect'. 'voice' references another table 'meet' in an exactly one to zero or many relationship. The relationship should be called 'reflect'. 
+There is another table 'meet' with the columns 'either' (DATE), 'I' (TEXT), 'major' (VARCHAR(50)). The primary key is 'either'. 'meet' references another table 'especially' in an exactly one to zero or many relationship. The relationship should be called 'either'. 
+There is another table 'especially' with the columns 'quality' (VARCHAR(50)), 'three' (DATE). The primary key is 'quality'. 'especially' references another table 'another' in an exactly one to zero or many relationship. The relationship should be called 'quality'. 
+

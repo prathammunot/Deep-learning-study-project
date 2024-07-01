@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram801'.
+There is a table 'grow' with the columns 'message' (DATE), 'room' (TEXT), 'beautiful' (VARCHAR(50)). The primary key is 'message'. 'grow' references another table 'process' in an exactly one to zero or many relationship. The relationship should be called 'message'. 
+There is another table 'process' with the columns 'media' (VARCHAR(50)), 'despite' (DATE). The primary key is 'media'. 'process' references another table 'generation' in an exactly one to zero or many relationship. The relationship should be called 'media'. 
+There is another table 'generation' with the columns 'garden' (DATE), 'fall' (TEXT), 'put' (VARCHAR(50)). The primary key is 'garden'. 'generation' references another table 'rest' in an exactly one to zero or many relationship. The relationship should be called 'garden'. 
+There is another table 'rest' with the columns 'particular' (VARCHAR(50)), 'chair' (DATE). The primary key is 'particular'. 'rest' references another table 'agent' in an exactly one to zero or many relationship. The relationship should be called 'particular'. 
+There is another table 'agent' with the columns 'box' (DATE), 'exactly' (TEXT), 'candidate' (VARCHAR(50)). The primary key is 'box'. 'agent' references another table 'control' in an exactly one to zero or many relationship. The relationship should be called 'box'. 
+There is another table 'control' with the columns 'style' (VARCHAR(50)), 'market' (DATE). The primary key is 'style'. 'control' references another table 'reality' in an exactly one to zero or many relationship. The relationship should be called 'style'. 
+There is another table 'reality' with the columns 'discuss' (DATE), 'whose' (TEXT), 'plant' (VARCHAR(50)). The primary key is 'discuss'. 'reality' references another table 'race' in an exactly one to zero or many relationship. The relationship should be called 'discuss'. 
+There is another table 'race' with the columns 'new' (VARCHAR(50)), 'address' (DATE). The primary key is 'new'. 'race' references another table 'grow' in an exactly one to zero or many relationship. The relationship should be called 'new'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram312'.
+There is a table 'similar' with the columns 'body' (DATE), 'attack' (TEXT), 'character' (VARCHAR(50)). The primary key is 'body'. 'similar' references another table 'how' in an exactly one to zero or many relationship. The relationship should be called 'body'. 
+There is another table 'how' with the columns 'Democrat' (VARCHAR(50)), 'bag' (DATE). The primary key is 'Democrat'. 'how' references another table 'season' in an exactly one to zero or many relationship. The relationship should be called 'Democrat'. 
+There is another table 'season' with the columns 'watch' (DATE), 'responsibility' (TEXT), 'weight' (VARCHAR(50)). The primary key is 'watch'. 'season' references another table 'sort' in an exactly one to zero or many relationship. The relationship should be called 'watch'. 
+There is another table 'sort' with the columns 'husband' (VARCHAR(50)), 'show' (DATE). The primary key is 'husband'. 'sort' references another table 'maybe' in an exactly one to zero or many relationship. The relationship should be called 'husband'. 
+There is another table 'maybe' with the columns 'attack' (DATE), 'program' (TEXT), 'contain' (VARCHAR(50)). The primary key is 'attack'. 'maybe' references another table 'still' in an exactly one to zero or many relationship. The relationship should be called 'attack'. 
+There is another table 'still' with the columns 'against' (VARCHAR(50)), 'film' (DATE). The primary key is 'against'. 'still' references another table 'adult' in an exactly one to zero or many relationship. The relationship should be called 'against'. 
+There is another table 'adult' with the columns 'food' (DATE), 'quite' (TEXT), 'market' (VARCHAR(50)). The primary key is 'food'. 'adult' references another table 'similar' in an exactly one to zero or many relationship. The relationship should be called 'food'. 
+

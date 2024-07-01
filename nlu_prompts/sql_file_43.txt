@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram368'.
+There is a table 'hear' with the columns 'affect' (DATE), 'dream' (TEXT), 'inside' (VARCHAR(50)). The primary key is 'affect'. 'hear' references another table 'probably' in an exactly one to zero or many relationship. The relationship should be called 'affect'. 
+There is another table 'probably' with the columns 'drug' (VARCHAR(50)), 'some' (DATE). The primary key is 'drug'. 'probably' references another table 'often' in an exactly one to zero or many relationship. The relationship should be called 'drug'. 
+There is another table 'often' with the columns 'moment' (DATE), 'prove' (TEXT), 'throw' (VARCHAR(50)). The primary key is 'moment'. 'often' references another table 'second' in an exactly one to zero or many relationship. The relationship should be called 'moment'. 
+There is another table 'second' with the columns 'make' (VARCHAR(50)), 'after' (DATE). The primary key is 'make'. 'second' references another table 'realize' in an exactly one to zero or many relationship. The relationship should be called 'make'. 
+There is another table 'realize' with the columns 'guy' (DATE), 'who' (TEXT), 'institution' (VARCHAR(50)). The primary key is 'guy'. 'realize' references another table 'show' in an exactly one to zero or many relationship. The relationship should be called 'guy'. 
+There is another table 'show' with the columns 'program' (VARCHAR(50)), 'pass' (DATE). The primary key is 'program'. 'show' references another table 'hear' in an exactly one to zero or many relationship. The relationship should be called 'program'. 
+

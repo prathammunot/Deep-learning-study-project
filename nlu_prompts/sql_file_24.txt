@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram157'.
+There is a table 'section' with the columns 'free' (DATE), 'machine' (TEXT), 'support' (VARCHAR(50)). The primary key is 'free'. 'section' references another table 'level' in an exactly one to zero or many relationship. The relationship should be called 'free'. 
+There is another table 'level' with the columns 'movie' (VARCHAR(50)), 'director' (DATE). The primary key is 'movie'. 'level' references another table 'trade' in an exactly one to zero or many relationship. The relationship should be called 'movie'. 
+There is another table 'trade' with the columns 'place' (DATE), 'age' (TEXT), 'create' (VARCHAR(50)). The primary key is 'place'. 'trade' references another table 'song' in an exactly one to zero or many relationship. The relationship should be called 'place'. 
+There is another table 'song' with the columns 'many' (VARCHAR(50)), 'up' (DATE). The primary key is 'many'. 'song' references another table 'guess' in an exactly one to zero or many relationship. The relationship should be called 'many'. 
+There is another table 'guess' with the columns 'exactly' (DATE), 'job' (TEXT), 'hard' (VARCHAR(50)). The primary key is 'exactly'. 'guess' references another table 'task' in an exactly one to zero or many relationship. The relationship should be called 'exactly'. 
+There is another table 'task' with the columns 'painting' (VARCHAR(50)), 'some' (DATE). The primary key is 'painting'. 'task' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'painting'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram35'.
+There is a table 'still' with the columns 'generation' (DATE), 'must' (TEXT), 'simply' (VARCHAR(50)). The primary key is 'generation'. 'still' references another table 'head' in an exactly one to zero or many relationship. The relationship should be called 'generation'. 
+There is another table 'head' with the columns 'easy' (VARCHAR(50)), 'almost' (DATE). The primary key is 'easy'. 'head' references another table 'short' in an exactly one to zero or many relationship. The relationship should be called 'easy'. 
+There is another table 'short' with the columns 'produce' (DATE), 'senior' (TEXT), 'reach' (VARCHAR(50)). The primary key is 'produce'. 'short' references another table 'together' in an exactly one to zero or many relationship. The relationship should be called 'produce'. 
+There is another table 'together' with the columns 'car' (VARCHAR(50)), 'thing' (DATE). The primary key is 'car'. 'together' references another table 'six' in an exactly one to zero or many relationship. The relationship should be called 'car'. 
+There is another table 'six' with the columns 'audience' (DATE), 'war' (TEXT), 'pay' (VARCHAR(50)). The primary key is 'audience'. 'six' references another table 'still' in an exactly one to zero or many relationship. The relationship should be called 'audience'. 
+

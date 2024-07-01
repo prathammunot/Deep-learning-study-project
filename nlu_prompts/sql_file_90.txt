@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram890'.
+There is a table 'consumer' with the columns 'friend' (DATE), 'certainly' (TEXT), 'garden' (VARCHAR(50)). The primary key is 'friend'. 'consumer' references another table 'throw' in an exactly one to zero or many relationship. The relationship should be called 'friend'. 
+There is another table 'throw' with the columns 'loss' (VARCHAR(50)), 'performance' (DATE). The primary key is 'loss'. 'throw' references another table 'effect' in an exactly one to zero or many relationship. The relationship should be called 'loss'. 
+There is another table 'effect' with the columns 'plant' (DATE), 'vote' (TEXT), 'no' (VARCHAR(50)). The primary key is 'plant'. 'effect' references another table 'star' in an exactly one to zero or many relationship. The relationship should be called 'plant'. 
+There is another table 'star' with the columns 'clear' (VARCHAR(50)), 'office' (DATE). The primary key is 'clear'. 'star' references another table 'she' in an exactly one to zero or many relationship. The relationship should be called 'clear'. 
+There is another table 'she' with the columns 'year' (DATE), 'look' (TEXT), 'new' (VARCHAR(50)). The primary key is 'year'. 'she' references another table 'voice' in an exactly one to zero or many relationship. The relationship should be called 'year'. 
+There is another table 'voice' with the columns 'between' (VARCHAR(50)), 'both' (DATE). The primary key is 'between'. 'voice' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'between'. 
+There is another table 'section' with the columns 'read' (DATE), 'use' (TEXT), 'down' (VARCHAR(50)). The primary key is 'read'. 'section' references another table 'consumer' in an exactly one to zero or many relationship. The relationship should be called 'read'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram112'.
+There is a table 'sure' with the columns 'contain' (DATE), 'through' (TEXT), 'condition' (VARCHAR(50)). The primary key is 'contain'. 'sure' references another table 'agree' in an exactly one to zero or many relationship. The relationship should be called 'contain'. 
+There is another table 'agree' with the columns 'whole' (VARCHAR(50)), 'us' (DATE). The primary key is 'whole'. 'agree' references another table 'drop' in an exactly one to zero or many relationship. The relationship should be called 'whole'. 
+There is another table 'drop' with the columns 'hit' (DATE), 'figure' (TEXT), 'work' (VARCHAR(50)). The primary key is 'hit'. 'drop' references another table 'mean' in an exactly one to zero or many relationship. The relationship should be called 'hit'. 
+There is another table 'mean' with the columns 'small' (VARCHAR(50)), 'less' (DATE). The primary key is 'small'. 'mean' references another table 'country' in an exactly one to zero or many relationship. The relationship should be called 'small'. 
+There is another table 'country' with the columns 'short' (DATE), 'sell' (TEXT), 'keep' (VARCHAR(50)). The primary key is 'short'. 'country' references another table 'each' in an exactly one to zero or many relationship. The relationship should be called 'short'. 
+There is another table 'each' with the columns 'discuss' (VARCHAR(50)), 'number' (DATE). The primary key is 'discuss'. 'each' references another table 'north' in an exactly one to zero or many relationship. The relationship should be called 'discuss'. 
+There is another table 'north' with the columns 'possible' (DATE), 'young' (TEXT), 'spring' (VARCHAR(50)). The primary key is 'possible'. 'north' references another table 'city' in an exactly one to zero or many relationship. The relationship should be called 'possible'. 
+There is another table 'city' with the columns 'yet' (VARCHAR(50)), 'perhaps' (DATE). The primary key is 'yet'. 'city' references another table 'sure' in an exactly one to zero or many relationship. The relationship should be called 'yet'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram379'.
+There is a table 'animal' with the columns 'budget' (DATE), 'look' (TEXT), 'piece' (VARCHAR(50)). The primary key is 'budget'. 'animal' references another table 'beyond' in an exactly one to zero or many relationship. The relationship should be called 'budget'. 
+There is another table 'beyond' with the columns 'security' (VARCHAR(50)), 'the' (DATE). The primary key is 'security'. 'beyond' references another table 'decision' in an exactly one to zero or many relationship. The relationship should be called 'security'. 
+There is another table 'decision' with the columns 'each' (DATE), 'billion' (TEXT), 'when' (VARCHAR(50)). The primary key is 'each'. 'decision' references another table 'reflect' in an exactly one to zero or many relationship. The relationship should be called 'each'. 
+There is another table 'reflect' with the columns 'dream' (VARCHAR(50)), 'foot' (DATE). The primary key is 'dream'. 'reflect' references another table 'artist' in an exactly one to zero or many relationship. The relationship should be called 'dream'. 
+There is another table 'artist' with the columns 'sing' (DATE), 'present' (TEXT), 'region' (VARCHAR(50)). The primary key is 'sing'. 'artist' references another table 'animal' in an exactly one to zero or many relationship. The relationship should be called 'sing'. 
+

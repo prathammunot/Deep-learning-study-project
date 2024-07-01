@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram279'.
+There is a table 'before' with the columns 'many' (DATE), 'body' (TEXT), 'enter' (VARCHAR(50)). The primary key is 'many'. 'before' references another table 'season' in an exactly one to zero or many relationship. The relationship should be called 'many'. 
+There is another table 'season' with the columns 'against' (VARCHAR(50)), 'head' (DATE). The primary key is 'against'. 'season' references another table 'arm' in an exactly one to zero or many relationship. The relationship should be called 'against'. 
+There is another table 'arm' with the columns 'myself' (DATE), 'attorney' (TEXT), 'type' (VARCHAR(50)). The primary key is 'myself'. 'arm' references another table 'later' in an exactly one to zero or many relationship. The relationship should be called 'myself'. 
+There is another table 'later' with the columns 'happy' (VARCHAR(50)), 'produce' (DATE). The primary key is 'happy'. 'later' references another table 'consider' in an exactly one to zero or many relationship. The relationship should be called 'happy'. 
+There is another table 'consider' with the columns 'paper' (DATE), 'reduce' (TEXT), 'commercial' (VARCHAR(50)). The primary key is 'paper'. 'consider' references another table 'heavy' in an exactly one to zero or many relationship. The relationship should be called 'paper'. 
+There is another table 'heavy' with the columns 'sure' (VARCHAR(50)), 'evidence' (DATE). The primary key is 'sure'. 'heavy' references another table 'before' in an exactly one to zero or many relationship. The relationship should be called 'sure'. 
+

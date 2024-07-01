@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram101'.
+There is a table 'bank' with the columns 'bad' (DATE), 'accept' (TEXT), 'effort' (VARCHAR(50)). The primary key is 'bad'. 'bank' references another table 'gun' in an exactly one to zero or many relationship. The relationship should be called 'bad'. 
+There is another table 'gun' with the columns 'blue' (VARCHAR(50)), 'moment' (DATE). The primary key is 'blue'. 'gun' references another table 'after' in an exactly one to zero or many relationship. The relationship should be called 'blue'. 
+There is another table 'after' with the columns 'technology' (DATE), 'real' (TEXT), 'home' (VARCHAR(50)). The primary key is 'technology'. 'after' references another table 'billion' in an exactly one to zero or many relationship. The relationship should be called 'technology'. 
+There is another table 'billion' with the columns 'down' (VARCHAR(50)), 'drug' (DATE). The primary key is 'down'. 'billion' references another table 'speech' in an exactly one to zero or many relationship. The relationship should be called 'down'. 
+There is another table 'speech' with the columns 'word' (DATE), 'station' (TEXT), 'sign' (VARCHAR(50)). The primary key is 'word'. 'speech' references another table 'bank' in an exactly one to zero or many relationship. The relationship should be called 'word'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram512'.
+There is a table 'start' with the columns 'one' (DATE), 'amount' (TEXT), 'machine' (VARCHAR(50)). The primary key is 'one'. 'start' references another table 'meet' in an exactly one to zero or many relationship. The relationship should be called 'one'. 
+There is another table 'meet' with the columns 'race' (VARCHAR(50)), 'deep' (DATE). The primary key is 'race'. 'meet' references another table 'weight' in an exactly one to zero or many relationship. The relationship should be called 'race'. 
+There is another table 'weight' with the columns 'whom' (DATE), 'act' (TEXT), 'remain' (VARCHAR(50)). The primary key is 'whom'. 'weight' references another table 'culture' in an exactly one to zero or many relationship. The relationship should be called 'whom'. 
+There is another table 'culture' with the columns 'carry' (VARCHAR(50)), 'direction' (DATE). The primary key is 'carry'. 'culture' references another table 'brother' in an exactly one to zero or many relationship. The relationship should be called 'carry'. 
+There is another table 'brother' with the columns 'benefit' (DATE), 'find' (TEXT), 'picture' (VARCHAR(50)). The primary key is 'benefit'. 'brother' references another table 'student' in an exactly one to zero or many relationship. The relationship should be called 'benefit'. 
+There is another table 'student' with the columns 'dog' (VARCHAR(50)), 'new' (DATE). The primary key is 'dog'. 'student' references another table 'start' in an exactly one to zero or many relationship. The relationship should be called 'dog'. 
+

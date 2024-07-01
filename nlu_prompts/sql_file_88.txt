@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram867'.
+There is a table 'miss' with the columns 'which' (DATE), 'manage' (TEXT), 'cost' (VARCHAR(50)). The primary key is 'which'. 'miss' references another table 'put' in an exactly one to zero or many relationship. The relationship should be called 'which'. 
+There is another table 'put' with the columns 'carry' (VARCHAR(50)), 'property' (DATE). The primary key is 'carry'. 'put' references another table 'item' in an exactly one to zero or many relationship. The relationship should be called 'carry'. 
+There is another table 'item' with the columns 'dream' (DATE), 'upon' (TEXT), 'term' (VARCHAR(50)). The primary key is 'dream'. 'item' references another table 'where' in an exactly one to zero or many relationship. The relationship should be called 'dream'. 
+There is another table 'where' with the columns 'surface' (VARCHAR(50)), 'character' (DATE). The primary key is 'surface'. 'where' references another table 'yard' in an exactly one to zero or many relationship. The relationship should be called 'surface'. 
+There is another table 'yard' with the columns 'nice' (DATE), 'serious' (TEXT), 'friend' (VARCHAR(50)). The primary key is 'nice'. 'yard' references another table 'well' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+There is another table 'well' with the columns 'end' (VARCHAR(50)), 'not' (DATE). The primary key is 'end'. 'well' references another table 'miss' in an exactly one to zero or many relationship. The relationship should be called 'end'. 
+

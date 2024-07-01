@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram901'.
+There is a table 'fish' with the columns 'several' (DATE), 'building' (TEXT), 'near' (VARCHAR(50)). The primary key is 'several'. 'fish' references another table 'similar' in an exactly one to zero or many relationship. The relationship should be called 'several'. 
+There is another table 'similar' with the columns 'main' (VARCHAR(50)), 'fly' (DATE). The primary key is 'main'. 'similar' references another table 'language' in an exactly one to zero or many relationship. The relationship should be called 'main'. 
+There is another table 'language' with the columns 'possible' (DATE), 'this' (TEXT), 'politics' (VARCHAR(50)). The primary key is 'possible'. 'language' references another table 'hundred' in an exactly one to zero or many relationship. The relationship should be called 'possible'. 
+There is another table 'hundred' with the columns 'crime' (VARCHAR(50)), 'real' (DATE). The primary key is 'crime'. 'hundred' references another table 'network' in an exactly one to zero or many relationship. The relationship should be called 'crime'. 
+There is another table 'network' with the columns 'adult' (DATE), 'available' (TEXT), 'upon' (VARCHAR(50)). The primary key is 'adult'. 'network' references another table 'put' in an exactly one to zero or many relationship. The relationship should be called 'adult'. 
+There is another table 'put' with the columns 'information' (VARCHAR(50)), 'above' (DATE). The primary key is 'information'. 'put' references another table 'read' in an exactly one to zero or many relationship. The relationship should be called 'information'. 
+There is another table 'read' with the columns 'reveal' (DATE), 'serve' (TEXT), 'all' (VARCHAR(50)). The primary key is 'reveal'. 'read' references another table 'fish' in an exactly one to zero or many relationship. The relationship should be called 'reveal'. 
+

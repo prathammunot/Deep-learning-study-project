@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram590'.
+There is a table 'federal' with the columns 'off' (DATE), 'man' (TEXT), 'matter' (VARCHAR(50)). The primary key is 'off'. 'federal' references another table 'thing' in an exactly one to zero or many relationship. The relationship should be called 'off'. 
+There is another table 'thing' with the columns 'with' (VARCHAR(50)), 'feel' (DATE). The primary key is 'with'. 'thing' references another table 'evening' in an exactly one to zero or many relationship. The relationship should be called 'with'. 
+There is another table 'evening' with the columns 'study' (DATE), 'organization' (TEXT), 'indeed' (VARCHAR(50)). The primary key is 'study'. 'evening' references another table 'visit' in an exactly one to zero or many relationship. The relationship should be called 'study'. 
+There is another table 'visit' with the columns 'less' (VARCHAR(50)), 'mother' (DATE). The primary key is 'less'. 'visit' references another table 'manager' in an exactly one to zero or many relationship. The relationship should be called 'less'. 
+There is another table 'manager' with the columns 'else' (DATE), 'house' (TEXT), 'small' (VARCHAR(50)). The primary key is 'else'. 'manager' references another table 'radio' in an exactly one to zero or many relationship. The relationship should be called 'else'. 
+There is another table 'radio' with the columns 'first' (VARCHAR(50)), 'effect' (DATE). The primary key is 'first'. 'radio' references another table 'federal' in an exactly one to zero or many relationship. The relationship should be called 'first'. 
+

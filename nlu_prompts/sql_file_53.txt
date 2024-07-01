@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram479'.
+There is a table 'pattern' with the columns 'themselves' (DATE), 'age' (TEXT), 'score' (VARCHAR(50)). The primary key is 'themselves'. 'pattern' references another table 'write' in an exactly one to zero or many relationship. The relationship should be called 'themselves'. 
+There is another table 'write' with the columns 'under' (VARCHAR(50)), 'blood' (DATE). The primary key is 'under'. 'write' references another table 'clearly' in an exactly one to zero or many relationship. The relationship should be called 'under'. 
+There is another table 'clearly' with the columns 'get' (DATE), 'young' (TEXT), 'involve' (VARCHAR(50)). The primary key is 'get'. 'clearly' references another table 'avoid' in an exactly one to zero or many relationship. The relationship should be called 'get'. 
+There is another table 'avoid' with the columns 'oil' (VARCHAR(50)), 'really' (DATE). The primary key is 'oil'. 'avoid' references another table 'conference' in an exactly one to zero or many relationship. The relationship should be called 'oil'. 
+There is another table 'conference' with the columns 'game' (DATE), 'little' (TEXT), 'sound' (VARCHAR(50)). The primary key is 'game'. 'conference' references another table 'rest' in an exactly one to zero or many relationship. The relationship should be called 'game'. 
+There is another table 'rest' with the columns 'raise' (VARCHAR(50)), 'full' (DATE). The primary key is 'raise'. 'rest' references another table 'pattern' in an exactly one to zero or many relationship. The relationship should be called 'raise'. 
+

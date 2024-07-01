@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram978'.
+There is a table 'especially' with the columns 'although' (DATE), 'raise' (TEXT), 'including' (VARCHAR(50)). The primary key is 'although'. 'especially' references another table 'trial' in an exactly one to zero or many relationship. The relationship should be called 'although'. 
+There is another table 'trial' with the columns 'nothing' (VARCHAR(50)), 'big' (DATE). The primary key is 'nothing'. 'trial' references another table 'suffer' in an exactly one to zero or many relationship. The relationship should be called 'nothing'. 
+There is another table 'suffer' with the columns 'enjoy' (DATE), 'visit' (TEXT), 'exist' (VARCHAR(50)). The primary key is 'enjoy'. 'suffer' references another table 'which' in an exactly one to zero or many relationship. The relationship should be called 'enjoy'. 
+There is another table 'which' with the columns 'ago' (VARCHAR(50)), 'course' (DATE). The primary key is 'ago'. 'which' references another table 'arm' in an exactly one to zero or many relationship. The relationship should be called 'ago'. 
+There is another table 'arm' with the columns 'knowledge' (DATE), 'again' (TEXT), 'least' (VARCHAR(50)). The primary key is 'knowledge'. 'arm' references another table 'morning' in an exactly one to zero or many relationship. The relationship should be called 'knowledge'. 
+There is another table 'morning' with the columns 'official' (VARCHAR(50)), 'tell' (DATE). The primary key is 'official'. 'morning' references another table 'suddenly' in an exactly one to zero or many relationship. The relationship should be called 'official'. 
+There is another table 'suddenly' with the columns 'they' (DATE), 'maybe' (TEXT), 'administration' (VARCHAR(50)). The primary key is 'they'. 'suddenly' references another table 'own' in an exactly one to zero or many relationship. The relationship should be called 'they'. 
+There is another table 'own' with the columns 'respond' (VARCHAR(50)), 'father' (DATE). The primary key is 'respond'. 'own' references another table 'especially' in an exactly one to zero or many relationship. The relationship should be called 'respond'. 
+

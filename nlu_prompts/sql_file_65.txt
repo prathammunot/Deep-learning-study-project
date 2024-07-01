@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram612'.
+There is a table 'yeah' with the columns 'national' (DATE), 'billion' (TEXT), 'human' (VARCHAR(50)). The primary key is 'national'. 'yeah' references another table 'indeed' in an exactly one to zero or many relationship. The relationship should be called 'national'. 
+There is another table 'indeed' with the columns 'item' (VARCHAR(50)), 'between' (DATE). The primary key is 'item'. 'indeed' references another table 'yeah' in an exactly one to zero or many relationship. The relationship should be called 'item'. 
+There is another table 'yeah' with the columns 'account' (DATE), 'night' (TEXT), 'seem' (VARCHAR(50)). The primary key is 'account'. 'yeah' references another table 'least' in an exactly one to zero or many relationship. The relationship should be called 'account'. 
+There is another table 'least' with the columns 'rock' (VARCHAR(50)), 'stay' (DATE). The primary key is 'rock'. 'least' references another table 'law' in an exactly one to zero or many relationship. The relationship should be called 'rock'. 
+There is another table 'law' with the columns 'day' (DATE), 'pass' (TEXT), 'degree' (VARCHAR(50)). The primary key is 'day'. 'law' references another table 'rich' in an exactly one to zero or many relationship. The relationship should be called 'day'. 
+There is another table 'rich' with the columns 'skin' (VARCHAR(50)), 'can' (DATE). The primary key is 'skin'. 'rich' references another table 'system' in an exactly one to zero or many relationship. The relationship should be called 'skin'. 
+There is another table 'system' with the columns 'report' (DATE), 'writer' (TEXT), 'anyone' (VARCHAR(50)). The primary key is 'report'. 'system' references another table 'view' in an exactly one to zero or many relationship. The relationship should be called 'report'. 
+There is another table 'view' with the columns 'measure' (VARCHAR(50)), 'situation' (DATE). The primary key is 'measure'. 'view' references another table 'begin' in an exactly one to zero or many relationship. The relationship should be called 'measure'. 
+There is another table 'begin' with the columns 'site' (DATE), 'probably' (TEXT), 'look' (VARCHAR(50)). The primary key is 'site'. 'begin' references another table 'yeah' in an exactly one to zero or many relationship. The relationship should be called 'site'. 
+

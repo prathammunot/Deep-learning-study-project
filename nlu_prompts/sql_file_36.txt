@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram290'.
+There is a table 'down' with the columns 'court' (DATE), 'next' (TEXT), 'window' (VARCHAR(50)). The primary key is 'court'. 'down' references another table 'arrive' in an exactly one to zero or many relationship. The relationship should be called 'court'. 
+There is another table 'arrive' with the columns 'ground' (VARCHAR(50)), 'more' (DATE). The primary key is 'ground'. 'arrive' references another table 'nearly' in an exactly one to zero or many relationship. The relationship should be called 'ground'. 
+There is another table 'nearly' with the columns 'must' (DATE), 'sort' (TEXT), 'fall' (VARCHAR(50)). The primary key is 'must'. 'nearly' references another table 'task' in an exactly one to zero or many relationship. The relationship should be called 'must'. 
+There is another table 'task' with the columns 'industry' (VARCHAR(50)), 'concern' (DATE). The primary key is 'industry'. 'task' references another table 'they' in an exactly one to zero or many relationship. The relationship should be called 'industry'. 
+There is another table 'they' with the columns 'me' (DATE), 'film' (TEXT), 'body' (VARCHAR(50)). The primary key is 'me'. 'they' references another table 'size' in an exactly one to zero or many relationship. The relationship should be called 'me'. 
+There is another table 'size' with the columns 'moment' (VARCHAR(50)), 'piece' (DATE). The primary key is 'moment'. 'size' references another table 'down' in an exactly one to zero or many relationship. The relationship should be called 'moment'. 
+

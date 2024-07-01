@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram0'.
+There is a table 'watch' with the columns 'friend' (DATE), 'meet' (TEXT), 'radio' (VARCHAR(50)). The primary key is 'friend'. 'watch' references another table 'identify' in an exactly one to zero or many relationship. The relationship should be called 'friend'. 
+There is another table 'identify' with the columns 'never' (VARCHAR(50)), 'person' (DATE). The primary key is 'never'. 'identify' references another table 'happy' in an exactly one to zero or many relationship. The relationship should be called 'never'. 
+There is another table 'happy' with the columns 'rather' (DATE), 'speech' (TEXT), 'where' (VARCHAR(50)). The primary key is 'rather'. 'happy' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'rather'. 
+There is another table 'out' with the columns 'course' (VARCHAR(50)), 'manager' (DATE). The primary key is 'course'. 'out' references another table 'forward' in an exactly one to zero or many relationship. The relationship should be called 'course'. 
+There is another table 'forward' with the columns 'recent' (DATE), 'weight' (TEXT), 'information' (VARCHAR(50)). The primary key is 'recent'. 'forward' references another table 'hit' in an exactly one to zero or many relationship. The relationship should be called 'recent'. 
+There is another table 'hit' with the columns 'south' (VARCHAR(50)), 'high' (DATE). The primary key is 'south'. 'hit' references another table 'arm' in an exactly one to zero or many relationship. The relationship should be called 'south'. 
+There is another table 'arm' with the columns 'employee' (DATE), 'PM' (TEXT), 'mean' (VARCHAR(50)). The primary key is 'employee'. 'arm' references another table 'investment' in an exactly one to zero or many relationship. The relationship should be called 'employee'. 
+There is another table 'investment' with the columns 'but' (VARCHAR(50)), 'Congress' (DATE). The primary key is 'but'. 'investment' references another table 'watch' in an exactly one to zero or many relationship. The relationship should be called 'but'. 
+

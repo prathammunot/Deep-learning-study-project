@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram656'.
+There is a table 'culture' with the columns 'believe' (DATE), 'word' (TEXT), 'likely' (VARCHAR(50)). The primary key is 'believe'. 'culture' references another table 'thing' in an exactly one to zero or many relationship. The relationship should be called 'believe'. 
+There is another table 'thing' with the columns 'practice' (VARCHAR(50)), 'economy' (DATE). The primary key is 'practice'. 'thing' references another table 'man' in an exactly one to zero or many relationship. The relationship should be called 'practice'. 
+There is another table 'man' with the columns 'development' (DATE), 'education' (TEXT), 'war' (VARCHAR(50)). The primary key is 'development'. 'man' references another table 'check' in an exactly one to zero or many relationship. The relationship should be called 'development'. 
+There is another table 'check' with the columns 'learn' (VARCHAR(50)), 'station' (DATE). The primary key is 'learn'. 'check' references another table 'commercial' in an exactly one to zero or many relationship. The relationship should be called 'learn'. 
+There is another table 'commercial' with the columns 'then' (DATE), 'eye' (TEXT), 'forward' (VARCHAR(50)). The primary key is 'then'. 'commercial' references another table 'house' in an exactly one to zero or many relationship. The relationship should be called 'then'. 
+There is another table 'house' with the columns 'check' (VARCHAR(50)), 'ten' (DATE). The primary key is 'check'. 'house' references another table 'indeed' in an exactly one to zero or many relationship. The relationship should be called 'check'. 
+There is another table 'indeed' with the columns 'along' (DATE), 'often' (TEXT), 'past' (VARCHAR(50)). The primary key is 'along'. 'indeed' references another table 'impact' in an exactly one to zero or many relationship. The relationship should be called 'along'. 
+There is another table 'impact' with the columns 'small' (VARCHAR(50)), 'direction' (DATE). The primary key is 'small'. 'impact' references another table 'culture' in an exactly one to zero or many relationship. The relationship should be called 'small'. 
+

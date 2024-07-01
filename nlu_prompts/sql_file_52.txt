@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram468'.
+There is a table 'kitchen' with the columns 'company' (DATE), 'population' (TEXT), 'along' (VARCHAR(50)). The primary key is 'company'. 'kitchen' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'company'. 
+There is another table 'out' with the columns 'cause' (VARCHAR(50)), 'southern' (DATE). The primary key is 'cause'. 'out' references another table 'attack' in an exactly one to zero or many relationship. The relationship should be called 'cause'. 
+There is another table 'attack' with the columns 'why' (DATE), 'car' (TEXT), 'citizen' (VARCHAR(50)). The primary key is 'why'. 'attack' references another table 'high' in an exactly one to zero or many relationship. The relationship should be called 'why'. 
+There is another table 'high' with the columns 'financial' (VARCHAR(50)), 'hold' (DATE). The primary key is 'financial'. 'high' references another table 'structure' in an exactly one to zero or many relationship. The relationship should be called 'financial'. 
+There is another table 'structure' with the columns 'religious' (DATE), 'imagine' (TEXT), 'same' (VARCHAR(50)). The primary key is 'religious'. 'structure' references another table 'something' in an exactly one to zero or many relationship. The relationship should be called 'religious'. 
+There is another table 'something' with the columns 'reflect' (VARCHAR(50)), 'position' (DATE). The primary key is 'reflect'. 'something' references another table 'kitchen' in an exactly one to zero or many relationship. The relationship should be called 'reflect'. 
+
