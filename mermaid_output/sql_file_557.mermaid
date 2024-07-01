@@ -1,0 +1,40 @@
+erDiagram
+    trial ||--o{ west : rich
+    trial {
+        DATE rich
+        TEXT blue
+        VARCHAR(50) record
+    }
+    west ||--o{ maintain : work
+    west {
+        VARCHAR(50) work
+        DATE north
+    }
+    maintain ||--o{ oil : store
+    maintain {
+        DATE store
+        TEXT international
+        VARCHAR(50) language
+    }
+    oil ||--o{ lead : friend
+    oil {
+        VARCHAR(50) friend
+        DATE standard
+    }
+    lead ||--o{ ready : dream
+    lead {
+        DATE dream
+        TEXT practice
+        VARCHAR(50) single
+    }
+    ready ||--o{ perform : final
+    ready {
+        VARCHAR(50) final
+        DATE financial
+    }
+    perform ||--o{ trial : behavior
+    perform {
+        DATE behavior
+        TEXT fund
+        VARCHAR(50) identify
+    }

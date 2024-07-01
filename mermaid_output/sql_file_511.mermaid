@@ -1,0 +1,29 @@
+erDiagram
+    structure ||--o{ believe : common
+    structure {
+        DATE common
+        TEXT relationship
+        VARCHAR(50) head
+    }
+    believe ||--o{ drop : try
+    believe {
+        VARCHAR(50) try
+        DATE fight
+    }
+    drop ||--o{ where : your
+    drop {
+        DATE your
+        TEXT particular
+        VARCHAR(50) over
+    }
+    where ||--o{ hope : some
+    where {
+        VARCHAR(50) some
+        DATE bring
+    }
+    hope ||--o{ structure : within
+    hope {
+        DATE within
+        TEXT sure
+        VARCHAR(50) walk
+    }

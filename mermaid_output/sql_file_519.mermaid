@@ -1,0 +1,67 @@
+erDiagram
+    base ||--o{ first : soldier
+    base {
+        DATE soldier
+        TEXT condition
+        VARCHAR(50) important
+    }
+    first ||--o{ cover : trip
+    first {
+        VARCHAR(50) trip
+        DATE campaign
+    }
+    cover ||--o{ company : tell
+    cover {
+        DATE tell
+        TEXT future
+        VARCHAR(50) effect
+    }
+    company ||--o{ institution : major
+    company {
+        VARCHAR(50) major
+        DATE no
+    }
+    institution ||--o{ one : that
+    institution {
+        DATE that
+        TEXT job
+        VARCHAR(50) standard
+    }
+    one ||--o{ experience : yourself
+    one {
+        VARCHAR(50) yourself
+        DATE nothing
+    }
+    experience ||--o{ sound : us
+    experience {
+        DATE us
+        TEXT method
+        VARCHAR(50) particular
+    }
+    sound ||--o{ unit : state
+    sound {
+        VARCHAR(50) state
+        DATE whole
+    }
+    unit ||--o{ order : two
+    unit {
+        DATE two
+        TEXT pass
+        VARCHAR(50) central
+    }
+    order ||--o{ cup : appear
+    order {
+        VARCHAR(50) appear
+        DATE who
+    }
+    cup ||--o{ site : water
+    cup {
+        DATE water
+        TEXT remain
+        VARCHAR(50) tax
+    }
+    site ||--o{ base : position
+    site {
+        VARCHAR(50) position
+        DATE too
+    }

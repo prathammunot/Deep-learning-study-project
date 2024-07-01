@@ -1,0 +1,62 @@
+erDiagram
+    yeah ||--o{ bar : part
+    yeah {
+        DATE part
+        TEXT writer
+        VARCHAR(50) whatever
+    }
+    bar ||--o{ or : section
+    bar {
+        VARCHAR(50) section
+        DATE base
+    }
+    or ||--o{ parent : point
+    or {
+        DATE point
+        TEXT skin
+        VARCHAR(50) no
+    }
+    parent ||--o{ family : film
+    parent {
+        VARCHAR(50) film
+        DATE authority
+    }
+    family ||--o{ class : charge
+    family {
+        DATE charge
+        TEXT hour
+        VARCHAR(50) whatever
+    }
+    class ||--o{ politics : teacher
+    class {
+        VARCHAR(50) teacher
+        DATE mean
+    }
+    politics ||--o{ style : sport
+    politics {
+        DATE sport
+        TEXT week
+        VARCHAR(50) owner
+    }
+    style ||--o{ serve : early
+    style {
+        VARCHAR(50) early
+        DATE ever
+    }
+    serve ||--o{ lot : affect
+    serve {
+        DATE affect
+        TEXT mother
+        VARCHAR(50) through
+    }
+    lot ||--o{ product : against
+    lot {
+        VARCHAR(50) against
+        DATE lose
+    }
+    product ||--o{ yeah : usually
+    product {
+        DATE usually
+        TEXT mean
+        VARCHAR(50) room
+    }

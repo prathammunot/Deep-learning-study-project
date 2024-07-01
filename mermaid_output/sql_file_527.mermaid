@@ -1,0 +1,45 @@
+erDiagram
+    idea ||--o{ particular : other
+    idea {
+        DATE other
+        TEXT somebody
+        VARCHAR(50) think
+    }
+    particular ||--o{ technology : difficult
+    particular {
+        VARCHAR(50) difficult
+        DATE career
+    }
+    technology ||--o{ director : same
+    technology {
+        DATE same
+        TEXT speak
+        VARCHAR(50) majority
+    }
+    director ||--o{ town : event
+    director {
+        VARCHAR(50) event
+        DATE different
+    }
+    town ||--o{ all : word
+    town {
+        DATE word
+        TEXT walk
+        VARCHAR(50) Mr
+    }
+    all ||--o{ once : study
+    all {
+        VARCHAR(50) study
+        DATE candidate
+    }
+    once ||--o{ food : goal
+    once {
+        DATE goal
+        TEXT call
+        VARCHAR(50) final
+    }
+    food ||--o{ idea : evidence
+    food {
+        VARCHAR(50) evidence
+        DATE leave
+    }

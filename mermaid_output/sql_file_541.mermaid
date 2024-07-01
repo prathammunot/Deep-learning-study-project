@@ -1,0 +1,29 @@
+erDiagram
+    sell ||--o{ standard : line
+    sell {
+        DATE line
+        TEXT citizen
+        VARCHAR(50) yard
+    }
+    standard ||--o{ really : stuff
+    standard {
+        VARCHAR(50) stuff
+        DATE leader
+    }
+    really ||--o{ pull : race
+    really {
+        DATE race
+        TEXT especially
+        VARCHAR(50) keep
+    }
+    pull ||--o{ service : hit
+    pull {
+        VARCHAR(50) hit
+        DATE woman
+    }
+    service ||--o{ sell : yard
+    service {
+        DATE yard
+        TEXT because
+        VARCHAR(50) move
+    }

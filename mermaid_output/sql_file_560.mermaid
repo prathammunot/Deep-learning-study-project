@@ -1,0 +1,29 @@
+erDiagram
+    together ||--o{ help : physical
+    together {
+        DATE physical
+        TEXT during
+        VARCHAR(50) reason
+    }
+    help ||--o{ cover : who
+    help {
+        VARCHAR(50) who
+        DATE help
+    }
+    cover ||--o{ other : hand
+    cover {
+        DATE hand
+        TEXT thing
+        VARCHAR(50) school
+    }
+    other ||--o{ show : foot
+    other {
+        VARCHAR(50) foot
+        DATE pull
+    }
+    show ||--o{ together : full
+    show {
+        DATE full
+        TEXT grow
+        VARCHAR(50) meet
+    }

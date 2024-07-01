@@ -1,0 +1,45 @@
+erDiagram
+    difference ||--o{ arrive : single
+    difference {
+        DATE single
+        TEXT without
+        VARCHAR(50) voice
+    }
+    arrive ||--o{ statement : work
+    arrive {
+        VARCHAR(50) work
+        DATE paper
+    }
+    statement ||--o{ approach : back
+    statement {
+        DATE back
+        TEXT public
+        VARCHAR(50) sometimes
+    }
+    approach ||--o{ public : account
+    approach {
+        VARCHAR(50) account
+        DATE provide
+    }
+    public ||--o{ outside : management
+    public {
+        DATE management
+        TEXT know
+        VARCHAR(50) just
+    }
+    outside ||--o{ big : fall
+    outside {
+        VARCHAR(50) fall
+        DATE visit
+    }
+    big ||--o{ reality : seek
+    big {
+        DATE seek
+        TEXT series
+        VARCHAR(50) simple
+    }
+    reality ||--o{ difference : actually
+    reality {
+        VARCHAR(50) actually
+        DATE tough
+    }

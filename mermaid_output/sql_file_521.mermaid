@@ -1,0 +1,40 @@
+erDiagram
+    read ||--o{ friend : loss
+    read {
+        DATE loss
+        TEXT executive
+        VARCHAR(50) strategy
+    }
+    friend ||--o{ option : common
+    friend {
+        VARCHAR(50) common
+        DATE product
+    }
+    option ||--o{ house : add
+    option {
+        DATE add
+        TEXT identify
+        VARCHAR(50) heavy
+    }
+    house ||--o{ gun : morning
+    house {
+        VARCHAR(50) morning
+        DATE water
+    }
+    gun ||--o{ knowledge : truth
+    gun {
+        DATE truth
+        TEXT actually
+        VARCHAR(50) list
+    }
+    knowledge ||--o{ best : help
+    knowledge {
+        VARCHAR(50) help
+        DATE assume
+    }
+    best ||--o{ read : price
+    best {
+        DATE price
+        TEXT analysis
+        VARCHAR(50) institution
+    }

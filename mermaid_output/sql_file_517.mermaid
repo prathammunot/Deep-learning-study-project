@@ -1,0 +1,56 @@
+erDiagram
+    hour ||--o{ watch : morning
+    hour {
+        DATE morning
+        TEXT possible
+        VARCHAR(50) during
+    }
+    watch ||--o{ table : scene
+    watch {
+        VARCHAR(50) scene
+        DATE decade
+    }
+    table ||--o{ idea : measure
+    table {
+        DATE measure
+        TEXT rule
+        VARCHAR(50) music
+    }
+    idea ||--o{ film : kind
+    idea {
+        VARCHAR(50) kind
+        DATE eight
+    }
+    film ||--o{ yet : foot
+    film {
+        DATE foot
+        TEXT political
+        VARCHAR(50) fill
+    }
+    yet ||--o{ indeed : instead
+    yet {
+        VARCHAR(50) instead
+        DATE year
+    }
+    indeed ||--o{ eye : not
+    indeed {
+        DATE not
+        TEXT American
+        VARCHAR(50) head
+    }
+    eye ||--o{ during : explain
+    eye {
+        VARCHAR(50) explain
+        DATE magazine
+    }
+    during ||--o{ exist : by
+    during {
+        DATE by
+        TEXT face
+        VARCHAR(50) modern
+    }
+    exist ||--o{ hour : look
+    exist {
+        VARCHAR(50) look
+        DATE even
+    }

@@ -1,0 +1,29 @@
+erDiagram
+    ready ||--o{ rule : job
+    ready {
+        DATE job
+        TEXT significant
+        VARCHAR(50) news
+    }
+    rule ||--o{ red : appear
+    rule {
+        VARCHAR(50) appear
+        DATE series
+    }
+    red ||--o{ Mrs : Republican
+    red {
+        DATE Republican
+        TEXT away
+        VARCHAR(50) green
+    }
+    Mrs ||--o{ drive : rest
+    Mrs {
+        VARCHAR(50) rest
+        DATE born
+    }
+    drive ||--o{ ready : short
+    drive {
+        DATE short
+        TEXT travel
+        VARCHAR(50) defense
+    }

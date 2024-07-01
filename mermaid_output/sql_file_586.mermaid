@@ -1,0 +1,62 @@
+erDiagram
+    cover ||--o{ many : series
+    cover {
+        DATE series
+        TEXT pretty
+        VARCHAR(50) amount
+    }
+    many ||--o{ quality : reason
+    many {
+        VARCHAR(50) reason
+        DATE stock
+    }
+    quality ||--o{ apply : direction
+    quality {
+        DATE direction
+        TEXT own
+        VARCHAR(50) source
+    }
+    apply ||--o{ look : there
+    apply {
+        VARCHAR(50) there
+        DATE possible
+    }
+    look ||--o{ along : suggest
+    look {
+        DATE suggest
+        TEXT box
+        VARCHAR(50) listen
+    }
+    along ||--o{ rise : final
+    along {
+        VARCHAR(50) final
+        DATE success
+    }
+    rise ||--o{ doctor : never
+    rise {
+        DATE never
+        TEXT question
+        VARCHAR(50) common
+    }
+    doctor ||--o{ best : similar
+    doctor {
+        VARCHAR(50) similar
+        DATE upon
+    }
+    best ||--o{ threat : probably
+    best {
+        DATE probably
+        TEXT reality
+        VARCHAR(50) sea
+    }
+    threat ||--o{ parent : push
+    threat {
+        VARCHAR(50) push
+        DATE whose
+    }
+    parent ||--o{ cover : consider
+    parent {
+        DATE consider
+        TEXT will
+        VARCHAR(50) last
+    }

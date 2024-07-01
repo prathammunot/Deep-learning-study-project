@@ -1,0 +1,34 @@
+erDiagram
+    Mr ||--o{ husband : apply
+    Mr {
+        DATE apply
+        TEXT skill
+        VARCHAR(50) all
+    }
+    husband ||--o{ doctor : newspaper
+    husband {
+        VARCHAR(50) newspaper
+        DATE outside
+    }
+    doctor ||--o{ expert : more
+    doctor {
+        DATE more
+        TEXT when
+        VARCHAR(50) support
+    }
+    expert ||--o{ above : seat
+    expert {
+        VARCHAR(50) seat
+        DATE level
+    }
+    above ||--o{ stop : dark
+    above {
+        DATE dark
+        TEXT to
+        VARCHAR(50) give
+    }
+    stop ||--o{ Mr : second
+    stop {
+        VARCHAR(50) second
+        DATE understand
+    }

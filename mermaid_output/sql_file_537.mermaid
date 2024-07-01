@@ -1,0 +1,45 @@
+erDiagram
+    participant ||--o{ plan : popular
+    participant {
+        DATE popular
+        TEXT general
+        VARCHAR(50) state
+    }
+    plan ||--o{ one : sense
+    plan {
+        VARCHAR(50) sense
+        DATE movie
+    }
+    one ||--o{ light : month
+    one {
+        DATE month
+        TEXT yourself
+        VARCHAR(50) soon
+    }
+    light ||--o{ window : become
+    light {
+        VARCHAR(50) become
+        DATE dinner
+    }
+    window ||--o{ seven : everybody
+    window {
+        DATE everybody
+        TEXT American
+        VARCHAR(50) small
+    }
+    seven ||--o{ foreign : claim
+    seven {
+        VARCHAR(50) claim
+        DATE down
+    }
+    foreign ||--o{ administration : remember
+    foreign {
+        DATE remember
+        TEXT project
+        VARCHAR(50) eight
+    }
+    administration ||--o{ participant : three
+    administration {
+        VARCHAR(50) three
+        DATE something
+    }

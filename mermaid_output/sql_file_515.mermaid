@@ -1,0 +1,45 @@
+erDiagram
+    almost ||--o{ conference : piece
+    almost {
+        DATE piece
+        TEXT draw
+        VARCHAR(50) president
+    }
+    conference ||--o{ it : thought
+    conference {
+        VARCHAR(50) thought
+        DATE owner
+    }
+    it ||--o{ past : of
+    it {
+        DATE of
+        TEXT speech
+        VARCHAR(50) family
+    }
+    past ||--o{ today : let
+    past {
+        VARCHAR(50) let
+        DATE draw
+    }
+    today ||--o{ society : different
+    today {
+        DATE different
+        TEXT however
+        VARCHAR(50) story
+    }
+    society ||--o{ huge : benefit
+    society {
+        VARCHAR(50) benefit
+        DATE prepare
+    }
+    huge ||--o{ night : level
+    huge {
+        DATE level
+        TEXT mention
+        VARCHAR(50) dream
+    }
+    night ||--o{ almost : consumer
+    night {
+        VARCHAR(50) consumer
+        DATE skin
+    }

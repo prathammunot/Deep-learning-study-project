@@ -1,0 +1,29 @@
+erDiagram
+    onto ||--o{ firm : prepare
+    onto {
+        DATE prepare
+        TEXT speech
+        VARCHAR(50) tell
+    }
+    firm ||--o{ above : network
+    firm {
+        VARCHAR(50) network
+        DATE similar
+    }
+    above ||--o{ toward : job
+    above {
+        DATE job
+        TEXT movie
+        VARCHAR(50) move
+    }
+    toward ||--o{ opportunity : much
+    toward {
+        VARCHAR(50) much
+        DATE economic
+    }
+    opportunity ||--o{ onto : huge
+    opportunity {
+        DATE huge
+        TEXT understand
+        VARCHAR(50) line
+    }

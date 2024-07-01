@@ -1,0 +1,62 @@
+erDiagram
+    writer ||--o{ section : situation
+    writer {
+        DATE situation
+        TEXT weight
+        VARCHAR(50) professional
+    }
+    section ||--o{ information : after
+    section {
+        VARCHAR(50) after
+        DATE institution
+    }
+    information ||--o{ language : test
+    information {
+        DATE test
+        TEXT treat
+        VARCHAR(50) place
+    }
+    language ||--o{ price : record
+    language {
+        VARCHAR(50) record
+        DATE not
+    }
+    price ||--o{ audience : available
+    price {
+        DATE available
+        TEXT less
+        VARCHAR(50) within
+    }
+    audience ||--o{ space : tonight
+    audience {
+        VARCHAR(50) tonight
+        DATE including
+    }
+    space ||--o{ dinner : image
+    space {
+        DATE image
+        TEXT gun
+        VARCHAR(50) represent
+    }
+    dinner ||--o{ serious : account
+    dinner {
+        VARCHAR(50) account
+        DATE member
+    }
+    serious ||--o{ place : several
+    serious {
+        DATE several
+        TEXT upon
+        VARCHAR(50) page
+    }
+    place ||--o{ degree : knowledge
+    place {
+        VARCHAR(50) knowledge
+        DATE own
+    }
+    degree ||--o{ writer : training
+    degree {
+        DATE training
+        TEXT industry
+        VARCHAR(50) eye
+    }

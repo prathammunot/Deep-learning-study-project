@@ -1,0 +1,34 @@
+erDiagram
+    brother ||--o{ white : nature
+    brother {
+        DATE nature
+        TEXT move
+        VARCHAR(50) sign
+    }
+    white ||--o{ health : local
+    white {
+        VARCHAR(50) local
+        DATE room
+    }
+    health ||--o{ kind : tell
+    health {
+        DATE tell
+        TEXT well
+        VARCHAR(50) language
+    }
+    kind ||--o{ fish : door
+    kind {
+        VARCHAR(50) door
+        DATE option
+    }
+    fish ||--o{ market : glass
+    fish {
+        DATE glass
+        TEXT stop
+        VARCHAR(50) fast
+    }
+    market ||--o{ brother : office
+    market {
+        VARCHAR(50) office
+        DATE crime
+    }

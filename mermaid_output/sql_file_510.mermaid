@@ -1,0 +1,29 @@
+erDiagram
+    room ||--o{ for : hair
+    room {
+        DATE hair
+        TEXT performance
+        VARCHAR(50) these
+    }
+    for ||--o{ society : quality
+    for {
+        VARCHAR(50) quality
+        DATE add
+    }
+    society ||--o{ high : parent
+    society {
+        DATE parent
+        TEXT garden
+        VARCHAR(50) well
+    }
+    high ||--o{ company : nice
+    high {
+        VARCHAR(50) nice
+        DATE weight
+    }
+    company ||--o{ room : sister
+    company {
+        DATE sister
+        TEXT benefit
+        VARCHAR(50) future
+    }

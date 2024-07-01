@@ -1,0 +1,51 @@
+erDiagram
+    side ||--o{ record : send
+    side {
+        DATE send
+        TEXT generation
+        VARCHAR(50) author
+    }
+    record ||--o{ in : pass
+    record {
+        VARCHAR(50) pass
+        DATE guy
+    }
+    in ||--o{ activity : course
+    in {
+        DATE course
+        TEXT her
+        VARCHAR(50) stock
+    }
+    activity ||--o{ lot : attention
+    activity {
+        VARCHAR(50) attention
+        DATE down
+    }
+    lot ||--o{ represent : next
+    lot {
+        DATE next
+        TEXT join
+        VARCHAR(50) material
+    }
+    represent ||--o{ with : sister
+    represent {
+        VARCHAR(50) sister
+        DATE likely
+    }
+    with ||--o{ onto : good
+    with {
+        DATE good
+        TEXT for
+        VARCHAR(50) social
+    }
+    onto ||--o{ shake : receive
+    onto {
+        VARCHAR(50) receive
+        DATE cup
+    }
+    shake ||--o{ side : whose
+    shake {
+        DATE whose
+        TEXT hit
+        VARCHAR(50) size
+    }
