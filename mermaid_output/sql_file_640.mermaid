@@ -1,0 +1,55 @@
+erDiagram
+    above ||--o{ mention : example
+    above {
+        DATE example
+        TEXT religious
+        VARCHAR(50) positive
+    }
+    mention ||--o{ happy : wide
+    mention {
+        VARCHAR(50) wide
+        DATE without
+    }
+    happy ||--o{ write : view
+    happy {
+        DATE view
+        TEXT under
+        VARCHAR(50) cost
+    }
+    write ||--o{ official : accept
+    write {
+        VARCHAR(50) accept
+        DATE ready
+    }
+    official ||--o{ commercial : in
+    official {
+        DATE in
+        TEXT candidate
+        VARCHAR(50) finish
+    }
+    commercial ||--o{ television : leader
+    commercial {
+        VARCHAR(50) leader
+        DATE feeling
+    }
+    television ||--o{ smile : hand
+    television {
+        DATE hand
+        VARCHAR(50) cause
+    }
+    smile ||--o{ this : term
+    smile {
+        VARCHAR(50) term
+        DATE general
+    }
+    this ||--o{ send : cell
+    this {
+        DATE cell
+        TEXT third
+        VARCHAR(50) remember
+    }
+    send ||--o{ above : air
+    send {
+        VARCHAR(50) air
+        DATE health
+    }

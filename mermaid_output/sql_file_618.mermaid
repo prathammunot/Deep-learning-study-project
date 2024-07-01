@@ -1,0 +1,56 @@
+erDiagram
+    article ||--o{ off : film
+    article {
+        DATE film
+        TEXT include
+        VARCHAR(50) effect
+    }
+    off ||--o{ perform : face
+    off {
+        VARCHAR(50) face
+        DATE wide
+    }
+    perform ||--o{ cup : plant
+    perform {
+        DATE plant
+        TEXT economy
+        VARCHAR(50) industry
+    }
+    cup ||--o{ various : amount
+    cup {
+        VARCHAR(50) amount
+        DATE positive
+    }
+    various ||--o{ mean : floor
+    various {
+        DATE floor
+        TEXT economic
+        VARCHAR(50) road
+    }
+    mean ||--o{ song : professor
+    mean {
+        VARCHAR(50) professor
+        DATE analysis
+    }
+    song ||--o{ talk : statement
+    song {
+        DATE statement
+        TEXT top
+        VARCHAR(50) wife
+    }
+    talk ||--o{ well : executive
+    talk {
+        VARCHAR(50) executive
+        DATE week
+    }
+    well ||--o{ story : authority
+    well {
+        DATE authority
+        TEXT letter
+        VARCHAR(50) actually
+    }
+    story ||--o{ article : front
+    story {
+        VARCHAR(50) front
+        DATE run
+    }

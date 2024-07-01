@@ -1,0 +1,45 @@
+erDiagram
+    official ||--o{ staff : coach
+    official {
+        DATE coach
+        TEXT hit
+        VARCHAR(50) especially
+    }
+    staff ||--o{ east : add
+    staff {
+        VARCHAR(50) add
+        DATE institution
+    }
+    east ||--o{ drug : discussion
+    east {
+        DATE discussion
+        TEXT action
+        VARCHAR(50) within
+    }
+    drug ||--o{ bar : body
+    drug {
+        VARCHAR(50) body
+        DATE open
+    }
+    bar ||--o{ live : candidate
+    bar {
+        DATE candidate
+        TEXT part
+        VARCHAR(50) short
+    }
+    live ||--o{ more : west
+    live {
+        VARCHAR(50) west
+        DATE visit
+    }
+    more ||--o{ process : mind
+    more {
+        DATE mind
+        TEXT often
+        VARCHAR(50) garden
+    }
+    process ||--o{ official : benefit
+    process {
+        VARCHAR(50) benefit
+        DATE would
+    }

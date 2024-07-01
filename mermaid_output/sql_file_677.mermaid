@@ -1,0 +1,29 @@
+erDiagram
+    summer ||--o{ since : remember
+    summer {
+        DATE remember
+        TEXT guess
+        VARCHAR(50) win
+    }
+    since ||--o{ note : mother
+    since {
+        VARCHAR(50) mother
+        DATE off
+    }
+    note ||--o{ situation : reason
+    note {
+        DATE reason
+        TEXT simply
+        VARCHAR(50) follow
+    }
+    situation ||--o{ war : woman
+    situation {
+        VARCHAR(50) woman
+        DATE site
+    }
+    war ||--o{ summer : together
+    war {
+        DATE together
+        TEXT ever
+        VARCHAR(50) can
+    }

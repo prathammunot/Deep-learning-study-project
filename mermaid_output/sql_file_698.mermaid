@@ -1,0 +1,45 @@
+erDiagram
+    about ||--o{ language : note
+    about {
+        DATE note
+        TEXT clear
+        VARCHAR(50) story
+    }
+    language ||--o{ reflect : total
+    language {
+        VARCHAR(50) total
+        DATE product
+    }
+    reflect ||--o{ military : every
+    reflect {
+        DATE every
+        TEXT morning
+        VARCHAR(50) order
+    }
+    military ||--o{ final : treatment
+    military {
+        VARCHAR(50) treatment
+        DATE culture
+    }
+    final ||--o{ side : personal
+    final {
+        DATE personal
+        TEXT end
+        VARCHAR(50) enter
+    }
+    side ||--o{ could : east
+    side {
+        VARCHAR(50) east
+        DATE reality
+    }
+    could ||--o{ story : white
+    could {
+        DATE white
+        TEXT building
+        VARCHAR(50) whose
+    }
+    story ||--o{ about : interest
+    story {
+        VARCHAR(50) interest
+        DATE sense
+    }

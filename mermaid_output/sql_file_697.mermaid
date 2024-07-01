@@ -1,0 +1,34 @@
+erDiagram
+    half ||--o{ into : why
+    half {
+        DATE why
+        TEXT apply
+        VARCHAR(50) game
+    }
+    into ||--o{ politics : major
+    into {
+        VARCHAR(50) major
+        DATE around
+    }
+    politics ||--o{ building : true
+    politics {
+        DATE true
+        TEXT whom
+        VARCHAR(50) watch
+    }
+    building ||--o{ claim : activity
+    building {
+        VARCHAR(50) activity
+        DATE result
+    }
+    claim ||--o{ admit : about
+    claim {
+        DATE about
+        TEXT own
+        VARCHAR(50) ten
+    }
+    admit ||--o{ half : behind
+    admit {
+        VARCHAR(50) behind
+        DATE economic
+    }

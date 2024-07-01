@@ -1,0 +1,29 @@
+erDiagram
+    goal ||--o{ thing : finish
+    goal {
+        DATE finish
+        TEXT nation
+        VARCHAR(50) environmental
+    }
+    thing ||--o{ put : safe
+    thing {
+        VARCHAR(50) safe
+        DATE feel
+    }
+    put ||--o{ public : whole
+    put {
+        DATE whole
+        TEXT bank
+        VARCHAR(50) society
+    }
+    public ||--o{ early : task
+    public {
+        VARCHAR(50) task
+        DATE while
+    }
+    early ||--o{ goal : middle
+    early {
+        DATE middle
+        TEXT decade
+        VARCHAR(50) run
+    }

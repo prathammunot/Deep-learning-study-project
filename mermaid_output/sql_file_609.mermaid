@@ -1,0 +1,40 @@
+erDiagram
+    floor ||--o{ challenge : board
+    floor {
+        DATE board
+        TEXT wind
+        VARCHAR(50) current
+    }
+    challenge ||--o{ we : region
+    challenge {
+        VARCHAR(50) region
+        DATE approach
+    }
+    we ||--o{ respond : her
+    we {
+        DATE her
+        TEXT produce
+        VARCHAR(50) require
+    }
+    respond ||--o{ popular : bag
+    respond {
+        VARCHAR(50) bag
+        DATE remain
+    }
+    popular ||--o{ assume : education
+    popular {
+        DATE education
+        TEXT movie
+        VARCHAR(50) oil
+    }
+    assume ||--o{ think : learn
+    assume {
+        VARCHAR(50) learn
+        DATE during
+    }
+    think ||--o{ floor : accept
+    think {
+        DATE accept
+        TEXT under
+        VARCHAR(50) save
+    }

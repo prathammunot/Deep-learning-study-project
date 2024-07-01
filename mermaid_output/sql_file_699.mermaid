@@ -1,0 +1,56 @@
+erDiagram
+    control ||--o{ both : manager
+    control {
+        DATE manager
+        TEXT consider
+        VARCHAR(50) fly
+    }
+    both ||--o{ specific : term
+    both {
+        VARCHAR(50) term
+        DATE major
+    }
+    specific ||--o{ star : wonder
+    specific {
+        DATE wonder
+        TEXT ability
+        VARCHAR(50) forget
+    }
+    star ||--o{ entire : teacher
+    star {
+        VARCHAR(50) teacher
+        DATE around
+    }
+    entire ||--o{ popular : direction
+    entire {
+        DATE direction
+        TEXT cup
+        VARCHAR(50) mention
+    }
+    popular ||--o{ oil : civil
+    popular {
+        VARCHAR(50) civil
+        DATE trial
+    }
+    oil ||--o{ Democrat : end
+    oil {
+        DATE end
+        TEXT forward
+        VARCHAR(50) economy
+    }
+    Democrat ||--o{ late : suggest
+    Democrat {
+        VARCHAR(50) suggest
+        DATE last
+    }
+    late ||--o{ occur : relate
+    late {
+        DATE relate
+        TEXT fall
+        VARCHAR(50) phone
+    }
+    occur ||--o{ control : mouth
+    occur {
+        VARCHAR(50) mouth
+        DATE world
+    }

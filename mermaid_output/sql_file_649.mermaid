@@ -1,0 +1,40 @@
+erDiagram
+    system ||--o{ section : professor
+    system {
+        DATE professor
+        TEXT late
+        VARCHAR(50) indeed
+    }
+    section ||--o{ region : where
+    section {
+        VARCHAR(50) where
+        DATE somebody
+    }
+    region ||--o{ local : player
+    region {
+        DATE player
+        TEXT and
+        VARCHAR(50) cell
+    }
+    local ||--o{ foreign : care
+    local {
+        VARCHAR(50) care
+        DATE voice
+    }
+    foreign ||--o{ you : surface
+    foreign {
+        DATE surface
+        TEXT difference
+        VARCHAR(50) cut
+    }
+    you ||--o{ think : professional
+    you {
+        VARCHAR(50) professional
+        DATE member
+    }
+    think ||--o{ system : team
+    think {
+        DATE team
+        TEXT maintain
+        VARCHAR(50) democratic
+    }

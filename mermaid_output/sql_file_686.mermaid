@@ -1,0 +1,51 @@
+erDiagram
+    include ||--o{ scientist : nothing
+    include {
+        DATE nothing
+        TEXT level
+        VARCHAR(50) worker
+    }
+    scientist ||--o{ wife : respond
+    scientist {
+        VARCHAR(50) respond
+        DATE generation
+    }
+    wife ||--o{ create : decide
+    wife {
+        DATE decide
+        TEXT understand
+        VARCHAR(50) environment
+    }
+    create ||--o{ institution : believe
+    create {
+        VARCHAR(50) believe
+        DATE commercial
+    }
+    institution ||--o{ half : beautiful
+    institution {
+        DATE beautiful
+        TEXT whole
+        VARCHAR(50) record
+    }
+    half ||--o{ best : serious
+    half {
+        VARCHAR(50) serious
+        DATE country
+    }
+    best ||--o{ himself : office
+    best {
+        DATE office
+        TEXT whatever
+        VARCHAR(50) stock
+    }
+    himself ||--o{ family : enter
+    himself {
+        VARCHAR(50) enter
+        DATE such
+    }
+    family ||--o{ include : care
+    family {
+        DATE care
+        TEXT for
+        VARCHAR(50) end
+    }

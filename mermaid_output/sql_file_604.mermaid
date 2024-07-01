@@ -1,0 +1,40 @@
+erDiagram
+    level ||--o{ whatever : send
+    level {
+        DATE send
+        TEXT heart
+        VARCHAR(50) surface
+    }
+    whatever ||--o{ consumer : situation
+    whatever {
+        VARCHAR(50) situation
+        DATE toward
+    }
+    consumer ||--o{ behavior : central
+    consumer {
+        DATE central
+        TEXT sort
+        VARCHAR(50) consider
+    }
+    behavior ||--o{ wind : relationship
+    behavior {
+        VARCHAR(50) relationship
+        DATE deep
+    }
+    wind ||--o{ reduce : present
+    wind {
+        DATE present
+        TEXT special
+        VARCHAR(50) there
+    }
+    reduce ||--o{ anyone : during
+    reduce {
+        VARCHAR(50) during
+        DATE or
+    }
+    anyone ||--o{ level : us
+    anyone {
+        DATE us
+        TEXT resource
+        VARCHAR(50) law
+    }

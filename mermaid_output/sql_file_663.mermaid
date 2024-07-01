@@ -1,0 +1,34 @@
+erDiagram
+    nature ||--o{ right : doctor
+    nature {
+        DATE doctor
+        TEXT experience
+        VARCHAR(50) policy
+    }
+    right ||--o{ option : last
+    right {
+        VARCHAR(50) last
+        DATE direction
+    }
+    option ||--o{ score : high
+    option {
+        DATE high
+        TEXT prove
+        VARCHAR(50) another
+    }
+    score ||--o{ among : letter
+    score {
+        VARCHAR(50) letter
+        DATE like
+    }
+    among ||--o{ child : hour
+    among {
+        DATE hour
+        TEXT necessary
+        VARCHAR(50) long
+    }
+    child ||--o{ nature : he
+    child {
+        VARCHAR(50) he
+        DATE the
+    }

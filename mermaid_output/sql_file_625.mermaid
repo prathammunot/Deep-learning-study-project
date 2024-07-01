@@ -1,0 +1,29 @@
+erDiagram
+    improve ||--o{ training : state
+    improve {
+        DATE state
+        TEXT indeed
+        VARCHAR(50) race
+    }
+    training ||--o{ become : cold
+    training {
+        VARCHAR(50) cold
+        DATE point
+    }
+    become ||--o{ join : popular
+    become {
+        DATE popular
+        TEXT future
+        VARCHAR(50) economic
+    }
+    join ||--o{ maintain : summer
+    join {
+        VARCHAR(50) summer
+        DATE decade
+    }
+    maintain ||--o{ improve : green
+    maintain {
+        DATE green
+        TEXT dream
+        VARCHAR(50) middle
+    }

@@ -1,0 +1,56 @@
+erDiagram
+    maybe ||--o{ energy : production
+    maybe {
+        DATE production
+        TEXT organization
+        VARCHAR(50) measure
+    }
+    energy ||--o{ throw : kitchen
+    energy {
+        VARCHAR(50) kitchen
+        DATE specific
+    }
+    throw ||--o{ total : human
+    throw {
+        DATE human
+        TEXT teach
+        VARCHAR(50) mind
+    }
+    total ||--o{ fall : get
+    total {
+        VARCHAR(50) get
+        DATE measure
+    }
+    fall ||--o{ require : spring
+    fall {
+        DATE spring
+        TEXT understand
+        VARCHAR(50) training
+    }
+    require ||--o{ apply : under
+    require {
+        VARCHAR(50) under
+        DATE third
+    }
+    apply ||--o{ bank : information
+    apply {
+        DATE information
+        TEXT yourself
+        VARCHAR(50) deal
+    }
+    bank ||--o{ ahead : despite
+    bank {
+        VARCHAR(50) despite
+        DATE table
+    }
+    ahead ||--o{ behavior : street
+    ahead {
+        DATE street
+        TEXT voice
+        VARCHAR(50) friend
+    }
+    behavior ||--o{ maybe : also
+    behavior {
+        VARCHAR(50) also
+        DATE can
+    }

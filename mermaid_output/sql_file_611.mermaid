@@ -1,0 +1,40 @@
+erDiagram
+    situation ||--o{ alone : environment
+    situation {
+        DATE environment
+        TEXT ask
+        VARCHAR(50) mouth
+    }
+    alone ||--o{ possible : control
+    alone {
+        VARCHAR(50) control
+        DATE hit
+    }
+    possible ||--o{ section : find
+    possible {
+        DATE find
+        TEXT enough
+        VARCHAR(50) certainly
+    }
+    section ||--o{ peace : adult
+    section {
+        VARCHAR(50) adult
+        DATE heart
+    }
+    peace ||--o{ smile : soon
+    peace {
+        DATE soon
+        TEXT than
+        VARCHAR(50) event
+    }
+    smile ||--o{ way : arrive
+    smile {
+        VARCHAR(50) arrive
+        DATE early
+    }
+    way ||--o{ situation : early
+    way {
+        DATE early
+        TEXT pass
+        VARCHAR(50) share
+    }

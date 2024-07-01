@@ -1,0 +1,29 @@
+erDiagram
+    participant ||--o{ world : suggest
+    participant {
+        DATE suggest
+        TEXT artist
+        VARCHAR(50) where
+    }
+    world ||--o{ activity : season
+    world {
+        VARCHAR(50) season
+        DATE site
+    }
+    activity ||--o{ significant : item
+    activity {
+        DATE item
+        TEXT stop
+        VARCHAR(50) only
+    }
+    significant ||--o{ throughout : scientist
+    significant {
+        VARCHAR(50) scientist
+        DATE quality
+    }
+    throughout ||--o{ participant : modern
+    throughout {
+        DATE modern
+        TEXT really
+        VARCHAR(50) since
+    }
