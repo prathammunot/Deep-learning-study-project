@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram975'.
+There is a table 'today' with the columns 'often' (DATE), 'democratic' (TEXT), 'fund' (VARCHAR(50)). The primary key is 'often'. 'today' references another table 'heart' in an exactly one to zero or many relationship. The relationship should be called 'often'. 
+There is another table 'heart' with the columns 'no' (VARCHAR(50)), 'job' (DATE). The primary key is 'no'. 'heart' references another table 'major' in an exactly one to zero or many relationship. The relationship should be called 'no'. 
+There is another table 'major' with the columns 'employee' (DATE), 'into' (TEXT), 'wish' (VARCHAR(50)). The primary key is 'employee'. 'major' references another table 'ready' in an exactly one to zero or many relationship. The relationship should be called 'employee'. 
+There is another table 'ready' with the columns 'end' (VARCHAR(50)), 'spend' (DATE). The primary key is 'end'. 'ready' references another table 'sister' in an exactly one to zero or many relationship. The relationship should be called 'end'. 
+There is another table 'sister' with the columns 'area' (DATE), 'investment' (TEXT), 'no' (VARCHAR(50)). The primary key is 'area'. 'sister' references another table 'term' in an exactly one to zero or many relationship. The relationship should be called 'area'. 
+There is another table 'term' with the columns 'election' (VARCHAR(50)), 'bad' (DATE). The primary key is 'election'. 'term' references another table 'develop' in an exactly one to zero or many relationship. The relationship should be called 'election'. 
+There is another table 'develop' with the columns 'crime' (DATE), 'while' (TEXT), 'create' (VARCHAR(50)). The primary key is 'crime'. 'develop' references another table 'each' in an exactly one to zero or many relationship. The relationship should be called 'crime'. 
+There is another table 'each' with the columns 'memory' (VARCHAR(50)), 'involve' (DATE). The primary key is 'memory'. 'each' references another table 'today' in an exactly one to zero or many relationship. The relationship should be called 'memory'. 
+

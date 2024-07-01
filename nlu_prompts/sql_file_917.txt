@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram909'.
+There is a table 'institution' with the columns 'management' (DATE), 'newspaper' (TEXT), 'car' (VARCHAR(50)). The primary key is 'management'. 'institution' references another table 'both' in an exactly one to zero or many relationship. The relationship should be called 'management'. 
+There is another table 'both' with the columns 'fast' (VARCHAR(50)), 'under' (DATE). The primary key is 'fast'. 'both' references another table 'capital' in an exactly one to zero or many relationship. The relationship should be called 'fast'. 
+There is another table 'capital' with the columns 'responsibility' (DATE), 'think' (TEXT), 'nothing' (VARCHAR(50)). The primary key is 'responsibility'. 'capital' references another table 'cause' in an exactly one to zero or many relationship. The relationship should be called 'responsibility'. 
+There is another table 'cause' with the columns 'final' (VARCHAR(50)), 'ahead' (DATE). The primary key is 'final'. 'cause' references another table 'season' in an exactly one to zero or many relationship. The relationship should be called 'final'. 
+There is another table 'season' with the columns 'soldier' (DATE), 'movie' (TEXT), 'speak' (VARCHAR(50)). The primary key is 'soldier'. 'season' references another table 'institution' in an exactly one to zero or many relationship. The relationship should be called 'soldier'. 
+

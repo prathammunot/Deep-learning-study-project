@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram919'.
+There is a table 'less' with the columns 'maybe' (DATE), 'story' (TEXT), 'not' (VARCHAR(50)). The primary key is 'maybe'. 'less' references another table 'relate' in an exactly one to zero or many relationship. The relationship should be called 'maybe'. 
+There is another table 'relate' with the columns 'next' (VARCHAR(50)), 'this' (DATE). The primary key is 'next'. 'relate' references another table 'light' in an exactly one to zero or many relationship. The relationship should be called 'next'. 
+There is another table 'light' with the columns 'just' (DATE), 'plan' (TEXT), 'take' (VARCHAR(50)). The primary key is 'just'. 'light' references another table 'concern' in an exactly one to zero or many relationship. The relationship should be called 'just'. 
+There is another table 'concern' with the columns 'indeed' (VARCHAR(50)), 'physical' (DATE). The primary key is 'indeed'. 'concern' references another table 'staff' in an exactly one to zero or many relationship. The relationship should be called 'indeed'. 
+There is another table 'staff' with the columns 'any' (DATE), 'movement' (TEXT), 'serve' (VARCHAR(50)). The primary key is 'any'. 'staff' references another table 'end' in an exactly one to zero or many relationship. The relationship should be called 'any'. 
+There is another table 'end' with the columns 'board' (VARCHAR(50)), 'minute' (DATE). The primary key is 'board'. 'end' references another table 'without' in an exactly one to zero or many relationship. The relationship should be called 'board'. 
+There is another table 'without' with the columns 'hand' (DATE), 'method' (TEXT), 'first' (VARCHAR(50)). The primary key is 'hand'. 'without' references another table 'couple' in an exactly one to zero or many relationship. The relationship should be called 'hand'. 
+There is another table 'couple' with the columns 'everyone' (VARCHAR(50)), 'tough' (DATE). The primary key is 'everyone'. 'couple' references another table 'less' in an exactly one to zero or many relationship. The relationship should be called 'everyone'. 
+

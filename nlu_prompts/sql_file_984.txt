@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram983'.
+There is a table 'ask' with the columns 'nice' (DATE), 'crime' (TEXT), 'within' (VARCHAR(50)). The primary key is 'nice'. 'ask' references another table 'ten' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+There is another table 'ten' with the columns 'upon' (VARCHAR(50)), 'think' (DATE). The primary key is 'upon'. 'ten' references another table 'partner' in an exactly one to zero or many relationship. The relationship should be called 'upon'. 
+There is another table 'partner' with the columns 'night' (DATE), 'well' (TEXT), 'throughout' (VARCHAR(50)). The primary key is 'night'. 'partner' references another table 'while' in an exactly one to zero or many relationship. The relationship should be called 'night'. 
+There is another table 'while' with the columns 'debate' (VARCHAR(50)), 'agent' (DATE). The primary key is 'debate'. 'while' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+There is another table 'early' with the columns 'door' (DATE), 'door' (TEXT), 'spring' (VARCHAR(50)). The primary key is 'door'. 'early' references another table 'forget' in an exactly one to zero or many relationship. The relationship should be called 'door'. 
+There is another table 'forget' with the columns 'lead' (VARCHAR(50)), 'still' (DATE). The primary key is 'lead'. 'forget' references another table 'sense' in an exactly one to zero or many relationship. The relationship should be called 'lead'. 
+There is another table 'sense' with the columns 'after' (DATE), 'defense' (TEXT), 'water' (VARCHAR(50)). The primary key is 'after'. 'sense' references another table 'ask' in an exactly one to zero or many relationship. The relationship should be called 'after'. 
+

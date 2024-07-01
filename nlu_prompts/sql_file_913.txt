@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram905'.
+There is a table 'others' with the columns 'several' (DATE), 'far' (TEXT), 'mother' (VARCHAR(50)). The primary key is 'several'. 'others' references another table 'minute' in an exactly one to zero or many relationship. The relationship should be called 'several'. 
+There is another table 'minute' with the columns 'hot' (VARCHAR(50)), 'trial' (DATE). The primary key is 'hot'. 'minute' references another table 'land' in an exactly one to zero or many relationship. The relationship should be called 'hot'. 
+There is another table 'land' with the columns 'quality' (DATE), 'full' (TEXT), 'gas' (VARCHAR(50)). The primary key is 'quality'. 'land' references another table 'bank' in an exactly one to zero or many relationship. The relationship should be called 'quality'. 
+There is another table 'bank' with the columns 'company' (VARCHAR(50)), 'owner' (DATE). The primary key is 'company'. 'bank' references another table 'cultural' in an exactly one to zero or many relationship. The relationship should be called 'company'. 
+There is another table 'cultural' with the columns 'energy' (DATE), 'national' (TEXT), 'choice' (VARCHAR(50)). The primary key is 'energy'. 'cultural' references another table 'others' in an exactly one to zero or many relationship. The relationship should be called 'energy'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram991'.
+There is a table 'lay' with the columns 'call' (DATE), 'blue' (TEXT), 'hand' (VARCHAR(50)). The primary key is 'call'. 'lay' references another table 'beat' in an exactly one to zero or many relationship. The relationship should be called 'call'. 
+There is another table 'beat' with the columns 'suddenly' (VARCHAR(50)), 'cut' (DATE). The primary key is 'suddenly'. 'beat' references another table 'tree' in an exactly one to zero or many relationship. The relationship should be called 'suddenly'. 
+There is another table 'tree' with the columns 'want' (DATE), 'friend' (TEXT), 'way' (VARCHAR(50)). The primary key is 'want'. 'tree' references another table 'add' in an exactly one to zero or many relationship. The relationship should be called 'want'. 
+There is another table 'add' with the columns 'show' (VARCHAR(50)), 'throw' (DATE). The primary key is 'show'. 'add' references another table 'hand' in an exactly one to zero or many relationship. The relationship should be called 'show'. 
+There is another table 'hand' with the columns 'we' (DATE), 'gas' (TEXT), 'simple' (VARCHAR(50)). The primary key is 'we'. 'hand' references another table 'free' in an exactly one to zero or many relationship. The relationship should be called 'we'. 
+There is another table 'free' with the columns 'current' (VARCHAR(50)), 'result' (DATE). The primary key is 'current'. 'free' references another table 'account' in an exactly one to zero or many relationship. The relationship should be called 'current'. 
+There is another table 'account' with the columns 'price' (DATE), 'single' (TEXT), 'level' (VARCHAR(50)). The primary key is 'price'. 'account' references another table 'lay' in an exactly one to zero or many relationship. The relationship should be called 'price'. 
+

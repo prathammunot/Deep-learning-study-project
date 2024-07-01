@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram966'.
+There is a table 'idea' with the columns 'ten' (DATE), 'rich' (TEXT), 'help' (VARCHAR(50)). The primary key is 'ten'. 'idea' references another table 'care' in an exactly one to zero or many relationship. The relationship should be called 'ten'. 
+There is another table 'care' with the columns 'suggest' (VARCHAR(50)), 'fish' (DATE). The primary key is 'suggest'. 'care' references another table 'reason' in an exactly one to zero or many relationship. The relationship should be called 'suggest'. 
+There is another table 'reason' with the columns 'social' (DATE), 'maintain' (TEXT), 'population' (VARCHAR(50)). The primary key is 'social'. 'reason' references another table 'his' in an exactly one to zero or many relationship. The relationship should be called 'social'. 
+There is another table 'his' with the columns 'international' (VARCHAR(50)), 'type' (DATE). The primary key is 'international'. 'his' references another table 'continue' in an exactly one to zero or many relationship. The relationship should be called 'international'. 
+There is another table 'continue' with the columns 'low' (DATE), 'politics' (TEXT), 'back' (VARCHAR(50)). The primary key is 'low'. 'continue' references another table 'test' in an exactly one to zero or many relationship. The relationship should be called 'low'. 
+There is another table 'test' with the columns 'deep' (VARCHAR(50)), 'mouth' (DATE). The primary key is 'deep'. 'test' references another table 'change' in an exactly one to zero or many relationship. The relationship should be called 'deep'. 
+There is another table 'change' with the columns 'level' (DATE), 'new' (TEXT), 'what' (VARCHAR(50)). The primary key is 'level'. 'change' references another table 'idea' in an exactly one to zero or many relationship. The relationship should be called 'level'. 
+

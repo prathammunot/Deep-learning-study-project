@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram938'.
+There is a table 'religious' with the columns 'grow' (DATE), 'see' (TEXT), 'must' (VARCHAR(50)). The primary key is 'grow'. 'religious' references another table 'would' in an exactly one to zero or many relationship. The relationship should be called 'grow'. 
+There is another table 'would' with the columns 'some' (VARCHAR(50)), 'many' (DATE). The primary key is 'some'. 'would' references another table 'certainly' in an exactly one to zero or many relationship. The relationship should be called 'some'. 
+There is another table 'certainly' with the columns 'allow' (DATE), 'fast' (TEXT), 'ready' (VARCHAR(50)). The primary key is 'allow'. 'certainly' references another table 'market' in an exactly one to zero or many relationship. The relationship should be called 'allow'. 
+There is another table 'market' with the columns 'fly' (VARCHAR(50)), 'poor' (DATE). The primary key is 'fly'. 'market' references another table 'specific' in an exactly one to zero or many relationship. The relationship should be called 'fly'. 
+There is another table 'specific' with the columns 'why' (DATE), 'you' (TEXT), 'break' (VARCHAR(50)). The primary key is 'why'. 'specific' references another table 'understand' in an exactly one to zero or many relationship. The relationship should be called 'why'. 
+There is another table 'understand' with the columns 'water' (VARCHAR(50)), 'performance' (DATE). The primary key is 'water'. 'understand' references another table 'religious' in an exactly one to zero or many relationship. The relationship should be called 'water'. 
+

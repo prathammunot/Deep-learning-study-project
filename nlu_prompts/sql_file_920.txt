@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram913'.
+There is a table 'where' with the columns 'wish' (DATE), 'travel' (TEXT), 'give' (VARCHAR(50)). The primary key is 'wish'. 'where' references another table 'window' in an exactly one to zero or many relationship. The relationship should be called 'wish'. 
+There is another table 'window' with the columns 'leave' (VARCHAR(50)), 'heavy' (DATE). The primary key is 'leave'. 'window' references another table 'bit' in an exactly one to zero or many relationship. The relationship should be called 'leave'. 
+There is another table 'bit' with the columns 'movement' (DATE), 'indeed' (TEXT), 'plan' (VARCHAR(50)). The primary key is 'movement'. 'bit' references another table 'responsibility' in an exactly one to zero or many relationship. The relationship should be called 'movement'. 
+There is another table 'responsibility' with the columns 'entire' (VARCHAR(50)), 'mention' (DATE). The primary key is 'entire'. 'responsibility' references another table 'begin' in an exactly one to zero or many relationship. The relationship should be called 'entire'. 
+There is another table 'begin' with the columns 'everyone' (DATE), 'southern' (TEXT), 'newspaper' (VARCHAR(50)). The primary key is 'everyone'. 'begin' references another table 'seem' in an exactly one to zero or many relationship. The relationship should be called 'everyone'. 
+There is another table 'seem' with the columns 'glass' (VARCHAR(50)), 'despite' (DATE). The primary key is 'glass'. 'seem' references another table 'help' in an exactly one to zero or many relationship. The relationship should be called 'glass'. 
+There is another table 'help' with the columns 'year' (DATE), 'home' (TEXT), 'firm' (VARCHAR(50)). The primary key is 'year'. 'help' references another table 'wall' in an exactly one to zero or many relationship. The relationship should be called 'year'. 
+There is another table 'wall' with the columns 'TV' (VARCHAR(50)), 'quite' (DATE). The primary key is 'TV'. 'wall' references another table 'where' in an exactly one to zero or many relationship. The relationship should be called 'TV'. 
+

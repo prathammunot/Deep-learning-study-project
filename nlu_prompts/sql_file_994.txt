@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram994'.
+There is a table 'owner' with the columns 'must' (DATE), 'step' (TEXT), 'mind' (VARCHAR(50)). The primary key is 'must'. 'owner' references another table 'board' in an exactly one to zero or many relationship. The relationship should be called 'must'. 
+There is another table 'board' with the columns 'data' (VARCHAR(50)), 'moment' (DATE). The primary key is 'data'. 'board' references another table 'federal' in an exactly one to zero or many relationship. The relationship should be called 'data'. 
+There is another table 'federal' with the columns 'environmental' (DATE), 'skill' (TEXT), 'eye' (VARCHAR(50)). The primary key is 'environmental'. 'federal' references another table 'field' in an exactly one to zero or many relationship. The relationship should be called 'environmental'. 
+There is another table 'field' with the columns 'kid' (VARCHAR(50)), 'collection' (DATE). The primary key is 'kid'. 'field' references another table 'available' in an exactly one to zero or many relationship. The relationship should be called 'kid'. 
+There is another table 'available' with the columns 'he' (DATE), 'eat' (TEXT), 'without' (VARCHAR(50)). The primary key is 'he'. 'available' references another table 'some' in an exactly one to zero or many relationship. The relationship should be called 'he'. 
+There is another table 'some' with the columns 'memory' (VARCHAR(50)), 'window' (DATE). The primary key is 'memory'. 'some' references another table 'discuss' in an exactly one to zero or many relationship. The relationship should be called 'memory'. 
+There is another table 'discuss' with the columns 'model' (DATE), 'next' (TEXT), 'pass' (VARCHAR(50)). The primary key is 'model'. 'discuss' references another table 'owner' in an exactly one to zero or many relationship. The relationship should be called 'model'. 
+

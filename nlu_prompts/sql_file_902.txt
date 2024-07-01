@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram893'.
+There is a table 'knowledge' with the columns 'me' (DATE), 'region' (TEXT), 'direction' (VARCHAR(50)). The primary key is 'me'. 'knowledge' references another table 'general' in an exactly one to zero or many relationship. The relationship should be called 'me'. 
+There is another table 'general' with the columns 'behind' (VARCHAR(50)), 'above' (DATE). The primary key is 'behind'. 'general' references another table 'entire' in an exactly one to zero or many relationship. The relationship should be called 'behind'. 
+There is another table 'entire' with the columns 'type' (DATE), 'drug' (TEXT), 'wall' (VARCHAR(50)). The primary key is 'type'. 'entire' references another table 'relate' in an exactly one to zero or many relationship. The relationship should be called 'type'. 
+There is another table 'relate' with the columns 'marriage' (VARCHAR(50)), 'speak' (DATE). The primary key is 'marriage'. 'relate' references another table 'save' in an exactly one to zero or many relationship. The relationship should be called 'marriage'. 
+There is another table 'save' with the columns 'like' (DATE), 'there' (TEXT), 'little' (VARCHAR(50)). The primary key is 'like'. 'save' references another table 'me' in an exactly one to zero or many relationship. The relationship should be called 'like'. 
+There is another table 'me' with the columns 'soon' (VARCHAR(50)), 'carry' (DATE). The primary key is 'soon'. 'me' references another table 'industry' in an exactly one to zero or many relationship. The relationship should be called 'soon'. 
+There is another table 'industry' with the columns 'challenge' (DATE), 'everybody' (TEXT), 'wait' (VARCHAR(50)). The primary key is 'challenge'. 'industry' references another table 'person' in an exactly one to zero or many relationship. The relationship should be called 'challenge'. 
+There is another table 'person' with the columns 'realize' (VARCHAR(50)), 'in' (DATE). The primary key is 'realize'. 'person' references another table 'knowledge' in an exactly one to zero or many relationship. The relationship should be called 'realize'. 
+

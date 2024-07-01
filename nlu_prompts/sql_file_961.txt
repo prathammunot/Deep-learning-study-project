@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram958'.
+There is a table 'still' with the columns 'stop' (DATE), 'which' (TEXT), 'machine' (VARCHAR(50)). The primary key is 'stop'. 'still' references another table 'sea' in an exactly one to zero or many relationship. The relationship should be called 'stop'. 
+There is another table 'sea' with the columns 'moment' (VARCHAR(50)), 'new' (DATE). The primary key is 'moment'. 'sea' references another table 'present' in an exactly one to zero or many relationship. The relationship should be called 'moment'. 
+There is another table 'present' with the columns 'tend' (DATE), 'try' (TEXT), 'I' (VARCHAR(50)). The primary key is 'tend'. 'present' references another table 'physical' in an exactly one to zero or many relationship. The relationship should be called 'tend'. 
+There is another table 'physical' with the columns 'American' (VARCHAR(50)), 'now' (DATE). The primary key is 'American'. 'physical' references another table 'long' in an exactly one to zero or many relationship. The relationship should be called 'American'. 
+There is another table 'long' with the columns 'price' (DATE), 'ready' (TEXT), 'should' (VARCHAR(50)). The primary key is 'price'. 'long' references another table 'charge' in an exactly one to zero or many relationship. The relationship should be called 'price'. 
+There is another table 'charge' with the columns 'point' (VARCHAR(50)), 'technology' (DATE). The primary key is 'point'. 'charge' references another table 'still' in an exactly one to zero or many relationship. The relationship should be called 'point'. 
+

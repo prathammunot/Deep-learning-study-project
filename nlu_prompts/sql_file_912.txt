@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram904'.
+There is a table 'energy' with the columns 'realize' (DATE), 'explain' (TEXT), 'Mr' (VARCHAR(50)). The primary key is 'realize'. 'energy' references another table 'assume' in an exactly one to zero or many relationship. The relationship should be called 'realize'. 
+There is another table 'assume' with the columns 'baby' (VARCHAR(50)), 'live' (DATE). The primary key is 'baby'. 'assume' references another table 'especially' in an exactly one to zero or many relationship. The relationship should be called 'baby'. 
+There is another table 'especially' with the columns 'plant' (DATE), 'use' (TEXT), 'party' (VARCHAR(50)). The primary key is 'plant'. 'especially' references another table 'new' in an exactly one to zero or many relationship. The relationship should be called 'plant'. 
+There is another table 'new' with the columns 'any' (VARCHAR(50)), 'seven' (DATE). The primary key is 'any'. 'new' references another table 'really' in an exactly one to zero or many relationship. The relationship should be called 'any'. 
+There is another table 'really' with the columns 'young' (DATE), 'total' (TEXT), 'travel' (VARCHAR(50)). The primary key is 'young'. 'really' references another table 'with' in an exactly one to zero or many relationship. The relationship should be called 'young'. 
+There is another table 'with' with the columns 'foot' (VARCHAR(50)), 'same' (DATE). The primary key is 'foot'. 'with' references another table 'more' in an exactly one to zero or many relationship. The relationship should be called 'foot'. 
+There is another table 'more' with the columns 'affect' (DATE), 'key' (TEXT), 'ball' (VARCHAR(50)). The primary key is 'affect'. 'more' references another table 'thus' in an exactly one to zero or many relationship. The relationship should be called 'affect'. 
+There is another table 'thus' with the columns 'the' (VARCHAR(50)), 'effect' (DATE). The primary key is 'the'. 'thus' references another table 'product' in an exactly one to zero or many relationship. The relationship should be called 'the'. 
+There is another table 'product' with the columns 'civil' (DATE), 'serve' (TEXT), 'data' (VARCHAR(50)). The primary key is 'civil'. 'product' references another table 'energy' in an exactly one to zero or many relationship. The relationship should be called 'civil'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram965'.
+There is a table 'by' with the columns 'officer' (DATE), 'physical' (TEXT), 'environment' (VARCHAR(50)). The primary key is 'officer'. 'by' references another table 'hit' in an exactly one to zero or many relationship. The relationship should be called 'officer'. 
+There is another table 'hit' with the columns 'occur' (VARCHAR(50)), 'help' (DATE). The primary key is 'occur'. 'hit' references another table 'north' in an exactly one to zero or many relationship. The relationship should be called 'occur'. 
+There is another table 'north' with the columns 'fish' (DATE), 'throw' (TEXT), 'way' (VARCHAR(50)). The primary key is 'fish'. 'north' references another table 'movement' in an exactly one to zero or many relationship. The relationship should be called 'fish'. 
+There is another table 'movement' with the columns 'prevent' (VARCHAR(50)), 'rule' (DATE). The primary key is 'prevent'. 'movement' references another table 'much' in an exactly one to zero or many relationship. The relationship should be called 'prevent'. 
+There is another table 'much' with the columns 'return' (DATE), 'hospital' (TEXT), 'several' (VARCHAR(50)). The primary key is 'return'. 'much' references another table 'general' in an exactly one to zero or many relationship. The relationship should be called 'return'. 
+There is another table 'general' with the columns 'entire' (VARCHAR(50)), 'quite' (DATE). The primary key is 'entire'. 'general' references another table 'as' in an exactly one to zero or many relationship. The relationship should be called 'entire'. 
+There is another table 'as' with the columns 'everything' (DATE), 'what' (TEXT), 'direction' (VARCHAR(50)). The primary key is 'everything'. 'as' references another table 'by' in an exactly one to zero or many relationship. The relationship should be called 'everything'. 
+

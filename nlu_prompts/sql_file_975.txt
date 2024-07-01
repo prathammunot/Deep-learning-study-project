@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram973'.
+There is a table 'way' with the columns 'baby' (DATE), 'whether' (TEXT), 'share' (VARCHAR(50)). The primary key is 'baby'. 'way' references another table 'increase' in an exactly one to zero or many relationship. The relationship should be called 'baby'. 
+There is another table 'increase' with the columns 'skin' (VARCHAR(50)), 'agreement' (DATE). The primary key is 'skin'. 'increase' references another table 'listen' in an exactly one to zero or many relationship. The relationship should be called 'skin'. 
+There is another table 'listen' with the columns 'many' (DATE), 'sing' (TEXT), 'first' (VARCHAR(50)). The primary key is 'many'. 'listen' references another table 'cost' in an exactly one to zero or many relationship. The relationship should be called 'many'. 
+There is another table 'cost' with the columns 'catch' (VARCHAR(50)), 'media' (DATE). The primary key is 'catch'. 'cost' references another table 'many' in an exactly one to zero or many relationship. The relationship should be called 'catch'. 
+There is another table 'many' with the columns 'style' (DATE), 'while' (TEXT), 'here' (VARCHAR(50)). The primary key is 'style'. 'many' references another table 'way' in an exactly one to zero or many relationship. The relationship should be called 'style'. 
+

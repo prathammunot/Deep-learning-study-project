@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram918'.
+There is a table 'but' with the columns 'Mr' (DATE), 'sport' (TEXT), 'shoulder' (VARCHAR(50)). The primary key is 'Mr'. 'but' references another table 'owner' in an exactly one to zero or many relationship. The relationship should be called 'Mr'. 
+There is another table 'owner' with the columns 'statement' (VARCHAR(50)), 'develop' (DATE). The primary key is 'statement'. 'owner' references another table 'hear' in an exactly one to zero or many relationship. The relationship should be called 'statement'. 
+There is another table 'hear' with the columns 'onto' (DATE), 'couple' (TEXT), 'whole' (VARCHAR(50)). The primary key is 'onto'. 'hear' references another table 'long' in an exactly one to zero or many relationship. The relationship should be called 'onto'. 
+There is another table 'long' with the columns 'artist' (VARCHAR(50)), 'his' (DATE). The primary key is 'artist'. 'long' references another table 'brother' in an exactly one to zero or many relationship. The relationship should be called 'artist'. 
+There is another table 'brother' with the columns 'condition' (DATE), 'free' (TEXT), 'forget' (VARCHAR(50)). The primary key is 'condition'. 'brother' references another table 'but' in an exactly one to zero or many relationship. The relationship should be called 'condition'. 
+

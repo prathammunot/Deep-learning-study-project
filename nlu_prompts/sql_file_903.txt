@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram894'.
+There is a table 'audience' with the columns 'contain' (DATE), 'surface' (TEXT), 'hour' (VARCHAR(50)). The primary key is 'contain'. 'audience' references another table 'interesting' in an exactly one to zero or many relationship. The relationship should be called 'contain'. 
+There is another table 'interesting' with the columns 'effort' (VARCHAR(50)), 'during' (DATE). The primary key is 'effort'. 'interesting' references another table 'push' in an exactly one to zero or many relationship. The relationship should be called 'effort'. 
+There is another table 'push' with the columns 'brother' (DATE), 'last' (TEXT), 'kitchen' (VARCHAR(50)). The primary key is 'brother'. 'push' references another table 'door' in an exactly one to zero or many relationship. The relationship should be called 'brother'. 
+There is another table 'door' with the columns 'very' (VARCHAR(50)), 'trial' (DATE). The primary key is 'very'. 'door' references another table 'star' in an exactly one to zero or many relationship. The relationship should be called 'very'. 
+There is another table 'star' with the columns 'difficult' (DATE), 'past' (TEXT), 'leg' (VARCHAR(50)). The primary key is 'difficult'. 'star' references another table 'far' in an exactly one to zero or many relationship. The relationship should be called 'difficult'. 
+There is another table 'far' with the columns 'woman' (VARCHAR(50)), 'hospital' (DATE). The primary key is 'woman'. 'far' references another table 'decide' in an exactly one to zero or many relationship. The relationship should be called 'woman'. 
+There is another table 'decide' with the columns 'mind' (DATE), 'small' (TEXT), 'member' (VARCHAR(50)). The primary key is 'mind'. 'decide' references another table 'evening' in an exactly one to zero or many relationship. The relationship should be called 'mind'. 
+There is another table 'evening' with the columns 'series' (VARCHAR(50)), 'necessary' (DATE). The primary key is 'series'. 'evening' references another table 'audience' in an exactly one to zero or many relationship. The relationship should be called 'series'. 
+

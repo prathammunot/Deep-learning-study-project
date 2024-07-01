@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram977'.
+There is a table 'glass' with the columns 'late' (DATE), 'perhaps' (TEXT), 'must' (VARCHAR(50)). The primary key is 'late'. 'glass' references another table 'fall' in an exactly one to zero or many relationship. The relationship should be called 'late'. 
+There is another table 'fall' with the columns 'ten' (VARCHAR(50)), 'position' (DATE). The primary key is 'ten'. 'fall' references another table 'plant' in an exactly one to zero or many relationship. The relationship should be called 'ten'. 
+There is another table 'plant' with the columns 'rather' (DATE), 'unit' (TEXT), 'sometimes' (VARCHAR(50)). The primary key is 'rather'. 'plant' references another table 'service' in an exactly one to zero or many relationship. The relationship should be called 'rather'. 
+There is another table 'service' with the columns 'hundred' (VARCHAR(50)), 'network' (DATE). The primary key is 'hundred'. 'service' references another table 'oil' in an exactly one to zero or many relationship. The relationship should be called 'hundred'. 
+There is another table 'oil' with the columns 'truth' (DATE), 'exist' (TEXT), 'my' (VARCHAR(50)). The primary key is 'truth'. 'oil' references another table 'glass' in an exactly one to zero or many relationship. The relationship should be called 'truth'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram939'.
+There is a table 'remain' with the columns 'cell' (DATE), 'attack' (TEXT), 'allow' (VARCHAR(50)). The primary key is 'cell'. 'remain' references another table 'option' in an exactly one to zero or many relationship. The relationship should be called 'cell'. 
+There is another table 'option' with the columns 'floor' (VARCHAR(50)), 'development' (DATE). The primary key is 'floor'. 'option' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'floor'. 
+There is another table 'situation' with the columns 'itself' (DATE), 'reduce' (TEXT), 'kind' (VARCHAR(50)). The primary key is 'itself'. 'situation' references another table 'world' in an exactly one to zero or many relationship. The relationship should be called 'itself'. 
+There is another table 'world' with the columns 'budget' (VARCHAR(50)), 'require' (DATE). The primary key is 'budget'. 'world' references another table 'cover' in an exactly one to zero or many relationship. The relationship should be called 'budget'. 
+There is another table 'cover' with the columns 'begin' (DATE), 'need' (TEXT), 'rock' (VARCHAR(50)). The primary key is 'begin'. 'cover' references another table 'I' in an exactly one to zero or many relationship. The relationship should be called 'begin'. 
+There is another table 'I' with the columns 'civil' (VARCHAR(50)), 'wonder' (DATE). The primary key is 'civil'. 'I' references another table 'century' in an exactly one to zero or many relationship. The relationship should be called 'civil'. 
+There is another table 'century' with the columns 'either' (DATE), 'collection' (TEXT), 'book' (VARCHAR(50)). The primary key is 'either'. 'century' references another table 'remain' in an exactly one to zero or many relationship. The relationship should be called 'either'. 
+

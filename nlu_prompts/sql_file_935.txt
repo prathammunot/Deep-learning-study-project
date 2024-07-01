@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram929'.
+There is a table 'report' with the columns 'sing' (DATE), 'choose' (TEXT), 'film' (VARCHAR(50)). The primary key is 'sing'. 'report' references another table 'though' in an exactly one to zero or many relationship. The relationship should be called 'sing'. 
+There is another table 'though' with the columns 'audience' (VARCHAR(50)), 'month' (DATE). The primary key is 'audience'. 'though' references another table 'nation' in an exactly one to zero or many relationship. The relationship should be called 'audience'. 
+There is another table 'nation' with the columns 'hear' (DATE), 'care' (TEXT), 'reflect' (VARCHAR(50)). The primary key is 'hear'. 'nation' references another table 'road' in an exactly one to zero or many relationship. The relationship should be called 'hear'. 
+There is another table 'road' with the columns 'adult' (VARCHAR(50)), 'arm' (DATE). The primary key is 'adult'. 'road' references another table 'decade' in an exactly one to zero or many relationship. The relationship should be called 'adult'. 
+There is another table 'decade' with the columns 'note' (DATE), 'which' (TEXT), 'wind' (VARCHAR(50)). The primary key is 'note'. 'decade' references another table 'report' in an exactly one to zero or many relationship. The relationship should be called 'note'. 
+

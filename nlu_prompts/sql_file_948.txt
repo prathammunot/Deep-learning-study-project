@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram943'.
+There is a table 'huge' with the columns 'too' (DATE), 'beyond' (TEXT), 'would' (VARCHAR(50)). The primary key is 'too'. 'huge' references another table 'serve' in an exactly one to zero or many relationship. The relationship should be called 'too'. 
+There is another table 'serve' with the columns 'open' (VARCHAR(50)), 'economy' (DATE). The primary key is 'open'. 'serve' references another table 'commercial' in an exactly one to zero or many relationship. The relationship should be called 'open'. 
+There is another table 'commercial' with the columns 'agree' (DATE), 'rate' (TEXT), 'second' (VARCHAR(50)). The primary key is 'agree'. 'commercial' references another table 'state' in an exactly one to zero or many relationship. The relationship should be called 'agree'. 
+There is another table 'state' with the columns 'to' (VARCHAR(50)), 'task' (DATE). The primary key is 'to'. 'state' references another table 'meeting' in an exactly one to zero or many relationship. The relationship should be called 'to'. 
+There is another table 'meeting' with the columns 'rest' (DATE), 'season' (TEXT), 'admit' (VARCHAR(50)). The primary key is 'rest'. 'meeting' references another table 'huge' in an exactly one to zero or many relationship. The relationship should be called 'rest'. 
+

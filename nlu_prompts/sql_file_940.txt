@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram935'.
+There is a table 'site' with the columns 'image' (DATE), 'others' (TEXT), 'any' (VARCHAR(50)). The primary key is 'image'. 'site' references another table 'relationship' in an exactly one to zero or many relationship. The relationship should be called 'image'. 
+There is another table 'relationship' with the columns 'positive' (VARCHAR(50)), 'good' (DATE). The primary key is 'positive'. 'relationship' references another table 'suffer' in an exactly one to zero or many relationship. The relationship should be called 'positive'. 
+There is another table 'suffer' with the columns 'next' (DATE), 'color' (TEXT), 'society' (VARCHAR(50)). The primary key is 'next'. 'suffer' references another table 'large' in an exactly one to zero or many relationship. The relationship should be called 'next'. 
+There is another table 'large' with the columns 'able' (VARCHAR(50)), 'industry' (DATE). The primary key is 'able'. 'large' references another table 'suddenly' in an exactly one to zero or many relationship. The relationship should be called 'able'. 
+There is another table 'suddenly' with the columns 'not' (DATE), 'song' (TEXT), 'wide' (VARCHAR(50)). The primary key is 'not'. 'suddenly' references another table 'site' in an exactly one to zero or many relationship. The relationship should be called 'not'. 
+

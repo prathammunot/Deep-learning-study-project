@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram959'.
+There is a table 'scene' with the columns 'turn' (DATE), 'everybody' (TEXT), 'including' (VARCHAR(50)). The primary key is 'turn'. 'scene' references another table 'raise' in an exactly one to zero or many relationship. The relationship should be called 'turn'. 
+There is another table 'raise' with the columns 'kid' (VARCHAR(50)), 'despite' (DATE). The primary key is 'kid'. 'raise' references another table 'car' in an exactly one to zero or many relationship. The relationship should be called 'kid'. 
+There is another table 'car' with the columns 'television' (DATE), 'still' (TEXT), 'maintain' (VARCHAR(50)). The primary key is 'television'. 'car' references another table 'city' in an exactly one to zero or many relationship. The relationship should be called 'television'. 
+There is another table 'city' with the columns 'argue' (VARCHAR(50)), 'gun' (DATE). The primary key is 'argue'. 'city' references another table 'whom' in an exactly one to zero or many relationship. The relationship should be called 'argue'. 
+There is another table 'whom' with the columns 'right' (DATE), 'heavy' (TEXT), 'language' (VARCHAR(50)). The primary key is 'right'. 'whom' references another table 'Republican' in an exactly one to zero or many relationship. The relationship should be called 'right'. 
+There is another table 'Republican' with the columns 'capital' (VARCHAR(50)), 'whom' (DATE). The primary key is 'capital'. 'Republican' references another table 'bar' in an exactly one to zero or many relationship. The relationship should be called 'capital'. 
+There is another table 'bar' with the columns 'agent' (DATE), 'any' (TEXT), 'ready' (VARCHAR(50)). The primary key is 'agent'. 'bar' references another table 'scene' in an exactly one to zero or many relationship. The relationship should be called 'agent'. 
+

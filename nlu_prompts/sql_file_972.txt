@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram970'.
+There is a table 'part' with the columns 'civil' (DATE), 'factor' (TEXT), 'our' (VARCHAR(50)). The primary key is 'civil'. 'part' references another table 'range' in an exactly one to zero or many relationship. The relationship should be called 'civil'. 
+There is another table 'range' with the columns 'six' (VARCHAR(50)), 'rule' (DATE). The primary key is 'six'. 'range' references another table 'without' in an exactly one to zero or many relationship. The relationship should be called 'six'. 
+There is another table 'without' with the columns 'another' (DATE), 'role' (TEXT), 'skill' (VARCHAR(50)). The primary key is 'another'. 'without' references another table 'catch' in an exactly one to zero or many relationship. The relationship should be called 'another'. 
+There is another table 'catch' with the columns 'body' (VARCHAR(50)), 'within' (DATE). The primary key is 'body'. 'catch' references another table 'defense' in an exactly one to zero or many relationship. The relationship should be called 'body'. 
+There is another table 'defense' with the columns 'where' (DATE), 'listen' (TEXT), 'give' (VARCHAR(50)). The primary key is 'where'. 'defense' references another table 'mind' in an exactly one to zero or many relationship. The relationship should be called 'where'. 
+There is another table 'mind' with the columns 'nearly' (VARCHAR(50)), 'interest' (DATE). The primary key is 'nearly'. 'mind' references another table 'step' in an exactly one to zero or many relationship. The relationship should be called 'nearly'. 
+There is another table 'step' with the columns 'future' (DATE), 'not' (TEXT), 'rest' (VARCHAR(50)). The primary key is 'future'. 'step' references another table 'part' in an exactly one to zero or many relationship. The relationship should be called 'future'. 
+
