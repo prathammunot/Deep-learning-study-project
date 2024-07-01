@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram440'.
+There is a table 'to' with the columns 'popular' (DATE), 'offer' (TEXT), 'interview' (VARCHAR(50)). The primary key is 'popular'. 'to' references another table 'of' in an exactly one to zero or many relationship. The relationship should be called 'popular'. 
+There is another table 'of' with the columns 'strong' (VARCHAR(50)), 'operation' (DATE). The primary key is 'strong'. 'of' references another table 'high' in an exactly one to zero or many relationship. The relationship should be called 'strong'. 
+There is another table 'high' with the columns 'need' (DATE), 'consider' (TEXT), 'reality' (VARCHAR(50)). The primary key is 'need'. 'high' references another table 'hospital' in an exactly one to zero or many relationship. The relationship should be called 'need'. 
+There is another table 'hospital' with the columns 'court' (VARCHAR(50)), 'interest' (DATE). The primary key is 'court'. 'hospital' references another table 'building' in an exactly one to zero or many relationship. The relationship should be called 'court'. 
+There is another table 'building' with the columns 'after' (DATE), 'ok' (TEXT), 'surface' (VARCHAR(50)). The primary key is 'after'. 'building' references another table 'fact' in an exactly one to zero or many relationship. The relationship should be called 'after'. 
+There is another table 'fact' with the columns 'reach' (VARCHAR(50)), 'experience' (DATE). The primary key is 'reach'. 'fact' references another table 'to' in an exactly one to zero or many relationship. The relationship should be called 'reach'. 
+

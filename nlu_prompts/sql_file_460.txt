@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram402'.
+There is a table 'within' with the columns 'close' (DATE), 'wind' (TEXT), 'two' (VARCHAR(50)). The primary key is 'close'. 'within' references another table 'claim' in an exactly one to zero or many relationship. The relationship should be called 'close'. 
+There is another table 'claim' with the columns 'tree' (VARCHAR(50)), 'effort' (DATE). The primary key is 'tree'. 'claim' references another table 'Democrat' in an exactly one to zero or many relationship. The relationship should be called 'tree'. 
+There is another table 'Democrat' with the columns 'worker' (DATE), 'final' (TEXT), 'nation' (VARCHAR(50)). The primary key is 'worker'. 'Democrat' references another table 'teacher' in an exactly one to zero or many relationship. The relationship should be called 'worker'. 
+There is another table 'teacher' with the columns 'cup' (VARCHAR(50)), 'total' (DATE). The primary key is 'cup'. 'teacher' references another table 'religious' in an exactly one to zero or many relationship. The relationship should be called 'cup'. 
+There is another table 'religious' with the columns 'plan' (DATE), 'population' (TEXT), 'say' (VARCHAR(50)). The primary key is 'plan'. 'religious' references another table 'join' in an exactly one to zero or many relationship. The relationship should be called 'plan'. 
+There is another table 'join' with the columns 'song' (VARCHAR(50)), 'structure' (DATE). The primary key is 'song'. 'join' references another table 'leg' in an exactly one to zero or many relationship. The relationship should be called 'song'. 
+There is another table 'leg' with the columns 'kitchen' (DATE), 'I' (TEXT), 'traditional' (VARCHAR(50)). The primary key is 'kitchen'. 'leg' references another table 'clearly' in an exactly one to zero or many relationship. The relationship should be called 'kitchen'. 
+There is another table 'clearly' with the columns 'size' (VARCHAR(50)), 'natural' (DATE). The primary key is 'size'. 'clearly' references another table 'within' in an exactly one to zero or many relationship. The relationship should be called 'size'. 
+

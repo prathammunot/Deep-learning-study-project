@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram422'.
+There is a table 'five' with the columns 'force' (DATE), 'leg' (TEXT), 'seven' (VARCHAR(50)). The primary key is 'force'. 'five' references another table 'foot' in an exactly one to zero or many relationship. The relationship should be called 'force'. 
+There is another table 'foot' with the columns 'employee' (VARCHAR(50)), 'floor' (DATE). The primary key is 'employee'. 'foot' references another table 'surface' in an exactly one to zero or many relationship. The relationship should be called 'employee'. 
+There is another table 'surface' with the columns 'available' (DATE), 'civil' (TEXT), 'performance' (VARCHAR(50)). The primary key is 'available'. 'surface' references another table 'three' in an exactly one to zero or many relationship. The relationship should be called 'available'. 
+There is another table 'three' with the columns 'way' (VARCHAR(50)), 'former' (DATE). The primary key is 'way'. 'three' references another table 'ball' in an exactly one to zero or many relationship. The relationship should be called 'way'. 
+There is another table 'ball' with the columns 'sell' (DATE), 'until' (TEXT), 'cost' (VARCHAR(50)). The primary key is 'sell'. 'ball' references another table 'five' in an exactly one to zero or many relationship. The relationship should be called 'sell'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram352'.
+There is a table 'structure' with the columns 'home' (DATE), 'security' (TEXT), 'among' (VARCHAR(50)). The primary key is 'home'. 'structure' references another table 'animal' in an exactly one to zero or many relationship. The relationship should be called 'home'. 
+There is another table 'animal' with the columns 'build' (VARCHAR(50)), 'conference' (DATE). The primary key is 'build'. 'animal' references another table 'think' in an exactly one to zero or many relationship. The relationship should be called 'build'. 
+There is another table 'think' with the columns 'space' (DATE), 'believe' (TEXT), 'us' (VARCHAR(50)). The primary key is 'space'. 'think' references another table 'meeting' in an exactly one to zero or many relationship. The relationship should be called 'space'. 
+There is another table 'meeting' with the columns 'recent' (VARCHAR(50)), 'step' (DATE). The primary key is 'recent'. 'meeting' references another table 'there' in an exactly one to zero or many relationship. The relationship should be called 'recent'. 
+There is another table 'there' with the columns 'kid' (DATE), 'relationship' (TEXT), 'mean' (VARCHAR(50)). The primary key is 'kid'. 'there' references another table 'class' in an exactly one to zero or many relationship. The relationship should be called 'kid'. 
+There is another table 'class' with the columns 'see' (VARCHAR(50)), 'study' (DATE). The primary key is 'see'. 'class' references another table 'manager' in an exactly one to zero or many relationship. The relationship should be called 'see'. 
+There is another table 'manager' with the columns 'physical' (DATE), 'law' (TEXT), 'knowledge' (VARCHAR(50)). The primary key is 'physical'. 'manager' references another table 'sing' in an exactly one to zero or many relationship. The relationship should be called 'physical'. 
+There is another table 'sing' with the columns 'night' (VARCHAR(50)), 'suggest' (DATE). The primary key is 'night'. 'sing' references another table 'structure' in an exactly one to zero or many relationship. The relationship should be called 'night'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram426'.
+There is a table 'pressure' with the columns 'forward' (DATE), 'attack' (TEXT), 'say' (VARCHAR(50)). The primary key is 'forward'. 'pressure' references another table 'protect' in an exactly one to zero or many relationship. The relationship should be called 'forward'. 
+There is another table 'protect' with the columns 'send' (VARCHAR(50)), 'authority' (DATE). The primary key is 'send'. 'protect' references another table 'worry' in an exactly one to zero or many relationship. The relationship should be called 'send'. 
+There is another table 'worry' with the columns 'yourself' (DATE), 'song' (TEXT), 'music' (VARCHAR(50)). The primary key is 'yourself'. 'worry' references another table 'mention' in an exactly one to zero or many relationship. The relationship should be called 'yourself'. 
+There is another table 'mention' with the columns 'TV' (VARCHAR(50)), 'culture' (DATE). The primary key is 'TV'. 'mention' references another table 'response' in an exactly one to zero or many relationship. The relationship should be called 'TV'. 
+There is another table 'response' with the columns 'his' (DATE), 'important' (TEXT), 'lot' (VARCHAR(50)). The primary key is 'his'. 'response' references another table 'knowledge' in an exactly one to zero or many relationship. The relationship should be called 'his'. 
+There is another table 'knowledge' with the columns 'else' (VARCHAR(50)), 'method' (DATE). The primary key is 'else'. 'knowledge' references another table 'actually' in an exactly one to zero or many relationship. The relationship should be called 'else'. 
+There is another table 'actually' with the columns 'support' (DATE), 'take' (TEXT), 'other' (VARCHAR(50)). The primary key is 'support'. 'actually' references another table 'produce' in an exactly one to zero or many relationship. The relationship should be called 'support'. 
+There is another table 'produce' with the columns 'whose' (VARCHAR(50)), 'development' (DATE). The primary key is 'whose'. 'produce' references another table 'pressure' in an exactly one to zero or many relationship. The relationship should be called 'whose'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram441'.
+There is a table 'people' with the columns 'or' (DATE), 'I' (TEXT), 'while' (VARCHAR(50)). The primary key is 'or'. 'people' references another table 'recently' in an exactly one to zero or many relationship. The relationship should be called 'or'. 
+There is another table 'recently' with the columns 'him' (VARCHAR(50)), 'language' (DATE). The primary key is 'him'. 'recently' references another table 'management' in an exactly one to zero or many relationship. The relationship should be called 'him'. 
+There is another table 'management' with the columns 'thank' (DATE), 'world' (TEXT), 'upon' (VARCHAR(50)). The primary key is 'thank'. 'management' references another table 'town' in an exactly one to zero or many relationship. The relationship should be called 'thank'. 
+There is another table 'town' with the columns 'school' (VARCHAR(50)), 'owner' (DATE). The primary key is 'school'. 'town' references another table 'phone' in an exactly one to zero or many relationship. The relationship should be called 'school'. 
+There is another table 'phone' with the columns 'likely' (DATE), 'force' (TEXT), 'meet' (VARCHAR(50)). The primary key is 'likely'. 'phone' references another table 'movement' in an exactly one to zero or many relationship. The relationship should be called 'likely'. 
+There is another table 'movement' with the columns 'sell' (VARCHAR(50)), 'everything' (DATE). The primary key is 'sell'. 'movement' references another table 'people' in an exactly one to zero or many relationship. The relationship should be called 'sell'. 
+

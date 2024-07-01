@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram377'.
+There is a table 'job' with the columns 'beyond' (DATE), 'us' (TEXT), 'indicate' (VARCHAR(50)). The primary key is 'beyond'. 'job' references another table 'mean' in an exactly one to zero or many relationship. The relationship should be called 'beyond'. 
+There is another table 'mean' with the columns 'ago' (VARCHAR(50)), 'end' (DATE). The primary key is 'ago'. 'mean' references another table 'suddenly' in an exactly one to zero or many relationship. The relationship should be called 'ago'. 
+There is another table 'suddenly' with the columns 'performance' (DATE), 'listen' (TEXT), 'hit' (VARCHAR(50)). The primary key is 'performance'. 'suddenly' references another table 'then' in an exactly one to zero or many relationship. The relationship should be called 'performance'. 
+There is another table 'then' with the columns 'drug' (VARCHAR(50)), 'relate' (DATE). The primary key is 'drug'. 'then' references another table 'sing' in an exactly one to zero or many relationship. The relationship should be called 'drug'. 
+There is another table 'sing' with the columns 'sing' (DATE), 'goal' (TEXT), 'identify' (VARCHAR(50)). The primary key is 'sing'. 'sing' references another table 'too' in an exactly one to zero or many relationship. The relationship should be called 'sing'. 
+There is another table 'too' with the columns 'memory' (VARCHAR(50)), 'my' (DATE). The primary key is 'memory'. 'too' references another table 'do' in an exactly one to zero or many relationship. The relationship should be called 'memory'. 
+There is another table 'do' with the columns 'toward' (DATE), 'them' (TEXT), 'sell' (VARCHAR(50)). The primary key is 'toward'. 'do' references another table 'attorney' in an exactly one to zero or many relationship. The relationship should be called 'toward'. 
+There is another table 'attorney' with the columns 'wait' (VARCHAR(50)), 'over' (DATE). The primary key is 'wait'. 'attorney' references another table 'society' in an exactly one to zero or many relationship. The relationship should be called 'wait'. 
+There is another table 'society' with the columns 'cost' (DATE), 'include' (TEXT), 'enter' (VARCHAR(50)). The primary key is 'cost'. 'society' references another table 'job' in an exactly one to zero or many relationship. The relationship should be called 'cost'. 
+

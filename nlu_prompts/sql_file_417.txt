@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram354'.
+There is a table 'would' with the columns 'threat' (DATE), 'plant' (TEXT), 'garden' (VARCHAR(50)). The primary key is 'threat'. 'would' references another table 'or' in an exactly one to zero or many relationship. The relationship should be called 'threat'. 
+There is another table 'or' with the columns 'tree' (VARCHAR(50)), 'participant' (DATE). The primary key is 'tree'. 'or' references another table 'brother' in an exactly one to zero or many relationship. The relationship should be called 'tree'. 
+There is another table 'brother' with the columns 'say' (DATE), 'citizen' (TEXT), 'purpose' (VARCHAR(50)). The primary key is 'say'. 'brother' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'say'. 
+There is another table 'section' with the columns 'identify' (VARCHAR(50)), 'here' (DATE). The primary key is 'identify'. 'section' references another table 'nation' in an exactly one to zero or many relationship. The relationship should be called 'identify'. 
+There is another table 'nation' with the columns 'than' (DATE), 'like' (TEXT), 'especially' (VARCHAR(50)). The primary key is 'than'. 'nation' references another table 'bank' in an exactly one to zero or many relationship. The relationship should be called 'than'. 
+There is another table 'bank' with the columns 'both' (VARCHAR(50)), 'side' (DATE). The primary key is 'both'. 'bank' references another table 'pull' in an exactly one to zero or many relationship. The relationship should be called 'both'. 
+There is another table 'pull' with the columns 'item' (DATE), 'speak' (TEXT), 'it' (VARCHAR(50)). The primary key is 'item'. 'pull' references another table 'would' in an exactly one to zero or many relationship. The relationship should be called 'item'. 
+

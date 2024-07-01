@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram359'.
+There is a table 'century' with the columns 'nearly' (DATE), 'according' (TEXT), 'move' (VARCHAR(50)). The primary key is 'nearly'. 'century' references another table 'discuss' in an exactly one to zero or many relationship. The relationship should be called 'nearly'. 
+There is another table 'discuss' with the columns 'teacher' (VARCHAR(50)), 'know' (DATE). The primary key is 'teacher'. 'discuss' references another table 'red' in an exactly one to zero or many relationship. The relationship should be called 'teacher'. 
+There is another table 'red' with the columns 'law' (DATE), 'the' (TEXT), 'send' (VARCHAR(50)). The primary key is 'law'. 'red' references another table 'able' in an exactly one to zero or many relationship. The relationship should be called 'law'. 
+There is another table 'able' with the columns 'style' (VARCHAR(50)), 'adult' (DATE). The primary key is 'style'. 'able' references another table 'eat' in an exactly one to zero or many relationship. The relationship should be called 'style'. 
+There is another table 'eat' with the columns 'environmental' (DATE), 'in' (TEXT), 'past' (VARCHAR(50)). The primary key is 'environmental'. 'eat' references another table 'century' in an exactly one to zero or many relationship. The relationship should be called 'environmental'. 
+

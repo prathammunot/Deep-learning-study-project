@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram436'.
+There is a table 'he' with the columns 'item' (DATE), 'official' (TEXT), 'national' (VARCHAR(50)). The primary key is 'item'. 'he' references another table 'democratic' in an exactly one to zero or many relationship. The relationship should be called 'item'. 
+There is another table 'democratic' with the columns 'arm' (VARCHAR(50)), 'exactly' (DATE). The primary key is 'arm'. 'democratic' references another table 'culture' in an exactly one to zero or many relationship. The relationship should be called 'arm'. 
+There is another table 'culture' with the columns 'here' (DATE), 'sit' (TEXT), 'her' (VARCHAR(50)). The primary key is 'here'. 'culture' references another table 'trouble' in an exactly one to zero or many relationship. The relationship should be called 'here'. 
+There is another table 'trouble' with the columns 'without' (VARCHAR(50)), 'response' (DATE). The primary key is 'without'. 'trouble' references another table 'he' in an exactly one to zero or many relationship. The relationship should be called 'without'. 
+There is another table 'he' with the columns 'indeed' (DATE), 'nation' (TEXT), 'population' (VARCHAR(50)). The primary key is 'indeed'. 'he' references another table 'environmental' in an exactly one to zero or many relationship. The relationship should be called 'indeed'. 
+There is another table 'environmental' with the columns 'instead' (VARCHAR(50)), 'southern' (DATE). The primary key is 'instead'. 'environmental' references another table 'model' in an exactly one to zero or many relationship. The relationship should be called 'instead'. 
+There is another table 'model' with the columns 'page' (DATE), 'forward' (TEXT), 'wish' (VARCHAR(50)). The primary key is 'page'. 'model' references another table 'he' in an exactly one to zero or many relationship. The relationship should be called 'page'. 
+

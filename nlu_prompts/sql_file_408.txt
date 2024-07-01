@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram344'.
+There is a table 'natural' with the columns 'ready' (DATE), 'budget' (TEXT), 'statement' (VARCHAR(50)). The primary key is 'ready'. 'natural' references another table 'create' in an exactly one to zero or many relationship. The relationship should be called 'ready'. 
+There is another table 'create' with the columns 'over' (VARCHAR(50)), 'start' (DATE). The primary key is 'over'. 'create' references another table 'page' in an exactly one to zero or many relationship. The relationship should be called 'over'. 
+There is another table 'page' with the columns 'explain' (DATE), 'adult' (TEXT), 'process' (VARCHAR(50)). The primary key is 'explain'. 'page' references another table 'society' in an exactly one to zero or many relationship. The relationship should be called 'explain'. 
+There is another table 'society' with the columns 'safe' (VARCHAR(50)), 'guess' (DATE). The primary key is 'safe'. 'society' references another table 'letter' in an exactly one to zero or many relationship. The relationship should be called 'safe'. 
+There is another table 'letter' with the columns 'you' (DATE), 'exactly' (TEXT), 'sort' (VARCHAR(50)). The primary key is 'you'. 'letter' references another table 'example' in an exactly one to zero or many relationship. The relationship should be called 'you'. 
+There is another table 'example' with the columns 'recognize' (VARCHAR(50)), 'relationship' (DATE). The primary key is 'recognize'. 'example' references another table 'natural' in an exactly one to zero or many relationship. The relationship should be called 'recognize'. 
+

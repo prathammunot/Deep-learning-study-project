@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram420'.
+There is a table 'which' with the columns 'professional' (DATE), 'network' (TEXT), 'name' (VARCHAR(50)). The primary key is 'professional'. 'which' references another table 'market' in an exactly one to zero or many relationship. The relationship should be called 'professional'. 
+There is another table 'market' with the columns 'fast' (VARCHAR(50)), 'score' (DATE). The primary key is 'fast'. 'market' references another table 'owner' in an exactly one to zero or many relationship. The relationship should be called 'fast'. 
+There is another table 'owner' with the columns 'home' (DATE), 'base' (TEXT), 'few' (VARCHAR(50)). The primary key is 'home'. 'owner' references another table 'Democrat' in an exactly one to zero or many relationship. The relationship should be called 'home'. 
+There is another table 'Democrat' with the columns 'close' (VARCHAR(50)), 'administration' (DATE). The primary key is 'close'. 'Democrat' references another table 'film' in an exactly one to zero or many relationship. The relationship should be called 'close'. 
+There is another table 'film' with the columns 'before' (DATE), 'collection' (TEXT), 'us' (VARCHAR(50)). The primary key is 'before'. 'film' references another table 'couple' in an exactly one to zero or many relationship. The relationship should be called 'before'. 
+There is another table 'couple' with the columns 'difficult' (VARCHAR(50)), 'us' (DATE). The primary key is 'difficult'. 'couple' references another table 'tough' in an exactly one to zero or many relationship. The relationship should be called 'difficult'. 
+There is another table 'tough' with the columns 'especially' (DATE), 'treat' (TEXT), 'entire' (VARCHAR(50)). The primary key is 'especially'. 'tough' references another table 'receive' in an exactly one to zero or many relationship. The relationship should be called 'especially'. 
+There is another table 'receive' with the columns 'people' (VARCHAR(50)), 'oil' (DATE). The primary key is 'people'. 'receive' references another table 'which' in an exactly one to zero or many relationship. The relationship should be called 'people'. 
+

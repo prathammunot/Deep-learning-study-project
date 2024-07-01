@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram355'.
+There is a table 'program' with the columns 'morning' (DATE), 'rate' (TEXT). The primary key is 'morning'. 'program' references another table 'produce' in an exactly one to zero or many relationship. The relationship should be called 'morning'. 
+There is another table 'produce' with the columns 'increase' (VARCHAR(50)), 'other' (DATE). The primary key is 'increase'. 'produce' references another table 'future' in an exactly one to zero or many relationship. The relationship should be called 'increase'. 
+There is another table 'future' with the columns 'hot' (DATE), 'couple' (TEXT), 'animal' (VARCHAR(50)). The primary key is 'hot'. 'future' references another table 'owner' in an exactly one to zero or many relationship. The relationship should be called 'hot'. 
+There is another table 'owner' with the columns 'general' (VARCHAR(50)), 'appear' (DATE). The primary key is 'general'. 'owner' references another table 'must' in an exactly one to zero or many relationship. The relationship should be called 'general'. 
+There is another table 'must' with the columns 'might' (DATE), 'their' (TEXT), 'break' (VARCHAR(50)). The primary key is 'might'. 'must' references another table 'not' in an exactly one to zero or many relationship. The relationship should be called 'might'. 
+There is another table 'not' with the columns 'for' (VARCHAR(50)), 'run' (DATE). The primary key is 'for'. 'not' references another table 'image' in an exactly one to zero or many relationship. The relationship should be called 'for'. 
+There is another table 'image' with the columns 'crime' (DATE), 'image' (TEXT), 'machine' (VARCHAR(50)). The primary key is 'crime'. 'image' references another table 'new' in an exactly one to zero or many relationship. The relationship should be called 'crime'. 
+There is another table 'new' with the columns 'lead' (VARCHAR(50)), 'beyond' (DATE). The primary key is 'lead'. 'new' references another table 'program' in an exactly one to zero or many relationship. The relationship should be called 'lead'. 
+

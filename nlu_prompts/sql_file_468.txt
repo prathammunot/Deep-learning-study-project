@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram410'.
+There is a table 'small' with the columns 'scientist' (DATE), 'within' (TEXT), 'west' (VARCHAR(50)). The primary key is 'scientist'. 'small' references another table 'toward' in an exactly one to zero or many relationship. The relationship should be called 'scientist'. 
+There is another table 'toward' with the columns 'college' (VARCHAR(50)), 'hour' (DATE). The primary key is 'college'. 'toward' references another table 'computer' in an exactly one to zero or many relationship. The relationship should be called 'college'. 
+There is another table 'computer' with the columns 'allow' (DATE), 'ago' (TEXT), 'third' (VARCHAR(50)). The primary key is 'allow'. 'computer' references another table 'likely' in an exactly one to zero or many relationship. The relationship should be called 'allow'. 
+There is another table 'likely' with the columns 'miss' (VARCHAR(50)), 'decade' (DATE). The primary key is 'miss'. 'likely' references another table 'generation' in an exactly one to zero or many relationship. The relationship should be called 'miss'. 
+There is another table 'generation' with the columns 'information' (DATE), 'word' (TEXT), 'box' (VARCHAR(50)). The primary key is 'information'. 'generation' references another table 'prove' in an exactly one to zero or many relationship. The relationship should be called 'information'. 
+There is another table 'prove' with the columns 'ten' (VARCHAR(50)), 'cost' (DATE). The primary key is 'ten'. 'prove' references another table 'if' in an exactly one to zero or many relationship. The relationship should be called 'ten'. 
+There is another table 'if' with the columns 'region' (DATE), 'hard' (TEXT), 'continue' (VARCHAR(50)). The primary key is 'region'. 'if' references another table 'small' in an exactly one to zero or many relationship. The relationship should be called 'region'. 
+

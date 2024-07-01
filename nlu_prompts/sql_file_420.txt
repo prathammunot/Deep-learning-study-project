@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram358'.
+There is a table 'trip' with the columns 'improve' (DATE), 'doctor' (TEXT), 'western' (VARCHAR(50)). The primary key is 'improve'. 'trip' references another table 'notice' in an exactly one to zero or many relationship. The relationship should be called 'improve'. 
+There is another table 'notice' with the columns 'part' (VARCHAR(50)), 'own' (DATE). The primary key is 'part'. 'notice' references another table 'oil' in an exactly one to zero or many relationship. The relationship should be called 'part'. 
+There is another table 'oil' with the columns 'seek' (DATE), 'high' (TEXT), 'assume' (VARCHAR(50)). The primary key is 'seek'. 'oil' references another table 'until' in an exactly one to zero or many relationship. The relationship should be called 'seek'. 
+There is another table 'until' with the columns 'degree' (VARCHAR(50)), 'begin' (DATE). The primary key is 'degree'. 'until' references another table 'education' in an exactly one to zero or many relationship. The relationship should be called 'degree'. 
+There is another table 'education' with the columns 'machine' (DATE), 'food' (TEXT), 'leader' (VARCHAR(50)). The primary key is 'machine'. 'education' references another table 'peace' in an exactly one to zero or many relationship. The relationship should be called 'machine'. 
+There is another table 'peace' with the columns 'environmental' (VARCHAR(50)), 'rather' (DATE). The primary key is 'environmental'. 'peace' references another table 'tend' in an exactly one to zero or many relationship. The relationship should be called 'environmental'. 
+There is another table 'tend' with the columns 'color' (DATE), 'cell' (TEXT), 'woman' (VARCHAR(50)). The primary key is 'color'. 'tend' references another table 'thank' in an exactly one to zero or many relationship. The relationship should be called 'color'. 
+There is another table 'thank' with the columns 'wide' (VARCHAR(50)), 'fast' (DATE). The primary key is 'wide'. 'thank' references another table 'way' in an exactly one to zero or many relationship. The relationship should be called 'wide'. 
+There is another table 'way' with the columns 'not' (DATE), 'loss' (TEXT), 'yard' (VARCHAR(50)). The primary key is 'not'. 'way' references another table 'trip' in an exactly one to zero or many relationship. The relationship should be called 'not'. 
+

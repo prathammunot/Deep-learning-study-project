@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram415'.
+There is a table 'ability' with the columns 'many' (DATE), 'resource' (TEXT), 'member' (VARCHAR(50)). The primary key is 'many'. 'ability' references another table 'mouth' in an exactly one to zero or many relationship. The relationship should be called 'many'. 
+There is another table 'mouth' with the columns 'over' (VARCHAR(50)), 'physical' (DATE). The primary key is 'over'. 'mouth' references another table 'worry' in an exactly one to zero or many relationship. The relationship should be called 'over'. 
+There is another table 'worry' with the columns 'city' (DATE), 'economy' (TEXT), 'prove' (VARCHAR(50)). The primary key is 'city'. 'worry' references another table 'record' in an exactly one to zero or many relationship. The relationship should be called 'city'. 
+There is another table 'record' with the columns 'another' (VARCHAR(50)), 'receive' (DATE). The primary key is 'another'. 'record' references another table 'hundred' in an exactly one to zero or many relationship. The relationship should be called 'another'. 
+There is another table 'hundred' with the columns 'certain' (DATE), 'foot' (TEXT), 'as' (VARCHAR(50)). The primary key is 'certain'. 'hundred' references another table 'better' in an exactly one to zero or many relationship. The relationship should be called 'certain'. 
+There is another table 'better' with the columns 'close' (VARCHAR(50)), 'herself' (DATE). The primary key is 'close'. 'better' references another table 'ability' in an exactly one to zero or many relationship. The relationship should be called 'close'. 
+

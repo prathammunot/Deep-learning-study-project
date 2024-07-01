@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram382'.
+There is a table 'still' with the columns 'push' (DATE), 'center' (TEXT), 'should' (VARCHAR(50)). The primary key is 'push'. 'still' references another table 'morning' in an exactly one to zero or many relationship. The relationship should be called 'push'. 
+There is another table 'morning' with the columns 'knowledge' (VARCHAR(50)), 'water' (DATE). The primary key is 'knowledge'. 'morning' references another table 'almost' in an exactly one to zero or many relationship. The relationship should be called 'knowledge'. 
+There is another table 'almost' with the columns 'around' (DATE), 'civil' (TEXT), 'rock' (VARCHAR(50)). The primary key is 'around'. 'almost' references another table 'dinner' in an exactly one to zero or many relationship. The relationship should be called 'around'. 
+There is another table 'dinner' with the columns 'far' (VARCHAR(50)), 'firm' (DATE). The primary key is 'far'. 'dinner' references another table 'side' in an exactly one to zero or many relationship. The relationship should be called 'far'. 
+There is another table 'side' with the columns 'reason' (DATE), 'other' (TEXT), 'data' (VARCHAR(50)). The primary key is 'reason'. 'side' references another table 'want' in an exactly one to zero or many relationship. The relationship should be called 'reason'. 
+There is another table 'want' with the columns 'Mrs' (VARCHAR(50)), 'nearly' (DATE). The primary key is 'Mrs'. 'want' references another table 'everybody' in an exactly one to zero or many relationship. The relationship should be called 'Mrs'. 
+There is another table 'everybody' with the columns 'happen' (DATE), 'under' (TEXT), 'treatment' (VARCHAR(50)). The primary key is 'happen'. 'everybody' references another table 'still' in an exactly one to zero or many relationship. The relationship should be called 'happen'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram430'.
+There is a table 'kid' with the columns 'some' (DATE), 'short' (TEXT), 'skin' (VARCHAR(50)). The primary key is 'some'. 'kid' references another table 'figure' in an exactly one to zero or many relationship. The relationship should be called 'some'. 
+There is another table 'figure' with the columns 'teacher' (VARCHAR(50)), 'maybe' (DATE). The primary key is 'teacher'. 'figure' references another table 'simple' in an exactly one to zero or many relationship. The relationship should be called 'teacher'. 
+There is another table 'simple' with the columns 'house' (DATE), 'myself' (TEXT), 'money' (VARCHAR(50)). The primary key is 'house'. 'simple' references another table 'beautiful' in an exactly one to zero or many relationship. The relationship should be called 'house'. 
+There is another table 'beautiful' with the columns 'skill' (VARCHAR(50)), 'before' (DATE). The primary key is 'skill'. 'beautiful' references another table 'company' in an exactly one to zero or many relationship. The relationship should be called 'skill'. 
+There is another table 'company' with the columns 'look' (DATE), 'draw' (TEXT), 'professor' (VARCHAR(50)). The primary key is 'look'. 'company' references another table 'kid' in an exactly one to zero or many relationship. The relationship should be called 'look'. 
+

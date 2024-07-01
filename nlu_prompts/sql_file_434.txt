@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram373'.
+There is a table 'tax' with the columns 'difficult' (DATE), 'fish' (TEXT), 'garden' (VARCHAR(50)). The primary key is 'difficult'. 'tax' references another table 'sit' in an exactly one to zero or many relationship. The relationship should be called 'difficult'. 
+There is another table 'sit' with the columns 'green' (VARCHAR(50)), 'too' (DATE). The primary key is 'green'. 'sit' references another table 'go' in an exactly one to zero or many relationship. The relationship should be called 'green'. 
+There is another table 'go' with the columns 'authority' (DATE), 'clearly' (TEXT), 'security' (VARCHAR(50)). The primary key is 'authority'. 'go' references another table 'another' in an exactly one to zero or many relationship. The relationship should be called 'authority'. 
+There is another table 'another' with the columns 'wife' (VARCHAR(50)), 'voice' (DATE). The primary key is 'wife'. 'another' references another table 'science' in an exactly one to zero or many relationship. The relationship should be called 'wife'. 
+There is another table 'science' with the columns 'indeed' (DATE), 'method' (TEXT), 'agency' (VARCHAR(50)). The primary key is 'indeed'. 'science' references another table 'record' in an exactly one to zero or many relationship. The relationship should be called 'indeed'. 
+There is another table 'record' with the columns 'the' (VARCHAR(50)), 'her' (DATE). The primary key is 'the'. 'record' references another table 'base' in an exactly one to zero or many relationship. The relationship should be called 'the'. 
+There is another table 'base' with the columns 'her' (DATE), 'of' (TEXT), 'usually' (VARCHAR(50)). The primary key is 'her'. 'base' references another table 'tax' in an exactly one to zero or many relationship. The relationship should be called 'her'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram380'.
+There is a table 'out' with the columns 'north' (DATE), 'interest' (TEXT), 'particularly' (VARCHAR(50)). The primary key is 'north'. 'out' references another table 'follow' in an exactly one to zero or many relationship. The relationship should be called 'north'. 
+There is another table 'follow' with the columns 'cover' (VARCHAR(50)), 'professor' (DATE). The primary key is 'cover'. 'follow' references another table 'activity' in an exactly one to zero or many relationship. The relationship should be called 'cover'. 
+There is another table 'activity' with the columns 'future' (DATE), 'cost' (TEXT), 'call' (VARCHAR(50)). The primary key is 'future'. 'activity' references another table 'cause' in an exactly one to zero or many relationship. The relationship should be called 'future'. 
+There is another table 'cause' with the columns 'rule' (VARCHAR(50)), 'himself' (DATE). The primary key is 'rule'. 'cause' references another table 'civil' in an exactly one to zero or many relationship. The relationship should be called 'rule'. 
+There is another table 'civil' with the columns 'ever' (DATE), 'purpose' (TEXT), 'during' (VARCHAR(50)). The primary key is 'ever'. 'civil' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'ever'. 
+

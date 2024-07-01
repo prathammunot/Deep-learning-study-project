@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram342'.
+There is a table 'support' with the columns 'information' (DATE), 'new' (TEXT), 'crime' (VARCHAR(50)). The primary key is 'information'. 'support' references another table 'low' in an exactly one to zero or many relationship. The relationship should be called 'information'. 
+There is another table 'low' with the columns 'red' (VARCHAR(50)), 'attention' (DATE). The primary key is 'red'. 'low' references another table 'what' in an exactly one to zero or many relationship. The relationship should be called 'red'. 
+There is another table 'what' with the columns 'stand' (DATE), 'possible' (TEXT), 'realize' (VARCHAR(50)). The primary key is 'stand'. 'what' references another table 'however' in an exactly one to zero or many relationship. The relationship should be called 'stand'. 
+There is another table 'however' with the columns 'dog' (VARCHAR(50)), 'nor' (DATE). The primary key is 'dog'. 'however' references another table 'marriage' in an exactly one to zero or many relationship. The relationship should be called 'dog'. 
+There is another table 'marriage' with the columns 'represent' (DATE), 'which' (TEXT), 'including' (VARCHAR(50)). The primary key is 'represent'. 'marriage' references another table 'carry' in an exactly one to zero or many relationship. The relationship should be called 'represent'. 
+There is another table 'carry' with the columns 'way' (VARCHAR(50)), 'threat' (DATE). The primary key is 'way'. 'carry' references another table 'speech' in an exactly one to zero or many relationship. The relationship should be called 'way'. 
+There is another table 'speech' with the columns 'wide' (DATE), 'time' (TEXT), 'sort' (VARCHAR(50)). The primary key is 'wide'. 'speech' references another table 'support' in an exactly one to zero or many relationship. The relationship should be called 'wide'. 
+

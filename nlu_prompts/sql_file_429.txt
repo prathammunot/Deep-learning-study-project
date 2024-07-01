@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram367'.
+There is a table 'window' with the columns 'history' (DATE), 'collection' (TEXT), 'onto' (VARCHAR(50)). The primary key is 'history'. 'window' references another table 'book' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+There is another table 'book' with the columns 'teacher' (VARCHAR(50)), 'check' (DATE). The primary key is 'teacher'. 'book' references another table 'event' in an exactly one to zero or many relationship. The relationship should be called 'teacher'. 
+There is another table 'event' with the columns 'sit' (DATE), 'price' (TEXT), 'him' (VARCHAR(50)). The primary key is 'sit'. 'event' references another table 'shoulder' in an exactly one to zero or many relationship. The relationship should be called 'sit'. 
+There is another table 'shoulder' with the columns 'need' (VARCHAR(50)), 'nothing' (DATE). The primary key is 'need'. 'shoulder' references another table 'city' in an exactly one to zero or many relationship. The relationship should be called 'need'. 
+There is another table 'city' with the columns 'tax' (DATE), 'believe' (TEXT), 'west' (VARCHAR(50)). The primary key is 'tax'. 'city' references another table 'window' in an exactly one to zero or many relationship. The relationship should be called 'tax'. 
+

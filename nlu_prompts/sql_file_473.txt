@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram416'.
+There is a table 'peace' with the columns 'marriage' (DATE), 'fall' (TEXT), 'south' (VARCHAR(50)). The primary key is 'marriage'. 'peace' references another table 'possible' in an exactly one to zero or many relationship. The relationship should be called 'marriage'. 
+There is another table 'possible' with the columns 'half' (VARCHAR(50)), 'movie' (DATE). The primary key is 'half'. 'possible' references another table 'blue' in an exactly one to zero or many relationship. The relationship should be called 'half'. 
+There is another table 'blue' with the columns 'once' (DATE), 'remain' (TEXT), 'stay' (VARCHAR(50)). The primary key is 'once'. 'blue' references another table 'fire' in an exactly one to zero or many relationship. The relationship should be called 'once'. 
+There is another table 'fire' with the columns 'finally' (VARCHAR(50)), 'later' (DATE). The primary key is 'finally'. 'fire' references another table 'factor' in an exactly one to zero or many relationship. The relationship should be called 'finally'. 
+There is another table 'factor' with the columns 'raise' (DATE), 'college' (TEXT), 'dog' (VARCHAR(50)). The primary key is 'raise'. 'factor' references another table 'part' in an exactly one to zero or many relationship. The relationship should be called 'raise'. 
+There is another table 'part' with the columns 'get' (VARCHAR(50)), 'when' (DATE). The primary key is 'get'. 'part' references another table 'employee' in an exactly one to zero or many relationship. The relationship should be called 'get'. 
+There is another table 'employee' with the columns 'finish' (DATE), 'cut' (TEXT), 'section' (VARCHAR(50)). The primary key is 'finish'. 'employee' references another table 'peace' in an exactly one to zero or many relationship. The relationship should be called 'finish'. 
+

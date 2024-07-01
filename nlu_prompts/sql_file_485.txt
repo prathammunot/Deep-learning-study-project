@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram429'.
+There is a table 'page' with the columns 'suggest' (DATE), 'area' (TEXT), 'treat' (VARCHAR(50)). The primary key is 'suggest'. 'page' references another table 'imagine' in an exactly one to zero or many relationship. The relationship should be called 'suggest'. 
+There is another table 'imagine' with the columns 'teach' (VARCHAR(50)), 'them' (DATE). The primary key is 'teach'. 'imagine' references another table 'onto' in an exactly one to zero or many relationship. The relationship should be called 'teach'. 
+There is another table 'onto' with the columns 'debate' (DATE), 'although' (TEXT), 'image' (VARCHAR(50)). The primary key is 'debate'. 'onto' references another table 'for' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+There is another table 'for' with the columns 'who' (VARCHAR(50)), 'serious' (DATE). The primary key is 'who'. 'for' references another table 'between' in an exactly one to zero or many relationship. The relationship should be called 'who'. 
+There is another table 'between' with the columns 'level' (DATE), 'agent' (TEXT), 'foot' (VARCHAR(50)). The primary key is 'level'. 'between' references another table 'page' in an exactly one to zero or many relationship. The relationship should be called 'level'. 
+

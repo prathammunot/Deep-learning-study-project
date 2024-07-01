@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram411'.
+There is a table 'impact' with the columns 'view' (DATE), 'relationship' (TEXT), 'manage' (VARCHAR(50)). The primary key is 'view'. 'impact' references another table 'people' in an exactly one to zero or many relationship. The relationship should be called 'view'. 
+There is another table 'people' with the columns 'enjoy' (VARCHAR(50)), 'teach' (DATE). The primary key is 'enjoy'. 'people' references another table 'election' in an exactly one to zero or many relationship. The relationship should be called 'enjoy'. 
+There is another table 'election' with the columns 'blood' (DATE), 'friend' (TEXT), 'anyone' (VARCHAR(50)). The primary key is 'blood'. 'election' references another table 'head' in an exactly one to zero or many relationship. The relationship should be called 'blood'. 
+There is another table 'head' with the columns 'word' (VARCHAR(50)), 'community' (DATE). The primary key is 'word'. 'head' references another table 'population' in an exactly one to zero or many relationship. The relationship should be called 'word'. 
+There is another table 'population' with the columns 'newspaper' (DATE), 'help' (TEXT), 'apply' (VARCHAR(50)). The primary key is 'newspaper'. 'population' references another table 'night' in an exactly one to zero or many relationship. The relationship should be called 'newspaper'. 
+There is another table 'night' with the columns 'house' (VARCHAR(50)), 'source' (DATE). The primary key is 'house'. 'night' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'house'. 
+There is another table 'early' with the columns 'anyone' (DATE), 'partner' (TEXT), 'future' (VARCHAR(50)). The primary key is 'anyone'. 'early' references another table 'impact' in an exactly one to zero or many relationship. The relationship should be called 'anyone'. 
+

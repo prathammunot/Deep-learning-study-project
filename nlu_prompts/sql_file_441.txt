@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram381'.
+There is a table 'open' with the columns 'finally' (DATE), 'get' (TEXT), 'often' (VARCHAR(50)). The primary key is 'finally'. 'open' references another table 'end' in an exactly one to zero or many relationship. The relationship should be called 'finally'. 
+There is another table 'end' with the columns 'moment' (VARCHAR(50)), 'center' (DATE). The primary key is 'moment'. 'end' references another table 'defense' in an exactly one to zero or many relationship. The relationship should be called 'moment'. 
+There is another table 'defense' with the columns 'article' (DATE), 'voice' (TEXT), 'among' (VARCHAR(50)). The primary key is 'article'. 'defense' references another table 'traditional' in an exactly one to zero or many relationship. The relationship should be called 'article'. 
+There is another table 'traditional' with the columns 'cold' (VARCHAR(50)), 'gun' (DATE). The primary key is 'cold'. 'traditional' references another table 'religious' in an exactly one to zero or many relationship. The relationship should be called 'cold'. 
+There is another table 'religious' with the columns 'pressure' (DATE), 'current' (TEXT), 'morning' (VARCHAR(50)). The primary key is 'pressure'. 'religious' references another table 'move' in an exactly one to zero or many relationship. The relationship should be called 'pressure'. 
+There is another table 'move' with the columns 'this' (VARCHAR(50)), 'nor' (DATE). The primary key is 'this'. 'move' references another table 'spring' in an exactly one to zero or many relationship. The relationship should be called 'this'. 
+There is another table 'spring' with the columns 'white' (DATE), 'reality' (TEXT), 'other' (VARCHAR(50)). The primary key is 'white'. 'spring' references another table 'open' in an exactly one to zero or many relationship. The relationship should be called 'white'. 
+

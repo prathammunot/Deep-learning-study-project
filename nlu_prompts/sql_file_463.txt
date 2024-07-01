@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram405'.
+There is a table 'west' with the columns 'need' (DATE), 'gas' (TEXT), 'trial' (VARCHAR(50)). The primary key is 'need'. 'west' references another table 'until' in an exactly one to zero or many relationship. The relationship should be called 'need'. 
+There is another table 'until' with the columns 'third' (VARCHAR(50)), 'notice' (DATE). The primary key is 'third'. 'until' references another table 'once' in an exactly one to zero or many relationship. The relationship should be called 'third'. 
+There is another table 'once' with the columns 'usually' (DATE), 'grow' (TEXT), 'learn' (VARCHAR(50)). The primary key is 'usually'. 'once' references another table 'region' in an exactly one to zero or many relationship. The relationship should be called 'usually'. 
+There is another table 'region' with the columns 'recent' (VARCHAR(50)), 'court' (DATE). The primary key is 'recent'. 'region' references another table 'choose' in an exactly one to zero or many relationship. The relationship should be called 'recent'. 
+There is another table 'choose' with the columns 'order' (DATE), 'lead' (TEXT), 'baby' (VARCHAR(50)). The primary key is 'order'. 'choose' references another table 'design' in an exactly one to zero or many relationship. The relationship should be called 'order'. 
+There is another table 'design' with the columns 'require' (VARCHAR(50)), 'team' (DATE). The primary key is 'require'. 'design' references another table 'all' in an exactly one to zero or many relationship. The relationship should be called 'require'. 
+There is another table 'all' with the columns 'movie' (DATE), 'again' (TEXT), 'act' (VARCHAR(50)). The primary key is 'movie'. 'all' references another table 'senior' in an exactly one to zero or many relationship. The relationship should be called 'movie'. 
+There is another table 'senior' with the columns 'task' (VARCHAR(50)), 'individual' (DATE). The primary key is 'task'. 'senior' references another table 'west' in an exactly one to zero or many relationship. The relationship should be called 'task'. 
+

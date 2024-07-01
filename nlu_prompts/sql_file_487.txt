@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram431'.
+There is a table 'rather' with the columns 'either' (DATE), 'mouth' (TEXT), 'Mr' (VARCHAR(50)). The primary key is 'either'. 'rather' references another table 'pressure' in an exactly one to zero or many relationship. The relationship should be called 'either'. 
+There is another table 'pressure' with the columns 'open' (VARCHAR(50)), 'focus' (DATE). The primary key is 'open'. 'pressure' references another table 'letter' in an exactly one to zero or many relationship. The relationship should be called 'open'. 
+There is another table 'letter' with the columns 'particularly' (DATE), 'rather' (TEXT), 'interesting' (VARCHAR(50)). The primary key is 'particularly'. 'letter' references another table 'daughter' in an exactly one to zero or many relationship. The relationship should be called 'particularly'. 
+There is another table 'daughter' with the columns 'tree' (VARCHAR(50)), 'treatment' (DATE). The primary key is 'tree'. 'daughter' references another table 'back' in an exactly one to zero or many relationship. The relationship should be called 'tree'. 
+There is another table 'back' with the columns 'when' (DATE), 'offer' (TEXT), 'recently' (VARCHAR(50)). The primary key is 'when'. 'back' references another table 'rather' in an exactly one to zero or many relationship. The relationship should be called 'when'. 
+

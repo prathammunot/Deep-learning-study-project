@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram421'.
+There is a table 'century' with the columns 'agree' (DATE), 'always' (TEXT), 'question' (VARCHAR(50)). The primary key is 'agree'. 'century' references another table 'into' in an exactly one to zero or many relationship. The relationship should be called 'agree'. 
+There is another table 'into' with the columns 'inside' (VARCHAR(50)), 'focus' (DATE). The primary key is 'inside'. 'into' references another table 'open' in an exactly one to zero or many relationship. The relationship should be called 'inside'. 
+There is another table 'open' with the columns 'back' (DATE), 'manager' (TEXT), 'relationship' (VARCHAR(50)). The primary key is 'back'. 'open' references another table 'market' in an exactly one to zero or many relationship. The relationship should be called 'back'. 
+There is another table 'market' with the columns 'use' (VARCHAR(50)), 'yourself' (DATE). The primary key is 'use'. 'market' references another table 'interesting' in an exactly one to zero or many relationship. The relationship should be called 'use'. 
+There is another table 'interesting' with the columns 'day' (DATE), 'hard' (TEXT), 'big' (VARCHAR(50)). The primary key is 'day'. 'interesting' references another table 'save' in an exactly one to zero or many relationship. The relationship should be called 'day'. 
+There is another table 'save' with the columns 'front' (VARCHAR(50)), 'not' (DATE). The primary key is 'front'. 'save' references another table 'century' in an exactly one to zero or many relationship. The relationship should be called 'front'. 
+

@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram388'.
+There is a table 'science' with the columns 'low' (DATE), 'bed' (TEXT), 'hit' (VARCHAR(50)). The primary key is 'low'. 'science' references another table 'establish' in an exactly one to zero or many relationship. The relationship should be called 'low'. 
+There is another table 'establish' with the columns 'pretty' (VARCHAR(50)), 'main' (DATE). The primary key is 'pretty'. 'establish' references another table 'or' in an exactly one to zero or many relationship. The relationship should be called 'pretty'. 
+There is another table 'or' with the columns 'before' (DATE), 'expert' (TEXT), 'big' (VARCHAR(50)). The primary key is 'before'. 'or' references another table 'bar' in an exactly one to zero or many relationship. The relationship should be called 'before'. 
+There is another table 'bar' with the columns 'pretty' (VARCHAR(50)), 'democratic' (DATE). The primary key is 'pretty'. 'bar' references another table 'soldier' in an exactly one to zero or many relationship. The relationship should be called 'pretty'. 
+There is another table 'soldier' with the columns 'make' (DATE), 'side' (TEXT), 'of' (VARCHAR(50)). The primary key is 'make'. 'soldier' references another table 'member' in an exactly one to zero or many relationship. The relationship should be called 'make'. 
+There is another table 'member' with the columns 'listen' (VARCHAR(50)), 'more' (DATE). The primary key is 'listen'. 'member' references another table 'begin' in an exactly one to zero or many relationship. The relationship should be called 'listen'. 
+There is another table 'begin' with the columns 'ask' (DATE), 'force' (TEXT), 'budget' (VARCHAR(50)). The primary key is 'ask'. 'begin' references another table 'begin' in an exactly one to zero or many relationship. The relationship should be called 'ask'. 
+There is another table 'begin' with the columns 'time' (VARCHAR(50)), 'support' (DATE). The primary key is 'time'. 'begin' references another table 'firm' in an exactly one to zero or many relationship. The relationship should be called 'time'. 
+There is another table 'firm' with the columns 'strategy' (DATE), 'social' (TEXT), 'region' (VARCHAR(50)). The primary key is 'strategy'. 'firm' references another table 'science' in an exactly one to zero or many relationship. The relationship should be called 'strategy'. 
+

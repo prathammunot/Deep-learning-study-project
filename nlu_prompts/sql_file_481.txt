@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram425'.
+There is a table 'a' with the columns 'simply' (DATE), 'seven' (TEXT), 'should' (VARCHAR(50)). The primary key is 'simply'. 'a' references another table 'never' in an exactly one to zero or many relationship. The relationship should be called 'simply'. 
+There is another table 'never' with the columns 'task' (VARCHAR(50)), 'talk' (DATE). The primary key is 'task'. 'never' references another table 'across' in an exactly one to zero or many relationship. The relationship should be called 'task'. 
+There is another table 'across' with the columns 'safe' (DATE), 'to' (TEXT), 'goal' (VARCHAR(50)). The primary key is 'safe'. 'across' references another table 'hit' in an exactly one to zero or many relationship. The relationship should be called 'safe'. 
+There is another table 'hit' with the columns 'actually' (VARCHAR(50)), 'bring' (DATE). The primary key is 'actually'. 'hit' references another table 'certain' in an exactly one to zero or many relationship. The relationship should be called 'actually'. 
+There is another table 'certain' with the columns 'allow' (DATE), 'draw' (TEXT), 'call' (VARCHAR(50)). The primary key is 'allow'. 'certain' references another table 'professor' in an exactly one to zero or many relationship. The relationship should be called 'allow'. 
+There is another table 'professor' with the columns 'fight' (VARCHAR(50)), 'fill' (DATE). The primary key is 'fight'. 'professor' references another table 'attorney' in an exactly one to zero or many relationship. The relationship should be called 'fight'. 
+There is another table 'attorney' with the columns 'free' (DATE), 'product' (TEXT), 'continue' (VARCHAR(50)). The primary key is 'free'. 'attorney' references another table 'a' in an exactly one to zero or many relationship. The relationship should be called 'free'. 
+

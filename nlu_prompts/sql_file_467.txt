@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram409'.
+There is a table 'picture' with the columns 'fast' (DATE), 'large' (TEXT), 'class' (VARCHAR(50)). The primary key is 'fast'. 'picture' references another table 'leg' in an exactly one to zero or many relationship. The relationship should be called 'fast'. 
+There is another table 'leg' with the columns 'everybody' (VARCHAR(50)), 'start' (DATE). The primary key is 'everybody'. 'leg' references another table 'behavior' in an exactly one to zero or many relationship. The relationship should be called 'everybody'. 
+There is another table 'behavior' with the columns 'thus' (DATE), 'support' (TEXT), 'give' (VARCHAR(50)). The primary key is 'thus'. 'behavior' references another table 'read' in an exactly one to zero or many relationship. The relationship should be called 'thus'. 
+There is another table 'read' with the columns 'everybody' (VARCHAR(50)), 'fear' (DATE). The primary key is 'everybody'. 'read' references another table 'difference' in an exactly one to zero or many relationship. The relationship should be called 'everybody'. 
+There is another table 'difference' with the columns 'court' (DATE), 'sign' (TEXT), 'material' (VARCHAR(50)). The primary key is 'court'. 'difference' references another table 'sit' in an exactly one to zero or many relationship. The relationship should be called 'court'. 
+There is another table 'sit' with the columns 'girl' (VARCHAR(50)), 'family' (DATE). The primary key is 'girl'. 'sit' references another table 'picture' in an exactly one to zero or many relationship. The relationship should be called 'girl'. 
+

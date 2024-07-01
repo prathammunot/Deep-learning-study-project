@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram350'.
+There is a table 'rock' with the columns 'but' (DATE), 'sense' (TEXT), 'heavy' (VARCHAR(50)). The primary key is 'but'. 'rock' references another table 'clearly' in an exactly one to zero or many relationship. The relationship should be called 'but'. 
+There is another table 'clearly' with the columns 'sound' (VARCHAR(50)), 'area' (DATE). The primary key is 'sound'. 'clearly' references another table 'white' in an exactly one to zero or many relationship. The relationship should be called 'sound'. 
+There is another table 'white' with the columns 'follow' (DATE), 'good' (TEXT), 'way' (VARCHAR(50)). The primary key is 'follow'. 'white' references another table 'Congress' in an exactly one to zero or many relationship. The relationship should be called 'follow'. 
+There is another table 'Congress' with the columns 'why' (VARCHAR(50)), 'wrong' (DATE). The primary key is 'why'. 'Congress' references another table 'stop' in an exactly one to zero or many relationship. The relationship should be called 'why'. 
+There is another table 'stop' with the columns 'billion' (DATE), 'than' (TEXT), 'later' (VARCHAR(50)). The primary key is 'billion'. 'stop' references another table 'bad' in an exactly one to zero or many relationship. The relationship should be called 'billion'. 
+There is another table 'bad' with the columns 'none' (VARCHAR(50)), 'tell' (DATE). The primary key is 'none'. 'bad' references another table 'Democrat' in an exactly one to zero or many relationship. The relationship should be called 'none'. 
+There is another table 'Democrat' with the columns 'Mr' (DATE), 'tell' (TEXT), 'condition' (VARCHAR(50)). The primary key is 'Mr'. 'Democrat' references another table 'of' in an exactly one to zero or many relationship. The relationship should be called 'Mr'. 
+There is another table 'of' with the columns 'democratic' (VARCHAR(50)), 'only' (DATE). The primary key is 'democratic'. 'of' references another table 'rock' in an exactly one to zero or many relationship. The relationship should be called 'democratic'. 
+

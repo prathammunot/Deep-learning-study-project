@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram399'.
+There is a table 'another' with the columns 'art' (DATE), 'require' (TEXT), 'live' (VARCHAR(50)). The primary key is 'art'. 'another' references another table 'second' in an exactly one to zero or many relationship. The relationship should be called 'art'. 
+There is another table 'second' with the columns 'me' (VARCHAR(50)), 'discussion' (DATE). The primary key is 'me'. 'second' references another table 'state' in an exactly one to zero or many relationship. The relationship should be called 'me'. 
+There is another table 'state' with the columns 'indicate' (DATE), 'eat' (TEXT), 'top' (VARCHAR(50)). The primary key is 'indicate'. 'state' references another table 'west' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'west' with the columns 'second' (VARCHAR(50)), 'study' (DATE). The primary key is 'second'. 'west' references another table 'contain' in an exactly one to zero or many relationship. The relationship should be called 'second'. 
+There is another table 'contain' with the columns 'view' (DATE), 'bag' (TEXT), 'our' (VARCHAR(50)). The primary key is 'view'. 'contain' references another table 'another' in an exactly one to zero or many relationship. The relationship should be called 'view'. 
+

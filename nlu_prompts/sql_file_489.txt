@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram433'.
+There is a table 'that' with the columns 'school' (DATE), 'open' (TEXT), 'region' (VARCHAR(50)). The primary key is 'school'. 'that' references another table 'to' in an exactly one to zero or many relationship. The relationship should be called 'school'. 
+There is another table 'to' with the columns 'shake' (VARCHAR(50)), 'suffer' (DATE). The primary key is 'shake'. 'to' references another table 'group' in an exactly one to zero or many relationship. The relationship should be called 'shake'. 
+There is another table 'group' with the columns 'design' (DATE), 'cause' (TEXT), 'memory' (VARCHAR(50)). The primary key is 'design'. 'group' references another table 'grow' in an exactly one to zero or many relationship. The relationship should be called 'design'. 
+There is another table 'grow' with the columns 'write' (VARCHAR(50)), 'note' (DATE). The primary key is 'write'. 'grow' references another table 'only' in an exactly one to zero or many relationship. The relationship should be called 'write'. 
+There is another table 'only' with the columns 'plan' (DATE), 'thought' (TEXT), 'these' (VARCHAR(50)). The primary key is 'plan'. 'only' references another table 'deep' in an exactly one to zero or many relationship. The relationship should be called 'plan'. 
+There is another table 'deep' with the columns 'your' (VARCHAR(50)), 'large' (DATE). The primary key is 'your'. 'deep' references another table 'recognize' in an exactly one to zero or many relationship. The relationship should be called 'your'. 
+There is another table 'recognize' with the columns 'large' (DATE), 'can' (TEXT), 'high' (VARCHAR(50)). The primary key is 'large'. 'recognize' references another table 'down' in an exactly one to zero or many relationship. The relationship should be called 'large'. 
+There is another table 'down' with the columns 'go' (VARCHAR(50)), 'them' (DATE). The primary key is 'go'. 'down' references another table 'that' in an exactly one to zero or many relationship. The relationship should be called 'go'. 
+

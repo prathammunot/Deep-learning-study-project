@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram387'.
+There is a table 'majority' with the columns 'particular' (DATE), 'before' (TEXT), 'long' (VARCHAR(50)). The primary key is 'particular'. 'majority' references another table 'ahead' in an exactly one to zero or many relationship. The relationship should be called 'particular'. 
+There is another table 'ahead' with the columns 'role' (VARCHAR(50)), 'laugh' (DATE). The primary key is 'role'. 'ahead' references another table 'worker' in an exactly one to zero or many relationship. The relationship should be called 'role'. 
+There is another table 'worker' with the columns 'include' (DATE), 'decade' (TEXT), 'little' (VARCHAR(50)). The primary key is 'include'. 'worker' references another table 'above' in an exactly one to zero or many relationship. The relationship should be called 'include'. 
+There is another table 'above' with the columns 'information' (VARCHAR(50)), 'election' (DATE). The primary key is 'information'. 'above' references another table 'teacher' in an exactly one to zero or many relationship. The relationship should be called 'information'. 
+There is another table 'teacher' with the columns 'strategy' (DATE), 'reach' (TEXT), 'people' (VARCHAR(50)). The primary key is 'strategy'. 'teacher' references another table 'majority' in an exactly one to zero or many relationship. The relationship should be called 'strategy'. 
+

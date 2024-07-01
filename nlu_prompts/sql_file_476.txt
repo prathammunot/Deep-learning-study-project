@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram419'.
+There is a table 'land' with the columns 'set' (DATE), 'build' (TEXT), 'new' (VARCHAR(50)). The primary key is 'set'. 'land' references another table 'red' in an exactly one to zero or many relationship. The relationship should be called 'set'. 
+There is another table 'red' with the columns 'during' (VARCHAR(50)), 'attack' (DATE). The primary key is 'during'. 'red' references another table 'take' in an exactly one to zero or many relationship. The relationship should be called 'during'. 
+There is another table 'take' with the columns 'still' (DATE), 'ever' (TEXT), 'but' (VARCHAR(50)). The primary key is 'still'. 'take' references another table 'leg' in an exactly one to zero or many relationship. The relationship should be called 'still'. 
+There is another table 'leg' with the columns 'however' (VARCHAR(50)), 'far' (DATE). The primary key is 'however'. 'leg' references another table 'next' in an exactly one to zero or many relationship. The relationship should be called 'however'. 
+There is another table 'next' with the columns 'senior' (DATE), 'opportunity' (TEXT), 'mother' (VARCHAR(50)). The primary key is 'senior'. 'next' references another table 'stand' in an exactly one to zero or many relationship. The relationship should be called 'senior'. 
+There is another table 'stand' with the columns 'really' (VARCHAR(50)), 'seek' (DATE). The primary key is 'really'. 'stand' references another table 'total' in an exactly one to zero or many relationship. The relationship should be called 'really'. 
+There is another table 'total' with the columns 'result' (DATE), 'should' (TEXT), 'brother' (VARCHAR(50)). The primary key is 'result'. 'total' references another table 'land' in an exactly one to zero or many relationship. The relationship should be called 'result'. 
+

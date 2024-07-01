@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram345'.
+There is a table 'decision' with the columns 'hour' (DATE), 'shoulder' (TEXT), 'run' (VARCHAR(50)). The primary key is 'hour'. 'decision' references another table 'page' in an exactly one to zero or many relationship. The relationship should be called 'hour'. 
+There is another table 'page' with the columns 'admit' (VARCHAR(50)), 'mission' (DATE). The primary key is 'admit'. 'page' references another table 'community' in an exactly one to zero or many relationship. The relationship should be called 'admit'. 
+There is another table 'community' with the columns 'position' (DATE), 'poor' (TEXT), 'research' (VARCHAR(50)). The primary key is 'position'. 'community' references another table 'hand' in an exactly one to zero or many relationship. The relationship should be called 'position'. 
+There is another table 'hand' with the columns 'model' (VARCHAR(50)), 'outside' (DATE). The primary key is 'model'. 'hand' references another table 'Mr' in an exactly one to zero or many relationship. The relationship should be called 'model'. 
+There is another table 'Mr' with the columns 'rule' (DATE), 'feeling' (TEXT), 'inside' (VARCHAR(50)). The primary key is 'rule'. 'Mr' references another table 'decision' in an exactly one to zero or many relationship. The relationship should be called 'rule'. 
+

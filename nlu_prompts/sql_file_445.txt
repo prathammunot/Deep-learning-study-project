@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram385'.
+There is a table 'total' with the columns 'certainly' (DATE), 'cost' (TEXT), 'rest' (VARCHAR(50)). The primary key is 'certainly'. 'total' references another table 'measure' in an exactly one to zero or many relationship. The relationship should be called 'certainly'. 
+There is another table 'measure' with the columns 'race' (VARCHAR(50)), 'wide' (DATE). The primary key is 'race'. 'measure' references another table 'some' in an exactly one to zero or many relationship. The relationship should be called 'race'. 
+There is another table 'some' with the columns 'magazine' (DATE), 'arm' (TEXT), 'hold' (VARCHAR(50)). The primary key is 'magazine'. 'some' references another table 'cultural' in an exactly one to zero or many relationship. The relationship should be called 'magazine'. 
+There is another table 'cultural' with the columns 'dream' (VARCHAR(50)), 'quality' (DATE). The primary key is 'dream'. 'cultural' references another table 'here' in an exactly one to zero or many relationship. The relationship should be called 'dream'. 
+There is another table 'here' with the columns 'prevent' (DATE), 'store' (TEXT), 'human' (VARCHAR(50)). The primary key is 'prevent'. 'here' references another table 'total' in an exactly one to zero or many relationship. The relationship should be called 'prevent'. 
+

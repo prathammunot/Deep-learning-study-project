@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram336'.
+There is a table 'up' with the columns 'seek' (DATE), 'day' (TEXT), 'treat' (VARCHAR(50)). The primary key is 'seek'. 'up' references another table 'maintain' in an exactly one to zero or many relationship. The relationship should be called 'seek'. 
+There is another table 'maintain' with the columns 'majority' (VARCHAR(50)), 'term' (DATE). The primary key is 'majority'. 'maintain' references another table 'ever' in an exactly one to zero or many relationship. The relationship should be called 'majority'. 
+There is another table 'ever' with the columns 'herself' (DATE), 'difficult' (TEXT), 'room' (VARCHAR(50)). The primary key is 'herself'. 'ever' references another table 'phone' in an exactly one to zero or many relationship. The relationship should be called 'herself'. 
+There is another table 'phone' with the columns 'bill' (VARCHAR(50)), 'TV' (DATE). The primary key is 'bill'. 'phone' references another table 'spend' in an exactly one to zero or many relationship. The relationship should be called 'bill'. 
+There is another table 'spend' with the columns 'both' (DATE), 'performance' (TEXT), 'around' (VARCHAR(50)). The primary key is 'both'. 'spend' references another table 'particular' in an exactly one to zero or many relationship. The relationship should be called 'both'. 
+There is another table 'particular' with the columns 'option' (VARCHAR(50)), 'loss' (DATE). The primary key is 'option'. 'particular' references another table 'white' in an exactly one to zero or many relationship. The relationship should be called 'option'. 
+There is another table 'white' with the columns 'idea' (DATE), 'family' (TEXT), 'western' (VARCHAR(50)). The primary key is 'idea'. 'white' references another table 'kid' in an exactly one to zero or many relationship. The relationship should be called 'idea'. 
+There is another table 'kid' with the columns 'member' (VARCHAR(50)), 'order' (DATE). The primary key is 'member'. 'kid' references another table 'up' in an exactly one to zero or many relationship. The relationship should be called 'member'. 
+

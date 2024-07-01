@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram362'.
+There is a table 'go' with the columns 'record' (DATE), 'Democrat' (TEXT), 'could' (VARCHAR(50)). The primary key is 'record'. 'go' references another table 'condition' in an exactly one to zero or many relationship. The relationship should be called 'record'. 
+There is another table 'condition' with the columns 'blue' (VARCHAR(50)), 'training' (DATE). The primary key is 'blue'. 'condition' references another table 'table' in an exactly one to zero or many relationship. The relationship should be called 'blue'. 
+There is another table 'table' with the columns 'force' (DATE), 'look' (TEXT), 'once' (VARCHAR(50)). The primary key is 'force'. 'table' references another table 'part' in an exactly one to zero or many relationship. The relationship should be called 'force'. 
+There is another table 'part' with the columns 'magazine' (VARCHAR(50)), 'career' (DATE). The primary key is 'magazine'. 'part' references another table 'specific' in an exactly one to zero or many relationship. The relationship should be called 'magazine'. 
+There is another table 'specific' with the columns 'dinner' (DATE), 'expert' (TEXT), 'sport' (VARCHAR(50)). The primary key is 'dinner'. 'specific' references another table 'PM' in an exactly one to zero or many relationship. The relationship should be called 'dinner'. 
+There is another table 'PM' with the columns 'better' (VARCHAR(50)), 'seat' (DATE). The primary key is 'better'. 'PM' references another table 'plan' in an exactly one to zero or many relationship. The relationship should be called 'better'. 
+There is another table 'plan' with the columns 'onto' (DATE), 'what' (TEXT), 'above' (VARCHAR(50)). The primary key is 'onto'. 'plan' references another table 'lead' in an exactly one to zero or many relationship. The relationship should be called 'onto'. 
+There is another table 'lead' with the columns 'candidate' (VARCHAR(50)), 'head' (DATE). The primary key is 'candidate'. 'lead' references another table 'oil' in an exactly one to zero or many relationship. The relationship should be called 'candidate'. 
+There is another table 'oil' with the columns 'whole' (DATE), 'argue' (TEXT), 'pretty' (VARCHAR(50)). The primary key is 'whole'. 'oil' references another table 'go' in an exactly one to zero or many relationship. The relationship should be called 'whole'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram428'.
+There is a table 'certain' with the columns 'tonight' (DATE), 'will' (TEXT), 'quality' (VARCHAR(50)). The primary key is 'tonight'. 'certain' references another table 'particularly' in an exactly one to zero or many relationship. The relationship should be called 'tonight'. 
+There is another table 'particularly' with the columns 'him' (VARCHAR(50)), 'traditional' (DATE). The primary key is 'him'. 'particularly' references another table 'often' in an exactly one to zero or many relationship. The relationship should be called 'him'. 
+There is another table 'often' with the columns 'mouth' (DATE), 'message' (TEXT), 'you' (VARCHAR(50)). The primary key is 'mouth'. 'often' references another table 'method' in an exactly one to zero or many relationship. The relationship should be called 'mouth'. 
+There is another table 'method' with the columns 'expert' (VARCHAR(50)), 'meet' (DATE). The primary key is 'expert'. 'method' references another table 'look' in an exactly one to zero or many relationship. The relationship should be called 'expert'. 
+There is another table 'look' with the columns 'matter' (DATE), 'him' (TEXT), 'likely' (VARCHAR(50)). The primary key is 'matter'. 'look' references another table 'certain' in an exactly one to zero or many relationship. The relationship should be called 'matter'. 
+

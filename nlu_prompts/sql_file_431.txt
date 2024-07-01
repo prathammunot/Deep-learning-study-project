@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram370'.
+There is a table 'nearly' with the columns 'range' (DATE), 'nice' (TEXT), 'partner' (VARCHAR(50)). The primary key is 'range'. 'nearly' references another table 'entire' in an exactly one to zero or many relationship. The relationship should be called 'range'. 
+There is another table 'entire' with the columns 'hand' (VARCHAR(50)), 'southern' (DATE). The primary key is 'hand'. 'entire' references another table 'always' in an exactly one to zero or many relationship. The relationship should be called 'hand'. 
+There is another table 'always' with the columns 'person' (DATE), 'degree' (TEXT), 'order' (VARCHAR(50)). The primary key is 'person'. 'always' references another table 'bill' in an exactly one to zero or many relationship. The relationship should be called 'person'. 
+There is another table 'bill' with the columns 'attention' (VARCHAR(50)), 'me' (DATE). The primary key is 'attention'. 'bill' references another table 'experience' in an exactly one to zero or many relationship. The relationship should be called 'attention'. 
+There is another table 'experience' with the columns 'event' (DATE), 'second' (TEXT), 'finish' (VARCHAR(50)). The primary key is 'event'. 'experience' references another table 'issue' in an exactly one to zero or many relationship. The relationship should be called 'event'. 
+There is another table 'issue' with the columns 'space' (VARCHAR(50)), 'local' (DATE). The primary key is 'space'. 'issue' references another table 'also' in an exactly one to zero or many relationship. The relationship should be called 'space'. 
+There is another table 'also' with the columns 'treatment' (DATE), 'owner' (TEXT), 'him' (VARCHAR(50)). The primary key is 'treatment'. 'also' references another table 'nearly' in an exactly one to zero or many relationship. The relationship should be called 'treatment'. 
+

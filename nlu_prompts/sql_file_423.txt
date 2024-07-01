@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram361'.
+There is a table 'customer' with the columns 'will' (DATE), 'range' (TEXT), 'low' (VARCHAR(50)). The primary key is 'will'. 'customer' references another table 'many' in an exactly one to zero or many relationship. The relationship should be called 'will'. 
+There is another table 'many' with the columns 'a' (VARCHAR(50)), 'expect' (DATE). The primary key is 'a'. 'many' references another table 'degree' in an exactly one to zero or many relationship. The relationship should be called 'a'. 
+There is another table 'degree' with the columns 'north' (DATE), 'late' (TEXT), 'power' (VARCHAR(50)). The primary key is 'north'. 'degree' references another table 'measure' in an exactly one to zero or many relationship. The relationship should be called 'north'. 
+There is another table 'measure' with the columns 'behavior' (VARCHAR(50)), 'health' (DATE). The primary key is 'behavior'. 'measure' references another table 'practice' in an exactly one to zero or many relationship. The relationship should be called 'behavior'. 
+There is another table 'practice' with the columns 'magazine' (DATE), 'call' (TEXT), 'truth' (VARCHAR(50)). The primary key is 'magazine'. 'practice' references another table 'customer' in an exactly one to zero or many relationship. The relationship should be called 'magazine'. 
+

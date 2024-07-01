@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram360'.
+There is a table 'sort' with the columns 'ready' (DATE), 'manage' (TEXT), 'including' (VARCHAR(50)). The primary key is 'ready'. 'sort' references another table 'among' in an exactly one to zero or many relationship. The relationship should be called 'ready'. 
+There is another table 'among' with the columns 'stuff' (VARCHAR(50)), 'cultural' (DATE). The primary key is 'stuff'. 'among' references another table 'forward' in an exactly one to zero or many relationship. The relationship should be called 'stuff'. 
+There is another table 'forward' with the columns 'first' (DATE), 'image' (TEXT), 'there' (VARCHAR(50)). The primary key is 'first'. 'forward' references another table 'its' in an exactly one to zero or many relationship. The relationship should be called 'first'. 
+There is another table 'its' with the columns 'break' (VARCHAR(50)), 'with' (DATE). The primary key is 'break'. 'its' references another table 'but' in an exactly one to zero or many relationship. The relationship should be called 'break'. 
+There is another table 'but' with the columns 'town' (DATE), 'spend' (TEXT), 'nature' (VARCHAR(50)). The primary key is 'town'. 'but' references another table 'thus' in an exactly one to zero or many relationship. The relationship should be called 'town'. 
+There is another table 'thus' with the columns 'from' (VARCHAR(50)), 'board' (DATE). The primary key is 'from'. 'thus' references another table 'song' in an exactly one to zero or many relationship. The relationship should be called 'from'. 
+There is another table 'song' with the columns 'senior' (DATE), 'gas' (TEXT), 'discussion' (VARCHAR(50)). The primary key is 'senior'. 'song' references another table 'use' in an exactly one to zero or many relationship. The relationship should be called 'senior'. 
+There is another table 'use' with the columns 'within' (VARCHAR(50)), 'east' (DATE). The primary key is 'within'. 'use' references another table 'sort' in an exactly one to zero or many relationship. The relationship should be called 'within'. 
+

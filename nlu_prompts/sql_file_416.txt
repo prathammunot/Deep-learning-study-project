@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram353'.
+There is a table 'low' with the columns 'important' (DATE), 'big' (TEXT), 'amount' (VARCHAR(50)). The primary key is 'important'. 'low' references another table 'audience' in an exactly one to zero or many relationship. The relationship should be called 'important'. 
+There is another table 'audience' with the columns 'figure' (VARCHAR(50)), 'right' (DATE). The primary key is 'figure'. 'audience' references another table 'agent' in an exactly one to zero or many relationship. The relationship should be called 'figure'. 
+There is another table 'agent' with the columns 'court' (DATE), 'a' (TEXT), 'century' (VARCHAR(50)). The primary key is 'court'. 'agent' references another table 'threat' in an exactly one to zero or many relationship. The relationship should be called 'court'. 
+There is another table 'threat' with the columns 'ability' (VARCHAR(50)), 'over' (DATE). The primary key is 'ability'. 'threat' references another table 'fill' in an exactly one to zero or many relationship. The relationship should be called 'ability'. 
+There is another table 'fill' with the columns 'vote' (DATE), 'view' (TEXT), 'community' (VARCHAR(50)). The primary key is 'vote'. 'fill' references another table 'member' in an exactly one to zero or many relationship. The relationship should be called 'vote'. 
+There is another table 'member' with the columns 'half' (VARCHAR(50)), 'occur' (DATE). The primary key is 'half'. 'member' references another table 'century' in an exactly one to zero or many relationship. The relationship should be called 'half'. 
+There is another table 'century' with the columns 'continue' (DATE), 'American' (TEXT), 'enough' (VARCHAR(50)). The primary key is 'continue'. 'century' references another table 'low' in an exactly one to zero or many relationship. The relationship should be called 'continue'. 
+

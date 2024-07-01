@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram369'.
+There is a table 'cut' with the columns 'cold' (DATE), 'institution' (TEXT), 'shake' (VARCHAR(50)). The primary key is 'cold'. 'cut' references another table 'who' in an exactly one to zero or many relationship. The relationship should be called 'cold'. 
+There is another table 'who' with the columns 'pick' (VARCHAR(50)), 'economic' (DATE). The primary key is 'pick'. 'who' references another table 'lose' in an exactly one to zero or many relationship. The relationship should be called 'pick'. 
+There is another table 'lose' with the columns 'enjoy' (DATE), 'vote' (TEXT), 'agree' (VARCHAR(50)). The primary key is 'enjoy'. 'lose' references another table 'me' in an exactly one to zero or many relationship. The relationship should be called 'enjoy'. 
+There is another table 'me' with the columns 'evidence' (VARCHAR(50)), 'whole' (DATE). The primary key is 'evidence'. 'me' references another table 'shake' in an exactly one to zero or many relationship. The relationship should be called 'evidence'. 
+There is another table 'shake' with the columns 'personal' (DATE), 'feel' (TEXT), 'animal' (VARCHAR(50)). The primary key is 'personal'. 'shake' references another table 'cut' in an exactly one to zero or many relationship. The relationship should be called 'personal'. 
+

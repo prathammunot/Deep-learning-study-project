@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram383'.
+There is a table 'pay' with the columns 'better' (DATE), 'sound' (TEXT), 'serve' (VARCHAR(50)). The primary key is 'better'. 'pay' references another table 'for' in an exactly one to zero or many relationship. The relationship should be called 'better'. 
+There is another table 'for' with the columns 'still' (VARCHAR(50)), 'scientist' (DATE). The primary key is 'still'. 'for' references another table 'center' in an exactly one to zero or many relationship. The relationship should be called 'still'. 
+There is another table 'center' with the columns 'brother' (DATE), 'lot' (TEXT), 'respond' (VARCHAR(50)). The primary key is 'brother'. 'center' references another table 'develop' in an exactly one to zero or many relationship. The relationship should be called 'brother'. 
+There is another table 'develop' with the columns 'popular' (VARCHAR(50)), 'smile' (DATE). The primary key is 'popular'. 'develop' references another table 'continue' in an exactly one to zero or many relationship. The relationship should be called 'popular'. 
+There is another table 'continue' with the columns 'organization' (DATE), 'mouth' (TEXT), 'reason' (VARCHAR(50)). The primary key is 'organization'. 'continue' references another table 'theory' in an exactly one to zero or many relationship. The relationship should be called 'organization'. 
+There is another table 'theory' with the columns 'line' (VARCHAR(50)), 'manage' (DATE). The primary key is 'line'. 'theory' references another table 'pay' in an exactly one to zero or many relationship. The relationship should be called 'line'. 
+

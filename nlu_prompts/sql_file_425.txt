@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram363'.
+There is a table 'expect' with the columns 'lawyer' (DATE), 'local' (TEXT), 'responsibility' (VARCHAR(50)). The primary key is 'lawyer'. 'expect' references another table 'team' in an exactly one to zero or many relationship. The relationship should be called 'lawyer'. 
+There is another table 'team' with the columns 'exactly' (VARCHAR(50)), 'sell' (DATE). The primary key is 'exactly'. 'team' references another table 'become' in an exactly one to zero or many relationship. The relationship should be called 'exactly'. 
+There is another table 'become' with the columns 'picture' (DATE), 'agency' (TEXT), 'but' (VARCHAR(50)). The primary key is 'picture'. 'become' references another table 'thought' in an exactly one to zero or many relationship. The relationship should be called 'picture'. 
+There is another table 'thought' with the columns 'everyone' (VARCHAR(50)), 'particularly' (DATE). The primary key is 'everyone'. 'thought' references another table 'deal' in an exactly one to zero or many relationship. The relationship should be called 'everyone'. 
+There is another table 'deal' with the columns 'wrong' (DATE), 'require' (TEXT), 'fact' (VARCHAR(50)). The primary key is 'wrong'. 'deal' references another table 'expect' in an exactly one to zero or many relationship. The relationship should be called 'wrong'. 
+

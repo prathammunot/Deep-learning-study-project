@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram397'.
+There is a table 'language' with the columns 'tend' (DATE), 'without' (TEXT), 'finish' (VARCHAR(50)). The primary key is 'tend'. 'language' references another table 'case' in an exactly one to zero or many relationship. The relationship should be called 'tend'. 
+There is another table 'case' with the columns 'leave' (VARCHAR(50)), 'never' (DATE). The primary key is 'leave'. 'case' references another table 'authority' in an exactly one to zero or many relationship. The relationship should be called 'leave'. 
+There is another table 'authority' with the columns 'write' (DATE), 'them' (TEXT), 'pressure' (VARCHAR(50)). The primary key is 'write'. 'authority' references another table 'word' in an exactly one to zero or many relationship. The relationship should be called 'write'. 
+There is another table 'word' with the columns 'art' (VARCHAR(50)), 'identify' (DATE). The primary key is 'art'. 'word' references another table 'than' in an exactly one to zero or many relationship. The relationship should be called 'art'. 
+There is another table 'than' with the columns 'ball' (DATE), 'we' (TEXT), 'hand' (VARCHAR(50)). The primary key is 'ball'. 'than' references another table 'language' in an exactly one to zero or many relationship. The relationship should be called 'ball'. 
+

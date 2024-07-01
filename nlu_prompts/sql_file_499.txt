@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram444'.
+There is a table 'send' with the columns 'factor' (DATE), 'face' (TEXT), 'step' (VARCHAR(50)). The primary key is 'factor'. 'send' references another table 'after' in an exactly one to zero or many relationship. The relationship should be called 'factor'. 
+There is another table 'after' with the columns 'necessary' (VARCHAR(50)), 'attorney' (DATE). The primary key is 'necessary'. 'after' references another table 'half' in an exactly one to zero or many relationship. The relationship should be called 'necessary'. 
+There is another table 'half' with the columns 'happy' (DATE), 'sign' (TEXT), 'model' (VARCHAR(50)). The primary key is 'happy'. 'half' references another table 'class' in an exactly one to zero or many relationship. The relationship should be called 'happy'. 
+There is another table 'class' with the columns 'mission' (VARCHAR(50)), 'deal' (DATE). The primary key is 'mission'. 'class' references another table 'few' in an exactly one to zero or many relationship. The relationship should be called 'mission'. 
+There is another table 'few' with the columns 'attack' (DATE), 'paper' (TEXT), 'bank' (VARCHAR(50)). The primary key is 'attack'. 'few' references another table 'send' in an exactly one to zero or many relationship. The relationship should be called 'attack'. 
+

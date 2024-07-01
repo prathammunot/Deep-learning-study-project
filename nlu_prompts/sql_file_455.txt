@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram396'.
+There is a table 'military' with the columns 'item' (DATE), 'raise' (TEXT), 'somebody' (VARCHAR(50)). The primary key is 'item'. 'military' references another table 'it' in an exactly one to zero or many relationship. The relationship should be called 'item'. 
+There is another table 'it' with the columns 'director' (VARCHAR(50)), 'tell' (DATE). The primary key is 'director'. 'it' references another table 'history' in an exactly one to zero or many relationship. The relationship should be called 'director'. 
+There is another table 'history' with the columns 'summer' (DATE), 'present' (TEXT), 'environment' (VARCHAR(50)). The primary key is 'summer'. 'history' references another table 'message' in an exactly one to zero or many relationship. The relationship should be called 'summer'. 
+There is another table 'message' with the columns 'game' (VARCHAR(50)), 'security' (DATE). The primary key is 'game'. 'message' references another table 'land' in an exactly one to zero or many relationship. The relationship should be called 'game'. 
+There is another table 'land' with the columns 'daughter' (DATE), 'suffer' (TEXT), 'agent' (VARCHAR(50)). The primary key is 'daughter'. 'land' references another table 'only' in an exactly one to zero or many relationship. The relationship should be called 'daughter'. 
+There is another table 'only' with the columns 'accept' (VARCHAR(50)), 'worker' (DATE). The primary key is 'accept'. 'only' references another table 'word' in an exactly one to zero or many relationship. The relationship should be called 'accept'. 
+There is another table 'word' with the columns 'themselves' (DATE), 'responsibility' (TEXT), 'since' (VARCHAR(50)). The primary key is 'themselves'. 'word' references another table 'military' in an exactly one to zero or many relationship. The relationship should be called 'themselves'. 
+

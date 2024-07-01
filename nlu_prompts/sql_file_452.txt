@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram393'.
+There is a table 'seat' with the columns 'recognize' (DATE), 'finish' (TEXT), 'walk' (VARCHAR(50)). The primary key is 'recognize'. 'seat' references another table 'public' in an exactly one to zero or many relationship. The relationship should be called 'recognize'. 
+There is another table 'public' with the columns 'either' (VARCHAR(50)), 'pattern' (DATE). The primary key is 'either'. 'public' references another table 'guy' in an exactly one to zero or many relationship. The relationship should be called 'either'. 
+There is another table 'guy' with the columns 'person' (DATE), 'change' (TEXT), 'beat' (VARCHAR(50)). The primary key is 'person'. 'guy' references another table 'worry' in an exactly one to zero or many relationship. The relationship should be called 'person'. 
+There is another table 'worry' with the columns 'recent' (VARCHAR(50)), 'late' (DATE). The primary key is 'recent'. 'worry' references another table 'doctor' in an exactly one to zero or many relationship. The relationship should be called 'recent'. 
+There is another table 'doctor' with the columns 'occur' (DATE), 'meet' (TEXT), 'race' (VARCHAR(50)). The primary key is 'occur'. 'doctor' references another table 'seat' in an exactly one to zero or many relationship. The relationship should be called 'occur'. 
+

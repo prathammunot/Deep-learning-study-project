@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram392'.
+There is a table 'break' with the columns 'similar' (DATE), 'body' (TEXT), 'value' (VARCHAR(50)). The primary key is 'similar'. 'break' references another table 'low' in an exactly one to zero or many relationship. The relationship should be called 'similar'. 
+There is another table 'low' with the columns 'provide' (VARCHAR(50)), 'here' (DATE). The primary key is 'provide'. 'low' references another table 'near' in an exactly one to zero or many relationship. The relationship should be called 'provide'. 
+There is another table 'near' with the columns 'him' (DATE), 'song' (TEXT), 'high' (VARCHAR(50)). The primary key is 'him'. 'near' references another table 'drug' in an exactly one to zero or many relationship. The relationship should be called 'him'. 
+There is another table 'drug' with the columns 'image' (VARCHAR(50)), 'reduce' (DATE). The primary key is 'image'. 'drug' references another table 'lose' in an exactly one to zero or many relationship. The relationship should be called 'image'. 
+There is another table 'lose' with the columns 'something' (DATE), 'here' (TEXT), 'PM' (VARCHAR(50)). The primary key is 'something'. 'lose' references another table 'field' in an exactly one to zero or many relationship. The relationship should be called 'something'. 
+There is another table 'field' with the columns 'high' (VARCHAR(50)), 'marriage' (DATE). The primary key is 'high'. 'field' references another table 'break' in an exactly one to zero or many relationship. The relationship should be called 'high'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram391'.
+There is a table 'debate' with the columns 'long' (DATE), 'total' (TEXT), 'account' (VARCHAR(50)). The primary key is 'long'. 'debate' references another table 'its' in an exactly one to zero or many relationship. The relationship should be called 'long'. 
+There is another table 'its' with the columns 'his' (VARCHAR(50)), 'operation' (DATE). The primary key is 'his'. 'its' references another table 'idea' in an exactly one to zero or many relationship. The relationship should be called 'his'. 
+There is another table 'idea' with the columns 'color' (DATE), 'politics' (TEXT), 'however' (VARCHAR(50)). The primary key is 'color'. 'idea' references another table 'might' in an exactly one to zero or many relationship. The relationship should be called 'color'. 
+There is another table 'might' with the columns 'test' (VARCHAR(50)), 'where' (DATE). The primary key is 'test'. 'might' references another table 'always' in an exactly one to zero or many relationship. The relationship should be called 'test'. 
+There is another table 'always' with the columns 'possible' (DATE), 'brother' (TEXT), 'purpose' (VARCHAR(50)). The primary key is 'possible'. 'always' references another table 'debate' in an exactly one to zero or many relationship. The relationship should be called 'possible'. 
+

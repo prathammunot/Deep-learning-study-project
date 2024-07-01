@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram348'.
+There is a table 'day' with the columns 'run' (DATE), 'kitchen' (TEXT), 'focus' (VARCHAR(50)). The primary key is 'run'. 'day' references another table 'indicate' in an exactly one to zero or many relationship. The relationship should be called 'run'. 
+There is another table 'indicate' with the columns 'control' (VARCHAR(50)), 'impact' (DATE). The primary key is 'control'. 'indicate' references another table 'moment' in an exactly one to zero or many relationship. The relationship should be called 'control'. 
+There is another table 'moment' with the columns 'top' (DATE), 'reflect' (TEXT), 'or' (VARCHAR(50)). The primary key is 'top'. 'moment' references another table 'any' in an exactly one to zero or many relationship. The relationship should be called 'top'. 
+There is another table 'any' with the columns 'free' (VARCHAR(50)), 'positive' (DATE). The primary key is 'free'. 'any' references another table 'matter' in an exactly one to zero or many relationship. The relationship should be called 'free'. 
+There is another table 'matter' with the columns 'large' (DATE), 'item' (TEXT), 'generation' (VARCHAR(50)). The primary key is 'large'. 'matter' references another table 'rather' in an exactly one to zero or many relationship. The relationship should be called 'large'. 
+There is another table 'rather' with the columns 'never' (VARCHAR(50)), 'take' (DATE). The primary key is 'never'. 'rather' references another table 'number' in an exactly one to zero or many relationship. The relationship should be called 'never'. 
+There is another table 'number' with the columns 'why' (DATE), 'dark' (TEXT), 'after' (VARCHAR(50)). The primary key is 'why'. 'number' references another table 'few' in an exactly one to zero or many relationship. The relationship should be called 'why'. 
+There is another table 'few' with the columns 'series' (VARCHAR(50)), 'another' (DATE). The primary key is 'series'. 'few' references another table 'writer' in an exactly one to zero or many relationship. The relationship should be called 'series'. 
+There is another table 'writer' with the columns 'field' (DATE), 'star' (TEXT), 'cell' (VARCHAR(50)). The primary key is 'field'. 'writer' references another table 'day' in an exactly one to zero or many relationship. The relationship should be called 'field'. 
+

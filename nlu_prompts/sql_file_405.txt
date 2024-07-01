@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram341'.
+There is a table 'action' with the columns 'second' (DATE), 'mother' (TEXT), 'method' (VARCHAR(50)). The primary key is 'second'. 'action' references another table 'go' in an exactly one to zero or many relationship. The relationship should be called 'second'. 
+There is another table 'go' with the columns 'blood' (VARCHAR(50)), 'party' (DATE). The primary key is 'blood'. 'go' references another table 'fight' in an exactly one to zero or many relationship. The relationship should be called 'blood'. 
+There is another table 'fight' with the columns 'sure' (DATE), 'soldier' (TEXT), 'position' (VARCHAR(50)). The primary key is 'sure'. 'fight' references another table 'ability' in an exactly one to zero or many relationship. The relationship should be called 'sure'. 
+There is another table 'ability' with the columns 'administration' (VARCHAR(50)), 'spend' (DATE). The primary key is 'administration'. 'ability' references another table 'adult' in an exactly one to zero or many relationship. The relationship should be called 'administration'. 
+There is another table 'adult' with the columns 'evidence' (DATE), 'bad' (TEXT), 'person' (VARCHAR(50)). The primary key is 'evidence'. 'adult' references another table 'action' in an exactly one to zero or many relationship. The relationship should be called 'evidence'. 
+

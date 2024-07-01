@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram386'.
+There is a table 'then' with the columns 'maintain' (DATE), 'picture' (TEXT), 'various' (VARCHAR(50)). The primary key is 'maintain'. 'then' references another table 'song' in an exactly one to zero or many relationship. The relationship should be called 'maintain'. 
+There is another table 'song' with the columns 'start' (VARCHAR(50)), 'almost' (DATE). The primary key is 'start'. 'song' references another table 'indicate' in an exactly one to zero or many relationship. The relationship should be called 'start'. 
+There is another table 'indicate' with the columns 'consumer' (DATE), 'stage' (TEXT), 'thought' (VARCHAR(50)). The primary key is 'consumer'. 'indicate' references another table 'use' in an exactly one to zero or many relationship. The relationship should be called 'consumer'. 
+There is another table 'use' with the columns 'region' (VARCHAR(50)), 'everyone' (DATE). The primary key is 'region'. 'use' references another table 'wrong' in an exactly one to zero or many relationship. The relationship should be called 'region'. 
+There is another table 'wrong' with the columns 'continue' (DATE), 'could' (TEXT), 'threat' (VARCHAR(50)). The primary key is 'continue'. 'wrong' references another table 'well' in an exactly one to zero or many relationship. The relationship should be called 'continue'. 
+There is another table 'well' with the columns 'age' (VARCHAR(50)), 'interest' (DATE). The primary key is 'age'. 'well' references another table 'sort' in an exactly one to zero or many relationship. The relationship should be called 'age'. 
+There is another table 'sort' with the columns 'a' (DATE), 'discuss' (TEXT), 'want' (VARCHAR(50)). The primary key is 'a'. 'sort' references another table 'fact' in an exactly one to zero or many relationship. The relationship should be called 'a'. 
+There is another table 'fact' with the columns 'herself' (VARCHAR(50)), 'card' (DATE). The primary key is 'herself'. 'fact' references another table 'then' in an exactly one to zero or many relationship. The relationship should be called 'herself'. 
+
