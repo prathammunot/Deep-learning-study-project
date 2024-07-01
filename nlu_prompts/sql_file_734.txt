@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram706'.
+There is a table 'bring' with the columns 'impact' (DATE), 'what' (TEXT), 'environmental' (VARCHAR(50)). The primary key is 'impact'. 'bring' references another table 'thought' in an exactly one to zero or many relationship. The relationship should be called 'impact'. 
+There is another table 'thought' with the columns 'group' (VARCHAR(50)), 'modern' (DATE). The primary key is 'group'. 'thought' references another table 'girl' in an exactly one to zero or many relationship. The relationship should be called 'group'. 
+There is another table 'girl' with the columns 'bill' (DATE), 'leg' (TEXT), 'adult' (VARCHAR(50)). The primary key is 'bill'. 'girl' references another table 'simply' in an exactly one to zero or many relationship. The relationship should be called 'bill'. 
+There is another table 'simply' with the columns 'camera' (VARCHAR(50)), 'six' (DATE). The primary key is 'camera'. 'simply' references another table 'listen' in an exactly one to zero or many relationship. The relationship should be called 'camera'. 
+There is another table 'listen' with the columns 'film' (DATE), 'list' (TEXT), 'ten' (VARCHAR(50)). The primary key is 'film'. 'listen' references another table 'ever' in an exactly one to zero or many relationship. The relationship should be called 'film'. 
+There is another table 'ever' with the columns 'turn' (VARCHAR(50)), 'heart' (DATE). The primary key is 'turn'. 'ever' references another table 'show' in an exactly one to zero or many relationship. The relationship should be called 'turn'. 
+There is another table 'show' with the columns 'plan' (DATE), 'run' (TEXT), 'citizen' (VARCHAR(50)). The primary key is 'plan'. 'show' references another table 'bring' in an exactly one to zero or many relationship. The relationship should be called 'plan'. 
+

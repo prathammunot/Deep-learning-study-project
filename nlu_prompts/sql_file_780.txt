@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram757'.
+There is a table 'able' with the columns 'economy' (DATE), 'real' (TEXT), 'positive' (VARCHAR(50)). The primary key is 'economy'. 'able' references another table 'reveal' in an exactly one to zero or many relationship. The relationship should be called 'economy'. 
+There is another table 'reveal' with the columns 'long' (VARCHAR(50)), 'ten' (DATE). The primary key is 'long'. 'reveal' references another table 'green' in an exactly one to zero or many relationship. The relationship should be called 'long'. 
+There is another table 'green' with the columns 'green' (DATE), 'full' (TEXT), 'fight' (VARCHAR(50)). The primary key is 'green'. 'green' references another table 'movement' in an exactly one to zero or many relationship. The relationship should be called 'green'. 
+There is another table 'movement' with the columns 'work' (VARCHAR(50)), 'opportunity' (DATE). The primary key is 'work'. 'movement' references another table 'begin' in an exactly one to zero or many relationship. The relationship should be called 'work'. 
+There is another table 'begin' with the columns 'several' (DATE), 'pass' (TEXT), 'school' (VARCHAR(50)). The primary key is 'several'. 'begin' references another table 'example' in an exactly one to zero or many relationship. The relationship should be called 'several'. 
+There is another table 'example' with the columns 'simply' (VARCHAR(50)), 'standard' (DATE). The primary key is 'simply'. 'example' references another table 'result' in an exactly one to zero or many relationship. The relationship should be called 'simply'. 
+There is another table 'result' with the columns 'sound' (DATE), 'modern' (TEXT), 'nice' (VARCHAR(50)). The primary key is 'sound'. 'result' references another table 'arm' in an exactly one to zero or many relationship. The relationship should be called 'sound'. 
+There is another table 'arm' with the columns 'weight' (VARCHAR(50)), 'place' (DATE). The primary key is 'weight'. 'arm' references another table 'able' in an exactly one to zero or many relationship. The relationship should be called 'weight'. 
+

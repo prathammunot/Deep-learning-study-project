@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram739'.
+There is a table 'day' with the columns 'food' (DATE), 'watch' (TEXT), 'college' (VARCHAR(50)). The primary key is 'food'. 'day' references another table 'see' in an exactly one to zero or many relationship. The relationship should be called 'food'. 
+There is another table 'see' with the columns 'especially' (VARCHAR(50)), 'career' (DATE). The primary key is 'especially'. 'see' references another table 'follow' in an exactly one to zero or many relationship. The relationship should be called 'especially'. 
+There is another table 'follow' with the columns 'someone' (DATE), 'rather' (TEXT), 'happy' (VARCHAR(50)). The primary key is 'someone'. 'follow' references another table 'more' in an exactly one to zero or many relationship. The relationship should be called 'someone'. 
+There is another table 'more' with the columns 'officer' (VARCHAR(50)), 'see' (DATE). The primary key is 'officer'. 'more' references another table 'something' in an exactly one to zero or many relationship. The relationship should be called 'officer'. 
+There is another table 'something' with the columns 'strong' (DATE), 'never' (TEXT), 'later' (VARCHAR(50)). The primary key is 'strong'. 'something' references another table 'author' in an exactly one to zero or many relationship. The relationship should be called 'strong'. 
+There is another table 'author' with the columns 'not' (VARCHAR(50)), 'group' (DATE). The primary key is 'not'. 'author' references another table 'us' in an exactly one to zero or many relationship. The relationship should be called 'not'. 
+There is another table 'us' with the columns 'even' (DATE), 'friend' (TEXT), 'approach' (VARCHAR(50)). The primary key is 'even'. 'us' references another table 'day' in an exactly one to zero or many relationship. The relationship should be called 'even'. 
+

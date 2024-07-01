@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram684'.
+There is a table 'mind' with the columns 'instead' (DATE), 'meet' (TEXT), 'some' (VARCHAR(50)). The primary key is 'instead'. 'mind' references another table 'main' in an exactly one to zero or many relationship. The relationship should be called 'instead'. 
+There is another table 'main' with the columns 'these' (VARCHAR(50)), 'future' (DATE). The primary key is 'these'. 'main' references another table 'never' in an exactly one to zero or many relationship. The relationship should be called 'these'. 
+There is another table 'never' with the columns 'space' (DATE), 'body' (TEXT), 'card' (VARCHAR(50)). The primary key is 'space'. 'never' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'space'. 
+There is another table 'early' with the columns 'action' (VARCHAR(50)), 'expert' (DATE). The primary key is 'action'. 'early' references another table 'of' in an exactly one to zero or many relationship. The relationship should be called 'action'. 
+There is another table 'of' with the columns 'star' (DATE), 'toward' (TEXT), 'talk' (VARCHAR(50)). The primary key is 'star'. 'of' references another table 'way' in an exactly one to zero or many relationship. The relationship should be called 'star'. 
+There is another table 'way' with the columns 'gas' (VARCHAR(50)), 'her' (DATE). The primary key is 'gas'. 'way' references another table 'place' in an exactly one to zero or many relationship. The relationship should be called 'gas'. 
+There is another table 'place' with the columns 'material' (DATE), 'case' (TEXT), 'drive' (VARCHAR(50)). The primary key is 'material'. 'place' references another table 'pass' in an exactly one to zero or many relationship. The relationship should be called 'material'. 
+There is another table 'pass' with the columns 'visit' (VARCHAR(50)), 'everything' (DATE). The primary key is 'visit'. 'pass' references another table 'mind' in an exactly one to zero or many relationship. The relationship should be called 'visit'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram683'.
+There is a table 'everybody' with the columns 'local' (DATE), 'use' (TEXT), 'wide' (VARCHAR(50)). The primary key is 'local'. 'everybody' references another table 'admit' in an exactly one to zero or many relationship. The relationship should be called 'local'. 
+There is another table 'admit' with the columns 'check' (VARCHAR(50)), 'bring' (DATE). The primary key is 'check'. 'admit' references another table 'describe' in an exactly one to zero or many relationship. The relationship should be called 'check'. 
+There is another table 'describe' with the columns 'change' (DATE), 'turn' (TEXT), 'eight' (VARCHAR(50)). The primary key is 'change'. 'describe' references another table 'them' in an exactly one to zero or many relationship. The relationship should be called 'change'. 
+There is another table 'them' with the columns 'different' (VARCHAR(50)), 'hotel' (DATE). The primary key is 'different'. 'them' references another table 'born' in an exactly one to zero or many relationship. The relationship should be called 'different'. 
+There is another table 'born' with the columns 'throughout' (DATE), 'able' (TEXT), 'memory' (VARCHAR(50)). The primary key is 'throughout'. 'born' references another table 'woman' in an exactly one to zero or many relationship. The relationship should be called 'throughout'. 
+There is another table 'woman' with the columns 'piece' (VARCHAR(50)), 'bed' (DATE). The primary key is 'piece'. 'woman' references another table 'top' in an exactly one to zero or many relationship. The relationship should be called 'piece'. 
+There is another table 'top' with the columns 'itself' (DATE), 'production' (TEXT), 'stuff' (VARCHAR(50)). The primary key is 'itself'. 'top' references another table 'everybody' in an exactly one to zero or many relationship. The relationship should be called 'itself'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram772'.
+There is a table 'white' with the columns 'end' (DATE), 'rather' (TEXT), 'student' (VARCHAR(50)). The primary key is 'end'. 'white' references another table 'behind' in an exactly one to zero or many relationship. The relationship should be called 'end'. 
+There is another table 'behind' with the columns 'fall' (VARCHAR(50)), 'field' (DATE). The primary key is 'fall'. 'behind' references another table 'interview' in an exactly one to zero or many relationship. The relationship should be called 'fall'. 
+There is another table 'interview' with the columns 'training' (DATE), 'enough' (TEXT), 'agree' (VARCHAR(50)). The primary key is 'training'. 'interview' references another table 'put' in an exactly one to zero or many relationship. The relationship should be called 'training'. 
+There is another table 'put' with the columns 'evening' (VARCHAR(50)), 'garden' (DATE). The primary key is 'evening'. 'put' references another table 'woman' in an exactly one to zero or many relationship. The relationship should be called 'evening'. 
+There is another table 'woman' with the columns 'thus' (DATE), 'international' (TEXT), 'body' (VARCHAR(50)). The primary key is 'thus'. 'woman' references another table 'purpose' in an exactly one to zero or many relationship. The relationship should be called 'thus'. 
+There is another table 'purpose' with the columns 'reduce' (VARCHAR(50)), 'continue' (DATE). The primary key is 'reduce'. 'purpose' references another table 'possible' in an exactly one to zero or many relationship. The relationship should be called 'reduce'. 
+There is another table 'possible' with the columns 'police' (DATE), 'continue' (TEXT), 'control' (VARCHAR(50)). The primary key is 'police'. 'possible' references another table 'white' in an exactly one to zero or many relationship. The relationship should be called 'police'. 
+

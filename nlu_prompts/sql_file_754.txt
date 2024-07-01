@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram728'.
+There is a table 'own' with the columns 'stop' (DATE), 'every' (TEXT), 'start' (VARCHAR(50)). The primary key is 'stop'. 'own' references another table 'success' in an exactly one to zero or many relationship. The relationship should be called 'stop'. 
+There is another table 'success' with the columns 'force' (VARCHAR(50)), 'many' (DATE). The primary key is 'force'. 'success' references another table 'bit' in an exactly one to zero or many relationship. The relationship should be called 'force'. 
+There is another table 'bit' with the columns 'citizen' (DATE), 'clear' (TEXT), 'fast' (VARCHAR(50)). The primary key is 'citizen'. 'bit' references another table 'father' in an exactly one to zero or many relationship. The relationship should be called 'citizen'. 
+There is another table 'father' with the columns 'throw' (VARCHAR(50)), 'western' (DATE). The primary key is 'throw'. 'father' references another table 'page' in an exactly one to zero or many relationship. The relationship should be called 'throw'. 
+There is another table 'page' with the columns 'country' (DATE), 'score' (TEXT), 'move' (VARCHAR(50)). The primary key is 'country'. 'page' references another table 'scene' in an exactly one to zero or many relationship. The relationship should be called 'country'. 
+There is another table 'scene' with the columns 'report' (VARCHAR(50)), 'simple' (DATE). The primary key is 'report'. 'scene' references another table 'own' in an exactly one to zero or many relationship. The relationship should be called 'report'. 
+

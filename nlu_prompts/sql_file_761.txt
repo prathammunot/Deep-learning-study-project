@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram736'.
+There is a table 'about' with the columns 'pressure' (DATE), 'out' (TEXT), 'impact' (VARCHAR(50)). The primary key is 'pressure'. 'about' references another table 'five' in an exactly one to zero or many relationship. The relationship should be called 'pressure'. 
+There is another table 'five' with the columns 'look' (VARCHAR(50)), 'face' (DATE). The primary key is 'look'. 'five' references another table 'free' in an exactly one to zero or many relationship. The relationship should be called 'look'. 
+There is another table 'free' with the columns 'minute' (DATE), 'born' (TEXT), 'none' (VARCHAR(50)). The primary key is 'minute'. 'free' references another table 'site' in an exactly one to zero or many relationship. The relationship should be called 'minute'. 
+There is another table 'site' with the columns 'though' (VARCHAR(50)), 'my' (DATE). The primary key is 'though'. 'site' references another table 'street' in an exactly one to zero or many relationship. The relationship should be called 'though'. 
+There is another table 'street' with the columns 'sort' (DATE), 'feeling' (TEXT), 'never' (VARCHAR(50)). The primary key is 'sort'. 'street' references another table 'what' in an exactly one to zero or many relationship. The relationship should be called 'sort'. 
+There is another table 'what' with the columns 'culture' (VARCHAR(50)), 'research' (DATE). The primary key is 'culture'. 'what' references another table 'pull' in an exactly one to zero or many relationship. The relationship should be called 'culture'. 
+There is another table 'pull' with the columns 'heart' (DATE), 'continue' (TEXT), 'it' (VARCHAR(50)). The primary key is 'heart'. 'pull' references another table 'about' in an exactly one to zero or many relationship. The relationship should be called 'heart'. 
+

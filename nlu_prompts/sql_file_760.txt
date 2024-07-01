@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram735'.
+There is a table 'poor' with the columns 'successful' (DATE), 'machine' (TEXT), 'like' (VARCHAR(50)). The primary key is 'successful'. 'poor' references another table 'guy' in an exactly one to zero or many relationship. The relationship should be called 'successful'. 
+There is another table 'guy' with the columns 'you' (VARCHAR(50)), 'should' (DATE). The primary key is 'you'. 'guy' references another table 'book' in an exactly one to zero or many relationship. The relationship should be called 'you'. 
+There is another table 'book' with the columns 'show' (DATE), 'bit' (TEXT), 'indeed' (VARCHAR(50)). The primary key is 'show'. 'book' references another table 'necessary' in an exactly one to zero or many relationship. The relationship should be called 'show'. 
+There is another table 'necessary' with the columns 'along' (VARCHAR(50)), 'worry' (DATE). The primary key is 'along'. 'necessary' references another table 'student' in an exactly one to zero or many relationship. The relationship should be called 'along'. 
+There is another table 'student' with the columns 'cover' (DATE), 'drop' (TEXT), 'nearly' (VARCHAR(50)). The primary key is 'cover'. 'student' references another table 'race' in an exactly one to zero or many relationship. The relationship should be called 'cover'. 
+There is another table 'race' with the columns 'administration' (VARCHAR(50)), 'future' (DATE). The primary key is 'administration'. 'race' references another table 'audience' in an exactly one to zero or many relationship. The relationship should be called 'administration'. 
+There is another table 'audience' with the columns 'hundred' (DATE), 'support' (TEXT), 'painting' (VARCHAR(50)). The primary key is 'hundred'. 'audience' references another table 'natural' in an exactly one to zero or many relationship. The relationship should be called 'hundred'. 
+There is another table 'natural' with the columns 'season' (VARCHAR(50)), 'study' (DATE). The primary key is 'season'. 'natural' references another table 'poor' in an exactly one to zero or many relationship. The relationship should be called 'season'. 
+

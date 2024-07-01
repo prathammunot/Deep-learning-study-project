@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram703'.
+There is a table 'theory' with the columns 'arrive' (DATE), 'mind' (TEXT), 'ground' (VARCHAR(50)). The primary key is 'arrive'. 'theory' references another table 'cut' in an exactly one to zero or many relationship. The relationship should be called 'arrive'. 
+There is another table 'cut' with the columns 'add' (VARCHAR(50)), 'law' (DATE). The primary key is 'add'. 'cut' references another table 'collection' in an exactly one to zero or many relationship. The relationship should be called 'add'. 
+There is another table 'collection' with the columns 'open' (DATE), 'kid' (TEXT), 'teach' (VARCHAR(50)). The primary key is 'open'. 'collection' references another table 'fight' in an exactly one to zero or many relationship. The relationship should be called 'open'. 
+There is another table 'fight' with the columns 'easy' (VARCHAR(50)), 'us' (DATE). The primary key is 'easy'. 'fight' references another table 'budget' in an exactly one to zero or many relationship. The relationship should be called 'easy'. 
+There is another table 'budget' with the columns 'energy' (DATE), 'arrive' (TEXT), 'among' (VARCHAR(50)). The primary key is 'energy'. 'budget' references another table 'theory' in an exactly one to zero or many relationship. The relationship should be called 'energy'. 
+

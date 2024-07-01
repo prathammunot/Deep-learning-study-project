@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram743'.
+There is a table 'any' with the columns 'network' (DATE), 'evening' (TEXT), 'past' (VARCHAR(50)). The primary key is 'network'. 'any' references another table 'reason' in an exactly one to zero or many relationship. The relationship should be called 'network'. 
+There is another table 'reason' with the columns 'policy' (VARCHAR(50)), 'first' (DATE). The primary key is 'policy'. 'reason' references another table 'law' in an exactly one to zero or many relationship. The relationship should be called 'policy'. 
+There is another table 'law' with the columns 'debate' (DATE), 'try' (TEXT), 'outside' (VARCHAR(50)). The primary key is 'debate'. 'law' references another table 'blue' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+There is another table 'blue' with the columns 'star' (VARCHAR(50)), 'organization' (DATE). The primary key is 'star'. 'blue' references another table 'mission' in an exactly one to zero or many relationship. The relationship should be called 'star'. 
+There is another table 'mission' with the columns 'summer' (DATE), 'family' (TEXT), 'add' (VARCHAR(50)). The primary key is 'summer'. 'mission' references another table 'any' in an exactly one to zero or many relationship. The relationship should be called 'summer'. 
+

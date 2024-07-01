@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram766'.
+There is a table 'goal' with the columns 'describe' (DATE), 'nice' (TEXT), 'able' (VARCHAR(50)). The primary key is 'describe'. 'goal' references another table 'energy' in an exactly one to zero or many relationship. The relationship should be called 'describe'. 
+There is another table 'energy' with the columns 'outside' (VARCHAR(50)), 'science' (DATE). The primary key is 'outside'. 'energy' references another table 'during' in an exactly one to zero or many relationship. The relationship should be called 'outside'. 
+There is another table 'during' with the columns 'reason' (DATE), 'service' (TEXT), 'research' (VARCHAR(50)). The primary key is 'reason'. 'during' references another table 'new' in an exactly one to zero or many relationship. The relationship should be called 'reason'. 
+There is another table 'new' with the columns 'ready' (VARCHAR(50)), 'if' (DATE). The primary key is 'ready'. 'new' references another table 'special' in an exactly one to zero or many relationship. The relationship should be called 'ready'. 
+There is another table 'special' with the columns 'conference' (DATE), 'politics' (TEXT), 'yeah' (VARCHAR(50)). The primary key is 'conference'. 'special' references another table 'goal' in an exactly one to zero or many relationship. The relationship should be called 'conference'. 
+

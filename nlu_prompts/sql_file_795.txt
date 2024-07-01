@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram773'.
+There is a table 'study' with the columns 'expert' (DATE), 'chance' (TEXT), 'pretty' (VARCHAR(50)). The primary key is 'expert'. 'study' references another table 'organization' in an exactly one to zero or many relationship. The relationship should be called 'expert'. 
+There is another table 'organization' with the columns 'small' (VARCHAR(50)), 'prepare' (DATE). The primary key is 'small'. 'organization' references another table 'good' in an exactly one to zero or many relationship. The relationship should be called 'small'. 
+There is another table 'good' with the columns 'necessary' (DATE), 'gas' (TEXT), 'make' (VARCHAR(50)). The primary key is 'necessary'. 'good' references another table 'save' in an exactly one to zero or many relationship. The relationship should be called 'necessary'. 
+There is another table 'save' with the columns 'some' (VARCHAR(50)), 'drive' (DATE). The primary key is 'some'. 'save' references another table 'yet' in an exactly one to zero or many relationship. The relationship should be called 'some'. 
+There is another table 'yet' with the columns 'talk' (DATE), 'under' (TEXT), 'health' (VARCHAR(50)). The primary key is 'talk'. 'yet' references another table 'face' in an exactly one to zero or many relationship. The relationship should be called 'talk'. 
+There is another table 'face' with the columns 'goal' (VARCHAR(50)), 'pressure' (DATE). The primary key is 'goal'. 'face' references another table 'study' in an exactly one to zero or many relationship. The relationship should be called 'goal'. 
+

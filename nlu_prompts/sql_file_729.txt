@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram700'.
+There is a table 'player' with the columns 'end' (DATE), 'black' (TEXT), 'price' (VARCHAR(50)). The primary key is 'end'. 'player' references another table 'lead' in an exactly one to zero or many relationship. The relationship should be called 'end'. 
+There is another table 'lead' with the columns 'with' (VARCHAR(50)), 'shoulder' (DATE). The primary key is 'with'. 'lead' references another table 'inside' in an exactly one to zero or many relationship. The relationship should be called 'with'. 
+There is another table 'inside' with the columns 'politics' (DATE), 'too' (TEXT), 'another' (VARCHAR(50)). The primary key is 'politics'. 'inside' references another table 'each' in an exactly one to zero or many relationship. The relationship should be called 'politics'. 
+There is another table 'each' with the columns 'reach' (VARCHAR(50)), 'war' (DATE). The primary key is 'reach'. 'each' references another table 'range' in an exactly one to zero or many relationship. The relationship should be called 'reach'. 
+There is another table 'range' with the columns 'live' (DATE), 'you' (TEXT), 'enough' (VARCHAR(50)). The primary key is 'live'. 'range' references another table 'or' in an exactly one to zero or many relationship. The relationship should be called 'live'. 
+There is another table 'or' with the columns 'Democrat' (VARCHAR(50)), 'inside' (DATE). The primary key is 'Democrat'. 'or' references another table 'player' in an exactly one to zero or many relationship. The relationship should be called 'Democrat'. 
+

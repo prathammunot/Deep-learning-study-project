@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram744'.
+There is a table 'third' with the columns 'rest' (DATE), 'hard' (TEXT), 'lead' (VARCHAR(50)). The primary key is 'rest'. 'third' references another table 'nice' in an exactly one to zero or many relationship. The relationship should be called 'rest'. 
+There is another table 'nice' with the columns 'bed' (VARCHAR(50)), 'development' (DATE). The primary key is 'bed'. 'nice' references another table 'stand' in an exactly one to zero or many relationship. The relationship should be called 'bed'. 
+There is another table 'stand' with the columns 'always' (DATE), 'attack' (TEXT), 'or' (VARCHAR(50)). The primary key is 'always'. 'stand' references another table 'structure' in an exactly one to zero or many relationship. The relationship should be called 'always'. 
+There is another table 'structure' with the columns 'simple' (VARCHAR(50)), 'brother' (DATE). The primary key is 'simple'. 'structure' references another table 'order' in an exactly one to zero or many relationship. The relationship should be called 'simple'. 
+There is another table 'order' with the columns 'difficult' (DATE), 'final' (TEXT), 'begin' (VARCHAR(50)). The primary key is 'difficult'. 'order' references another table 'various' in an exactly one to zero or many relationship. The relationship should be called 'difficult'. 
+There is another table 'various' with the columns 'stuff' (VARCHAR(50)), 'foot' (DATE). The primary key is 'stuff'. 'various' references another table 'will' in an exactly one to zero or many relationship. The relationship should be called 'stuff'. 
+There is another table 'will' with the columns 'direction' (DATE), 'trial' (TEXT), 'fire' (VARCHAR(50)). The primary key is 'direction'. 'will' references another table 'member' in an exactly one to zero or many relationship. The relationship should be called 'direction'. 
+There is another table 'member' with the columns 'or' (VARCHAR(50)), 'camera' (DATE). The primary key is 'or'. 'member' references another table 'third' in an exactly one to zero or many relationship. The relationship should be called 'or'. 
+

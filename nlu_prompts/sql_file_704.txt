@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram673'.
+There is a table 'voice' with the columns 'certain' (DATE), 'account' (TEXT), 'follow' (VARCHAR(50)). The primary key is 'certain'. 'voice' references another table 'summer' in an exactly one to zero or many relationship. The relationship should be called 'certain'. 
+There is another table 'summer' with the columns 'hour' (VARCHAR(50)), 'nor' (DATE). The primary key is 'hour'. 'summer' references another table 'effort' in an exactly one to zero or many relationship. The relationship should be called 'hour'. 
+There is another table 'effort' with the columns 'instead' (DATE), 'Republican' (TEXT), 'fill' (VARCHAR(50)). The primary key is 'instead'. 'effort' references another table 'tend' in an exactly one to zero or many relationship. The relationship should be called 'instead'. 
+There is another table 'tend' with the columns 'true' (VARCHAR(50)), 'couple' (DATE). The primary key is 'true'. 'tend' references another table 'remain' in an exactly one to zero or many relationship. The relationship should be called 'true'. 
+There is another table 'remain' with the columns 'experience' (DATE), 'bag' (TEXT), 'officer' (VARCHAR(50)). The primary key is 'experience'. 'remain' references another table 'account' in an exactly one to zero or many relationship. The relationship should be called 'experience'. 
+There is another table 'account' with the columns 'send' (VARCHAR(50)), 'rock' (DATE). The primary key is 'send'. 'account' references another table 'hard' in an exactly one to zero or many relationship. The relationship should be called 'send'. 
+There is another table 'hard' with the columns 'view' (DATE), 'yet' (TEXT), 'I' (VARCHAR(50)). The primary key is 'view'. 'hard' references another table 'voice' in an exactly one to zero or many relationship. The relationship should be called 'view'. 
+

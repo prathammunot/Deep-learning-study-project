@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram752'.
+There is a table 'drop' with the columns 'garden' (DATE), 'three' (TEXT), 'party' (VARCHAR(50)). The primary key is 'garden'. 'drop' references another table 'player' in an exactly one to zero or many relationship. The relationship should be called 'garden'. 
+There is another table 'player' with the columns 'training' (VARCHAR(50)), 'to' (DATE). The primary key is 'training'. 'player' references another table 'determine' in an exactly one to zero or many relationship. The relationship should be called 'training'. 
+There is another table 'determine' with the columns 'white' (DATE), 'check' (TEXT), 'call' (VARCHAR(50)). The primary key is 'white'. 'determine' references another table 'common' in an exactly one to zero or many relationship. The relationship should be called 'white'. 
+There is another table 'common' with the columns 'better' (VARCHAR(50)), 'baby' (DATE). The primary key is 'better'. 'common' references another table 'house' in an exactly one to zero or many relationship. The relationship should be called 'better'. 
+There is another table 'house' with the columns 'maintain' (DATE), 'senior' (TEXT), 'like' (VARCHAR(50)). The primary key is 'maintain'. 'house' references another table 'drop' in an exactly one to zero or many relationship. The relationship should be called 'maintain'. 
+

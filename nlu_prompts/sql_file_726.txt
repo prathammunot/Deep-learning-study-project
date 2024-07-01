@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram697'.
+There is a table 'other' with the columns 'economic' (DATE), 'beat' (TEXT), 'consider' (VARCHAR(50)). The primary key is 'economic'. 'other' references another table 'theory' in an exactly one to zero or many relationship. The relationship should be called 'economic'. 
+There is another table 'theory' with the columns 'modern' (VARCHAR(50)), 'food' (DATE). The primary key is 'modern'. 'theory' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'modern'. 
+There is another table 'situation' with the columns 'exist' (DATE), 'significant' (TEXT), 'either' (VARCHAR(50)). The primary key is 'exist'. 'situation' references another table 'letter' in an exactly one to zero or many relationship. The relationship should be called 'exist'. 
+There is another table 'letter' with the columns 'central' (VARCHAR(50)), 'their' (DATE). The primary key is 'central'. 'letter' references another table 'shake' in an exactly one to zero or many relationship. The relationship should be called 'central'. 
+There is another table 'shake' with the columns 'through' (DATE), 'reduce' (TEXT), 'PM' (VARCHAR(50)). The primary key is 'through'. 'shake' references another table 'boy' in an exactly one to zero or many relationship. The relationship should be called 'through'. 
+There is another table 'boy' with the columns 'easy' (VARCHAR(50)), 'house' (DATE). The primary key is 'easy'. 'boy' references another table 'other' in an exactly one to zero or many relationship. The relationship should be called 'easy'. 
+

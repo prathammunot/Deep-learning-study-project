@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram751'.
+There is a table 'site' with the columns 'social' (DATE), 'possible' (TEXT), 'candidate' (VARCHAR(50)). The primary key is 'social'. 'site' references another table 'thank' in an exactly one to zero or many relationship. The relationship should be called 'social'. 
+There is another table 'thank' with the columns 'military' (VARCHAR(50)), 'one' (DATE). The primary key is 'military'. 'thank' references another table 'arrive' in an exactly one to zero or many relationship. The relationship should be called 'military'. 
+There is another table 'arrive' with the columns 'too' (DATE), 'voice' (TEXT), 'agent' (VARCHAR(50)). The primary key is 'too'. 'arrive' references another table 'your' in an exactly one to zero or many relationship. The relationship should be called 'too'. 
+There is another table 'your' with the columns 'see' (VARCHAR(50)), 'message' (DATE). The primary key is 'see'. 'your' references another table 'few' in an exactly one to zero or many relationship. The relationship should be called 'see'. 
+There is another table 'few' with the columns 'concern' (DATE), 'campaign' (TEXT), 'avoid' (VARCHAR(50)). The primary key is 'concern'. 'few' references another table 'drive' in an exactly one to zero or many relationship. The relationship should be called 'concern'. 
+There is another table 'drive' with the columns 'defense' (VARCHAR(50)), 'gas' (DATE). The primary key is 'defense'. 'drive' references another table 'ten' in an exactly one to zero or many relationship. The relationship should be called 'defense'. 
+There is another table 'ten' with the columns 'different' (DATE), 'Mrs' (TEXT), 'rate' (VARCHAR(50)). The primary key is 'different'. 'ten' references another table 'site' in an exactly one to zero or many relationship. The relationship should be called 'different'. 
+

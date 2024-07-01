@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram691'.
+There is a table 'them' with the columns 'line' (DATE), 'goal' (TEXT), 'sign' (VARCHAR(50)). The primary key is 'line'. 'them' references another table 'energy' in an exactly one to zero or many relationship. The relationship should be called 'line'. 
+There is another table 'energy' with the columns 'which' (VARCHAR(50)), 'risk' (DATE). The primary key is 'which'. 'energy' references another table 'share' in an exactly one to zero or many relationship. The relationship should be called 'which'. 
+There is another table 'share' with the columns 'leave' (DATE), 'try' (TEXT), 'her' (VARCHAR(50)). The primary key is 'leave'. 'share' references another table 'week' in an exactly one to zero or many relationship. The relationship should be called 'leave'. 
+There is another table 'week' with the columns 'light' (VARCHAR(50)), 'upon' (DATE). The primary key is 'light'. 'week' references another table 'mind' in an exactly one to zero or many relationship. The relationship should be called 'light'. 
+There is another table 'mind' with the columns 'born' (DATE), 'middle' (TEXT), 'blue' (VARCHAR(50)). The primary key is 'born'. 'mind' references another table 'painting' in an exactly one to zero or many relationship. The relationship should be called 'born'. 
+There is another table 'painting' with the columns 'only' (VARCHAR(50)), 'conference' (DATE). The primary key is 'only'. 'painting' references another table 'unit' in an exactly one to zero or many relationship. The relationship should be called 'only'. 
+There is another table 'unit' with the columns 'game' (DATE), 'sure' (TEXT), 'defense' (VARCHAR(50)). The primary key is 'game'. 'unit' references another table 'them' in an exactly one to zero or many relationship. The relationship should be called 'game'. 
+

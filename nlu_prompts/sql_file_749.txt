@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram722'.
+There is a table 'condition' with the columns 'ever' (DATE), 'computer' (TEXT), 'artist' (VARCHAR(50)). The primary key is 'ever'. 'condition' references another table 'wife' in an exactly one to zero or many relationship. The relationship should be called 'ever'. 
+There is another table 'wife' with the columns 'term' (VARCHAR(50)), 'house' (DATE). The primary key is 'term'. 'wife' references another table 'appear' in an exactly one to zero or many relationship. The relationship should be called 'term'. 
+There is another table 'appear' with the columns 'risk' (DATE), 'middle' (TEXT), 'though' (VARCHAR(50)). The primary key is 'risk'. 'appear' references another table 'floor' in an exactly one to zero or many relationship. The relationship should be called 'risk'. 
+There is another table 'floor' with the columns 'business' (VARCHAR(50)), 'live' (DATE). The primary key is 'business'. 'floor' references another table 'real' in an exactly one to zero or many relationship. The relationship should be called 'business'. 
+There is another table 'real' with the columns 'Democrat' (DATE), 'matter' (TEXT), 'also' (VARCHAR(50)). The primary key is 'Democrat'. 'real' references another table 'sea' in an exactly one to zero or many relationship. The relationship should be called 'Democrat'. 
+There is another table 'sea' with the columns 'lead' (VARCHAR(50)), 'account' (DATE). The primary key is 'lead'. 'sea' references another table 'condition' in an exactly one to zero or many relationship. The relationship should be called 'lead'. 
+

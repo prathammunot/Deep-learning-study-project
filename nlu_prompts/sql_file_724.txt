@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram695'.
+There is a table 'type' with the columns 'attorney' (DATE), 'push' (TEXT), 'personal' (VARCHAR(50)). The primary key is 'attorney'. 'type' references another table 'party' in an exactly one to zero or many relationship. The relationship should be called 'attorney'. 
+There is another table 'party' with the columns 'million' (VARCHAR(50)), 'employee' (DATE). The primary key is 'million'. 'party' references another table 'protect' in an exactly one to zero or many relationship. The relationship should be called 'million'. 
+There is another table 'protect' with the columns 'still' (DATE), 'social' (TEXT), 'table' (VARCHAR(50)). The primary key is 'still'. 'protect' references another table 'themselves' in an exactly one to zero or many relationship. The relationship should be called 'still'. 
+There is another table 'themselves' with the columns 'western' (VARCHAR(50)), 'specific' (DATE). The primary key is 'western'. 'themselves' references another table 'according' in an exactly one to zero or many relationship. The relationship should be called 'western'. 
+There is another table 'according' with the columns 'page' (DATE), 'teach' (TEXT), 'person' (VARCHAR(50)). The primary key is 'page'. 'according' references another table 'edge' in an exactly one to zero or many relationship. The relationship should be called 'page'. 
+There is another table 'edge' with the columns 'big' (VARCHAR(50)), 'whether' (DATE). The primary key is 'big'. 'edge' references another table 'feeling' in an exactly one to zero or many relationship. The relationship should be called 'big'. 
+There is another table 'feeling' with the columns 'enter' (DATE), 'pull' (TEXT), 'city' (VARCHAR(50)). The primary key is 'enter'. 'feeling' references another table 'throughout' in an exactly one to zero or many relationship. The relationship should be called 'enter'. 
+There is another table 'throughout' with the columns 'turn' (VARCHAR(50)), 'stock' (DATE). The primary key is 'turn'. 'throughout' references another table 'type' in an exactly one to zero or many relationship. The relationship should be called 'turn'. 
+
