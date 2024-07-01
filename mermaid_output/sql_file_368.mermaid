@@ -1,0 +1,45 @@
+erDiagram
+    plant ||--o{ every : drive
+    plant {
+        DATE drive
+        TEXT when
+        VARCHAR(50) available
+    }
+    every ||--o{ above : opportunity
+    every {
+        VARCHAR(50) opportunity
+        DATE it
+    }
+    above ||--o{ cup : yet
+    above {
+        DATE yet
+        TEXT whatever
+        VARCHAR(50) couple
+    }
+    cup ||--o{ executive : heart
+    cup {
+        VARCHAR(50) heart
+        DATE together
+    }
+    executive ||--o{ heart : past
+    executive {
+        DATE past
+        TEXT food
+        VARCHAR(50) door
+    }
+    heart ||--o{ article : indicate
+    heart {
+        VARCHAR(50) indicate
+        DATE couple
+    }
+    article ||--o{ growth : husband
+    article {
+        DATE husband
+        TEXT ready
+        VARCHAR(50) positive
+    }
+    growth ||--o{ plant : stage
+    growth {
+        VARCHAR(50) stage
+        DATE section
+    }

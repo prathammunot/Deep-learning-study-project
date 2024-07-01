@@ -1,0 +1,29 @@
+erDiagram
+    recently ||--o{ run : nation
+    recently {
+        DATE nation
+        TEXT institution
+        VARCHAR(50) more
+    }
+    run ||--o{ nor : time
+    run {
+        VARCHAR(50) time
+        DATE at
+    }
+    nor ||--o{ again : pretty
+    nor {
+        DATE pretty
+        TEXT discover
+        VARCHAR(50) service
+    }
+    again ||--o{ best : so
+    again {
+        VARCHAR(50) so
+        DATE film
+    }
+    best ||--o{ recently : politics
+    best {
+        DATE politics
+        TEXT fight
+        VARCHAR(50) goal
+    }

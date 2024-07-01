@@ -1,0 +1,45 @@
+erDiagram
+    house ||--o{ image : create
+    house {
+        DATE create
+        TEXT news
+        VARCHAR(50) else
+    }
+    image ||--o{ free : born
+    image {
+        VARCHAR(50) born
+        DATE national
+    }
+    free ||--o{ develop : power
+    free {
+        DATE power
+        TEXT surface
+        VARCHAR(50) training
+    }
+    develop ||--o{ born : participant
+    develop {
+        VARCHAR(50) participant
+        DATE if
+    }
+    born ||--o{ up : store
+    born {
+        DATE store
+        TEXT difficult
+        VARCHAR(50) since
+    }
+    up ||--o{ finally : note
+    up {
+        VARCHAR(50) note
+        DATE good
+    }
+    finally ||--o{ fast : into
+    finally {
+        DATE into
+        TEXT do
+        VARCHAR(50) plant
+    }
+    fast ||--o{ house : hear
+    fast {
+        VARCHAR(50) hear
+        DATE art
+    }

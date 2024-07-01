@@ -1,0 +1,45 @@
+erDiagram
+    reality ||--o{ arm : source
+    reality {
+        DATE source
+        TEXT material
+        VARCHAR(50) north
+    }
+    arm ||--o{ cover : purpose
+    arm {
+        VARCHAR(50) purpose
+        DATE marriage
+    }
+    cover ||--o{ walk : attention
+    cover {
+        DATE attention
+        TEXT opportunity
+        VARCHAR(50) food
+    }
+    walk ||--o{ thought : run
+    walk {
+        VARCHAR(50) run
+        DATE outside
+    }
+    thought ||--o{ order : major
+    thought {
+        DATE major
+        TEXT participant
+        VARCHAR(50) affect
+    }
+    order ||--o{ assume : nor
+    order {
+        VARCHAR(50) nor
+        DATE data
+    }
+    assume ||--o{ suffer : time
+    assume {
+        DATE time
+        TEXT wish
+        VARCHAR(50) throw
+    }
+    suffer ||--o{ reality : particular
+    suffer {
+        VARCHAR(50) particular
+        DATE most
+    }

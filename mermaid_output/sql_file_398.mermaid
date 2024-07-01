@@ -1,0 +1,29 @@
+erDiagram
+    no ||--o{ need : skin
+    no {
+        DATE skin
+        TEXT staff
+        VARCHAR(50) source
+    }
+    need ||--o{ in : card
+    need {
+        VARCHAR(50) card
+        DATE city
+    }
+    in ||--o{ news : trial
+    in {
+        DATE trial
+        TEXT the
+        VARCHAR(50) reduce
+    }
+    news ||--o{ near : station
+    news {
+        VARCHAR(50) station
+        DATE particular
+    }
+    near ||--o{ no : their
+    near {
+        DATE their
+        TEXT radio
+        VARCHAR(50) painting
+    }

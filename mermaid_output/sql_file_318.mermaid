@@ -1,0 +1,45 @@
+erDiagram
+    possible ||--o{ south : organization
+    possible {
+        DATE organization
+        TEXT move
+        VARCHAR(50) parent
+    }
+    south ||--o{ pick : deal
+    south {
+        VARCHAR(50) deal
+        DATE side
+    }
+    pick ||--o{ resource : interesting
+    pick {
+        DATE interesting
+        TEXT myself
+        VARCHAR(50) back
+    }
+    resource ||--o{ finish : bring
+    resource {
+        VARCHAR(50) bring
+        DATE call
+    }
+    finish ||--o{ wife : writer
+    finish {
+        DATE writer
+        TEXT road
+        VARCHAR(50) between
+    }
+    wife ||--o{ where : black
+    wife {
+        VARCHAR(50) black
+        DATE community
+    }
+    where ||--o{ sign : game
+    where {
+        DATE game
+        TEXT I
+        VARCHAR(50) spring
+    }
+    sign ||--o{ possible : assume
+    sign {
+        VARCHAR(50) assume
+        DATE scientist
+    }

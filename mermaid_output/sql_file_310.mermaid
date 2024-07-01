@@ -1,0 +1,62 @@
+erDiagram
+    debate ||--o{ lay : several
+    debate {
+        DATE several
+        TEXT today
+        VARCHAR(50) compare
+    }
+    lay ||--o{ final : require
+    lay {
+        VARCHAR(50) require
+        DATE short
+    }
+    final ||--o{ ahead : enjoy
+    final {
+        DATE enjoy
+        TEXT whether
+        VARCHAR(50) friend
+    }
+    ahead ||--o{ goal : real
+    ahead {
+        VARCHAR(50) real
+        DATE maybe
+    }
+    goal ||--o{ compare : return
+    goal {
+        DATE return
+        TEXT rich
+        VARCHAR(50) already
+    }
+    compare ||--o{ west : focus
+    compare {
+        VARCHAR(50) focus
+        DATE light
+    }
+    west ||--o{ happen : suddenly
+    west {
+        DATE suddenly
+        TEXT you
+        VARCHAR(50) trial
+    }
+    happen ||--o{ less : rich
+    happen {
+        VARCHAR(50) rich
+        DATE require
+    }
+    less ||--o{ space : free
+    less {
+        DATE free
+        TEXT small
+        VARCHAR(50) the
+    }
+    space ||--o{ available : or
+    space {
+        VARCHAR(50) or
+        DATE news
+    }
+    available ||--o{ debate : activity
+    available {
+        DATE activity
+        TEXT phone
+        VARCHAR(50) end
+    }

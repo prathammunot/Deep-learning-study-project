@@ -1,0 +1,40 @@
+erDiagram
+    hot ||--o{ authority : evidence
+    hot {
+        DATE evidence
+        TEXT career
+        VARCHAR(50) cost
+    }
+    authority ||--o{ total : case
+    authority {
+        VARCHAR(50) case
+        DATE send
+    }
+    total ||--o{ high : peace
+    total {
+        DATE peace
+        TEXT rest
+        VARCHAR(50) and
+    }
+    high ||--o{ knowledge : third
+    high {
+        VARCHAR(50) third
+        DATE itself
+    }
+    knowledge ||--o{ smile : business
+    knowledge {
+        DATE business
+        TEXT member
+        VARCHAR(50) culture
+    }
+    smile ||--o{ senior : model
+    smile {
+        VARCHAR(50) model
+        DATE style
+    }
+    senior ||--o{ hot : property
+    senior {
+        DATE property
+        TEXT kitchen
+        VARCHAR(50) around
+    }

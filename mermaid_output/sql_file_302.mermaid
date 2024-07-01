@@ -1,0 +1,56 @@
+erDiagram
+    point ||--o{ head : bar
+    point {
+        DATE bar
+        TEXT himself
+        VARCHAR(50) board
+    }
+    head ||--o{ half : class
+    head {
+        VARCHAR(50) class
+        DATE best
+    }
+    half ||--o{ also : join
+    half {
+        DATE join
+        TEXT indeed
+        VARCHAR(50) represent
+    }
+    also ||--o{ important : participant
+    also {
+        VARCHAR(50) participant
+        DATE play
+    }
+    important ||--o{ dark : interview
+    important {
+        DATE interview
+        TEXT present
+        VARCHAR(50) contain
+    }
+    dark ||--o{ sign : interesting
+    dark {
+        VARCHAR(50) interesting
+        DATE knowledge
+    }
+    sign ||--o{ news : according
+    sign {
+        DATE according
+        TEXT recent
+        VARCHAR(50) speech
+    }
+    news ||--o{ center : financial
+    news {
+        VARCHAR(50) financial
+        DATE loss
+    }
+    center ||--o{ each : president
+    center {
+        DATE president
+        TEXT put
+        VARCHAR(50) recent
+    }
+    each ||--o{ point : what
+    each {
+        VARCHAR(50) what
+        DATE laugh
+    }

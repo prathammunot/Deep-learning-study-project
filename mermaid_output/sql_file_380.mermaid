@@ -1,0 +1,51 @@
+erDiagram
+    remain ||--o{ by : material
+    remain {
+        DATE material
+        TEXT level
+        VARCHAR(50) nice
+    }
+    by ||--o{ day : thought
+    by {
+        VARCHAR(50) thought
+        DATE which
+    }
+    day ||--o{ reach : wish
+    day {
+        DATE wish
+        TEXT measure
+        VARCHAR(50) blood
+    }
+    reach ||--o{ range : long
+    reach {
+        VARCHAR(50) long
+        DATE study
+    }
+    range ||--o{ pull : before
+    range {
+        DATE before
+        TEXT guy
+        VARCHAR(50) face
+    }
+    pull ||--o{ author : property
+    pull {
+        VARCHAR(50) property
+        DATE surface
+    }
+    author ||--o{ a : this
+    author {
+        DATE this
+        TEXT use
+        VARCHAR(50) many
+    }
+    a ||--o{ risk : huge
+    a {
+        VARCHAR(50) huge
+        DATE reveal
+    }
+    risk ||--o{ remain : community
+    risk {
+        DATE community
+        TEXT inside
+        VARCHAR(50) city
+    }

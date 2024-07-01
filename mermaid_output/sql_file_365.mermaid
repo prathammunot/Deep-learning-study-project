@@ -1,0 +1,34 @@
+erDiagram
+    cut ||--o{ director : language
+    cut {
+        DATE language
+        TEXT night
+        VARCHAR(50) artist
+    }
+    director ||--o{ professor : chair
+    director {
+        VARCHAR(50) chair
+        DATE else
+    }
+    professor ||--o{ occur : analysis
+    professor {
+        DATE analysis
+        TEXT attack
+        VARCHAR(50) strategy
+    }
+    occur ||--o{ bill : suggest
+    occur {
+        VARCHAR(50) suggest
+        DATE by
+    }
+    bill ||--o{ office : hundred
+    bill {
+        DATE hundred
+        TEXT explain
+        VARCHAR(50) activity
+    }
+    office ||--o{ cut : board
+    office {
+        VARCHAR(50) board
+        DATE agreement
+    }

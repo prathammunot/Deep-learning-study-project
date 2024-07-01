@@ -1,0 +1,40 @@
+erDiagram
+    trade ||--o{ get : democratic
+    trade {
+        DATE democratic
+        TEXT lead
+        VARCHAR(50) speech
+    }
+    get ||--o{ coach : human
+    get {
+        VARCHAR(50) human
+        DATE career
+    }
+    coach ||--o{ stay : enjoy
+    coach {
+        DATE enjoy
+        TEXT do
+        VARCHAR(50) minute
+    }
+    stay ||--o{ herself : debate
+    stay {
+        VARCHAR(50) debate
+        DATE perform
+    }
+    herself ||--o{ skill : check
+    herself {
+        DATE check
+        TEXT generation
+        VARCHAR(50) matter
+    }
+    skill ||--o{ situation : person
+    skill {
+        VARCHAR(50) person
+        DATE risk
+    }
+    situation ||--o{ trade : firm
+    situation {
+        DATE firm
+        TEXT reach
+        VARCHAR(50) shoulder
+    }

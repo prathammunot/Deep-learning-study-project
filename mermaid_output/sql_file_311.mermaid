@@ -1,0 +1,34 @@
+erDiagram
+    agreement ||--o{ book : back
+    agreement {
+        DATE back
+        TEXT series
+        VARCHAR(50) number
+    }
+    book ||--o{ hotel : also
+    book {
+        VARCHAR(50) also
+        DATE dog
+    }
+    hotel ||--o{ build : give
+    hotel {
+        DATE give
+        TEXT million
+        VARCHAR(50) back
+    }
+    build ||--o{ simple : million
+    build {
+        VARCHAR(50) million
+        DATE near
+    }
+    simple ||--o{ across : medical
+    simple {
+        DATE medical
+        TEXT learn
+        VARCHAR(50) represent
+    }
+    across ||--o{ agreement : eat
+    across {
+        VARCHAR(50) eat
+        DATE case
+    }
