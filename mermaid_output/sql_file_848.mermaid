@@ -1,0 +1,40 @@
+erDiagram
+    education ||--o{ cell : company
+    education {
+        DATE company
+        TEXT recently
+        VARCHAR(50) style
+    }
+    cell ||--o{ fear : get
+    cell {
+        VARCHAR(50) get
+        DATE skill
+    }
+    fear ||--o{ dark : conference
+    fear {
+        DATE conference
+        TEXT artist
+        VARCHAR(50) say
+    }
+    dark ||--o{ seek : first
+    dark {
+        VARCHAR(50) first
+        DATE area
+    }
+    seek ||--o{ prevent : produce
+    seek {
+        DATE produce
+        TEXT affect
+        VARCHAR(50) by
+    }
+    prevent ||--o{ remain : as
+    prevent {
+        VARCHAR(50) as
+        DATE if
+    }
+    remain ||--o{ education : couple
+    remain {
+        DATE couple
+        TEXT social
+        VARCHAR(50) safe
+    }

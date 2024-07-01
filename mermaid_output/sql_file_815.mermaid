@@ -1,0 +1,45 @@
+erDiagram
+    type ||--o{ talk : skill
+    type {
+        DATE skill
+        TEXT experience
+        VARCHAR(50) method
+    }
+    talk ||--o{ prevent : community
+    talk {
+        VARCHAR(50) community
+        DATE bad
+    }
+    prevent ||--o{ my : course
+    prevent {
+        DATE course
+        TEXT imagine
+        VARCHAR(50) build
+    }
+    my ||--o{ tend : collection
+    my {
+        VARCHAR(50) collection
+        DATE reach
+    }
+    tend ||--o{ similar : order
+    tend {
+        DATE order
+        TEXT ball
+        VARCHAR(50) offer
+    }
+    similar ||--o{ forget : learn
+    similar {
+        VARCHAR(50) learn
+        DATE too
+    }
+    forget ||--o{ thus : relate
+    forget {
+        DATE relate
+        TEXT decade
+        VARCHAR(50) memory
+    }
+    thus ||--o{ type : particularly
+    thus {
+        VARCHAR(50) particularly
+        DATE action
+    }

@@ -1,0 +1,45 @@
+erDiagram
+    myself ||--o{ take : might
+    myself {
+        DATE might
+        TEXT decision
+        VARCHAR(50) finally
+    }
+    take ||--o{ business : activity
+    take {
+        VARCHAR(50) activity
+        DATE member
+    }
+    business ||--o{ start : bring
+    business {
+        DATE bring
+        TEXT building
+        VARCHAR(50) it
+    }
+    start ||--o{ dream : building
+    start {
+        VARCHAR(50) building
+        DATE next
+    }
+    dream ||--o{ trouble : yourself
+    dream {
+        DATE yourself
+        TEXT who
+        VARCHAR(50) voice
+    }
+    trouble ||--o{ friend : forward
+    trouble {
+        VARCHAR(50) forward
+        DATE red
+    }
+    friend ||--o{ onto : increase
+    friend {
+        DATE increase
+        TEXT effort
+        VARCHAR(50) she
+    }
+    onto ||--o{ myself : relationship
+    onto {
+        VARCHAR(50) relationship
+        DATE yourself
+    }

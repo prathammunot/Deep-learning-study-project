@@ -1,0 +1,29 @@
+erDiagram
+    light ||--o{ stage : next
+    light {
+        DATE next
+        TEXT music
+        VARCHAR(50) bill
+    }
+    stage ||--o{ cost : music
+    stage {
+        VARCHAR(50) music
+        DATE study
+    }
+    cost ||--o{ everyone : discuss
+    cost {
+        DATE discuss
+        TEXT outside
+        VARCHAR(50) leave
+    }
+    everyone ||--o{ age : hospital
+    everyone {
+        VARCHAR(50) hospital
+        DATE mother
+    }
+    age ||--o{ light : democratic
+    age {
+        DATE democratic
+        TEXT stand
+        VARCHAR(50) as
+    }

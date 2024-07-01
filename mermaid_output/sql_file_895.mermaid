@@ -1,0 +1,29 @@
+erDiagram
+    way ||--o{ reduce : agreement
+    way {
+        DATE agreement
+        TEXT doctor
+        VARCHAR(50) cold
+    }
+    reduce ||--o{ line : mouth
+    reduce {
+        VARCHAR(50) mouth
+        DATE color
+    }
+    line ||--o{ be : art
+    line {
+        DATE art
+        TEXT move
+        VARCHAR(50) could
+    }
+    be ||--o{ dark : especially
+    be {
+        VARCHAR(50) especially
+        DATE production
+    }
+    dark ||--o{ way : open
+    dark {
+        DATE open
+        TEXT medical
+        VARCHAR(50) fill
+    }

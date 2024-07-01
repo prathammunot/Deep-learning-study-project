@@ -1,0 +1,34 @@
+erDiagram
+    game ||--o{ billion : town
+    game {
+        DATE town
+        TEXT fact
+        VARCHAR(50) body
+    }
+    billion ||--o{ human : benefit
+    billion {
+        VARCHAR(50) benefit
+        DATE drive
+    }
+    human ||--o{ fall : effect
+    human {
+        DATE effect
+        TEXT different
+        VARCHAR(50) protect
+    }
+    fall ||--o{ peace : moment
+    fall {
+        VARCHAR(50) moment
+        DATE chance
+    }
+    peace ||--o{ protect : generation
+    peace {
+        DATE generation
+        TEXT understand
+        VARCHAR(50) lose
+    }
+    protect ||--o{ game : bank
+    protect {
+        VARCHAR(50) bank
+        DATE health
+    }

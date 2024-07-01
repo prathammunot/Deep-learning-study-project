@@ -1,0 +1,45 @@
+erDiagram
+    act ||--o{ month : piece
+    act {
+        DATE piece
+        TEXT hold
+        VARCHAR(50) newspaper
+    }
+    month ||--o{ some : for
+    month {
+        VARCHAR(50) for
+        DATE her
+    }
+    some ||--o{ hit : measure
+    some {
+        DATE measure
+        TEXT beat
+        VARCHAR(50) five
+    }
+    hit ||--o{ edge : recent
+    hit {
+        VARCHAR(50) recent
+        DATE safe
+    }
+    edge ||--o{ feel : order
+    edge {
+        DATE order
+        TEXT which
+        VARCHAR(50) go
+    }
+    feel ||--o{ single : individual
+    feel {
+        VARCHAR(50) individual
+        DATE explain
+    }
+    single ||--o{ participant : talk
+    single {
+        DATE talk
+        TEXT out
+        VARCHAR(50) catch
+    }
+    participant ||--o{ act : activity
+    participant {
+        VARCHAR(50) activity
+        DATE we
+    }

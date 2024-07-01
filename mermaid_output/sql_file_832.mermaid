@@ -1,0 +1,40 @@
+erDiagram
+    help ||--o{ war : word
+    help {
+        DATE word
+        TEXT Democrat
+        VARCHAR(50) suggest
+    }
+    war ||--o{ treatment : visit
+    war {
+        VARCHAR(50) visit
+        DATE possible
+    }
+    treatment ||--o{ message : many
+    treatment {
+        DATE many
+        TEXT material
+        VARCHAR(50) manage
+    }
+    message ||--o{ knowledge : later
+    message {
+        VARCHAR(50) later
+        DATE degree
+    }
+    knowledge ||--o{ difference : stuff
+    knowledge {
+        DATE stuff
+        TEXT evening
+        VARCHAR(50) computer
+    }
+    difference ||--o{ professor : customer
+    difference {
+        VARCHAR(50) customer
+        DATE enough
+    }
+    professor ||--o{ help : score
+    professor {
+        DATE score
+        TEXT seek
+        VARCHAR(50) early
+    }

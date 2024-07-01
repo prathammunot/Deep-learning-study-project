@@ -1,0 +1,56 @@
+erDiagram
+    trip ||--o{ with : season
+    trip {
+        DATE season
+        TEXT seek
+        VARCHAR(50) story
+    }
+    with ||--o{ simple : market
+    with {
+        VARCHAR(50) market
+        DATE if
+    }
+    simple ||--o{ person : analysis
+    simple {
+        DATE analysis
+        TEXT shake
+        VARCHAR(50) into
+    }
+    person ||--o{ year : east
+    person {
+        VARCHAR(50) east
+        DATE music
+    }
+    year ||--o{ season : travel
+    year {
+        DATE travel
+        TEXT interesting
+        VARCHAR(50) popular
+    }
+    season ||--o{ personal : hundred
+    season {
+        VARCHAR(50) hundred
+        DATE list
+    }
+    personal ||--o{ scientist : each
+    personal {
+        DATE each
+        TEXT its
+        VARCHAR(50) center
+    }
+    scientist ||--o{ to : phone
+    scientist {
+        VARCHAR(50) phone
+        DATE music
+    }
+    to ||--o{ above : any
+    to {
+        DATE any
+        TEXT young
+        VARCHAR(50) hour
+    }
+    above ||--o{ trip : source
+    above {
+        VARCHAR(50) source
+        DATE argue
+    }

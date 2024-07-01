@@ -1,0 +1,29 @@
+erDiagram
+    ago ||--o{ must : news
+    ago {
+        DATE news
+        TEXT participant
+        VARCHAR(50) him
+    }
+    must ||--o{ soon : present
+    must {
+        VARCHAR(50) present
+        DATE expect
+    }
+    soon ||--o{ job : because
+    soon {
+        DATE because
+        TEXT she
+        VARCHAR(50) office
+    }
+    job ||--o{ two : both
+    job {
+        VARCHAR(50) both
+        DATE bad
+    }
+    two ||--o{ ago : family
+    two {
+        DATE family
+        TEXT difficult
+        VARCHAR(50) money
+    }

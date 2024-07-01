@@ -1,0 +1,45 @@
+erDiagram
+    foreign ||--o{ guy : edge
+    foreign {
+        DATE edge
+        TEXT nothing
+        VARCHAR(50) popular
+    }
+    guy ||--o{ keep : ask
+    guy {
+        VARCHAR(50) ask
+        DATE nearly
+    }
+    keep ||--o{ person : mind
+    keep {
+        DATE mind
+        TEXT pick
+        VARCHAR(50) service
+    }
+    person ||--o{ baby : challenge
+    person {
+        VARCHAR(50) challenge
+        DATE field
+    }
+    baby ||--o{ them : safe
+    baby {
+        DATE safe
+        TEXT need
+        VARCHAR(50) thought
+    }
+    them ||--o{ seat : together
+    them {
+        VARCHAR(50) together
+        DATE common
+    }
+    seat ||--o{ system : arrive
+    seat {
+        DATE arrive
+        TEXT exactly
+        VARCHAR(50) audience
+    }
+    system ||--o{ foreign : phone
+    system {
+        VARCHAR(50) phone
+        DATE decide
+    }

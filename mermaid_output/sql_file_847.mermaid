@@ -1,0 +1,56 @@
+erDiagram
+    produce ||--o{ reduce : note
+    produce {
+        DATE note
+        TEXT only
+        VARCHAR(50) nation
+    }
+    reduce ||--o{ war : full
+    reduce {
+        VARCHAR(50) full
+        DATE pull
+    }
+    war ||--o{ I : Mrs
+    war {
+        DATE Mrs
+        TEXT person
+        VARCHAR(50) campaign
+    }
+    I ||--o{ receive : front
+    I {
+        VARCHAR(50) front
+        DATE him
+    }
+    receive ||--o{ attorney : why
+    receive {
+        DATE why
+        TEXT as
+        VARCHAR(50) shoulder
+    }
+    attorney ||--o{ development : case
+    attorney {
+        VARCHAR(50) case
+        DATE draw
+    }
+    development ||--o{ remember : ground
+    development {
+        DATE ground
+        TEXT road
+        VARCHAR(50) huge
+    }
+    remember ||--o{ class : draw
+    remember {
+        VARCHAR(50) draw
+        DATE military
+    }
+    class ||--o{ value : country
+    class {
+        DATE country
+        TEXT because
+        VARCHAR(50) not
+    }
+    value ||--o{ produce : senior
+    value {
+        VARCHAR(50) senior
+        DATE imagine
+    }

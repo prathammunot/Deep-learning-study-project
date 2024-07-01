@@ -1,0 +1,34 @@
+erDiagram
+    eye ||--o{ talk : answer
+    eye {
+        DATE answer
+        TEXT traditional
+        VARCHAR(50) defense
+    }
+    talk ||--o{ the : new
+    talk {
+        VARCHAR(50) new
+        DATE apply
+    }
+    the ||--o{ finish : occur
+    the {
+        DATE occur
+        TEXT special
+        VARCHAR(50) study
+    }
+    finish ||--o{ sure : cell
+    finish {
+        VARCHAR(50) cell
+        DATE statement
+    }
+    sure ||--o{ bag : degree
+    sure {
+        DATE degree
+        TEXT response
+        VARCHAR(50) owner
+    }
+    bag ||--o{ eye : simple
+    bag {
+        VARCHAR(50) simple
+        DATE third
+    }

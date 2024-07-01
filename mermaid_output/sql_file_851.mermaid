@@ -1,0 +1,56 @@
+erDiagram
+    material ||--o{ station : size
+    material {
+        DATE size
+        TEXT manage
+        VARCHAR(50) sort
+    }
+    station ||--o{ fly : rest
+    station {
+        VARCHAR(50) rest
+        DATE dinner
+    }
+    fly ||--o{ now : spend
+    fly {
+        DATE spend
+        TEXT yet
+        VARCHAR(50) good
+    }
+    now ||--o{ sport : bag
+    now {
+        VARCHAR(50) bag
+        DATE mention
+    }
+    sport ||--o{ senior : pressure
+    sport {
+        DATE pressure
+        TEXT various
+        VARCHAR(50) community
+    }
+    senior ||--o{ nearly : television
+    senior {
+        VARCHAR(50) television
+        DATE pressure
+    }
+    nearly ||--o{ economic : hair
+    nearly {
+        DATE hair
+        TEXT natural
+        VARCHAR(50) become
+    }
+    economic ||--o{ conference : respond
+    economic {
+        VARCHAR(50) respond
+        DATE cause
+    }
+    conference ||--o{ write : choice
+    conference {
+        DATE choice
+        TEXT would
+        VARCHAR(50) coach
+    }
+    write ||--o{ material : their
+    write {
+        VARCHAR(50) their
+        DATE model
+    }

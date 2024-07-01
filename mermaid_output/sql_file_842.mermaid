@@ -1,0 +1,29 @@
+erDiagram
+    act ||--o{ total : blood
+    act {
+        DATE blood
+        TEXT trial
+        VARCHAR(50) image
+    }
+    total ||--o{ look : pull
+    total {
+        VARCHAR(50) pull
+        DATE finish
+    }
+    look ||--o{ listen : enter
+    look {
+        DATE enter
+        TEXT trouble
+        VARCHAR(50) lot
+    }
+    listen ||--o{ be : bill
+    listen {
+        VARCHAR(50) bill
+        DATE movie
+    }
+    be ||--o{ act : house
+    be {
+        DATE house
+        TEXT physical
+        VARCHAR(50) produce
+    }

@@ -1,0 +1,56 @@
+erDiagram
+    person ||--o{ move : continue
+    person {
+        DATE continue
+        TEXT major
+        VARCHAR(50) smile
+    }
+    move ||--o{ apply : budget
+    move {
+        VARCHAR(50) budget
+        DATE glass
+    }
+    apply ||--o{ yet : apply
+    apply {
+        DATE apply
+        TEXT over
+        VARCHAR(50) already
+    }
+    yet ||--o{ street : bit
+    yet {
+        VARCHAR(50) bit
+        DATE thousand
+    }
+    street ||--o{ contain : attack
+    street {
+        DATE attack
+        TEXT research
+        VARCHAR(50) begin
+    }
+    contain ||--o{ bar : possible
+    contain {
+        VARCHAR(50) possible
+        DATE certainly
+    }
+    bar ||--o{ close : day
+    bar {
+        DATE day
+        TEXT draw
+        VARCHAR(50) keep
+    }
+    close ||--o{ other : us
+    close {
+        VARCHAR(50) us
+        DATE professor
+    }
+    other ||--o{ trip : law
+    other {
+        DATE law
+        TEXT detail
+        VARCHAR(50) soon
+    }
+    trip ||--o{ person : teach
+    trip {
+        VARCHAR(50) teach
+        DATE position
+    }
