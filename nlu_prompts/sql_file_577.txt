@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram531'.
+There is a table 'job' with the columns 'he' (DATE), 'me' (TEXT), 'popular' (VARCHAR(50)). The primary key is 'he'. 'job' references another table 'step' in an exactly one to zero or many relationship. The relationship should be called 'he'. 
+There is another table 'step' with the columns 'among' (VARCHAR(50)), 'campaign' (DATE). The primary key is 'among'. 'step' references another table 'source' in an exactly one to zero or many relationship. The relationship should be called 'among'. 
+There is another table 'source' with the columns 'strong' (DATE), 'sister' (TEXT), 'serious' (VARCHAR(50)). The primary key is 'strong'. 'source' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'strong'. 
+There is another table 'early' with the columns 'reveal' (VARCHAR(50)), 'quickly' (DATE). The primary key is 'reveal'. 'early' references another table 'our' in an exactly one to zero or many relationship. The relationship should be called 'reveal'. 
+There is another table 'our' with the columns 'space' (DATE), 'same' (TEXT), 'while' (VARCHAR(50)). The primary key is 'space'. 'our' references another table 'job' in an exactly one to zero or many relationship. The relationship should be called 'space'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram526'.
+There is a table 'check' with the columns 'already' (DATE), 'music' (TEXT), 'health' (VARCHAR(50)). The primary key is 'already'. 'check' references another table 'few' in an exactly one to zero or many relationship. The relationship should be called 'already'. 
+There is another table 'few' with the columns 'say' (VARCHAR(50)), 'already' (DATE). The primary key is 'say'. 'few' references another table 'girl' in an exactly one to zero or many relationship. The relationship should be called 'say'. 
+There is another table 'girl' with the columns 'gas' (DATE), 'hear' (TEXT), 'part' (VARCHAR(50)). The primary key is 'gas'. 'girl' references another table 'cover' in an exactly one to zero or many relationship. The relationship should be called 'gas'. 
+There is another table 'cover' with the columns 'type' (VARCHAR(50)), 'eight' (DATE). The primary key is 'type'. 'cover' references another table 'order' in an exactly one to zero or many relationship. The relationship should be called 'type'. 
+There is another table 'order' with the columns 'another' (DATE), 'two' (TEXT), 'time' (VARCHAR(50)). The primary key is 'another'. 'order' references another table 'forget' in an exactly one to zero or many relationship. The relationship should be called 'another'. 
+There is another table 'forget' with the columns 'body' (VARCHAR(50)), 'although' (DATE). The primary key is 'body'. 'forget' references another table 'check' in an exactly one to zero or many relationship. The relationship should be called 'body'. 
+

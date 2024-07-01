@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram455'.
+There is a table 'onto' with the columns 'prepare' (DATE), 'speech' (TEXT), 'tell' (VARCHAR(50)). The primary key is 'prepare'. 'onto' references another table 'firm' in an exactly one to zero or many relationship. The relationship should be called 'prepare'. 
+There is another table 'firm' with the columns 'network' (VARCHAR(50)), 'similar' (DATE). The primary key is 'network'. 'firm' references another table 'above' in an exactly one to zero or many relationship. The relationship should be called 'network'. 
+There is another table 'above' with the columns 'job' (DATE), 'movie' (TEXT), 'move' (VARCHAR(50)). The primary key is 'job'. 'above' references another table 'toward' in an exactly one to zero or many relationship. The relationship should be called 'job'. 
+There is another table 'toward' with the columns 'much' (VARCHAR(50)), 'economic' (DATE). The primary key is 'much'. 'toward' references another table 'opportunity' in an exactly one to zero or many relationship. The relationship should be called 'much'. 
+There is another table 'opportunity' with the columns 'huge' (DATE), 'understand' (TEXT), 'line' (VARCHAR(50)). The primary key is 'huge'. 'opportunity' references another table 'onto' in an exactly one to zero or many relationship. The relationship should be called 'huge'. 
+

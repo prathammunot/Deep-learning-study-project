@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram474'.
+There is a table 'brother' with the columns 'nature' (DATE), 'move' (TEXT), 'sign' (VARCHAR(50)). The primary key is 'nature'. 'brother' references another table 'white' in an exactly one to zero or many relationship. The relationship should be called 'nature'. 
+There is another table 'white' with the columns 'local' (VARCHAR(50)), 'room' (DATE). The primary key is 'local'. 'white' references another table 'health' in an exactly one to zero or many relationship. The relationship should be called 'local'. 
+There is another table 'health' with the columns 'tell' (DATE), 'well' (TEXT), 'language' (VARCHAR(50)). The primary key is 'tell'. 'health' references another table 'kind' in an exactly one to zero or many relationship. The relationship should be called 'tell'. 
+There is another table 'kind' with the columns 'door' (VARCHAR(50)), 'option' (DATE). The primary key is 'door'. 'kind' references another table 'fish' in an exactly one to zero or many relationship. The relationship should be called 'door'. 
+There is another table 'fish' with the columns 'glass' (DATE), 'stop' (TEXT), 'fast' (VARCHAR(50)). The primary key is 'glass'. 'fish' references another table 'market' in an exactly one to zero or many relationship. The relationship should be called 'glass'. 
+There is another table 'market' with the columns 'office' (VARCHAR(50)), 'crime' (DATE). The primary key is 'office'. 'market' references another table 'brother' in an exactly one to zero or many relationship. The relationship should be called 'office'. 
+

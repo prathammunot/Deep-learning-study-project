@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram527'.
+There is a table 'center' with the columns 'education' (DATE), 'western' (TEXT), 'indeed' (VARCHAR(50)). The primary key is 'education'. 'center' references another table 'machine' in an exactly one to zero or many relationship. The relationship should be called 'education'. 
+There is another table 'machine' with the columns 'take' (VARCHAR(50)), 'serious' (DATE). The primary key is 'take'. 'machine' references another table 'leg' in an exactly one to zero or many relationship. The relationship should be called 'take'. 
+There is another table 'leg' with the columns 'cup' (DATE), 'industry' (TEXT), 'side' (VARCHAR(50)). The primary key is 'cup'. 'leg' references another table 'five' in an exactly one to zero or many relationship. The relationship should be called 'cup'. 
+There is another table 'five' with the columns 'somebody' (VARCHAR(50)), 'lawyer' (DATE). The primary key is 'somebody'. 'five' references another table 'fight' in an exactly one to zero or many relationship. The relationship should be called 'somebody'. 
+There is another table 'fight' with the columns 'close' (DATE), 'accept' (TEXT), 'base' (VARCHAR(50)). The primary key is 'close'. 'fight' references another table 'structure' in an exactly one to zero or many relationship. The relationship should be called 'close'. 
+There is another table 'structure' with the columns 'interesting' (VARCHAR(50)), 'themselves' (DATE). The primary key is 'interesting'. 'structure' references another table 'center' in an exactly one to zero or many relationship. The relationship should be called 'interesting'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram478'.
+There is a table 'cultural' with the columns 'toward' (DATE), 'nature' (TEXT), 'outside' (VARCHAR(50)). The primary key is 'toward'. 'cultural' references another table 'home' in an exactly one to zero or many relationship. The relationship should be called 'toward'. 
+There is another table 'home' with the columns 'yes' (VARCHAR(50)), 'certainly' (DATE). The primary key is 'yes'. 'home' references another table 'wait' in an exactly one to zero or many relationship. The relationship should be called 'yes'. 
+There is another table 'wait' with the columns 'decision' (DATE), 'see' (TEXT), 'lose' (VARCHAR(50)). The primary key is 'decision'. 'wait' references another table 'again' in an exactly one to zero or many relationship. The relationship should be called 'decision'. 
+There is another table 'again' with the columns 'name' (VARCHAR(50)), 'believe' (DATE). The primary key is 'name'. 'again' references another table 'like' in an exactly one to zero or many relationship. The relationship should be called 'name'. 
+There is another table 'like' with the columns 'image' (DATE), 'daughter' (TEXT), 'discussion' (VARCHAR(50)). The primary key is 'image'. 'like' references another table 'down' in an exactly one to zero or many relationship. The relationship should be called 'image'. 
+There is another table 'down' with the columns 'themselves' (VARCHAR(50)), 'occur' (DATE). The primary key is 'themselves'. 'down' references another table 'drive' in an exactly one to zero or many relationship. The relationship should be called 'themselves'. 
+There is another table 'drive' with the columns 'debate' (DATE), 'really' (TEXT), 'step' (VARCHAR(50)). The primary key is 'debate'. 'drive' references another table 'cultural' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram463'.
+There is a table 'almost' with the columns 'piece' (DATE), 'draw' (TEXT), 'president' (VARCHAR(50)). The primary key is 'piece'. 'almost' references another table 'conference' in an exactly one to zero or many relationship. The relationship should be called 'piece'. 
+There is another table 'conference' with the columns 'thought' (VARCHAR(50)), 'owner' (DATE). The primary key is 'thought'. 'conference' references another table 'it' in an exactly one to zero or many relationship. The relationship should be called 'thought'. 
+There is another table 'it' with the columns 'of' (DATE), 'speech' (TEXT), 'family' (VARCHAR(50)). The primary key is 'of'. 'it' references another table 'past' in an exactly one to zero or many relationship. The relationship should be called 'of'. 
+There is another table 'past' with the columns 'let' (VARCHAR(50)), 'draw' (DATE). The primary key is 'let'. 'past' references another table 'today' in an exactly one to zero or many relationship. The relationship should be called 'let'. 
+There is another table 'today' with the columns 'different' (DATE), 'however' (TEXT), 'story' (VARCHAR(50)). The primary key is 'different'. 'today' references another table 'society' in an exactly one to zero or many relationship. The relationship should be called 'different'. 
+There is another table 'society' with the columns 'benefit' (VARCHAR(50)), 'prepare' (DATE). The primary key is 'benefit'. 'society' references another table 'huge' in an exactly one to zero or many relationship. The relationship should be called 'benefit'. 
+There is another table 'huge' with the columns 'level' (DATE), 'mention' (TEXT), 'dream' (VARCHAR(50)). The primary key is 'level'. 'huge' references another table 'night' in an exactly one to zero or many relationship. The relationship should be called 'level'. 
+There is another table 'night' with the columns 'consumer' (VARCHAR(50)), 'skin' (DATE). The primary key is 'consumer'. 'night' references another table 'almost' in an exactly one to zero or many relationship. The relationship should be called 'consumer'. 
+

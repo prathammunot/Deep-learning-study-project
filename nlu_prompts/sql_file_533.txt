@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram483'.
+There is a table 'wide' with the columns 'home' (DATE), 'hour' (TEXT), 'financial' (VARCHAR(50)). The primary key is 'home'. 'wide' references another table 'from' in an exactly one to zero or many relationship. The relationship should be called 'home'. 
+There is another table 'from' with the columns 'run' (VARCHAR(50)), 'play' (DATE). The primary key is 'run'. 'from' references another table 'job' in an exactly one to zero or many relationship. The relationship should be called 'run'. 
+There is another table 'job' with the columns 'my' (DATE), 'suddenly' (TEXT), 'spring' (VARCHAR(50)). The primary key is 'my'. 'job' references another table 'catch' in an exactly one to zero or many relationship. The relationship should be called 'my'. 
+There is another table 'catch' with the columns 'enjoy' (VARCHAR(50)), 'born' (DATE). The primary key is 'enjoy'. 'catch' references another table 'fund' in an exactly one to zero or many relationship. The relationship should be called 'enjoy'. 
+There is another table 'fund' with the columns 'condition' (DATE), 'good' (TEXT), 'particularly' (VARCHAR(50)). The primary key is 'condition'. 'fund' references another table 'station' in an exactly one to zero or many relationship. The relationship should be called 'condition'. 
+There is another table 'station' with the columns 'race' (VARCHAR(50)), 'development' (DATE). The primary key is 'race'. 'station' references another table 'seat' in an exactly one to zero or many relationship. The relationship should be called 'race'. 
+There is another table 'seat' with the columns 'ok' (DATE), 'beat' (TEXT), 'child' (VARCHAR(50)). The primary key is 'ok'. 'seat' references another table 'wife' in an exactly one to zero or many relationship. The relationship should be called 'ok'. 
+There is another table 'wife' with the columns 'church' (VARCHAR(50)), 'relate' (DATE). The primary key is 'church'. 'wife' references another table 'wide' in an exactly one to zero or many relationship. The relationship should be called 'church'. 
+

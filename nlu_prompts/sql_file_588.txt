@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram543'.
+There is a table 'hard' with the columns 'site' (DATE), 'resource' (TEXT), 'wind' (VARCHAR(50)). The primary key is 'site'. 'hard' references another table 'church' in an exactly one to zero or many relationship. The relationship should be called 'site'. 
+There is another table 'church' with the columns 'least' (VARCHAR(50)), 'give' (DATE). The primary key is 'least'. 'church' references another table 'just' in an exactly one to zero or many relationship. The relationship should be called 'least'. 
+There is another table 'just' with the columns 'whom' (DATE), 'so' (TEXT), 'executive' (VARCHAR(50)). The primary key is 'whom'. 'just' references another table 'leader' in an exactly one to zero or many relationship. The relationship should be called 'whom'. 
+There is another table 'leader' with the columns 'somebody' (VARCHAR(50)), 'ball' (DATE). The primary key is 'somebody'. 'leader' references another table 'fine' in an exactly one to zero or many relationship. The relationship should be called 'somebody'. 
+There is another table 'fine' with the columns 'all' (DATE), 'break' (TEXT), 'appear' (VARCHAR(50)). The primary key is 'all'. 'fine' references another table 'feel' in an exactly one to zero or many relationship. The relationship should be called 'all'. 
+There is another table 'feel' with the columns 'finally' (VARCHAR(50)), 'property' (DATE). The primary key is 'finally'. 'feel' references another table 'staff' in an exactly one to zero or many relationship. The relationship should be called 'finally'. 
+There is another table 'staff' with the columns 'table' (DATE), 'century' (TEXT), 'successful' (VARCHAR(50)). The primary key is 'table'. 'staff' references another table 'recent' in an exactly one to zero or many relationship. The relationship should be called 'table'. 
+There is another table 'recent' with the columns 'leave' (VARCHAR(50)), 'TV' (DATE). The primary key is 'leave'. 'recent' references another table 'hard' in an exactly one to zero or many relationship. The relationship should be called 'leave'. 
+

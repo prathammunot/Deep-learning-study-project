@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram472'.
+There is a table 'change' with the columns 'important' (DATE), 'large' (TEXT), 'adult' (VARCHAR(50)). The primary key is 'important'. 'change' references another table 'board' in an exactly one to zero or many relationship. The relationship should be called 'important'. 
+There is another table 'board' with the columns 'activity' (VARCHAR(50)), 'energy' (DATE). The primary key is 'activity'. 'board' references another table 'scene' in an exactly one to zero or many relationship. The relationship should be called 'activity'. 
+There is another table 'scene' with the columns 'note' (DATE), 'everyone' (TEXT), 'such' (VARCHAR(50)). The primary key is 'note'. 'scene' references another table 'adult' in an exactly one to zero or many relationship. The relationship should be called 'note'. 
+There is another table 'adult' with the columns 'national' (VARCHAR(50)), 'much' (DATE). The primary key is 'national'. 'adult' references another table 'financial' in an exactly one to zero or many relationship. The relationship should be called 'national'. 
+There is another table 'financial' with the columns 'plan' (DATE), 'training' (TEXT), 'specific' (VARCHAR(50)). The primary key is 'plan'. 'financial' references another table 'sport' in an exactly one to zero or many relationship. The relationship should be called 'plan'. 
+There is another table 'sport' with the columns 'identify' (VARCHAR(50)), 'end' (DATE). The primary key is 'identify'. 'sport' references another table 'position' in an exactly one to zero or many relationship. The relationship should be called 'identify'. 
+There is another table 'position' with the columns 'thing' (DATE), 'central' (TEXT), 'away' (VARCHAR(50)). The primary key is 'thing'. 'position' references another table 'change' in an exactly one to zero or many relationship. The relationship should be called 'thing'. 
+

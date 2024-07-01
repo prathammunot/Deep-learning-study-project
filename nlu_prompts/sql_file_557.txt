@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram509'.
+There is a table 'trial' with the columns 'rich' (DATE), 'blue' (TEXT), 'record' (VARCHAR(50)). The primary key is 'rich'. 'trial' references another table 'west' in an exactly one to zero or many relationship. The relationship should be called 'rich'. 
+There is another table 'west' with the columns 'work' (VARCHAR(50)), 'north' (DATE). The primary key is 'work'. 'west' references another table 'maintain' in an exactly one to zero or many relationship. The relationship should be called 'work'. 
+There is another table 'maintain' with the columns 'store' (DATE), 'international' (TEXT), 'language' (VARCHAR(50)). The primary key is 'store'. 'maintain' references another table 'oil' in an exactly one to zero or many relationship. The relationship should be called 'store'. 
+There is another table 'oil' with the columns 'friend' (VARCHAR(50)), 'standard' (DATE). The primary key is 'friend'. 'oil' references another table 'lead' in an exactly one to zero or many relationship. The relationship should be called 'friend'. 
+There is another table 'lead' with the columns 'dream' (DATE), 'practice' (TEXT), 'single' (VARCHAR(50)). The primary key is 'dream'. 'lead' references another table 'ready' in an exactly one to zero or many relationship. The relationship should be called 'dream'. 
+There is another table 'ready' with the columns 'final' (VARCHAR(50)), 'financial' (DATE). The primary key is 'final'. 'ready' references another table 'perform' in an exactly one to zero or many relationship. The relationship should be called 'final'. 
+There is another table 'perform' with the columns 'behavior' (DATE), 'fund' (TEXT), 'identify' (VARCHAR(50)). The primary key is 'behavior'. 'perform' references another table 'trial' in an exactly one to zero or many relationship. The relationship should be called 'behavior'. 
+

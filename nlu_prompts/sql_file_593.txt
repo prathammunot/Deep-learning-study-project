@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram549'.
+There is a table 'Mr' with the columns 'little' (DATE), 'fact' (TEXT), 'red' (VARCHAR(50)). The primary key is 'little'. 'Mr' references another table 'radio' in an exactly one to zero or many relationship. The relationship should be called 'little'. 
+There is another table 'radio' with the columns 'eye' (VARCHAR(50)), 'child' (DATE). The primary key is 'eye'. 'radio' references another table 'manager' in an exactly one to zero or many relationship. The relationship should be called 'eye'. 
+There is another table 'manager' with the columns 'goal' (DATE), 'call' (TEXT), 'space' (VARCHAR(50)). The primary key is 'goal'. 'manager' references another table 'probably' in an exactly one to zero or many relationship. The relationship should be called 'goal'. 
+There is another table 'probably' with the columns 'need' (VARCHAR(50)), 'president' (DATE). The primary key is 'need'. 'probably' references another table 'society' in an exactly one to zero or many relationship. The relationship should be called 'need'. 
+There is another table 'society' with the columns 'perhaps' (DATE), 'doctor' (TEXT), 'old' (VARCHAR(50)). The primary key is 'perhaps'. 'society' references another table 'street' in an exactly one to zero or many relationship. The relationship should be called 'perhaps'. 
+There is another table 'street' with the columns 'phone' (VARCHAR(50)), 'including' (DATE). The primary key is 'phone'. 'street' references another table 'happy' in an exactly one to zero or many relationship. The relationship should be called 'phone'. 
+There is another table 'happy' with the columns 'upon' (DATE), 'nice' (TEXT), 'miss' (VARCHAR(50)). The primary key is 'upon'. 'happy' references another table 'Mr' in an exactly one to zero or many relationship. The relationship should be called 'upon'. 
+

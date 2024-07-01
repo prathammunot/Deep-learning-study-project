@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram488'.
+There is a table 'small' with the columns 'region' (DATE), 'hour' (TEXT), 'realize' (VARCHAR(50)). The primary key is 'region'. 'small' references another table 'can' in an exactly one to zero or many relationship. The relationship should be called 'region'. 
+There is another table 'can' with the columns 'teacher' (VARCHAR(50)), 'increase' (DATE). The primary key is 'teacher'. 'can' references another table 'pay' in an exactly one to zero or many relationship. The relationship should be called 'teacher'. 
+There is another table 'pay' with the columns 'move' (DATE), 'purpose' (TEXT), 'star' (VARCHAR(50)). The primary key is 'move'. 'pay' references another table 'lay' in an exactly one to zero or many relationship. The relationship should be called 'move'. 
+There is another table 'lay' with the columns 'sport' (VARCHAR(50)), 'may' (DATE). The primary key is 'sport'. 'lay' references another table 'will' in an exactly one to zero or many relationship. The relationship should be called 'sport'. 
+There is another table 'will' with the columns 'history' (DATE), 'writer' (TEXT), 'body' (VARCHAR(50)). The primary key is 'history'. 'will' references another table 'nor' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+There is another table 'nor' with the columns 'road' (VARCHAR(50)), 'specific' (DATE). The primary key is 'road'. 'nor' references another table 'turn' in an exactly one to zero or many relationship. The relationship should be called 'road'. 
+There is another table 'turn' with the columns 'occur' (DATE), 'quality' (TEXT), 'bed' (VARCHAR(50)). The primary key is 'occur'. 'turn' references another table 'drug' in an exactly one to zero or many relationship. The relationship should be called 'occur'. 
+There is another table 'drug' with the columns 'sort' (VARCHAR(50)), 'professor' (DATE). The primary key is 'sort'. 'drug' references another table 'small' in an exactly one to zero or many relationship. The relationship should be called 'sort'. 
+

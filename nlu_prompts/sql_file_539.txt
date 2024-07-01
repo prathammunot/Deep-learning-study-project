@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram489'.
+There is a table 'two' with the columns 'establish' (DATE), 'with' (TEXT), 'health' (VARCHAR(50)). The primary key is 'establish'. 'two' references another table 'president' in an exactly one to zero or many relationship. The relationship should be called 'establish'. 
+There is another table 'president' with the columns 'phone' (VARCHAR(50)), 'list' (DATE). The primary key is 'phone'. 'president' references another table 'personal' in an exactly one to zero or many relationship. The relationship should be called 'phone'. 
+There is another table 'personal' with the columns 'simply' (DATE), 'poor' (TEXT), 'item' (VARCHAR(50)). The primary key is 'simply'. 'personal' references another table 'especially' in an exactly one to zero or many relationship. The relationship should be called 'simply'. 
+There is another table 'especially' with the columns 'must' (VARCHAR(50)), 'on' (DATE). The primary key is 'must'. 'especially' references another table 'throughout' in an exactly one to zero or many relationship. The relationship should be called 'must'. 
+There is another table 'throughout' with the columns 'drive' (DATE), 'president' (TEXT), 'partner' (VARCHAR(50)). The primary key is 'drive'. 'throughout' references another table 'listen' in an exactly one to zero or many relationship. The relationship should be called 'drive'. 
+There is another table 'listen' with the columns 'represent' (VARCHAR(50)), 'water' (DATE). The primary key is 'represent'. 'listen' references another table 'vote' in an exactly one to zero or many relationship. The relationship should be called 'represent'. 
+There is another table 'vote' with the columns 'last' (DATE), 'law' (TEXT), 'social' (VARCHAR(50)). The primary key is 'last'. 'vote' references another table 'another' in an exactly one to zero or many relationship. The relationship should be called 'last'. 
+There is another table 'another' with the columns 'be' (VARCHAR(50)), 'worry' (DATE). The primary key is 'be'. 'another' references another table 'two' in an exactly one to zero or many relationship. The relationship should be called 'be'. 
+

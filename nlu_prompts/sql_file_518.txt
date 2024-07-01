@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram466'.
+There is a table 'blue' with the columns 'Mr' (DATE), 'catch' (TEXT), 'by' (VARCHAR(50)). The primary key is 'Mr'. 'blue' references another table 'may' in an exactly one to zero or many relationship. The relationship should be called 'Mr'. 
+There is another table 'may' with the columns 'poor' (VARCHAR(50)), 'itself' (DATE). The primary key is 'poor'. 'may' references another table 'mention' in an exactly one to zero or many relationship. The relationship should be called 'poor'. 
+There is another table 'mention' with the columns 'think' (DATE), 'man' (TEXT), 'treat' (VARCHAR(50)). The primary key is 'think'. 'mention' references another table 'choose' in an exactly one to zero or many relationship. The relationship should be called 'think'. 
+There is another table 'choose' with the columns 'notice' (VARCHAR(50)), 'issue' (DATE). The primary key is 'notice'. 'choose' references another table 'especially' in an exactly one to zero or many relationship. The relationship should be called 'notice'. 
+There is another table 'especially' with the columns 'capital' (DATE), 'by' (TEXT), 'anything' (VARCHAR(50)). The primary key is 'capital'. 'especially' references another table 'blue' in an exactly one to zero or many relationship. The relationship should be called 'capital'. 
+

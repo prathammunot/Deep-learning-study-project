@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram554'.
+There is a table 'side' with the columns 'send' (DATE), 'generation' (TEXT), 'author' (VARCHAR(50)). The primary key is 'send'. 'side' references another table 'record' in an exactly one to zero or many relationship. The relationship should be called 'send'. 
+There is another table 'record' with the columns 'pass' (VARCHAR(50)), 'guy' (DATE). The primary key is 'pass'. 'record' references another table 'in' in an exactly one to zero or many relationship. The relationship should be called 'pass'. 
+There is another table 'in' with the columns 'course' (DATE), 'her' (TEXT), 'stock' (VARCHAR(50)). The primary key is 'course'. 'in' references another table 'activity' in an exactly one to zero or many relationship. The relationship should be called 'course'. 
+There is another table 'activity' with the columns 'attention' (VARCHAR(50)), 'down' (DATE). The primary key is 'attention'. 'activity' references another table 'lot' in an exactly one to zero or many relationship. The relationship should be called 'attention'. 
+There is another table 'lot' with the columns 'next' (DATE), 'join' (TEXT), 'material' (VARCHAR(50)). The primary key is 'next'. 'lot' references another table 'represent' in an exactly one to zero or many relationship. The relationship should be called 'next'. 
+There is another table 'represent' with the columns 'sister' (VARCHAR(50)), 'likely' (DATE). The primary key is 'sister'. 'represent' references another table 'with' in an exactly one to zero or many relationship. The relationship should be called 'sister'. 
+There is another table 'with' with the columns 'good' (DATE), 'for' (TEXT), 'social' (VARCHAR(50)). The primary key is 'good'. 'with' references another table 'onto' in an exactly one to zero or many relationship. The relationship should be called 'good'. 
+There is another table 'onto' with the columns 'receive' (VARCHAR(50)), 'cup' (DATE). The primary key is 'receive'. 'onto' references another table 'shake' in an exactly one to zero or many relationship. The relationship should be called 'receive'. 
+There is another table 'shake' with the columns 'whose' (DATE), 'hit' (TEXT), 'size' (VARCHAR(50)). The primary key is 'whose'. 'shake' references another table 'side' in an exactly one to zero or many relationship. The relationship should be called 'whose'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram553'.
+There is a table 'difference' with the columns 'single' (DATE), 'without' (TEXT), 'voice' (VARCHAR(50)). The primary key is 'single'. 'difference' references another table 'arrive' in an exactly one to zero or many relationship. The relationship should be called 'single'. 
+There is another table 'arrive' with the columns 'work' (VARCHAR(50)), 'paper' (DATE). The primary key is 'work'. 'arrive' references another table 'statement' in an exactly one to zero or many relationship. The relationship should be called 'work'. 
+There is another table 'statement' with the columns 'back' (DATE), 'public' (TEXT), 'sometimes' (VARCHAR(50)). The primary key is 'back'. 'statement' references another table 'approach' in an exactly one to zero or many relationship. The relationship should be called 'back'. 
+There is another table 'approach' with the columns 'account' (VARCHAR(50)), 'provide' (DATE). The primary key is 'account'. 'approach' references another table 'public' in an exactly one to zero or many relationship. The relationship should be called 'account'. 
+There is another table 'public' with the columns 'management' (DATE), 'know' (TEXT), 'just' (VARCHAR(50)). The primary key is 'management'. 'public' references another table 'outside' in an exactly one to zero or many relationship. The relationship should be called 'management'. 
+There is another table 'outside' with the columns 'fall' (VARCHAR(50)), 'visit' (DATE). The primary key is 'fall'. 'outside' references another table 'big' in an exactly one to zero or many relationship. The relationship should be called 'fall'. 
+There is another table 'big' with the columns 'seek' (DATE), 'series' (TEXT), 'simple' (VARCHAR(50)). The primary key is 'seek'. 'big' references another table 'reality' in an exactly one to zero or many relationship. The relationship should be called 'seek'. 
+There is another table 'reality' with the columns 'actually' (VARCHAR(50)), 'tough' (DATE). The primary key is 'actually'. 'reality' references another table 'difference' in an exactly one to zero or many relationship. The relationship should be called 'actually'. 
+

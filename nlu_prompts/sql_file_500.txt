@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram447'.
+There is a table 'walk' with the columns 'indicate' (DATE), 'top' (TEXT), 'power' (VARCHAR(50)). The primary key is 'indicate'. 'walk' references another table 'week' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'week' with the columns 'actually' (VARCHAR(50)), 'bad' (DATE). The primary key is 'actually'. 'week' references another table 'treat' in an exactly one to zero or many relationship. The relationship should be called 'actually'. 
+There is another table 'treat' with the columns 'plant' (DATE), 'daughter' (TEXT), 'boy' (VARCHAR(50)). The primary key is 'plant'. 'treat' references another table 'be' in an exactly one to zero or many relationship. The relationship should be called 'plant'. 
+There is another table 'be' with the columns 'eight' (VARCHAR(50)), 'baby' (DATE). The primary key is 'eight'. 'be' references another table 'right' in an exactly one to zero or many relationship. The relationship should be called 'eight'. 
+There is another table 'right' with the columns 'home' (DATE), 'meeting' (TEXT), 'table' (VARCHAR(50)). The primary key is 'home'. 'right' references another table 'week' in an exactly one to zero or many relationship. The relationship should be called 'home'. 
+There is another table 'week' with the columns 'history' (VARCHAR(50)), 'important' (DATE). The primary key is 'history'. 'week' references another table 'win' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+There is another table 'win' with the columns 'field' (DATE), 'training' (TEXT), 'left' (VARCHAR(50)). The primary key is 'field'. 'win' references another table 'majority' in an exactly one to zero or many relationship. The relationship should be called 'field'. 
+There is another table 'majority' with the columns 'yourself' (VARCHAR(50)), 'return' (DATE). The primary key is 'yourself'. 'majority' references another table 'walk' in an exactly one to zero or many relationship. The relationship should be called 'yourself'. 
+

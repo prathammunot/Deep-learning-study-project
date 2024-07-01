@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram532'.
+There is a table 'deep' with the columns 'can' (DATE), 'beat' (TEXT), 'method' (VARCHAR(50)). The primary key is 'can'. 'deep' references another table 'table' in an exactly one to zero or many relationship. The relationship should be called 'can'. 
+There is another table 'table' with the columns 'family' (VARCHAR(50)), 'admit' (DATE). The primary key is 'family'. 'table' references another table 'task' in an exactly one to zero or many relationship. The relationship should be called 'family'. 
+There is another table 'task' with the columns 'memory' (DATE), 'green' (TEXT), 'environment' (VARCHAR(50)). The primary key is 'memory'. 'task' references another table 'letter' in an exactly one to zero or many relationship. The relationship should be called 'memory'. 
+There is another table 'letter' with the columns 'process' (VARCHAR(50)), 'prove' (DATE). The primary key is 'process'. 'letter' references another table 'south' in an exactly one to zero or many relationship. The relationship should be called 'process'. 
+There is another table 'south' with the columns 'financial' (DATE), 'consider' (TEXT), 'thing' (VARCHAR(50)). The primary key is 'financial'. 'south' references another table 'that' in an exactly one to zero or many relationship. The relationship should be called 'financial'. 
+There is another table 'that' with the columns 'later' (VARCHAR(50)), 'interest' (DATE). The primary key is 'later'. 'that' references another table 'west' in an exactly one to zero or many relationship. The relationship should be called 'later'. 
+There is another table 'west' with the columns 'Mr' (DATE), 'cover' (TEXT), 'other' (VARCHAR(50)). The primary key is 'Mr'. 'west' references another table 'walk' in an exactly one to zero or many relationship. The relationship should be called 'Mr'. 
+There is another table 'walk' with the columns 'style' (VARCHAR(50)), 'body' (DATE). The primary key is 'style'. 'walk' references another table 'seem' in an exactly one to zero or many relationship. The relationship should be called 'style'. 
+There is another table 'seem' with the columns 'medical' (DATE), 'fine' (TEXT), 'job' (VARCHAR(50)). The primary key is 'medical'. 'seem' references another table 'deep' in an exactly one to zero or many relationship. The relationship should be called 'medical'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram497'.
+There is a table 'garden' with the columns 'wait' (DATE), 'strong' (TEXT), 'pressure' (VARCHAR(50)). The primary key is 'wait'. 'garden' references another table 'door' in an exactly one to zero or many relationship. The relationship should be called 'wait'. 
+There is another table 'door' with the columns 'reach' (VARCHAR(50)), 'he' (DATE). The primary key is 'reach'. 'door' references another table 'believe' in an exactly one to zero or many relationship. The relationship should be called 'reach'. 
+There is another table 'believe' with the columns 'change' (DATE), 'special' (TEXT), 'seem' (VARCHAR(50)). The primary key is 'change'. 'believe' references another table 'check' in an exactly one to zero or many relationship. The relationship should be called 'change'. 
+There is another table 'check' with the columns 'finally' (VARCHAR(50)), 'simple' (DATE). The primary key is 'finally'. 'check' references another table 'source' in an exactly one to zero or many relationship. The relationship should be called 'finally'. 
+There is another table 'source' with the columns 'thousand' (DATE), 'energy' (TEXT), 'chance' (VARCHAR(50)). The primary key is 'thousand'. 'source' references another table 'surface' in an exactly one to zero or many relationship. The relationship should be called 'thousand'. 
+There is another table 'surface' with the columns 'serve' (VARCHAR(50)), 'yes' (DATE). The primary key is 'serve'. 'surface' references another table 'so' in an exactly one to zero or many relationship. The relationship should be called 'serve'. 
+There is another table 'so' with the columns 'describe' (DATE), 'energy' (TEXT), 'name' (VARCHAR(50)). The primary key is 'describe'. 'so' references another table 'black' in an exactly one to zero or many relationship. The relationship should be called 'describe'. 
+There is another table 'black' with the columns 'single' (VARCHAR(50)), 'matter' (DATE). The primary key is 'single'. 'black' references another table 'garden' in an exactly one to zero or many relationship. The relationship should be called 'single'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram533'.
+There is a table 'against' with the columns 'imagine' (DATE), 'yourself' (TEXT), 'little' (VARCHAR(50)). The primary key is 'imagine'. 'against' references another table 'anyone' in an exactly one to zero or many relationship. The relationship should be called 'imagine'. 
+There is another table 'anyone' with the columns 'memory' (VARCHAR(50)), 'law' (DATE). The primary key is 'memory'. 'anyone' references another table 'number' in an exactly one to zero or many relationship. The relationship should be called 'memory'. 
+There is another table 'number' with the columns 'evening' (DATE), 'production' (TEXT), 'every' (VARCHAR(50)). The primary key is 'evening'. 'number' references another table 'green' in an exactly one to zero or many relationship. The relationship should be called 'evening'. 
+There is another table 'green' with the columns 'fall' (VARCHAR(50)), 'statement' (DATE). The primary key is 'fall'. 'green' references another table 'leader' in an exactly one to zero or many relationship. The relationship should be called 'fall'. 
+There is another table 'leader' with the columns 'study' (DATE), 'type' (TEXT), 'church' (VARCHAR(50)). The primary key is 'study'. 'leader' references another table 'writer' in an exactly one to zero or many relationship. The relationship should be called 'study'. 
+There is another table 'writer' with the columns 'type' (VARCHAR(50)), 'eight' (DATE). The primary key is 'type'. 'writer' references another table 'fine' in an exactly one to zero or many relationship. The relationship should be called 'type'. 
+There is another table 'fine' with the columns 'education' (DATE), 'list' (TEXT), 'information' (VARCHAR(50)). The primary key is 'education'. 'fine' references another table 'against' in an exactly one to zero or many relationship. The relationship should be called 'education'. 
+

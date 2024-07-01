@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram544'.
+There is a table 'send' with the columns 'commercial' (DATE), 'meeting' (TEXT), 'without' (VARCHAR(50)). The primary key is 'commercial'. 'send' references another table 'practice' in an exactly one to zero or many relationship. The relationship should be called 'commercial'. 
+There is another table 'practice' with the columns 'system' (VARCHAR(50)), 'kitchen' (DATE). The primary key is 'system'. 'practice' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'system'. 
+There is another table 'section' with the columns 'many' (DATE), 'allow' (TEXT), 'parent' (VARCHAR(50)). The primary key is 'many'. 'section' references another table 'guy' in an exactly one to zero or many relationship. The relationship should be called 'many'. 
+There is another table 'guy' with the columns 'treat' (VARCHAR(50)), 'full' (DATE). The primary key is 'treat'. 'guy' references another table 'week' in an exactly one to zero or many relationship. The relationship should be called 'treat'. 
+There is another table 'week' with the columns 'increase' (DATE), 'piece' (TEXT), 'industry' (VARCHAR(50)). The primary key is 'increase'. 'week' references another table 'behavior' in an exactly one to zero or many relationship. The relationship should be called 'increase'. 
+There is another table 'behavior' with the columns 'development' (VARCHAR(50)), 'still' (DATE). The primary key is 'development'. 'behavior' references another table 'involve' in an exactly one to zero or many relationship. The relationship should be called 'development'. 
+There is another table 'involve' with the columns 'walk' (DATE), 'win' (TEXT), 'majority' (VARCHAR(50)). The primary key is 'walk'. 'involve' references another table 'send' in an exactly one to zero or many relationship. The relationship should be called 'walk'. 
+

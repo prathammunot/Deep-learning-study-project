@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram458'.
+There is a table 'room' with the columns 'hair' (DATE), 'performance' (TEXT), 'these' (VARCHAR(50)). The primary key is 'hair'. 'room' references another table 'for' in an exactly one to zero or many relationship. The relationship should be called 'hair'. 
+There is another table 'for' with the columns 'quality' (VARCHAR(50)), 'add' (DATE). The primary key is 'quality'. 'for' references another table 'society' in an exactly one to zero or many relationship. The relationship should be called 'quality'. 
+There is another table 'society' with the columns 'parent' (DATE), 'garden' (TEXT), 'well' (VARCHAR(50)). The primary key is 'parent'. 'society' references another table 'high' in an exactly one to zero or many relationship. The relationship should be called 'parent'. 
+There is another table 'high' with the columns 'nice' (VARCHAR(50)), 'weight' (DATE). The primary key is 'nice'. 'high' references another table 'company' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+There is another table 'company' with the columns 'sister' (DATE), 'benefit' (TEXT), 'future' (VARCHAR(50)). The primary key is 'sister'. 'company' references another table 'room' in an exactly one to zero or many relationship. The relationship should be called 'sister'. 
+

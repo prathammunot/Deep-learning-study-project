@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram513'.
+There is a table 'together' with the columns 'physical' (DATE), 'during' (TEXT), 'reason' (VARCHAR(50)). The primary key is 'physical'. 'together' references another table 'help' in an exactly one to zero or many relationship. The relationship should be called 'physical'. 
+There is another table 'help' with the columns 'who' (VARCHAR(50)), 'help' (DATE). The primary key is 'who'. 'help' references another table 'cover' in an exactly one to zero or many relationship. The relationship should be called 'who'. 
+There is another table 'cover' with the columns 'hand' (DATE), 'thing' (TEXT), 'school' (VARCHAR(50)). The primary key is 'hand'. 'cover' references another table 'other' in an exactly one to zero or many relationship. The relationship should be called 'hand'. 
+There is another table 'other' with the columns 'foot' (VARCHAR(50)), 'pull' (DATE). The primary key is 'foot'. 'other' references another table 'show' in an exactly one to zero or many relationship. The relationship should be called 'foot'. 
+There is another table 'show' with the columns 'full' (DATE), 'grow' (TEXT), 'meet' (VARCHAR(50)). The primary key is 'full'. 'show' references another table 'together' in an exactly one to zero or many relationship. The relationship should be called 'full'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram521'.
+There is a table 'kind' with the columns 'region' (DATE), 'suggest' (TEXT), 'eye' (VARCHAR(50)). The primary key is 'region'. 'kind' references another table 'particularly' in an exactly one to zero or many relationship. The relationship should be called 'region'. 
+There is another table 'particularly' with the columns 'claim' (VARCHAR(50)), 'agent' (DATE). The primary key is 'claim'. 'particularly' references another table 'this' in an exactly one to zero or many relationship. The relationship should be called 'claim'. 
+There is another table 'this' with the columns 'way' (DATE), 'once' (TEXT), 'picture' (VARCHAR(50)). The primary key is 'way'. 'this' references another table 'fine' in an exactly one to zero or many relationship. The relationship should be called 'way'. 
+There is another table 'fine' with the columns 'remain' (VARCHAR(50)), 'why' (DATE). The primary key is 'remain'. 'fine' references another table 'many' in an exactly one to zero or many relationship. The relationship should be called 'remain'. 
+There is another table 'many' with the columns 'letter' (DATE), 'remember' (TEXT), 'five' (VARCHAR(50)). The primary key is 'letter'. 'many' references another table 'expert' in an exactly one to zero or many relationship. The relationship should be called 'letter'. 
+There is another table 'expert' with the columns 'power' (VARCHAR(50)), 'bag' (DATE). The primary key is 'power'. 'expert' references another table 'side' in an exactly one to zero or many relationship. The relationship should be called 'power'. 
+There is another table 'side' with the columns 'begin' (DATE), 'sing' (TEXT), 'direction' (VARCHAR(50)). The primary key is 'begin'. 'side' references another table 'spend' in an exactly one to zero or many relationship. The relationship should be called 'begin'. 
+There is another table 'spend' with the columns 'military' (VARCHAR(50)), 'sign' (DATE). The primary key is 'military'. 'spend' references another table 'kind' in an exactly one to zero or many relationship. The relationship should be called 'military'. 
+

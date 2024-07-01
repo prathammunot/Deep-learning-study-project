@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram485'.
+There is a table 'different' with the columns 'gas' (DATE), 'turn' (TEXT), 'nation' (VARCHAR(50)). The primary key is 'gas'. 'different' references another table 'want' in an exactly one to zero or many relationship. The relationship should be called 'gas'. 
+There is another table 'want' with the columns 'would' (VARCHAR(50)), 'network' (DATE). The primary key is 'would'. 'want' references another table 'recently' in an exactly one to zero or many relationship. The relationship should be called 'would'. 
+There is another table 'recently' with the columns 'road' (DATE), 'more' (TEXT), 'room' (VARCHAR(50)). The primary key is 'road'. 'recently' references another table 'wrong' in an exactly one to zero or many relationship. The relationship should be called 'road'. 
+There is another table 'wrong' with the columns 'road' (VARCHAR(50)), 'several' (DATE). The primary key is 'road'. 'wrong' references another table 'newspaper' in an exactly one to zero or many relationship. The relationship should be called 'road'. 
+There is another table 'newspaper' with the columns 'do' (DATE), 'necessary' (TEXT), 'lead' (VARCHAR(50)). The primary key is 'do'. 'newspaper' references another table 'scientist' in an exactly one to zero or many relationship. The relationship should be called 'do'. 
+There is another table 'scientist' with the columns 'far' (VARCHAR(50)), 'cell' (DATE). The primary key is 'far'. 'scientist' references another table 'late' in an exactly one to zero or many relationship. The relationship should be called 'far'. 
+There is another table 'late' with the columns 'attorney' (DATE), 'travel' (TEXT), 'since' (VARCHAR(50)). The primary key is 'attorney'. 'late' references another table 'different' in an exactly one to zero or many relationship. The relationship should be called 'attorney'. 
+

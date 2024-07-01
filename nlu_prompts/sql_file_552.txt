@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram504'.
+There is a table 'tonight' with the columns 'manager' (DATE), 'agree' (TEXT), 'get' (VARCHAR(50)). The primary key is 'manager'. 'tonight' references another table 'activity' in an exactly one to zero or many relationship. The relationship should be called 'manager'. 
+There is another table 'activity' with the columns 'upon' (VARCHAR(50)), 'church' (DATE). The primary key is 'upon'. 'activity' references another table 'business' in an exactly one to zero or many relationship. The relationship should be called 'upon'. 
+There is another table 'business' with the columns 'point' (DATE), 'professional' (TEXT), 'dog' (VARCHAR(50)). The primary key is 'point'. 'business' references another table 'several' in an exactly one to zero or many relationship. The relationship should be called 'point'. 
+There is another table 'several' with the columns 'easy' (VARCHAR(50)), 'and' (DATE). The primary key is 'easy'. 'several' references another table 'former' in an exactly one to zero or many relationship. The relationship should be called 'easy'. 
+There is another table 'former' with the columns 'article' (DATE), 'standard' (TEXT), 'quality' (VARCHAR(50)). The primary key is 'article'. 'former' references another table 'tonight' in an exactly one to zero or many relationship. The relationship should be called 'article'. 
+

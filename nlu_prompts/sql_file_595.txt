@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram551'.
+There is a table 'story' with the columns 'speak' (DATE), 'officer' (TEXT), 'sometimes' (VARCHAR(50)). The primary key is 'speak'. 'story' references another table 'woman' in an exactly one to zero or many relationship. The relationship should be called 'speak'. 
+There is another table 'woman' with the columns 'push' (VARCHAR(50)), 'let' (DATE). The primary key is 'push'. 'woman' references another table 'water' in an exactly one to zero or many relationship. The relationship should be called 'push'. 
+There is another table 'water' with the columns 'part' (DATE), 'each' (TEXT), 'head' (VARCHAR(50)). The primary key is 'part'. 'water' references another table 'bag' in an exactly one to zero or many relationship. The relationship should be called 'part'. 
+There is another table 'bag' with the columns 'better' (VARCHAR(50)), 'increase' (DATE). The primary key is 'better'. 'bag' references another table 'position' in an exactly one to zero or many relationship. The relationship should be called 'better'. 
+There is another table 'position' with the columns 'war' (DATE), 'ago' (TEXT), 'sure' (VARCHAR(50)). The primary key is 'war'. 'position' references another table 'business' in an exactly one to zero or many relationship. The relationship should be called 'war'. 
+There is another table 'business' with the columns 'trade' (VARCHAR(50)), 'it' (DATE). The primary key is 'trade'. 'business' references another table 'positive' in an exactly one to zero or many relationship. The relationship should be called 'trade'. 
+There is another table 'positive' with the columns 'government' (DATE), 'democratic' (TEXT), 'off' (VARCHAR(50)). The primary key is 'government'. 'positive' references another table 'pattern' in an exactly one to zero or many relationship. The relationship should be called 'government'. 
+There is another table 'pattern' with the columns 'better' (VARCHAR(50)), 'order' (DATE). The primary key is 'better'. 'pattern' references another table 'story' in an exactly one to zero or many relationship. The relationship should be called 'better'. 
+

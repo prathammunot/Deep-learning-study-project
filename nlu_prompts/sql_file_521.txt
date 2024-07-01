@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram470'.
+There is a table 'read' with the columns 'loss' (DATE), 'executive' (TEXT), 'strategy' (VARCHAR(50)). The primary key is 'loss'. 'read' references another table 'friend' in an exactly one to zero or many relationship. The relationship should be called 'loss'. 
+There is another table 'friend' with the columns 'common' (VARCHAR(50)), 'product' (DATE). The primary key is 'common'. 'friend' references another table 'option' in an exactly one to zero or many relationship. The relationship should be called 'common'. 
+There is another table 'option' with the columns 'add' (DATE), 'identify' (TEXT), 'heavy' (VARCHAR(50)). The primary key is 'add'. 'option' references another table 'house' in an exactly one to zero or many relationship. The relationship should be called 'add'. 
+There is another table 'house' with the columns 'morning' (VARCHAR(50)), 'water' (DATE). The primary key is 'morning'. 'house' references another table 'gun' in an exactly one to zero or many relationship. The relationship should be called 'morning'. 
+There is another table 'gun' with the columns 'truth' (DATE), 'actually' (TEXT), 'list' (VARCHAR(50)). The primary key is 'truth'. 'gun' references another table 'knowledge' in an exactly one to zero or many relationship. The relationship should be called 'truth'. 
+There is another table 'knowledge' with the columns 'help' (VARCHAR(50)), 'assume' (DATE). The primary key is 'help'. 'knowledge' references another table 'best' in an exactly one to zero or many relationship. The relationship should be called 'help'. 
+There is another table 'best' with the columns 'price' (DATE), 'analysis' (TEXT), 'institution' (VARCHAR(50)). The primary key is 'price'. 'best' references another table 'read' in an exactly one to zero or many relationship. The relationship should be called 'price'. 
+

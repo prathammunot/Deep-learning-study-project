@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram539'.
+There is a table 'strategy' with the columns 'seven' (DATE), 'southern' (TEXT), 'rise' (VARCHAR(50)). The primary key is 'seven'. 'strategy' references another table 'manager' in an exactly one to zero or many relationship. The relationship should be called 'seven'. 
+There is another table 'manager' with the columns 'event' (VARCHAR(50)), 'avoid' (DATE). The primary key is 'event'. 'manager' references another table 'protect' in an exactly one to zero or many relationship. The relationship should be called 'event'. 
+There is another table 'protect' with the columns 'determine' (DATE), 'party' (TEXT), 'sure' (VARCHAR(50)). The primary key is 'determine'. 'protect' references another table 'account' in an exactly one to zero or many relationship. The relationship should be called 'determine'. 
+There is another table 'account' with the columns 'pattern' (VARCHAR(50)), 'develop' (DATE). The primary key is 'pattern'. 'account' references another table 'building' in an exactly one to zero or many relationship. The relationship should be called 'pattern'. 
+There is another table 'building' with the columns 'light' (DATE), 'interest' (TEXT), 'somebody' (VARCHAR(50)). The primary key is 'light'. 'building' references another table 'bank' in an exactly one to zero or many relationship. The relationship should be called 'light'. 
+There is another table 'bank' with the columns 'design' (VARCHAR(50)), 'report' (DATE). The primary key is 'design'. 'bank' references another table 'teach' in an exactly one to zero or many relationship. The relationship should be called 'design'. 
+There is another table 'teach' with the columns 'yeah' (DATE), 'particular' (TEXT), 'watch' (VARCHAR(50)). The primary key is 'yeah'. 'teach' references another table 'strategy' in an exactly one to zero or many relationship. The relationship should be called 'yeah'. 
+

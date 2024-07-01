@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram459'.
+There is a table 'structure' with the columns 'common' (DATE), 'relationship' (TEXT), 'head' (VARCHAR(50)). The primary key is 'common'. 'structure' references another table 'believe' in an exactly one to zero or many relationship. The relationship should be called 'common'. 
+There is another table 'believe' with the columns 'try' (VARCHAR(50)), 'fight' (DATE). The primary key is 'try'. 'believe' references another table 'drop' in an exactly one to zero or many relationship. The relationship should be called 'try'. 
+There is another table 'drop' with the columns 'your' (DATE), 'particular' (TEXT), 'over' (VARCHAR(50)). The primary key is 'your'. 'drop' references another table 'where' in an exactly one to zero or many relationship. The relationship should be called 'your'. 
+There is another table 'where' with the columns 'some' (VARCHAR(50)), 'bring' (DATE). The primary key is 'some'. 'where' references another table 'hope' in an exactly one to zero or many relationship. The relationship should be called 'some'. 
+There is another table 'hope' with the columns 'within' (DATE), 'sure' (TEXT), 'walk' (VARCHAR(50)). The primary key is 'within'. 'hope' references another table 'structure' in an exactly one to zero or many relationship. The relationship should be called 'within'. 
+

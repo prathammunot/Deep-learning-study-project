@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram555'.
+There is a table 'three' with the columns 'heart' (DATE), 'guess' (TEXT), 'realize' (VARCHAR(50)). The primary key is 'heart'. 'three' references another table 'building' in an exactly one to zero or many relationship. The relationship should be called 'heart'. 
+There is another table 'building' with the columns 'town' (VARCHAR(50)), 'occur' (DATE). The primary key is 'town'. 'building' references another table 'nice' in an exactly one to zero or many relationship. The relationship should be called 'town'. 
+There is another table 'nice' with the columns 'indicate' (DATE), 'consumer' (TEXT), 'debate' (VARCHAR(50)). The primary key is 'indicate'. 'nice' references another table 'care' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'care' with the columns 'begin' (VARCHAR(50)), 'fast' (DATE). The primary key is 'begin'. 'care' references another table 'style' in an exactly one to zero or many relationship. The relationship should be called 'begin'. 
+There is another table 'style' with the columns 'though' (DATE), 'late' (TEXT), 'kind' (VARCHAR(50)). The primary key is 'though'. 'style' references another table 'owner' in an exactly one to zero or many relationship. The relationship should be called 'though'. 
+There is another table 'owner' with the columns 'record' (VARCHAR(50)), 'any' (DATE). The primary key is 'record'. 'owner' references another table 'rest' in an exactly one to zero or many relationship. The relationship should be called 'record'. 
+There is another table 'rest' with the columns 'table' (DATE), 'individual' (TEXT), 'point' (VARCHAR(50)). The primary key is 'table'. 'rest' references another table 'three' in an exactly one to zero or many relationship. The relationship should be called 'table'. 
+

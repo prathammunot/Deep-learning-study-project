@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram508'.
+There is a table 'push' with the columns 'late' (DATE), 'live' (TEXT), 'black' (VARCHAR(50)). The primary key is 'late'. 'push' references another table 'gas' in an exactly one to zero or many relationship. The relationship should be called 'late'. 
+There is another table 'gas' with the columns 'level' (VARCHAR(50)), 'different' (DATE). The primary key is 'level'. 'gas' references another table 'allow' in an exactly one to zero or many relationship. The relationship should be called 'level'. 
+There is another table 'allow' with the columns 'mouth' (DATE), 'keep' (TEXT), 'build' (VARCHAR(50)). The primary key is 'mouth'. 'allow' references another table 'moment' in an exactly one to zero or many relationship. The relationship should be called 'mouth'. 
+There is another table 'moment' with the columns 'base' (VARCHAR(50)), 'behavior' (DATE). The primary key is 'base'. 'moment' references another table 'bit' in an exactly one to zero or many relationship. The relationship should be called 'base'. 
+There is another table 'bit' with the columns 'speech' (DATE), 'accept' (TEXT), 'social' (VARCHAR(50)). The primary key is 'speech'. 'bit' references another table 'heavy' in an exactly one to zero or many relationship. The relationship should be called 'speech'. 
+There is another table 'heavy' with the columns 'side' (VARCHAR(50)), 'example' (DATE). The primary key is 'side'. 'heavy' references another table 'push' in an exactly one to zero or many relationship. The relationship should be called 'side'. 
+

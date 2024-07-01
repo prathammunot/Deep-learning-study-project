@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram449'.
+There is a table 'rise' with the columns 'recently' (DATE), 'garden' (TEXT), 'help' (VARCHAR(50)). The primary key is 'recently'. 'rise' references another table 'ever' in an exactly one to zero or many relationship. The relationship should be called 'recently'. 
+There is another table 'ever' with the columns 'try' (VARCHAR(50)), 'best' (DATE). The primary key is 'try'. 'ever' references another table 'key' in an exactly one to zero or many relationship. The relationship should be called 'try'. 
+There is another table 'key' with the columns 'prevent' (DATE), 'require' (TEXT), 'admit' (VARCHAR(50)). The primary key is 'prevent'. 'key' references another table 'until' in an exactly one to zero or many relationship. The relationship should be called 'prevent'. 
+There is another table 'until' with the columns 'third' (VARCHAR(50)), 'base' (DATE). The primary key is 'third'. 'until' references another table 'house' in an exactly one to zero or many relationship. The relationship should be called 'third'. 
+There is another table 'house' with the columns 'cell' (DATE), 'certain' (TEXT), 'old' (VARCHAR(50)). The primary key is 'cell'. 'house' references another table 'rise' in an exactly one to zero or many relationship. The relationship should be called 'cell'. 
+

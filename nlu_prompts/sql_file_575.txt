@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram529'.
+There is a table 'resource' with the columns 'program' (DATE), 'risk' (TEXT), 'still' (VARCHAR(50)). The primary key is 'program'. 'resource' references another table 'group' in an exactly one to zero or many relationship. The relationship should be called 'program'. 
+There is another table 'group' with the columns 'discussion' (VARCHAR(50)), 'us' (DATE). The primary key is 'discussion'. 'group' references another table 'pass' in an exactly one to zero or many relationship. The relationship should be called 'discussion'. 
+There is another table 'pass' with the columns 'involve' (DATE), 'begin' (TEXT), 'guy' (VARCHAR(50)). The primary key is 'involve'. 'pass' references another table 'political' in an exactly one to zero or many relationship. The relationship should be called 'involve'. 
+There is another table 'political' with the columns 'military' (VARCHAR(50)), 'local' (DATE). The primary key is 'military'. 'political' references another table 'thus' in an exactly one to zero or many relationship. The relationship should be called 'military'. 
+There is another table 'thus' with the columns 'spring' (DATE), 'argue' (TEXT), 'food' (VARCHAR(50)). The primary key is 'spring'. 'thus' references another table 'over' in an exactly one to zero or many relationship. The relationship should be called 'spring'. 
+There is another table 'over' with the columns 'us' (VARCHAR(50)), 'here' (DATE). The primary key is 'us'. 'over' references another table 'something' in an exactly one to zero or many relationship. The relationship should be called 'us'. 
+There is another table 'something' with the columns 'catch' (DATE), 'red' (TEXT), 'full' (VARCHAR(50)). The primary key is 'catch'. 'something' references another table 'resource' in an exactly one to zero or many relationship. The relationship should be called 'catch'. 
+

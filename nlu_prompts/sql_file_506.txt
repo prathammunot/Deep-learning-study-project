@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram453'.
+There is a table 'wall' with the columns 'agree' (DATE), 'stock' (TEXT), 'discover' (VARCHAR(50)). The primary key is 'agree'. 'wall' references another table 'camera' in an exactly one to zero or many relationship. The relationship should be called 'agree'. 
+There is another table 'camera' with the columns 'democratic' (VARCHAR(50)), 'in' (DATE). The primary key is 'democratic'. 'camera' references another table 'improve' in an exactly one to zero or many relationship. The relationship should be called 'democratic'. 
+There is another table 'improve' with the columns 'decade' (DATE), 'picture' (TEXT), 'event' (VARCHAR(50)). The primary key is 'decade'. 'improve' references another table 'light' in an exactly one to zero or many relationship. The relationship should be called 'decade'. 
+There is another table 'light' with the columns 'majority' (VARCHAR(50)), 'behavior' (DATE). The primary key is 'majority'. 'light' references another table 'soldier' in an exactly one to zero or many relationship. The relationship should be called 'majority'. 
+There is another table 'soldier' with the columns 'street' (DATE), 'open' (TEXT), 'carry' (VARCHAR(50)). The primary key is 'street'. 'soldier' references another table 'wall' in an exactly one to zero or many relationship. The relationship should be called 'street'. 
+

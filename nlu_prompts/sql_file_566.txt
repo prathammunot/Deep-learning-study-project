@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram519'.
+There is a table 'ready' with the columns 'job' (DATE), 'significant' (TEXT), 'news' (VARCHAR(50)). The primary key is 'job'. 'ready' references another table 'rule' in an exactly one to zero or many relationship. The relationship should be called 'job'. 
+There is another table 'rule' with the columns 'appear' (VARCHAR(50)), 'series' (DATE). The primary key is 'appear'. 'rule' references another table 'red' in an exactly one to zero or many relationship. The relationship should be called 'appear'. 
+There is another table 'red' with the columns 'Republican' (DATE), 'away' (TEXT), 'green' (VARCHAR(50)). The primary key is 'Republican'. 'red' references another table 'Mrs' in an exactly one to zero or many relationship. The relationship should be called 'Republican'. 
+There is another table 'Mrs' with the columns 'rest' (VARCHAR(50)), 'born' (DATE). The primary key is 'rest'. 'Mrs' references another table 'drive' in an exactly one to zero or many relationship. The relationship should be called 'rest'. 
+There is another table 'drive' with the columns 'short' (DATE), 'travel' (TEXT), 'defense' (VARCHAR(50)). The primary key is 'short'. 'drive' references another table 'ready' in an exactly one to zero or many relationship. The relationship should be called 'short'. 
+

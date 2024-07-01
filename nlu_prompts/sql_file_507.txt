@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram454'.
+There is a table 'stop' with the columns 'small' (DATE), 'late' (TEXT), 'wish' (VARCHAR(50)). The primary key is 'small'. 'stop' references another table 'compare' in an exactly one to zero or many relationship. The relationship should be called 'small'. 
+There is another table 'compare' with the columns 'financial' (VARCHAR(50)), 'site' (DATE). The primary key is 'financial'. 'compare' references another table 'wrong' in an exactly one to zero or many relationship. The relationship should be called 'financial'. 
+There is another table 'wrong' with the columns 'girl' (DATE), 'boy' (TEXT), 'look' (VARCHAR(50)). The primary key is 'girl'. 'wrong' references another table 'again' in an exactly one to zero or many relationship. The relationship should be called 'girl'. 
+There is another table 'again' with the columns 'sometimes' (VARCHAR(50)), 'truth' (DATE). The primary key is 'sometimes'. 'again' references another table 'save' in an exactly one to zero or many relationship. The relationship should be called 'sometimes'. 
+There is another table 'save' with the columns 'thank' (DATE), 'property' (TEXT), 'tonight' (VARCHAR(50)). The primary key is 'thank'. 'save' references another table 'various' in an exactly one to zero or many relationship. The relationship should be called 'thank'. 
+There is another table 'various' with the columns 'rather' (VARCHAR(50)), 'strategy' (DATE). The primary key is 'rather'. 'various' references another table 'ahead' in an exactly one to zero or many relationship. The relationship should be called 'rather'. 
+There is another table 'ahead' with the columns 'material' (DATE), 'the' (TEXT), 'southern' (VARCHAR(50)). The primary key is 'material'. 'ahead' references another table 'debate' in an exactly one to zero or many relationship. The relationship should be called 'material'. 
+There is another table 'debate' with the columns 'fill' (VARCHAR(50)), 'everything' (DATE). The primary key is 'fill'. 'debate' references another table 'stop' in an exactly one to zero or many relationship. The relationship should be called 'fill'. 
+

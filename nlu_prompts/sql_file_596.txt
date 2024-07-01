@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram552'.
+There is a table 'somebody' with the columns 'ball' (DATE), 'message' (TEXT), 'stuff' (VARCHAR(50)). The primary key is 'ball'. 'somebody' references another table 'rate' in an exactly one to zero or many relationship. The relationship should be called 'ball'. 
+There is another table 'rate' with the columns 'conference' (VARCHAR(50)), 'later' (DATE). The primary key is 'conference'. 'rate' references another table 'size' in an exactly one to zero or many relationship. The relationship should be called 'conference'. 
+There is another table 'size' with the columns 'any' (DATE), 'decade' (TEXT), 'table' (VARCHAR(50)). The primary key is 'any'. 'size' references another table 'sing' in an exactly one to zero or many relationship. The relationship should be called 'any'. 
+There is another table 'sing' with the columns 'defense' (VARCHAR(50)), 'live' (DATE). The primary key is 'defense'. 'sing' references another table 'much' in an exactly one to zero or many relationship. The relationship should be called 'defense'. 
+There is another table 'much' with the columns 'contain' (DATE), 'scene' (TEXT), 'bad' (VARCHAR(50)). The primary key is 'contain'. 'much' references another table 'somebody' in an exactly one to zero or many relationship. The relationship should be called 'contain'. 
+

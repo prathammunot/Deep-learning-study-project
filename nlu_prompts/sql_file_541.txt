@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram492'.
+There is a table 'sell' with the columns 'line' (DATE), 'citizen' (TEXT), 'yard' (VARCHAR(50)). The primary key is 'line'. 'sell' references another table 'standard' in an exactly one to zero or many relationship. The relationship should be called 'line'. 
+There is another table 'standard' with the columns 'stuff' (VARCHAR(50)), 'leader' (DATE). The primary key is 'stuff'. 'standard' references another table 'really' in an exactly one to zero or many relationship. The relationship should be called 'stuff'. 
+There is another table 'really' with the columns 'race' (DATE), 'especially' (TEXT), 'keep' (VARCHAR(50)). The primary key is 'race'. 'really' references another table 'pull' in an exactly one to zero or many relationship. The relationship should be called 'race'. 
+There is another table 'pull' with the columns 'hit' (VARCHAR(50)), 'woman' (DATE). The primary key is 'hit'. 'pull' references another table 'service' in an exactly one to zero or many relationship. The relationship should be called 'hit'. 
+There is another table 'service' with the columns 'yard' (DATE), 'because' (TEXT), 'move' (VARCHAR(50)). The primary key is 'yard'. 'service' references another table 'sell' in an exactly one to zero or many relationship. The relationship should be called 'yard'. 
+

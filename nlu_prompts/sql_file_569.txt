@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram522'.
+There is a table 'benefit' with the columns 'senior' (DATE), 'million' (TEXT), 'rule' (VARCHAR(50)). The primary key is 'senior'. 'benefit' references another table 'expert' in an exactly one to zero or many relationship. The relationship should be called 'senior'. 
+There is another table 'expert' with the columns 'production' (VARCHAR(50)), 'health' (DATE). The primary key is 'production'. 'expert' references another table 'give' in an exactly one to zero or many relationship. The relationship should be called 'production'. 
+There is another table 'give' with the columns 'learn' (DATE), 'bar' (TEXT), 'art' (VARCHAR(50)). The primary key is 'learn'. 'give' references another table 'somebody' in an exactly one to zero or many relationship. The relationship should be called 'learn'. 
+There is another table 'somebody' with the columns 'each' (VARCHAR(50)), 'little' (DATE). The primary key is 'each'. 'somebody' references another table 'child' in an exactly one to zero or many relationship. The relationship should be called 'each'. 
+There is another table 'child' with the columns 'book' (DATE), 'collection' (TEXT), 'method' (VARCHAR(50)). The primary key is 'book'. 'child' references another table 'lead' in an exactly one to zero or many relationship. The relationship should be called 'book'. 
+There is another table 'lead' with the columns 'this' (VARCHAR(50)), 'life' (DATE). The primary key is 'this'. 'lead' references another table 'me' in an exactly one to zero or many relationship. The relationship should be called 'this'. 
+There is another table 'me' with the columns 'name' (DATE), 'water' (TEXT), 'eat' (VARCHAR(50)). The primary key is 'name'. 'me' references another table 'determine' in an exactly one to zero or many relationship. The relationship should be called 'name'. 
+There is another table 'determine' with the columns 'despite' (VARCHAR(50)), 'total' (DATE). The primary key is 'despite'. 'determine' references another table 'benefit' in an exactly one to zero or many relationship. The relationship should be called 'despite'. 
+

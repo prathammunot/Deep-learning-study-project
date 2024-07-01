@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram548'.
+There is a table 'early' with the columns 'popular' (DATE), 'record' (TEXT), 'condition' (VARCHAR(50)). The primary key is 'popular'. 'early' references another table 'heart' in an exactly one to zero or many relationship. The relationship should be called 'popular'. 
+There is another table 'heart' with the columns 'movie' (VARCHAR(50)), 'understand' (DATE). The primary key is 'movie'. 'heart' references another table 'economic' in an exactly one to zero or many relationship. The relationship should be called 'movie'. 
+There is another table 'economic' with the columns 'their' (DATE), 'year' (TEXT), 'ten' (VARCHAR(50)). The primary key is 'their'. 'economic' references another table 'each' in an exactly one to zero or many relationship. The relationship should be called 'their'. 
+There is another table 'each' with the columns 'term' (VARCHAR(50)), 'treatment' (DATE). The primary key is 'term'. 'each' references another table 'energy' in an exactly one to zero or many relationship. The relationship should be called 'term'. 
+There is another table 'energy' with the columns 'debate' (DATE), 'her' (TEXT), 'spring' (VARCHAR(50)). The primary key is 'debate'. 'energy' references another table 'specific' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+There is another table 'specific' with the columns 'process' (VARCHAR(50)), 'provide' (DATE). The primary key is 'process'. 'specific' references another table 'hold' in an exactly one to zero or many relationship. The relationship should be called 'process'. 
+There is another table 'hold' with the columns 'floor' (DATE), 'consumer' (TEXT), 'recently' (VARCHAR(50)). The primary key is 'floor'. 'hold' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'floor'. 
+

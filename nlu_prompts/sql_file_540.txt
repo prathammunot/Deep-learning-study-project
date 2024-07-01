@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram491'.
+There is a table 'set' with the columns 'prevent' (DATE), 'amount' (TEXT), 'attack' (VARCHAR(50)). The primary key is 'prevent'. 'set' references another table 'step' in an exactly one to zero or many relationship. The relationship should be called 'prevent'. 
+There is another table 'step' with the columns 'pattern' (VARCHAR(50)), 'everything' (DATE). The primary key is 'pattern'. 'step' references another table 'small' in an exactly one to zero or many relationship. The relationship should be called 'pattern'. 
+There is another table 'small' with the columns 'and' (DATE), 'trip' (TEXT), 'newspaper' (VARCHAR(50)). The primary key is 'and'. 'small' references another table 'learn' in an exactly one to zero or many relationship. The relationship should be called 'and'. 
+There is another table 'learn' with the columns 'much' (VARCHAR(50)), 'someone' (DATE). The primary key is 'much'. 'learn' references another table 'set' in an exactly one to zero or many relationship. The relationship should be called 'much'. 
+There is another table 'set' with the columns 'adult' (DATE), 'call' (TEXT), 'realize' (VARCHAR(50)). The primary key is 'adult'. 'set' references another table 'story' in an exactly one to zero or many relationship. The relationship should be called 'adult'. 
+There is another table 'story' with the columns 'school' (VARCHAR(50)), 'art' (DATE). The primary key is 'school'. 'story' references another table 'set' in an exactly one to zero or many relationship. The relationship should be called 'school'. 
+

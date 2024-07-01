@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram469'.
+There is a table 'cold' with the columns 'involve' (DATE), 'against' (TEXT), 'join' (VARCHAR(50)). The primary key is 'involve'. 'cold' references another table 'close' in an exactly one to zero or many relationship. The relationship should be called 'involve'. 
+There is another table 'close' with the columns 'subject' (VARCHAR(50)), 'national' (DATE). The primary key is 'subject'. 'close' references another table 'who' in an exactly one to zero or many relationship. The relationship should be called 'subject'. 
+There is another table 'who' with the columns 'full' (DATE), 'next' (TEXT), 'mission' (VARCHAR(50)). The primary key is 'full'. 'who' references another table 'most' in an exactly one to zero or many relationship. The relationship should be called 'full'. 
+There is another table 'most' with the columns 'responsibility' (VARCHAR(50)), 'girl' (DATE). The primary key is 'responsibility'. 'most' references another table 'report' in an exactly one to zero or many relationship. The relationship should be called 'responsibility'. 
+There is another table 'report' with the columns 'fight' (DATE), 'bit' (TEXT), 'leave' (VARCHAR(50)). The primary key is 'fight'. 'report' references another table 'evidence' in an exactly one to zero or many relationship. The relationship should be called 'fight'. 
+There is another table 'evidence' with the columns 'teach' (VARCHAR(50)), 'memory' (DATE). The primary key is 'teach'. 'evidence' references another table 'as' in an exactly one to zero or many relationship. The relationship should be called 'teach'. 
+There is another table 'as' with the columns 'city' (DATE), 'admit' (TEXT), 'live' (VARCHAR(50)). The primary key is 'city'. 'as' references another table 'bar' in an exactly one to zero or many relationship. The relationship should be called 'city'. 
+There is another table 'bar' with the columns 'enough' (VARCHAR(50)), 'popular' (DATE). The primary key is 'enough'. 'bar' references another table 'rest' in an exactly one to zero or many relationship. The relationship should be called 'enough'. 
+There is another table 'rest' with the columns 'tree' (DATE), 'son' (TEXT), 'fall' (VARCHAR(50)). The primary key is 'tree'. 'rest' references another table 'cold' in an exactly one to zero or many relationship. The relationship should be called 'tree'. 
+

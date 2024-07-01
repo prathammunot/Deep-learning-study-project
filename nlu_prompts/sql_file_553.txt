@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram505'.
+There is a table 'idea' with the columns 'type' (DATE), 'good' (TEXT), 'most' (VARCHAR(50)). The primary key is 'type'. 'idea' references another table 'attention' in an exactly one to zero or many relationship. The relationship should be called 'type'. 
+There is another table 'attention' with the columns 'benefit' (VARCHAR(50)), 'culture' (DATE). The primary key is 'benefit'. 'attention' references another table 'method' in an exactly one to zero or many relationship. The relationship should be called 'benefit'. 
+There is another table 'method' with the columns 'total' (DATE), 'card' (TEXT), 'break' (VARCHAR(50)). The primary key is 'total'. 'method' references another table 'skill' in an exactly one to zero or many relationship. The relationship should be called 'total'. 
+There is another table 'skill' with the columns 'who' (VARCHAR(50)), 'respond' (DATE). The primary key is 'who'. 'skill' references another table 'hour' in an exactly one to zero or many relationship. The relationship should be called 'who'. 
+There is another table 'hour' with the columns 'government' (DATE), 'act' (TEXT), 'agent' (VARCHAR(50)). The primary key is 'government'. 'hour' references another table 'member' in an exactly one to zero or many relationship. The relationship should be called 'government'. 
+There is another table 'member' with the columns 'west' (VARCHAR(50)), 'so' (DATE). The primary key is 'west'. 'member' references another table 'court' in an exactly one to zero or many relationship. The relationship should be called 'west'. 
+There is another table 'court' with the columns 'beyond' (DATE), 'job' (TEXT), 'later' (VARCHAR(50)). The primary key is 'beyond'. 'court' references another table 'idea' in an exactly one to zero or many relationship. The relationship should be called 'beyond'. 
+

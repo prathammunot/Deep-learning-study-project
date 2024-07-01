@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram503'.
+There is a table 'save' with the columns 'thank' (DATE), 'low' (TEXT), 'whether' (VARCHAR(50)). The primary key is 'thank'. 'save' references another table 'new' in an exactly one to zero or many relationship. The relationship should be called 'thank'. 
+There is another table 'new' with the columns 'health' (VARCHAR(50)), 'first' (DATE). The primary key is 'health'. 'new' references another table 'no' in an exactly one to zero or many relationship. The relationship should be called 'health'. 
+There is another table 'no' with the columns 'indeed' (DATE), 'choose' (TEXT), 'exist' (VARCHAR(50)). The primary key is 'indeed'. 'no' references another table 'partner' in an exactly one to zero or many relationship. The relationship should be called 'indeed'. 
+There is another table 'partner' with the columns 'amount' (VARCHAR(50)), 'security' (DATE). The primary key is 'amount'. 'partner' references another table 'which' in an exactly one to zero or many relationship. The relationship should be called 'amount'. 
+There is another table 'which' with the columns 'size' (DATE), 'account' (TEXT), 'also' (VARCHAR(50)). The primary key is 'size'. 'which' references another table 'audience' in an exactly one to zero or many relationship. The relationship should be called 'size'. 
+There is another table 'audience' with the columns 'sea' (VARCHAR(50)), 'age' (DATE). The primary key is 'sea'. 'audience' references another table 'save' in an exactly one to zero or many relationship. The relationship should be called 'sea'. 
+

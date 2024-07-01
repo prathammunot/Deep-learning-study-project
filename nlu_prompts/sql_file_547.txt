@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram498'.
+There is a table 'leave' with the columns 'edge' (DATE), 'every' (TEXT), 'Mr' (VARCHAR(50)). The primary key is 'edge'. 'leave' references another table 'around' in an exactly one to zero or many relationship. The relationship should be called 'edge'. 
+There is another table 'around' with the columns 'leave' (VARCHAR(50)), 'century' (DATE). The primary key is 'leave'. 'around' references another table 'response' in an exactly one to zero or many relationship. The relationship should be called 'leave'. 
+There is another table 'response' with the columns 'discover' (DATE), 'buy' (TEXT), 'account' (VARCHAR(50)). The primary key is 'discover'. 'response' references another table 'today' in an exactly one to zero or many relationship. The relationship should be called 'discover'. 
+There is another table 'today' with the columns 'national' (VARCHAR(50)), 'especially' (DATE). The primary key is 'national'. 'today' references another table 'address' in an exactly one to zero or many relationship. The relationship should be called 'national'. 
+There is another table 'address' with the columns 'quite' (DATE), 'to' (TEXT), 'policy' (VARCHAR(50)). The primary key is 'quite'. 'address' references another table 'remember' in an exactly one to zero or many relationship. The relationship should be called 'quite'. 
+There is another table 'remember' with the columns 'they' (VARCHAR(50)), 'trial' (DATE). The primary key is 'they'. 'remember' references another table 'argue' in an exactly one to zero or many relationship. The relationship should be called 'they'. 
+There is another table 'argue' with the columns 'security' (DATE), 'soldier' (TEXT), 'rule' (VARCHAR(50)). The primary key is 'security'. 'argue' references another table 'whether' in an exactly one to zero or many relationship. The relationship should be called 'security'. 
+There is another table 'whether' with the columns 'goal' (VARCHAR(50)), 'message' (DATE). The primary key is 'goal'. 'whether' references another table 'leave' in an exactly one to zero or many relationship. The relationship should be called 'goal'. 
+

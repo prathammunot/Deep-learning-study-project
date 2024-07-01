@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram476'.
+There is a table 'idea' with the columns 'other' (DATE), 'somebody' (TEXT), 'think' (VARCHAR(50)). The primary key is 'other'. 'idea' references another table 'particular' in an exactly one to zero or many relationship. The relationship should be called 'other'. 
+There is another table 'particular' with the columns 'difficult' (VARCHAR(50)), 'career' (DATE). The primary key is 'difficult'. 'particular' references another table 'technology' in an exactly one to zero or many relationship. The relationship should be called 'difficult'. 
+There is another table 'technology' with the columns 'same' (DATE), 'speak' (TEXT), 'majority' (VARCHAR(50)). The primary key is 'same'. 'technology' references another table 'director' in an exactly one to zero or many relationship. The relationship should be called 'same'. 
+There is another table 'director' with the columns 'event' (VARCHAR(50)), 'different' (DATE). The primary key is 'event'. 'director' references another table 'town' in an exactly one to zero or many relationship. The relationship should be called 'event'. 
+There is another table 'town' with the columns 'word' (DATE), 'walk' (TEXT), 'Mr' (VARCHAR(50)). The primary key is 'word'. 'town' references another table 'all' in an exactly one to zero or many relationship. The relationship should be called 'word'. 
+There is another table 'all' with the columns 'study' (VARCHAR(50)), 'candidate' (DATE). The primary key is 'study'. 'all' references another table 'once' in an exactly one to zero or many relationship. The relationship should be called 'study'. 
+There is another table 'once' with the columns 'goal' (DATE), 'call' (TEXT), 'final' (VARCHAR(50)). The primary key is 'goal'. 'once' references another table 'food' in an exactly one to zero or many relationship. The relationship should be called 'goal'. 
+There is another table 'food' with the columns 'evidence' (VARCHAR(50)), 'leave' (DATE). The primary key is 'evidence'. 'food' references another table 'idea' in an exactly one to zero or many relationship. The relationship should be called 'evidence'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram502'.
+There is a table 'Mr' with the columns 'apply' (DATE), 'skill' (TEXT), 'all' (VARCHAR(50)). The primary key is 'apply'. 'Mr' references another table 'husband' in an exactly one to zero or many relationship. The relationship should be called 'apply'. 
+There is another table 'husband' with the columns 'newspaper' (VARCHAR(50)), 'outside' (DATE). The primary key is 'newspaper'. 'husband' references another table 'doctor' in an exactly one to zero or many relationship. The relationship should be called 'newspaper'. 
+There is another table 'doctor' with the columns 'more' (DATE), 'when' (TEXT), 'support' (VARCHAR(50)). The primary key is 'more'. 'doctor' references another table 'expert' in an exactly one to zero or many relationship. The relationship should be called 'more'. 
+There is another table 'expert' with the columns 'seat' (VARCHAR(50)), 'level' (DATE). The primary key is 'seat'. 'expert' references another table 'above' in an exactly one to zero or many relationship. The relationship should be called 'seat'. 
+There is another table 'above' with the columns 'dark' (DATE), 'to' (TEXT), 'give' (VARCHAR(50)). The primary key is 'dark'. 'above' references another table 'stop' in an exactly one to zero or many relationship. The relationship should be called 'dark'. 
+There is another table 'stop' with the columns 'second' (VARCHAR(50)), 'understand' (DATE). The primary key is 'second'. 'stop' references another table 'Mr' in an exactly one to zero or many relationship. The relationship should be called 'second'. 
+

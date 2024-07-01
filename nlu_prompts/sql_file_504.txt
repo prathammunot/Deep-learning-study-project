@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram451'.
+There is a table 'where' with the columns 'make' (DATE), 'risk' (TEXT), 'mother' (VARCHAR(50)). The primary key is 'make'. 'where' references another table 'low' in an exactly one to zero or many relationship. The relationship should be called 'make'. 
+There is another table 'low' with the columns 'reveal' (VARCHAR(50)), 'score' (DATE). The primary key is 'reveal'. 'low' references another table 'pay' in an exactly one to zero or many relationship. The relationship should be called 'reveal'. 
+There is another table 'pay' with the columns 'to' (DATE), 'hear' (TEXT), 'conference' (VARCHAR(50)). The primary key is 'to'. 'pay' references another table 'society' in an exactly one to zero or many relationship. The relationship should be called 'to'. 
+There is another table 'society' with the columns 'make' (VARCHAR(50)), 'blood' (DATE). The primary key is 'make'. 'society' references another table 'clear' in an exactly one to zero or many relationship. The relationship should be called 'make'. 
+There is another table 'clear' with the columns 'they' (DATE), 'too' (TEXT), 'fire' (VARCHAR(50)). The primary key is 'they'. 'clear' references another table 'where' in an exactly one to zero or many relationship. The relationship should be called 'they'. 
+

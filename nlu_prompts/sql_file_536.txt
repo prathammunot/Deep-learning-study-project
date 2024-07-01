@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram486'.
+There is a table 'media' with the columns 'Democrat' (DATE), 'out' (TEXT), 'difference' (VARCHAR(50)). The primary key is 'Democrat'. 'media' references another table 'within' in an exactly one to zero or many relationship. The relationship should be called 'Democrat'. 
+There is another table 'within' with the columns 'break' (VARCHAR(50)), 'major' (DATE). The primary key is 'break'. 'within' references another table 'standard' in an exactly one to zero or many relationship. The relationship should be called 'break'. 
+There is another table 'standard' with the columns 'stage' (DATE), 'throughout' (TEXT), 'prove' (VARCHAR(50)). The primary key is 'stage'. 'standard' references another table 'life' in an exactly one to zero or many relationship. The relationship should be called 'stage'. 
+There is another table 'life' with the columns 'visit' (VARCHAR(50)), 'civil' (DATE). The primary key is 'visit'. 'life' references another table 'final' in an exactly one to zero or many relationship. The relationship should be called 'visit'. 
+There is another table 'final' with the columns 'executive' (DATE), 'information' (TEXT), 'miss' (VARCHAR(50)). The primary key is 'executive'. 'final' references another table 'evidence' in an exactly one to zero or many relationship. The relationship should be called 'executive'. 
+There is another table 'evidence' with the columns 'enter' (VARCHAR(50)), 'base' (DATE). The primary key is 'enter'. 'evidence' references another table 'capital' in an exactly one to zero or many relationship. The relationship should be called 'enter'. 
+There is another table 'capital' with the columns 'force' (DATE), 'want' (TEXT), 'Republican' (VARCHAR(50)). The primary key is 'force'. 'capital' references another table 'part' in an exactly one to zero or many relationship. The relationship should be called 'force'. 
+There is another table 'part' with the columns 'close' (VARCHAR(50)), 'hard' (DATE). The primary key is 'close'. 'part' references another table 'media' in an exactly one to zero or many relationship. The relationship should be called 'close'. 
+
