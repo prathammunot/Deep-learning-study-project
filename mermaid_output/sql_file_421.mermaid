@@ -1,0 +1,29 @@
+erDiagram
+    century ||--o{ discuss : nearly
+    century {
+        DATE nearly
+        TEXT according
+        VARCHAR(50) move
+    }
+    discuss ||--o{ red : teacher
+    discuss {
+        VARCHAR(50) teacher
+        DATE know
+    }
+    red ||--o{ able : law
+    red {
+        DATE law
+        TEXT the
+        VARCHAR(50) send
+    }
+    able ||--o{ eat : style
+    able {
+        VARCHAR(50) style
+        DATE adult
+    }
+    eat ||--o{ century : environmental
+    eat {
+        DATE environmental
+        TEXT in
+        VARCHAR(50) past
+    }

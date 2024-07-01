@@ -1,0 +1,34 @@
+erDiagram
+    natural ||--o{ create : ready
+    natural {
+        DATE ready
+        TEXT budget
+        VARCHAR(50) statement
+    }
+    create ||--o{ page : over
+    create {
+        VARCHAR(50) over
+        DATE start
+    }
+    page ||--o{ society : explain
+    page {
+        DATE explain
+        TEXT adult
+        VARCHAR(50) process
+    }
+    society ||--o{ letter : safe
+    society {
+        VARCHAR(50) safe
+        DATE guess
+    }
+    letter ||--o{ example : you
+    letter {
+        DATE you
+        TEXT exactly
+        VARCHAR(50) sort
+    }
+    example ||--o{ natural : recognize
+    example {
+        VARCHAR(50) recognize
+        DATE relationship
+    }

@@ -1,0 +1,29 @@
+erDiagram
+    action ||--o{ go : second
+    action {
+        DATE second
+        TEXT mother
+        VARCHAR(50) method
+    }
+    go ||--o{ fight : blood
+    go {
+        VARCHAR(50) blood
+        DATE party
+    }
+    fight ||--o{ ability : sure
+    fight {
+        DATE sure
+        TEXT soldier
+        VARCHAR(50) position
+    }
+    ability ||--o{ adult : administration
+    ability {
+        VARCHAR(50) administration
+        DATE spend
+    }
+    adult ||--o{ action : evidence
+    adult {
+        DATE evidence
+        TEXT bad
+        VARCHAR(50) person
+    }

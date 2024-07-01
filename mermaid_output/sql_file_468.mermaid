@@ -1,0 +1,40 @@
+erDiagram
+    small ||--o{ toward : scientist
+    small {
+        DATE scientist
+        TEXT within
+        VARCHAR(50) west
+    }
+    toward ||--o{ computer : college
+    toward {
+        VARCHAR(50) college
+        DATE hour
+    }
+    computer ||--o{ likely : allow
+    computer {
+        DATE allow
+        TEXT ago
+        VARCHAR(50) third
+    }
+    likely ||--o{ generation : miss
+    likely {
+        VARCHAR(50) miss
+        DATE decade
+    }
+    generation ||--o{ prove : information
+    generation {
+        DATE information
+        TEXT word
+        VARCHAR(50) box
+    }
+    prove ||--o{ if : ten
+    prove {
+        VARCHAR(50) ten
+        DATE cost
+    }
+    if ||--o{ small : region
+    if {
+        DATE region
+        TEXT hard
+        VARCHAR(50) continue
+    }

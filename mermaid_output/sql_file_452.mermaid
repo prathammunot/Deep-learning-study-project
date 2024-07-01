@@ -1,0 +1,29 @@
+erDiagram
+    seat ||--o{ public : recognize
+    seat {
+        DATE recognize
+        TEXT finish
+        VARCHAR(50) walk
+    }
+    public ||--o{ guy : either
+    public {
+        VARCHAR(50) either
+        DATE pattern
+    }
+    guy ||--o{ worry : person
+    guy {
+        DATE person
+        TEXT change
+        VARCHAR(50) beat
+    }
+    worry ||--o{ doctor : recent
+    worry {
+        VARCHAR(50) recent
+        DATE late
+    }
+    doctor ||--o{ seat : occur
+    doctor {
+        DATE occur
+        TEXT meet
+        VARCHAR(50) race
+    }

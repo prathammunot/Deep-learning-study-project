@@ -1,0 +1,29 @@
+erDiagram
+    customer ||--o{ many : will
+    customer {
+        DATE will
+        TEXT range
+        VARCHAR(50) low
+    }
+    many ||--o{ degree : a
+    many {
+        VARCHAR(50) a
+        DATE expect
+    }
+    degree ||--o{ measure : north
+    degree {
+        DATE north
+        TEXT late
+        VARCHAR(50) power
+    }
+    measure ||--o{ practice : behavior
+    measure {
+        VARCHAR(50) behavior
+        DATE health
+    }
+    practice ||--o{ customer : magazine
+    practice {
+        DATE magazine
+        TEXT call
+        VARCHAR(50) truth
+    }

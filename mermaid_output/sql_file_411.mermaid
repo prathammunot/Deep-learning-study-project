@@ -1,0 +1,51 @@
+erDiagram
+    day ||--o{ indicate : run
+    day {
+        DATE run
+        TEXT kitchen
+        VARCHAR(50) focus
+    }
+    indicate ||--o{ moment : control
+    indicate {
+        VARCHAR(50) control
+        DATE impact
+    }
+    moment ||--o{ any : top
+    moment {
+        DATE top
+        TEXT reflect
+        VARCHAR(50) or
+    }
+    any ||--o{ matter : free
+    any {
+        VARCHAR(50) free
+        DATE positive
+    }
+    matter ||--o{ rather : large
+    matter {
+        DATE large
+        TEXT item
+        VARCHAR(50) generation
+    }
+    rather ||--o{ number : never
+    rather {
+        VARCHAR(50) never
+        DATE take
+    }
+    number ||--o{ few : why
+    number {
+        DATE why
+        TEXT dark
+        VARCHAR(50) after
+    }
+    few ||--o{ writer : series
+    few {
+        VARCHAR(50) series
+        DATE another
+    }
+    writer ||--o{ day : field
+    writer {
+        DATE field
+        TEXT star
+        VARCHAR(50) cell
+    }

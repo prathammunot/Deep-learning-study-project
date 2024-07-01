@@ -1,0 +1,29 @@
+erDiagram
+    expect ||--o{ team : lawyer
+    expect {
+        DATE lawyer
+        TEXT local
+        VARCHAR(50) responsibility
+    }
+    team ||--o{ become : exactly
+    team {
+        VARCHAR(50) exactly
+        DATE sell
+    }
+    become ||--o{ thought : picture
+    become {
+        DATE picture
+        TEXT agency
+        VARCHAR(50) but
+    }
+    thought ||--o{ deal : everyone
+    thought {
+        VARCHAR(50) everyone
+        DATE particularly
+    }
+    deal ||--o{ expect : wrong
+    deal {
+        DATE wrong
+        TEXT require
+        VARCHAR(50) fact
+    }

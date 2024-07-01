@@ -1,0 +1,29 @@
+erDiagram
+    kid ||--o{ figure : some
+    kid {
+        DATE some
+        TEXT short
+        VARCHAR(50) skin
+    }
+    figure ||--o{ simple : teacher
+    figure {
+        VARCHAR(50) teacher
+        DATE maybe
+    }
+    simple ||--o{ beautiful : house
+    simple {
+        DATE house
+        TEXT myself
+        VARCHAR(50) money
+    }
+    beautiful ||--o{ company : skill
+    beautiful {
+        VARCHAR(50) skill
+        DATE before
+    }
+    company ||--o{ kid : look
+    company {
+        DATE look
+        TEXT draw
+        VARCHAR(50) professor
+    }

@@ -1,0 +1,44 @@
+erDiagram
+    program ||--o{ produce : morning
+    program {
+        DATE morning
+        TEXT rate
+    }
+    produce ||--o{ future : increase
+    produce {
+        VARCHAR(50) increase
+        DATE other
+    }
+    future ||--o{ owner : hot
+    future {
+        DATE hot
+        TEXT couple
+        VARCHAR(50) animal
+    }
+    owner ||--o{ must : general
+    owner {
+        VARCHAR(50) general
+        DATE appear
+    }
+    must ||--o{ not : might
+    must {
+        DATE might
+        TEXT their
+        VARCHAR(50) break
+    }
+    not ||--o{ image : for
+    not {
+        VARCHAR(50) for
+        DATE run
+    }
+    image ||--o{ new : crime
+    image {
+        DATE crime
+        TEXT image
+        VARCHAR(50) machine
+    }
+    new ||--o{ program : lead
+    new {
+        VARCHAR(50) lead
+        DATE beyond
+    }

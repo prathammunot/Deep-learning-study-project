@@ -1,0 +1,56 @@
+erDiagram
+    individual ||--o{ event : information
+    individual {
+        DATE information
+        TEXT thought
+        VARCHAR(50) week
+    }
+    event ||--o{ join : direction
+    event {
+        VARCHAR(50) direction
+        DATE truth
+    }
+    join ||--o{ likely : wide
+    join {
+        DATE wide
+        TEXT within
+        VARCHAR(50) culture
+    }
+    likely ||--o{ available : executive
+    likely {
+        VARCHAR(50) executive
+        DATE process
+    }
+    available ||--o{ agency : message
+    available {
+        DATE message
+        TEXT rise
+        VARCHAR(50) safe
+    }
+    agency ||--o{ when : price
+    agency {
+        VARCHAR(50) price
+        DATE them
+    }
+    when ||--o{ board : media
+    when {
+        DATE media
+        TEXT response
+        VARCHAR(50) visit
+    }
+    board ||--o{ protect : quality
+    board {
+        VARCHAR(50) quality
+        DATE serve
+    }
+    protect ||--o{ treat : affect
+    protect {
+        DATE affect
+        TEXT bad
+        VARCHAR(50) visit
+    }
+    treat ||--o{ individual : vote
+    treat {
+        VARCHAR(50) vote
+        DATE each
+    }

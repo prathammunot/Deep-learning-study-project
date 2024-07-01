@@ -1,0 +1,34 @@
+erDiagram
+    picture ||--o{ leg : fast
+    picture {
+        DATE fast
+        TEXT large
+        VARCHAR(50) class
+    }
+    leg ||--o{ behavior : everybody
+    leg {
+        VARCHAR(50) everybody
+        DATE start
+    }
+    behavior ||--o{ read : thus
+    behavior {
+        DATE thus
+        TEXT support
+        VARCHAR(50) give
+    }
+    read ||--o{ difference : everybody
+    read {
+        VARCHAR(50) everybody
+        DATE fear
+    }
+    difference ||--o{ sit : court
+    difference {
+        DATE court
+        TEXT sign
+        VARCHAR(50) material
+    }
+    sit ||--o{ picture : girl
+    sit {
+        VARCHAR(50) girl
+        DATE family
+    }

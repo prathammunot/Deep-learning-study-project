@@ -1,0 +1,34 @@
+erDiagram
+    century ||--o{ into : agree
+    century {
+        DATE agree
+        TEXT always
+        VARCHAR(50) question
+    }
+    into ||--o{ open : inside
+    into {
+        VARCHAR(50) inside
+        DATE focus
+    }
+    open ||--o{ market : back
+    open {
+        DATE back
+        TEXT manager
+        VARCHAR(50) relationship
+    }
+    market ||--o{ interesting : use
+    market {
+        VARCHAR(50) use
+        DATE yourself
+    }
+    interesting ||--o{ save : day
+    interesting {
+        DATE day
+        TEXT hard
+        VARCHAR(50) big
+    }
+    save ||--o{ century : front
+    save {
+        VARCHAR(50) front
+        DATE not
+    }

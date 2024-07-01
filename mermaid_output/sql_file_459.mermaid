@@ -1,0 +1,56 @@
+erDiagram
+    message ||--o{ indeed : wife
+    message {
+        DATE wife
+        TEXT region
+        VARCHAR(50) claim
+    }
+    indeed ||--o{ film : PM
+    indeed {
+        VARCHAR(50) PM
+        DATE act
+    }
+    film ||--o{ top : green
+    film {
+        DATE green
+        TEXT model
+        VARCHAR(50) along
+    }
+    top ||--o{ minute : myself
+    top {
+        VARCHAR(50) myself
+        DATE agent
+    }
+    minute ||--o{ note : anyone
+    minute {
+        DATE anyone
+        TEXT bill
+        VARCHAR(50) rich
+    }
+    note ||--o{ season : media
+    note {
+        VARCHAR(50) media
+        DATE lead
+    }
+    season ||--o{ try : yes
+    season {
+        DATE yes
+        TEXT time
+        VARCHAR(50) evening
+    }
+    try ||--o{ behavior : serious
+    try {
+        VARCHAR(50) serious
+        DATE fight
+    }
+    behavior ||--o{ major : building
+    behavior {
+        DATE building
+        TEXT fast
+        VARCHAR(50) prevent
+    }
+    major ||--o{ message : face
+    major {
+        VARCHAR(50) face
+        DATE recognize
+    }

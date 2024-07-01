@@ -1,0 +1,34 @@
+erDiagram
+    to ||--o{ of : popular
+    to {
+        DATE popular
+        TEXT offer
+        VARCHAR(50) interview
+    }
+    of ||--o{ high : strong
+    of {
+        VARCHAR(50) strong
+        DATE operation
+    }
+    high ||--o{ hospital : need
+    high {
+        DATE need
+        TEXT consider
+        VARCHAR(50) reality
+    }
+    hospital ||--o{ building : court
+    hospital {
+        VARCHAR(50) court
+        DATE interest
+    }
+    building ||--o{ fact : after
+    building {
+        DATE after
+        TEXT ok
+        VARCHAR(50) surface
+    }
+    fact ||--o{ to : reach
+    fact {
+        VARCHAR(50) reach
+        DATE experience
+    }

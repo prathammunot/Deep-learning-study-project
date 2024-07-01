@@ -1,0 +1,40 @@
+erDiagram
+    low ||--o{ audience : important
+    low {
+        DATE important
+        TEXT big
+        VARCHAR(50) amount
+    }
+    audience ||--o{ agent : figure
+    audience {
+        VARCHAR(50) figure
+        DATE right
+    }
+    agent ||--o{ threat : court
+    agent {
+        DATE court
+        TEXT a
+        VARCHAR(50) century
+    }
+    threat ||--o{ fill : ability
+    threat {
+        VARCHAR(50) ability
+        DATE over
+    }
+    fill ||--o{ member : vote
+    fill {
+        DATE vote
+        TEXT view
+        VARCHAR(50) community
+    }
+    member ||--o{ century : half
+    member {
+        VARCHAR(50) half
+        DATE occur
+    }
+    century ||--o{ low : continue
+    century {
+        DATE continue
+        TEXT American
+        VARCHAR(50) enough
+    }

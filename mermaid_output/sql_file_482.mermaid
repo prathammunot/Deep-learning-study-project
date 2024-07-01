@@ -1,0 +1,45 @@
+erDiagram
+    pressure ||--o{ protect : forward
+    pressure {
+        DATE forward
+        TEXT attack
+        VARCHAR(50) say
+    }
+    protect ||--o{ worry : send
+    protect {
+        VARCHAR(50) send
+        DATE authority
+    }
+    worry ||--o{ mention : yourself
+    worry {
+        DATE yourself
+        TEXT song
+        VARCHAR(50) music
+    }
+    mention ||--o{ response : TV
+    mention {
+        VARCHAR(50) TV
+        DATE culture
+    }
+    response ||--o{ knowledge : his
+    response {
+        DATE his
+        TEXT important
+        VARCHAR(50) lot
+    }
+    knowledge ||--o{ actually : else
+    knowledge {
+        VARCHAR(50) else
+        DATE method
+    }
+    actually ||--o{ produce : support
+    actually {
+        DATE support
+        TEXT take
+        VARCHAR(50) other
+    }
+    produce ||--o{ pressure : whose
+    produce {
+        VARCHAR(50) whose
+        DATE development
+    }

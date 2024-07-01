@@ -1,0 +1,29 @@
+erDiagram
+    debate ||--o{ its : long
+    debate {
+        DATE long
+        TEXT total
+        VARCHAR(50) account
+    }
+    its ||--o{ idea : his
+    its {
+        VARCHAR(50) his
+        DATE operation
+    }
+    idea ||--o{ might : color
+    idea {
+        DATE color
+        TEXT politics
+        VARCHAR(50) however
+    }
+    might ||--o{ always : test
+    might {
+        VARCHAR(50) test
+        DATE where
+    }
+    always ||--o{ debate : possible
+    always {
+        DATE possible
+        TEXT brother
+        VARCHAR(50) purpose
+    }

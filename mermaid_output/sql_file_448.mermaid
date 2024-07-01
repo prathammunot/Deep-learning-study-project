@@ -1,0 +1,51 @@
+erDiagram
+    science ||--o{ establish : low
+    science {
+        DATE low
+        TEXT bed
+        VARCHAR(50) hit
+    }
+    establish ||--o{ or : pretty
+    establish {
+        VARCHAR(50) pretty
+        DATE main
+    }
+    or ||--o{ bar : before
+    or {
+        DATE before
+        TEXT expert
+        VARCHAR(50) big
+    }
+    bar ||--o{ soldier : pretty
+    bar {
+        VARCHAR(50) pretty
+        DATE democratic
+    }
+    soldier ||--o{ member : make
+    soldier {
+        DATE make
+        TEXT side
+        VARCHAR(50) of
+    }
+    member ||--o{ begin : listen
+    member {
+        VARCHAR(50) listen
+        DATE more
+    }
+    begin ||--o{ begin : ask
+    begin {
+        DATE ask
+        TEXT force
+        VARCHAR(50) budget
+    }
+    begin ||--o{ firm : time
+    begin {
+        VARCHAR(50) time
+        DATE support
+    }
+    firm ||--o{ science : strategy
+    firm {
+        DATE strategy
+        TEXT social
+        VARCHAR(50) region
+    }

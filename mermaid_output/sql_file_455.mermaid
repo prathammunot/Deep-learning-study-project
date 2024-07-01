@@ -1,0 +1,40 @@
+erDiagram
+    military ||--o{ it : item
+    military {
+        DATE item
+        TEXT raise
+        VARCHAR(50) somebody
+    }
+    it ||--o{ history : director
+    it {
+        VARCHAR(50) director
+        DATE tell
+    }
+    history ||--o{ message : summer
+    history {
+        DATE summer
+        TEXT present
+        VARCHAR(50) environment
+    }
+    message ||--o{ land : game
+    message {
+        VARCHAR(50) game
+        DATE security
+    }
+    land ||--o{ only : daughter
+    land {
+        DATE daughter
+        TEXT suffer
+        VARCHAR(50) agent
+    }
+    only ||--o{ word : accept
+    only {
+        VARCHAR(50) accept
+        DATE worker
+    }
+    word ||--o{ military : themselves
+    word {
+        DATE themselves
+        TEXT responsibility
+        VARCHAR(50) since
+    }
