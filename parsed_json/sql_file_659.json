@@ -1,0 +1,198 @@
+[
+    {
+        "name": "base",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hold",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "determine"
+            }
+        ]
+    },
+    {
+        "name": "determine",
+        "columns": [
+            {
+                "name": "worry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "worry",
+        "foreign_keys": [
+            {
+                "column": "worry",
+                "references": "party"
+            }
+        ]
+    },
+    {
+        "name": "party",
+        "columns": [
+            {
+                "name": "various",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "easy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "well"
+            }
+        ]
+    },
+    {
+        "name": "well",
+        "columns": [
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "myself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mission",
+        "foreign_keys": [
+            {
+                "column": "mission",
+                "references": "prepare"
+            }
+        ]
+    },
+    {
+        "name": "prepare",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "any"
+            }
+        ]
+    },
+    {
+        "name": "any",
+        "columns": [
+            {
+                "name": "second",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "on"
+            }
+        ]
+    },
+    {
+        "name": "on",
+        "columns": [
+            {
+                "name": "between",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "between",
+        "foreign_keys": [
+            {
+                "column": "between",
+                "references": "its"
+            }
+        ]
+    },
+    {
+        "name": "its",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "base"
+            }
+        ]
+    }
+]

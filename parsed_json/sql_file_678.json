@@ -1,0 +1,225 @@
+[
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "push",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "executive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "push",
+        "foreign_keys": [
+            {
+                "column": "push",
+                "references": "floor"
+            }
+        ]
+    },
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "same",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "same",
+        "foreign_keys": [
+            {
+                "column": "same",
+                "references": "away"
+            }
+        ]
+    },
+    {
+        "name": "away",
+        "columns": [
+            {
+                "name": "successful",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "successful",
+        "foreign_keys": [
+            {
+                "column": "successful",
+                "references": "somebody"
+            }
+        ]
+    },
+    {
+        "name": "somebody",
+        "columns": [
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "practice",
+        "foreign_keys": [
+            {
+                "column": "practice",
+                "references": "difficult"
+            }
+        ]
+    },
+    {
+        "name": "difficult",
+        "columns": [
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "present"
+            }
+        ]
+    },
+    {
+        "name": "present",
+        "columns": [
+            {
+                "name": "old",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "old",
+        "foreign_keys": [
+            {
+                "column": "old",
+                "references": "inside"
+            }
+        ]
+    },
+    {
+        "name": "inside",
+        "columns": [
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "best",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "improve",
+        "foreign_keys": [
+            {
+                "column": "improve",
+                "references": "crime"
+            }
+        ]
+    },
+    {
+        "name": "crime",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "finally"
+            }
+        ]
+    },
+    {
+        "name": "finally",
+        "columns": [
+            {
+                "name": "room",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "up",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "room",
+        "foreign_keys": [
+            {
+                "column": "room",
+                "references": "also"
+            }
+        ]
+    }
+]

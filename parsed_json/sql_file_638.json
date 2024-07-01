@@ -1,0 +1,144 @@
+[
+    {
+        "name": "forget",
+        "columns": [
+            {
+                "name": "might",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "might",
+        "foreign_keys": [
+            {
+                "column": "might",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "American",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "American",
+        "foreign_keys": [
+            {
+                "column": "American",
+                "references": "against"
+            }
+        ]
+    },
+    {
+        "name": "against",
+        "columns": [
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reality",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "child",
+        "foreign_keys": [
+            {
+                "column": "child",
+                "references": "hundred"
+            }
+        ]
+    },
+    {
+        "name": "hundred",
+        "columns": [
+            {
+                "name": "down",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "down",
+        "foreign_keys": [
+            {
+                "column": "down",
+                "references": "east"
+            }
+        ]
+    },
+    {
+        "name": "east",
+        "columns": [
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "behind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "oil",
+        "foreign_keys": [
+            {
+                "column": "oil",
+                "references": "part"
+            }
+        ]
+    },
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "special",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "foreign",
+        "foreign_keys": [
+            {
+                "column": "foreign",
+                "references": "forget"
+            }
+        ]
+    }
+]

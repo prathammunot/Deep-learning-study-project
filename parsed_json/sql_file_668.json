@@ -1,0 +1,296 @@
+[
+    {
+        "name": "prevent",
+        "columns": [
+            {
+                "name": "down",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "down",
+        "foreign_keys": [
+            {
+                "column": "down",
+                "references": "actually"
+            }
+        ]
+    },
+    {
+        "name": "actually",
+        "columns": [
+            {
+                "name": "church",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "church",
+        "foreign_keys": [
+            {
+                "column": "church",
+                "references": "bit"
+            }
+        ]
+    },
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "degree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "argue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "later",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "degree",
+        "foreign_keys": [
+            {
+                "column": "degree",
+                "references": "central"
+            }
+        ]
+    },
+    {
+        "name": "central",
+        "columns": [
+            {
+                "name": "simple",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simple",
+        "foreign_keys": [
+            {
+                "column": "simple",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "father"
+            }
+        ]
+    },
+    {
+        "name": "father",
+        "columns": [
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "military",
+        "foreign_keys": [
+            {
+                "column": "military",
+                "references": "especially"
+            }
+        ]
+    },
+    {
+        "name": "especially",
+        "columns": [
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "become",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "similar"
+            }
+        ]
+    },
+    {
+        "name": "similar",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "leader"
+            }
+        ]
+    },
+    {
+        "name": "leader",
+        "columns": [
+            {
+                "name": "memory",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "memory",
+        "foreign_keys": [
+            {
+                "column": "memory",
+                "references": "free"
+            }
+        ]
+    },
+    {
+        "name": "free",
+        "columns": [
+            {
+                "name": "left",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "say",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "left",
+        "foreign_keys": [
+            {
+                "column": "left",
+                "references": "collection"
+            }
+        ]
+    },
+    {
+        "name": "collection",
+        "columns": [
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "have",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "easy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "campaign",
+        "foreign_keys": [
+            {
+                "column": "campaign",
+                "references": "husband"
+            }
+        ]
+    },
+    {
+        "name": "husband",
+        "columns": [
+            {
+                "name": "team",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Mrs",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "team",
+        "foreign_keys": [
+            {
+                "column": "team",
+                "references": "prevent"
+            }
+        ]
+    }
+]

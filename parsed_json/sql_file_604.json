@@ -1,0 +1,176 @@
+[
+    {
+        "name": "level",
+        "columns": [
+            {
+                "name": "send",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "send",
+        "foreign_keys": [
+            {
+                "column": "send",
+                "references": "whatever"
+            }
+        ]
+    },
+    {
+        "name": "whatever",
+        "columns": [
+            {
+                "name": "situation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "situation",
+        "foreign_keys": [
+            {
+                "column": "situation",
+                "references": "consumer"
+            }
+        ]
+    },
+    {
+        "name": "consumer",
+        "columns": [
+            {
+                "name": "central",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "behavior"
+            }
+        ]
+    },
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "relationship",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deep",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "relationship",
+        "foreign_keys": [
+            {
+                "column": "relationship",
+                "references": "wind"
+            }
+        ]
+    },
+    {
+        "name": "wind",
+        "columns": [
+            {
+                "name": "present",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "special",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "present",
+        "foreign_keys": [
+            {
+                "column": "present",
+                "references": "reduce"
+            }
+        ]
+    },
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "or",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "during",
+        "foreign_keys": [
+            {
+                "column": "during",
+                "references": "anyone"
+            }
+        ]
+    },
+    {
+        "name": "anyone",
+        "columns": [
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "resource",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "level"
+            }
+        ]
+    }
+]

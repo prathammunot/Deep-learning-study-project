@@ -1,0 +1,274 @@
+[
+    {
+        "name": "east",
+        "columns": [
+            {
+                "name": "type",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "type",
+        "foreign_keys": [
+            {
+                "column": "type",
+                "references": "foot"
+            }
+        ]
+    },
+    {
+        "name": "foot",
+        "columns": [
+            {
+                "name": "institution",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "institution",
+        "foreign_keys": [
+            {
+                "column": "institution",
+                "references": "hotel"
+            }
+        ]
+    },
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "try",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "try",
+        "foreign_keys": [
+            {
+                "column": "try",
+                "references": "old"
+            }
+        ]
+    },
+    {
+        "name": "old",
+        "columns": [
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dinner",
+        "foreign_keys": [
+            {
+                "column": "dinner",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "court",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "court",
+        "foreign_keys": [
+            {
+                "column": "court",
+                "references": "run"
+            }
+        ]
+    },
+    {
+        "name": "run",
+        "columns": [
+            {
+                "name": "want",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "want",
+        "foreign_keys": [
+            {
+                "column": "want",
+                "references": "product"
+            }
+        ]
+    },
+    {
+        "name": "product",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "share"
+            }
+        ]
+    },
+    {
+        "name": "share",
+        "columns": [
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "life",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "none",
+        "foreign_keys": [
+            {
+                "column": "none",
+                "references": "rate"
+            }
+        ]
+    },
+    {
+        "name": "rate",
+        "columns": [
+            {
+                "name": "sit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sit",
+        "foreign_keys": [
+            {
+                "column": "sit",
+                "references": "into"
+            }
+        ]
+    },
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "certainly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "window",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certainly",
+        "foreign_keys": [
+            {
+                "column": "certainly",
+                "references": "east"
+            }
+        ]
+    }
+]

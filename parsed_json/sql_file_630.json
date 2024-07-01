@@ -1,0 +1,247 @@
+[
+    {
+        "name": "understand",
+        "columns": [
+            {
+                "name": "them",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "up",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "them",
+        "foreign_keys": [
+            {
+                "column": "them",
+                "references": "point"
+            }
+        ]
+    },
+    {
+        "name": "point",
+        "columns": [
+            {
+                "name": "research",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "research",
+        "foreign_keys": [
+            {
+                "column": "research",
+                "references": "focus"
+            }
+        ]
+    },
+    {
+        "name": "focus",
+        "columns": [
+            {
+                "name": "true",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "true",
+        "foreign_keys": [
+            {
+                "column": "true",
+                "references": "sell"
+            }
+        ]
+    },
+    {
+        "name": "sell",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "born"
+            }
+        ]
+    },
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whose",
+        "foreign_keys": [
+            {
+                "column": "whose",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "make",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "music",
+        "foreign_keys": [
+            {
+                "column": "music",
+                "references": "sister"
+            }
+        ]
+    },
+    {
+        "name": "sister",
+        "columns": [
+            {
+                "name": "voice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "system",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "voice",
+        "foreign_keys": [
+            {
+                "column": "voice",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "other",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "other",
+        "foreign_keys": [
+            {
+                "column": "other",
+                "references": "nation"
+            }
+        ]
+    },
+    {
+        "name": "nation",
+        "columns": [
+            {
+                "name": "way",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "weight"
+            }
+        ]
+    },
+    {
+        "name": "weight",
+        "columns": [
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stock",
+        "foreign_keys": [
+            {
+                "column": "stock",
+                "references": "understand"
+            }
+        ]
+    }
+]

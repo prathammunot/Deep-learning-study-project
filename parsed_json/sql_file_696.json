@@ -1,0 +1,274 @@
+[
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "bit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "care",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bit",
+        "foreign_keys": [
+            {
+                "column": "bit",
+                "references": "probably"
+            }
+        ]
+    },
+    {
+        "name": "probably",
+        "columns": [
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "short"
+            }
+        ]
+    },
+    {
+        "name": "short",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "war"
+            }
+        ]
+    },
+    {
+        "name": "war",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "worry"
+            }
+        ]
+    },
+    {
+        "name": "worry",
+        "columns": [
+            {
+                "name": "within",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "within",
+        "foreign_keys": [
+            {
+                "column": "within",
+                "references": "beat"
+            }
+        ]
+    },
+    {
+        "name": "beat",
+        "columns": [
+            {
+                "name": "away",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "value",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "away",
+        "foreign_keys": [
+            {
+                "column": "away",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "woman",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "he"
+            }
+        ]
+    },
+    {
+        "name": "he",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "TV",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "TV",
+        "foreign_keys": [
+            {
+                "column": "TV",
+                "references": "there"
+            }
+        ]
+    },
+    {
+        "name": "there",
+        "columns": [
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "PM",
+        "foreign_keys": [
+            {
+                "column": "PM",
+                "references": "soldier"
+            }
+        ]
+    },
+    {
+        "name": "soldier",
+        "columns": [
+            {
+                "name": "help",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leave",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "help",
+        "foreign_keys": [
+            {
+                "column": "help",
+                "references": "other"
+            }
+        ]
+    }
+]

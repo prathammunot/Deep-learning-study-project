@@ -1,0 +1,176 @@
+[
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "somebody",
+        "foreign_keys": [
+            {
+                "column": "somebody",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "either",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "either",
+        "foreign_keys": [
+            {
+                "column": "either",
+                "references": "until"
+            }
+        ]
+    },
+    {
+        "name": "until",
+        "columns": [
+            {
+                "name": "arm",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "science",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "arm",
+        "foreign_keys": [
+            {
+                "column": "arm",
+                "references": "investment"
+            }
+        ]
+    },
+    {
+        "name": "investment",
+        "columns": [
+            {
+                "name": "official",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "official",
+        "foreign_keys": [
+            {
+                "column": "official",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "attention",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "husband",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attention",
+        "foreign_keys": [
+            {
+                "column": "attention",
+                "references": "away"
+            }
+        ]
+    },
+    {
+        "name": "away",
+        "columns": [
+            {
+                "name": "her",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "her",
+        "foreign_keys": [
+            {
+                "column": "her",
+                "references": "husband"
+            }
+        ]
+    },
+    {
+        "name": "husband",
+        "columns": [
+            {
+                "name": "either",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "either",
+        "foreign_keys": [
+            {
+                "column": "either",
+                "references": "different"
+            }
+        ]
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "doctor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "doctor",
+        "foreign_keys": [
+            {
+                "column": "doctor",
+                "references": "right"
+            }
+        ]
+    },
+    {
+        "name": "right",
+        "columns": [
+            {
+                "name": "last",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "last",
+        "foreign_keys": [
+            {
+                "column": "last",
+                "references": "option"
+            }
+        ]
+    },
+    {
+        "name": "option",
+        "columns": [
+            {
+                "name": "high",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "another",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "score"
+            }
+        ]
+    },
+    {
+        "name": "score",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hour",
+        "foreign_keys": [
+            {
+                "column": "hour",
+                "references": "child"
+            }
+        ]
+    },
+    {
+        "name": "child",
+        "columns": [
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "he",
+        "foreign_keys": [
+            {
+                "column": "he",
+                "references": "nature"
+            }
+        ]
+    }
+]

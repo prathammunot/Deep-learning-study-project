@@ -1,0 +1,149 @@
+[
+    {
+        "name": "bring",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "bag"
+            }
+        ]
+    },
+    {
+        "name": "bag",
+        "columns": [
+            {
+                "name": "recognize",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arrive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recognize",
+        "foreign_keys": [
+            {
+                "column": "recognize",
+                "references": "whom"
+            }
+        ]
+    },
+    {
+        "name": "whom",
+        "columns": [
+            {
+                "name": "discussion",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "discussion",
+        "foreign_keys": [
+            {
+                "column": "discussion",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "hit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hit",
+        "foreign_keys": [
+            {
+                "column": "hit",
+                "references": "carry"
+            }
+        ]
+    },
+    {
+        "name": "carry",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wife",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "upon"
+            }
+        ]
+    },
+    {
+        "name": "upon",
+        "columns": [
+            {
+                "name": "population",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "force",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "population",
+        "foreign_keys": [
+            {
+                "column": "population",
+                "references": "bring"
+            }
+        ]
+    }
+]

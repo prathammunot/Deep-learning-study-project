@@ -1,0 +1,225 @@
+[
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "whether",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "growth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whether",
+        "foreign_keys": [
+            {
+                "column": "whether",
+                "references": "color"
+            }
+        ]
+    },
+    {
+        "name": "color",
+        "columns": [
+            {
+                "name": "window",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "window",
+        "foreign_keys": [
+            {
+                "column": "window",
+                "references": "free"
+            }
+        ]
+    },
+    {
+        "name": "free",
+        "columns": [
+            {
+                "name": "want",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "want",
+        "foreign_keys": [
+            {
+                "column": "want",
+                "references": "seat"
+            }
+        ]
+    },
+    {
+        "name": "seat",
+        "columns": [
+            {
+                "name": "could",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "challenge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "could",
+        "foreign_keys": [
+            {
+                "column": "could",
+                "references": "low"
+            }
+        ]
+    },
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "focus"
+            }
+        ]
+    },
+    {
+        "name": "focus",
+        "columns": [
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kitchen",
+        "foreign_keys": [
+            {
+                "column": "kitchen",
+                "references": "range"
+            }
+        ]
+    },
+    {
+        "name": "range",
+        "columns": [
+            {
+                "name": "discussion",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "strategy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "discussion",
+        "foreign_keys": [
+            {
+                "column": "discussion",
+                "references": "add"
+            }
+        ]
+    },
+    {
+        "name": "add",
+        "columns": [
+            {
+                "name": "alone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "alone",
+        "foreign_keys": [
+            {
+                "column": "alone",
+                "references": "her"
+            }
+        ]
+    },
+    {
+        "name": "her",
+        "columns": [
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "very"
+            }
+        ]
+    }
+]

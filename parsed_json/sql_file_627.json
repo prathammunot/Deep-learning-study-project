@@ -1,0 +1,247 @@
+[
+    {
+        "name": "position",
+        "columns": [
+            {
+                "name": "miss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "time",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "miss",
+        "foreign_keys": [
+            {
+                "column": "miss",
+                "references": "machine"
+            }
+        ]
+    },
+    {
+        "name": "machine",
+        "columns": [
+            {
+                "name": "stop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stop",
+        "foreign_keys": [
+            {
+                "column": "stop",
+                "references": "line"
+            }
+        ]
+    },
+    {
+        "name": "line",
+        "columns": [
+            {
+                "name": "deep",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "deep",
+        "foreign_keys": [
+            {
+                "column": "deep",
+                "references": "school"
+            }
+        ]
+    },
+    {
+        "name": "school",
+        "columns": [
+            {
+                "name": "board",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "board",
+        "foreign_keys": [
+            {
+                "column": "board",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "organization",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "organization",
+        "foreign_keys": [
+            {
+                "column": "organization",
+                "references": "friend"
+            }
+        ]
+    },
+    {
+        "name": "friend",
+        "columns": [
+            {
+                "name": "benefit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "benefit",
+        "foreign_keys": [
+            {
+                "column": "benefit",
+                "references": "prepare"
+            }
+        ]
+    },
+    {
+        "name": "prepare",
+        "columns": [
+            {
+                "name": "body",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "decide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decide",
+        "foreign_keys": [
+            {
+                "column": "decide",
+                "references": "name"
+            }
+        ]
+    },
+    {
+        "name": "name",
+        "columns": [
+            {
+                "name": "beautiful",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "value",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beautiful",
+        "foreign_keys": [
+            {
+                "column": "beautiful",
+                "references": "difficult"
+            }
+        ]
+    },
+    {
+        "name": "difficult",
+        "columns": [
+            {
+                "name": "point",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "scene",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "point",
+        "foreign_keys": [
+            {
+                "column": "point",
+                "references": "position"
+            }
+        ]
+    }
+]

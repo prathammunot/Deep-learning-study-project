@@ -1,0 +1,176 @@
+[
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "board",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "current",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "board",
+        "foreign_keys": [
+            {
+                "column": "board",
+                "references": "challenge"
+            }
+        ]
+    },
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "region",
+        "foreign_keys": [
+            {
+                "column": "region",
+                "references": "we"
+            }
+        ]
+    },
+    {
+        "name": "we",
+        "columns": [
+            {
+                "name": "her",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "her",
+        "foreign_keys": [
+            {
+                "column": "her",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "bag",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "remain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bag",
+        "foreign_keys": [
+            {
+                "column": "bag",
+                "references": "popular"
+            }
+        ]
+    },
+    {
+        "name": "popular",
+        "columns": [
+            {
+                "name": "education",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "education",
+        "foreign_keys": [
+            {
+                "column": "education",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "learn",
+        "foreign_keys": [
+            {
+                "column": "learn",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "accept",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "accept",
+        "foreign_keys": [
+            {
+                "column": "accept",
+                "references": "floor"
+            }
+        ]
+    }
+]

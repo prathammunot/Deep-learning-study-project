@@ -1,0 +1,176 @@
+[
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "alone"
+            }
+        ]
+    },
+    {
+        "name": "alone",
+        "columns": [
+            {
+                "name": "control",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "control",
+        "foreign_keys": [
+            {
+                "column": "control",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "find",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "enough",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "find",
+        "foreign_keys": [
+            {
+                "column": "find",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "adult",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "adult",
+        "foreign_keys": [
+            {
+                "column": "adult",
+                "references": "peace"
+            }
+        ]
+    },
+    {
+        "name": "peace",
+        "columns": [
+            {
+                "name": "soon",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "soon",
+        "foreign_keys": [
+            {
+                "column": "soon",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "arrive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "arrive",
+        "foreign_keys": [
+            {
+                "column": "arrive",
+                "references": "way"
+            }
+        ]
+    },
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "situation"
+            }
+        ]
+    }
+]

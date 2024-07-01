@@ -1,0 +1,149 @@
+[
+    {
+        "name": "large",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "option"
+            }
+        ]
+    },
+    {
+        "name": "option",
+        "columns": [
+            {
+                "name": "we",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "we",
+        "foreign_keys": [
+            {
+                "column": "we",
+                "references": "environmental"
+            }
+        ]
+    },
+    {
+        "name": "environmental",
+        "columns": [
+            {
+                "name": "very",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "very",
+        "foreign_keys": [
+            {
+                "column": "very",
+                "references": "technology"
+            }
+        ]
+    },
+    {
+        "name": "technology",
+        "columns": [
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "notice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "although"
+            }
+        ]
+    },
+    {
+        "name": "although",
+        "columns": [
+            {
+                "name": "among",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "step",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "among",
+        "foreign_keys": [
+            {
+                "column": "among",
+                "references": "Mr"
+            }
+        ]
+    },
+    {
+        "name": "Mr",
+        "columns": [
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sell",
+        "foreign_keys": [
+            {
+                "column": "sell",
+                "references": "large"
+            }
+        ]
+    }
+]

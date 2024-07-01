@@ -1,0 +1,149 @@
+[
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "at",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "at",
+        "foreign_keys": [
+            {
+                "column": "at",
+                "references": "become"
+            }
+        ]
+    },
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "alone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "themselves",
+        "foreign_keys": [
+            {
+                "column": "themselves",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "especially",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "especially",
+        "foreign_keys": [
+            {
+                "column": "especially",
+                "references": "agent"
+            }
+        ]
+    },
+    {
+        "name": "agent",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pick",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "notice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "nothing",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "majority",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nothing",
+        "foreign_keys": [
+            {
+                "column": "nothing",
+                "references": "media"
+            }
+        ]
+    }
+]

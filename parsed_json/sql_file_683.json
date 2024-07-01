@@ -1,0 +1,127 @@
+[
+    {
+        "name": "must",
+        "columns": [
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "statement"
+            }
+        ]
+    },
+    {
+        "name": "statement",
+        "columns": [
+            {
+                "name": "food",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "food",
+        "foreign_keys": [
+            {
+                "column": "food",
+                "references": "focus"
+            }
+        ]
+    },
+    {
+        "name": "focus",
+        "columns": [
+            {
+                "name": "degree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "evidence",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "degree",
+        "foreign_keys": [
+            {
+                "column": "degree",
+                "references": "trip"
+            }
+        ]
+    },
+    {
+        "name": "trip",
+        "columns": [
+            {
+                "name": "write",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pull",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "write",
+        "foreign_keys": [
+            {
+                "column": "write",
+                "references": "daughter"
+            }
+        ]
+    },
+    {
+        "name": "daughter",
+        "columns": [
+            {
+                "name": "investment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "investment",
+        "foreign_keys": [
+            {
+                "column": "investment",
+                "references": "must"
+            }
+        ]
+    }
+]

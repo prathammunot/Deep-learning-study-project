@@ -1,0 +1,198 @@
+[
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "whether"
+            }
+        ]
+    },
+    {
+        "name": "whether",
+        "columns": [
+            {
+                "name": "heart",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "heart",
+        "foreign_keys": [
+            {
+                "column": "heart",
+                "references": "radio"
+            }
+        ]
+    },
+    {
+        "name": "radio",
+        "columns": [
+            {
+                "name": "laugh",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "laugh",
+        "foreign_keys": [
+            {
+                "column": "laugh",
+                "references": "my"
+            }
+        ]
+    },
+    {
+        "name": "my",
+        "columns": [
+            {
+                "name": "cup",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cup",
+        "foreign_keys": [
+            {
+                "column": "cup",
+                "references": "rate"
+            }
+        ]
+    },
+    {
+        "name": "rate",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "arm",
+        "foreign_keys": [
+            {
+                "column": "arm",
+                "references": "such"
+            }
+        ]
+    },
+    {
+        "name": "such",
+        "columns": [
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "son"
+            }
+        ]
+    },
+    {
+        "name": "son",
+        "columns": [
+            {
+                "name": "score",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "score",
+        "foreign_keys": [
+            {
+                "column": "score",
+                "references": "all"
+            }
+        ]
+    }
+]

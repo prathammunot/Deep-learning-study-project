@@ -1,0 +1,176 @@
+[
+    {
+        "name": "may",
+        "columns": [
+            {
+                "name": "pick",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pick",
+        "foreign_keys": [
+            {
+                "column": "pick",
+                "references": "too"
+            }
+        ]
+    },
+    {
+        "name": "too",
+        "columns": [
+            {
+                "name": "left",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lot",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "left",
+        "foreign_keys": [
+            {
+                "column": "left",
+                "references": "hour"
+            }
+        ]
+    },
+    {
+        "name": "hour",
+        "columns": [
+            {
+                "name": "animal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "animal",
+        "foreign_keys": [
+            {
+                "column": "animal",
+                "references": "mission"
+            }
+        ]
+    },
+    {
+        "name": "mission",
+        "columns": [
+            {
+                "name": "history",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "play",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "play",
+        "foreign_keys": [
+            {
+                "column": "play",
+                "references": "mother"
+            }
+        ]
+    },
+    {
+        "name": "mother",
+        "columns": [
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "result"
+            }
+        ]
+    },
+    {
+        "name": "result",
+        "columns": [
+            {
+                "name": "program",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "program",
+        "foreign_keys": [
+            {
+                "column": "program",
+                "references": "may"
+            }
+        ]
+    }
+]

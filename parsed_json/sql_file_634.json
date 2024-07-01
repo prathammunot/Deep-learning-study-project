@@ -1,0 +1,149 @@
+[
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "husband",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "husband",
+        "foreign_keys": [
+            {
+                "column": "husband",
+                "references": "any"
+            }
+        ]
+    },
+    {
+        "name": "any",
+        "columns": [
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "region",
+        "foreign_keys": [
+            {
+                "column": "region",
+                "references": "build"
+            }
+        ]
+    },
+    {
+        "name": "build",
+        "columns": [
+            {
+                "name": "speech",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "speech",
+        "foreign_keys": [
+            {
+                "column": "speech",
+                "references": "bit"
+            }
+        ]
+    },
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "mother"
+            }
+        ]
+    },
+    {
+        "name": "mother",
+        "columns": [
+            {
+                "name": "west",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "west",
+        "foreign_keys": [
+            {
+                "column": "west",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "network"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "tax",
+        "columns": [
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cultural",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "talk",
+        "foreign_keys": [
+            {
+                "column": "talk",
+                "references": "relationship"
+            }
+        ]
+    },
+    {
+        "name": "relationship",
+        "columns": [
+            {
+                "name": "eight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "eight",
+        "foreign_keys": [
+            {
+                "column": "eight",
+                "references": "company"
+            }
+        ]
+    },
+    {
+        "name": "company",
+        "columns": [
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "this",
+        "foreign_keys": [
+            {
+                "column": "this",
+                "references": "evening"
+            }
+        ]
+    },
+    {
+        "name": "evening",
+        "columns": [
+            {
+                "name": "speak",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "speak",
+        "foreign_keys": [
+            {
+                "column": "speak",
+                "references": "world"
+            }
+        ]
+    },
+    {
+        "name": "world",
+        "columns": [
+            {
+                "name": "power",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "service",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "power",
+        "foreign_keys": [
+            {
+                "column": "power",
+                "references": "itself"
+            }
+        ]
+    },
+    {
+        "name": "itself",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "tough"
+            }
+        ]
+    },
+    {
+        "name": "tough",
+        "columns": [
+            {
+                "name": "central",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "have",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "tax"
+            }
+        ]
+    }
+]

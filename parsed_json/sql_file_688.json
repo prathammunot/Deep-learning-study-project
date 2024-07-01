@@ -1,0 +1,296 @@
+[
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "he",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "he",
+        "foreign_keys": [
+            {
+                "column": "he",
+                "references": "him"
+            }
+        ]
+    },
+    {
+        "name": "him",
+        "columns": [
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "policy",
+        "foreign_keys": [
+            {
+                "column": "policy",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "organization",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "subject",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "organization",
+        "foreign_keys": [
+            {
+                "column": "organization",
+                "references": "PM"
+            }
+        ]
+    },
+    {
+        "name": "PM",
+        "columns": [
+            {
+                "name": "experience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "experience",
+        "foreign_keys": [
+            {
+                "column": "experience",
+                "references": "kind"
+            }
+        ]
+    },
+    {
+        "name": "kind",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "able"
+            }
+        ]
+    },
+    {
+        "name": "able",
+        "columns": [
+            {
+                "name": "at",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "at",
+        "foreign_keys": [
+            {
+                "column": "at",
+                "references": "manage"
+            }
+        ]
+    },
+    {
+        "name": "manage",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "you"
+            }
+        ]
+    },
+    {
+        "name": "you",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "should"
+            }
+        ]
+    },
+    {
+        "name": "should",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "most",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "dark"
+            }
+        ]
+    },
+    {
+        "name": "dark",
+        "columns": [
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dinner",
+        "foreign_keys": [
+            {
+                "column": "dinner",
+                "references": "check"
+            }
+        ]
+    },
+    {
+        "name": "check",
+        "columns": [
+            {
+                "name": "director",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "director",
+        "foreign_keys": [
+            {
+                "column": "director",
+                "references": "compare"
+            }
+        ]
+    },
+    {
+        "name": "compare",
+        "columns": [
+            {
+                "name": "only",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "only",
+        "foreign_keys": [
+            {
+                "column": "only",
+                "references": "each"
+            }
+        ]
+    }
+]

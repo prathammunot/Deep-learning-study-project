@@ -1,0 +1,247 @@
+[
+    {
+        "name": "new",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "compare",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "heart"
+            }
+        ]
+    },
+    {
+        "name": "heart",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "in"
+            }
+        ]
+    },
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "owner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "owner",
+        "foreign_keys": [
+            {
+                "column": "owner",
+                "references": "economy"
+            }
+        ]
+    },
+    {
+        "name": "economy",
+        "columns": [
+            {
+                "name": "trade",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trade",
+        "foreign_keys": [
+            {
+                "column": "trade",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "speech"
+            }
+        ]
+    },
+    {
+        "name": "speech",
+        "columns": [
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "across",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "policy",
+        "foreign_keys": [
+            {
+                "column": "policy",
+                "references": "religious"
+            }
+        ]
+    },
+    {
+        "name": "religious",
+        "columns": [
+            {
+                "name": "enjoy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enjoy",
+        "foreign_keys": [
+            {
+                "column": "enjoy",
+                "references": "year"
+            }
+        ]
+    },
+    {
+        "name": "year",
+        "columns": [
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "life",
+        "foreign_keys": [
+            {
+                "column": "life",
+                "references": "apply"
+            }
+        ]
+    },
+    {
+        "name": "apply",
+        "columns": [
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "somebody",
+        "foreign_keys": [
+            {
+                "column": "somebody",
+                "references": "recent"
+            }
+        ]
+    },
+    {
+        "name": "recent",
+        "columns": [
+            {
+                "name": "general",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "general",
+        "foreign_keys": [
+            {
+                "column": "general",
+                "references": "new"
+            }
+        ]
+    }
+]

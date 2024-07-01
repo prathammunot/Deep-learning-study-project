@@ -1,0 +1,296 @@
+[
+    {
+        "name": "father",
+        "columns": [
+            {
+                "name": "within",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "within",
+        "foreign_keys": [
+            {
+                "column": "within",
+                "references": "economic"
+            }
+        ]
+    },
+    {
+        "name": "economic",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "anyone"
+            }
+        ]
+    },
+    {
+        "name": "anyone",
+        "columns": [
+            {
+                "name": "take",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "take",
+        "foreign_keys": [
+            {
+                "column": "take",
+                "references": "see"
+            }
+        ]
+    },
+    {
+        "name": "see",
+        "columns": [
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "health",
+        "foreign_keys": [
+            {
+                "column": "health",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "condition",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "condition",
+        "foreign_keys": [
+            {
+                "column": "condition",
+                "references": "fish"
+            }
+        ]
+    },
+    {
+        "name": "fish",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "baby"
+            }
+        ]
+    },
+    {
+        "name": "baby",
+        "columns": [
+            {
+                "name": "understand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "understand",
+        "foreign_keys": [
+            {
+                "column": "understand",
+                "references": "page"
+            }
+        ]
+    },
+    {
+        "name": "page",
+        "columns": [
+            {
+                "name": "your",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "store",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "least",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "store",
+        "foreign_keys": [
+            {
+                "column": "store",
+                "references": "they"
+            }
+        ]
+    },
+    {
+        "name": "they",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "significant"
+            }
+        ]
+    },
+    {
+        "name": "significant",
+        "columns": [
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "year",
+        "foreign_keys": [
+            {
+                "column": "year",
+                "references": "series"
+            }
+        ]
+    },
+    {
+        "name": "series",
+        "columns": [
+            {
+                "name": "over",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "father"
+            }
+        ]
+    }
+]

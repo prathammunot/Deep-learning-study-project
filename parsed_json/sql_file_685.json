@@ -1,0 +1,127 @@
+[
+    {
+        "name": "participant",
+        "columns": [
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "artist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suggest",
+        "foreign_keys": [
+            {
+                "column": "suggest",
+                "references": "world"
+            }
+        ]
+    },
+    {
+        "name": "world",
+        "columns": [
+            {
+                "name": "season",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "site",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "season",
+        "foreign_keys": [
+            {
+                "column": "season",
+                "references": "activity"
+            }
+        ]
+    },
+    {
+        "name": "activity",
+        "columns": [
+            {
+                "name": "item",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "only",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "item",
+        "foreign_keys": [
+            {
+                "column": "item",
+                "references": "significant"
+            }
+        ]
+    },
+    {
+        "name": "significant",
+        "columns": [
+            {
+                "name": "scientist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quality",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scientist",
+        "foreign_keys": [
+            {
+                "column": "scientist",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "modern",
+        "foreign_keys": [
+            {
+                "column": "modern",
+                "references": "participant"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "have",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "have",
+        "foreign_keys": [
+            {
+                "column": "have",
+                "references": "specific"
+            }
+        ]
+    },
+    {
+        "name": "specific",
+        "columns": [
+            {
+                "name": "structure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "structure",
+        "foreign_keys": [
+            {
+                "column": "structure",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "work",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "work",
+        "foreign_keys": [
+            {
+                "column": "work",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "for",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "current"
+            }
+        ]
+    },
+    {
+        "name": "current",
+        "columns": [
+            {
+                "name": "husband",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "husband",
+        "foreign_keys": [
+            {
+                "column": "husband",
+                "references": "heavy"
+            }
+        ]
+    },
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "purpose"
+            }
+        ]
+    },
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "doctor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "doctor",
+        "foreign_keys": [
+            {
+                "column": "doctor",
+                "references": "business"
+            }
+        ]
+    },
+    {
+        "name": "business",
+        "columns": [
+            {
+                "name": "pattern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pattern",
+        "foreign_keys": [
+            {
+                "column": "pattern",
+                "references": "begin"
+            }
+        ]
+    },
+    {
+        "name": "begin",
+        "columns": [
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "color",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "the",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "with"
+            }
+        ]
+    }
+]

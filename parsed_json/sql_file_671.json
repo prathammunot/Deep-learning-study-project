@@ -1,0 +1,176 @@
+[
+    {
+        "name": "certainly",
+        "columns": [
+            {
+                "name": "kind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "join",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kind",
+        "foreign_keys": [
+            {
+                "column": "kind",
+                "references": "notice"
+            }
+        ]
+    },
+    {
+        "name": "notice",
+        "columns": [
+            {
+                "name": "vote",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "vote",
+        "foreign_keys": [
+            {
+                "column": "vote",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "watch",
+        "foreign_keys": [
+            {
+                "column": "watch",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behavior",
+        "foreign_keys": [
+            {
+                "column": "behavior",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "instead"
+            }
+        ]
+    },
+    {
+        "name": "instead",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "interesting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "color",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whose",
+        "foreign_keys": [
+            {
+                "column": "whose",
+                "references": "certainly"
+            }
+        ]
+    }
+]

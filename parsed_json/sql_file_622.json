@@ -1,0 +1,247 @@
+[
+    {
+        "name": "yeah",
+        "columns": [
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "instead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "option",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "option",
+        "foreign_keys": [
+            {
+                "column": "option",
+                "references": "law"
+            }
+        ]
+    },
+    {
+        "name": "law",
+        "columns": [
+            {
+                "name": "partner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "partner",
+        "foreign_keys": [
+            {
+                "column": "partner",
+                "references": "care"
+            }
+        ]
+    },
+    {
+        "name": "care",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "really"
+            }
+        ]
+    },
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "cold"
+            }
+        ]
+    },
+    {
+        "name": "cold",
+        "columns": [
+            {
+                "name": "college",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "college",
+        "foreign_keys": [
+            {
+                "column": "college",
+                "references": "pretty"
+            }
+        ]
+    },
+    {
+        "name": "pretty",
+        "columns": [
+            {
+                "name": "and",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "myself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "and",
+        "foreign_keys": [
+            {
+                "column": "and",
+                "references": "seek"
+            }
+        ]
+    },
+    {
+        "name": "seek",
+        "columns": [
+            {
+                "name": "attorney",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "attorney",
+        "foreign_keys": [
+            {
+                "column": "attorney",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "son",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "son",
+        "foreign_keys": [
+            {
+                "column": "son",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "yeah"
+            }
+        ]
+    }
+]

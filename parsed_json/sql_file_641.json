@@ -1,0 +1,225 @@
+[
+    {
+        "name": "music",
+        "columns": [
+            {
+                "name": "central",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "ahead"
+            }
+        ]
+    },
+    {
+        "name": "ahead",
+        "columns": [
+            {
+                "name": "color",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "either"
+            }
+        ]
+    },
+    {
+        "name": "either",
+        "columns": [
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "note"
+            }
+        ]
+    },
+    {
+        "name": "note",
+        "columns": [
+            {
+                "name": "woman",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "woman",
+        "foreign_keys": [
+            {
+                "column": "woman",
+                "references": "sure"
+            }
+        ]
+    },
+    {
+        "name": "sure",
+        "columns": [
+            {
+                "name": "area",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "area",
+        "foreign_keys": [
+            {
+                "column": "area",
+                "references": "per"
+            }
+        ]
+    },
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "want",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "want",
+        "foreign_keys": [
+            {
+                "column": "want",
+                "references": "energy"
+            }
+        ]
+    },
+    {
+        "name": "energy",
+        "columns": [
+            {
+                "name": "them",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "daughter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "them",
+        "foreign_keys": [
+            {
+                "column": "them",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "opportunity",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "opportunity",
+        "foreign_keys": [
+            {
+                "column": "opportunity",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "color",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agent",
+        "foreign_keys": [
+            {
+                "column": "agent",
+                "references": "music"
+            }
+        ]
+    }
+]

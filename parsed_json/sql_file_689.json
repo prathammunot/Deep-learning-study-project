@@ -1,0 +1,176 @@
+[
+    {
+        "name": "price",
+        "columns": [
+            {
+                "name": "pay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pay",
+        "foreign_keys": [
+            {
+                "column": "pay",
+                "references": "her"
+            }
+        ]
+    },
+    {
+        "name": "her",
+        "columns": [
+            {
+                "name": "describe",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "describe",
+        "foreign_keys": [
+            {
+                "column": "describe",
+                "references": "nature"
+            }
+        ]
+    },
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "business",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "table",
+        "foreign_keys": [
+            {
+                "column": "table",
+                "references": "information"
+            }
+        ]
+    },
+    {
+        "name": "information",
+        "columns": [
+            {
+                "name": "fall",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fall",
+        "foreign_keys": [
+            {
+                "column": "fall",
+                "references": "maybe"
+            }
+        ]
+    },
+    {
+        "name": "maybe",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "show",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "crime",
+        "foreign_keys": [
+            {
+                "column": "crime",
+                "references": "somebody"
+            }
+        ]
+    },
+    {
+        "name": "somebody",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "price"
+            }
+        ]
+    }
+]

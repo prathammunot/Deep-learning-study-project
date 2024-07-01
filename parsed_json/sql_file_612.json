@@ -1,0 +1,149 @@
+[
+    {
+        "name": "room",
+        "columns": [
+            {
+                "name": "no",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "agent"
+            }
+        ]
+    },
+    {
+        "name": "agent",
+        "columns": [
+            {
+                "name": "cover",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cover",
+        "foreign_keys": [
+            {
+                "column": "cover",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "somebody",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "somebody",
+        "foreign_keys": [
+            {
+                "column": "somebody",
+                "references": "central"
+            }
+        ]
+    },
+    {
+        "name": "central",
+        "columns": [
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tree",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "somebody",
+        "foreign_keys": [
+            {
+                "column": "somebody",
+                "references": "performance"
+            }
+        ]
+    },
+    {
+        "name": "performance",
+        "columns": [
+            {
+                "name": "even",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "even",
+        "foreign_keys": [
+            {
+                "column": "even",
+                "references": "room"
+            }
+        ]
+    }
+]

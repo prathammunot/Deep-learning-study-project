@@ -1,0 +1,149 @@
+[
+    {
+        "name": "stuff",
+        "columns": [
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "member"
+            }
+        ]
+    },
+    {
+        "name": "member",
+        "columns": [
+            {
+                "name": "although",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "although",
+        "foreign_keys": [
+            {
+                "column": "although",
+                "references": "drop"
+            }
+        ]
+    },
+    {
+        "name": "drop",
+        "columns": [
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "about",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prevent",
+        "foreign_keys": [
+            {
+                "column": "prevent",
+                "references": "several"
+            }
+        ]
+    },
+    {
+        "name": "several",
+        "columns": [
+            {
+                "name": "win",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "management",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "win",
+        "foreign_keys": [
+            {
+                "column": "win",
+                "references": "believe"
+            }
+        ]
+    },
+    {
+        "name": "believe",
+        "columns": [
+            {
+                "name": "sign",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simply",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sign",
+        "foreign_keys": [
+            {
+                "column": "sign",
+                "references": "quickly"
+            }
+        ]
+    },
+    {
+        "name": "quickly",
+        "columns": [
+            {
+                "name": "hear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "particular",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hear",
+        "foreign_keys": [
+            {
+                "column": "hear",
+                "references": "stuff"
+            }
+        ]
+    }
+]

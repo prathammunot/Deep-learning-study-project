@@ -1,0 +1,225 @@
+[
+    {
+        "name": "six",
+        "columns": [
+            {
+                "name": "spend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "professional",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "spend",
+        "foreign_keys": [
+            {
+                "column": "spend",
+                "references": "culture"
+            }
+        ]
+    },
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reach",
+        "foreign_keys": [
+            {
+                "column": "reach",
+                "references": "magazine"
+            }
+        ]
+    },
+    {
+        "name": "magazine",
+        "columns": [
+            {
+                "name": "accept",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "accept",
+        "foreign_keys": [
+            {
+                "column": "accept",
+                "references": "region"
+            }
+        ]
+    },
+    {
+        "name": "region",
+        "columns": [
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "well",
+        "foreign_keys": [
+            {
+                "column": "well",
+                "references": "role"
+            }
+        ]
+    },
+    {
+        "name": "role",
+        "columns": [
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "before",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "suggest"
+            }
+        ]
+    },
+    {
+        "name": "suggest",
+        "columns": [
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "their",
+        "foreign_keys": [
+            {
+                "column": "their",
+                "references": "crime"
+            }
+        ]
+    },
+    {
+        "name": "crime",
+        "columns": [
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "whether"
+            }
+        ]
+    },
+    {
+        "name": "whether",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "six"
+            }
+        ]
+    }
+]

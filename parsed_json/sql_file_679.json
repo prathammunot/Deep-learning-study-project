@@ -1,0 +1,176 @@
+[
+    {
+        "name": "should",
+        "columns": [
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "floor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fill",
+        "foreign_keys": [
+            {
+                "column": "fill",
+                "references": "summer"
+            }
+        ]
+    },
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "decision",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "summer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decision",
+        "foreign_keys": [
+            {
+                "column": "decision",
+                "references": "quality"
+            }
+        ]
+    },
+    {
+        "name": "quality",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "so",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "above"
+            }
+        ]
+    },
+    {
+        "name": "above",
+        "columns": [
+            {
+                "name": "dog",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "structure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dog",
+        "foreign_keys": [
+            {
+                "column": "dog",
+                "references": "most"
+            }
+        ]
+    },
+    {
+        "name": "most",
+        "columns": [
+            {
+                "name": "door",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "young"
+            }
+        ]
+    },
+    {
+        "name": "young",
+        "columns": [
+            {
+                "name": "man",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "man",
+        "foreign_keys": [
+            {
+                "column": "man",
+                "references": "at"
+            }
+        ]
+    },
+    {
+        "name": "at",
+        "columns": [
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "about",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "should"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "drive",
+        "columns": [
+            {
+                "name": "success",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "success",
+        "foreign_keys": [
+            {
+                "column": "success",
+                "references": "audience"
+            }
+        ]
+    },
+    {
+        "name": "audience",
+        "columns": [
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "race",
+        "foreign_keys": [
+            {
+                "column": "race",
+                "references": "better"
+            }
+        ]
+    },
+    {
+        "name": "better",
+        "columns": [
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "per",
+        "foreign_keys": [
+            {
+                "column": "per",
+                "references": "hit"
+            }
+        ]
+    },
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "beyond",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beyond",
+        "foreign_keys": [
+            {
+                "column": "beyond",
+                "references": "laugh"
+            }
+        ]
+    },
+    {
+        "name": "laugh",
+        "columns": [
+            {
+                "name": "public",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "public",
+        "foreign_keys": [
+            {
+                "column": "public",
+                "references": "bank"
+            }
+        ]
+    },
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "method",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "method",
+        "foreign_keys": [
+            {
+                "column": "method",
+                "references": "glass"
+            }
+        ]
+    },
+    {
+        "name": "glass",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "no"
+            }
+        ]
+    },
+    {
+        "name": "no",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "toward"
+            }
+        ]
+    },
+    {
+        "name": "toward",
+        "columns": [
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mind",
+        "foreign_keys": [
+            {
+                "column": "mind",
+                "references": "night"
+            }
+        ]
+    },
+    {
+        "name": "night",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "drive"
+            }
+        ]
+    }
+]

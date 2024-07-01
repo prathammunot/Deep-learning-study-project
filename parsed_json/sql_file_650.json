@@ -1,0 +1,274 @@
+[
+    {
+        "name": "history",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "room",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "authority",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "authority",
+        "foreign_keys": [
+            {
+                "column": "authority",
+                "references": "per"
+            }
+        ]
+    },
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "grow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "grow",
+        "foreign_keys": [
+            {
+                "column": "grow",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "visit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "visit",
+        "foreign_keys": [
+            {
+                "column": "visit",
+                "references": "campaign"
+            }
+        ]
+    },
+    {
+        "name": "campaign",
+        "columns": [
+            {
+                "name": "human",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "human",
+        "foreign_keys": [
+            {
+                "column": "human",
+                "references": "police"
+            }
+        ]
+    },
+    {
+        "name": "police",
+        "columns": [
+            {
+                "name": "push",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "push",
+        "foreign_keys": [
+            {
+                "column": "push",
+                "references": "future"
+            }
+        ]
+    },
+    {
+        "name": "future",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "politics"
+            }
+        ]
+    },
+    {
+        "name": "politics",
+        "columns": [
+            {
+                "name": "raise",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "raise",
+        "foreign_keys": [
+            {
+                "column": "raise",
+                "references": "hair"
+            }
+        ]
+    },
+    {
+        "name": "hair",
+        "columns": [
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "page",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "page",
+        "foreign_keys": [
+            {
+                "column": "page",
+                "references": "sing"
+            }
+        ]
+    },
+    {
+        "name": "sing",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "movement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "history"
+            }
+        ]
+    }
+]

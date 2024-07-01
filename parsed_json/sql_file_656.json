@@ -1,0 +1,274 @@
+[
+    {
+        "name": "sing",
+        "columns": [
+            {
+                "name": "world",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "now"
+            }
+        ]
+    },
+    {
+        "name": "now",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "never"
+            }
+        ]
+    },
+    {
+        "name": "never",
+        "columns": [
+            {
+                "name": "guy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pull",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "together",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "guy",
+        "foreign_keys": [
+            {
+                "column": "guy",
+                "references": "ready"
+            }
+        ]
+    },
+    {
+        "name": "ready",
+        "columns": [
+            {
+                "name": "direction",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "have",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "direction",
+        "foreign_keys": [
+            {
+                "column": "direction",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "responsibility",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "responsibility",
+        "foreign_keys": [
+            {
+                "column": "responsibility",
+                "references": "media"
+            }
+        ]
+    },
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "check",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "paper"
+            }
+        ]
+    },
+    {
+        "name": "paper",
+        "columns": [
+            {
+                "name": "star",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "star",
+        "foreign_keys": [
+            {
+                "column": "star",
+                "references": "wind"
+            }
+        ]
+    },
+    {
+        "name": "wind",
+        "columns": [
+            {
+                "name": "field",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "field",
+        "foreign_keys": [
+            {
+                "column": "field",
+                "references": "event"
+            }
+        ]
+    },
+    {
+        "name": "event",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "movement",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "receive"
+            }
+        ]
+    },
+    {
+        "name": "receive",
+        "columns": [
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "take"
+            }
+        ]
+    },
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simply",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "until",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "sing"
+            }
+        ]
+    }
+]

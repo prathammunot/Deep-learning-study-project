@@ -1,0 +1,247 @@
+[
+    {
+        "name": "significant",
+        "columns": [
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "opportunity",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "let"
+            }
+        ]
+    },
+    {
+        "name": "let",
+        "columns": [
+            {
+                "name": "smile",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "smile",
+        "foreign_keys": [
+            {
+                "column": "smile",
+                "references": "save"
+            }
+        ]
+    },
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "magazine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "federal"
+            }
+        ]
+    },
+    {
+        "name": "federal",
+        "columns": [
+            {
+                "name": "strong",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "strong",
+        "foreign_keys": [
+            {
+                "column": "strong",
+                "references": "where"
+            }
+        ]
+    },
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "long",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "doctor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "be",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "open"
+            }
+        ]
+    },
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "beyond",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beyond",
+        "foreign_keys": [
+            {
+                "column": "beyond",
+                "references": "speak"
+            }
+        ]
+    },
+    {
+        "name": "speak",
+        "columns": [
+            {
+                "name": "read",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "read",
+        "foreign_keys": [
+            {
+                "column": "read",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reveal",
+        "foreign_keys": [
+            {
+                "column": "reveal",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "risk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "talk",
+        "foreign_keys": [
+            {
+                "column": "talk",
+                "references": "sing"
+            }
+        ]
+    },
+    {
+        "name": "sing",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "machine",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "significant"
+            }
+        ]
+    }
+]

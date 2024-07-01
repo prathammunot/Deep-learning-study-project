@@ -1,0 +1,149 @@
+[
+    {
+        "name": "half",
+        "columns": [
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "into"
+            }
+        ]
+    },
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "major",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "major",
+        "foreign_keys": [
+            {
+                "column": "major",
+                "references": "politics"
+            }
+        ]
+    },
+    {
+        "name": "politics",
+        "columns": [
+            {
+                "name": "true",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "true",
+        "foreign_keys": [
+            {
+                "column": "true",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "claim"
+            }
+        ]
+    },
+    {
+        "name": "claim",
+        "columns": [
+            {
+                "name": "about",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "own",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ten",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "about",
+        "foreign_keys": [
+            {
+                "column": "about",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "behind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behind",
+        "foreign_keys": [
+            {
+                "column": "behind",
+                "references": "half"
+            }
+        ]
+    }
+]

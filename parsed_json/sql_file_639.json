@@ -1,0 +1,247 @@
+[
+    {
+        "name": "big",
+        "columns": [
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "their"
+            }
+        ]
+    },
+    {
+        "name": "their",
+        "columns": [
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kitchen",
+        "foreign_keys": [
+            {
+                "column": "kitchen",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "put",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "put",
+        "foreign_keys": [
+            {
+                "column": "put",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wonder",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "set"
+            }
+        ]
+    },
+    {
+        "name": "set",
+        "columns": [
+            {
+                "name": "change",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "significant"
+            }
+        ]
+    },
+    {
+        "name": "significant",
+        "columns": [
+            {
+                "name": "article",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "huge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "boy"
+            }
+        ]
+    },
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "improve",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "must",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "require",
+        "foreign_keys": [
+            {
+                "column": "require",
+                "references": "stay"
+            }
+        ]
+    },
+    {
+        "name": "stay",
+        "columns": [
+            {
+                "name": "analysis",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "analysis",
+        "foreign_keys": [
+            {
+                "column": "analysis",
+                "references": "other"
+            }
+        ]
+    },
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "subject",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "contain",
+        "foreign_keys": [
+            {
+                "column": "contain",
+                "references": "seven"
+            }
+        ]
+    },
+    {
+        "name": "seven",
+        "columns": [
+            {
+                "name": "reduce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "church",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reduce",
+        "foreign_keys": [
+            {
+                "column": "reduce",
+                "references": "big"
+            }
+        ]
+    }
+]

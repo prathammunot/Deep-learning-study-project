@@ -1,0 +1,247 @@
+[
+    {
+        "name": "store",
+        "columns": [
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everything",
+        "foreign_keys": [
+            {
+                "column": "everything",
+                "references": "though"
+            }
+        ]
+    },
+    {
+        "name": "though",
+        "columns": [
+            {
+                "name": "money",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "money",
+        "foreign_keys": [
+            {
+                "column": "money",
+                "references": "fly"
+            }
+        ]
+    },
+    {
+        "name": "fly",
+        "columns": [
+            {
+                "name": "people",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "budget",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "people",
+        "foreign_keys": [
+            {
+                "column": "people",
+                "references": "style"
+            }
+        ]
+    },
+    {
+        "name": "style",
+        "columns": [
+            {
+                "name": "subject",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "subject",
+        "foreign_keys": [
+            {
+                "column": "subject",
+                "references": "as"
+            }
+        ]
+    },
+    {
+        "name": "as",
+        "columns": [
+            {
+                "name": "analysis",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "window",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "analysis",
+        "foreign_keys": [
+            {
+                "column": "analysis",
+                "references": "strong"
+            }
+        ]
+    },
+    {
+        "name": "strong",
+        "columns": [
+            {
+                "name": "quality",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "director",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "quality",
+        "foreign_keys": [
+            {
+                "column": "quality",
+                "references": "anything"
+            }
+        ]
+    },
+    {
+        "name": "anything",
+        "columns": [
+            {
+                "name": "if",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "security",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "if",
+        "foreign_keys": [
+            {
+                "column": "if",
+                "references": "teach"
+            }
+        ]
+    },
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "time",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "chance"
+            }
+        ]
+    },
+    {
+        "name": "chance",
+        "columns": [
+            {
+                "name": "traditional",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "traditional",
+        "foreign_keys": [
+            {
+                "column": "traditional",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "study",
+        "foreign_keys": [
+            {
+                "column": "study",
+                "references": "store"
+            }
+        ]
+    }
+]

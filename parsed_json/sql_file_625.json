@@ -1,0 +1,127 @@
+[
+    {
+        "name": "improve",
+        "columns": [
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "state",
+        "foreign_keys": [
+            {
+                "column": "state",
+                "references": "training"
+            }
+        ]
+    },
+    {
+        "name": "training",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "point",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "become"
+            }
+        ]
+    },
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "popular",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "popular",
+        "foreign_keys": [
+            {
+                "column": "popular",
+                "references": "join"
+            }
+        ]
+    },
+    {
+        "name": "join",
+        "columns": [
+            {
+                "name": "summer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "summer",
+        "foreign_keys": [
+            {
+                "column": "summer",
+                "references": "maintain"
+            }
+        ]
+    },
+    {
+        "name": "maintain",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "improve"
+            }
+        ]
+    }
+]

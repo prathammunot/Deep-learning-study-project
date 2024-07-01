@@ -1,0 +1,247 @@
+[
+    {
+        "name": "article",
+        "columns": [
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "include",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "film",
+        "foreign_keys": [
+            {
+                "column": "film",
+                "references": "off"
+            }
+        ]
+    },
+    {
+        "name": "off",
+        "columns": [
+            {
+                "name": "face",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "face",
+        "foreign_keys": [
+            {
+                "column": "face",
+                "references": "perform"
+            }
+        ]
+    },
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "cup"
+            }
+        ]
+    },
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "amount",
+        "foreign_keys": [
+            {
+                "column": "amount",
+                "references": "various"
+            }
+        ]
+    },
+    {
+        "name": "various",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "mean"
+            }
+        ]
+    },
+    {
+        "name": "mean",
+        "columns": [
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "analysis",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "professor",
+        "foreign_keys": [
+            {
+                "column": "professor",
+                "references": "song"
+            }
+        ]
+    },
+    {
+        "name": "song",
+        "columns": [
+            {
+                "name": "statement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wife",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "statement",
+        "foreign_keys": [
+            {
+                "column": "statement",
+                "references": "talk"
+            }
+        ]
+    },
+    {
+        "name": "talk",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "well"
+            }
+        ]
+    },
+    {
+        "name": "well",
+        "columns": [
+            {
+                "name": "authority",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "letter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "authority",
+        "foreign_keys": [
+            {
+                "column": "authority",
+                "references": "story"
+            }
+        ]
+    },
+    {
+        "name": "story",
+        "columns": [
+            {
+                "name": "front",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "front",
+        "foreign_keys": [
+            {
+                "column": "front",
+                "references": "article"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "control",
+        "columns": [
+            {
+                "name": "manager",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "manager",
+        "foreign_keys": [
+            {
+                "column": "manager",
+                "references": "both"
+            }
+        ]
+    },
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "specific"
+            }
+        ]
+    },
+    {
+        "name": "specific",
+        "columns": [
+            {
+                "name": "wonder",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ability",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wonder",
+        "foreign_keys": [
+            {
+                "column": "wonder",
+                "references": "star"
+            }
+        ]
+    },
+    {
+        "name": "star",
+        "columns": [
+            {
+                "name": "teacher",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "teacher",
+        "foreign_keys": [
+            {
+                "column": "teacher",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "direction",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "direction",
+        "foreign_keys": [
+            {
+                "column": "direction",
+                "references": "popular"
+            }
+        ]
+    },
+    {
+        "name": "popular",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "forward",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "end",
+        "foreign_keys": [
+            {
+                "column": "end",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suggest",
+        "foreign_keys": [
+            {
+                "column": "suggest",
+                "references": "late"
+            }
+        ]
+    },
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "phone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "occur"
+            }
+        ]
+    },
+    {
+        "name": "occur",
+        "columns": [
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mouth",
+        "foreign_keys": [
+            {
+                "column": "mouth",
+                "references": "control"
+            }
+        ]
+    }
+]

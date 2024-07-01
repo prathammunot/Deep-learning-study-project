@@ -1,0 +1,296 @@
+[
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "drive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drive",
+        "foreign_keys": [
+            {
+                "column": "drive",
+                "references": "chance"
+            }
+        ]
+    },
+    {
+        "name": "chance",
+        "columns": [
+            {
+                "name": "show",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "show",
+        "foreign_keys": [
+            {
+                "column": "show",
+                "references": "catch"
+            }
+        ]
+    },
+    {
+        "name": "catch",
+        "columns": [
+            {
+                "name": "cultural",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cultural",
+        "foreign_keys": [
+            {
+                "column": "cultural",
+                "references": "population"
+            }
+        ]
+    },
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "international",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "international",
+        "foreign_keys": [
+            {
+                "column": "international",
+                "references": "natural"
+            }
+        ]
+    },
+    {
+        "name": "natural",
+        "columns": [
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quickly",
+        "foreign_keys": [
+            {
+                "column": "quickly",
+                "references": "maintain"
+            }
+        ]
+    },
+    {
+        "name": "maintain",
+        "columns": [
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "product"
+            }
+        ]
+    },
+    {
+        "name": "product",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "have",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "history"
+            }
+        ]
+    },
+    {
+        "name": "history",
+        "columns": [
+            {
+                "name": "wind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wind",
+        "foreign_keys": [
+            {
+                "column": "wind",
+                "references": "born"
+            }
+        ]
+    },
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "last",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "instead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "last",
+        "foreign_keys": [
+            {
+                "column": "last",
+                "references": "crime"
+            }
+        ]
+    },
+    {
+        "name": "crime",
+        "columns": [
+            {
+                "name": "mother",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hundred",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mother",
+        "foreign_keys": [
+            {
+                "column": "mother",
+                "references": "character"
+            }
+        ]
+    },
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "how",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "risk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "how",
+        "foreign_keys": [
+            {
+                "column": "how",
+                "references": "bank"
+            }
+        ]
+    },
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "season",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "season",
+        "foreign_keys": [
+            {
+                "column": "season",
+                "references": "reduce"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "everything",
+        "columns": [
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "film",
+        "foreign_keys": [
+            {
+                "column": "film",
+                "references": "voice"
+            }
+        ]
+    },
+    {
+        "name": "voice",
+        "columns": [
+            {
+                "name": "water",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "water",
+        "foreign_keys": [
+            {
+                "column": "water",
+                "references": "star"
+            }
+        ]
+    },
+    {
+        "name": "star",
+        "columns": [
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "computer"
+            }
+        ]
+    },
+    {
+        "name": "computer",
+        "columns": [
+            {
+                "name": "adult",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "adult",
+        "foreign_keys": [
+            {
+                "column": "adult",
+                "references": "arrive"
+            }
+        ]
+    },
+    {
+        "name": "arrive",
+        "columns": [
+            {
+                "name": "political",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sometimes",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "political",
+        "foreign_keys": [
+            {
+                "column": "political",
+                "references": "movie"
+            }
+        ]
+    },
+    {
+        "name": "movie",
+        "columns": [
+            {
+                "name": "all",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "all",
+        "foreign_keys": [
+            {
+                "column": "all",
+                "references": "little"
+            }
+        ]
+    },
+    {
+        "name": "little",
+        "columns": [
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "home",
+        "foreign_keys": [
+            {
+                "column": "home",
+                "references": "someone"
+            }
+        ]
+    },
+    {
+        "name": "someone",
+        "columns": [
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "study",
+        "foreign_keys": [
+            {
+                "column": "study",
+                "references": "magazine"
+            }
+        ]
+    },
+    {
+        "name": "magazine",
+        "columns": [
+            {
+                "name": "little",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "person",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "across",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "little",
+        "foreign_keys": [
+            {
+                "column": "little",
+                "references": "everything"
+            }
+        ]
+    }
+]

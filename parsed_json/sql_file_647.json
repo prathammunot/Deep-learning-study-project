@@ -1,0 +1,274 @@
+[
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fund",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "none"
+            }
+        ]
+    },
+    {
+        "name": "none",
+        "columns": [
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "run",
+        "foreign_keys": [
+            {
+                "column": "run",
+                "references": "necessary"
+            }
+        ]
+    },
+    {
+        "name": "necessary",
+        "columns": [
+            {
+                "name": "seek",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seek",
+        "foreign_keys": [
+            {
+                "column": "seek",
+                "references": "despite"
+            }
+        ]
+    },
+    {
+        "name": "despite",
+        "columns": [
+            {
+                "name": "especially",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "especially",
+        "foreign_keys": [
+            {
+                "column": "especially",
+                "references": "operation"
+            }
+        ]
+    },
+    {
+        "name": "operation",
+        "columns": [
+            {
+                "name": "miss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "majority",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "miss",
+        "foreign_keys": [
+            {
+                "column": "miss",
+                "references": "medical"
+            }
+        ]
+    },
+    {
+        "name": "medical",
+        "columns": [
+            {
+                "name": "official",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "main",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "official",
+        "foreign_keys": [
+            {
+                "column": "official",
+                "references": "rest"
+            }
+        ]
+    },
+    {
+        "name": "rest",
+        "columns": [
+            {
+                "name": "line",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "imagine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pick",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "line",
+        "foreign_keys": [
+            {
+                "column": "line",
+                "references": "impact"
+            }
+        ]
+    },
+    {
+        "name": "impact",
+        "columns": [
+            {
+                "name": "medical",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "medical",
+        "foreign_keys": [
+            {
+                "column": "medical",
+                "references": "off"
+            }
+        ]
+    },
+    {
+        "name": "off",
+        "columns": [
+            {
+                "name": "seat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reason",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seat",
+        "foreign_keys": [
+            {
+                "column": "seat",
+                "references": "continue"
+            }
+        ]
+    },
+    {
+        "name": "continue",
+        "columns": [
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "under"
+            }
+        ]
+    },
+    {
+        "name": "under",
+        "columns": [
+            {
+                "name": "yes",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yes",
+        "foreign_keys": [
+            {
+                "column": "yes",
+                "references": "summer"
+            }
+        ]
+    }
+]

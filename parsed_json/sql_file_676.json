@@ -1,0 +1,291 @@
+[
+    {
+        "name": "community",
+        "columns": [
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "concern"
+            }
+        ]
+    },
+    {
+        "name": "concern",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "together",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "traditional"
+            }
+        ]
+    },
+    {
+        "name": "traditional",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "job",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "cell"
+            }
+        ]
+    },
+    {
+        "name": "cell",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "recently"
+            }
+        ]
+    },
+    {
+        "name": "recently",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ground",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "agent"
+            }
+        ]
+    },
+    {
+        "name": "agent",
+        "columns": [
+            {
+                "name": "we",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "we",
+        "foreign_keys": [
+            {
+                "column": "we",
+                "references": "girl"
+            }
+        ]
+    },
+    {
+        "name": "girl",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "since"
+            }
+        ]
+    },
+    {
+        "name": "since",
+        "columns": [
+            {
+                "name": "black",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "black",
+        "foreign_keys": [
+            {
+                "column": "black",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "exactly"
+            }
+        ]
+    },
+    {
+        "name": "exactly",
+        "columns": [
+            {
+                "name": "country",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "accept",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "country",
+        "foreign_keys": [
+            {
+                "column": "country",
+                "references": "lot"
+            }
+        ]
+    },
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "someone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "foreign",
+        "foreign_keys": [
+            {
+                "column": "foreign",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "community"
+            }
+        ]
+    }
+]

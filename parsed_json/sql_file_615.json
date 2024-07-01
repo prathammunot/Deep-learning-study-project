@@ -1,0 +1,176 @@
+[
+    {
+        "name": "return",
+        "columns": [
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "computer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "south",
+        "foreign_keys": [
+            {
+                "column": "south",
+                "references": "country"
+            }
+        ]
+    },
+    {
+        "name": "country",
+        "columns": [
+            {
+                "name": "off",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "value",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "continue"
+            }
+        ]
+    },
+    {
+        "name": "continue",
+        "columns": [
+            {
+                "name": "long",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "show"
+            }
+        ]
+    },
+    {
+        "name": "show",
+        "columns": [
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "amount",
+        "foreign_keys": [
+            {
+                "column": "amount",
+                "references": "better"
+            }
+        ]
+    },
+    {
+        "name": "better",
+        "columns": [
+            {
+                "name": "force",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "account"
+            }
+        ]
+    },
+    {
+        "name": "account",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "nature"
+            }
+        ]
+    },
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "join",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "join",
+        "foreign_keys": [
+            {
+                "column": "join",
+                "references": "return"
+            }
+        ]
+    }
+]

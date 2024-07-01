@@ -1,0 +1,274 @@
+[
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "poor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "better",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "poor",
+        "foreign_keys": [
+            {
+                "column": "poor",
+                "references": "position"
+            }
+        ]
+    },
+    {
+        "name": "position",
+        "columns": [
+            {
+                "name": "perform",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "perform",
+        "foreign_keys": [
+            {
+                "column": "perform",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "respond",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "respond",
+        "foreign_keys": [
+            {
+                "column": "respond",
+                "references": "everything"
+            }
+        ]
+    },
+    {
+        "name": "everything",
+        "columns": [
+            {
+                "name": "consumer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "however",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "consumer",
+        "foreign_keys": [
+            {
+                "column": "consumer",
+                "references": "guess"
+            }
+        ]
+    },
+    {
+        "name": "guess",
+        "columns": [
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hold",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "compare",
+        "foreign_keys": [
+            {
+                "column": "compare",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "short",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "short",
+        "foreign_keys": [
+            {
+                "column": "short",
+                "references": "imagine"
+            }
+        ]
+    },
+    {
+        "name": "imagine",
+        "columns": [
+            {
+                "name": "raise",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "raise",
+        "foreign_keys": [
+            {
+                "column": "raise",
+                "references": "tax"
+            }
+        ]
+    },
+    {
+        "name": "tax",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "low"
+            }
+        ]
+    },
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "land",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ability",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "land",
+        "foreign_keys": [
+            {
+                "column": "land",
+                "references": "head"
+            }
+        ]
+    },
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "service",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "benefit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "service",
+        "foreign_keys": [
+            {
+                "column": "service",
+                "references": "check"
+            }
+        ]
+    },
+    {
+        "name": "check",
+        "columns": [
+            {
+                "name": "despite",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "despite",
+        "foreign_keys": [
+            {
+                "column": "despite",
+                "references": "morning"
+            }
+        ]
+    }
+]

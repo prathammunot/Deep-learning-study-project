@@ -1,0 +1,247 @@
+[
+    {
+        "name": "subject",
+        "columns": [
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "themselves",
+        "foreign_keys": [
+            {
+                "column": "themselves",
+                "references": "example"
+            }
+        ]
+    },
+    {
+        "name": "example",
+        "columns": [
+            {
+                "name": "course",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "course",
+        "foreign_keys": [
+            {
+                "column": "course",
+                "references": "could"
+            }
+        ]
+    },
+    {
+        "name": "could",
+        "columns": [
+            {
+                "name": "subject",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "subject",
+        "foreign_keys": [
+            {
+                "column": "subject",
+                "references": "water"
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "columns": [
+            {
+                "name": "film",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "film",
+        "foreign_keys": [
+            {
+                "column": "film",
+                "references": "catch"
+            }
+        ]
+    },
+    {
+        "name": "catch",
+        "columns": [
+            {
+                "name": "them",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "them",
+        "foreign_keys": [
+            {
+                "column": "them",
+                "references": "opportunity"
+            }
+        ]
+    },
+    {
+        "name": "opportunity",
+        "columns": [
+            {
+                "name": "like",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "like",
+        "foreign_keys": [
+            {
+                "column": "like",
+                "references": "color"
+            }
+        ]
+    },
+    {
+        "name": "color",
+        "columns": [
+            {
+                "name": "put",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "put",
+        "foreign_keys": [
+            {
+                "column": "put",
+                "references": "little"
+            }
+        ]
+    },
+    {
+        "name": "little",
+        "columns": [
+            {
+                "name": "view",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yard",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "view",
+        "foreign_keys": [
+            {
+                "column": "view",
+                "references": "heavy"
+            }
+        ]
+    },
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "wear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wear",
+        "foreign_keys": [
+            {
+                "column": "wear",
+                "references": "box"
+            }
+        ]
+    },
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "subject"
+            }
+        ]
+    }
+]

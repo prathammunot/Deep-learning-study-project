@@ -1,0 +1,198 @@
+[
+    {
+        "name": "page",
+        "columns": [
+            {
+                "name": "blue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "blue",
+        "foreign_keys": [
+            {
+                "column": "blue",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "even",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "even",
+        "foreign_keys": [
+            {
+                "column": "even",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "half",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "site",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "half",
+        "foreign_keys": [
+            {
+                "column": "half",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "friend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "product",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "friend",
+        "foreign_keys": [
+            {
+                "column": "friend",
+                "references": "speak"
+            }
+        ]
+    },
+    {
+        "name": "speak",
+        "columns": [
+            {
+                "name": "factor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "factor",
+        "foreign_keys": [
+            {
+                "column": "factor",
+                "references": "thing"
+            }
+        ]
+    },
+    {
+        "name": "thing",
+        "columns": [
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eye",
+        "foreign_keys": [
+            {
+                "column": "eye",
+                "references": "certainly"
+            }
+        ]
+    },
+    {
+        "name": "certainly",
+        "columns": [
+            {
+                "name": "understand",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "understand",
+        "foreign_keys": [
+            {
+                "column": "understand",
+                "references": "page"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "someone",
+        "columns": [
+            {
+                "name": "matter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "matter",
+        "foreign_keys": [
+            {
+                "column": "matter",
+                "references": "end"
+            }
+        ]
+    },
+    {
+        "name": "end",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "future"
+            }
+        ]
+    },
+    {
+        "name": "future",
+        "columns": [
+            {
+                "name": "himself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "himself",
+        "foreign_keys": [
+            {
+                "column": "himself",
+                "references": "wrong"
+            }
+        ]
+    },
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "effort",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "effort",
+        "foreign_keys": [
+            {
+                "column": "effort",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "chance",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "chance",
+        "foreign_keys": [
+            {
+                "column": "chance",
+                "references": "particularly"
+            }
+        ]
+    },
+    {
+        "name": "particularly",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "enter"
+            }
+        ]
+    },
+    {
+        "name": "enter",
+        "columns": [
+            {
+                "name": "author",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "author",
+        "foreign_keys": [
+            {
+                "column": "author",
+                "references": "someone"
+            }
+        ]
+    }
+]

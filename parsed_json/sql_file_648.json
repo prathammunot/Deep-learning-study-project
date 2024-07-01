@@ -1,0 +1,176 @@
+[
+    {
+        "name": "tough",
+        "columns": [
+            {
+                "name": "up",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "up",
+        "foreign_keys": [
+            {
+                "column": "up",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "over",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "idea"
+            }
+        ]
+    },
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "structure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "how",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "how",
+        "foreign_keys": [
+            {
+                "column": "how",
+                "references": "several"
+            }
+        ]
+    },
+    {
+        "name": "several",
+        "columns": [
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "major"
+            }
+        ]
+    },
+    {
+        "name": "major",
+        "columns": [
+            {
+                "name": "history",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "return"
+            }
+        ]
+    },
+    {
+        "name": "return",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "tough"
+            }
+        ]
+    }
+]

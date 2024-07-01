@@ -1,0 +1,225 @@
+[
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "risk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "notice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "risk",
+        "foreign_keys": [
+            {
+                "column": "risk",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "former",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "former",
+        "foreign_keys": [
+            {
+                "column": "former",
+                "references": "line"
+            }
+        ]
+    },
+    {
+        "name": "line",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "day",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "treat"
+            }
+        ]
+    },
+    {
+        "name": "treat",
+        "columns": [
+            {
+                "name": "close",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sound",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "close",
+        "foreign_keys": [
+            {
+                "column": "close",
+                "references": "carry"
+            }
+        ]
+    },
+    {
+        "name": "carry",
+        "columns": [
+            {
+                "name": "need",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "need",
+        "foreign_keys": [
+            {
+                "column": "need",
+                "references": "report"
+            }
+        ]
+    },
+    {
+        "name": "report",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "day",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "day",
+        "foreign_keys": [
+            {
+                "column": "day",
+                "references": "want"
+            }
+        ]
+    },
+    {
+        "name": "want",
+        "columns": [
+            {
+                "name": "produce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "produce",
+        "foreign_keys": [
+            {
+                "column": "produce",
+                "references": "lot"
+            }
+        ]
+    },
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "include",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "include",
+        "foreign_keys": [
+            {
+                "column": "include",
+                "references": "behavior"
+            }
+        ]
+    }
+]

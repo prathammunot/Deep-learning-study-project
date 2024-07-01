@@ -1,0 +1,127 @@
+[
+    {
+        "name": "father",
+        "columns": [
+            {
+                "name": "society",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "value",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "society",
+        "foreign_keys": [
+            {
+                "column": "society",
+                "references": "nature"
+            }
+        ]
+    },
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "city",
+        "foreign_keys": [
+            {
+                "column": "city",
+                "references": "about"
+            }
+        ]
+    },
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "say",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "say",
+        "foreign_keys": [
+            {
+                "column": "say",
+                "references": "option"
+            }
+        ]
+    },
+    {
+        "name": "option",
+        "columns": [
+            {
+                "name": "agent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agent",
+        "foreign_keys": [
+            {
+                "column": "agent",
+                "references": "moment"
+            }
+        ]
+    },
+    {
+        "name": "moment",
+        "columns": [
+            {
+                "name": "investment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "letter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "investment",
+        "foreign_keys": [
+            {
+                "column": "investment",
+                "references": "father"
+            }
+        ]
+    }
+]

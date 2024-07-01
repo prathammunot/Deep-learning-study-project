@@ -1,0 +1,242 @@
+[
+    {
+        "name": "social",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "today"
+            }
+        ]
+    },
+    {
+        "name": "today",
+        "columns": [
+            {
+                "name": "hot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hot",
+        "foreign_keys": [
+            {
+                "column": "hot",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "pattern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "find",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pattern",
+        "foreign_keys": [
+            {
+                "column": "pattern",
+                "references": "blood"
+            }
+        ]
+    },
+    {
+        "name": "blood",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "hope"
+            }
+        ]
+    },
+    {
+        "name": "hope",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "already",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "various",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "woman"
+            }
+        ]
+    },
+    {
+        "name": "woman",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "blue"
+            }
+        ]
+    },
+    {
+        "name": "blue",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "sport"
+            }
+        ]
+    },
+    {
+        "name": "sport",
+        "columns": [
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "animal",
+        "foreign_keys": [
+            {
+                "column": "animal",
+                "references": "marriage"
+            }
+        ]
+    },
+    {
+        "name": "marriage",
+        "columns": [
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "people",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "itself",
+        "foreign_keys": [
+            {
+                "column": "itself",
+                "references": "outside"
+            }
+        ]
+    },
+    {
+        "name": "outside",
+        "columns": [
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "assume",
+        "foreign_keys": [
+            {
+                "column": "assume",
+                "references": "social"
+            }
+        ]
+    }
+]

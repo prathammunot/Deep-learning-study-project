@@ -1,0 +1,198 @@
+[
+    {
+        "name": "behind",
+        "columns": [
+            {
+                "name": "have",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "have",
+        "foreign_keys": [
+            {
+                "column": "have",
+                "references": "truth"
+            }
+        ]
+    },
+    {
+        "name": "truth",
+        "columns": [
+            {
+                "name": "hold",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hold",
+        "foreign_keys": [
+            {
+                "column": "hold",
+                "references": "feeling"
+            }
+        ]
+    },
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "would",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "would",
+        "foreign_keys": [
+            {
+                "column": "would",
+                "references": "white"
+            }
+        ]
+    },
+    {
+        "name": "white",
+        "columns": [
+            {
+                "name": "old",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "old",
+        "foreign_keys": [
+            {
+                "column": "old",
+                "references": "red"
+            }
+        ]
+    },
+    {
+        "name": "red",
+        "columns": [
+            {
+                "name": "avoid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "avoid",
+        "foreign_keys": [
+            {
+                "column": "avoid",
+                "references": "land"
+            }
+        ]
+    },
+    {
+        "name": "land",
+        "columns": [
+            {
+                "name": "standard",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "standard",
+        "foreign_keys": [
+            {
+                "column": "standard",
+                "references": "girl"
+            }
+        ]
+    },
+    {
+        "name": "girl",
+        "columns": [
+            {
+                "name": "social",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "less",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "social",
+        "foreign_keys": [
+            {
+                "column": "social",
+                "references": "who"
+            }
+        ]
+    },
+    {
+        "name": "who",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "behind"
+            }
+        ]
+    }
+]

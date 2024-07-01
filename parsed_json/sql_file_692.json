@@ -1,0 +1,296 @@
+[
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "project",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "project",
+        "foreign_keys": [
+            {
+                "column": "project",
+                "references": "ask"
+            }
+        ]
+    },
+    {
+        "name": "ask",
+        "columns": [
+            {
+                "name": "agreement",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "phone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agreement",
+        "foreign_keys": [
+            {
+                "column": "agreement",
+                "references": "fish"
+            }
+        ]
+    },
+    {
+        "name": "fish",
+        "columns": [
+            {
+                "name": "official",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "official",
+        "foreign_keys": [
+            {
+                "column": "official",
+                "references": "rate"
+            }
+        ]
+    },
+    {
+        "name": "rate",
+        "columns": [
+            {
+                "name": "detail",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "detail",
+        "foreign_keys": [
+            {
+                "column": "detail",
+                "references": "argue"
+            }
+        ]
+    },
+    {
+        "name": "argue",
+        "columns": [
+            {
+                "name": "hand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hand",
+        "foreign_keys": [
+            {
+                "column": "hand",
+                "references": "control"
+            }
+        ]
+    },
+    {
+        "name": "control",
+        "columns": [
+            {
+                "name": "carry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "carry",
+        "foreign_keys": [
+            {
+                "column": "carry",
+                "references": "season"
+            }
+        ]
+    },
+    {
+        "name": "season",
+        "columns": [
+            {
+                "name": "like",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "like",
+        "foreign_keys": [
+            {
+                "column": "like",
+                "references": "sign"
+            }
+        ]
+    },
+    {
+        "name": "sign",
+        "columns": [
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "speak",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "represent"
+            }
+        ]
+    },
+    {
+        "name": "represent",
+        "columns": [
+            {
+                "name": "sort",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "machine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sort",
+        "foreign_keys": [
+            {
+                "column": "sort",
+                "references": "woman"
+            }
+        ]
+    },
+    {
+        "name": "woman",
+        "columns": [
+            {
+                "name": "hour",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hour",
+        "foreign_keys": [
+            {
+                "column": "hour",
+                "references": "apply"
+            }
+        ]
+    },
+    {
+        "name": "apply",
+        "columns": [
+            {
+                "name": "identify",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "identify",
+        "foreign_keys": [
+            {
+                "column": "identify",
+                "references": "air"
+            }
+        ]
+    },
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "difficult",
+        "foreign_keys": [
+            {
+                "column": "difficult",
+                "references": "where"
+            }
+        ]
+    }
+]

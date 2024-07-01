@@ -1,0 +1,127 @@
+[
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "remember",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "guess",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "win",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "remember",
+        "foreign_keys": [
+            {
+                "column": "remember",
+                "references": "since"
+            }
+        ]
+    },
+    {
+        "name": "since",
+        "columns": [
+            {
+                "name": "mother",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mother",
+        "foreign_keys": [
+            {
+                "column": "mother",
+                "references": "note"
+            }
+        ]
+    },
+    {
+        "name": "note",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simply",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "woman",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "site",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "woman",
+        "foreign_keys": [
+            {
+                "column": "woman",
+                "references": "war"
+            }
+        ]
+    },
+    {
+        "name": "war",
+        "columns": [
+            {
+                "name": "together",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "together",
+        "foreign_keys": [
+            {
+                "column": "together",
+                "references": "summer"
+            }
+        ]
+    }
+]

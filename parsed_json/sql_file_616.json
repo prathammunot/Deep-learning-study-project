@@ -1,0 +1,225 @@
+[
+    {
+        "name": "name",
+        "columns": [
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "from",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "six",
+        "foreign_keys": [
+            {
+                "column": "six",
+                "references": "really"
+            }
+        ]
+    },
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "manager",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "manager",
+        "foreign_keys": [
+            {
+                "column": "manager",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "finally"
+            }
+        ]
+    },
+    {
+        "name": "finally",
+        "columns": [
+            {
+                "name": "son",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "son",
+        "foreign_keys": [
+            {
+                "column": "son",
+                "references": "marriage"
+            }
+        ]
+    },
+    {
+        "name": "marriage",
+        "columns": [
+            {
+                "name": "former",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "and",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "former",
+        "foreign_keys": [
+            {
+                "column": "former",
+                "references": "perform"
+            }
+        ]
+    },
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "physical",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "physical",
+        "foreign_keys": [
+            {
+                "column": "physical",
+                "references": "seven"
+            }
+        ]
+    },
+    {
+        "name": "seven",
+        "columns": [
+            {
+                "name": "western",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "form",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "western",
+        "foreign_keys": [
+            {
+                "column": "western",
+                "references": "expect"
+            }
+        ]
+    },
+    {
+        "name": "expect",
+        "columns": [
+            {
+                "name": "win",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "win",
+        "foreign_keys": [
+            {
+                "column": "win",
+                "references": "group"
+            }
+        ]
+    },
+    {
+        "name": "group",
+        "columns": [
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "name"
+            }
+        ]
+    }
+]

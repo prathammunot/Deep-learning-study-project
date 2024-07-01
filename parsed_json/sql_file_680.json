@@ -1,0 +1,274 @@
+[
+    {
+        "name": "old",
+        "columns": [
+            {
+                "name": "poor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "writer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "poor",
+        "foreign_keys": [
+            {
+                "column": "poor",
+                "references": "service"
+            }
+        ]
+    },
+    {
+        "name": "service",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "American",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "American",
+        "foreign_keys": [
+            {
+                "column": "American",
+                "references": "according"
+            }
+        ]
+    },
+    {
+        "name": "according",
+        "columns": [
+            {
+                "name": "work",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "work",
+        "foreign_keys": [
+            {
+                "column": "work",
+                "references": "lead"
+            }
+        ]
+    },
+    {
+        "name": "lead",
+        "columns": [
+            {
+                "name": "learn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "environmental",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "learn",
+        "foreign_keys": [
+            {
+                "column": "learn",
+                "references": "already"
+            }
+        ]
+    },
+    {
+        "name": "already",
+        "columns": [
+            {
+                "name": "which",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "which",
+        "foreign_keys": [
+            {
+                "column": "which",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "tax",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "low",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tax",
+        "foreign_keys": [
+            {
+                "column": "tax",
+                "references": "ready"
+            }
+        ]
+    },
+    {
+        "name": "ready",
+        "columns": [
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "break",
+        "foreign_keys": [
+            {
+                "column": "break",
+                "references": "figure"
+            }
+        ]
+    },
+    {
+        "name": "figure",
+        "columns": [
+            {
+                "name": "our",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "our",
+        "foreign_keys": [
+            {
+                "column": "our",
+                "references": "local"
+            }
+        ]
+    },
+    {
+        "name": "local",
+        "columns": [
+            {
+                "name": "begin",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "begin",
+        "foreign_keys": [
+            {
+                "column": "begin",
+                "references": "born"
+            }
+        ]
+    },
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "her",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "society",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "her",
+        "foreign_keys": [
+            {
+                "column": "her",
+                "references": "old"
+            }
+        ]
+    }
+]

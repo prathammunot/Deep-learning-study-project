@@ -1,0 +1,198 @@
+[
+    {
+        "name": "official",
+        "columns": [
+            {
+                "name": "coach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "coach",
+        "foreign_keys": [
+            {
+                "column": "coach",
+                "references": "staff"
+            }
+        ]
+    },
+    {
+        "name": "staff",
+        "columns": [
+            {
+                "name": "add",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "institution",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "add",
+        "foreign_keys": [
+            {
+                "column": "add",
+                "references": "east"
+            }
+        ]
+    },
+    {
+        "name": "east",
+        "columns": [
+            {
+                "name": "discussion",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "discussion",
+        "foreign_keys": [
+            {
+                "column": "discussion",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "candidate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "candidate",
+        "foreign_keys": [
+            {
+                "column": "candidate",
+                "references": "live"
+            }
+        ]
+    },
+    {
+        "name": "live",
+        "columns": [
+            {
+                "name": "west",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "west",
+        "foreign_keys": [
+            {
+                "column": "west",
+                "references": "more"
+            }
+        ]
+    },
+    {
+        "name": "more",
+        "columns": [
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mind",
+        "foreign_keys": [
+            {
+                "column": "mind",
+                "references": "process"
+            }
+        ]
+    },
+    {
+        "name": "process",
+        "columns": [
+            {
+                "name": "benefit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "benefit",
+        "foreign_keys": [
+            {
+                "column": "benefit",
+                "references": "official"
+            }
+        ]
+    }
+]

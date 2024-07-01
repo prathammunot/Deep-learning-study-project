@@ -1,0 +1,127 @@
+[
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environmental",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "finish",
+        "foreign_keys": [
+            {
+                "column": "finish",
+                "references": "thing"
+            }
+        ]
+    },
+    {
+        "name": "thing",
+        "columns": [
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "safe",
+        "foreign_keys": [
+            {
+                "column": "safe",
+                "references": "put"
+            }
+        ]
+    },
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "society",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "public"
+            }
+        ]
+    },
+    {
+        "name": "public",
+        "columns": [
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "task",
+        "foreign_keys": [
+            {
+                "column": "task",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "middle",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "middle",
+        "foreign_keys": [
+            {
+                "column": "middle",
+                "references": "goal"
+            }
+        ]
+    }
+]

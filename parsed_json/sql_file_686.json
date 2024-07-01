@@ -1,0 +1,225 @@
+[
+    {
+        "name": "include",
+        "columns": [
+            {
+                "name": "nothing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "worker",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nothing",
+        "foreign_keys": [
+            {
+                "column": "nothing",
+                "references": "scientist"
+            }
+        ]
+    },
+    {
+        "name": "scientist",
+        "columns": [
+            {
+                "name": "respond",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "respond",
+        "foreign_keys": [
+            {
+                "column": "respond",
+                "references": "wife"
+            }
+        ]
+    },
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "decide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decide",
+        "foreign_keys": [
+            {
+                "column": "decide",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "believe",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "believe",
+        "foreign_keys": [
+            {
+                "column": "believe",
+                "references": "institution"
+            }
+        ]
+    },
+    {
+        "name": "institution",
+        "columns": [
+            {
+                "name": "beautiful",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "record",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beautiful",
+        "foreign_keys": [
+            {
+                "column": "beautiful",
+                "references": "half"
+            }
+        ]
+    },
+    {
+        "name": "half",
+        "columns": [
+            {
+                "name": "serious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "serious",
+        "foreign_keys": [
+            {
+                "column": "serious",
+                "references": "best"
+            }
+        ]
+    },
+    {
+        "name": "best",
+        "columns": [
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whatever",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "himself"
+            }
+        ]
+    },
+    {
+        "name": "himself",
+        "columns": [
+            {
+                "name": "enter",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enter",
+        "foreign_keys": [
+            {
+                "column": "enter",
+                "references": "family"
+            }
+        ]
+    },
+    {
+        "name": "family",
+        "columns": [
+            {
+                "name": "care",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "for",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "care",
+        "foreign_keys": [
+            {
+                "column": "care",
+                "references": "include"
+            }
+        ]
+    }
+]

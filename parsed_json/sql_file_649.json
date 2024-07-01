@@ -1,0 +1,176 @@
+[
+    {
+        "name": "system",
+        "columns": [
+            {
+                "name": "professor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "professor",
+        "foreign_keys": [
+            {
+                "column": "professor",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "where",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "where",
+        "foreign_keys": [
+            {
+                "column": "where",
+                "references": "region"
+            }
+        ]
+    },
+    {
+        "name": "region",
+        "columns": [
+            {
+                "name": "player",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "and",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "player",
+        "foreign_keys": [
+            {
+                "column": "player",
+                "references": "local"
+            }
+        ]
+    },
+    {
+        "name": "local",
+        "columns": [
+            {
+                "name": "care",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "care",
+        "foreign_keys": [
+            {
+                "column": "care",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cut",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "you"
+            }
+        ]
+    },
+    {
+        "name": "you",
+        "columns": [
+            {
+                "name": "professional",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "professional",
+        "foreign_keys": [
+            {
+                "column": "professional",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "team",
+        "foreign_keys": [
+            {
+                "column": "team",
+                "references": "system"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "tax",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "language",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "remain"
+            }
+        ]
+    },
+    {
+        "name": "remain",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "activity"
+            }
+        ]
+    },
+    {
+        "name": "activity",
+        "columns": [
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "watch",
+        "foreign_keys": [
+            {
+                "column": "watch",
+                "references": "exist"
+            }
+        ]
+    },
+    {
+        "name": "exist",
+        "columns": [
+            {
+                "name": "low",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "throw",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "play"
+            }
+        ]
+    },
+    {
+        "name": "play",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "magazine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "tax"
+            }
+        ]
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "name": "above",
+        "columns": [
+            {
+                "name": "example",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "example",
+        "foreign_keys": [
+            {
+                "column": "example",
+                "references": "mention"
+            }
+        ]
+    },
+    {
+        "name": "mention",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "happy"
+            }
+        ]
+    },
+    {
+        "name": "happy",
+        "columns": [
+            {
+                "name": "view",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "view",
+        "foreign_keys": [
+            {
+                "column": "view",
+                "references": "write"
+            }
+        ]
+    },
+    {
+        "name": "write",
+        "columns": [
+            {
+                "name": "accept",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "accept",
+        "foreign_keys": [
+            {
+                "column": "accept",
+                "references": "official"
+            }
+        ]
+    },
+    {
+        "name": "official",
+        "columns": [
+            {
+                "name": "in",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "in",
+        "foreign_keys": [
+            {
+                "column": "in",
+                "references": "commercial"
+            }
+        ]
+    },
+    {
+        "name": "commercial",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "hand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cause",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hand",
+        "foreign_keys": [
+            {
+                "column": "hand",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "this"
+            }
+        ]
+    },
+    {
+        "name": "this",
+        "columns": [
+            {
+                "name": "cell",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cell",
+        "foreign_keys": [
+            {
+                "column": "cell",
+                "references": "send"
+            }
+        ]
+    },
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "air",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "air",
+        "foreign_keys": [
+            {
+                "column": "air",
+                "references": "above"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "until",
+        "columns": [
+            {
+                "name": "source",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "source",
+        "foreign_keys": [
+            {
+                "column": "source",
+                "references": "style"
+            }
+        ]
+    },
+    {
+        "name": "style",
+        "columns": [
+            {
+                "name": "accept",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "accept",
+        "foreign_keys": [
+            {
+                "column": "accept",
+                "references": "start"
+            }
+        ]
+    },
+    {
+        "name": "start",
+        "columns": [
+            {
+                "name": "as",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "only",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "company",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "as",
+        "foreign_keys": [
+            {
+                "column": "as",
+                "references": "use"
+            }
+        ]
+    },
+    {
+        "name": "use",
+        "columns": [
+            {
+                "name": "when",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "when",
+        "foreign_keys": [
+            {
+                "column": "when",
+                "references": "wrong"
+            }
+        ]
+    },
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "whether",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whether",
+        "foreign_keys": [
+            {
+                "column": "whether",
+                "references": "until"
+            }
+        ]
+    }
+]

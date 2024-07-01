@@ -1,0 +1,176 @@
+[
+    {
+        "name": "long",
+        "columns": [
+            {
+                "name": "though",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "though",
+        "foreign_keys": [
+            {
+                "column": "though",
+                "references": "girl"
+            }
+        ]
+    },
+    {
+        "name": "girl",
+        "columns": [
+            {
+                "name": "security",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "security",
+        "foreign_keys": [
+            {
+                "column": "security",
+                "references": "indicate"
+            }
+        ]
+    },
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "already",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "they",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "choose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "already",
+        "foreign_keys": [
+            {
+                "column": "already",
+                "references": "else"
+            }
+        ]
+    },
+    {
+        "name": "else",
+        "columns": [
+            {
+                "name": "fly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fly",
+        "foreign_keys": [
+            {
+                "column": "fly",
+                "references": "affect"
+            }
+        ]
+    },
+    {
+        "name": "affect",
+        "columns": [
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "local",
+        "foreign_keys": [
+            {
+                "column": "local",
+                "references": "with"
+            }
+        ]
+    },
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "skill",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "skill",
+        "foreign_keys": [
+            {
+                "column": "skill",
+                "references": "west"
+            }
+        ]
+    },
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "left",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "left",
+        "foreign_keys": [
+            {
+                "column": "left",
+                "references": "long"
+            }
+        ]
+    }
+]

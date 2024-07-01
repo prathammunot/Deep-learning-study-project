@@ -1,0 +1,296 @@
+[
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "bad"
+            }
+        ]
+    },
+    {
+        "name": "bad",
+        "columns": [
+            {
+                "name": "your",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "husband",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "trade",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trade",
+        "foreign_keys": [
+            {
+                "column": "trade",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mention",
+        "foreign_keys": [
+            {
+                "column": "mention",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "necessary",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "necessary",
+        "foreign_keys": [
+            {
+                "column": "necessary",
+                "references": "air"
+            }
+        ]
+    },
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "choice"
+            }
+        ]
+    },
+    {
+        "name": "choice",
+        "columns": [
+            {
+                "name": "establish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hair",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "establish",
+        "foreign_keys": [
+            {
+                "column": "establish",
+                "references": "window"
+            }
+        ]
+    },
+    {
+        "name": "window",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sound",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "guess"
+            }
+        ]
+    },
+    {
+        "name": "guess",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "sell"
+            }
+        ]
+    },
+    {
+        "name": "sell",
+        "columns": [
+            {
+                "name": "establish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "establish",
+        "foreign_keys": [
+            {
+                "column": "establish",
+                "references": "security"
+            }
+        ]
+    },
+    {
+        "name": "security",
+        "columns": [
+            {
+                "name": "police",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "push",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "police",
+        "foreign_keys": [
+            {
+                "column": "police",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "play",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "play",
+        "foreign_keys": [
+            {
+                "column": "play",
+                "references": "trade"
+            }
+        ]
+    }
+]

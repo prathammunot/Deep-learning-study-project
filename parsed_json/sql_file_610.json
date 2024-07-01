@@ -1,0 +1,296 @@
+[
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "high",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "south"
+            }
+        ]
+    },
+    {
+        "name": "south",
+        "columns": [
+            {
+                "name": "art",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "wish"
+            }
+        ]
+    },
+    {
+        "name": "wish",
+        "columns": [
+            {
+                "name": "manage",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "manage",
+        "foreign_keys": [
+            {
+                "column": "manage",
+                "references": "than"
+            }
+        ]
+    },
+    {
+        "name": "than",
+        "columns": [
+            {
+                "name": "son",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "son",
+        "foreign_keys": [
+            {
+                "column": "son",
+                "references": "stop"
+            }
+        ]
+    },
+    {
+        "name": "stop",
+        "columns": [
+            {
+                "name": "wall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wall",
+        "foreign_keys": [
+            {
+                "column": "wall",
+                "references": "west"
+            }
+        ]
+    },
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "here",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "here",
+        "foreign_keys": [
+            {
+                "column": "here",
+                "references": "ability"
+            }
+        ]
+    },
+    {
+        "name": "ability",
+        "columns": [
+            {
+                "name": "staff",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "water",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "staff",
+        "foreign_keys": [
+            {
+                "column": "staff",
+                "references": "owner"
+            }
+        ]
+    },
+    {
+        "name": "owner",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "activity"
+            }
+        ]
+    },
+    {
+        "name": "activity",
+        "columns": [
+            {
+                "name": "may",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "from",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "may",
+        "foreign_keys": [
+            {
+                "column": "may",
+                "references": "born"
+            }
+        ]
+    },
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "offer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "offer",
+        "foreign_keys": [
+            {
+                "column": "offer",
+                "references": "rock"
+            }
+        ]
+    },
+    {
+        "name": "rock",
+        "columns": [
+            {
+                "name": "computer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "computer",
+        "foreign_keys": [
+            {
+                "column": "computer",
+                "references": "news"
+            }
+        ]
+    }
+]

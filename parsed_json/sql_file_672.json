@@ -1,0 +1,198 @@
+[
+    {
+        "name": "impact",
+        "columns": [
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "push",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agreement",
+        "foreign_keys": [
+            {
+                "column": "agreement",
+                "references": "they"
+            }
+        ]
+    },
+    {
+        "name": "they",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "change"
+            }
+        ]
+    },
+    {
+        "name": "change",
+        "columns": [
+            {
+                "name": "even",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "even",
+        "foreign_keys": [
+            {
+                "column": "even",
+                "references": "would"
+            }
+        ]
+    },
+    {
+        "name": "would",
+        "columns": [
+            {
+                "name": "challenge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "challenge",
+        "foreign_keys": [
+            {
+                "column": "challenge",
+                "references": "score"
+            }
+        ]
+    },
+    {
+        "name": "score",
+        "columns": [
+            {
+                "name": "administration",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "administration",
+        "foreign_keys": [
+            {
+                "column": "administration",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "about",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "about",
+        "foreign_keys": [
+            {
+                "column": "about",
+                "references": "central"
+            }
+        ]
+    },
+    {
+        "name": "central",
+        "columns": [
+            {
+                "name": "red",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "main",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "attention",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "red",
+        "foreign_keys": [
+            {
+                "column": "red",
+                "references": "eight"
+            }
+        ]
+    },
+    {
+        "name": "eight",
+        "columns": [
+            {
+                "name": "three",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "three",
+        "foreign_keys": [
+            {
+                "column": "three",
+                "references": "impact"
+            }
+        ]
+    }
+]

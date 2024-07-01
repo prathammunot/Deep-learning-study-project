@@ -1,0 +1,127 @@
+[
+    {
+        "name": "him",
+        "columns": [
+            {
+                "name": "administration",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "administration",
+        "foreign_keys": [
+            {
+                "column": "administration",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "sit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sit",
+        "foreign_keys": [
+            {
+                "column": "sit",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "then",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "then",
+        "foreign_keys": [
+            {
+                "column": "then",
+                "references": "before"
+            }
+        ]
+    },
+    {
+        "name": "before",
+        "columns": [
+            {
+                "name": "fund",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fund",
+        "foreign_keys": [
+            {
+                "column": "fund",
+                "references": "long"
+            }
+        ]
+    },
+    {
+        "name": "long",
+        "columns": [
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "him"
+            }
+        ]
+    }
+]

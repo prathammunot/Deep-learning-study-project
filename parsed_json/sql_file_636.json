@@ -1,0 +1,247 @@
+[
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "will"
+            }
+        ]
+    },
+    {
+        "name": "will",
+        "columns": [
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "admit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "animal",
+        "foreign_keys": [
+            {
+                "column": "animal",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "focus",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "focus",
+        "foreign_keys": [
+            {
+                "column": "focus",
+                "references": "election"
+            }
+        ]
+    },
+    {
+        "name": "election",
+        "columns": [
+            {
+                "name": "collection",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "collection",
+        "foreign_keys": [
+            {
+                "column": "collection",
+                "references": "although"
+            }
+        ]
+    },
+    {
+        "name": "although",
+        "columns": [
+            {
+                "name": "together",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "computer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "together",
+        "foreign_keys": [
+            {
+                "column": "together",
+                "references": "wife"
+            }
+        ]
+    },
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "eat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "cup"
+            }
+        ]
+    },
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "staff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "power",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "staff",
+        "foreign_keys": [
+            {
+                "column": "staff",
+                "references": "turn"
+            }
+        ]
+    },
+    {
+        "name": "turn",
+        "columns": [
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "child",
+        "foreign_keys": [
+            {
+                "column": "child",
+                "references": "certain"
+            }
+        ]
+    },
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wear",
+        "foreign_keys": [
+            {
+                "column": "wear",
+                "references": "into"
+            }
+        ]
+    }
+]

@@ -1,0 +1,269 @@
+[
+    {
+        "name": "hear",
+        "columns": [
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dark",
+        "foreign_keys": [
+            {
+                "column": "dark",
+                "references": "late"
+            }
+        ]
+    },
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "quality"
+            }
+        ]
+    },
+    {
+        "name": "quality",
+        "columns": [
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "item",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "compare",
+        "foreign_keys": [
+            {
+                "column": "compare",
+                "references": "front"
+            }
+        ]
+    },
+    {
+        "name": "front",
+        "columns": [
+            {
+                "name": "traditional",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "traditional",
+        "foreign_keys": [
+            {
+                "column": "traditional",
+                "references": "work"
+            }
+        ]
+    },
+    {
+        "name": "work",
+        "columns": [
+            {
+                "name": "war",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "war",
+        "foreign_keys": [
+            {
+                "column": "war",
+                "references": "man"
+            }
+        ]
+    },
+    {
+        "name": "man",
+        "columns": [
+            {
+                "name": "throw",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "throw",
+        "foreign_keys": [
+            {
+                "column": "throw",
+                "references": "sing"
+            }
+        ]
+    },
+    {
+        "name": "sing",
+        "columns": [
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "activity",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "himself"
+            }
+        ]
+    },
+    {
+        "name": "himself",
+        "columns": [
+            {
+                "name": "always",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "always",
+        "foreign_keys": [
+            {
+                "column": "always",
+                "references": "right"
+            }
+        ]
+    },
+    {
+        "name": "right",
+        "columns": [
+            {
+                "name": "determine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "determine",
+        "foreign_keys": [
+            {
+                "column": "determine",
+                "references": "down"
+            }
+        ]
+    },
+    {
+        "name": "down",
+        "columns": [
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "as"
+            }
+        ]
+    },
+    {
+        "name": "as",
+        "columns": [
+            {
+                "name": "dog",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dog",
+        "foreign_keys": [
+            {
+                "column": "dog",
+                "references": "hear"
+            }
+        ]
+    }
+]

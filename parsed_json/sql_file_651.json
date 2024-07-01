@@ -1,0 +1,225 @@
+[
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "responsibility",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "memory",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "responsibility",
+        "foreign_keys": [
+            {
+                "column": "responsibility",
+                "references": "over"
+            }
+        ]
+    },
+    {
+        "name": "over",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bar",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "sometimes"
+            }
+        ]
+    },
+    {
+        "name": "sometimes",
+        "columns": [
+            {
+                "name": "for",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "thing"
+            }
+        ]
+    },
+    {
+        "name": "thing",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "up"
+            }
+        ]
+    },
+    {
+        "name": "up",
+        "columns": [
+            {
+                "name": "red",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "red",
+        "foreign_keys": [
+            {
+                "column": "red",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "third",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "third",
+        "foreign_keys": [
+            {
+                "column": "third",
+                "references": "phone"
+            }
+        ]
+    },
+    {
+        "name": "phone",
+        "columns": [
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "phone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sit",
+        "foreign_keys": [
+            {
+                "column": "sit",
+                "references": "system"
+            }
+        ]
+    },
+    {
+        "name": "system",
+        "columns": [
+            {
+                "name": "four",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "four",
+        "foreign_keys": [
+            {
+                "column": "four",
+                "references": "start"
+            }
+        ]
+    },
+    {
+        "name": "start",
+        "columns": [
+            {
+                "name": "support",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "support",
+        "foreign_keys": [
+            {
+                "column": "support",
+                "references": "rich"
+            }
+        ]
+    }
+]

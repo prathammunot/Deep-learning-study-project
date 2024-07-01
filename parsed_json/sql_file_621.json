@@ -1,0 +1,176 @@
+[
+    {
+        "name": "increase",
+        "columns": [
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "carry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "compare",
+        "foreign_keys": [
+            {
+                "column": "compare",
+                "references": "month"
+            }
+        ]
+    },
+    {
+        "name": "month",
+        "columns": [
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "while"
+            }
+        ]
+    },
+    {
+        "name": "while",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "really"
+            }
+        ]
+    },
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "there",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "there",
+        "foreign_keys": [
+            {
+                "column": "there",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "coach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "director",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "coach",
+        "foreign_keys": [
+            {
+                "column": "coach",
+                "references": "suggest"
+            }
+        ]
+    },
+    {
+        "name": "suggest",
+        "columns": [
+            {
+                "name": "change",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "drop"
+            }
+        ]
+    },
+    {
+        "name": "drop",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "increase"
+            }
+        ]
+    }
+]

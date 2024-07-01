@@ -1,0 +1,274 @@
+[
+    {
+        "name": "anyone",
+        "columns": [
+            {
+                "name": "color",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "nation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nation",
+        "foreign_keys": [
+            {
+                "column": "nation",
+                "references": "affect"
+            }
+        ]
+    },
+    {
+        "name": "affect",
+        "columns": [
+            {
+                "name": "every",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "every",
+        "foreign_keys": [
+            {
+                "column": "every",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "ability",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ability",
+        "foreign_keys": [
+            {
+                "column": "ability",
+                "references": "together"
+            }
+        ]
+    },
+    {
+        "name": "together",
+        "columns": [
+            {
+                "name": "add",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "significant",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "add",
+        "foreign_keys": [
+            {
+                "column": "add",
+                "references": "thought"
+            }
+        ]
+    },
+    {
+        "name": "thought",
+        "columns": [
+            {
+                "name": "set",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "set",
+        "foreign_keys": [
+            {
+                "column": "set",
+                "references": "yourself"
+            }
+        ]
+    },
+    {
+        "name": "yourself",
+        "columns": [
+            {
+                "name": "key",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "key",
+        "foreign_keys": [
+            {
+                "column": "key",
+                "references": "great"
+            }
+        ]
+    },
+    {
+        "name": "great",
+        "columns": [
+            {
+                "name": "when",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "when",
+        "foreign_keys": [
+            {
+                "column": "when",
+                "references": "social"
+            }
+        ]
+    },
+    {
+        "name": "social",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "water",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "agreement"
+            }
+        ]
+    },
+    {
+        "name": "agreement",
+        "columns": [
+            {
+                "name": "become",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "drive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "become",
+        "foreign_keys": [
+            {
+                "column": "become",
+                "references": "third"
+            }
+        ]
+    },
+    {
+        "name": "third",
+        "columns": [
+            {
+                "name": "song",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "past",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "song",
+        "foreign_keys": [
+            {
+                "column": "song",
+                "references": "anyone"
+            }
+        ]
+    }
+]

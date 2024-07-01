@@ -1,0 +1,247 @@
+[
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "his",
+        "foreign_keys": [
+            {
+                "column": "his",
+                "references": "father"
+            }
+        ]
+    },
+    {
+        "name": "father",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "teacher"
+            }
+        ]
+    },
+    {
+        "name": "teacher",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "a",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "should"
+            }
+        ]
+    },
+    {
+        "name": "should",
+        "columns": [
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "southern",
+        "foreign_keys": [
+            {
+                "column": "southern",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "central",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "partner"
+            }
+        ]
+    },
+    {
+        "name": "partner",
+        "columns": [
+            {
+                "name": "officer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "officer",
+        "foreign_keys": [
+            {
+                "column": "officer",
+                "references": "anything"
+            }
+        ]
+    },
+    {
+        "name": "anything",
+        "columns": [
+            {
+                "name": "minute",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "minute",
+        "foreign_keys": [
+            {
+                "column": "minute",
+                "references": "mother"
+            }
+        ]
+    },
+    {
+        "name": "mother",
+        "columns": [
+            {
+                "name": "service",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "service",
+        "foreign_keys": [
+            {
+                "column": "service",
+                "references": "table"
+            }
+        ]
+    },
+    {
+        "name": "table",
+        "columns": [
+            {
+                "name": "fish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fish",
+        "foreign_keys": [
+            {
+                "column": "fish",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "miss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "miss",
+        "foreign_keys": [
+            {
+                "column": "miss",
+                "references": "think"
+            }
+        ]
+    }
+]

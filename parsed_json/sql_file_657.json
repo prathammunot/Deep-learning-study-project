@@ -1,0 +1,274 @@
+[
+    {
+        "name": "before",
+        "columns": [
+            {
+                "name": "what",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "what",
+        "foreign_keys": [
+            {
+                "column": "what",
+                "references": "strategy"
+            }
+        ]
+    },
+    {
+        "name": "strategy",
+        "columns": [
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "indeed"
+            }
+        ]
+    },
+    {
+        "name": "indeed",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "look"
+            }
+        ]
+    },
+    {
+        "name": "look",
+        "columns": [
+            {
+                "name": "great",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "great",
+        "foreign_keys": [
+            {
+                "column": "great",
+                "references": "rock"
+            }
+        ]
+    },
+    {
+        "name": "rock",
+        "columns": [
+            {
+                "name": "probably",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thus",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "probably",
+        "foreign_keys": [
+            {
+                "column": "probably",
+                "references": "against"
+            }
+        ]
+    },
+    {
+        "name": "against",
+        "columns": [
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "receive",
+        "foreign_keys": [
+            {
+                "column": "receive",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "source",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "about",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "edge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "source",
+        "foreign_keys": [
+            {
+                "column": "source",
+                "references": "who"
+            }
+        ]
+    },
+    {
+        "name": "who",
+        "columns": [
+            {
+                "name": "data",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "data",
+        "foreign_keys": [
+            {
+                "column": "data",
+                "references": "positive"
+            }
+        ]
+    },
+    {
+        "name": "positive",
+        "columns": [
+            {
+                "name": "system",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "appear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "system",
+        "foreign_keys": [
+            {
+                "column": "system",
+                "references": "president"
+            }
+        ]
+    },
+    {
+        "name": "president",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "local"
+            }
+        ]
+    },
+    {
+        "name": "local",
+        "columns": [
+            {
+                "name": "wall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wall",
+        "foreign_keys": [
+            {
+                "column": "wall",
+                "references": "before"
+            }
+        ]
+    }
+]

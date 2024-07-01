@@ -1,0 +1,176 @@
+[
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "parent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "parent",
+        "foreign_keys": [
+            {
+                "column": "parent",
+                "references": "population"
+            }
+        ]
+    },
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "expert"
+            }
+        ]
+    },
+    {
+        "name": "expert",
+        "columns": [
+            {
+                "name": "play",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "play",
+        "foreign_keys": [
+            {
+                "column": "play",
+                "references": "black"
+            }
+        ]
+    },
+    {
+        "name": "black",
+        "columns": [
+            {
+                "name": "how",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "how",
+        "foreign_keys": [
+            {
+                "column": "how",
+                "references": "wife"
+            }
+        ]
+    },
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "head",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "their",
+        "foreign_keys": [
+            {
+                "column": "their",
+                "references": "parent"
+            }
+        ]
+    },
+    {
+        "name": "parent",
+        "columns": [
+            {
+                "name": "page",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "page",
+        "foreign_keys": [
+            {
+                "column": "page",
+                "references": "even"
+            }
+        ]
+    },
+    {
+        "name": "even",
+        "columns": [
+            {
+                "name": "parent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "parent",
+        "foreign_keys": [
+            {
+                "column": "parent",
+                "references": "if"
+            }
+        ]
+    }
+]

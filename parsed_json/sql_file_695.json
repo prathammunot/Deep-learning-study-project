@@ -1,0 +1,176 @@
+[
+    {
+        "name": "wind",
+        "columns": [
+            {
+                "name": "be",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "turn",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "imagine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "be",
+        "foreign_keys": [
+            {
+                "column": "be",
+                "references": "skill"
+            }
+        ]
+    },
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "piece",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "piece",
+        "foreign_keys": [
+            {
+                "column": "piece",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "group",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "group",
+        "foreign_keys": [
+            {
+                "column": "group",
+                "references": "major"
+            }
+        ]
+    },
+    {
+        "name": "major",
+        "columns": [
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "college"
+            }
+        ]
+    },
+    {
+        "name": "college",
+        "columns": [
+            {
+                "name": "including",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "including",
+        "foreign_keys": [
+            {
+                "column": "including",
+                "references": "senior"
+            }
+        ]
+    },
+    {
+        "name": "senior",
+        "columns": [
+            {
+                "name": "medical",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "medical",
+        "foreign_keys": [
+            {
+                "column": "medical",
+                "references": "person"
+            }
+        ]
+    },
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "our",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "special",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "our",
+        "foreign_keys": [
+            {
+                "column": "our",
+                "references": "wind"
+            }
+        ]
+    }
+]

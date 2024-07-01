@@ -1,0 +1,198 @@
+[
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "note",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "note",
+        "foreign_keys": [
+            {
+                "column": "note",
+                "references": "language"
+            }
+        ]
+    },
+    {
+        "name": "language",
+        "columns": [
+            {
+                "name": "total",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "product",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "total",
+        "foreign_keys": [
+            {
+                "column": "total",
+                "references": "reflect"
+            }
+        ]
+    },
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "every",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "every",
+        "foreign_keys": [
+            {
+                "column": "every",
+                "references": "military"
+            }
+        ]
+    },
+    {
+        "name": "military",
+        "columns": [
+            {
+                "name": "treatment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "treatment",
+        "foreign_keys": [
+            {
+                "column": "treatment",
+                "references": "final"
+            }
+        ]
+    },
+    {
+        "name": "final",
+        "columns": [
+            {
+                "name": "personal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "personal",
+        "foreign_keys": [
+            {
+                "column": "personal",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "east",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reality",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "east",
+        "foreign_keys": [
+            {
+                "column": "east",
+                "references": "could"
+            }
+        ]
+    },
+    {
+        "name": "could",
+        "columns": [
+            {
+                "name": "white",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "white",
+        "foreign_keys": [
+            {
+                "column": "white",
+                "references": "story"
+            }
+        ]
+    },
+    {
+        "name": "story",
+        "columns": [
+            {
+                "name": "interest",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "interest",
+        "foreign_keys": [
+            {
+                "column": "interest",
+                "references": "about"
+            }
+        ]
+    }
+]

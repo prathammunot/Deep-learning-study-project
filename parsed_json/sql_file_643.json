@@ -1,0 +1,198 @@
+[
+    {
+        "name": "wonder",
+        "columns": [
+            {
+                "name": "social",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "social",
+        "foreign_keys": [
+            {
+                "column": "social",
+                "references": "year"
+            }
+        ]
+    },
+    {
+        "name": "year",
+        "columns": [
+            {
+                "name": "they",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "they",
+        "foreign_keys": [
+            {
+                "column": "they",
+                "references": "almost"
+            }
+        ]
+    },
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mean",
+        "foreign_keys": [
+            {
+                "column": "mean",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "create",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "create",
+        "foreign_keys": [
+            {
+                "column": "create",
+                "references": "whole"
+            }
+        ]
+    },
+    {
+        "name": "whole",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "his"
+            }
+        ]
+    },
+    {
+        "name": "his",
+        "columns": [
+            {
+                "name": "out",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "out",
+        "foreign_keys": [
+            {
+                "column": "out",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quality",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "about"
+            }
+        ]
+    },
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "budget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "budget",
+        "foreign_keys": [
+            {
+                "column": "budget",
+                "references": "wonder"
+            }
+        ]
+    }
+]

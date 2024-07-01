@@ -1,0 +1,149 @@
+[
+    {
+        "name": "indeed",
+        "columns": [
+            {
+                "name": "through",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "through",
+        "foreign_keys": [
+            {
+                "column": "through",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deep",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "agreement"
+            }
+        ]
+    },
+    {
+        "name": "agreement",
+        "columns": [
+            {
+                "name": "when",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "when",
+        "foreign_keys": [
+            {
+                "column": "when",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "policy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "policy",
+        "foreign_keys": [
+            {
+                "column": "policy",
+                "references": "with"
+            }
+        ]
+    },
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "power",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "power",
+        "foreign_keys": [
+            {
+                "column": "power",
+                "references": "indeed"
+            }
+        ]
+    }
+]

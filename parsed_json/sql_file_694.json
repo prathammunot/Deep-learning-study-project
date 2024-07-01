@@ -1,0 +1,176 @@
+[
+    {
+        "name": "address",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "stop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stop",
+        "foreign_keys": [
+            {
+                "column": "stop",
+                "references": "five"
+            }
+        ]
+    },
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "specific",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "specific",
+        "foreign_keys": [
+            {
+                "column": "specific",
+                "references": "certain"
+            }
+        ]
+    },
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "happen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "happen",
+        "foreign_keys": [
+            {
+                "column": "happen",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "help",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "help",
+        "foreign_keys": [
+            {
+                "column": "help",
+                "references": "teach"
+            }
+        ]
+    },
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "particular",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "particular",
+        "foreign_keys": [
+            {
+                "column": "particular",
+                "references": "decision"
+            }
+        ]
+    },
+    {
+        "name": "decision",
+        "columns": [
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "page",
+        "foreign_keys": [
+            {
+                "column": "page",
+                "references": "address"
+            }
+        ]
+    }
+]

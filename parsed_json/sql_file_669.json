@@ -1,0 +1,247 @@
+[
+    {
+        "name": "maybe",
+        "columns": [
+            {
+                "name": "production",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "organization",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "production",
+        "foreign_keys": [
+            {
+                "column": "production",
+                "references": "energy"
+            }
+        ]
+    },
+    {
+        "name": "energy",
+        "columns": [
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "specific",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kitchen",
+        "foreign_keys": [
+            {
+                "column": "kitchen",
+                "references": "throw"
+            }
+        ]
+    },
+    {
+        "name": "throw",
+        "columns": [
+            {
+                "name": "human",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "human",
+        "foreign_keys": [
+            {
+                "column": "human",
+                "references": "total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "get",
+        "foreign_keys": [
+            {
+                "column": "get",
+                "references": "fall"
+            }
+        ]
+    },
+    {
+        "name": "fall",
+        "columns": [
+            {
+                "name": "spring",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "spring",
+        "foreign_keys": [
+            {
+                "column": "spring",
+                "references": "require"
+            }
+        ]
+    },
+    {
+        "name": "require",
+        "columns": [
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "under",
+        "foreign_keys": [
+            {
+                "column": "under",
+                "references": "apply"
+            }
+        ]
+    },
+    {
+        "name": "apply",
+        "columns": [
+            {
+                "name": "information",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "bank"
+            }
+        ]
+    },
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "despite",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "despite",
+        "foreign_keys": [
+            {
+                "column": "despite",
+                "references": "ahead"
+            }
+        ]
+    },
+    {
+        "name": "ahead",
+        "columns": [
+            {
+                "name": "street",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "street",
+        "foreign_keys": [
+            {
+                "column": "street",
+                "references": "behavior"
+            }
+        ]
+    },
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "also",
+        "foreign_keys": [
+            {
+                "column": "also",
+                "references": "maybe"
+            }
+        ]
+    }
+]

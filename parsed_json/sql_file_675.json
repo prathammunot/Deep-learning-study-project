@@ -1,0 +1,149 @@
+[
+    {
+        "name": "animal",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "his"
+            }
+        ]
+    },
+    {
+        "name": "his",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "daughter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mind",
+        "foreign_keys": [
+            {
+                "column": "mind",
+                "references": "what"
+            }
+        ]
+    },
+    {
+        "name": "what",
+        "columns": [
+            {
+                "name": "bar",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bar",
+        "foreign_keys": [
+            {
+                "column": "bar",
+                "references": "late"
+            }
+        ]
+    },
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "group"
+            }
+        ]
+    },
+    {
+        "name": "group",
+        "columns": [
+            {
+                "name": "something",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pick",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "something",
+        "foreign_keys": [
+            {
+                "column": "something",
+                "references": "animal"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "on",
+        "columns": [
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "field",
+        "foreign_keys": [
+            {
+                "column": "field",
+                "references": "coach"
+            }
+        ]
+    },
+    {
+        "name": "coach",
+        "columns": [
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "have",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "prove"
+            }
+        ]
+    },
+    {
+        "name": "prove",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "myself"
+            }
+        ]
+    },
+    {
+        "name": "myself",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "push",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "training"
+            }
+        ]
+    },
+    {
+        "name": "training",
+        "columns": [
+            {
+                "name": "produce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "produce",
+        "foreign_keys": [
+            {
+                "column": "produce",
+                "references": "card"
+            }
+        ]
+    },
+    {
+        "name": "card",
+        "columns": [
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "place"
+            }
+        ]
+    },
+    {
+        "name": "place",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "student"
+            }
+        ]
+    },
+    {
+        "name": "student",
+        "columns": [
+            {
+                "name": "alone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whatever",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "alone",
+        "foreign_keys": [
+            {
+                "column": "alone",
+                "references": "back"
+            }
+        ]
+    },
+    {
+        "name": "back",
+        "columns": [
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "possible",
+        "foreign_keys": [
+            {
+                "column": "possible",
+                "references": "mention"
+            }
+        ]
+    },
+    {
+        "name": "mention",
+        "columns": [
+            {
+                "name": "necessary",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "necessary",
+        "foreign_keys": [
+            {
+                "column": "necessary",
+                "references": "on"
+            }
+        ]
+    }
+]

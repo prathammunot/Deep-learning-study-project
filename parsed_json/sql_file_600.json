@@ -1,0 +1,127 @@
+[
+    {
+        "name": "might",
+        "columns": [
+            {
+                "name": "author",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "author",
+        "foreign_keys": [
+            {
+                "column": "author",
+                "references": "near"
+            }
+        ]
+    },
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "feel",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feel",
+        "foreign_keys": [
+            {
+                "column": "feel",
+                "references": "why"
+            }
+        ]
+    },
+    {
+        "name": "why",
+        "columns": [
+            {
+                "name": "pull",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pull",
+        "foreign_keys": [
+            {
+                "column": "pull",
+                "references": "heavy"
+            }
+        ]
+    },
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "mean"
+            }
+        ]
+    },
+    {
+        "name": "mean",
+        "columns": [
+            {
+                "name": "night",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "night",
+        "foreign_keys": [
+            {
+                "column": "night",
+                "references": "might"
+            }
+        ]
+    }
+]

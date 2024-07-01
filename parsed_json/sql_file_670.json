@@ -1,0 +1,149 @@
+[
+    {
+        "name": "enough",
+        "columns": [
+            {
+                "name": "partner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "partner",
+        "foreign_keys": [
+            {
+                "column": "partner",
+                "references": "production"
+            }
+        ]
+    },
+    {
+        "name": "production",
+        "columns": [
+            {
+                "name": "set",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "set",
+        "foreign_keys": [
+            {
+                "column": "set",
+                "references": "all"
+            }
+        ]
+    },
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "somebody",
+        "foreign_keys": [
+            {
+                "column": "somebody",
+                "references": "offer"
+            }
+        ]
+    },
+    {
+        "name": "offer",
+        "columns": [
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "parent",
+        "foreign_keys": [
+            {
+                "column": "parent",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "material",
+        "foreign_keys": [
+            {
+                "column": "material",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "style",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "style",
+        "foreign_keys": [
+            {
+                "column": "style",
+                "references": "enough"
+            }
+        ]
+    }
+]

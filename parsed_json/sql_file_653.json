@@ -1,0 +1,198 @@
+[
+    {
+        "name": "discuss",
+        "columns": [
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "professional",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "senior"
+            }
+        ]
+    },
+    {
+        "name": "senior",
+        "columns": [
+            {
+                "name": "technology",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "technology",
+        "foreign_keys": [
+            {
+                "column": "technology",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "once",
+        "foreign_keys": [
+            {
+                "column": "once",
+                "references": "born"
+            }
+        ]
+    },
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "a",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "a",
+        "foreign_keys": [
+            {
+                "column": "a",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "degree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "miss",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "degree",
+        "foreign_keys": [
+            {
+                "column": "degree",
+                "references": "wrong"
+            }
+        ]
+    },
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "do",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "do",
+        "foreign_keys": [
+            {
+                "column": "do",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "serve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "serve",
+        "foreign_keys": [
+            {
+                "column": "serve",
+                "references": "size"
+            }
+        ]
+    },
+    {
+        "name": "size",
+        "columns": [
+            {
+                "name": "interview",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "interview",
+        "foreign_keys": [
+            {
+                "column": "interview",
+                "references": "discuss"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "name": "notice",
+        "columns": [
+            {
+                "name": "network",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "network",
+        "foreign_keys": [
+            {
+                "column": "network",
+                "references": "leader"
+            }
+        ]
+    },
+    {
+        "name": "leader",
+        "columns": [
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "choice"
+            }
+        ]
+    },
+    {
+        "name": "choice",
+        "columns": [
+            {
+                "name": "already",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "already",
+        "foreign_keys": [
+            {
+                "column": "already",
+                "references": "moment"
+            }
+        ]
+    },
+    {
+        "name": "moment",
+        "columns": [
+            {
+                "name": "sound",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sound",
+        "foreign_keys": [
+            {
+                "column": "sound",
+                "references": "anything"
+            }
+        ]
+    },
+    {
+        "name": "anything",
+        "columns": [
+            {
+                "name": "number",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "speak",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "number",
+        "foreign_keys": [
+            {
+                "column": "number",
+                "references": "international"
+            }
+        ]
+    },
+    {
+        "name": "international",
+        "columns": [
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "drug",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "play"
+            }
+        ]
+    },
+    {
+        "name": "play",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "degree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "degree",
+        "foreign_keys": [
+            {
+                "column": "degree",
+                "references": "notice"
+            }
+        ]
+    }
+]

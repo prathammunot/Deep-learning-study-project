@@ -1,0 +1,274 @@
+[
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "religious",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "religious",
+        "foreign_keys": [
+            {
+                "column": "religious",
+                "references": "sister"
+            }
+        ]
+    },
+    {
+        "name": "sister",
+        "columns": [
+            {
+                "name": "always",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "always",
+        "foreign_keys": [
+            {
+                "column": "always",
+                "references": "radio"
+            }
+        ]
+    },
+    {
+        "name": "radio",
+        "columns": [
+            {
+                "name": "report",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "significant",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "report",
+        "foreign_keys": [
+            {
+                "column": "report",
+                "references": "food"
+            }
+        ]
+    },
+    {
+        "name": "food",
+        "columns": [
+            {
+                "name": "see",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "center"
+            }
+        ]
+    },
+    {
+        "name": "center",
+        "columns": [
+            {
+                "name": "ask",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ask",
+        "foreign_keys": [
+            {
+                "column": "ask",
+                "references": "material"
+            }
+        ]
+    },
+    {
+        "name": "material",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "shake",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "shake",
+        "foreign_keys": [
+            {
+                "column": "shake",
+                "references": "explain"
+            }
+        ]
+    },
+    {
+        "name": "explain",
+        "columns": [
+            {
+                "name": "part",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "part",
+        "foreign_keys": [
+            {
+                "column": "part",
+                "references": "add"
+            }
+        ]
+    },
+    {
+        "name": "add",
+        "columns": [
+            {
+                "name": "charge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "charge",
+        "foreign_keys": [
+            {
+                "column": "charge",
+                "references": "trouble"
+            }
+        ]
+    },
+    {
+        "name": "trouble",
+        "columns": [
+            {
+                "name": "minute",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "know",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "minute",
+        "foreign_keys": [
+            {
+                "column": "minute",
+                "references": "able"
+            }
+        ]
+    },
+    {
+        "name": "able",
+        "columns": [
+            {
+                "name": "we",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "we",
+        "foreign_keys": [
+            {
+                "column": "we",
+                "references": "wrong"
+            }
+        ]
+    }
+]
