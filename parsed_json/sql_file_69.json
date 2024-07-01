@@ -1,0 +1,198 @@
+[
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "believe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "word",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "believe",
+        "foreign_keys": [
+            {
+                "column": "believe",
+                "references": "thing"
+            }
+        ]
+    },
+    {
+        "name": "thing",
+        "columns": [
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "practice",
+        "foreign_keys": [
+            {
+                "column": "practice",
+                "references": "man"
+            }
+        ]
+    },
+    {
+        "name": "man",
+        "columns": [
+            {
+                "name": "development",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "development",
+        "foreign_keys": [
+            {
+                "column": "development",
+                "references": "check"
+            }
+        ]
+    },
+    {
+        "name": "check",
+        "columns": [
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "learn",
+        "foreign_keys": [
+            {
+                "column": "learn",
+                "references": "commercial"
+            }
+        ]
+    },
+    {
+        "name": "commercial",
+        "columns": [
+            {
+                "name": "then",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "then",
+        "foreign_keys": [
+            {
+                "column": "then",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "check",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ten",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "indeed"
+            }
+        ]
+    },
+    {
+        "name": "indeed",
+        "columns": [
+            {
+                "name": "along",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "past",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "along",
+        "foreign_keys": [
+            {
+                "column": "along",
+                "references": "impact"
+            }
+        ]
+    },
+    {
+        "name": "impact",
+        "columns": [
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "culture"
+            }
+        ]
+    }
+]

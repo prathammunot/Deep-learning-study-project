@@ -1,0 +1,247 @@
+[
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "morning",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "people",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "morning",
+        "foreign_keys": [
+            {
+                "column": "morning",
+                "references": "huge"
+            }
+        ]
+    },
+    {
+        "name": "huge",
+        "columns": [
+            {
+                "name": "record",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "record",
+        "foreign_keys": [
+            {
+                "column": "record",
+                "references": "million"
+            }
+        ]
+    },
+    {
+        "name": "million",
+        "columns": [
+            {
+                "name": "present",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "present",
+        "foreign_keys": [
+            {
+                "column": "present",
+                "references": "compare"
+            }
+        ]
+    },
+    {
+        "name": "compare",
+        "columns": [
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "both"
+            }
+        ]
+    },
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "minute",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sometimes",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "minute",
+        "foreign_keys": [
+            {
+                "column": "minute",
+                "references": "together"
+            }
+        ]
+    },
+    {
+        "name": "together",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "game"
+            }
+        ]
+    },
+    {
+        "name": "game",
+        "columns": [
+            {
+                "name": "agency",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "development",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agency",
+        "foreign_keys": [
+            {
+                "column": "agency",
+                "references": "town"
+            }
+        ]
+    },
+    {
+        "name": "town",
+        "columns": [
+            {
+                "name": "before",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "bill"
+            }
+        ]
+    },
+    {
+        "name": "bill",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "notice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "notice",
+        "foreign_keys": [
+            {
+                "column": "notice",
+                "references": "indicate"
+            }
+        ]
+    }
+]

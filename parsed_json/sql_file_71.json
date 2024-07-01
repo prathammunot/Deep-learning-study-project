@@ -1,0 +1,198 @@
+[
+    {
+        "name": "hand",
+        "columns": [
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "front"
+            }
+        ]
+    },
+    {
+        "name": "front",
+        "columns": [
+            {
+                "name": "police",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "police",
+        "foreign_keys": [
+            {
+                "column": "police",
+                "references": "receive"
+            }
+        ]
+    },
+    {
+        "name": "receive",
+        "columns": [
+            {
+                "name": "international",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "international",
+        "foreign_keys": [
+            {
+                "column": "international",
+                "references": "cover"
+            }
+        ]
+    },
+    {
+        "name": "cover",
+        "columns": [
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "month"
+            }
+        ]
+    },
+    {
+        "name": "month",
+        "columns": [
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "allow",
+        "foreign_keys": [
+            {
+                "column": "allow",
+                "references": "both"
+            }
+        ]
+    },
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "most",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "form",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "most",
+        "foreign_keys": [
+            {
+                "column": "most",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "wish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wish",
+        "foreign_keys": [
+            {
+                "column": "wish",
+                "references": "box"
+            }
+        ]
+    },
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "tax",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tax",
+        "foreign_keys": [
+            {
+                "column": "tax",
+                "references": "hand"
+            }
+        ]
+    }
+]

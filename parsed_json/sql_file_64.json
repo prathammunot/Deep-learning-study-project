@@ -1,0 +1,274 @@
+[
+    {
+        "name": "loss",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ability",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "pass"
+            }
+        ]
+    },
+    {
+        "name": "pass",
+        "columns": [
+            {
+                "name": "listen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "listen",
+        "foreign_keys": [
+            {
+                "column": "listen",
+                "references": "quite"
+            }
+        ]
+    },
+    {
+        "name": "quite",
+        "columns": [
+            {
+                "name": "attorney",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wonder",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attorney",
+        "foreign_keys": [
+            {
+                "column": "attorney",
+                "references": "staff"
+            }
+        ]
+    },
+    {
+        "name": "staff",
+        "columns": [
+            {
+                "name": "heart",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "heart",
+        "foreign_keys": [
+            {
+                "column": "heart",
+                "references": "notice"
+            }
+        ]
+    },
+    {
+        "name": "notice",
+        "columns": [
+            {
+                "name": "may",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "may",
+        "foreign_keys": [
+            {
+                "column": "may",
+                "references": "simply"
+            }
+        ]
+    },
+    {
+        "name": "simply",
+        "columns": [
+            {
+                "name": "before",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "join",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "traditional"
+            }
+        ]
+    },
+    {
+        "name": "traditional",
+        "columns": [
+            {
+                "name": "skill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "skill",
+        "foreign_keys": [
+            {
+                "column": "skill",
+                "references": "one"
+            }
+        ]
+    },
+    {
+        "name": "one",
+        "columns": [
+            {
+                "name": "visit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "visit",
+        "foreign_keys": [
+            {
+                "column": "visit",
+                "references": "call"
+            }
+        ]
+    },
+    {
+        "name": "call",
+        "columns": [
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "successful",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mean",
+        "foreign_keys": [
+            {
+                "column": "mean",
+                "references": "explain"
+            }
+        ]
+    },
+    {
+        "name": "explain",
+        "columns": [
+            {
+                "name": "contain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thank",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "contain",
+        "foreign_keys": [
+            {
+                "column": "contain",
+                "references": "where"
+            }
+        ]
+    },
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agent",
+        "foreign_keys": [
+            {
+                "column": "agent",
+                "references": "loss"
+            }
+        ]
+    }
+]

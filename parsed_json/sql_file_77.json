@@ -1,0 +1,127 @@
+[
+    {
+        "name": "focus",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "which",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "behavior"
+            }
+        ]
+    },
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "another",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "finally"
+            }
+        ]
+    },
+    {
+        "name": "finally",
+        "columns": [
+            {
+                "name": "in",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "a",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "in",
+        "foreign_keys": [
+            {
+                "column": "in",
+                "references": "serious"
+            }
+        ]
+    },
+    {
+        "name": "serious",
+        "columns": [
+            {
+                "name": "return",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cover",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "return",
+        "foreign_keys": [
+            {
+                "column": "return",
+                "references": "race"
+            }
+        ]
+    },
+    {
+        "name": "race",
+        "columns": [
+            {
+                "name": "sign",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sign",
+        "foreign_keys": [
+            {
+                "column": "sign",
+                "references": "focus"
+            }
+        ]
+    }
+]

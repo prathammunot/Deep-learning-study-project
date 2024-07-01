@@ -1,0 +1,149 @@
+[
+    {
+        "name": "cover",
+        "columns": [
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "risk"
+            }
+        ]
+    },
+    {
+        "name": "risk",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "easy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "but"
+            }
+        ]
+    },
+    {
+        "name": "but",
+        "columns": [
+            {
+                "name": "from",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "special",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "from",
+        "foreign_keys": [
+            {
+                "column": "from",
+                "references": "leg"
+            }
+        ]
+    },
+    {
+        "name": "leg",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "camera"
+            }
+        ]
+    },
+    {
+        "name": "camera",
+        "columns": [
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "contain",
+        "foreign_keys": [
+            {
+                "column": "contain",
+                "references": "military"
+            }
+        ]
+    },
+    {
+        "name": "military",
+        "columns": [
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "life",
+        "foreign_keys": [
+            {
+                "column": "life",
+                "references": "cover"
+            }
+        ]
+    }
+]

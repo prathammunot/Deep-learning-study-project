@@ -1,0 +1,247 @@
+[
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "pattern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pattern",
+        "foreign_keys": [
+            {
+                "column": "pattern",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "hope",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hope",
+        "foreign_keys": [
+            {
+                "column": "hope",
+                "references": "other"
+            }
+        ]
+    },
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "relationship",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relationship",
+        "foreign_keys": [
+            {
+                "column": "relationship",
+                "references": "but"
+            }
+        ]
+    },
+    {
+        "name": "but",
+        "columns": [
+            {
+                "name": "job",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "job",
+        "foreign_keys": [
+            {
+                "column": "job",
+                "references": "soldier"
+            }
+        ]
+    },
+    {
+        "name": "soldier",
+        "columns": [
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "citizen"
+            }
+        ]
+    },
+    {
+        "name": "citizen",
+        "columns": [
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "surface"
+            }
+        ]
+    },
+    {
+        "name": "surface",
+        "columns": [
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "peace",
+        "foreign_keys": [
+            {
+                "column": "peace",
+                "references": "catch"
+            }
+        ]
+    },
+    {
+        "name": "catch",
+        "columns": [
+            {
+                "name": "catch",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "catch",
+        "foreign_keys": [
+            {
+                "column": "catch",
+                "references": "easy"
+            }
+        ]
+    },
+    {
+        "name": "easy",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "true",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "receive"
+            }
+        ]
+    },
+    {
+        "name": "receive",
+        "columns": [
+            {
+                "name": "very",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "very",
+        "foreign_keys": [
+            {
+                "column": "very",
+                "references": "space"
+            }
+        ]
+    }
+]

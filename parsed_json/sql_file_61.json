@@ -1,0 +1,274 @@
+[
+    {
+        "name": "describe",
+        "columns": [
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "stage"
+            }
+        ]
+    },
+    {
+        "name": "stage",
+        "columns": [
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "outside",
+        "foreign_keys": [
+            {
+                "column": "outside",
+                "references": "power"
+            }
+        ]
+    },
+    {
+        "name": "power",
+        "columns": [
+            {
+                "name": "shoulder",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "shoulder",
+        "foreign_keys": [
+            {
+                "column": "shoulder",
+                "references": "evening"
+            }
+        ]
+    },
+    {
+        "name": "evening",
+        "columns": [
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "music",
+        "foreign_keys": [
+            {
+                "column": "music",
+                "references": "garden"
+            }
+        ]
+    },
+    {
+        "name": "garden",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "less",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "personal"
+            }
+        ]
+    },
+    {
+        "name": "personal",
+        "columns": [
+            {
+                "name": "area",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "area",
+        "foreign_keys": [
+            {
+                "column": "area",
+                "references": "church"
+            }
+        ]
+    },
+    {
+        "name": "church",
+        "columns": [
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "evening"
+            }
+        ]
+    },
+    {
+        "name": "evening",
+        "columns": [
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "too",
+        "foreign_keys": [
+            {
+                "column": "too",
+                "references": "move"
+            }
+        ]
+    },
+    {
+        "name": "move",
+        "columns": [
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "year",
+        "foreign_keys": [
+            {
+                "column": "year",
+                "references": "truth"
+            }
+        ]
+    },
+    {
+        "name": "truth",
+        "columns": [
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "beyond"
+            }
+        ]
+    },
+    {
+        "name": "beyond",
+        "columns": [
+            {
+                "name": "behavior",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "word",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "behavior",
+        "foreign_keys": [
+            {
+                "column": "behavior",
+                "references": "describe"
+            }
+        ]
+    }
+]

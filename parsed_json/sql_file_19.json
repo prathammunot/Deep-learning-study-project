@@ -1,0 +1,127 @@
+[
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "bad",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "accept",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bad",
+        "foreign_keys": [
+            {
+                "column": "bad",
+                "references": "gun"
+            }
+        ]
+    },
+    {
+        "name": "gun",
+        "columns": [
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "moment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "blue",
+        "foreign_keys": [
+            {
+                "column": "blue",
+                "references": "after"
+            }
+        ]
+    },
+    {
+        "name": "after",
+        "columns": [
+            {
+                "name": "technology",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "technology",
+        "foreign_keys": [
+            {
+                "column": "technology",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "down",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "drug",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "down",
+        "foreign_keys": [
+            {
+                "column": "down",
+                "references": "speech"
+            }
+        ]
+    },
+    {
+        "name": "speech",
+        "columns": [
+            {
+                "name": "word",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "word",
+        "foreign_keys": [
+            {
+                "column": "word",
+                "references": "bank"
+            }
+        ]
+    }
+]

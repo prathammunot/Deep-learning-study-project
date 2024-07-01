@@ -1,0 +1,247 @@
+[
+    {
+        "name": "manager",
+        "columns": [
+            {
+                "name": "draw",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "central",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "draw",
+        "foreign_keys": [
+            {
+                "column": "draw",
+                "references": "scientist"
+            }
+        ]
+    },
+    {
+        "name": "scientist",
+        "columns": [
+            {
+                "name": "that",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "coach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "that",
+        "foreign_keys": [
+            {
+                "column": "that",
+                "references": "everything"
+            }
+        ]
+    },
+    {
+        "name": "everything",
+        "columns": [
+            {
+                "name": "follow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "follow",
+        "foreign_keys": [
+            {
+                "column": "follow",
+                "references": "point"
+            }
+        ]
+    },
+    {
+        "name": "point",
+        "columns": [
+            {
+                "name": "sport",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sport",
+        "foreign_keys": [
+            {
+                "column": "sport",
+                "references": "line"
+            }
+        ]
+    },
+    {
+        "name": "line",
+        "columns": [
+            {
+                "name": "picture",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "picture",
+        "foreign_keys": [
+            {
+                "column": "picture",
+                "references": "stage"
+            }
+        ]
+    },
+    {
+        "name": "stage",
+        "columns": [
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "receive",
+        "foreign_keys": [
+            {
+                "column": "receive",
+                "references": "course"
+            }
+        ]
+    },
+    {
+        "name": "course",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "beautiful"
+            }
+        ]
+    },
+    {
+        "name": "beautiful",
+        "columns": [
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "free",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "unit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "unit",
+        "foreign_keys": [
+            {
+                "column": "unit",
+                "references": "doctor"
+            }
+        ]
+    },
+    {
+        "name": "doctor",
+        "columns": [
+            {
+                "name": "option",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "option",
+        "foreign_keys": [
+            {
+                "column": "option",
+                "references": "manager"
+            }
+        ]
+    }
+]

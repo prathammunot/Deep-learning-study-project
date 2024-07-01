@@ -1,0 +1,176 @@
+[
+    {
+        "name": "fish",
+        "columns": [
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "similar"
+            }
+        ]
+    },
+    {
+        "name": "similar",
+        "columns": [
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "language"
+            }
+        ]
+    },
+    {
+        "name": "language",
+        "columns": [
+            {
+                "name": "possible",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "possible",
+        "foreign_keys": [
+            {
+                "column": "possible",
+                "references": "hundred"
+            }
+        ]
+    },
+    {
+        "name": "hundred",
+        "columns": [
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "crime",
+        "foreign_keys": [
+            {
+                "column": "crime",
+                "references": "network"
+            }
+        ]
+    },
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "available",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "adult",
+        "foreign_keys": [
+            {
+                "column": "adult",
+                "references": "put"
+            }
+        ]
+    },
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "read"
+            }
+        ]
+    },
+    {
+        "name": "read",
+        "columns": [
+            {
+                "name": "reveal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reveal",
+        "foreign_keys": [
+            {
+                "column": "reveal",
+                "references": "fish"
+            }
+        ]
+    }
+]

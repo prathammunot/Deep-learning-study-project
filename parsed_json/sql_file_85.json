@@ -1,0 +1,291 @@
+[
+    {
+        "name": "subject",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hundred",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "Mrs",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Mrs",
+        "foreign_keys": [
+            {
+                "column": "Mrs",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "already",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "already",
+        "foreign_keys": [
+            {
+                "column": "already",
+                "references": "grow"
+            }
+        ]
+    },
+    {
+        "name": "grow",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "listen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "movement"
+            }
+        ]
+    },
+    {
+        "name": "movement",
+        "columns": [
+            {
+                "name": "yes",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "TEXT",
+                "references": null
+            }
+        ],
+        "primary_key": "yes",
+        "foreign_keys": [
+            {
+                "column": "yes",
+                "references": "add"
+            }
+        ]
+    },
+    {
+        "name": "add",
+        "columns": [
+            {
+                "name": "usually",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "usually",
+        "foreign_keys": [
+            {
+                "column": "usually",
+                "references": "successful"
+            }
+        ]
+    },
+    {
+        "name": "successful",
+        "columns": [
+            {
+                "name": "physical",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "anyone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "player",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "physical",
+        "foreign_keys": [
+            {
+                "column": "physical",
+                "references": "whether"
+            }
+        ]
+    },
+    {
+        "name": "whether",
+        "columns": [
+            {
+                "name": "local",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "win",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "local",
+        "foreign_keys": [
+            {
+                "column": "local",
+                "references": "who"
+            }
+        ]
+    },
+    {
+        "name": "who",
+        "columns": [
+            {
+                "name": "professional",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "phone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "professional",
+        "foreign_keys": [
+            {
+                "column": "professional",
+                "references": "east"
+            }
+        ]
+    },
+    {
+        "name": "east",
+        "columns": [
+            {
+                "name": "product",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "my"
+            }
+        ]
+    },
+    {
+        "name": "my",
+        "columns": [
+            {
+                "name": "data",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "data",
+        "foreign_keys": [
+            {
+                "column": "data",
+                "references": "level"
+            }
+        ]
+    },
+    {
+        "name": "level",
+        "columns": [
+            {
+                "name": "war",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "war",
+        "foreign_keys": [
+            {
+                "column": "war",
+                "references": "subject"
+            }
+        ]
+    }
+]

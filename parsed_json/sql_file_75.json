@@ -1,0 +1,274 @@
+[
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "heart",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "attention",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "heart",
+        "foreign_keys": [
+            {
+                "column": "heart",
+                "references": "country"
+            }
+        ]
+    },
+    {
+        "name": "country",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "price",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "church"
+            }
+        ]
+    },
+    {
+        "name": "church",
+        "columns": [
+            {
+                "name": "whom",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whom",
+        "foreign_keys": [
+            {
+                "column": "whom",
+                "references": "hotel"
+            }
+        ]
+    },
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "forget"
+            }
+        ]
+    },
+    {
+        "name": "forget",
+        "columns": [
+            {
+                "name": "probably",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "source",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "probably",
+        "foreign_keys": [
+            {
+                "column": "probably",
+                "references": "throw"
+            }
+        ]
+    },
+    {
+        "name": "throw",
+        "columns": [
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "system"
+            }
+        ]
+    },
+    {
+        "name": "system",
+        "columns": [
+            {
+                "name": "final",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "blood"
+            }
+        ]
+    },
+    {
+        "name": "blood",
+        "columns": [
+            {
+                "name": "sister",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sister",
+        "foreign_keys": [
+            {
+                "column": "sister",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "tonight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tonight",
+        "foreign_keys": [
+            {
+                "column": "tonight",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "man"
+            }
+        ]
+    },
+    {
+        "name": "man",
+        "columns": [
+            {
+                "name": "arrive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "arrive",
+        "foreign_keys": [
+            {
+                "column": "arrive",
+                "references": "about"
+            }
+        ]
+    }
+]

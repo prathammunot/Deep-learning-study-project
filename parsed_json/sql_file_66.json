@@ -1,0 +1,127 @@
+[
+    {
+        "name": "city",
+        "columns": [
+            {
+                "name": "lead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lead",
+        "foreign_keys": [
+            {
+                "column": "lead",
+                "references": "appear"
+            }
+        ]
+    },
+    {
+        "name": "appear",
+        "columns": [
+            {
+                "name": "year",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "year",
+        "foreign_keys": [
+            {
+                "column": "year",
+                "references": "most"
+            }
+        ]
+    },
+    {
+        "name": "most",
+        "columns": [
+            {
+                "name": "brother",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fund",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "brother",
+        "foreign_keys": [
+            {
+                "column": "brother",
+                "references": "especially"
+            }
+        ]
+    },
+    {
+        "name": "especially",
+        "columns": [
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "place",
+        "foreign_keys": [
+            {
+                "column": "place",
+                "references": "whom"
+            }
+        ]
+    },
+    {
+        "name": "whom",
+        "columns": [
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "try",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "house",
+        "foreign_keys": [
+            {
+                "column": "house",
+                "references": "city"
+            }
+        ]
+    }
+]

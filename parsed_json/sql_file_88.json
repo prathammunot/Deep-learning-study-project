@@ -1,0 +1,149 @@
+[
+    {
+        "name": "miss",
+        "columns": [
+            {
+                "name": "which",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "which",
+        "foreign_keys": [
+            {
+                "column": "which",
+                "references": "put"
+            }
+        ]
+    },
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "carry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "carry",
+        "foreign_keys": [
+            {
+                "column": "carry",
+                "references": "item"
+            }
+        ]
+    },
+    {
+        "name": "item",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "where"
+            }
+        ]
+    },
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "well"
+            }
+        ]
+    },
+    {
+        "name": "well",
+        "columns": [
+            {
+                "name": "end",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "end",
+        "foreign_keys": [
+            {
+                "column": "end",
+                "references": "miss"
+            }
+        ]
+    }
+]

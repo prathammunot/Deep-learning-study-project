@@ -1,0 +1,149 @@
+[
+    {
+        "name": "before",
+        "columns": [
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "season"
+            }
+        ]
+    },
+    {
+        "name": "season",
+        "columns": [
+            {
+                "name": "against",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "head",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "against",
+        "foreign_keys": [
+            {
+                "column": "against",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "myself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "myself",
+        "foreign_keys": [
+            {
+                "column": "myself",
+                "references": "later"
+            }
+        ]
+    },
+    {
+        "name": "later",
+        "columns": [
+            {
+                "name": "happy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "happy",
+        "foreign_keys": [
+            {
+                "column": "happy",
+                "references": "consider"
+            }
+        ]
+    },
+    {
+        "name": "consider",
+        "columns": [
+            {
+                "name": "paper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "paper",
+        "foreign_keys": [
+            {
+                "column": "paper",
+                "references": "heavy"
+            }
+        ]
+    },
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "evidence",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sure",
+        "foreign_keys": [
+            {
+                "column": "sure",
+                "references": "before"
+            }
+        ]
+    }
+]

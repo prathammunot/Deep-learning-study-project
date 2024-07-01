@@ -1,0 +1,225 @@
+[
+    {
+        "name": "yeah",
+        "columns": [
+            {
+                "name": "national",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "national",
+        "foreign_keys": [
+            {
+                "column": "national",
+                "references": "indeed"
+            }
+        ]
+    },
+    {
+        "name": "indeed",
+        "columns": [
+            {
+                "name": "item",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "between",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "item",
+        "foreign_keys": [
+            {
+                "column": "item",
+                "references": "yeah"
+            }
+        ]
+    },
+    {
+        "name": "yeah",
+        "columns": [
+            {
+                "name": "account",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "account",
+        "foreign_keys": [
+            {
+                "column": "account",
+                "references": "least"
+            }
+        ]
+    },
+    {
+        "name": "least",
+        "columns": [
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stay",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rock",
+        "foreign_keys": [
+            {
+                "column": "rock",
+                "references": "law"
+            }
+        ]
+    },
+    {
+        "name": "law",
+        "columns": [
+            {
+                "name": "day",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "day",
+        "foreign_keys": [
+            {
+                "column": "day",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "skin",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "skin",
+        "foreign_keys": [
+            {
+                "column": "skin",
+                "references": "system"
+            }
+        ]
+    },
+    {
+        "name": "system",
+        "columns": [
+            {
+                "name": "report",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "writer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "anyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "report",
+        "foreign_keys": [
+            {
+                "column": "report",
+                "references": "view"
+            }
+        ]
+    },
+    {
+        "name": "view",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "begin"
+            }
+        ]
+    },
+    {
+        "name": "begin",
+        "columns": [
+            {
+                "name": "site",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "site",
+        "foreign_keys": [
+            {
+                "column": "site",
+                "references": "yeah"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "staff",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "miss",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "staff",
+        "foreign_keys": [
+            {
+                "column": "staff",
+                "references": "per"
+            }
+        ]
+    },
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reach",
+        "foreign_keys": [
+            {
+                "column": "reach",
+                "references": "nation"
+            }
+        ]
+    },
+    {
+        "name": "nation",
+        "columns": [
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "light",
+        "foreign_keys": [
+            {
+                "column": "light",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "media",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "though"
+            }
+        ]
+    },
+    {
+        "name": "though",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "right"
+            }
+        ]
+    },
+    {
+        "name": "right",
+        "columns": [
+            {
+                "name": "few",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "few",
+        "foreign_keys": [
+            {
+                "column": "few",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fill",
+        "foreign_keys": [
+            {
+                "column": "fill",
+                "references": "during"
+            }
+        ]
+    },
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "message",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "message",
+        "foreign_keys": [
+            {
+                "column": "message",
+                "references": "do"
+            }
+        ]
+    },
+    {
+        "name": "do",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "a"
+            }
+        ]
+    },
+    {
+        "name": "a",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "relate"
+            }
+        ]
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "name": "kitchen",
+        "columns": [
+            {
+                "name": "company",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "company",
+        "foreign_keys": [
+            {
+                "column": "company",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "high"
+            }
+        ]
+    },
+    {
+        "name": "high",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hold",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "structure"
+            }
+        ]
+    },
+    {
+        "name": "structure",
+        "columns": [
+            {
+                "name": "religious",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "imagine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "religious",
+        "foreign_keys": [
+            {
+                "column": "religious",
+                "references": "something"
+            }
+        ]
+    },
+    {
+        "name": "something",
+        "columns": [
+            {
+                "name": "reflect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reflect",
+        "foreign_keys": [
+            {
+                "column": "reflect",
+                "references": "kitchen"
+            }
+        ]
+    }
+]

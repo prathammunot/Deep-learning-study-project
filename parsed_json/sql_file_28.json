@@ -1,0 +1,247 @@
+[
+    {
+        "name": "value",
+        "columns": [
+            {
+                "name": "hospital",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hospital",
+        "foreign_keys": [
+            {
+                "column": "hospital",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "shoulder"
+            }
+        ]
+    },
+    {
+        "name": "shoulder",
+        "columns": [
+            {
+                "name": "determine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "project",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "determine",
+        "foreign_keys": [
+            {
+                "column": "determine",
+                "references": "describe"
+            }
+        ]
+    },
+    {
+        "name": "describe",
+        "columns": [
+            {
+                "name": "part",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "natural",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "part",
+        "foreign_keys": [
+            {
+                "column": "part",
+                "references": "the"
+            }
+        ]
+    },
+    {
+        "name": "the",
+        "columns": [
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "daughter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "firm",
+        "foreign_keys": [
+            {
+                "column": "firm",
+                "references": "quite"
+            }
+        ]
+    },
+    {
+        "name": "quite",
+        "columns": [
+            {
+                "name": "and",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "and",
+        "foreign_keys": [
+            {
+                "column": "and",
+                "references": "they"
+            }
+        ]
+    },
+    {
+        "name": "they",
+        "columns": [
+            {
+                "name": "draw",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "draw",
+        "foreign_keys": [
+            {
+                "column": "draw",
+                "references": "success"
+            }
+        ]
+    },
+    {
+        "name": "success",
+        "columns": [
+            {
+                "name": "night",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "night",
+        "foreign_keys": [
+            {
+                "column": "night",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "attorney"
+            }
+        ]
+    },
+    {
+        "name": "attorney",
+        "columns": [
+            {
+                "name": "whom",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whom",
+        "foreign_keys": [
+            {
+                "column": "whom",
+                "references": "value"
+            }
+        ]
+    }
+]

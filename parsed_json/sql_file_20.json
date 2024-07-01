@@ -1,0 +1,296 @@
+[
+    {
+        "name": "use",
+        "columns": [
+            {
+                "name": "represent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "represent",
+        "foreign_keys": [
+            {
+                "column": "represent",
+                "references": "must"
+            }
+        ]
+    },
+    {
+        "name": "must",
+        "columns": [
+            {
+                "name": "story",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "own",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "story",
+        "foreign_keys": [
+            {
+                "column": "story",
+                "references": "listen"
+            }
+        ]
+    },
+    {
+        "name": "listen",
+        "columns": [
+            {
+                "name": "big",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "place",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "recognize"
+            }
+        ]
+    },
+    {
+        "name": "recognize",
+        "columns": [
+            {
+                "name": "price",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sure",
+        "foreign_keys": [
+            {
+                "column": "sure",
+                "references": "stand"
+            }
+        ]
+    },
+    {
+        "name": "stand",
+        "columns": [
+            {
+                "name": "skill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "analysis",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "skill",
+        "foreign_keys": [
+            {
+                "column": "skill",
+                "references": "then"
+            }
+        ]
+    },
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "one",
+        "foreign_keys": [
+            {
+                "column": "one",
+                "references": "son"
+            }
+        ]
+    },
+    {
+        "name": "son",
+        "columns": [
+            {
+                "name": "prove",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "available",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pick",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prove",
+        "foreign_keys": [
+            {
+                "column": "prove",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "economy"
+            }
+        ]
+    },
+    {
+        "name": "economy",
+        "columns": [
+            {
+                "name": "responsibility",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "husband",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "defense",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "responsibility",
+        "foreign_keys": [
+            {
+                "column": "responsibility",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "tough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tough",
+        "foreign_keys": [
+            {
+                "column": "tough",
+                "references": "use"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "table",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "just"
+            }
+        ]
+    },
+    {
+        "name": "just",
+        "columns": [
+            {
+                "name": "road",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "road",
+        "foreign_keys": [
+            {
+                "column": "road",
+                "references": "quite"
+            }
+        ]
+    },
+    {
+        "name": "quite",
+        "columns": [
+            {
+                "name": "head",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "magazine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "head",
+        "foreign_keys": [
+            {
+                "column": "head",
+                "references": "your"
+            }
+        ]
+    },
+    {
+        "name": "your",
+        "columns": [
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mention",
+        "foreign_keys": [
+            {
+                "column": "mention",
+                "references": "mission"
+            }
+        ]
+    },
+    {
+        "name": "mission",
+        "columns": [
+            {
+                "name": "or",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "or",
+        "foreign_keys": [
+            {
+                "column": "or",
+                "references": "rule"
+            }
+        ]
+    },
+    {
+        "name": "rule",
+        "columns": [
+            {
+                "name": "actually",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "actually",
+        "foreign_keys": [
+            {
+                "column": "actually",
+                "references": "rather"
+            }
+        ]
+    },
+    {
+        "name": "rather",
+        "columns": [
+            {
+                "name": "from",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "from",
+        "foreign_keys": [
+            {
+                "column": "from",
+                "references": "management"
+            }
+        ]
+    },
+    {
+        "name": "management",
+        "columns": [
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "break",
+        "foreign_keys": [
+            {
+                "column": "break",
+                "references": "simple"
+            }
+        ]
+    },
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "because",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "technology",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "because",
+        "foreign_keys": [
+            {
+                "column": "because",
+                "references": "table"
+            }
+        ]
+    }
+]

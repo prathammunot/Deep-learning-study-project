@@ -1,0 +1,225 @@
+[
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "cup",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cup",
+        "foreign_keys": [
+            {
+                "column": "cup",
+                "references": "town"
+            }
+        ]
+    },
+    {
+        "name": "town",
+        "columns": [
+            {
+                "name": "television",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "simple"
+            }
+        ]
+    },
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "discover",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "discover",
+        "foreign_keys": [
+            {
+                "column": "discover",
+                "references": "thought"
+            }
+        ]
+    },
+    {
+        "name": "thought",
+        "columns": [
+            {
+                "name": "economic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "economic",
+        "foreign_keys": [
+            {
+                "column": "economic",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "standard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "particular",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "standard",
+        "foreign_keys": [
+            {
+                "column": "standard",
+                "references": "vote"
+            }
+        ]
+    },
+    {
+        "name": "vote",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "government"
+            }
+        ]
+    },
+    {
+        "name": "government",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "garden"
+            }
+        ]
+    },
+    {
+        "name": "garden",
+        "columns": [
+            {
+                "name": "so",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "mind"
+            }
+        ]
+    },
+    {
+        "name": "mind",
+        "columns": [
+            {
+                "name": "draw",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "brother",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "draw",
+        "foreign_keys": [
+            {
+                "column": "draw",
+                "references": "hotel"
+            }
+        ]
+    }
+]

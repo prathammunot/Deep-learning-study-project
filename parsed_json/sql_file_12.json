@@ -1,0 +1,296 @@
+[
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "garden",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "garden",
+        "foreign_keys": [
+            {
+                "column": "garden",
+                "references": "eight"
+            }
+        ]
+    },
+    {
+        "name": "eight",
+        "columns": [
+            {
+                "name": "level",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "level",
+        "foreign_keys": [
+            {
+                "column": "level",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "bring"
+            }
+        ]
+    },
+    {
+        "name": "bring",
+        "columns": [
+            {
+                "name": "impact",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "impact",
+        "foreign_keys": [
+            {
+                "column": "impact",
+                "references": "page"
+            }
+        ]
+    },
+    {
+        "name": "page",
+        "columns": [
+            {
+                "name": "road",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "product",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "road",
+        "foreign_keys": [
+            {
+                "column": "road",
+                "references": "family"
+            }
+        ]
+    },
+    {
+        "name": "family",
+        "columns": [
+            {
+                "name": "their",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "their",
+        "foreign_keys": [
+            {
+                "column": "their",
+                "references": "who"
+            }
+        ]
+    },
+    {
+        "name": "who",
+        "columns": [
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "behind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mean",
+        "foreign_keys": [
+            {
+                "column": "mean",
+                "references": "all"
+            }
+        ]
+    },
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "care",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "care",
+        "foreign_keys": [
+            {
+                "column": "care",
+                "references": "pattern"
+            }
+        ]
+    },
+    {
+        "name": "pattern",
+        "columns": [
+            {
+                "name": "national",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "various",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "national",
+        "foreign_keys": [
+            {
+                "column": "national",
+                "references": "beat"
+            }
+        ]
+    },
+    {
+        "name": "beat",
+        "columns": [
+            {
+                "name": "evening",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evening",
+        "foreign_keys": [
+            {
+                "column": "evening",
+                "references": "born"
+            }
+        ]
+    },
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "clearly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "clearly",
+        "foreign_keys": [
+            {
+                "column": "clearly",
+                "references": "commercial"
+            }
+        ]
+    },
+    {
+        "name": "commercial",
+        "columns": [
+            {
+                "name": "offer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "offer",
+        "foreign_keys": [
+            {
+                "column": "offer",
+                "references": "job"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "college",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ground",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "college",
+        "foreign_keys": [
+            {
+                "column": "college",
+                "references": "amount"
+            }
+        ]
+    },
+    {
+        "name": "amount",
+        "columns": [
+            {
+                "name": "sometimes",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sometimes",
+        "foreign_keys": [
+            {
+                "column": "sometimes",
+                "references": "share"
+            }
+        ]
+    },
+    {
+        "name": "share",
+        "columns": [
+            {
+                "name": "window",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "window",
+        "foreign_keys": [
+            {
+                "column": "window",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "exist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "official",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "exist",
+        "foreign_keys": [
+            {
+                "column": "exist",
+                "references": "per"
+            }
+        ]
+    },
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "act",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "act",
+        "foreign_keys": [
+            {
+                "column": "act",
+                "references": "by"
+            }
+        ]
+    }
+]

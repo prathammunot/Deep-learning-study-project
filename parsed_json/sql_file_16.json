@@ -1,0 +1,274 @@
+[
+    {
+        "name": "short",
+        "columns": [
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leave",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "child",
+        "foreign_keys": [
+            {
+                "column": "child",
+                "references": "instead"
+            }
+        ]
+    },
+    {
+        "name": "instead",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "writer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "though",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "writer",
+        "foreign_keys": [
+            {
+                "column": "writer",
+                "references": "later"
+            }
+        ]
+    },
+    {
+        "name": "later",
+        "columns": [
+            {
+                "name": "stay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "growth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stay",
+        "foreign_keys": [
+            {
+                "column": "stay",
+                "references": "skill"
+            }
+        ]
+    },
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "white"
+            }
+        ]
+    },
+    {
+        "name": "white",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "show"
+            }
+        ]
+    },
+    {
+        "name": "show",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "whether"
+            }
+        ]
+    },
+    {
+        "name": "whether",
+        "columns": [
+            {
+                "name": "hard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hard",
+        "foreign_keys": [
+            {
+                "column": "hard",
+                "references": "away"
+            }
+        ]
+    },
+    {
+        "name": "away",
+        "columns": [
+            {
+                "name": "science",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "customer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "science",
+        "foreign_keys": [
+            {
+                "column": "science",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "behind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "care",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "behind",
+        "foreign_keys": [
+            {
+                "column": "behind",
+                "references": "short"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "strategy",
+        "columns": [
+            {
+                "name": "important",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "important",
+        "foreign_keys": [
+            {
+                "column": "important",
+                "references": "ever"
+            }
+        ]
+    },
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "area",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "area",
+        "foreign_keys": [
+            {
+                "column": "area",
+                "references": "modern"
+            }
+        ]
+    },
+    {
+        "name": "modern",
+        "columns": [
+            {
+                "name": "soldier",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "soldier",
+        "foreign_keys": [
+            {
+                "column": "soldier",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "possible",
+        "foreign_keys": [
+            {
+                "column": "possible",
+                "references": "positive"
+            }
+        ]
+    },
+    {
+        "name": "positive",
+        "columns": [
+            {
+                "name": "half",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hotel",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "half",
+        "foreign_keys": [
+            {
+                "column": "half",
+                "references": "now"
+            }
+        ]
+    },
+    {
+        "name": "now",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "Republican"
+            }
+        ]
+    },
+    {
+        "name": "Republican",
+        "columns": [
+            {
+                "name": "nearly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nearly",
+        "foreign_keys": [
+            {
+                "column": "nearly",
+                "references": "wear"
+            }
+        ]
+    },
+    {
+        "name": "wear",
+        "columns": [
+            {
+                "name": "of",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "both",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "of",
+        "foreign_keys": [
+            {
+                "column": "of",
+                "references": "city"
+            }
+        ]
+    },
+    {
+        "name": "city",
+        "columns": [
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "west",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "money"
+            }
+        ]
+    },
+    {
+        "name": "money",
+        "columns": [
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "son",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "life",
+        "foreign_keys": [
+            {
+                "column": "life",
+                "references": "strategy"
+            }
+        ]
+    }
+]

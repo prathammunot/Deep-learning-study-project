@@ -1,0 +1,274 @@
+[
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "team",
+        "foreign_keys": [
+            {
+                "column": "team",
+                "references": "reality"
+            }
+        ]
+    },
+    {
+        "name": "reality",
+        "columns": [
+            {
+                "name": "daughter",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "which",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "daughter",
+        "foreign_keys": [
+            {
+                "column": "daughter",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "career",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "career",
+        "foreign_keys": [
+            {
+                "column": "career",
+                "references": "child"
+            }
+        ]
+    },
+    {
+        "name": "child",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "without"
+            }
+        ]
+    },
+    {
+        "name": "without",
+        "columns": [
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "his",
+        "foreign_keys": [
+            {
+                "column": "his",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "do",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "do",
+        "foreign_keys": [
+            {
+                "column": "do",
+                "references": "on"
+            }
+        ]
+    },
+    {
+        "name": "on",
+        "columns": [
+            {
+                "name": "last",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "last",
+        "foreign_keys": [
+            {
+                "column": "last",
+                "references": "pass"
+            }
+        ]
+    },
+    {
+        "name": "pass",
+        "columns": [
+            {
+                "name": "into",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "into",
+        "foreign_keys": [
+            {
+                "column": "into",
+                "references": "nor"
+            }
+        ]
+    },
+    {
+        "name": "nor",
+        "columns": [
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "there"
+            }
+        ]
+    },
+    {
+        "name": "there",
+        "columns": [
+            {
+                "name": "action",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thank",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "action",
+        "foreign_keys": [
+            {
+                "column": "action",
+                "references": "process"
+            }
+        ]
+    },
+    {
+        "name": "process",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "both"
+            }
+        ]
+    }
+]

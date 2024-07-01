@@ -1,0 +1,247 @@
+[
+    {
+        "name": "yes",
+        "columns": [
+            {
+                "name": "reach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reach",
+        "foreign_keys": [
+            {
+                "column": "reach",
+                "references": "politics"
+            }
+        ]
+    },
+    {
+        "name": "politics",
+        "columns": [
+            {
+                "name": "in",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "in",
+        "foreign_keys": [
+            {
+                "column": "in",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "south",
+        "foreign_keys": [
+            {
+                "column": "south",
+                "references": "or"
+            }
+        ]
+    },
+    {
+        "name": "or",
+        "columns": [
+            {
+                "name": "score",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "score",
+        "foreign_keys": [
+            {
+                "column": "score",
+                "references": "inside"
+            }
+        ]
+    },
+    {
+        "name": "inside",
+        "columns": [
+            {
+                "name": "me",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "me",
+        "foreign_keys": [
+            {
+                "column": "me",
+                "references": "control"
+            }
+        ]
+    },
+    {
+        "name": "control",
+        "columns": [
+            {
+                "name": "left",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "left",
+        "foreign_keys": [
+            {
+                "column": "left",
+                "references": "skill"
+            }
+        ]
+    },
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "become",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "become",
+        "foreign_keys": [
+            {
+                "column": "become",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "station",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "station",
+        "foreign_keys": [
+            {
+                "column": "station",
+                "references": "end"
+            }
+        ]
+    },
+    {
+        "name": "end",
+        "columns": [
+            {
+                "name": "family",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cause",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "family",
+        "foreign_keys": [
+            {
+                "column": "family",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "notice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "notice",
+        "foreign_keys": [
+            {
+                "column": "notice",
+                "references": "yes"
+            }
+        ]
+    }
+]

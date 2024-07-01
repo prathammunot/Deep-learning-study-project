@@ -1,0 +1,149 @@
+[
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "free",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "machine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "free",
+        "foreign_keys": [
+            {
+                "column": "free",
+                "references": "level"
+            }
+        ]
+    },
+    {
+        "name": "level",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "director",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "place",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "age",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "create",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "place",
+        "foreign_keys": [
+            {
+                "column": "place",
+                "references": "song"
+            }
+        ]
+    },
+    {
+        "name": "song",
+        "columns": [
+            {
+                "name": "many",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "up",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "guess"
+            }
+        ]
+    },
+    {
+        "name": "guess",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "job",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hard",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "task"
+            }
+        ]
+    },
+    {
+        "name": "task",
+        "columns": [
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "painting",
+        "foreign_keys": [
+            {
+                "column": "painting",
+                "references": "section"
+            }
+        ]
+    }
+]

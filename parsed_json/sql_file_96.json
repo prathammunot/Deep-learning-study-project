@@ -1,0 +1,225 @@
+[
+    {
+        "name": "federal",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "itself"
+            }
+        ]
+    },
+    {
+        "name": "itself",
+        "columns": [
+            {
+                "name": "carry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "carry",
+        "foreign_keys": [
+            {
+                "column": "carry",
+                "references": "tree"
+            }
+        ]
+    },
+    {
+        "name": "tree",
+        "columns": [
+            {
+                "name": "capital",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "capital",
+        "foreign_keys": [
+            {
+                "column": "capital",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "job"
+            }
+        ]
+    },
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "technology",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "could"
+            }
+        ]
+    },
+    {
+        "name": "could",
+        "columns": [
+            {
+                "name": "act",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "act",
+        "foreign_keys": [
+            {
+                "column": "act",
+                "references": "strategy"
+            }
+        ]
+    },
+    {
+        "name": "strategy",
+        "columns": [
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "science",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "short",
+        "foreign_keys": [
+            {
+                "column": "short",
+                "references": "federal"
+            }
+        ]
+    },
+    {
+        "name": "federal",
+        "columns": [
+            {
+                "name": "from",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "from",
+        "foreign_keys": [
+            {
+                "column": "from",
+                "references": "American"
+            }
+        ]
+    },
+    {
+        "name": "American",
+        "columns": [
+            {
+                "name": "fight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fight",
+        "foreign_keys": [
+            {
+                "column": "fight",
+                "references": "federal"
+            }
+        ]
+    }
+]

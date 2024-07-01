@@ -1,0 +1,198 @@
+[
+    {
+        "name": "grow",
+        "columns": [
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "room",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "message",
+        "foreign_keys": [
+            {
+                "column": "message",
+                "references": "process"
+            }
+        ]
+    },
+    {
+        "name": "process",
+        "columns": [
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "generation"
+            }
+        ]
+    },
+    {
+        "name": "generation",
+        "columns": [
+            {
+                "name": "garden",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "garden",
+        "foreign_keys": [
+            {
+                "column": "garden",
+                "references": "rest"
+            }
+        ]
+    },
+    {
+        "name": "rest",
+        "columns": [
+            {
+                "name": "particular",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "particular",
+        "foreign_keys": [
+            {
+                "column": "particular",
+                "references": "agent"
+            }
+        ]
+    },
+    {
+        "name": "agent",
+        "columns": [
+            {
+                "name": "box",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "control"
+            }
+        ]
+    },
+    {
+        "name": "control",
+        "columns": [
+            {
+                "name": "style",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "style",
+        "foreign_keys": [
+            {
+                "column": "style",
+                "references": "reality"
+            }
+        ]
+    },
+    {
+        "name": "reality",
+        "columns": [
+            {
+                "name": "discuss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "discuss",
+        "foreign_keys": [
+            {
+                "column": "discuss",
+                "references": "race"
+            }
+        ]
+    },
+    {
+        "name": "race",
+        "columns": [
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "grow"
+            }
+        ]
+    }
+]

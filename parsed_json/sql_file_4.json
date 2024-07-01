@@ -1,0 +1,225 @@
+[
+    {
+        "name": "represent",
+        "columns": [
+            {
+                "name": "country",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "country",
+        "foreign_keys": [
+            {
+                "column": "country",
+                "references": "send"
+            }
+        ]
+    },
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "treat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "treat",
+        "foreign_keys": [
+            {
+                "column": "treat",
+                "references": "poor"
+            }
+        ]
+    },
+    {
+        "name": "poor",
+        "columns": [
+            {
+                "name": "major",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "major",
+        "foreign_keys": [
+            {
+                "column": "major",
+                "references": "behavior"
+            }
+        ]
+    },
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "carry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "carry",
+        "foreign_keys": [
+            {
+                "column": "carry",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "when",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "when",
+        "foreign_keys": [
+            {
+                "column": "when",
+                "references": "score"
+            }
+        ]
+    },
+    {
+        "name": "score",
+        "columns": [
+            {
+                "name": "may",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "writer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "may",
+        "foreign_keys": [
+            {
+                "column": "may",
+                "references": "boy"
+            }
+        ]
+    },
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "effort",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "effort",
+        "foreign_keys": [
+            {
+                "column": "effort",
+                "references": "card"
+            }
+        ]
+    },
+    {
+        "name": "card",
+        "columns": [
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "find",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "improve",
+        "foreign_keys": [
+            {
+                "column": "improve",
+                "references": "represent"
+            }
+        ]
+    }
+]

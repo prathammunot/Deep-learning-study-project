@@ -1,0 +1,247 @@
+[
+    {
+        "name": "number",
+        "columns": [
+            {
+                "name": "hot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "town",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hot",
+        "foreign_keys": [
+            {
+                "column": "hot",
+                "references": "Congress"
+            }
+        ]
+    },
+    {
+        "name": "Congress",
+        "columns": [
+            {
+                "name": "investment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "investment",
+        "foreign_keys": [
+            {
+                "column": "investment",
+                "references": "bad"
+            }
+        ]
+    },
+    {
+        "name": "bad",
+        "columns": [
+            {
+                "name": "like",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "like",
+        "foreign_keys": [
+            {
+                "column": "like",
+                "references": "personal"
+            }
+        ]
+    },
+    {
+        "name": "personal",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "recently",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "bad"
+            }
+        ]
+    },
+    {
+        "name": "bad",
+        "columns": [
+            {
+                "name": "since",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "focus",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "theory",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "since",
+        "foreign_keys": [
+            {
+                "column": "since",
+                "references": "operation"
+            }
+        ]
+    },
+    {
+        "name": "operation",
+        "columns": [
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "never",
+        "foreign_keys": [
+            {
+                "column": "never",
+                "references": "authority"
+            }
+        ]
+    },
+    {
+        "name": "authority",
+        "columns": [
+            {
+                "name": "decide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decide",
+        "foreign_keys": [
+            {
+                "column": "decide",
+                "references": "model"
+            }
+        ]
+    },
+    {
+        "name": "model",
+        "columns": [
+            {
+                "name": "water",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "water",
+        "foreign_keys": [
+            {
+                "column": "water",
+                "references": "star"
+            }
+        ]
+    },
+    {
+        "name": "star",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "yard",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yard",
+        "foreign_keys": [
+            {
+                "column": "yard",
+                "references": "number"
+            }
+        ]
+    }
+]

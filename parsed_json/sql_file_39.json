@@ -1,0 +1,247 @@
+[
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "want",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "want",
+        "foreign_keys": [
+            {
+                "column": "want",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "person"
+            }
+        ]
+    },
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "author",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "author",
+        "foreign_keys": [
+            {
+                "column": "author",
+                "references": "reduce"
+            }
+        ]
+    },
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "chance",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "chance",
+        "foreign_keys": [
+            {
+                "column": "chance",
+                "references": "around"
+            }
+        ]
+    },
+    {
+        "name": "around",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "child",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "environment"
+            }
+        ]
+    },
+    {
+        "name": "environment",
+        "columns": [
+            {
+                "name": "with",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "with",
+        "foreign_keys": [
+            {
+                "column": "with",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "PM",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "business",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "individual",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "PM",
+        "foreign_keys": [
+            {
+                "column": "PM",
+                "references": "maintain"
+            }
+        ]
+    },
+    {
+        "name": "maintain",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "life",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "direction"
+            }
+        ]
+    },
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "concern",
+        "foreign_keys": [
+            {
+                "column": "concern",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "return",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "return",
+        "foreign_keys": [
+            {
+                "column": "return",
+                "references": "sort"
+            }
+        ]
+    }
+]

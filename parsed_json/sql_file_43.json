@@ -1,0 +1,149 @@
+[
+    {
+        "name": "hear",
+        "columns": [
+            {
+                "name": "affect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "affect",
+        "foreign_keys": [
+            {
+                "column": "affect",
+                "references": "probably"
+            }
+        ]
+    },
+    {
+        "name": "probably",
+        "columns": [
+            {
+                "name": "drug",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drug",
+        "foreign_keys": [
+            {
+                "column": "drug",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "throw",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "second"
+            }
+        ]
+    },
+    {
+        "name": "second",
+        "columns": [
+            {
+                "name": "make",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "make",
+        "foreign_keys": [
+            {
+                "column": "make",
+                "references": "realize"
+            }
+        ]
+    },
+    {
+        "name": "realize",
+        "columns": [
+            {
+                "name": "guy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "institution",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "guy",
+        "foreign_keys": [
+            {
+                "column": "guy",
+                "references": "show"
+            }
+        ]
+    },
+    {
+        "name": "show",
+        "columns": [
+            {
+                "name": "program",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "program",
+        "foreign_keys": [
+            {
+                "column": "program",
+                "references": "hear"
+            }
+        ]
+    }
+]

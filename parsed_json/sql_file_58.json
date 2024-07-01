@@ -1,0 +1,247 @@
+[
+    {
+        "name": "number",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "threat"
+            }
+        ]
+    },
+    {
+        "name": "threat",
+        "columns": [
+            {
+                "name": "color",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "ten"
+            }
+        ]
+    },
+    {
+        "name": "ten",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "natural"
+            }
+        ]
+    },
+    {
+        "name": "natural",
+        "columns": [
+            {
+                "name": "may",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trouble",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "may",
+        "foreign_keys": [
+            {
+                "column": "may",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "choose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "air",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "choose",
+        "foreign_keys": [
+            {
+                "column": "choose",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "point",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "point",
+        "foreign_keys": [
+            {
+                "column": "point",
+                "references": "perhaps"
+            }
+        ]
+    },
+    {
+        "name": "perhaps",
+        "columns": [
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "until",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "natural"
+            }
+        ]
+    },
+    {
+        "name": "natural",
+        "columns": [
+            {
+                "name": "need",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "need",
+        "foreign_keys": [
+            {
+                "column": "need",
+                "references": "myself"
+            }
+        ]
+    },
+    {
+        "name": "myself",
+        "columns": [
+            {
+                "name": "item",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "item",
+        "foreign_keys": [
+            {
+                "column": "item",
+                "references": "TV"
+            }
+        ]
+    },
+    {
+        "name": "TV",
+        "columns": [
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "painting",
+        "foreign_keys": [
+            {
+                "column": "painting",
+                "references": "number"
+            }
+        ]
+    }
+]

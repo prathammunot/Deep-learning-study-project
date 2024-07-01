@@ -1,0 +1,198 @@
+[
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "woman"
+            }
+        ]
+    },
+    {
+        "name": "woman",
+        "columns": [
+            {
+                "name": "short",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "focus",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "short",
+        "foreign_keys": [
+            {
+                "column": "short",
+                "references": "again"
+            }
+        ]
+    },
+    {
+        "name": "again",
+        "columns": [
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "put"
+            }
+        ]
+    },
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "shoulder",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "shoulder",
+        "foreign_keys": [
+            {
+                "column": "shoulder",
+                "references": "instead"
+            }
+        ]
+    },
+    {
+        "name": "instead",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "personal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "skin",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "skin",
+        "foreign_keys": [
+            {
+                "column": "skin",
+                "references": "chance"
+            }
+        ]
+    },
+    {
+        "name": "chance",
+        "columns": [
+            {
+                "name": "late",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "take"
+            }
+        ]
+    }
+]

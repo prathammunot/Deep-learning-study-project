@@ -1,0 +1,176 @@
+[
+    {
+        "name": "consumer",
+        "columns": [
+            {
+                "name": "friend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "friend",
+        "foreign_keys": [
+            {
+                "column": "friend",
+                "references": "throw"
+            }
+        ]
+    },
+    {
+        "name": "throw",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "effect"
+            }
+        ]
+    },
+    {
+        "name": "effect",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "star"
+            }
+        ]
+    },
+    {
+        "name": "star",
+        "columns": [
+            {
+                "name": "clear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "clear",
+        "foreign_keys": [
+            {
+                "column": "clear",
+                "references": "she"
+            }
+        ]
+    },
+    {
+        "name": "she",
+        "columns": [
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "year",
+        "foreign_keys": [
+            {
+                "column": "year",
+                "references": "voice"
+            }
+        ]
+    },
+    {
+        "name": "voice",
+        "columns": [
+            {
+                "name": "between",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "both",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "between",
+        "foreign_keys": [
+            {
+                "column": "between",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "read",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "read",
+        "foreign_keys": [
+            {
+                "column": "read",
+                "references": "consumer"
+            }
+        ]
+    }
+]

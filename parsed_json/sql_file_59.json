@@ -1,0 +1,274 @@
+[
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "score",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "score",
+        "foreign_keys": [
+            {
+                "column": "score",
+                "references": "thank"
+            }
+        ]
+    },
+    {
+        "name": "thank",
+        "columns": [
+            {
+                "name": "single",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "single",
+        "foreign_keys": [
+            {
+                "column": "single",
+                "references": "executive"
+            }
+        ]
+    },
+    {
+        "name": "executive",
+        "columns": [
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "effect",
+        "foreign_keys": [
+            {
+                "column": "effect",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "energy"
+            }
+        ]
+    },
+    {
+        "name": "energy",
+        "columns": [
+            {
+                "name": "try",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nothing",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "try",
+        "foreign_keys": [
+            {
+                "column": "try",
+                "references": "player"
+            }
+        ]
+    },
+    {
+        "name": "player",
+        "columns": [
+            {
+                "name": "college",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "college",
+        "foreign_keys": [
+            {
+                "column": "college",
+                "references": "within"
+            }
+        ]
+    },
+    {
+        "name": "within",
+        "columns": [
+            {
+                "name": "sort",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "drop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sort",
+        "foreign_keys": [
+            {
+                "column": "sort",
+                "references": "role"
+            }
+        ]
+    },
+    {
+        "name": "role",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "suffer"
+            }
+        ]
+    },
+    {
+        "name": "suffer",
+        "columns": [
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "phone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hit",
+        "foreign_keys": [
+            {
+                "column": "hit",
+                "references": "treat"
+            }
+        ]
+    },
+    {
+        "name": "treat",
+        "columns": [
+            {
+                "name": "drop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drop",
+        "foreign_keys": [
+            {
+                "column": "drop",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "southern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "southern",
+        "foreign_keys": [
+            {
+                "column": "southern",
+                "references": "save"
+            }
+        ]
+    }
+]

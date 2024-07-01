@@ -1,0 +1,247 @@
+[
+    {
+        "name": "American",
+        "columns": [
+            {
+                "name": "treatment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "treatment",
+        "foreign_keys": [
+            {
+                "column": "treatment",
+                "references": "type"
+            }
+        ]
+    },
+    {
+        "name": "type",
+        "columns": [
+            {
+                "name": "evening",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "range",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evening",
+        "foreign_keys": [
+            {
+                "column": "evening",
+                "references": "peace"
+            }
+        ]
+    },
+    {
+        "name": "peace",
+        "columns": [
+            {
+                "name": "often",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "strong",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "often",
+        "foreign_keys": [
+            {
+                "column": "often",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "director",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "director",
+        "foreign_keys": [
+            {
+                "column": "director",
+                "references": "me"
+            }
+        ]
+    },
+    {
+        "name": "me",
+        "columns": [
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "firm",
+        "foreign_keys": [
+            {
+                "column": "firm",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "guess",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "guess",
+        "foreign_keys": [
+            {
+                "column": "guess",
+                "references": "seem"
+            }
+        ]
+    },
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "establish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cultural",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "establish",
+        "foreign_keys": [
+            {
+                "column": "establish",
+                "references": "debate"
+            }
+        ]
+    },
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "wish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wish",
+        "foreign_keys": [
+            {
+                "column": "wish",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "subject",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "room",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "house",
+        "foreign_keys": [
+            {
+                "column": "house",
+                "references": "tonight"
+            }
+        ]
+    },
+    {
+        "name": "tonight",
+        "columns": [
+            {
+                "name": "suddenly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suddenly",
+        "foreign_keys": [
+            {
+                "column": "suddenly",
+                "references": "American"
+            }
+        ]
+    }
+]

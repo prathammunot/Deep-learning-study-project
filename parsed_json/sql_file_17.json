@@ -1,0 +1,247 @@
+[
+    {
+        "name": "pass",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "drug",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "ready"
+            }
+        ]
+    },
+    {
+        "name": "ready",
+        "columns": [
+            {
+                "name": "nearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nearly",
+        "foreign_keys": [
+            {
+                "column": "nearly",
+                "references": "development"
+            }
+        ]
+    },
+    {
+        "name": "development",
+        "columns": [
+            {
+                "name": "suddenly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "success",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suddenly",
+        "foreign_keys": [
+            {
+                "column": "suddenly",
+                "references": "whom"
+            }
+        ]
+    },
+    {
+        "name": "whom",
+        "columns": [
+            {
+                "name": "responsibility",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "responsibility",
+        "foreign_keys": [
+            {
+                "column": "responsibility",
+                "references": "standard"
+            }
+        ]
+    },
+    {
+        "name": "standard",
+        "columns": [
+            {
+                "name": "pull",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "project",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pull",
+        "foreign_keys": [
+            {
+                "column": "pull",
+                "references": "main"
+            }
+        ]
+    },
+    {
+        "name": "main",
+        "columns": [
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "majority"
+            }
+        ]
+    },
+    {
+        "name": "majority",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "up"
+            }
+        ]
+    },
+    {
+        "name": "up",
+        "columns": [
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deep",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "too",
+        "foreign_keys": [
+            {
+                "column": "too",
+                "references": "notice"
+            }
+        ]
+    },
+    {
+        "name": "notice",
+        "columns": [
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "team",
+        "foreign_keys": [
+            {
+                "column": "team",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "daughter",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "daughter",
+        "foreign_keys": [
+            {
+                "column": "daughter",
+                "references": "pass"
+            }
+        ]
+    }
+]

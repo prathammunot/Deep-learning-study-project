@@ -1,0 +1,127 @@
+[
+    {
+        "name": "eight",
+        "columns": [
+            {
+                "name": "throughout",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "throughout",
+        "foreign_keys": [
+            {
+                "column": "throughout",
+                "references": "myself"
+            }
+        ]
+    },
+    {
+        "name": "myself",
+        "columns": [
+            {
+                "name": "meet",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "meet",
+        "foreign_keys": [
+            {
+                "column": "meet",
+                "references": "same"
+            }
+        ]
+    },
+    {
+        "name": "same",
+        "columns": [
+            {
+                "name": "west",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "west",
+        "foreign_keys": [
+            {
+                "column": "west",
+                "references": "begin"
+            }
+        ]
+    },
+    {
+        "name": "begin",
+        "columns": [
+            {
+                "name": "time",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "improve"
+            }
+        ]
+    },
+    {
+        "name": "improve",
+        "columns": [
+            {
+                "name": "relationship",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relationship",
+        "foreign_keys": [
+            {
+                "column": "relationship",
+                "references": "eight"
+            }
+        ]
+    }
+]

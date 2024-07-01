@@ -1,0 +1,274 @@
+[
+    {
+        "name": "TV",
+        "columns": [
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "care",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "field",
+        "foreign_keys": [
+            {
+                "column": "field",
+                "references": "bit"
+            }
+        ]
+    },
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "never",
+        "foreign_keys": [
+            {
+                "column": "never",
+                "references": "idea"
+            }
+        ]
+    },
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "mean"
+            }
+        ]
+    },
+    {
+        "name": "mean",
+        "columns": [
+            {
+                "name": "result",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "reflect"
+            }
+        ]
+    },
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "myself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "so",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "myself",
+        "foreign_keys": [
+            {
+                "column": "myself",
+                "references": "instead"
+            }
+        ]
+    },
+    {
+        "name": "instead",
+        "columns": [
+            {
+                "name": "throw",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "throw",
+        "foreign_keys": [
+            {
+                "column": "throw",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "common",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "evidence",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "southern"
+            }
+        ]
+    },
+    {
+        "name": "southern",
+        "columns": [
+            {
+                "name": "energy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "energy",
+        "foreign_keys": [
+            {
+                "column": "energy",
+                "references": "budget"
+            }
+        ]
+    },
+    {
+        "name": "budget",
+        "columns": [
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seem",
+        "foreign_keys": [
+            {
+                "column": "seem",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "TV"
+            }
+        ]
+    }
+]

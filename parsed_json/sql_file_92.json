@@ -1,0 +1,296 @@
+[
+    {
+        "name": "region",
+        "columns": [
+            {
+                "name": "process",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "person",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "process",
+        "foreign_keys": [
+            {
+                "column": "process",
+                "references": "local"
+            }
+        ]
+    },
+    {
+        "name": "local",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "star",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "her"
+            }
+        ]
+    },
+    {
+        "name": "her",
+        "columns": [
+            {
+                "name": "away",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "however",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "away",
+        "foreign_keys": [
+            {
+                "column": "away",
+                "references": "move"
+            }
+        ]
+    },
+    {
+        "name": "move",
+        "columns": [
+            {
+                "name": "pick",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pick",
+        "foreign_keys": [
+            {
+                "column": "pick",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "them",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "miss",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "them",
+        "foreign_keys": [
+            {
+                "column": "them",
+                "references": "modern"
+            }
+        ]
+    },
+    {
+        "name": "modern",
+        "columns": [
+            {
+                "name": "drive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drive",
+        "foreign_keys": [
+            {
+                "column": "drive",
+                "references": "clearly"
+            }
+        ]
+    },
+    {
+        "name": "clearly",
+        "columns": [
+            {
+                "name": "personal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "create",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "personal",
+        "foreign_keys": [
+            {
+                "column": "personal",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "our",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "our",
+        "foreign_keys": [
+            {
+                "column": "our",
+                "references": "spring"
+            }
+        ]
+    },
+    {
+        "name": "spring",
+        "columns": [
+            {
+                "name": "benefit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "relate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "benefit",
+        "foreign_keys": [
+            {
+                "column": "benefit",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "person",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dinner",
+        "foreign_keys": [
+            {
+                "column": "dinner",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "development",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "and",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "development",
+        "foreign_keys": [
+            {
+                "column": "development",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "value",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "region"
+            }
+        ]
+    }
+]

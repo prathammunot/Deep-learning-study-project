@@ -1,0 +1,149 @@
+[
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "word",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thank",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "subject",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "word",
+        "foreign_keys": [
+            {
+                "column": "word",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "speech",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "meeting"
+            }
+        ]
+    },
+    {
+        "name": "meeting",
+        "columns": [
+            {
+                "name": "Congress",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Congress",
+        "foreign_keys": [
+            {
+                "column": "Congress",
+                "references": "employee"
+            }
+        ]
+    },
+    {
+        "name": "employee",
+        "columns": [
+            {
+                "name": "attorney",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "attorney",
+        "foreign_keys": [
+            {
+                "column": "attorney",
+                "references": "five"
+            }
+        ]
+    },
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "my",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "my",
+        "foreign_keys": [
+            {
+                "column": "my",
+                "references": "talk"
+            }
+        ]
+    },
+    {
+        "name": "talk",
+        "columns": [
+            {
+                "name": "care",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "media",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "care",
+        "foreign_keys": [
+            {
+                "column": "care",
+                "references": "respond"
+            }
+        ]
+    }
+]

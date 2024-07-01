@@ -1,0 +1,198 @@
+[
+    {
+        "name": "customer",
+        "columns": [
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "property",
+        "foreign_keys": [
+            {
+                "column": "property",
+                "references": "note"
+            }
+        ]
+    },
+    {
+        "name": "note",
+        "columns": [
+            {
+                "name": "area",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "area",
+        "foreign_keys": [
+            {
+                "column": "area",
+                "references": "forget"
+            }
+        ]
+    },
+    {
+        "name": "forget",
+        "columns": [
+            {
+                "name": "your",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "cup"
+            }
+        ]
+    },
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "arm",
+        "foreign_keys": [
+            {
+                "column": "arm",
+                "references": "necessary"
+            }
+        ]
+    },
+    {
+        "name": "necessary",
+        "columns": [
+            {
+                "name": "president",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "president",
+        "foreign_keys": [
+            {
+                "column": "president",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "others",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tree",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "stuff"
+            }
+        ]
+    },
+    {
+        "name": "stuff",
+        "columns": [
+            {
+                "name": "industry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "industry",
+        "foreign_keys": [
+            {
+                "column": "industry",
+                "references": "customer"
+            }
+        ]
+    }
+]

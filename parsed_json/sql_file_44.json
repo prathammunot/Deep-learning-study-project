@@ -1,0 +1,127 @@
+[
+    {
+        "name": "animal",
+        "columns": [
+            {
+                "name": "budget",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "budget",
+        "foreign_keys": [
+            {
+                "column": "budget",
+                "references": "beyond"
+            }
+        ]
+    },
+    {
+        "name": "beyond",
+        "columns": [
+            {
+                "name": "security",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "security",
+        "foreign_keys": [
+            {
+                "column": "security",
+                "references": "decision"
+            }
+        ]
+    },
+    {
+        "name": "decision",
+        "columns": [
+            {
+                "name": "each",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "each",
+        "foreign_keys": [
+            {
+                "column": "each",
+                "references": "reflect"
+            }
+        ]
+    },
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "artist"
+            }
+        ]
+    },
+    {
+        "name": "artist",
+        "columns": [
+            {
+                "name": "sing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sing",
+        "foreign_keys": [
+            {
+                "column": "sing",
+                "references": "animal"
+            }
+        ]
+    }
+]

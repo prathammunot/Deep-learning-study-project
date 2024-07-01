@@ -1,0 +1,176 @@
+[
+    {
+        "name": "similar",
+        "columns": [
+            {
+                "name": "body",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "season"
+            }
+        ]
+    },
+    {
+        "name": "season",
+        "columns": [
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "watch",
+        "foreign_keys": [
+            {
+                "column": "watch",
+                "references": "sort"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "husband",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "show",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "husband",
+        "foreign_keys": [
+            {
+                "column": "husband",
+                "references": "maybe"
+            }
+        ]
+    },
+    {
+        "name": "maybe",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "still"
+            }
+        ]
+    },
+    {
+        "name": "still",
+        "columns": [
+            {
+                "name": "against",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "against",
+        "foreign_keys": [
+            {
+                "column": "against",
+                "references": "adult"
+            }
+        ]
+    },
+    {
+        "name": "adult",
+        "columns": [
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "food",
+        "foreign_keys": [
+            {
+                "column": "food",
+                "references": "similar"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "clearly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "brother",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "clearly",
+        "foreign_keys": [
+            {
+                "column": "clearly",
+                "references": "save"
+            }
+        ]
+    },
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "together",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "together",
+        "foreign_keys": [
+            {
+                "column": "together",
+                "references": "information"
+            }
+        ]
+    },
+    {
+        "name": "information",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "fish"
+            }
+        ]
+    },
+    {
+        "name": "fish",
+        "columns": [
+            {
+                "name": "evening",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evening",
+        "foreign_keys": [
+            {
+                "column": "evening",
+                "references": "me"
+            }
+        ]
+    },
+    {
+        "name": "me",
+        "columns": [
+            {
+                "name": "church",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "church",
+        "foreign_keys": [
+            {
+                "column": "church",
+                "references": "recognize"
+            }
+        ]
+    },
+    {
+        "name": "recognize",
+        "columns": [
+            {
+                "name": "page",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "page",
+        "foreign_keys": [
+            {
+                "column": "page",
+                "references": "carry"
+            }
+        ]
+    },
+    {
+        "name": "carry",
+        "columns": [
+            {
+                "name": "husband",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "husband",
+        "foreign_keys": [
+            {
+                "column": "husband",
+                "references": "trial"
+            }
+        ]
+    },
+    {
+        "name": "trial",
+        "columns": [
+            {
+                "name": "behind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behind",
+        "foreign_keys": [
+            {
+                "column": "behind",
+                "references": "economic"
+            }
+        ]
+    },
+    {
+        "name": "economic",
+        "columns": [
+            {
+                "name": "southern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "southern",
+        "foreign_keys": [
+            {
+                "column": "southern",
+                "references": "most"
+            }
+        ]
+    },
+    {
+        "name": "most",
+        "columns": [
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "PM",
+        "foreign_keys": [
+            {
+                "column": "PM",
+                "references": "party"
+            }
+        ]
+    },
+    {
+        "name": "party",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "official",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "structure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "part"
+            }
+        ]
+    }
+]

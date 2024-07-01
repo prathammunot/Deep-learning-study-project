@@ -1,0 +1,149 @@
+[
+    {
+        "name": "area",
+        "columns": [
+            {
+                "name": "down",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "know",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wall",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "down",
+        "foreign_keys": [
+            {
+                "column": "down",
+                "references": "any"
+            }
+        ]
+    },
+    {
+        "name": "any",
+        "columns": [
+            {
+                "name": "poor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "poor",
+        "foreign_keys": [
+            {
+                "column": "poor",
+                "references": "decision"
+            }
+        ]
+    },
+    {
+        "name": "decision",
+        "columns": [
+            {
+                "name": "weight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "of",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "weight",
+        "foreign_keys": [
+            {
+                "column": "weight",
+                "references": "there"
+            }
+        ]
+    },
+    {
+        "name": "there",
+        "columns": [
+            {
+                "name": "always",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "always",
+        "foreign_keys": [
+            {
+                "column": "always",
+                "references": "middle"
+            }
+        ]
+    },
+    {
+        "name": "middle",
+        "columns": [
+            {
+                "name": "Congress",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Congress",
+        "foreign_keys": [
+            {
+                "column": "Congress",
+                "references": "vote"
+            }
+        ]
+    },
+    {
+        "name": "vote",
+        "columns": [
+            {
+                "name": "state",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "state",
+        "foreign_keys": [
+            {
+                "column": "state",
+                "references": "area"
+            }
+        ]
+    }
+]

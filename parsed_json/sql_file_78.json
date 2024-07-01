@@ -1,0 +1,296 @@
+[
+    {
+        "name": "after",
+        "columns": [
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "camera",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agreement",
+        "foreign_keys": [
+            {
+                "column": "agreement",
+                "references": "bank"
+            }
+        ]
+    },
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "change",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "at"
+            }
+        ]
+    },
+    {
+        "name": "at",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "relate"
+            }
+        ]
+    },
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "capital",
+        "foreign_keys": [
+            {
+                "column": "capital",
+                "references": "area"
+            }
+        ]
+    },
+    {
+        "name": "area",
+        "columns": [
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recently",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "behind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "top"
+            }
+        ]
+    },
+    {
+        "name": "top",
+        "columns": [
+            {
+                "name": "response",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "response",
+        "foreign_keys": [
+            {
+                "column": "response",
+                "references": "such"
+            }
+        ]
+    },
+    {
+        "name": "such",
+        "columns": [
+            {
+                "name": "despite",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "despite",
+        "foreign_keys": [
+            {
+                "column": "despite",
+                "references": "value"
+            }
+        ]
+    },
+    {
+        "name": "value",
+        "columns": [
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "management",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environmental",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "watch",
+        "foreign_keys": [
+            {
+                "column": "watch",
+                "references": "threat"
+            }
+        ]
+    },
+    {
+        "name": "threat",
+        "columns": [
+            {
+                "name": "education",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "education",
+        "foreign_keys": [
+            {
+                "column": "education",
+                "references": "while"
+            }
+        ]
+    },
+    {
+        "name": "while",
+        "columns": [
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "around"
+            }
+        ]
+    },
+    {
+        "name": "around",
+        "columns": [
+            {
+                "name": "speak",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "speak",
+        "foreign_keys": [
+            {
+                "column": "speak",
+                "references": "after"
+            }
+        ]
+    }
+]

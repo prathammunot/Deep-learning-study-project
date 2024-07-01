@@ -1,0 +1,274 @@
+[
+    {
+        "name": "growth",
+        "columns": [
+            {
+                "name": "animal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "animal",
+        "foreign_keys": [
+            {
+                "column": "animal",
+                "references": "American"
+            }
+        ]
+    },
+    {
+        "name": "American",
+        "columns": [
+            {
+                "name": "population",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "population",
+        "foreign_keys": [
+            {
+                "column": "population",
+                "references": "notice"
+            }
+        ]
+    },
+    {
+        "name": "notice",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "you"
+            }
+        ]
+    },
+    {
+        "name": "you",
+        "columns": [
+            {
+                "name": "consumer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "consumer",
+        "foreign_keys": [
+            {
+                "column": "consumer",
+                "references": "continue"
+            }
+        ]
+    },
+    {
+        "name": "continue",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environmental",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "industry"
+            }
+        ]
+    },
+    {
+        "name": "industry",
+        "columns": [
+            {
+                "name": "drop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drop",
+        "foreign_keys": [
+            {
+                "column": "drop",
+                "references": "through"
+            }
+        ]
+    },
+    {
+        "name": "through",
+        "columns": [
+            {
+                "name": "suddenly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "finally",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suddenly",
+        "foreign_keys": [
+            {
+                "column": "suddenly",
+                "references": "relate"
+            }
+        ]
+    },
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "throw",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "throw",
+        "foreign_keys": [
+            {
+                "column": "throw",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "seven",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seven",
+        "foreign_keys": [
+            {
+                "column": "seven",
+                "references": "likely"
+            }
+        ]
+    },
+    {
+        "name": "likely",
+        "columns": [
+            {
+                "name": "minute",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "minute",
+        "foreign_keys": [
+            {
+                "column": "minute",
+                "references": "every"
+            }
+        ]
+    },
+    {
+        "name": "every",
+        "columns": [
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "teacher",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "town",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everything",
+        "foreign_keys": [
+            {
+                "column": "everything",
+                "references": "growth"
+            }
+        ]
+    }
+]

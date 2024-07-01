@@ -1,0 +1,296 @@
+[
+    {
+        "name": "enjoy",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "create",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "second"
+            }
+        ]
+    },
+    {
+        "name": "second",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "eat"
+            }
+        ]
+    },
+    {
+        "name": "eat",
+        "columns": [
+            {
+                "name": "last",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "last",
+        "foreign_keys": [
+            {
+                "column": "last",
+                "references": "garden"
+            }
+        ]
+    },
+    {
+        "name": "garden",
+        "columns": [
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "order"
+            }
+        ]
+    },
+    {
+        "name": "order",
+        "columns": [
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tough",
+        "foreign_keys": [
+            {
+                "column": "tough",
+                "references": "some"
+            }
+        ]
+    },
+    {
+        "name": "some",
+        "columns": [
+            {
+                "name": "compare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "compare",
+        "foreign_keys": [
+            {
+                "column": "compare",
+                "references": "subject"
+            }
+        ]
+    },
+    {
+        "name": "subject",
+        "columns": [
+            {
+                "name": "water",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "water",
+        "foreign_keys": [
+            {
+                "column": "water",
+                "references": "nature"
+            }
+        ]
+    },
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "push",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "push",
+        "foreign_keys": [
+            {
+                "column": "push",
+                "references": "commercial"
+            }
+        ]
+    },
+    {
+        "name": "commercial",
+        "columns": [
+            {
+                "name": "station",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "station",
+        "foreign_keys": [
+            {
+                "column": "station",
+                "references": "particular"
+            }
+        ]
+    },
+    {
+        "name": "particular",
+        "columns": [
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "large"
+            }
+        ]
+    },
+    {
+        "name": "large",
+        "columns": [
+            {
+                "name": "particularly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "source",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "particularly",
+        "foreign_keys": [
+            {
+                "column": "particularly",
+                "references": "note"
+            }
+        ]
+    },
+    {
+        "name": "note",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "enjoy"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "name": "computer",
+        "columns": [
+            {
+                "name": "new",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "century",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "later",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "fine"
+            }
+        ]
+    },
+    {
+        "name": "fine",
+        "columns": [
+            {
+                "name": "fish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fish",
+        "foreign_keys": [
+            {
+                "column": "fish",
+                "references": "however"
+            }
+        ]
+    },
+    {
+        "name": "however",
+        "columns": [
+            {
+                "name": "again",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "again",
+        "foreign_keys": [
+            {
+                "column": "again",
+                "references": "detail"
+            }
+        ]
+    },
+    {
+        "name": "detail",
+        "columns": [
+            {
+                "name": "some",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "nearly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nearly",
+        "foreign_keys": [
+            {
+                "column": "nearly",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "above"
+            }
+        ]
+    },
+    {
+        "name": "above",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "computer"
+            }
+        ]
+    }
+]

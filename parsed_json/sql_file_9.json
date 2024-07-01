@@ -1,0 +1,274 @@
+[
+    {
+        "name": "guy",
+        "columns": [
+            {
+                "name": "box",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "discover",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "discover",
+        "foreign_keys": [
+            {
+                "column": "discover",
+                "references": "mean"
+            }
+        ]
+    },
+    {
+        "name": "mean",
+        "columns": [
+            {
+                "name": "nor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "note",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nor",
+        "foreign_keys": [
+            {
+                "column": "nor",
+                "references": "both"
+            }
+        ]
+    },
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "six",
+        "foreign_keys": [
+            {
+                "column": "six",
+                "references": "part"
+            }
+        ]
+    },
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "operation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "operation",
+        "foreign_keys": [
+            {
+                "column": "operation",
+                "references": "pick"
+            }
+        ]
+    },
+    {
+        "name": "pick",
+        "columns": [
+            {
+                "name": "chance",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recognize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "chance",
+        "foreign_keys": [
+            {
+                "column": "chance",
+                "references": "network"
+            }
+        ]
+    },
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "American"
+            }
+        ]
+    },
+    {
+        "name": "American",
+        "columns": [
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hour",
+        "foreign_keys": [
+            {
+                "column": "hour",
+                "references": "option"
+            }
+        ]
+    },
+    {
+        "name": "option",
+        "columns": [
+            {
+                "name": "ground",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ground",
+        "foreign_keys": [
+            {
+                "column": "ground",
+                "references": "plant"
+            }
+        ]
+    },
+    {
+        "name": "plant",
+        "columns": [
+            {
+                "name": "official",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "official",
+        "foreign_keys": [
+            {
+                "column": "official",
+                "references": "guy"
+            }
+        ]
+    }
+]

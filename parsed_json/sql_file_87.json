@@ -1,0 +1,247 @@
+[
+    {
+        "name": "serious",
+        "columns": [
+            {
+                "name": "imagine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "forward",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "imagine",
+        "foreign_keys": [
+            {
+                "column": "imagine",
+                "references": "box"
+            }
+        ]
+    },
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "couple",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "couple",
+        "foreign_keys": [
+            {
+                "column": "couple",
+                "references": "growth"
+            }
+        ]
+    },
+    {
+        "name": "growth",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "grow",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "grow",
+        "foreign_keys": [
+            {
+                "column": "grow",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "edge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wall",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "edge",
+        "foreign_keys": [
+            {
+                "column": "edge",
+                "references": "within"
+            }
+        ]
+    },
+    {
+        "name": "within",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "point",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "economy"
+            }
+        ]
+    },
+    {
+        "name": "economy",
+        "columns": [
+            {
+                "name": "glass",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "glass",
+        "foreign_keys": [
+            {
+                "column": "glass",
+                "references": "anything"
+            }
+        ]
+    },
+    {
+        "name": "anything",
+        "columns": [
+            {
+                "name": "thus",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thus",
+        "foreign_keys": [
+            {
+                "column": "thus",
+                "references": "purpose"
+            }
+        ]
+    },
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "best"
+            }
+        ]
+    },
+    {
+        "name": "best",
+        "columns": [
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "painting",
+        "foreign_keys": [
+            {
+                "column": "painting",
+                "references": "serious"
+            }
+        ]
+    }
+]

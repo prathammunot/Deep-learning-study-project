@@ -1,0 +1,296 @@
+[
+    {
+        "name": "although",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "peace",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "try",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "enough"
+            }
+        ]
+    },
+    {
+        "name": "enough",
+        "columns": [
+            {
+                "name": "sometimes",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "service",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sometimes",
+        "foreign_keys": [
+            {
+                "column": "sometimes",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "age"
+            }
+        ]
+    },
+    {
+        "name": "age",
+        "columns": [
+            {
+                "name": "arrive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "arrive",
+        "foreign_keys": [
+            {
+                "column": "arrive",
+                "references": "power"
+            }
+        ]
+    },
+    {
+        "name": "power",
+        "columns": [
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quite",
+        "foreign_keys": [
+            {
+                "column": "quite",
+                "references": "identify"
+            }
+        ]
+    },
+    {
+        "name": "identify",
+        "columns": [
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "health",
+        "foreign_keys": [
+            {
+                "column": "health",
+                "references": "staff"
+            }
+        ]
+    },
+    {
+        "name": "staff",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "easy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "coach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "already"
+            }
+        ]
+    },
+    {
+        "name": "already",
+        "columns": [
+            {
+                "name": "rate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rate",
+        "foreign_keys": [
+            {
+                "column": "rate",
+                "references": "four"
+            }
+        ]
+    },
+    {
+        "name": "four",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "specific"
+            }
+        ]
+    },
+    {
+        "name": "specific",
+        "columns": [
+            {
+                "name": "reality",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reality",
+        "foreign_keys": [
+            {
+                "column": "reality",
+                "references": "population"
+            }
+        ]
+    },
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "contain",
+        "foreign_keys": [
+            {
+                "column": "contain",
+                "references": "realize"
+            }
+        ]
+    },
+    {
+        "name": "realize",
+        "columns": [
+            {
+                "name": "chair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "old",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "chair",
+        "foreign_keys": [
+            {
+                "column": "chair",
+                "references": "although"
+            }
+        ]
+    }
+]

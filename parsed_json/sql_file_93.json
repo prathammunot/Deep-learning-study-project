@@ -1,0 +1,149 @@
+[
+    {
+        "name": "collection",
+        "columns": [
+            {
+                "name": "human",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "treatment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "human",
+        "foreign_keys": [
+            {
+                "column": "human",
+                "references": "recently"
+            }
+        ]
+    },
+    {
+        "name": "recently",
+        "columns": [
+            {
+                "name": "increase",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "increase",
+        "foreign_keys": [
+            {
+                "column": "increase",
+                "references": "significant"
+            }
+        ]
+    },
+    {
+        "name": "significant",
+        "columns": [
+            {
+                "name": "reveal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reveal",
+        "foreign_keys": [
+            {
+                "column": "reveal",
+                "references": "interesting"
+            }
+        ]
+    },
+    {
+        "name": "interesting",
+        "columns": [
+            {
+                "name": "system",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cut",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "system",
+        "foreign_keys": [
+            {
+                "column": "system",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "wait",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wait",
+        "foreign_keys": [
+            {
+                "column": "wait",
+                "references": "mention"
+            }
+        ]
+    },
+    {
+        "name": "mention",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "collection"
+            }
+        ]
+    }
+]

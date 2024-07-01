@@ -1,0 +1,274 @@
+[
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "project",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "state",
+        "foreign_keys": [
+            {
+                "column": "state",
+                "references": "enough"
+            }
+        ]
+    },
+    {
+        "name": "enough",
+        "columns": [
+            {
+                "name": "risk",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "risk",
+        "foreign_keys": [
+            {
+                "column": "risk",
+                "references": "main"
+            }
+        ]
+    },
+    {
+        "name": "main",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "low",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "forget"
+            }
+        ]
+    },
+    {
+        "name": "forget",
+        "columns": [
+            {
+                "name": "job",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "job",
+        "foreign_keys": [
+            {
+                "column": "job",
+                "references": "successful"
+            }
+        ]
+    },
+    {
+        "name": "successful",
+        "columns": [
+            {
+                "name": "whatever",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "less",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whatever",
+        "foreign_keys": [
+            {
+                "column": "whatever",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "campaign",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "campaign",
+        "foreign_keys": [
+            {
+                "column": "campaign",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "sense",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sense",
+        "foreign_keys": [
+            {
+                "column": "sense",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "television",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "do"
+            }
+        ]
+    },
+    {
+        "name": "do",
+        "columns": [
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "friend"
+            }
+        ]
+    },
+    {
+        "name": "friend",
+        "columns": [
+            {
+                "name": "else",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "else",
+        "foreign_keys": [
+            {
+                "column": "else",
+                "references": "rule"
+            }
+        ]
+    },
+    {
+        "name": "rule",
+        "columns": [
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "reduce"
+            }
+        ]
+    }
+]

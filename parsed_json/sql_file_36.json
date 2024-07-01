@@ -1,0 +1,149 @@
+[
+    {
+        "name": "down",
+        "columns": [
+            {
+                "name": "court",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "next",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "window",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "court",
+        "foreign_keys": [
+            {
+                "column": "court",
+                "references": "arrive"
+            }
+        ]
+    },
+    {
+        "name": "arrive",
+        "columns": [
+            {
+                "name": "ground",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ground",
+        "foreign_keys": [
+            {
+                "column": "ground",
+                "references": "nearly"
+            }
+        ]
+    },
+    {
+        "name": "nearly",
+        "columns": [
+            {
+                "name": "must",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "must",
+        "foreign_keys": [
+            {
+                "column": "must",
+                "references": "task"
+            }
+        ]
+    },
+    {
+        "name": "task",
+        "columns": [
+            {
+                "name": "industry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "industry",
+        "foreign_keys": [
+            {
+                "column": "industry",
+                "references": "they"
+            }
+        ]
+    },
+    {
+        "name": "they",
+        "columns": [
+            {
+                "name": "me",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "me",
+        "foreign_keys": [
+            {
+                "column": "me",
+                "references": "size"
+            }
+        ]
+    },
+    {
+        "name": "size",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "down"
+            }
+        ]
+    }
+]

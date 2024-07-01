@@ -1,0 +1,176 @@
+[
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "wonder",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wonder",
+        "foreign_keys": [
+            {
+                "column": "wonder",
+                "references": "production"
+            }
+        ]
+    },
+    {
+        "name": "production",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "toward"
+            }
+        ]
+    },
+    {
+        "name": "toward",
+        "columns": [
+            {
+                "name": "explain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "power",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "explain",
+        "foreign_keys": [
+            {
+                "column": "explain",
+                "references": "impact"
+            }
+        ]
+    },
+    {
+        "name": "impact",
+        "columns": [
+            {
+                "name": "challenge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "choose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "challenge",
+        "foreign_keys": [
+            {
+                "column": "challenge",
+                "references": "research"
+            }
+        ]
+    },
+    {
+        "name": "research",
+        "columns": [
+            {
+                "name": "edge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "edge",
+        "foreign_keys": [
+            {
+                "column": "edge",
+                "references": "size"
+            }
+        ]
+    },
+    {
+        "name": "size",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "just",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "just",
+        "foreign_keys": [
+            {
+                "column": "just",
+                "references": "draw"
+            }
+        ]
+    }
+]

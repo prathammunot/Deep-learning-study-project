@@ -1,0 +1,296 @@
+[
+    {
+        "name": "so",
+        "columns": [
+            {
+                "name": "much",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cultural",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "much",
+        "foreign_keys": [
+            {
+                "column": "much",
+                "references": "shake"
+            }
+        ]
+    },
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "question",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "question",
+        "foreign_keys": [
+            {
+                "column": "question",
+                "references": "reality"
+            }
+        ]
+    },
+    {
+        "name": "reality",
+        "columns": [
+            {
+                "name": "each",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "executive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "each",
+        "foreign_keys": [
+            {
+                "column": "each",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "throughout",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "throughout",
+        "foreign_keys": [
+            {
+                "column": "throughout",
+                "references": "letter"
+            }
+        ]
+    },
+    {
+        "name": "letter",
+        "columns": [
+            {
+                "name": "attention",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "activity",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thousand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attention",
+        "foreign_keys": [
+            {
+                "column": "attention",
+                "references": "education"
+            }
+        ]
+    },
+    {
+        "name": "education",
+        "columns": [
+            {
+                "name": "test",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "test",
+        "foreign_keys": [
+            {
+                "column": "test",
+                "references": "treatment"
+            }
+        ]
+    },
+    {
+        "name": "treatment",
+        "columns": [
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "run",
+        "foreign_keys": [
+            {
+                "column": "run",
+                "references": "during"
+            }
+        ]
+    },
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "yes"
+            }
+        ]
+    },
+    {
+        "name": "yes",
+        "columns": [
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "market",
+        "foreign_keys": [
+            {
+                "column": "market",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "gun",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "gun",
+        "foreign_keys": [
+            {
+                "column": "gun",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "only",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "only",
+        "foreign_keys": [
+            {
+                "column": "only",
+                "references": "a"
+            }
+        ]
+    },
+    {
+        "name": "a",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "so"
+            }
+        ]
+    }
+]

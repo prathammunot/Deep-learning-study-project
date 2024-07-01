@@ -1,0 +1,198 @@
+[
+    {
+        "name": "sure",
+        "columns": [
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "contain",
+        "foreign_keys": [
+            {
+                "column": "contain",
+                "references": "agree"
+            }
+        ]
+    },
+    {
+        "name": "agree",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "drop"
+            }
+        ]
+    },
+    {
+        "name": "drop",
+        "columns": [
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "figure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "work",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hit",
+        "foreign_keys": [
+            {
+                "column": "hit",
+                "references": "mean"
+            }
+        ]
+    },
+    {
+        "name": "mean",
+        "columns": [
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "less",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "country"
+            }
+        ]
+    },
+    {
+        "name": "country",
+        "columns": [
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "short",
+        "foreign_keys": [
+            {
+                "column": "short",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "discuss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "discuss",
+        "foreign_keys": [
+            {
+                "column": "discuss",
+                "references": "north"
+            }
+        ]
+    },
+    {
+        "name": "north",
+        "columns": [
+            {
+                "name": "possible",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "possible",
+        "foreign_keys": [
+            {
+                "column": "possible",
+                "references": "city"
+            }
+        ]
+    },
+    {
+        "name": "city",
+        "columns": [
+            {
+                "name": "yet",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yet",
+        "foreign_keys": [
+            {
+                "column": "yet",
+                "references": "sure"
+            }
+        ]
+    }
+]

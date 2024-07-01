@@ -1,0 +1,198 @@
+[
+    {
+        "name": "especially",
+        "columns": [
+            {
+                "name": "although",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "although",
+        "foreign_keys": [
+            {
+                "column": "although",
+                "references": "trial"
+            }
+        ]
+    },
+    {
+        "name": "trial",
+        "columns": [
+            {
+                "name": "nothing",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nothing",
+        "foreign_keys": [
+            {
+                "column": "nothing",
+                "references": "suffer"
+            }
+        ]
+    },
+    {
+        "name": "suffer",
+        "columns": [
+            {
+                "name": "enjoy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enjoy",
+        "foreign_keys": [
+            {
+                "column": "enjoy",
+                "references": "which"
+            }
+        ]
+    },
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "ago",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ago",
+        "foreign_keys": [
+            {
+                "column": "ago",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "knowledge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "least",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "knowledge",
+        "foreign_keys": [
+            {
+                "column": "knowledge",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "official",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "official",
+        "foreign_keys": [
+            {
+                "column": "official",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "they",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "they",
+        "foreign_keys": [
+            {
+                "column": "they",
+                "references": "own"
+            }
+        ]
+    },
+    {
+        "name": "own",
+        "columns": [
+            {
+                "name": "respond",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "respond",
+        "foreign_keys": [
+            {
+                "column": "respond",
+                "references": "especially"
+            }
+        ]
+    }
+]

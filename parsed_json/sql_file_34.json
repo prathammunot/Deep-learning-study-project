@@ -1,0 +1,247 @@
+[
+    {
+        "name": "identify",
+        "columns": [
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "allow",
+        "foreign_keys": [
+            {
+                "column": "allow",
+                "references": "benefit"
+            }
+        ]
+    },
+    {
+        "name": "benefit",
+        "columns": [
+            {
+                "name": "me",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "me",
+        "foreign_keys": [
+            {
+                "column": "me",
+                "references": "five"
+            }
+        ]
+    },
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "then"
+            }
+        ]
+    },
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "energy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "energy",
+        "foreign_keys": [
+            {
+                "column": "energy",
+                "references": "relationship"
+            }
+        ]
+    },
+    {
+        "name": "relationship",
+        "columns": [
+            {
+                "name": "current",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "current",
+        "foreign_keys": [
+            {
+                "column": "current",
+                "references": "education"
+            }
+        ]
+    },
+    {
+        "name": "education",
+        "columns": [
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "or",
+        "foreign_keys": [
+            {
+                "column": "or",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hour",
+        "foreign_keys": [
+            {
+                "column": "hour",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "light"
+            }
+        ]
+    },
+    {
+        "name": "light",
+        "columns": [
+            {
+                "name": "need",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "need",
+        "foreign_keys": [
+            {
+                "column": "need",
+                "references": "since"
+            }
+        ]
+    },
+    {
+        "name": "since",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "identify"
+            }
+        ]
+    }
+]

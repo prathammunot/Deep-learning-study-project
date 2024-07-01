@@ -1,0 +1,149 @@
+[
+    {
+        "name": "federal",
+        "columns": [
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "thing"
+            }
+        ]
+    },
+    {
+        "name": "thing",
+        "columns": [
+            {
+                "name": "with",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "with",
+        "foreign_keys": [
+            {
+                "column": "with",
+                "references": "evening"
+            }
+        ]
+    },
+    {
+        "name": "evening",
+        "columns": [
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "organization",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "study",
+        "foreign_keys": [
+            {
+                "column": "study",
+                "references": "visit"
+            }
+        ]
+    },
+    {
+        "name": "visit",
+        "columns": [
+            {
+                "name": "less",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "manager"
+            }
+        ]
+    },
+    {
+        "name": "manager",
+        "columns": [
+            {
+                "name": "else",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "else",
+        "foreign_keys": [
+            {
+                "column": "else",
+                "references": "radio"
+            }
+        ]
+    },
+    {
+        "name": "radio",
+        "columns": [
+            {
+                "name": "first",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "first",
+        "foreign_keys": [
+            {
+                "column": "first",
+                "references": "federal"
+            }
+        ]
+    }
+]

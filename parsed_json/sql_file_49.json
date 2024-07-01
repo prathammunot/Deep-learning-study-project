@@ -1,0 +1,225 @@
+[
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "vote"
+            }
+        ]
+    },
+    {
+        "name": "vote",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "others"
+            }
+        ]
+    },
+    {
+        "name": "others",
+        "columns": [
+            {
+                "name": "production",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "production",
+        "foreign_keys": [
+            {
+                "column": "production",
+                "references": "none"
+            }
+        ]
+    },
+    {
+        "name": "none",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "upon"
+            }
+        ]
+    },
+    {
+        "name": "upon",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "price",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "blood"
+            }
+        ]
+    },
+    {
+        "name": "blood",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "name"
+            }
+        ]
+    },
+    {
+        "name": "name",
+        "columns": [
+            {
+                "name": "attorney",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attorney",
+        "foreign_keys": [
+            {
+                "column": "attorney",
+                "references": "send"
+            }
+        ]
+    },
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "probably",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "probably",
+        "foreign_keys": [
+            {
+                "column": "probably",
+                "references": "miss"
+            }
+        ]
+    },
+    {
+        "name": "miss",
+        "columns": [
+            {
+                "name": "quality",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quality",
+        "foreign_keys": [
+            {
+                "column": "quality",
+                "references": "news"
+            }
+        ]
+    }
+]

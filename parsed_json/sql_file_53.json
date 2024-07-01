@@ -1,0 +1,149 @@
+[
+    {
+        "name": "pattern",
+        "columns": [
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "age",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "themselves",
+        "foreign_keys": [
+            {
+                "column": "themselves",
+                "references": "write"
+            }
+        ]
+    },
+    {
+        "name": "write",
+        "columns": [
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "under",
+        "foreign_keys": [
+            {
+                "column": "under",
+                "references": "clearly"
+            }
+        ]
+    },
+    {
+        "name": "clearly",
+        "columns": [
+            {
+                "name": "get",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "involve",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "get",
+        "foreign_keys": [
+            {
+                "column": "get",
+                "references": "avoid"
+            }
+        ]
+    },
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "oil",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "oil",
+        "foreign_keys": [
+            {
+                "column": "oil",
+                "references": "conference"
+            }
+        ]
+    },
+    {
+        "name": "conference",
+        "columns": [
+            {
+                "name": "game",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sound",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "rest"
+            }
+        ]
+    },
+    {
+        "name": "rest",
+        "columns": [
+            {
+                "name": "raise",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "raise",
+        "foreign_keys": [
+            {
+                "column": "raise",
+                "references": "pattern"
+            }
+        ]
+    }
+]

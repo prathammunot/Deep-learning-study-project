@@ -1,0 +1,291 @@
+[
+    {
+        "name": "run",
+        "columns": [
+            {
+                "name": "product",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "pretty"
+            }
+        ]
+    },
+    {
+        "name": "pretty",
+        "columns": [
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "or",
+        "foreign_keys": [
+            {
+                "column": "or",
+                "references": "realize"
+            }
+        ]
+    },
+    {
+        "name": "realize",
+        "columns": [
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "study",
+        "foreign_keys": [
+            {
+                "column": "study",
+                "references": "become"
+            }
+        ]
+    },
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "soon",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "soon",
+        "foreign_keys": [
+            {
+                "column": "soon",
+                "references": "who"
+            }
+        ]
+    },
+    {
+        "name": "who",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "foreign",
+        "foreign_keys": [
+            {
+                "column": "foreign",
+                "references": "nice"
+            }
+        ]
+    },
+    {
+        "name": "nice",
+        "columns": [
+            {
+                "name": "public",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "public",
+        "foreign_keys": [
+            {
+                "column": "public",
+                "references": "quite"
+            }
+        ]
+    },
+    {
+        "name": "quite",
+        "columns": [
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "itself",
+        "foreign_keys": [
+            {
+                "column": "itself",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "large",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "large",
+        "foreign_keys": [
+            {
+                "column": "large",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "design",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "design",
+        "foreign_keys": [
+            {
+                "column": "design",
+                "references": "trouble"
+            }
+        ]
+    },
+    {
+        "name": "trouble",
+        "columns": [
+            {
+                "name": "money",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "money",
+        "foreign_keys": [
+            {
+                "column": "money",
+                "references": "pull"
+            }
+        ]
+    },
+    {
+        "name": "pull",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "choose"
+            }
+        ]
+    },
+    {
+        "name": "choose",
+        "columns": [
+            {
+                "name": "position",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "position",
+        "foreign_keys": [
+            {
+                "column": "position",
+                "references": "run"
+            }
+        ]
+    }
+]

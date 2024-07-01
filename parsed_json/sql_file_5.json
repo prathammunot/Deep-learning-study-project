@@ -1,0 +1,296 @@
+[
+    {
+        "name": "pull",
+        "columns": [
+            {
+                "name": "next",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "product",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "forget"
+            }
+        ]
+    },
+    {
+        "name": "forget",
+        "columns": [
+            {
+                "name": "rise",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rise",
+        "foreign_keys": [
+            {
+                "column": "rise",
+                "references": "direction"
+            }
+        ]
+    },
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "enjoy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enjoy",
+        "foreign_keys": [
+            {
+                "column": "enjoy",
+                "references": "threat"
+            }
+        ]
+    },
+    {
+        "name": "threat",
+        "columns": [
+            {
+                "name": "represent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "represent",
+        "foreign_keys": [
+            {
+                "column": "represent",
+                "references": "young"
+            }
+        ]
+    },
+    {
+        "name": "young",
+        "columns": [
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "capital",
+        "foreign_keys": [
+            {
+                "column": "capital",
+                "references": "really"
+            }
+        ]
+    },
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "either",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "these",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "either",
+        "foreign_keys": [
+            {
+                "column": "either",
+                "references": "machine"
+            }
+        ]
+    },
+    {
+        "name": "machine",
+        "columns": [
+            {
+                "name": "thing",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thing",
+        "foreign_keys": [
+            {
+                "column": "thing",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "question",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "question",
+        "foreign_keys": [
+            {
+                "column": "question",
+                "references": "chair"
+            }
+        ]
+    },
+    {
+        "name": "chair",
+        "columns": [
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "son",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "son",
+        "foreign_keys": [
+            {
+                "column": "son",
+                "references": "their"
+            }
+        ]
+    },
+    {
+        "name": "their",
+        "columns": [
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "pull"
+            }
+        ]
+    }
+]

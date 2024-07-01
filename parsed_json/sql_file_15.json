@@ -1,0 +1,198 @@
+[
+    {
+        "name": "first",
+        "columns": [
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "his",
+        "foreign_keys": [
+            {
+                "column": "his",
+                "references": "ago"
+            }
+        ]
+    },
+    {
+        "name": "ago",
+        "columns": [
+            {
+                "name": "his",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mission",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "his",
+        "foreign_keys": [
+            {
+                "column": "his",
+                "references": "PM"
+            }
+        ]
+    },
+    {
+        "name": "PM",
+        "columns": [
+            {
+                "name": "might",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "might",
+        "foreign_keys": [
+            {
+                "column": "might",
+                "references": "college"
+            }
+        ]
+    },
+    {
+        "name": "college",
+        "columns": [
+            {
+                "name": "serious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fine",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "serious",
+        "foreign_keys": [
+            {
+                "column": "serious",
+                "references": "room"
+            }
+        ]
+    },
+    {
+        "name": "room",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "have",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "government"
+            }
+        ]
+    },
+    {
+        "name": "government",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "enjoy"
+            }
+        ]
+    },
+    {
+        "name": "enjoy",
+        "columns": [
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "learn"
+            }
+        ]
+    },
+    {
+        "name": "learn",
+        "columns": [
+            {
+                "name": "model",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "first"
+            }
+        ]
+    }
+]

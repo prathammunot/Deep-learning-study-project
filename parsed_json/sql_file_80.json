@@ -1,0 +1,296 @@
+[
+    {
+        "name": "language",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "resource"
+            }
+        ]
+    },
+    {
+        "name": "resource",
+        "columns": [
+            {
+                "name": "fight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fight",
+        "foreign_keys": [
+            {
+                "column": "fight",
+                "references": "leader"
+            }
+        ]
+    },
+    {
+        "name": "leader",
+        "columns": [
+            {
+                "name": "catch",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "catch",
+        "foreign_keys": [
+            {
+                "column": "catch",
+                "references": "cold"
+            }
+        ]
+    },
+    {
+        "name": "cold",
+        "columns": [
+            {
+                "name": "benefit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stay",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "benefit",
+        "foreign_keys": [
+            {
+                "column": "benefit",
+                "references": "imagine"
+            }
+        ]
+    },
+    {
+        "name": "imagine",
+        "columns": [
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "improve",
+        "foreign_keys": [
+            {
+                "column": "improve",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "gas",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "gas",
+        "foreign_keys": [
+            {
+                "column": "gas",
+                "references": "economy"
+            }
+        ]
+    },
+    {
+        "name": "economy",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "about",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "customer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "policy"
+            }
+        ]
+    },
+    {
+        "name": "policy",
+        "columns": [
+            {
+                "name": "land",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "land",
+        "foreign_keys": [
+            {
+                "column": "land",
+                "references": "foot"
+            }
+        ]
+    },
+    {
+        "name": "foot",
+        "columns": [
+            {
+                "name": "work",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professional",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "work",
+        "foreign_keys": [
+            {
+                "column": "work",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "situation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "situation",
+        "foreign_keys": [
+            {
+                "column": "situation",
+                "references": "develop"
+            }
+        ]
+    },
+    {
+        "name": "develop",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "feeling"
+            }
+        ]
+    },
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "detail",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "detail",
+        "foreign_keys": [
+            {
+                "column": "detail",
+                "references": "language"
+            }
+        ]
+    }
+]

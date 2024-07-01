@@ -1,0 +1,149 @@
+[
+    {
+        "name": "level",
+        "columns": [
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "key",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "more",
+        "foreign_keys": [
+            {
+                "column": "more",
+                "references": "international"
+            }
+        ]
+    },
+    {
+        "name": "international",
+        "columns": [
+            {
+                "name": "write",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "write",
+        "foreign_keys": [
+            {
+                "column": "write",
+                "references": "challenge"
+            }
+        ]
+    },
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "three",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "marriage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "three",
+        "foreign_keys": [
+            {
+                "column": "three",
+                "references": "perform"
+            }
+        ]
+    },
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "example",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "example",
+        "foreign_keys": [
+            {
+                "column": "example",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "various",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "week",
+        "foreign_keys": [
+            {
+                "column": "week",
+                "references": "ready"
+            }
+        ]
+    },
+    {
+        "name": "ready",
+        "columns": [
+            {
+                "name": "evening",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evening",
+        "foreign_keys": [
+            {
+                "column": "evening",
+                "references": "level"
+            }
+        ]
+    }
+]

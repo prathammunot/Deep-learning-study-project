@@ -1,0 +1,296 @@
+[
+    {
+        "name": "nor",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hope",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "large"
+            }
+        ]
+    },
+    {
+        "name": "large",
+        "columns": [
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mrs",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "green",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "less"
+            }
+        ]
+    },
+    {
+        "name": "less",
+        "columns": [
+            {
+                "name": "structure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "structure",
+        "foreign_keys": [
+            {
+                "column": "structure",
+                "references": "cause"
+            }
+        ]
+    },
+    {
+        "name": "cause",
+        "columns": [
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "song"
+            }
+        ]
+    },
+    {
+        "name": "song",
+        "columns": [
+            {
+                "name": "record",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "record",
+        "foreign_keys": [
+            {
+                "column": "record",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "air",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "air",
+        "foreign_keys": [
+            {
+                "column": "air",
+                "references": "would"
+            }
+        ]
+    },
+    {
+        "name": "would",
+        "columns": [
+            {
+                "name": "foot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "knowledge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "foot",
+        "foreign_keys": [
+            {
+                "column": "foot",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "assume",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "moment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "assume",
+        "foreign_keys": [
+            {
+                "column": "assume",
+                "references": "education"
+            }
+        ]
+    },
+    {
+        "name": "education",
+        "columns": [
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seem",
+        "foreign_keys": [
+            {
+                "column": "seem",
+                "references": "value"
+            }
+        ]
+    },
+    {
+        "name": "value",
+        "columns": [
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "remain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "food",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "food",
+        "foreign_keys": [
+            {
+                "column": "food",
+                "references": "nor"
+            }
+        ]
+    }
+]

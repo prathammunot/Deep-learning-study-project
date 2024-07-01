@@ -1,0 +1,149 @@
+[
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "knowledge"
+            }
+        ]
+    },
+    {
+        "name": "knowledge",
+        "columns": [
+            {
+                "name": "production",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "production",
+        "foreign_keys": [
+            {
+                "column": "production",
+                "references": "reason"
+            }
+        ]
+    },
+    {
+        "name": "reason",
+        "columns": [
+            {
+                "name": "person",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "drive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "voice"
+            }
+        ]
+    },
+    {
+        "name": "voice",
+        "columns": [
+            {
+                "name": "reflect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reflect",
+        "foreign_keys": [
+            {
+                "column": "reflect",
+                "references": "meet"
+            }
+        ]
+    },
+    {
+        "name": "meet",
+        "columns": [
+            {
+                "name": "either",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "either",
+        "foreign_keys": [
+            {
+                "column": "either",
+                "references": "especially"
+            }
+        ]
+    },
+    {
+        "name": "especially",
+        "columns": [
+            {
+                "name": "quality",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "quality",
+        "foreign_keys": [
+            {
+                "column": "quality",
+                "references": "another"
+            }
+        ]
+    }
+]

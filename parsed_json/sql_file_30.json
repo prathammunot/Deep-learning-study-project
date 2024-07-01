@@ -1,0 +1,225 @@
+[
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "common",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "century",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "century",
+        "foreign_keys": [
+            {
+                "column": "century",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "him"
+            }
+        ]
+    },
+    {
+        "name": "him",
+        "columns": [
+            {
+                "name": "individual",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "individual",
+        "foreign_keys": [
+            {
+                "column": "individual",
+                "references": "network"
+            }
+        ]
+    },
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "city"
+            }
+        ]
+    },
+    {
+        "name": "city",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "street",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "hot"
+            }
+        ]
+    },
+    {
+        "name": "hot",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "leader"
+            }
+        ]
+    },
+    {
+        "name": "leader",
+        "columns": [
+            {
+                "name": "now",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "now",
+        "foreign_keys": [
+            {
+                "column": "now",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "pattern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "detail",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pattern",
+        "foreign_keys": [
+            {
+                "column": "pattern",
+                "references": "with"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "speak",
+        "columns": [
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "determine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maybe",
+        "foreign_keys": [
+            {
+                "column": "maybe",
+                "references": "treatment"
+            }
+        ]
+    },
+    {
+        "name": "treatment",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "guess"
+            }
+        ]
+    },
+    {
+        "name": "guess",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "strategy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "strategy",
+        "foreign_keys": [
+            {
+                "column": "strategy",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "away",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "away",
+        "foreign_keys": [
+            {
+                "column": "away",
+                "references": "call"
+            }
+        ]
+    },
+    {
+        "name": "call",
+        "columns": [
+            {
+                "name": "benefit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "benefit",
+        "foreign_keys": [
+            {
+                "column": "benefit",
+                "references": "police"
+            }
+        ]
+    },
+    {
+        "name": "police",
+        "columns": [
+            {
+                "name": "writer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "writer",
+        "foreign_keys": [
+            {
+                "column": "writer",
+                "references": "story"
+            }
+        ]
+    },
+    {
+        "name": "story",
+        "columns": [
+            {
+                "name": "finish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "finish",
+        "foreign_keys": [
+            {
+                "column": "finish",
+                "references": "environment"
+            }
+        ]
+    },
+    {
+        "name": "environment",
+        "columns": [
+            {
+                "name": "friend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "record",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "friend",
+        "foreign_keys": [
+            {
+                "column": "friend",
+                "references": "speak"
+            }
+        ]
+    }
+]

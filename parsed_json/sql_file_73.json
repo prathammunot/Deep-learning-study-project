@@ -1,0 +1,247 @@
+[
+    {
+        "name": "of",
+        "columns": [
+            {
+                "name": "response",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "response",
+        "foreign_keys": [
+            {
+                "column": "response",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "leg",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leg",
+        "foreign_keys": [
+            {
+                "column": "leg",
+                "references": "attorney"
+            }
+        ]
+    },
+    {
+        "name": "attorney",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "blood"
+            }
+        ]
+    },
+    {
+        "name": "blood",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "director",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "these"
+            }
+        ]
+    },
+    {
+        "name": "these",
+        "columns": [
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "collection"
+            }
+        ]
+    },
+    {
+        "name": "collection",
+        "columns": [
+            {
+                "name": "international",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "international",
+        "foreign_keys": [
+            {
+                "column": "international",
+                "references": "toward"
+            }
+        ]
+    },
+    {
+        "name": "toward",
+        "columns": [
+            {
+                "name": "explain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "explain",
+        "foreign_keys": [
+            {
+                "column": "explain",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "wind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wind",
+        "foreign_keys": [
+            {
+                "column": "wind",
+                "references": "modern"
+            }
+        ]
+    },
+    {
+        "name": "modern",
+        "columns": [
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "of"
+            }
+        ]
+    }
+]

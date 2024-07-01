@@ -1,0 +1,176 @@
+[
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "heavy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "heavy",
+        "foreign_keys": [
+            {
+                "column": "heavy",
+                "references": "hotel"
+            }
+        ]
+    },
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "until",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "subject",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "until",
+        "foreign_keys": [
+            {
+                "column": "until",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "billion",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "billion",
+        "foreign_keys": [
+            {
+                "column": "billion",
+                "references": "hand"
+            }
+        ]
+    },
+    {
+        "name": "hand",
+        "columns": [
+            {
+                "name": "look",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "day",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "product",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "day",
+        "foreign_keys": [
+            {
+                "column": "day",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "sister",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sister",
+        "foreign_keys": [
+            {
+                "column": "sister",
+                "references": "beautiful"
+            }
+        ]
+    },
+    {
+        "name": "beautiful",
+        "columns": [
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leave",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "performance",
+        "foreign_keys": [
+            {
+                "column": "performance",
+                "references": "challenge"
+            }
+        ]
+    }
+]

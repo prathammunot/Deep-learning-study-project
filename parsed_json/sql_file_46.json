@@ -1,0 +1,247 @@
+[
+    {
+        "name": "pay",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "southern"
+            }
+        ]
+    },
+    {
+        "name": "southern",
+        "columns": [
+            {
+                "name": "mind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mind",
+        "foreign_keys": [
+            {
+                "column": "mind",
+                "references": "him"
+            }
+        ]
+    },
+    {
+        "name": "him",
+        "columns": [
+            {
+                "name": "our",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "public",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "our",
+        "foreign_keys": [
+            {
+                "column": "our",
+                "references": "federal"
+            }
+        ]
+    },
+    {
+        "name": "federal",
+        "columns": [
+            {
+                "name": "than",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "than",
+        "foreign_keys": [
+            {
+                "column": "than",
+                "references": "kitchen"
+            }
+        ]
+    },
+    {
+        "name": "kitchen",
+        "columns": [
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wrong",
+        "foreign_keys": [
+            {
+                "column": "wrong",
+                "references": "even"
+            }
+        ]
+    },
+    {
+        "name": "even",
+        "columns": [
+            {
+                "name": "author",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "author",
+        "foreign_keys": [
+            {
+                "column": "author",
+                "references": "debate"
+            }
+        ]
+    },
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "second",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "summer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "summer",
+        "foreign_keys": [
+            {
+                "column": "summer",
+                "references": "thing"
+            }
+        ]
+    },
+    {
+        "name": "thing",
+        "columns": [
+            {
+                "name": "less",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "again"
+            }
+        ]
+    },
+    {
+        "name": "again",
+        "columns": [
+            {
+                "name": "pattern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pattern",
+        "foreign_keys": [
+            {
+                "column": "pattern",
+                "references": "pay"
+            }
+        ]
+    }
+]

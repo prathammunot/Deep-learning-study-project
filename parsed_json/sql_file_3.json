@@ -1,0 +1,274 @@
+[
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "seven",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seven",
+        "foreign_keys": [
+            {
+                "column": "seven",
+                "references": "show"
+            }
+        ]
+    },
+    {
+        "name": "show",
+        "columns": [
+            {
+                "name": "across",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "student",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "across",
+        "foreign_keys": [
+            {
+                "column": "across",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "language",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "on"
+            }
+        ]
+    },
+    {
+        "name": "on",
+        "columns": [
+            {
+                "name": "point",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "point",
+        "foreign_keys": [
+            {
+                "column": "point",
+                "references": "evidence"
+            }
+        ]
+    },
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "style",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "style",
+        "foreign_keys": [
+            {
+                "column": "style",
+                "references": "leader"
+            }
+        ]
+    },
+    {
+        "name": "leader",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "food"
+            }
+        ]
+    },
+    {
+        "name": "food",
+        "columns": [
+            {
+                "name": "artist",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "artist",
+        "foreign_keys": [
+            {
+                "column": "artist",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "certain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "school"
+            }
+        ]
+    },
+    {
+        "name": "school",
+        "columns": [
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "concern",
+        "foreign_keys": [
+            {
+                "column": "concern",
+                "references": "break"
+            }
+        ]
+    },
+    {
+        "name": "break",
+        "columns": [
+            {
+                "name": "two",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "two",
+        "foreign_keys": [
+            {
+                "column": "two",
+                "references": "boy"
+            }
+        ]
+    },
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "collection",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "collection",
+        "foreign_keys": [
+            {
+                "column": "collection",
+                "references": "about"
+            }
+        ]
+    }
+]

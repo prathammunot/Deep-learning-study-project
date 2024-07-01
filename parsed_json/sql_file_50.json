@@ -1,0 +1,247 @@
+[
+    {
+        "name": "raise",
+        "columns": [
+            {
+                "name": "or",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "church",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "or",
+        "foreign_keys": [
+            {
+                "column": "or",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "lawyer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lawyer",
+        "foreign_keys": [
+            {
+                "column": "lawyer",
+                "references": "serve"
+            }
+        ]
+    },
+    {
+        "name": "serve",
+        "columns": [
+            {
+                "name": "social",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "social",
+        "foreign_keys": [
+            {
+                "column": "social",
+                "references": "push"
+            }
+        ]
+    },
+    {
+        "name": "push",
+        "columns": [
+            {
+                "name": "perhaps",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "perhaps",
+        "foreign_keys": [
+            {
+                "column": "perhaps",
+                "references": "where"
+            }
+        ]
+    },
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interesting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "hour"
+            }
+        ]
+    },
+    {
+        "name": "hour",
+        "columns": [
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "people"
+            }
+        ]
+    },
+    {
+        "name": "people",
+        "columns": [
+            {
+                "name": "hear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hear",
+        "foreign_keys": [
+            {
+                "column": "hear",
+                "references": "perhaps"
+            }
+        ]
+    },
+    {
+        "name": "perhaps",
+        "columns": [
+            {
+                "name": "important",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "important",
+        "foreign_keys": [
+            {
+                "column": "important",
+                "references": "guy"
+            }
+        ]
+    },
+    {
+        "name": "guy",
+        "columns": [
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prevent",
+        "foreign_keys": [
+            {
+                "column": "prevent",
+                "references": "east"
+            }
+        ]
+    },
+    {
+        "name": "east",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "raise"
+            }
+        ]
+    }
+]

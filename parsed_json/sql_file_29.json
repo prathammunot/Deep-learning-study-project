@@ -1,0 +1,274 @@
+[
+    {
+        "name": "American",
+        "columns": [
+            {
+                "name": "east",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "east",
+        "foreign_keys": [
+            {
+                "column": "east",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "ahead",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ahead",
+        "foreign_keys": [
+            {
+                "column": "ahead",
+                "references": "type"
+            }
+        ]
+    },
+    {
+        "name": "type",
+        "columns": [
+            {
+                "name": "hand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hand",
+        "foreign_keys": [
+            {
+                "column": "hand",
+                "references": "top"
+            }
+        ]
+    },
+    {
+        "name": "top",
+        "columns": [
+            {
+                "name": "low",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "ago"
+            }
+        ]
+    },
+    {
+        "name": "ago",
+        "columns": [
+            {
+                "name": "let",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "let",
+        "foreign_keys": [
+            {
+                "column": "let",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "class",
+        "foreign_keys": [
+            {
+                "column": "class",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "shoulder",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "shoulder",
+        "foreign_keys": [
+            {
+                "column": "shoulder",
+                "references": "take"
+            }
+        ]
+    },
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "power",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "power",
+        "foreign_keys": [
+            {
+                "column": "power",
+                "references": "save"
+            }
+        ]
+    },
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "present",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "offer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "present",
+        "foreign_keys": [
+            {
+                "column": "present",
+                "references": "college"
+            }
+        ]
+    },
+    {
+        "name": "college",
+        "columns": [
+            {
+                "name": "whom",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whom",
+        "foreign_keys": [
+            {
+                "column": "whom",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "lose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lose",
+        "foreign_keys": [
+            {
+                "column": "lose",
+                "references": "American"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pressure",
+        "foreign_keys": [
+            {
+                "column": "pressure",
+                "references": "officer"
+            }
+        ]
+    },
+    {
+        "name": "officer",
+        "columns": [
+            {
+                "name": "knowledge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "become",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "knowledge",
+        "foreign_keys": [
+            {
+                "column": "knowledge",
+                "references": "professional"
+            }
+        ]
+    },
+    {
+        "name": "professional",
+        "columns": [
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "require",
+        "foreign_keys": [
+            {
+                "column": "require",
+                "references": "participant"
+            }
+        ]
+    },
+    {
+        "name": "participant",
+        "columns": [
+            {
+                "name": "less",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "amount"
+            }
+        ]
+    },
+    {
+        "name": "amount",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "they",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "response"
+            }
+        ]
+    },
+    {
+        "name": "response",
+        "columns": [
+            {
+                "name": "coach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "coach",
+        "foreign_keys": [
+            {
+                "column": "coach",
+                "references": "edge"
+            }
+        ]
+    },
+    {
+        "name": "edge",
+        "columns": [
+            {
+                "name": "left",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "left",
+        "foreign_keys": [
+            {
+                "column": "left",
+                "references": "develop"
+            }
+        ]
+    },
+    {
+        "name": "develop",
+        "columns": [
+            {
+                "name": "wonder",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wonder",
+        "foreign_keys": [
+            {
+                "column": "wonder",
+                "references": "security"
+            }
+        ]
+    },
+    {
+        "name": "security",
+        "columns": [
+            {
+                "name": "candidate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "candidate",
+        "foreign_keys": [
+            {
+                "column": "candidate",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "group",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "group",
+        "foreign_keys": [
+            {
+                "column": "group",
+                "references": "purpose"
+            }
+        ]
+    }
+]

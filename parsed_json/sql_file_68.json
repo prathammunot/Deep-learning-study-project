@@ -1,0 +1,274 @@
+[
+    {
+        "name": "animal",
+        "columns": [
+            {
+                "name": "its",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "its",
+        "foreign_keys": [
+            {
+                "column": "its",
+                "references": "direction"
+            }
+        ]
+    },
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "like",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "finally",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "like",
+        "foreign_keys": [
+            {
+                "column": "like",
+                "references": "water"
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "columns": [
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "company",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "those",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "table",
+        "foreign_keys": [
+            {
+                "column": "table",
+                "references": "carry"
+            }
+        ]
+    },
+    {
+        "name": "carry",
+        "columns": [
+            {
+                "name": "myself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "myself",
+        "foreign_keys": [
+            {
+                "column": "myself",
+                "references": "either"
+            }
+        ]
+    },
+    {
+        "name": "either",
+        "columns": [
+            {
+                "name": "art",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "large"
+            }
+        ]
+    },
+    {
+        "name": "large",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "field"
+            }
+        ]
+    },
+    {
+        "name": "field",
+        "columns": [
+            {
+                "name": "eat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eat",
+        "foreign_keys": [
+            {
+                "column": "eat",
+                "references": "return"
+            }
+        ]
+    },
+    {
+        "name": "return",
+        "columns": [
+            {
+                "name": "suffer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suffer",
+        "foreign_keys": [
+            {
+                "column": "suffer",
+                "references": "laugh"
+            }
+        ]
+    },
+    {
+        "name": "laugh",
+        "columns": [
+            {
+                "name": "deep",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "be",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "deep",
+        "foreign_keys": [
+            {
+                "column": "deep",
+                "references": "property"
+            }
+        ]
+    },
+    {
+        "name": "property",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "that"
+            }
+        ]
+    },
+    {
+        "name": "that",
+        "columns": [
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whose",
+        "foreign_keys": [
+            {
+                "column": "whose",
+                "references": "animal"
+            }
+        ]
+    }
+]

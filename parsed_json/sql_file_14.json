@@ -1,0 +1,198 @@
+[
+    {
+        "name": "consider",
+        "columns": [
+            {
+                "name": "hard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hard",
+        "foreign_keys": [
+            {
+                "column": "hard",
+                "references": "food"
+            }
+        ]
+    },
+    {
+        "name": "food",
+        "columns": [
+            {
+                "name": "have",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "have",
+        "foreign_keys": [
+            {
+                "column": "have",
+                "references": "blood"
+            }
+        ]
+    },
+    {
+        "name": "blood",
+        "columns": [
+            {
+                "name": "late",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "stuff"
+            }
+        ]
+    },
+    {
+        "name": "stuff",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enjoy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "shake"
+            }
+        ]
+    },
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "also",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "also",
+        "foreign_keys": [
+            {
+                "column": "also",
+                "references": "high"
+            }
+        ]
+    },
+    {
+        "name": "high",
+        "columns": [
+            {
+                "name": "night",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "night",
+        "foreign_keys": [
+            {
+                "column": "night",
+                "references": "personal"
+            }
+        ]
+    },
+    {
+        "name": "personal",
+        "columns": [
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "resource",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "light",
+        "foreign_keys": [
+            {
+                "column": "light",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "music",
+        "foreign_keys": [
+            {
+                "column": "music",
+                "references": "consider"
+            }
+        ]
+    }
+]

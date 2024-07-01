@@ -1,0 +1,296 @@
+[
+    {
+        "name": "fall",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "food"
+            }
+        ]
+    },
+    {
+        "name": "food",
+        "columns": [
+            {
+                "name": "per",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "per",
+        "foreign_keys": [
+            {
+                "column": "per",
+                "references": "laugh"
+            }
+        ]
+    },
+    {
+        "name": "laugh",
+        "columns": [
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "time",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "strong"
+            }
+        ]
+    },
+    {
+        "name": "strong",
+        "columns": [
+            {
+                "name": "why",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "according"
+            }
+        ]
+    },
+    {
+        "name": "according",
+        "columns": [
+            {
+                "name": "skill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "range",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "skill",
+        "foreign_keys": [
+            {
+                "column": "skill",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "voice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "voice",
+        "foreign_keys": [
+            {
+                "column": "voice",
+                "references": "executive"
+            }
+        ]
+    },
+    {
+        "name": "executive",
+        "columns": [
+            {
+                "name": "guy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "guy",
+        "foreign_keys": [
+            {
+                "column": "guy",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "collection",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "collection",
+        "foreign_keys": [
+            {
+                "column": "collection",
+                "references": "finish"
+            }
+        ]
+    },
+    {
+        "name": "finish",
+        "columns": [
+            {
+                "name": "start",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "start",
+        "foreign_keys": [
+            {
+                "column": "start",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "those",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "difference"
+            }
+        ]
+    },
+    {
+        "name": "difference",
+        "columns": [
+            {
+                "name": "service",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "service",
+        "foreign_keys": [
+            {
+                "column": "service",
+                "references": "challenge"
+            }
+        ]
+    },
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "fall"
+            }
+        ]
+    }
+]

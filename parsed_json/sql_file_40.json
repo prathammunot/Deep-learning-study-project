@@ -1,0 +1,296 @@
+[
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "area",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "figure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "area",
+        "foreign_keys": [
+            {
+                "column": "area",
+                "references": "product"
+            }
+        ]
+    },
+    {
+        "name": "product",
+        "columns": [
+            {
+                "name": "make",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "notice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "make",
+        "foreign_keys": [
+            {
+                "column": "make",
+                "references": "use"
+            }
+        ]
+    },
+    {
+        "name": "use",
+        "columns": [
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "natural",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "man"
+            }
+        ]
+    },
+    {
+        "name": "man",
+        "columns": [
+            {
+                "name": "total",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "total",
+        "foreign_keys": [
+            {
+                "column": "total",
+                "references": "capital"
+            }
+        ]
+    },
+    {
+        "name": "capital",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "staff"
+            }
+        ]
+    },
+    {
+        "name": "staff",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "much"
+            }
+        ]
+    },
+    {
+        "name": "much",
+        "columns": [
+            {
+                "name": "response",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ability",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "response",
+        "foreign_keys": [
+            {
+                "column": "response",
+                "references": "wonder"
+            }
+        ]
+    },
+    {
+        "name": "wonder",
+        "columns": [
+            {
+                "name": "try",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Mrs",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "try",
+        "foreign_keys": [
+            {
+                "column": "try",
+                "references": "message"
+            }
+        ]
+    },
+    {
+        "name": "message",
+        "columns": [
+            {
+                "name": "else",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "else",
+        "foreign_keys": [
+            {
+                "column": "else",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "cut",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "accept",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cut",
+        "foreign_keys": [
+            {
+                "column": "cut",
+                "references": "offer"
+            }
+        ]
+    },
+    {
+        "name": "offer",
+        "columns": [
+            {
+                "name": "hard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "these",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hard",
+        "foreign_keys": [
+            {
+                "column": "hard",
+                "references": "why"
+            }
+        ]
+    },
+    {
+        "name": "why",
+        "columns": [
+            {
+                "name": "pay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pay",
+        "foreign_keys": [
+            {
+                "column": "pay",
+                "references": "arm"
+            }
+        ]
+    }
+]

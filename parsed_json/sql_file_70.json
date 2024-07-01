@@ -1,0 +1,220 @@
+[
+    {
+        "name": "have",
+        "columns": [
+            {
+                "name": "defense",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "defense",
+        "foreign_keys": [
+            {
+                "column": "defense",
+                "references": "character"
+            }
+        ]
+    },
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "begin"
+            }
+        ]
+    },
+    {
+        "name": "begin",
+        "columns": [
+            {
+                "name": "newspaper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "newspaper",
+        "foreign_keys": [
+            {
+                "column": "newspaper",
+                "references": "ever"
+            }
+        ]
+    },
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "spring",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "spring",
+        "foreign_keys": [
+            {
+                "column": "spring",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "medical",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "personal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "medical",
+        "foreign_keys": [
+            {
+                "column": "medical",
+                "references": "measure"
+            }
+        ]
+    },
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "weight",
+        "foreign_keys": [
+            {
+                "column": "weight",
+                "references": "pay"
+            }
+        ]
+    },
+    {
+        "name": "pay",
+        "columns": [
+            {
+                "name": "step",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "people",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "step",
+        "foreign_keys": [
+            {
+                "column": "step",
+                "references": "magazine"
+            }
+        ]
+    },
+    {
+        "name": "magazine",
+        "columns": [
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "until",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "represent",
+        "foreign_keys": [
+            {
+                "column": "represent",
+                "references": "market"
+            }
+        ]
+    },
+    {
+        "name": "market",
+        "columns": [
+            {
+                "name": "phone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "phone",
+        "foreign_keys": [
+            {
+                "column": "phone",
+                "references": "have"
+            }
+        ]
+    }
+]

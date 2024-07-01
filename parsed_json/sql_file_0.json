@@ -1,0 +1,198 @@
+[
+    {
+        "name": "watch",
+        "columns": [
+            {
+                "name": "friend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "friend",
+        "foreign_keys": [
+            {
+                "column": "friend",
+                "references": "identify"
+            }
+        ]
+    },
+    {
+        "name": "identify",
+        "columns": [
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "person",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "never",
+        "foreign_keys": [
+            {
+                "column": "never",
+                "references": "happy"
+            }
+        ]
+    },
+    {
+        "name": "happy",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "speech",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "course",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "course",
+        "foreign_keys": [
+            {
+                "column": "course",
+                "references": "forward"
+            }
+        ]
+    },
+    {
+        "name": "forward",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "hit"
+            }
+        ]
+    },
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "south",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "high",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "south",
+        "foreign_keys": [
+            {
+                "column": "south",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "employee",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "employee",
+        "foreign_keys": [
+            {
+                "column": "employee",
+                "references": "investment"
+            }
+        ]
+    },
+    {
+        "name": "investment",
+        "columns": [
+            {
+                "name": "but",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "but",
+        "foreign_keys": [
+            {
+                "column": "but",
+                "references": "watch"
+            }
+        ]
+    }
+]

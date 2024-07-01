@@ -1,0 +1,198 @@
+[
+    {
+        "name": "include",
+        "columns": [
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fill",
+        "foreign_keys": [
+            {
+                "column": "fill",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "open",
+        "foreign_keys": [
+            {
+                "column": "open",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "young",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "young",
+        "foreign_keys": [
+            {
+                "column": "young",
+                "references": "southern"
+            }
+        ]
+    },
+    {
+        "name": "southern",
+        "columns": [
+            {
+                "name": "TV",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "TV",
+        "foreign_keys": [
+            {
+                "column": "TV",
+                "references": "camera"
+            }
+        ]
+    },
+    {
+        "name": "camera",
+        "columns": [
+            {
+                "name": "east",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "east",
+        "foreign_keys": [
+            {
+                "column": "east",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "affect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "back"
+            }
+        ]
+    },
+    {
+        "name": "back",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "project"
+            }
+        ]
+    },
+    {
+        "name": "project",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "include"
+            }
+        ]
+    }
+]

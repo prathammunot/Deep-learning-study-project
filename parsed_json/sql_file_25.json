@@ -1,0 +1,247 @@
+[
+    {
+        "name": "public",
+        "columns": [
+            {
+                "name": "record",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "record",
+        "foreign_keys": [
+            {
+                "column": "record",
+                "references": "half"
+            }
+        ]
+    },
+    {
+        "name": "half",
+        "columns": [
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "finish"
+            }
+        ]
+    },
+    {
+        "name": "finish",
+        "columns": [
+            {
+                "name": "religious",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yes",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "religious",
+        "foreign_keys": [
+            {
+                "column": "religious",
+                "references": "upon"
+            }
+        ]
+    },
+    {
+        "name": "upon",
+        "columns": [
+            {
+                "name": "message",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "message",
+        "foreign_keys": [
+            {
+                "column": "message",
+                "references": "memory"
+            }
+        ]
+    },
+    {
+        "name": "memory",
+        "columns": [
+            {
+                "name": "data",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "data",
+        "foreign_keys": [
+            {
+                "column": "data",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "brother",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "glass",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "brother",
+        "foreign_keys": [
+            {
+                "column": "brother",
+                "references": "idea"
+            }
+        ]
+    },
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "similar",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "job",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "similar",
+        "foreign_keys": [
+            {
+                "column": "similar",
+                "references": "late"
+            }
+        ]
+    },
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "present",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "present",
+        "foreign_keys": [
+            {
+                "column": "present",
+                "references": "door"
+            }
+        ]
+    },
+    {
+        "name": "door",
+        "columns": [
+            {
+                "name": "anything",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "anything",
+        "foreign_keys": [
+            {
+                "column": "anything",
+                "references": "public"
+            }
+        ]
+    }
+]

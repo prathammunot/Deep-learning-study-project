@@ -1,0 +1,274 @@
+[
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "bit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bit",
+        "foreign_keys": [
+            {
+                "column": "bit",
+                "references": "bed"
+            }
+        ]
+    },
+    {
+        "name": "bed",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "line",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "theory"
+            }
+        ]
+    },
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "speech",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "knowledge",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "speech",
+        "foreign_keys": [
+            {
+                "column": "speech",
+                "references": "ready"
+            }
+        ]
+    },
+    {
+        "name": "ready",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "laugh",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mind",
+        "foreign_keys": [
+            {
+                "column": "mind",
+                "references": "traditional"
+            }
+        ]
+    },
+    {
+        "name": "traditional",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "field"
+            }
+        ]
+    },
+    {
+        "name": "field",
+        "columns": [
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "material",
+        "foreign_keys": [
+            {
+                "column": "material",
+                "references": "first"
+            }
+        ]
+    },
+    {
+        "name": "first",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "carry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "leader"
+            }
+        ]
+    },
+    {
+        "name": "leader",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "author",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "sound"
+            }
+        ]
+    },
+    {
+        "name": "sound",
+        "columns": [
+            {
+                "name": "experience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "experience",
+        "foreign_keys": [
+            {
+                "column": "experience",
+                "references": "good"
+            }
+        ]
+    },
+    {
+        "name": "good",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "next"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "still",
+        "columns": [
+            {
+                "name": "generation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "must",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "generation",
+        "foreign_keys": [
+            {
+                "column": "generation",
+                "references": "head"
+            }
+        ]
+    },
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "short"
+            }
+        ]
+    },
+    {
+        "name": "short",
+        "columns": [
+            {
+                "name": "produce",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "produce",
+        "foreign_keys": [
+            {
+                "column": "produce",
+                "references": "together"
+            }
+        ]
+    },
+    {
+        "name": "together",
+        "columns": [
+            {
+                "name": "car",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "car",
+        "foreign_keys": [
+            {
+                "column": "car",
+                "references": "six"
+            }
+        ]
+    },
+    {
+        "name": "six",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "still"
+            }
+        ]
+    }
+]

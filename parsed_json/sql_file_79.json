@@ -1,0 +1,149 @@
+[
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "decide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "camera",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decide",
+        "foreign_keys": [
+            {
+                "column": "decide",
+                "references": "nature"
+            }
+        ]
+    },
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "growth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "usually",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "public",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "usually",
+        "foreign_keys": [
+            {
+                "column": "usually",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "name",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "name",
+        "foreign_keys": [
+            {
+                "column": "name",
+                "references": "within"
+            }
+        ]
+    },
+    {
+        "name": "within",
+        "columns": [
+            {
+                "name": "nothing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nothing",
+        "foreign_keys": [
+            {
+                "column": "nothing",
+                "references": "service"
+            }
+        ]
+    },
+    {
+        "name": "service",
+        "columns": [
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "painting",
+        "foreign_keys": [
+            {
+                "column": "painting",
+                "references": "if"
+            }
+        ]
+    }
+]

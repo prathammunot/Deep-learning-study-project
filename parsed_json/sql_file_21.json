@@ -1,0 +1,127 @@
+[
+    {
+        "name": "expect",
+        "columns": [
+            {
+                "name": "the",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "newspaper",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "own"
+            }
+        ]
+    },
+    {
+        "name": "own",
+        "columns": [
+            {
+                "name": "family",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "family",
+        "foreign_keys": [
+            {
+                "column": "family",
+                "references": "call"
+            }
+        ]
+    },
+    {
+        "name": "call",
+        "columns": [
+            {
+                "name": "author",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "everybody",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "author",
+        "foreign_keys": [
+            {
+                "column": "author",
+                "references": "half"
+            }
+        ]
+    },
+    {
+        "name": "half",
+        "columns": [
+            {
+                "name": "book",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "half",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "book",
+        "foreign_keys": [
+            {
+                "column": "book",
+                "references": "business"
+            }
+        ]
+    },
+    {
+        "name": "business",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "answer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "expect"
+            }
+        ]
+    }
+]

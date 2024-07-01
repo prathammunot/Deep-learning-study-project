@@ -1,0 +1,296 @@
+[
+    {
+        "name": "interview",
+        "columns": [
+            {
+                "name": "just",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "just",
+        "foreign_keys": [
+            {
+                "column": "just",
+                "references": "foot"
+            }
+        ]
+    },
+    {
+        "name": "foot",
+        "columns": [
+            {
+                "name": "writer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "writer",
+        "foreign_keys": [
+            {
+                "column": "writer",
+                "references": "work"
+            }
+        ]
+    },
+    {
+        "name": "work",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rise",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "professor"
+            }
+        ]
+    },
+    {
+        "name": "professor",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "move"
+            }
+        ]
+    },
+    {
+        "name": "move",
+        "columns": [
+            {
+                "name": "old",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "defense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "old",
+        "foreign_keys": [
+            {
+                "column": "old",
+                "references": "per"
+            }
+        ]
+    },
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "wife"
+            }
+        ]
+    },
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "speech",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "modern"
+            }
+        ]
+    },
+    {
+        "name": "modern",
+        "columns": [
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "allow"
+            }
+        ]
+    },
+    {
+        "name": "allow",
+        "columns": [
+            {
+                "name": "country",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "with",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "country",
+        "foreign_keys": [
+            {
+                "column": "country",
+                "references": "heart"
+            }
+        ]
+    },
+    {
+        "name": "heart",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "second"
+            }
+        ]
+    },
+    {
+        "name": "second",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "past"
+            }
+        ]
+    },
+    {
+        "name": "past",
+        "columns": [
+            {
+                "name": "modern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "modern",
+        "foreign_keys": [
+            {
+                "column": "modern",
+                "references": "interview"
+            }
+        ]
+    }
+]

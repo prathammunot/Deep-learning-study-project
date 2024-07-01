@@ -1,0 +1,149 @@
+[
+    {
+        "name": "start",
+        "columns": [
+            {
+                "name": "one",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "one",
+        "foreign_keys": [
+            {
+                "column": "one",
+                "references": "meet"
+            }
+        ]
+    },
+    {
+        "name": "meet",
+        "columns": [
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deep",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "race",
+        "foreign_keys": [
+            {
+                "column": "race",
+                "references": "weight"
+            }
+        ]
+    },
+    {
+        "name": "weight",
+        "columns": [
+            {
+                "name": "whom",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "remain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whom",
+        "foreign_keys": [
+            {
+                "column": "whom",
+                "references": "culture"
+            }
+        ]
+    },
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "carry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "carry",
+        "foreign_keys": [
+            {
+                "column": "carry",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "benefit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "find",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "benefit",
+        "foreign_keys": [
+            {
+                "column": "benefit",
+                "references": "student"
+            }
+        ]
+    },
+    {
+        "name": "student",
+        "columns": [
+            {
+                "name": "dog",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dog",
+        "foreign_keys": [
+            {
+                "column": "dog",
+                "references": "start"
+            }
+        ]
+    }
+]
