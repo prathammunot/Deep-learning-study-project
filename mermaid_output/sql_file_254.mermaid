@@ -1,0 +1,45 @@
+erDiagram
+    prevent ||--o{ include : general
+    prevent {
+        DATE general
+        TEXT some
+        VARCHAR(50) daughter
+    }
+    include ||--o{ model : brother
+    include {
+        VARCHAR(50) brother
+        DATE about
+    }
+    model ||--o{ tax : rather
+    model {
+        DATE rather
+        TEXT physical
+        VARCHAR(50) lay
+    }
+    tax ||--o{ hear : both
+    tax {
+        VARCHAR(50) both
+        DATE business
+    }
+    hear ||--o{ reality : different
+    hear {
+        DATE different
+        TEXT one
+        VARCHAR(50) program
+    }
+    reality ||--o{ history : girl
+    reality {
+        VARCHAR(50) girl
+        DATE even
+    }
+    history ||--o{ defense : imagine
+    history {
+        DATE imagine
+        TEXT book
+        VARCHAR(50) however
+    }
+    defense ||--o{ prevent : newspaper
+    defense {
+        VARCHAR(50) newspaper
+        DATE find
+    }

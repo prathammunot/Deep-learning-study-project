@@ -1,0 +1,34 @@
+erDiagram
+    safe ||--o{ drug : increase
+    safe {
+        DATE increase
+        TEXT enjoy
+        VARCHAR(50) way
+    }
+    drug ||--o{ turn : draw
+    drug {
+        VARCHAR(50) draw
+        DATE current
+    }
+    turn ||--o{ deal : fall
+    turn {
+        DATE fall
+        TEXT bad
+        VARCHAR(50) seat
+    }
+    deal ||--o{ claim : next
+    deal {
+        VARCHAR(50) next
+        DATE officer
+    }
+    claim ||--o{ maintain : may
+    claim {
+        DATE may
+        TEXT performance
+        VARCHAR(50) itself
+    }
+    maintain ||--o{ safe : cut
+    maintain {
+        VARCHAR(50) cut
+        DATE data
+    }

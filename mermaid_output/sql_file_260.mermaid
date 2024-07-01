@@ -1,0 +1,45 @@
+erDiagram
+    author ||--o{ wall : any
+    author {
+        DATE any
+        TEXT change
+        VARCHAR(50) kid
+    }
+    wall ||--o{ old : recently
+    wall {
+        VARCHAR(50) recently
+        DATE others
+    }
+    old ||--o{ see : middle
+    old {
+        DATE middle
+        TEXT score
+        VARCHAR(50) consumer
+    }
+    see ||--o{ effort : property
+    see {
+        VARCHAR(50) property
+        DATE section
+    }
+    effort ||--o{ admit : ahead
+    effort {
+        DATE ahead
+        TEXT prepare
+        VARCHAR(50) not
+    }
+    admit ||--o{ woman : fish
+    admit {
+        VARCHAR(50) fish
+        DATE likely
+    }
+    woman ||--o{ professor : model
+    woman {
+        DATE model
+        TEXT build
+        VARCHAR(50) tell
+    }
+    professor ||--o{ author : successful
+    professor {
+        VARCHAR(50) successful
+        DATE minute
+    }

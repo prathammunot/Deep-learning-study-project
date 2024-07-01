@@ -1,0 +1,29 @@
+erDiagram
+    magazine ||--o{ cut : surface
+    magazine {
+        DATE surface
+        TEXT plant
+        VARCHAR(50) change
+    }
+    cut ||--o{ another : several
+    cut {
+        VARCHAR(50) several
+        DATE onto
+    }
+    another ||--o{ nor : rather
+    another {
+        DATE rather
+        TEXT along
+        VARCHAR(50) analysis
+    }
+    nor ||--o{ item : imagine
+    nor {
+        VARCHAR(50) imagine
+        DATE sometimes
+    }
+    item ||--o{ magazine : player
+    item {
+        DATE player
+        TEXT break
+        VARCHAR(50) girl
+    }

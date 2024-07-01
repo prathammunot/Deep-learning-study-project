@@ -1,0 +1,45 @@
+erDiagram
+    style ||--o{ out : exactly
+    style {
+        DATE exactly
+        TEXT enter
+        VARCHAR(50) health
+    }
+    out ||--o{ responsibility : fact
+    out {
+        VARCHAR(50) fact
+        DATE claim
+    }
+    responsibility ||--o{ low : this
+    responsibility {
+        DATE this
+        TEXT so
+        VARCHAR(50) relationship
+    }
+    low ||--o{ simple : box
+    low {
+        VARCHAR(50) box
+        DATE over
+    }
+    simple ||--o{ coach : our
+    simple {
+        DATE our
+        TEXT race
+        VARCHAR(50) table
+    }
+    coach ||--o{ ago : information
+    coach {
+        VARCHAR(50) information
+        DATE dark
+    }
+    ago ||--o{ picture : hard
+    ago {
+        DATE hard
+        TEXT low
+        VARCHAR(50) choose
+    }
+    picture ||--o{ style : one
+    picture {
+        VARCHAR(50) one
+        DATE employee
+    }

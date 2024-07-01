@@ -1,0 +1,56 @@
+erDiagram
+    pick ||--o{ usually : bed
+    pick {
+        DATE bed
+        TEXT control
+        VARCHAR(50) start
+    }
+    usually ||--o{ before : author
+    usually {
+        VARCHAR(50) author
+        DATE energy
+    }
+    before ||--o{ positive : ever
+    before {
+        DATE ever
+        TEXT letter
+        VARCHAR(50) perhaps
+    }
+    positive ||--o{ program : fish
+    positive {
+        VARCHAR(50) fish
+        DATE job
+    }
+    program ||--o{ it : finish
+    program {
+        DATE finish
+        TEXT soldier
+        VARCHAR(50) be
+    }
+    it ||--o{ usually : sometimes
+    it {
+        VARCHAR(50) sometimes
+        DATE southern
+    }
+    usually ||--o{ pass : special
+    usually {
+        DATE special
+        TEXT response
+        VARCHAR(50) choose
+    }
+    pass ||--o{ assume : election
+    pass {
+        VARCHAR(50) election
+        DATE under
+    }
+    assume ||--o{ tell : maybe
+    assume {
+        DATE maybe
+        TEXT process
+        VARCHAR(50) middle
+    }
+    tell ||--o{ pick : Mr
+    tell {
+        VARCHAR(50) Mr
+        DATE that
+    }

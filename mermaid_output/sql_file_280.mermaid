@@ -1,0 +1,29 @@
+erDiagram
+    gun ||--o{ relate : work
+    gun {
+        DATE work
+        TEXT fact
+        VARCHAR(50) citizen
+    }
+    relate ||--o{ executive : economy
+    relate {
+        VARCHAR(50) economy
+        DATE study
+    }
+    executive ||--o{ hard : check
+    executive {
+        DATE check
+        TEXT same
+        VARCHAR(50) word
+    }
+    hard ||--o{ idea : positive
+    hard {
+        VARCHAR(50) positive
+        DATE various
+    }
+    idea ||--o{ gun : feel
+    idea {
+        DATE feel
+        TEXT medical
+        VARCHAR(50) care
+    }

@@ -1,0 +1,51 @@
+erDiagram
+    wife ||--o{ admit : task
+    wife {
+        DATE task
+        TEXT run
+        VARCHAR(50) point
+    }
+    admit ||--o{ information : need
+    admit {
+        VARCHAR(50) need
+        DATE sit
+    }
+    information ||--o{ change : administration
+    information {
+        DATE administration
+        TEXT to
+        VARCHAR(50) should
+    }
+    change ||--o{ situation : another
+    change {
+        VARCHAR(50) another
+        DATE purpose
+    }
+    situation ||--o{ between : role
+    situation {
+        DATE role
+        TEXT involve
+        VARCHAR(50) conference
+    }
+    between ||--o{ fire : important
+    between {
+        VARCHAR(50) important
+        DATE sound
+    }
+    fire ||--o{ economy : inside
+    fire {
+        DATE inside
+        TEXT explain
+        VARCHAR(50) weight
+    }
+    economy ||--o{ shoulder : car
+    economy {
+        VARCHAR(50) car
+        DATE can
+    }
+    shoulder ||--o{ wife : picture
+    shoulder {
+        DATE picture
+        TEXT history
+        VARCHAR(50) picture
+    }

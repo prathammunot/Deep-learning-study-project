@@ -1,0 +1,34 @@
+erDiagram
+    trial ||--o{ care : business
+    trial {
+        DATE business
+        TEXT bit
+        VARCHAR(50) partner
+    }
+    care ||--o{ structure : make
+    care {
+        VARCHAR(50) make
+        DATE same
+    }
+    structure ||--o{ agency : understand
+    structure {
+        DATE understand
+        TEXT investment
+        VARCHAR(50) day
+    }
+    agency ||--o{ agent : whether
+    agency {
+        VARCHAR(50) whether
+        DATE best
+    }
+    agent ||--o{ voice : while
+    agent {
+        DATE while
+        TEXT own
+        VARCHAR(50) raise
+    }
+    voice ||--o{ trial : world
+    voice {
+        VARCHAR(50) world
+        DATE blue
+    }

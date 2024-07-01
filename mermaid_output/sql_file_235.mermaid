@@ -1,0 +1,45 @@
+erDiagram
+    identify ||--o{ century : figure
+    identify {
+        DATE figure
+        TEXT year
+        VARCHAR(50) law
+    }
+    century ||--o{ oil : ground
+    century {
+        VARCHAR(50) ground
+        DATE born
+    }
+    oil ||--o{ require : position
+    oil {
+        DATE position
+        TEXT become
+        VARCHAR(50) debate
+    }
+    require ||--o{ officer : possible
+    require {
+        VARCHAR(50) possible
+        DATE right
+    }
+    officer ||--o{ force : avoid
+    officer {
+        DATE avoid
+        TEXT general
+        VARCHAR(50) personal
+    }
+    force ||--o{ by : tend
+    force {
+        VARCHAR(50) tend
+        DATE wide
+    }
+    by ||--o{ special : black
+    by {
+        DATE black
+        TEXT physical
+        VARCHAR(50) under
+    }
+    special ||--o{ identify : provide
+    special {
+        VARCHAR(50) provide
+        DATE loss
+    }

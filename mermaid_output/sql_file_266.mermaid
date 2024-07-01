@@ -1,0 +1,29 @@
+erDiagram
+    sea ||--o{ upon : feeling
+    sea {
+        DATE feeling
+        TEXT building
+        VARCHAR(50) family
+    }
+    upon ||--o{ one : order
+    upon {
+        VARCHAR(50) order
+        DATE official
+    }
+    one ||--o{ scene : exist
+    one {
+        DATE exist
+        TEXT also
+        VARCHAR(50) assume
+    }
+    scene ||--o{ cut : plan
+    scene {
+        VARCHAR(50) plan
+        DATE its
+    }
+    cut ||--o{ sea : kitchen
+    cut {
+        DATE kitchen
+        TEXT summer
+        VARCHAR(50) interesting
+    }

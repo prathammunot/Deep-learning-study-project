@@ -1,0 +1,33 @@
+erDiagram
+    evidence ||--o{ situation : ready
+    evidence {
+        DATE ready
+        TEXT event
+        VARCHAR(50) remember
+    }
+    situation ||--o{ never : heavy
+    situation {
+        VARCHAR(50) heavy
+        DATE necessary
+    }
+    never ||--o{ house : born
+    never {
+        DATE born
+        TEXT bank
+        VARCHAR(50) building
+    }
+    house ||--o{ card : future
+    house {
+        VARCHAR(50) future
+        DATE continue
+    }
+    card ||--o{ most : way
+    card {
+        DATE way
+        TEXT indicate
+        VARCHAR(50) hot
+    }
+    most ||--o{ evidence : foreign
+    most {
+        DATE set
+    }

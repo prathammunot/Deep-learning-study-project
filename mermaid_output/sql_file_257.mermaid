@@ -1,0 +1,29 @@
+erDiagram
+    business ||--o{ sister : movement
+    business {
+        DATE movement
+        TEXT clear
+        VARCHAR(50) factor
+    }
+    sister ||--o{ military : gun
+    sister {
+        VARCHAR(50) gun
+        DATE cold
+    }
+    military ||--o{ theory : make
+    military {
+        DATE make
+        TEXT model
+        VARCHAR(50) economic
+    }
+    theory ||--o{ beyond : cut
+    theory {
+        VARCHAR(50) cut
+        DATE maintain
+    }
+    beyond ||--o{ business : school
+    beyond {
+        DATE school
+        TEXT describe
+        VARCHAR(50) for
+    }

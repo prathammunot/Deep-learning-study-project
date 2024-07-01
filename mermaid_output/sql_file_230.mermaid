@@ -1,0 +1,29 @@
+erDiagram
+    effort ||--o{ remember : not
+    effort {
+        DATE not
+        TEXT space
+        VARCHAR(50) system
+    }
+    remember ||--o{ late : manager
+    remember {
+        VARCHAR(50) manager
+        DATE decade
+    }
+    late ||--o{ phone : perform
+    late {
+        DATE perform
+        TEXT establish
+        VARCHAR(50) organization
+    }
+    phone ||--o{ too : alone
+    phone {
+        VARCHAR(50) alone
+        DATE between
+    }
+    too ||--o{ effort : decision
+    too {
+        DATE decision
+        TEXT authority
+        VARCHAR(50) notice
+    }

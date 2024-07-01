@@ -1,0 +1,34 @@
+erDiagram
+    religious ||--o{ current : reality
+    religious {
+        DATE reality
+        TEXT effort
+        VARCHAR(50) section
+    }
+    current ||--o{ soon : buy
+    current {
+        VARCHAR(50) buy
+        DATE meet
+    }
+    soon ||--o{ clearly : should
+    soon {
+        DATE should
+        TEXT likely
+        VARCHAR(50) too
+    }
+    clearly ||--o{ record : sell
+    clearly {
+        VARCHAR(50) sell
+        DATE use
+    }
+    record ||--o{ into : article
+    record {
+        DATE article
+        TEXT visit
+        VARCHAR(50) game
+    }
+    into ||--o{ religious : bad
+    into {
+        VARCHAR(50) bad
+        DATE effect
+    }
