@@ -1,0 +1,198 @@
+[
+    {
+        "name": "lead",
+        "columns": [
+            {
+                "name": "push",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "push",
+        "foreign_keys": [
+            {
+                "column": "push",
+                "references": "security"
+            }
+        ]
+    },
+    {
+        "name": "security",
+        "columns": [
+            {
+                "name": "raise",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "raise",
+        "foreign_keys": [
+            {
+                "column": "raise",
+                "references": "style"
+            }
+        ]
+    },
+    {
+        "name": "style",
+        "columns": [
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "item",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "once",
+        "foreign_keys": [
+            {
+                "column": "once",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "scene",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scene",
+        "foreign_keys": [
+            {
+                "column": "scene",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "identify",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "identify",
+        "foreign_keys": [
+            {
+                "column": "identify",
+                "references": "let"
+            }
+        ]
+    },
+    {
+        "name": "let",
+        "columns": [
+            {
+                "name": "event",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wonder",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "event",
+        "foreign_keys": [
+            {
+                "column": "event",
+                "references": "miss"
+            }
+        ]
+    },
+    {
+        "name": "miss",
+        "columns": [
+            {
+                "name": "writer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "range",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "writer",
+        "foreign_keys": [
+            {
+                "column": "writer",
+                "references": "them"
+            }
+        ]
+    },
+    {
+        "name": "them",
+        "columns": [
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "lead"
+            }
+        ]
+    }
+]

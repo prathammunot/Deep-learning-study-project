@@ -1,0 +1,274 @@
+[
+    {
+        "name": "first",
+        "columns": [
+            {
+                "name": "sound",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sound",
+        "foreign_keys": [
+            {
+                "column": "sound",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mouth",
+        "foreign_keys": [
+            {
+                "column": "mouth",
+                "references": "your"
+            }
+        ]
+    },
+    {
+        "name": "your",
+        "columns": [
+            {
+                "name": "reveal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reveal",
+        "foreign_keys": [
+            {
+                "column": "reveal",
+                "references": "one"
+            }
+        ]
+    },
+    {
+        "name": "one",
+        "columns": [
+            {
+                "name": "make",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "make",
+        "foreign_keys": [
+            {
+                "column": "make",
+                "references": "clearly"
+            }
+        ]
+    },
+    {
+        "name": "clearly",
+        "columns": [
+            {
+                "name": "long",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "window",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "international"
+            }
+        ]
+    },
+    {
+        "name": "international",
+        "columns": [
+            {
+                "name": "face",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "opportunity",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "face",
+        "foreign_keys": [
+            {
+                "column": "face",
+                "references": "pick"
+            }
+        ]
+    },
+    {
+        "name": "pick",
+        "columns": [
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "worry",
+        "foreign_keys": [
+            {
+                "column": "worry",
+                "references": "development"
+            }
+        ]
+    },
+    {
+        "name": "development",
+        "columns": [
+            {
+                "name": "late",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "amount"
+            }
+        ]
+    },
+    {
+        "name": "amount",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "community"
+            }
+        ]
+    },
+    {
+        "name": "community",
+        "columns": [
+            {
+                "name": "affect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "affect",
+        "foreign_keys": [
+            {
+                "column": "affect",
+                "references": "office"
+            }
+        ]
+    },
+    {
+        "name": "office",
+        "columns": [
+            {
+                "name": "sing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sing",
+        "foreign_keys": [
+            {
+                "column": "sing",
+                "references": "first"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "operation",
+        "columns": [
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "seat"
+            }
+        ]
+    },
+    {
+        "name": "seat",
+        "columns": [
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "military",
+        "foreign_keys": [
+            {
+                "column": "military",
+                "references": "increase"
+            }
+        ]
+    },
+    {
+        "name": "increase",
+        "columns": [
+            {
+                "name": "hard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "argue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hard",
+        "foreign_keys": [
+            {
+                "column": "hard",
+                "references": "quite"
+            }
+        ]
+    },
+    {
+        "name": "quite",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "expert"
+            }
+        ]
+    },
+    {
+        "name": "expert",
+        "columns": [
+            {
+                "name": "similar",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "similar",
+        "foreign_keys": [
+            {
+                "column": "similar",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "campaign",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "campaign",
+        "foreign_keys": [
+            {
+                "column": "campaign",
+                "references": "film"
+            }
+        ]
+    },
+    {
+        "name": "film",
+        "columns": [
+            {
+                "name": "arrive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "next",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "arrive",
+        "foreign_keys": [
+            {
+                "column": "arrive",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "measure"
+            }
+        ]
+    },
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "old",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "old",
+        "foreign_keys": [
+            {
+                "column": "old",
+                "references": "operation"
+            }
+        ]
+    }
+]

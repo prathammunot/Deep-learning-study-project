@@ -1,0 +1,274 @@
+[
+    {
+        "name": "begin",
+        "columns": [
+            {
+                "name": "across",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "across",
+        "foreign_keys": [
+            {
+                "column": "across",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "personal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "personal",
+        "foreign_keys": [
+            {
+                "column": "personal",
+                "references": "local"
+            }
+        ]
+    },
+    {
+        "name": "local",
+        "columns": [
+            {
+                "name": "say",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "provide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "say",
+        "foreign_keys": [
+            {
+                "column": "say",
+                "references": "knowledge"
+            }
+        ]
+    },
+    {
+        "name": "knowledge",
+        "columns": [
+            {
+                "name": "affect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "affect",
+        "foreign_keys": [
+            {
+                "column": "affect",
+                "references": "wide"
+            }
+        ]
+    },
+    {
+        "name": "wide",
+        "columns": [
+            {
+                "name": "according",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "according",
+        "foreign_keys": [
+            {
+                "column": "according",
+                "references": "miss"
+            }
+        ]
+    },
+    {
+        "name": "miss",
+        "columns": [
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "individual"
+            }
+        ]
+    },
+    {
+        "name": "individual",
+        "columns": [
+            {
+                "name": "Mrs",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "success",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Mrs",
+        "foreign_keys": [
+            {
+                "column": "Mrs",
+                "references": "pay"
+            }
+        ]
+    },
+    {
+        "name": "pay",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "on",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "amount"
+            }
+        ]
+    },
+    {
+        "name": "amount",
+        "columns": [
+            {
+                "name": "game",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "order"
+            }
+        ]
+    },
+    {
+        "name": "order",
+        "columns": [
+            {
+                "name": "season",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "affect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "season",
+        "foreign_keys": [
+            {
+                "column": "season",
+                "references": "begin"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "always",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "always",
+        "foreign_keys": [
+            {
+                "column": "always",
+                "references": "food"
+            }
+        ]
+    },
+    {
+        "name": "food",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "heart"
+            }
+        ]
+    },
+    {
+        "name": "heart",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "change"
+            }
+        ]
+    },
+    {
+        "name": "change",
+        "columns": [
+            {
+                "name": "seven",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seven",
+        "foreign_keys": [
+            {
+                "column": "seven",
+                "references": "lose"
+            }
+        ]
+    },
+    {
+        "name": "lose",
+        "columns": [
+            {
+                "name": "certainly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certainly",
+        "foreign_keys": [
+            {
+                "column": "certainly",
+                "references": "interest"
+            }
+        ]
+    },
+    {
+        "name": "interest",
+        "columns": [
+            {
+                "name": "you",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "you",
+        "foreign_keys": [
+            {
+                "column": "you",
+                "references": "staff"
+            }
+        ]
+    },
+    {
+        "name": "staff",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "investment"
+            }
+        ]
+    },
+    {
+        "name": "investment",
+        "columns": [
+            {
+                "name": "just",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "product",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "just",
+        "foreign_keys": [
+            {
+                "column": "just",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "throw",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "option",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cut",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "throw",
+        "foreign_keys": [
+            {
+                "column": "throw",
+                "references": "bill"
+            }
+        ]
+    },
+    {
+        "name": "bill",
+        "columns": [
+            {
+                "name": "dark",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dark",
+        "foreign_keys": [
+            {
+                "column": "dark",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pressure",
+        "foreign_keys": [
+            {
+                "column": "pressure",
+                "references": "degree"
+            }
+        ]
+    }
+]

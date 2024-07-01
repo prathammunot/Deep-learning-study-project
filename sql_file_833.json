@@ -1,0 +1,127 @@
+[
+    {
+        "name": "somebody",
+        "columns": [
+            {
+                "name": "current",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "current",
+        "foreign_keys": [
+            {
+                "column": "current",
+                "references": "send"
+            }
+        ]
+    },
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "product",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "appear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "despite",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "despite",
+        "foreign_keys": [
+            {
+                "column": "despite",
+                "references": "feel"
+            }
+        ]
+    },
+    {
+        "name": "feel",
+        "columns": [
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "fish"
+            }
+        ]
+    },
+    {
+        "name": "fish",
+        "columns": [
+            {
+                "name": "describe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "describe",
+        "foreign_keys": [
+            {
+                "column": "describe",
+                "references": "somebody"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "name": "country",
+        "columns": [
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "worry",
+        "foreign_keys": [
+            {
+                "column": "worry",
+                "references": "parent"
+            }
+        ]
+    },
+    {
+        "name": "parent",
+        "columns": [
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "north",
+        "foreign_keys": [
+            {
+                "column": "north",
+                "references": "book"
+            }
+        ]
+    },
+    {
+        "name": "book",
+        "columns": [
+            {
+                "name": "law",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "great",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "law",
+        "foreign_keys": [
+            {
+                "column": "law",
+                "references": "measure"
+            }
+        ]
+    },
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "activity",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "old"
+            }
+        ]
+    },
+    {
+        "name": "old",
+        "columns": [
+            {
+                "name": "most",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "teacher",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "most",
+        "foreign_keys": [
+            {
+                "column": "most",
+                "references": "student"
+            }
+        ]
+    },
+    {
+        "name": "student",
+        "columns": [
+            {
+                "name": "nation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "herself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nation",
+        "foreign_keys": [
+            {
+                "column": "nation",
+                "references": "open"
+            }
+        ]
+    },
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "coach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "technology",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "coach",
+        "foreign_keys": [
+            {
+                "column": "coach",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "take",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "take",
+        "foreign_keys": [
+            {
+                "column": "take",
+                "references": "country"
+            }
+        ]
+    }
+]

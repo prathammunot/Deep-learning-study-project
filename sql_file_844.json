@@ -1,0 +1,296 @@
+[
+    {
+        "name": "check",
+        "columns": [
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "high",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dark",
+        "foreign_keys": [
+            {
+                "column": "dark",
+                "references": "miss"
+            }
+        ]
+    },
+    {
+        "name": "miss",
+        "columns": [
+            {
+                "name": "of",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "of",
+        "foreign_keys": [
+            {
+                "column": "of",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "shoulder",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "shoulder",
+        "foreign_keys": [
+            {
+                "column": "shoulder",
+                "references": "position"
+            }
+        ]
+    },
+    {
+        "name": "position",
+        "columns": [
+            {
+                "name": "cover",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cover",
+        "foreign_keys": [
+            {
+                "column": "cover",
+                "references": "value"
+            }
+        ]
+    },
+    {
+        "name": "value",
+        "columns": [
+            {
+                "name": "who",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "who",
+        "foreign_keys": [
+            {
+                "column": "who",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "onto",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "onto",
+        "foreign_keys": [
+            {
+                "column": "onto",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "pass",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pass",
+        "foreign_keys": [
+            {
+                "column": "pass",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "and",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "and",
+        "foreign_keys": [
+            {
+                "column": "and",
+                "references": "organization"
+            }
+        ]
+    },
+    {
+        "name": "organization",
+        "columns": [
+            {
+                "name": "then",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "then",
+        "foreign_keys": [
+            {
+                "column": "then",
+                "references": "mission"
+            }
+        ]
+    },
+    {
+        "name": "mission",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "together"
+            }
+        ]
+    },
+    {
+        "name": "together",
+        "columns": [
+            {
+                "name": "go",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "window",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "go",
+        "foreign_keys": [
+            {
+                "column": "go",
+                "references": "chair"
+            }
+        ]
+    },
+    {
+        "name": "chair",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "check"
+            }
+        ]
+    }
+]

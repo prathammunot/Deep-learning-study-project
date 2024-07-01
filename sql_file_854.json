@@ -1,0 +1,247 @@
+[
+    {
+        "name": "might",
+        "columns": [
+            {
+                "name": "wind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wind",
+        "foreign_keys": [
+            {
+                "column": "wind",
+                "references": "maybe"
+            }
+        ]
+    },
+    {
+        "name": "maybe",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yard",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "rather"
+            }
+        ]
+    },
+    {
+        "name": "rather",
+        "columns": [
+            {
+                "name": "bar",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bar",
+        "foreign_keys": [
+            {
+                "column": "bar",
+                "references": "me"
+            }
+        ]
+    },
+    {
+        "name": "me",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "those"
+            }
+        ]
+    },
+    {
+        "name": "those",
+        "columns": [
+            {
+                "name": "just",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "just",
+        "foreign_keys": [
+            {
+                "column": "just",
+                "references": "blood"
+            }
+        ]
+    },
+    {
+        "name": "blood",
+        "columns": [
+            {
+                "name": "time",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "history"
+            }
+        ]
+    },
+    {
+        "name": "history",
+        "columns": [
+            {
+                "name": "board",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "board",
+        "foreign_keys": [
+            {
+                "column": "board",
+                "references": "law"
+            }
+        ]
+    },
+    {
+        "name": "law",
+        "columns": [
+            {
+                "name": "many",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "someone"
+            }
+        ]
+    },
+    {
+        "name": "someone",
+        "columns": [
+            {
+                "name": "necessary",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "necessary",
+        "foreign_keys": [
+            {
+                "column": "necessary",
+                "references": "sister"
+            }
+        ]
+    },
+    {
+        "name": "sister",
+        "columns": [
+            {
+                "name": "investment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "investment",
+        "foreign_keys": [
+            {
+                "column": "investment",
+                "references": "might"
+            }
+        ]
+    }
+]

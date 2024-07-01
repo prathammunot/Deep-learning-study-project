@@ -1,0 +1,176 @@
+[
+    {
+        "name": "education",
+        "columns": [
+            {
+                "name": "company",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recently",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "company",
+        "foreign_keys": [
+            {
+                "column": "company",
+                "references": "cell"
+            }
+        ]
+    },
+    {
+        "name": "cell",
+        "columns": [
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "get",
+        "foreign_keys": [
+            {
+                "column": "get",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "conference",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "artist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "say",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "conference",
+        "foreign_keys": [
+            {
+                "column": "conference",
+                "references": "dark"
+            }
+        ]
+    },
+    {
+        "name": "dark",
+        "columns": [
+            {
+                "name": "first",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "first",
+        "foreign_keys": [
+            {
+                "column": "first",
+                "references": "seek"
+            }
+        ]
+    },
+    {
+        "name": "seek",
+        "columns": [
+            {
+                "name": "produce",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "affect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "produce",
+        "foreign_keys": [
+            {
+                "column": "produce",
+                "references": "prevent"
+            }
+        ]
+    },
+    {
+        "name": "prevent",
+        "columns": [
+            {
+                "name": "as",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "as",
+        "foreign_keys": [
+            {
+                "column": "as",
+                "references": "remain"
+            }
+        ]
+    },
+    {
+        "name": "remain",
+        "columns": [
+            {
+                "name": "couple",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "couple",
+        "foreign_keys": [
+            {
+                "column": "couple",
+                "references": "education"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "doctor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agreement",
+        "foreign_keys": [
+            {
+                "column": "agreement",
+                "references": "reduce"
+            }
+        ]
+    },
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "color",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mouth",
+        "foreign_keys": [
+            {
+                "column": "mouth",
+                "references": "line"
+            }
+        ]
+    },
+    {
+        "name": "line",
+        "columns": [
+            {
+                "name": "art",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "especially",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "especially",
+        "foreign_keys": [
+            {
+                "column": "especially",
+                "references": "dark"
+            }
+        ]
+    },
+    {
+        "name": "dark",
+        "columns": [
+            {
+                "name": "open",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "open",
+        "foreign_keys": [
+            {
+                "column": "open",
+                "references": "way"
+            }
+        ]
+    }
+]

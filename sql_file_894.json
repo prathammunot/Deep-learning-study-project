@@ -1,0 +1,198 @@
+[
+    {
+        "name": "federal",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "environment"
+            }
+        ]
+    },
+    {
+        "name": "environment",
+        "columns": [
+            {
+                "name": "power",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "power",
+        "foreign_keys": [
+            {
+                "column": "power",
+                "references": "no"
+            }
+        ]
+    },
+    {
+        "name": "no",
+        "columns": [
+            {
+                "name": "board",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "success",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "board",
+        "foreign_keys": [
+            {
+                "column": "board",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "size",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "size",
+        "foreign_keys": [
+            {
+                "column": "size",
+                "references": "certain"
+            }
+        ]
+    },
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "science",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "price",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "science",
+        "foreign_keys": [
+            {
+                "column": "science",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "around",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "around",
+        "foreign_keys": [
+            {
+                "column": "around",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "play",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "play",
+        "foreign_keys": [
+            {
+                "column": "play",
+                "references": "science"
+            }
+        ]
+    },
+    {
+        "name": "science",
+        "columns": [
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fine",
+        "foreign_keys": [
+            {
+                "column": "fine",
+                "references": "federal"
+            }
+        ]
+    }
+]

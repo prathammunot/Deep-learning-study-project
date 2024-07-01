@@ -1,0 +1,176 @@
+[
+    {
+        "name": "claim",
+        "columns": [
+            {
+                "name": "technology",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "staff",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "technology",
+        "foreign_keys": [
+            {
+                "column": "technology",
+                "references": "field"
+            }
+        ]
+    },
+    {
+        "name": "field",
+        "columns": [
+            {
+                "name": "dark",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dark",
+        "foreign_keys": [
+            {
+                "column": "dark",
+                "references": "look"
+            }
+        ]
+    },
+    {
+        "name": "look",
+        "columns": [
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "year",
+        "foreign_keys": [
+            {
+                "column": "year",
+                "references": "indicate"
+            }
+        ]
+    },
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "west",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "west",
+        "foreign_keys": [
+            {
+                "column": "west",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "head",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "specific",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "head",
+        "foreign_keys": [
+            {
+                "column": "head",
+                "references": "actually"
+            }
+        ]
+    },
+    {
+        "name": "actually",
+        "columns": [
+            {
+                "name": "scientist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scientist",
+        "foreign_keys": [
+            {
+                "column": "scientist",
+                "references": "to"
+            }
+        ]
+    },
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "life",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ability",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "life",
+        "foreign_keys": [
+            {
+                "column": "life",
+                "references": "claim"
+            }
+        ]
+    }
+]

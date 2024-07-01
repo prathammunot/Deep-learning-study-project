@@ -1,0 +1,176 @@
+[
+    {
+        "name": "half",
+        "columns": [
+            {
+                "name": "water",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "water",
+        "foreign_keys": [
+            {
+                "column": "water",
+                "references": "task"
+            }
+        ]
+    },
+    {
+        "name": "task",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "investment"
+            }
+        ]
+    },
+    {
+        "name": "investment",
+        "columns": [
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quickly",
+        "foreign_keys": [
+            {
+                "column": "quickly",
+                "references": "hope"
+            }
+        ]
+    },
+    {
+        "name": "hope",
+        "columns": [
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "positive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sister",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "positive",
+        "foreign_keys": [
+            {
+                "column": "positive",
+                "references": "simply"
+            }
+        ]
+    },
+    {
+        "name": "simply",
+        "columns": [
+            {
+                "name": "hold",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hold",
+        "foreign_keys": [
+            {
+                "column": "hold",
+                "references": "good"
+            }
+        ]
+    },
+    {
+        "name": "good",
+        "columns": [
+            {
+                "name": "Mrs",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "participant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Mrs",
+        "foreign_keys": [
+            {
+                "column": "Mrs",
+                "references": "half"
+            }
+        ]
+    }
+]

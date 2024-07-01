@@ -1,0 +1,149 @@
+[
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "and",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "and",
+        "foreign_keys": [
+            {
+                "column": "and",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "population",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "population",
+        "foreign_keys": [
+            {
+                "column": "population",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "area",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "area",
+        "foreign_keys": [
+            {
+                "column": "area",
+                "references": "might"
+            }
+        ]
+    },
+    {
+        "name": "might",
+        "columns": [
+            {
+                "name": "as",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "as",
+        "foreign_keys": [
+            {
+                "column": "as",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "test",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "test",
+        "foreign_keys": [
+            {
+                "column": "test",
+                "references": "myself"
+            }
+        ]
+    },
+    {
+        "name": "myself",
+        "columns": [
+            {
+                "name": "perform",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "perform",
+        "foreign_keys": [
+            {
+                "column": "perform",
+                "references": "seem"
+            }
+        ]
+    }
+]

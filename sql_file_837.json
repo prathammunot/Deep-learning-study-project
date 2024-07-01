@@ -1,0 +1,225 @@
+[
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "reality",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "theory",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reality",
+        "foreign_keys": [
+            {
+                "column": "reality",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "in",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "in",
+        "foreign_keys": [
+            {
+                "column": "in",
+                "references": "approach"
+            }
+        ]
+    },
+    {
+        "name": "approach",
+        "columns": [
+            {
+                "name": "traditional",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "traditional",
+        "foreign_keys": [
+            {
+                "column": "traditional",
+                "references": "should"
+            }
+        ]
+    },
+    {
+        "name": "should",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "reality"
+            }
+        ]
+    },
+    {
+        "name": "reality",
+        "columns": [
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "try",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "offer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "discover",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "offer",
+        "foreign_keys": [
+            {
+                "column": "offer",
+                "references": "else"
+            }
+        ]
+    },
+    {
+        "name": "else",
+        "columns": [
+            {
+                "name": "decade",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decade",
+        "foreign_keys": [
+            {
+                "column": "decade",
+                "references": "capital"
+            }
+        ]
+    },
+    {
+        "name": "capital",
+        "columns": [
+            {
+                "name": "part",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "part",
+        "foreign_keys": [
+            {
+                "column": "part",
+                "references": "score"
+            }
+        ]
+    },
+    {
+        "name": "score",
+        "columns": [
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mean",
+        "foreign_keys": [
+            {
+                "column": "mean",
+                "references": "air"
+            }
+        ]
+    }
+]

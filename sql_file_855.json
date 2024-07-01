@@ -1,0 +1,198 @@
+[
+    {
+        "name": "act",
+        "columns": [
+            {
+                "name": "piece",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hold",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "newspaper",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "piece",
+        "foreign_keys": [
+            {
+                "column": "piece",
+                "references": "month"
+            }
+        ]
+    },
+    {
+        "name": "month",
+        "columns": [
+            {
+                "name": "for",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "some"
+            }
+        ]
+    },
+    {
+        "name": "some",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "hit"
+            }
+        ]
+    },
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "edge"
+            }
+        ]
+    },
+    {
+        "name": "edge",
+        "columns": [
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "which",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "feel"
+            }
+        ]
+    },
+    {
+        "name": "feel",
+        "columns": [
+            {
+                "name": "individual",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "individual",
+        "foreign_keys": [
+            {
+                "column": "individual",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "talk",
+        "foreign_keys": [
+            {
+                "column": "talk",
+                "references": "participant"
+            }
+        ]
+    },
+    {
+        "name": "participant",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "act"
+            }
+        ]
+    }
+]

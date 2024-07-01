@@ -1,0 +1,296 @@
+[
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "note",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "camera"
+            }
+        ]
+    },
+    {
+        "name": "camera",
+        "columns": [
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "policy",
+        "foreign_keys": [
+            {
+                "column": "policy",
+                "references": "administration"
+            }
+        ]
+    },
+    {
+        "name": "administration",
+        "columns": [
+            {
+                "name": "meet",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "meet",
+        "foreign_keys": [
+            {
+                "column": "meet",
+                "references": "community"
+            }
+        ]
+    },
+    {
+        "name": "community",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "lay"
+            }
+        ]
+    },
+    {
+        "name": "lay",
+        "columns": [
+            {
+                "name": "heart",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "already",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "heart",
+        "foreign_keys": [
+            {
+                "column": "heart",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "affect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "beyond"
+            }
+        ]
+    },
+    {
+        "name": "beyond",
+        "columns": [
+            {
+                "name": "sing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "media",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "name",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sing",
+        "foreign_keys": [
+            {
+                "column": "sing",
+                "references": "agree"
+            }
+        ]
+    },
+    {
+        "name": "agree",
+        "columns": [
+            {
+                "name": "church",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "join",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "church",
+        "foreign_keys": [
+            {
+                "column": "church",
+                "references": "rise"
+            }
+        ]
+    },
+    {
+        "name": "rise",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "water",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "player"
+            }
+        ]
+    },
+    {
+        "name": "player",
+        "columns": [
+            {
+                "name": "support",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "memory",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "support",
+        "foreign_keys": [
+            {
+                "column": "support",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maybe",
+        "foreign_keys": [
+            {
+                "column": "maybe",
+                "references": "issue"
+            }
+        ]
+    },
+    {
+        "name": "issue",
+        "columns": [
+            {
+                "name": "process",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "process",
+        "foreign_keys": [
+            {
+                "column": "process",
+                "references": "space"
+            }
+        ]
+    }
+]

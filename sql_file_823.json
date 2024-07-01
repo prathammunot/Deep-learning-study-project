@@ -1,0 +1,149 @@
+[
+    {
+        "name": "eye",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "defense",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "talk"
+            }
+        ]
+    },
+    {
+        "name": "talk",
+        "columns": [
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "the"
+            }
+        ]
+    },
+    {
+        "name": "the",
+        "columns": [
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "special",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "occur",
+        "foreign_keys": [
+            {
+                "column": "occur",
+                "references": "finish"
+            }
+        ]
+    },
+    {
+        "name": "finish",
+        "columns": [
+            {
+                "name": "cell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cell",
+        "foreign_keys": [
+            {
+                "column": "cell",
+                "references": "sure"
+            }
+        ]
+    },
+    {
+        "name": "sure",
+        "columns": [
+            {
+                "name": "degree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "degree",
+        "foreign_keys": [
+            {
+                "column": "degree",
+                "references": "bag"
+            }
+        ]
+    },
+    {
+        "name": "bag",
+        "columns": [
+            {
+                "name": "simple",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simple",
+        "foreign_keys": [
+            {
+                "column": "simple",
+                "references": "eye"
+            }
+        ]
+    }
+]

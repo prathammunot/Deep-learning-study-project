@@ -1,0 +1,247 @@
+[
+    {
+        "name": "move",
+        "columns": [
+            {
+                "name": "clear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "clear",
+        "foreign_keys": [
+            {
+                "column": "clear",
+                "references": "full"
+            }
+        ]
+    },
+    {
+        "name": "full",
+        "columns": [
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "under",
+        "foreign_keys": [
+            {
+                "column": "under",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "impact",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "impact",
+        "foreign_keys": [
+            {
+                "column": "impact",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tree",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "example"
+            }
+        ]
+    },
+    {
+        "name": "example",
+        "columns": [
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "rest",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rest",
+        "foreign_keys": [
+            {
+                "column": "rest",
+                "references": "human"
+            }
+        ]
+    },
+    {
+        "name": "human",
+        "columns": [
+            {
+                "name": "national",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "miss",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "national",
+        "foreign_keys": [
+            {
+                "column": "national",
+                "references": "anything"
+            }
+        ]
+    },
+    {
+        "name": "anything",
+        "columns": [
+            {
+                "name": "air",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "room",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "air",
+        "foreign_keys": [
+            {
+                "column": "air",
+                "references": "show"
+            }
+        ]
+    },
+    {
+        "name": "show",
+        "columns": [
+            {
+                "name": "painting",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "security",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "painting",
+        "foreign_keys": [
+            {
+                "column": "painting",
+                "references": "color"
+            }
+        ]
+    },
+    {
+        "name": "color",
+        "columns": [
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "management",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mission",
+        "foreign_keys": [
+            {
+                "column": "mission",
+                "references": "move"
+            }
+        ]
+    }
+]

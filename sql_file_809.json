@@ -1,0 +1,149 @@
+[
+    {
+        "name": "game",
+        "columns": [
+            {
+                "name": "town",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "town",
+        "foreign_keys": [
+            {
+                "column": "town",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "benefit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "drive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "benefit",
+        "foreign_keys": [
+            {
+                "column": "benefit",
+                "references": "human"
+            }
+        ]
+    },
+    {
+        "name": "human",
+        "columns": [
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "effect",
+        "foreign_keys": [
+            {
+                "column": "effect",
+                "references": "fall"
+            }
+        ]
+    },
+    {
+        "name": "fall",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "peace"
+            }
+        ]
+    },
+    {
+        "name": "peace",
+        "columns": [
+            {
+                "name": "generation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "generation",
+        "foreign_keys": [
+            {
+                "column": "generation",
+                "references": "protect"
+            }
+        ]
+    },
+    {
+        "name": "protect",
+        "columns": [
+            {
+                "name": "bank",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bank",
+        "foreign_keys": [
+            {
+                "column": "bank",
+                "references": "game"
+            }
+        ]
+    }
+]

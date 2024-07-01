@@ -1,0 +1,274 @@
+[
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "sense",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sense",
+        "foreign_keys": [
+            {
+                "column": "sense",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "beautiful",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beautiful",
+        "foreign_keys": [
+            {
+                "column": "beautiful",
+                "references": "lot"
+            }
+        ]
+    },
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "blood",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "son",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "blood",
+        "foreign_keys": [
+            {
+                "column": "blood",
+                "references": "seat"
+            }
+        ]
+    },
+    {
+        "name": "seat",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "though",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "wonder"
+            }
+        ]
+    },
+    {
+        "name": "wonder",
+        "columns": [
+            {
+                "name": "remain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "remain",
+        "foreign_keys": [
+            {
+                "column": "remain",
+                "references": "skill"
+            }
+        ]
+    },
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "sense",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sense",
+        "foreign_keys": [
+            {
+                "column": "sense",
+                "references": "significant"
+            }
+        ]
+    },
+    {
+        "name": "significant",
+        "columns": [
+            {
+                "name": "as",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "as",
+        "foreign_keys": [
+            {
+                "column": "as",
+                "references": "several"
+            }
+        ]
+    },
+    {
+        "name": "several",
+        "columns": [
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "well",
+        "foreign_keys": [
+            {
+                "column": "well",
+                "references": "his"
+            }
+        ]
+    },
+    {
+        "name": "his",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "far"
+            }
+        ]
+    },
+    {
+        "name": "far",
+        "columns": [
+            {
+                "name": "land",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treatment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "land",
+        "foreign_keys": [
+            {
+                "column": "land",
+                "references": "network"
+            }
+        ]
+    },
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "discover",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "discover",
+        "foreign_keys": [
+            {
+                "column": "discover",
+                "references": "billion"
+            }
+        ]
+    }
+]

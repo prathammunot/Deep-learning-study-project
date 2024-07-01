@@ -1,0 +1,274 @@
+[
+    {
+        "name": "option",
+        "columns": [
+            {
+                "name": "offer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "offer",
+        "foreign_keys": [
+            {
+                "column": "offer",
+                "references": "song"
+            }
+        ]
+    },
+    {
+        "name": "song",
+        "columns": [
+            {
+                "name": "her",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "her",
+        "foreign_keys": [
+            {
+                "column": "her",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "feel",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "feel",
+        "foreign_keys": [
+            {
+                "column": "feel",
+                "references": "board"
+            }
+        ]
+    },
+    {
+        "name": "board",
+        "columns": [
+            {
+                "name": "space",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "clear"
+            }
+        ]
+    },
+    {
+        "name": "clear",
+        "columns": [
+            {
+                "name": "analysis",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "red",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "figure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "analysis",
+        "foreign_keys": [
+            {
+                "column": "analysis",
+                "references": "exactly"
+            }
+        ]
+    },
+    {
+        "name": "exactly",
+        "columns": [
+            {
+                "name": "development",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "development",
+        "foreign_keys": [
+            {
+                "column": "development",
+                "references": "parent"
+            }
+        ]
+    },
+    {
+        "name": "parent",
+        "columns": [
+            {
+                "name": "control",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "control",
+        "foreign_keys": [
+            {
+                "column": "control",
+                "references": "trip"
+            }
+        ]
+    },
+    {
+        "name": "trip",
+        "columns": [
+            {
+                "name": "road",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "road",
+        "foreign_keys": [
+            {
+                "column": "road",
+                "references": "lot"
+            }
+        ]
+    },
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "during",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "during",
+        "foreign_keys": [
+            {
+                "column": "during",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "environmental",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "environmental",
+        "foreign_keys": [
+            {
+                "column": "environmental",
+                "references": "full"
+            }
+        ]
+    },
+    {
+        "name": "full",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trip",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "option"
+            }
+        ]
+    }
+]

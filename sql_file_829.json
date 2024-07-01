@@ -1,0 +1,296 @@
+[
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "part",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "part",
+        "foreign_keys": [
+            {
+                "column": "part",
+                "references": "me"
+            }
+        ]
+    },
+    {
+        "name": "me",
+        "columns": [
+            {
+                "name": "for",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "share",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "peace",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "share",
+        "foreign_keys": [
+            {
+                "column": "share",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "newspaper",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "newspaper",
+        "foreign_keys": [
+            {
+                "column": "newspaper",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thank",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "industry",
+        "foreign_keys": [
+            {
+                "column": "industry",
+                "references": "run"
+            }
+        ]
+    },
+    {
+        "name": "run",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "say",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "tree"
+            }
+        ]
+    },
+    {
+        "name": "tree",
+        "columns": [
+            {
+                "name": "pretty",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pretty",
+        "foreign_keys": [
+            {
+                "column": "pretty",
+                "references": "strong"
+            }
+        ]
+    },
+    {
+        "name": "strong",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sister",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "put"
+            }
+        ]
+    },
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "newspaper",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "you"
+            }
+        ]
+    },
+    {
+        "name": "you",
+        "columns": [
+            {
+                "name": "gas",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "gas",
+        "foreign_keys": [
+            {
+                "column": "gas",
+                "references": "prove"
+            }
+        ]
+    },
+    {
+        "name": "prove",
+        "columns": [
+            {
+                "name": "produce",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "produce",
+        "foreign_keys": [
+            {
+                "column": "produce",
+                "references": "dark"
+            }
+        ]
+    },
+    {
+        "name": "dark",
+        "columns": [
+            {
+                "name": "happen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "happen",
+        "foreign_keys": [
+            {
+                "column": "happen",
+                "references": "head"
+            }
+        ]
+    }
+]

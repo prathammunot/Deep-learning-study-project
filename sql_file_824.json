@@ -1,0 +1,274 @@
+[
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "boy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "boy",
+        "foreign_keys": [
+            {
+                "column": "boy",
+                "references": "contain"
+            }
+        ]
+    },
+    {
+        "name": "contain",
+        "columns": [
+            {
+                "name": "go",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "go",
+        "foreign_keys": [
+            {
+                "column": "go",
+                "references": "present"
+            }
+        ]
+    },
+    {
+        "name": "present",
+        "columns": [
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "military",
+        "foreign_keys": [
+            {
+                "column": "military",
+                "references": "consider"
+            }
+        ]
+    },
+    {
+        "name": "consider",
+        "columns": [
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sit",
+        "foreign_keys": [
+            {
+                "column": "sit",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "tonight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tonight",
+        "foreign_keys": [
+            {
+                "column": "tonight",
+                "references": "purpose"
+            }
+        ]
+    },
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "society",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "itself"
+            }
+        ]
+    },
+    {
+        "name": "itself",
+        "columns": [
+            {
+                "name": "voice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "voice",
+        "foreign_keys": [
+            {
+                "column": "voice",
+                "references": "teach"
+            }
+        ]
+    },
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "successful"
+            }
+        ]
+    },
+    {
+        "name": "successful",
+        "columns": [
+            {
+                "name": "song",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "song",
+        "foreign_keys": [
+            {
+                "column": "song",
+                "references": "must"
+            }
+        ]
+    },
+    {
+        "name": "must",
+        "columns": [
+            {
+                "name": "of",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "show",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "of",
+        "foreign_keys": [
+            {
+                "column": "of",
+                "references": "ever"
+            }
+        ]
+    }
+]
