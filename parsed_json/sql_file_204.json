@@ -1,0 +1,225 @@
+[
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "task",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "point",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "task",
+        "foreign_keys": [
+            {
+                "column": "task",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "need",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "need",
+        "foreign_keys": [
+            {
+                "column": "need",
+                "references": "information"
+            }
+        ]
+    },
+    {
+        "name": "information",
+        "columns": [
+            {
+                "name": "administration",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "administration",
+        "foreign_keys": [
+            {
+                "column": "administration",
+                "references": "change"
+            }
+        ]
+    },
+    {
+        "name": "change",
+        "columns": [
+            {
+                "name": "another",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "role",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "involve",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "between"
+            }
+        ]
+    },
+    {
+        "name": "between",
+        "columns": [
+            {
+                "name": "important",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sound",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "important",
+        "foreign_keys": [
+            {
+                "column": "important",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "inside",
+        "foreign_keys": [
+            {
+                "column": "inside",
+                "references": "economy"
+            }
+        ]
+    },
+    {
+        "name": "economy",
+        "columns": [
+            {
+                "name": "car",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "car",
+        "foreign_keys": [
+            {
+                "column": "car",
+                "references": "shoulder"
+            }
+        ]
+    },
+    {
+        "name": "shoulder",
+        "columns": [
+            {
+                "name": "picture",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "picture",
+        "foreign_keys": [
+            {
+                "column": "picture",
+                "references": "wife"
+            }
+        ]
+    }
+]

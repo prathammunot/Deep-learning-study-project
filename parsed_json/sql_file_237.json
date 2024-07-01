@@ -1,0 +1,225 @@
+[
+    {
+        "name": "still",
+        "columns": [
+            {
+                "name": "note",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "issue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "note",
+        "foreign_keys": [
+            {
+                "column": "note",
+                "references": "management"
+            }
+        ]
+    },
+    {
+        "name": "management",
+        "columns": [
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rock",
+        "foreign_keys": [
+            {
+                "column": "rock",
+                "references": "production"
+            }
+        ]
+    },
+    {
+        "name": "production",
+        "columns": [
+            {
+                "name": "security",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "security",
+        "foreign_keys": [
+            {
+                "column": "security",
+                "references": "whatever"
+            }
+        ]
+    },
+    {
+        "name": "whatever",
+        "columns": [
+            {
+                "name": "win",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "win",
+        "foreign_keys": [
+            {
+                "column": "win",
+                "references": "claim"
+            }
+        ]
+    },
+    {
+        "name": "claim",
+        "columns": [
+            {
+                "name": "very",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "very",
+        "foreign_keys": [
+            {
+                "column": "very",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "movement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "family"
+            }
+        ]
+    },
+    {
+        "name": "family",
+        "columns": [
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "customer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ten",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "compare",
+        "foreign_keys": [
+            {
+                "column": "compare",
+                "references": "argue"
+            }
+        ]
+    },
+    {
+        "name": "argue",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "share"
+            }
+        ]
+    },
+    {
+        "name": "share",
+        "columns": [
+            {
+                "name": "management",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "town",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "management",
+        "foreign_keys": [
+            {
+                "column": "management",
+                "references": "still"
+            }
+        ]
+    }
+]

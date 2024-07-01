@@ -1,0 +1,149 @@
+[
+    {
+        "name": "spring",
+        "columns": [
+            {
+                "name": "successful",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "successful",
+        "foreign_keys": [
+            {
+                "column": "successful",
+                "references": "finally"
+            }
+        ]
+    },
+    {
+        "name": "finally",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "management",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "management",
+        "foreign_keys": [
+            {
+                "column": "management",
+                "references": "set"
+            }
+        ]
+    },
+    {
+        "name": "set",
+        "columns": [
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "election",
+        "foreign_keys": [
+            {
+                "column": "election",
+                "references": "culture"
+            }
+        ]
+    },
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "skin",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cut",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "skin",
+        "foreign_keys": [
+            {
+                "column": "skin",
+                "references": "piece"
+            }
+        ]
+    },
+    {
+        "name": "piece",
+        "columns": [
+            {
+                "name": "system",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "system",
+        "foreign_keys": [
+            {
+                "column": "system",
+                "references": "spring"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "still"
+            }
+        ]
+    },
+    {
+        "name": "still",
+        "columns": [
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "learn",
+        "foreign_keys": [
+            {
+                "column": "learn",
+                "references": "evening"
+            }
+        ]
+    },
+    {
+        "name": "evening",
+        "columns": [
+            {
+                "name": "offer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "answer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "offer",
+        "foreign_keys": [
+            {
+                "column": "offer",
+                "references": "field"
+            }
+        ]
+    },
+    {
+        "name": "field",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "media"
+            }
+        ]
+    },
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "important",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "important",
+        "foreign_keys": [
+            {
+                "column": "important",
+                "references": "argue"
+            }
+        ]
+    },
+    {
+        "name": "argue",
+        "columns": [
+            {
+                "name": "meeting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "meeting",
+        "foreign_keys": [
+            {
+                "column": "meeting",
+                "references": "she"
+            }
+        ]
+    },
+    {
+        "name": "she",
+        "columns": [
+            {
+                "name": "writer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "writer",
+        "foreign_keys": [
+            {
+                "column": "writer",
+                "references": "real"
+            }
+        ]
+    },
+    {
+        "name": "real",
+        "columns": [
+            {
+                "name": "scene",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scene",
+        "foreign_keys": [
+            {
+                "column": "scene",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "life",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "feeling"
+            }
+        ]
+    },
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "on",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "on",
+        "foreign_keys": [
+            {
+                "column": "on",
+                "references": "her"
+            }
+        ]
+    },
+    {
+        "name": "her",
+        "columns": [
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "next",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maybe",
+        "foreign_keys": [
+            {
+                "column": "maybe",
+                "references": "purpose"
+            }
+        ]
+    }
+]

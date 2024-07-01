@@ -1,0 +1,176 @@
+[
+    {
+        "name": "identify",
+        "columns": [
+            {
+                "name": "rate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recently",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rate",
+        "foreign_keys": [
+            {
+                "column": "rate",
+                "references": "at"
+            }
+        ]
+    },
+    {
+        "name": "at",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "size"
+            }
+        ]
+    },
+    {
+        "name": "size",
+        "columns": [
+            {
+                "name": "magazine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "magazine",
+        "foreign_keys": [
+            {
+                "column": "magazine",
+                "references": "sit"
+            }
+        ]
+    },
+    {
+        "name": "sit",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "staff",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "statement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "statement",
+        "foreign_keys": [
+            {
+                "column": "statement",
+                "references": "beautiful"
+            }
+        ]
+    },
+    {
+        "name": "beautiful",
+        "columns": [
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "amount",
+        "foreign_keys": [
+            {
+                "column": "amount",
+                "references": "whose"
+            }
+        ]
+    },
+    {
+        "name": "whose",
+        "columns": [
+            {
+                "name": "next",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "identify"
+            }
+        ]
+    }
+]

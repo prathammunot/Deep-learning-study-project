@@ -1,0 +1,149 @@
+[
+    {
+        "name": "trial",
+        "columns": [
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "care"
+            }
+        ]
+    },
+    {
+        "name": "care",
+        "columns": [
+            {
+                "name": "make",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "make",
+        "foreign_keys": [
+            {
+                "column": "make",
+                "references": "structure"
+            }
+        ]
+    },
+    {
+        "name": "structure",
+        "columns": [
+            {
+                "name": "understand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "day",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "understand",
+        "foreign_keys": [
+            {
+                "column": "understand",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "whether",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whether",
+        "foreign_keys": [
+            {
+                "column": "whether",
+                "references": "agent"
+            }
+        ]
+    },
+    {
+        "name": "agent",
+        "columns": [
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "own",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "while",
+        "foreign_keys": [
+            {
+                "column": "while",
+                "references": "voice"
+            }
+        ]
+    },
+    {
+        "name": "voice",
+        "columns": [
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "trial"
+            }
+        ]
+    }
+]

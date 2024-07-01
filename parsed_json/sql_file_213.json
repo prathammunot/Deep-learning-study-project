@@ -1,0 +1,247 @@
+[
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "thank",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thank",
+        "foreign_keys": [
+            {
+                "column": "thank",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "become",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "member",
+        "foreign_keys": [
+            {
+                "column": "member",
+                "references": "himself"
+            }
+        ]
+    },
+    {
+        "name": "himself",
+        "columns": [
+            {
+                "name": "director",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "artist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "director",
+        "foreign_keys": [
+            {
+                "column": "director",
+                "references": "whatever"
+            }
+        ]
+    },
+    {
+        "name": "whatever",
+        "columns": [
+            {
+                "name": "building",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "building",
+        "foreign_keys": [
+            {
+                "column": "building",
+                "references": "draw"
+            }
+        ]
+    },
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "at",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "at",
+        "foreign_keys": [
+            {
+                "column": "at",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "give",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "work",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "here"
+            }
+        ]
+    },
+    {
+        "name": "here",
+        "columns": [
+            {
+                "name": "no",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "herself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "benefit"
+            }
+        ]
+    },
+    {
+        "name": "benefit",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "already"
+            }
+        ]
+    },
+    {
+        "name": "already",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "letter"
+            }
+        ]
+    },
+    {
+        "name": "letter",
+        "columns": [
+            {
+                "name": "explain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "explain",
+        "foreign_keys": [
+            {
+                "column": "explain",
+                "references": "reduce"
+            }
+        ]
+    }
+]

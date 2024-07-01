@@ -1,0 +1,274 @@
+[
+    {
+        "name": "start",
+        "columns": [
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "none",
+        "foreign_keys": [
+            {
+                "column": "none",
+                "references": "indicate"
+            }
+        ]
+    },
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "western",
+        "foreign_keys": [
+            {
+                "column": "western",
+                "references": "service"
+            }
+        ]
+    },
+    {
+        "name": "service",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "become",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "argue"
+            }
+        ]
+    },
+    {
+        "name": "argue",
+        "columns": [
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "think",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "think",
+        "foreign_keys": [
+            {
+                "column": "think",
+                "references": "forward"
+            }
+        ]
+    },
+    {
+        "name": "forward",
+        "columns": [
+            {
+                "name": "cover",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cover",
+        "foreign_keys": [
+            {
+                "column": "cover",
+                "references": "nothing"
+            }
+        ]
+    },
+    {
+        "name": "nothing",
+        "columns": [
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "while",
+        "foreign_keys": [
+            {
+                "column": "while",
+                "references": "present"
+            }
+        ]
+    },
+    {
+        "name": "present",
+        "columns": [
+            {
+                "name": "point",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "point",
+        "foreign_keys": [
+            {
+                "column": "point",
+                "references": "do"
+            }
+        ]
+    },
+    {
+        "name": "do",
+        "columns": [
+            {
+                "name": "without",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "without",
+        "foreign_keys": [
+            {
+                "column": "without",
+                "references": "to"
+            }
+        ]
+    },
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "president",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "president",
+        "foreign_keys": [
+            {
+                "column": "president",
+                "references": "car"
+            }
+        ]
+    },
+    {
+        "name": "car",
+        "columns": [
+            {
+                "name": "spend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "participant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "spend",
+        "foreign_keys": [
+            {
+                "column": "spend",
+                "references": "start"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "poor",
+        "columns": [
+            {
+                "name": "career",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "career",
+        "foreign_keys": [
+            {
+                "column": "career",
+                "references": "worker"
+            }
+        ]
+    },
+    {
+        "name": "worker",
+        "columns": [
+            {
+                "name": "high",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "address"
+            }
+        ]
+    },
+    {
+        "name": "address",
+        "columns": [
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "carry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "carry",
+        "foreign_keys": [
+            {
+                "column": "carry",
+                "references": "must"
+            }
+        ]
+    },
+    {
+        "name": "must",
+        "columns": [
+            {
+                "name": "sure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sure",
+        "foreign_keys": [
+            {
+                "column": "sure",
+                "references": "choice"
+            }
+        ]
+    },
+    {
+        "name": "choice",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "site"
+            }
+        ]
+    },
+    {
+        "name": "site",
+        "columns": [
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "speak",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "air",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "cup"
+            }
+        ]
+    },
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "full",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "full",
+        "foreign_keys": [
+            {
+                "column": "full",
+                "references": "impact"
+            }
+        ]
+    },
+    {
+        "name": "impact",
+        "columns": [
+            {
+                "name": "grow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "grow",
+        "foreign_keys": [
+            {
+                "column": "grow",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "development"
+            }
+        ]
+    },
+    {
+        "name": "development",
+        "columns": [
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "between",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "true",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "modern",
+        "foreign_keys": [
+            {
+                "column": "modern",
+                "references": "poor"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "itself",
+        "columns": [
+            {
+                "name": "able",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "able",
+        "foreign_keys": [
+            {
+                "column": "able",
+                "references": "thank"
+            }
+        ]
+    },
+    {
+        "name": "thank",
+        "columns": [
+            {
+                "name": "scientist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scientist",
+        "foreign_keys": [
+            {
+                "column": "scientist",
+                "references": "office"
+            }
+        ]
+    },
+    {
+        "name": "office",
+        "columns": [
+            {
+                "name": "race",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "race",
+        "foreign_keys": [
+            {
+                "column": "race",
+                "references": "loss"
+            }
+        ]
+    },
+    {
+        "name": "loss",
+        "columns": [
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "about"
+            }
+        ]
+    },
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "his",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "nor"
+            }
+        ]
+    },
+    {
+        "name": "nor",
+        "columns": [
+            {
+                "name": "radio",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "radio",
+        "foreign_keys": [
+            {
+                "column": "radio",
+                "references": "election"
+            }
+        ]
+    },
+    {
+        "name": "election",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "natural",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "success"
+            }
+        ]
+    },
+    {
+        "name": "success",
+        "columns": [
+            {
+                "name": "institution",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "notice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "institution",
+        "foreign_keys": [
+            {
+                "column": "institution",
+                "references": "policy"
+            }
+        ]
+    },
+    {
+        "name": "policy",
+        "columns": [
+            {
+                "name": "life",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "life",
+        "foreign_keys": [
+            {
+                "column": "life",
+                "references": "challenge"
+            }
+        ]
+    },
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "before",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "itself"
+            }
+        ]
+    }
+]

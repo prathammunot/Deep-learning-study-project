@@ -1,0 +1,176 @@
+[
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "exist",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exist",
+        "foreign_keys": [
+            {
+                "column": "exist",
+                "references": "too"
+            }
+        ]
+    },
+    {
+        "name": "too",
+        "columns": [
+            {
+                "name": "like",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "like",
+        "foreign_keys": [
+            {
+                "column": "like",
+                "references": "support"
+            }
+        ]
+    },
+    {
+        "name": "support",
+        "columns": [
+            {
+                "name": "eight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eight",
+        "foreign_keys": [
+            {
+                "column": "eight",
+                "references": "capital"
+            }
+        ]
+    },
+    {
+        "name": "capital",
+        "columns": [
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wife",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "none",
+        "foreign_keys": [
+            {
+                "column": "none",
+                "references": "nor"
+            }
+        ]
+    },
+    {
+        "name": "nor",
+        "columns": [
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "star",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pretty",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "talk",
+        "foreign_keys": [
+            {
+                "column": "talk",
+                "references": "human"
+            }
+        ]
+    },
+    {
+        "name": "human",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "indicate"
+            }
+        ]
+    },
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "evidence"
+            }
+        ]
+    }
+]

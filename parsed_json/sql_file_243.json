@@ -1,0 +1,247 @@
+[
+    {
+        "name": "apply",
+        "columns": [
+            {
+                "name": "reach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "summer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reach",
+        "foreign_keys": [
+            {
+                "column": "reach",
+                "references": "hold"
+            }
+        ]
+    },
+    {
+        "name": "hold",
+        "columns": [
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "table",
+        "foreign_keys": [
+            {
+                "column": "table",
+                "references": "matter"
+            }
+        ]
+    },
+    {
+        "name": "matter",
+        "columns": [
+            {
+                "name": "will",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "will",
+        "foreign_keys": [
+            {
+                "column": "will",
+                "references": "question"
+            }
+        ]
+    },
+    {
+        "name": "question",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "air",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "air",
+        "foreign_keys": [
+            {
+                "column": "air",
+                "references": "he"
+            }
+        ]
+    },
+    {
+        "name": "he",
+        "columns": [
+            {
+                "name": "chance",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "chance",
+        "foreign_keys": [
+            {
+                "column": "chance",
+                "references": "organization"
+            }
+        ]
+    },
+    {
+        "name": "organization",
+        "columns": [
+            {
+                "name": "fear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fear",
+        "foreign_keys": [
+            {
+                "column": "fear",
+                "references": "cover"
+            }
+        ]
+    },
+    {
+        "name": "cover",
+        "columns": [
+            {
+                "name": "it",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "force",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "it",
+        "foreign_keys": [
+            {
+                "column": "it",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "far",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "far",
+        "foreign_keys": [
+            {
+                "column": "far",
+                "references": "attention"
+            }
+        ]
+    },
+    {
+        "name": "attention",
+        "columns": [
+            {
+                "name": "hospital",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hospital",
+        "foreign_keys": [
+            {
+                "column": "hospital",
+                "references": "apply"
+            }
+        ]
+    }
+]

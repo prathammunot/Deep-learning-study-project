@@ -1,0 +1,127 @@
+[
+    {
+        "name": "effort",
+        "columns": [
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "system",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "remember"
+            }
+        ]
+    },
+    {
+        "name": "remember",
+        "columns": [
+            {
+                "name": "manager",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "manager",
+        "foreign_keys": [
+            {
+                "column": "manager",
+                "references": "late"
+            }
+        ]
+    },
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "perform",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "organization",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "perform",
+        "foreign_keys": [
+            {
+                "column": "perform",
+                "references": "phone"
+            }
+        ]
+    },
+    {
+        "name": "phone",
+        "columns": [
+            {
+                "name": "alone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "between",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "alone",
+        "foreign_keys": [
+            {
+                "column": "alone",
+                "references": "too"
+            }
+        ]
+    },
+    {
+        "name": "too",
+        "columns": [
+            {
+                "name": "decision",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "notice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decision",
+        "foreign_keys": [
+            {
+                "column": "decision",
+                "references": "effort"
+            }
+        ]
+    }
+]

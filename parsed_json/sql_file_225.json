@@ -1,0 +1,225 @@
+[
+    {
+        "name": "decide",
+        "columns": [
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fund",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "worry",
+        "foreign_keys": [
+            {
+                "column": "worry",
+                "references": "wife"
+            }
+        ]
+    },
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "half",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "control",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "control",
+        "foreign_keys": [
+            {
+                "column": "control",
+                "references": "may"
+            }
+        ]
+    },
+    {
+        "name": "may",
+        "columns": [
+            {
+                "name": "ask",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wonder",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ask",
+        "foreign_keys": [
+            {
+                "column": "ask",
+                "references": "pretty"
+            }
+        ]
+    },
+    {
+        "name": "pretty",
+        "columns": [
+            {
+                "name": "same",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "same",
+        "foreign_keys": [
+            {
+                "column": "same",
+                "references": "success"
+            }
+        ]
+    },
+    {
+        "name": "success",
+        "columns": [
+            {
+                "name": "fund",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fund",
+        "foreign_keys": [
+            {
+                "column": "fund",
+                "references": "writer"
+            }
+        ]
+    },
+    {
+        "name": "writer",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "follow",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "follow",
+        "foreign_keys": [
+            {
+                "column": "follow",
+                "references": "trial"
+            }
+        ]
+    },
+    {
+        "name": "trial",
+        "columns": [
+            {
+                "name": "three",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "though",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "three",
+        "foreign_keys": [
+            {
+                "column": "three",
+                "references": "decide"
+            }
+        ]
+    }
+]

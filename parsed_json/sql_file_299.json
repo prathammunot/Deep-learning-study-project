@@ -1,0 +1,127 @@
+[
+    {
+        "name": "buy",
+        "columns": [
+            {
+                "name": "daughter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "daughter",
+        "foreign_keys": [
+            {
+                "column": "daughter",
+                "references": "dog"
+            }
+        ]
+    },
+    {
+        "name": "dog",
+        "columns": [
+            {
+                "name": "agency",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "however",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agency",
+        "foreign_keys": [
+            {
+                "column": "agency",
+                "references": "radio"
+            }
+        ]
+    },
+    {
+        "name": "radio",
+        "columns": [
+            {
+                "name": "side",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cover",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "side",
+        "foreign_keys": [
+            {
+                "column": "side",
+                "references": "you"
+            }
+        ]
+    },
+    {
+        "name": "you",
+        "columns": [
+            {
+                "name": "apply",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "apply",
+        "foreign_keys": [
+            {
+                "column": "apply",
+                "references": "bank"
+            }
+        ]
+    },
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "condition",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yeah",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "condition",
+        "foreign_keys": [
+            {
+                "column": "condition",
+                "references": "buy"
+            }
+        ]
+    }
+]

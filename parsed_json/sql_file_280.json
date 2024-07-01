@@ -1,0 +1,127 @@
+[
+    {
+        "name": "gun",
+        "columns": [
+            {
+                "name": "work",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "work",
+        "foreign_keys": [
+            {
+                "column": "work",
+                "references": "relate"
+            }
+        ]
+    },
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "executive"
+            }
+        ]
+    },
+    {
+        "name": "executive",
+        "columns": [
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "word",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "various",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "positive",
+        "foreign_keys": [
+            {
+                "column": "positive",
+                "references": "idea"
+            }
+        ]
+    },
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "feel",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "care",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "feel",
+        "foreign_keys": [
+            {
+                "column": "feel",
+                "references": "gun"
+            }
+        ]
+    }
+]

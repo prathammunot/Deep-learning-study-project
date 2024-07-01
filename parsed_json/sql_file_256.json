@@ -1,0 +1,149 @@
+[
+    {
+        "name": "religious",
+        "columns": [
+            {
+                "name": "reality",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reality",
+        "foreign_keys": [
+            {
+                "column": "reality",
+                "references": "current"
+            }
+        ]
+    },
+    {
+        "name": "current",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "soon"
+            }
+        ]
+    },
+    {
+        "name": "soon",
+        "columns": [
+            {
+                "name": "should",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "should",
+        "foreign_keys": [
+            {
+                "column": "should",
+                "references": "clearly"
+            }
+        ]
+    },
+    {
+        "name": "clearly",
+        "columns": [
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sell",
+        "foreign_keys": [
+            {
+                "column": "sell",
+                "references": "record"
+            }
+        ]
+    },
+    {
+        "name": "record",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "into"
+            }
+        ]
+    },
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "bad",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bad",
+        "foreign_keys": [
+            {
+                "column": "bad",
+                "references": "religious"
+            }
+        ]
+    }
+]

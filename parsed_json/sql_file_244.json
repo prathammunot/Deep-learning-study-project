@@ -1,0 +1,198 @@
+[
+    {
+        "name": "treat",
+        "columns": [
+            {
+                "name": "tonight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trip",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tonight",
+        "foreign_keys": [
+            {
+                "column": "tonight",
+                "references": "owner"
+            }
+        ]
+    },
+    {
+        "name": "owner",
+        "columns": [
+            {
+                "name": "talk",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "talk",
+        "foreign_keys": [
+            {
+                "column": "talk",
+                "references": "meet"
+            }
+        ]
+    },
+    {
+        "name": "meet",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "fly"
+            }
+        ]
+    },
+    {
+        "name": "fly",
+        "columns": [
+            {
+                "name": "your",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "mission"
+            }
+        ]
+    },
+    {
+        "name": "mission",
+        "columns": [
+            {
+                "name": "result",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "together",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "well"
+            }
+        ]
+    },
+    {
+        "name": "well",
+        "columns": [
+            {
+                "name": "which",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "which",
+        "foreign_keys": [
+            {
+                "column": "which",
+                "references": "late"
+            }
+        ]
+    },
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "guess",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "letter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "guess",
+        "foreign_keys": [
+            {
+                "column": "guess",
+                "references": "treat"
+            }
+        ]
+    }
+]

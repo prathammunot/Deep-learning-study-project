@@ -1,0 +1,225 @@
+[
+    {
+        "name": "show",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "value",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "artist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "better"
+            }
+        ]
+    },
+    {
+        "name": "better",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "author"
+            }
+        ]
+    },
+    {
+        "name": "author",
+        "columns": [
+            {
+                "name": "from",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "from",
+        "foreign_keys": [
+            {
+                "column": "from",
+                "references": "light"
+            }
+        ]
+    },
+    {
+        "name": "light",
+        "columns": [
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "under",
+        "foreign_keys": [
+            {
+                "column": "under",
+                "references": "measure"
+            }
+        ]
+    },
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "save",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "already",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "save",
+        "foreign_keys": [
+            {
+                "column": "save",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "position",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "position",
+        "foreign_keys": [
+            {
+                "column": "position",
+                "references": "company"
+            }
+        ]
+    },
+    {
+        "name": "company",
+        "columns": [
+            {
+                "name": "I",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "available",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "I",
+        "foreign_keys": [
+            {
+                "column": "I",
+                "references": "way"
+            }
+        ]
+    },
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "even",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "even",
+        "foreign_keys": [
+            {
+                "column": "even",
+                "references": "not"
+            }
+        ]
+    },
+    {
+        "name": "not",
+        "columns": [
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "city",
+        "foreign_keys": [
+            {
+                "column": "city",
+                "references": "show"
+            }
+        ]
+    }
+]

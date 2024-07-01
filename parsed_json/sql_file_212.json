@@ -1,0 +1,247 @@
+[
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "newspaper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "newspaper",
+        "foreign_keys": [
+            {
+                "column": "newspaper",
+                "references": "pass"
+            }
+        ]
+    },
+    {
+        "name": "pass",
+        "columns": [
+            {
+                "name": "environmental",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sound",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "environmental",
+        "foreign_keys": [
+            {
+                "column": "environmental",
+                "references": "more"
+            }
+        ]
+    },
+    {
+        "name": "more",
+        "columns": [
+            {
+                "name": "your",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "discuss",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "into"
+            }
+        ]
+    },
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "type",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "key",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "type",
+        "foreign_keys": [
+            {
+                "column": "type",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "son",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yes",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "son",
+        "foreign_keys": [
+            {
+                "column": "son",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "network",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "coach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "network",
+        "foreign_keys": [
+            {
+                "column": "network",
+                "references": "sure"
+            }
+        ]
+    },
+    {
+        "name": "sure",
+        "columns": [
+            {
+                "name": "her",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "appear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "her",
+        "foreign_keys": [
+            {
+                "column": "her",
+                "references": "democratic"
+            }
+        ]
+    },
+    {
+        "name": "democratic",
+        "columns": [
+            {
+                "name": "whether",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whether",
+        "foreign_keys": [
+            {
+                "column": "whether",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "follow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "follow",
+        "foreign_keys": [
+            {
+                "column": "follow",
+                "references": "few"
+            }
+        ]
+    },
+    {
+        "name": "few",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "avoid"
+            }
+        ]
+    }
+]

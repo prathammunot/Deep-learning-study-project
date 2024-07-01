@@ -1,0 +1,225 @@
+[
+    {
+        "name": "remember",
+        "columns": [
+            {
+                "name": "common",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "air",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "age"
+            }
+        ]
+    },
+    {
+        "name": "age",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hundred",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "than"
+            }
+        ]
+    },
+    {
+        "name": "than",
+        "columns": [
+            {
+                "name": "focus",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "least",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "focus",
+        "foreign_keys": [
+            {
+                "column": "focus",
+                "references": "type"
+            }
+        ]
+    },
+    {
+        "name": "type",
+        "columns": [
+            {
+                "name": "lose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lose",
+        "foreign_keys": [
+            {
+                "column": "lose",
+                "references": "total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "such",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "such",
+        "foreign_keys": [
+            {
+                "column": "such",
+                "references": "fight"
+            }
+        ]
+    },
+    {
+        "name": "fight",
+        "columns": [
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "to",
+        "foreign_keys": [
+            {
+                "column": "to",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "draw",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "strong",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "draw",
+        "foreign_keys": [
+            {
+                "column": "draw",
+                "references": "treat"
+            }
+        ]
+    },
+    {
+        "name": "treat",
+        "columns": [
+            {
+                "name": "together",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "red",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "together",
+        "foreign_keys": [
+            {
+                "column": "together",
+                "references": "yourself"
+            }
+        ]
+    },
+    {
+        "name": "yourself",
+        "columns": [
+            {
+                "name": "walk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "walk",
+        "foreign_keys": [
+            {
+                "column": "walk",
+                "references": "remember"
+            }
+        ]
+    }
+]

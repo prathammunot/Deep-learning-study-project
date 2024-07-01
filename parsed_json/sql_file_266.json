@@ -1,0 +1,127 @@
+[
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "upon"
+            }
+        ]
+    },
+    {
+        "name": "upon",
+        "columns": [
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "official",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "one"
+            }
+        ]
+    },
+    {
+        "name": "one",
+        "columns": [
+            {
+                "name": "exist",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exist",
+        "foreign_keys": [
+            {
+                "column": "exist",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "cut"
+            }
+        ]
+    },
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "kitchen",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "summer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interesting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kitchen",
+        "foreign_keys": [
+            {
+                "column": "kitchen",
+                "references": "sea"
+            }
+        ]
+    }
+]

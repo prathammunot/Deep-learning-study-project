@@ -1,0 +1,176 @@
+[
+    {
+        "name": "act",
+        "columns": [
+            {
+                "name": "growth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "growth",
+        "foreign_keys": [
+            {
+                "column": "growth",
+                "references": "bed"
+            }
+        ]
+    },
+    {
+        "name": "bed",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wall",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "dark"
+            }
+        ]
+    },
+    {
+        "name": "dark",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "lay"
+            }
+        ]
+    },
+    {
+        "name": "lay",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "matter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "matter",
+        "foreign_keys": [
+            {
+                "column": "matter",
+                "references": "name"
+            }
+        ]
+    },
+    {
+        "name": "name",
+        "columns": [
+            {
+                "name": "history",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "factor"
+            }
+        ]
+    },
+    {
+        "name": "factor",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "act"
+            }
+        ]
+    }
+]

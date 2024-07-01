@@ -1,0 +1,127 @@
+[
+    {
+        "name": "social",
+        "columns": [
+            {
+                "name": "cut",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cut",
+        "foreign_keys": [
+            {
+                "column": "cut",
+                "references": "need"
+            }
+        ]
+    },
+    {
+        "name": "need",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "media",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "develop"
+            }
+        ]
+    },
+    {
+        "name": "develop",
+        "columns": [
+            {
+                "name": "according",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "according",
+        "foreign_keys": [
+            {
+                "column": "according",
+                "references": "main"
+            }
+        ]
+    },
+    {
+        "name": "main",
+        "columns": [
+            {
+                "name": "up",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "own",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "up",
+        "foreign_keys": [
+            {
+                "column": "up",
+                "references": "upon"
+            }
+        ]
+    },
+    {
+        "name": "upon",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "buy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "social"
+            }
+        ]
+    }
+]

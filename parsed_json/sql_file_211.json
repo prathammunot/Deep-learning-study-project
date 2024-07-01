@@ -1,0 +1,198 @@
+[
+    {
+        "name": "exist",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "police",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "factor"
+            }
+        ]
+    },
+    {
+        "name": "factor",
+        "columns": [
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reveal",
+        "foreign_keys": [
+            {
+                "column": "reveal",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "short"
+            }
+        ]
+    },
+    {
+        "name": "short",
+        "columns": [
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "one",
+        "foreign_keys": [
+            {
+                "column": "one",
+                "references": "however"
+            }
+        ]
+    },
+    {
+        "name": "however",
+        "columns": [
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "official",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hit",
+        "foreign_keys": [
+            {
+                "column": "hit",
+                "references": "know"
+            }
+        ]
+    },
+    {
+        "name": "know",
+        "columns": [
+            {
+                "name": "various",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "pattern"
+            }
+        ]
+    },
+    {
+        "name": "pattern",
+        "columns": [
+            {
+                "name": "fish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fish",
+        "foreign_keys": [
+            {
+                "column": "fish",
+                "references": "so"
+            }
+        ]
+    },
+    {
+        "name": "so",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "exist"
+            }
+        ]
+    }
+]

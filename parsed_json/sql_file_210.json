@@ -1,0 +1,149 @@
+[
+    {
+        "name": "decide",
+        "columns": [
+            {
+                "name": "notice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "notice",
+        "foreign_keys": [
+            {
+                "column": "notice",
+                "references": "interest"
+            }
+        ]
+    },
+    {
+        "name": "interest",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "challenge"
+            }
+        ]
+    },
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "who",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "who",
+        "foreign_keys": [
+            {
+                "column": "who",
+                "references": "together"
+            }
+        ]
+    },
+    {
+        "name": "together",
+        "columns": [
+            {
+                "name": "minute",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pretty",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "guess",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "minute",
+        "foreign_keys": [
+            {
+                "column": "minute",
+                "references": "executive"
+            }
+        ]
+    },
+    {
+        "name": "executive",
+        "columns": [
+            {
+                "name": "image",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "image",
+        "foreign_keys": [
+            {
+                "column": "image",
+                "references": "decide"
+            }
+        ]
+    }
+]

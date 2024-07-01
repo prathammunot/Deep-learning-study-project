@@ -1,0 +1,274 @@
+[
+    {
+        "name": "subject",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "game"
+            }
+        ]
+    },
+    {
+        "name": "game",
+        "columns": [
+            {
+                "name": "name",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "name",
+        "foreign_keys": [
+            {
+                "column": "name",
+                "references": "star"
+            }
+        ]
+    },
+    {
+        "name": "star",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "loss",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "story"
+            }
+        ]
+    },
+    {
+        "name": "story",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "science",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "seat"
+            }
+        ]
+    },
+    {
+        "name": "seat",
+        "columns": [
+            {
+                "name": "heart",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "memory",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "heart",
+        "foreign_keys": [
+            {
+                "column": "heart",
+                "references": "environmental"
+            }
+        ]
+    },
+    {
+        "name": "environmental",
+        "columns": [
+            {
+                "name": "perform",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "perform",
+        "foreign_keys": [
+            {
+                "column": "perform",
+                "references": "reflect"
+            }
+        ]
+    },
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "discuss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "discuss",
+        "foreign_keys": [
+            {
+                "column": "discuss",
+                "references": "important"
+            }
+        ]
+    },
+    {
+        "name": "important",
+        "columns": [
+            {
+                "name": "theory",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "theory",
+        "foreign_keys": [
+            {
+                "column": "theory",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trial",
+        "foreign_keys": [
+            {
+                "column": "trial",
+                "references": "full"
+            }
+        ]
+    },
+    {
+        "name": "full",
+        "columns": [
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "of",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "subject"
+            }
+        ]
+    }
+]

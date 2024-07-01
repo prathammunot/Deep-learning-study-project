@@ -1,0 +1,274 @@
+[
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "thank"
+            }
+        ]
+    },
+    {
+        "name": "thank",
+        "columns": [
+            {
+                "name": "risk",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "risk",
+        "foreign_keys": [
+            {
+                "column": "risk",
+                "references": "bit"
+            }
+        ]
+    },
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "let"
+            }
+        ]
+    },
+    {
+        "name": "let",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "begin",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "begin",
+        "foreign_keys": [
+            {
+                "column": "begin",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "beautiful",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quality",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beautiful",
+        "foreign_keys": [
+            {
+                "column": "beautiful",
+                "references": "prepare"
+            }
+        ]
+    },
+    {
+        "name": "prepare",
+        "columns": [
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "glass",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "set",
+        "foreign_keys": [
+            {
+                "column": "set",
+                "references": "husband"
+            }
+        ]
+    },
+    {
+        "name": "husband",
+        "columns": [
+            {
+                "name": "product",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "western"
+            }
+        ]
+    },
+    {
+        "name": "western",
+        "columns": [
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "institution",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "many"
+            }
+        ]
+    },
+    {
+        "name": "many",
+        "columns": [
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "language",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "collection"
+            }
+        ]
+    },
+    {
+        "name": "collection",
+        "columns": [
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "note",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "wrong"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "too",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "too",
+        "foreign_keys": [
+            {
+                "column": "too",
+                "references": "music"
+            }
+        ]
+    },
+    {
+        "name": "music",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "game",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "type"
+            }
+        ]
+    },
+    {
+        "name": "type",
+        "columns": [
+            {
+                "name": "fire",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "individual",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fire",
+        "foreign_keys": [
+            {
+                "column": "fire",
+                "references": "about"
+            }
+        ]
+    },
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "store",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "store",
+        "foreign_keys": [
+            {
+                "column": "store",
+                "references": "people"
+            }
+        ]
+    },
+    {
+        "name": "people",
+        "columns": [
+            {
+                "name": "radio",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "radio",
+        "foreign_keys": [
+            {
+                "column": "radio",
+                "references": "throughout"
+            }
+        ]
+    }
+]

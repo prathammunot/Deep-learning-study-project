@@ -1,0 +1,149 @@
+[
+    {
+        "name": "run",
+        "columns": [
+            {
+                "name": "situation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ability",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "situation",
+        "foreign_keys": [
+            {
+                "column": "situation",
+                "references": "hair"
+            }
+        ]
+    },
+    {
+        "name": "hair",
+        "columns": [
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "arm",
+        "foreign_keys": [
+            {
+                "column": "arm",
+                "references": "blue"
+            }
+        ]
+    },
+    {
+        "name": "blue",
+        "columns": [
+            {
+                "name": "Congress",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "on",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Congress",
+        "foreign_keys": [
+            {
+                "column": "Congress",
+                "references": "event"
+            }
+        ]
+    },
+    {
+        "name": "event",
+        "columns": [
+            {
+                "name": "imagine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "imagine",
+        "foreign_keys": [
+            {
+                "column": "imagine",
+                "references": "choice"
+            }
+        ]
+    },
+    {
+        "name": "choice",
+        "columns": [
+            {
+                "name": "new",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "low"
+            }
+        ]
+    },
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "your",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "line",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "run"
+            }
+        ]
+    }
+]

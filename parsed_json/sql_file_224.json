@@ -1,0 +1,127 @@
+[
+    {
+        "name": "alone",
+        "columns": [
+            {
+                "name": "raise",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "factor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "raise",
+        "foreign_keys": [
+            {
+                "column": "raise",
+                "references": "century"
+            }
+        ]
+    },
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "tough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tough",
+        "foreign_keys": [
+            {
+                "column": "tough",
+                "references": "me"
+            }
+        ]
+    },
+    {
+        "name": "me",
+        "columns": [
+            {
+                "name": "security",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "so",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "security",
+        "foreign_keys": [
+            {
+                "column": "security",
+                "references": "child"
+            }
+        ]
+    },
+    {
+        "name": "child",
+        "columns": [
+            {
+                "name": "produce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "produce",
+        "foreign_keys": [
+            {
+                "column": "produce",
+                "references": "technology"
+            }
+        ]
+    },
+    {
+        "name": "technology",
+        "columns": [
+            {
+                "name": "meet",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "step",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "meet",
+        "foreign_keys": [
+            {
+                "column": "meet",
+                "references": "alone"
+            }
+        ]
+    }
+]

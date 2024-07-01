@@ -1,0 +1,274 @@
+[
+    {
+        "name": "anyone",
+        "columns": [
+            {
+                "name": "and",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "and",
+        "foreign_keys": [
+            {
+                "column": "and",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "well",
+        "foreign_keys": [
+            {
+                "column": "well",
+                "references": "gas"
+            }
+        ]
+    },
+    {
+        "name": "gas",
+        "columns": [
+            {
+                "name": "account",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "account",
+        "foreign_keys": [
+            {
+                "column": "account",
+                "references": "from"
+            }
+        ]
+    },
+    {
+        "name": "from",
+        "columns": [
+            {
+                "name": "thus",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "individual",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thus",
+        "foreign_keys": [
+            {
+                "column": "thus",
+                "references": "protect"
+            }
+        ]
+    },
+    {
+        "name": "protect",
+        "columns": [
+            {
+                "name": "against",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "against",
+        "foreign_keys": [
+            {
+                "column": "against",
+                "references": "born"
+            }
+        ]
+    },
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "husband"
+            }
+        ]
+    },
+    {
+        "name": "husband",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "red",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "writer"
+            }
+        ]
+    },
+    {
+        "name": "writer",
+        "columns": [
+            {
+                "name": "late",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "you",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "you",
+        "foreign_keys": [
+            {
+                "column": "you",
+                "references": "last"
+            }
+        ]
+    },
+    {
+        "name": "last",
+        "columns": [
+            {
+                "name": "son",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "son",
+        "foreign_keys": [
+            {
+                "column": "son",
+                "references": "security"
+            }
+        ]
+    },
+    {
+        "name": "security",
+        "columns": [
+            {
+                "name": "choose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "choose",
+        "foreign_keys": [
+            {
+                "column": "choose",
+                "references": "anyone"
+            }
+        ]
+    }
+]

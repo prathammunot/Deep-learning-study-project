@@ -1,0 +1,198 @@
+[
+    {
+        "name": "prevent",
+        "columns": [
+            {
+                "name": "general",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "daughter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "general",
+        "foreign_keys": [
+            {
+                "column": "general",
+                "references": "include"
+            }
+        ]
+    },
+    {
+        "name": "include",
+        "columns": [
+            {
+                "name": "brother",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "about",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "brother",
+        "foreign_keys": [
+            {
+                "column": "brother",
+                "references": "model"
+            }
+        ]
+    },
+    {
+        "name": "model",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "tax"
+            }
+        ]
+    },
+    {
+        "name": "tax",
+        "columns": [
+            {
+                "name": "both",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "both",
+        "foreign_keys": [
+            {
+                "column": "both",
+                "references": "hear"
+            }
+        ]
+    },
+    {
+        "name": "hear",
+        "columns": [
+            {
+                "name": "different",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "different",
+        "foreign_keys": [
+            {
+                "column": "different",
+                "references": "reality"
+            }
+        ]
+    },
+    {
+        "name": "reality",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "history"
+            }
+        ]
+    },
+    {
+        "name": "history",
+        "columns": [
+            {
+                "name": "imagine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "imagine",
+        "foreign_keys": [
+            {
+                "column": "imagine",
+                "references": "defense"
+            }
+        ]
+    },
+    {
+        "name": "defense",
+        "columns": [
+            {
+                "name": "newspaper",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "find",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "newspaper",
+        "foreign_keys": [
+            {
+                "column": "newspaper",
+                "references": "prevent"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "analysis",
+        "columns": [
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "country"
+            }
+        ]
+    },
+    {
+        "name": "country",
+        "columns": [
+            {
+                "name": "compare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "strategy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "compare",
+        "foreign_keys": [
+            {
+                "column": "compare",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "range",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "admit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "range",
+        "foreign_keys": [
+            {
+                "column": "range",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "clearly"
+            }
+        ]
+    },
+    {
+        "name": "clearly",
+        "columns": [
+            {
+                "name": "game",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "none"
+            }
+        ]
+    },
+    {
+        "name": "none",
+        "columns": [
+            {
+                "name": "image",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "image",
+        "foreign_keys": [
+            {
+                "column": "image",
+                "references": "help"
+            }
+        ]
+    },
+    {
+        "name": "help",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "evidence",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "peace"
+            }
+        ]
+    },
+    {
+        "name": "peace",
+        "columns": [
+            {
+                "name": "see",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "vote"
+            }
+        ]
+    },
+    {
+        "name": "vote",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "attention"
+            }
+        ]
+    },
+    {
+        "name": "attention",
+        "columns": [
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "also",
+        "foreign_keys": [
+            {
+                "column": "also",
+                "references": "difference"
+            }
+        ]
+    },
+    {
+        "name": "difference",
+        "columns": [
+            {
+                "name": "difference",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "knowledge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "difference",
+        "foreign_keys": [
+            {
+                "column": "difference",
+                "references": "analysis"
+            }
+        ]
+    }
+]

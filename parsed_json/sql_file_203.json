@@ -1,0 +1,296 @@
+[
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "time"
+            }
+        ]
+    },
+    {
+        "name": "time",
+        "columns": [
+            {
+                "name": "least",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "least",
+        "foreign_keys": [
+            {
+                "column": "least",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "director",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "him"
+            }
+        ]
+    },
+    {
+        "name": "him",
+        "columns": [
+            {
+                "name": "live",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "live",
+        "foreign_keys": [
+            {
+                "column": "live",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "wall",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wall",
+        "foreign_keys": [
+            {
+                "column": "wall",
+                "references": "administration"
+            }
+        ]
+    },
+    {
+        "name": "administration",
+        "columns": [
+            {
+                "name": "decide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decide",
+        "foreign_keys": [
+            {
+                "column": "decide",
+                "references": "direction"
+            }
+        ]
+    },
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "financial"
+            }
+        ]
+    },
+    {
+        "name": "financial",
+        "columns": [
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "drop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sport",
+        "foreign_keys": [
+            {
+                "column": "sport",
+                "references": "bag"
+            }
+        ]
+    },
+    {
+        "name": "bag",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "movement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "hotel"
+            }
+        ]
+    }
+]

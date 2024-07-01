@@ -1,0 +1,247 @@
+[
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "treat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "treat",
+        "foreign_keys": [
+            {
+                "column": "treat",
+                "references": "color"
+            }
+        ]
+    },
+    {
+        "name": "color",
+        "columns": [
+            {
+                "name": "significant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "significant",
+        "foreign_keys": [
+            {
+                "column": "significant",
+                "references": "none"
+            }
+        ]
+    },
+    {
+        "name": "none",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "successful",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "environmental"
+            }
+        ]
+    },
+    {
+        "name": "environmental",
+        "columns": [
+            {
+                "name": "hard",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hard",
+        "foreign_keys": [
+            {
+                "column": "hard",
+                "references": "really"
+            }
+        ]
+    },
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "control",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "control",
+        "foreign_keys": [
+            {
+                "column": "control",
+                "references": "family"
+            }
+        ]
+    },
+    {
+        "name": "family",
+        "columns": [
+            {
+                "name": "base",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "base",
+        "foreign_keys": [
+            {
+                "column": "base",
+                "references": "staff"
+            }
+        ]
+    },
+    {
+        "name": "staff",
+        "columns": [
+            {
+                "name": "million",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "million",
+        "foreign_keys": [
+            {
+                "column": "million",
+                "references": "grow"
+            }
+        ]
+    },
+    {
+        "name": "grow",
+        "columns": [
+            {
+                "name": "as",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "as",
+        "foreign_keys": [
+            {
+                "column": "as",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "follow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "follow",
+        "foreign_keys": [
+            {
+                "column": "follow",
+                "references": "matter"
+            }
+        ]
+    },
+    {
+        "name": "matter",
+        "columns": [
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "to",
+        "foreign_keys": [
+            {
+                "column": "to",
+                "references": "lot"
+            }
+        ]
+    }
+]

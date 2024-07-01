@@ -1,0 +1,296 @@
+[
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "what",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "win",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "free",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "what",
+        "foreign_keys": [
+            {
+                "column": "what",
+                "references": "true"
+            }
+        ]
+    },
+    {
+        "name": "true",
+        "columns": [
+            {
+                "name": "brother",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "brother",
+        "foreign_keys": [
+            {
+                "column": "brother",
+                "references": "draw"
+            }
+        ]
+    },
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "pay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "against",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pay",
+        "foreign_keys": [
+            {
+                "column": "pay",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "you",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "you",
+        "foreign_keys": [
+            {
+                "column": "you",
+                "references": "man"
+            }
+        ]
+    },
+    {
+        "name": "man",
+        "columns": [
+            {
+                "name": "worker",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "worker",
+        "foreign_keys": [
+            {
+                "column": "worker",
+                "references": "game"
+            }
+        ]
+    },
+    {
+        "name": "game",
+        "columns": [
+            {
+                "name": "interview",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "interview",
+        "foreign_keys": [
+            {
+                "column": "interview",
+                "references": "challenge"
+            }
+        ]
+    },
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "off"
+            }
+        ]
+    },
+    {
+        "name": "off",
+        "columns": [
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "blue",
+        "foreign_keys": [
+            {
+                "column": "blue",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "campaign",
+        "foreign_keys": [
+            {
+                "column": "campaign",
+                "references": "necessary"
+            }
+        ]
+    },
+    {
+        "name": "necessary",
+        "columns": [
+            {
+                "name": "power",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "power",
+        "foreign_keys": [
+            {
+                "column": "power",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "across",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "across",
+        "foreign_keys": [
+            {
+                "column": "across",
+                "references": "enough"
+            }
+        ]
+    },
+    {
+        "name": "enough",
+        "columns": [
+            {
+                "name": "responsibility",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "responsibility",
+        "foreign_keys": [
+            {
+                "column": "responsibility",
+                "references": "per"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "second",
+        "columns": [
+            {
+                "name": "school",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "school",
+        "foreign_keys": [
+            {
+                "column": "school",
+                "references": "star"
+            }
+        ]
+    },
+    {
+        "name": "star",
+        "columns": [
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "enjoy"
+            }
+        ]
+    },
+    {
+        "name": "enjoy",
+        "columns": [
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "method",
+        "foreign_keys": [
+            {
+                "column": "method",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mention",
+        "foreign_keys": [
+            {
+                "column": "mention",
+                "references": "affect"
+            }
+        ]
+    },
+    {
+        "name": "affect",
+        "columns": [
+            {
+                "name": "bar",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bar",
+        "foreign_keys": [
+            {
+                "column": "bar",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "word",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "word",
+        "foreign_keys": [
+            {
+                "column": "word",
+                "references": "concern"
+            }
+        ]
+    },
+    {
+        "name": "concern",
+        "columns": [
+            {
+                "name": "successful",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "successful",
+        "foreign_keys": [
+            {
+                "column": "successful",
+                "references": "power"
+            }
+        ]
+    },
+    {
+        "name": "power",
+        "columns": [
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "blue",
+        "foreign_keys": [
+            {
+                "column": "blue",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "second"
+            }
+        ]
+    }
+]

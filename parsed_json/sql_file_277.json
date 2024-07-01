@@ -1,0 +1,127 @@
+[
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "as",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "as",
+        "foreign_keys": [
+            {
+                "column": "as",
+                "references": "way"
+            }
+        ]
+    },
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "two",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "two",
+        "foreign_keys": [
+            {
+                "column": "two",
+                "references": "media"
+            }
+        ]
+    },
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "yes",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yes",
+        "foreign_keys": [
+            {
+                "column": "yes",
+                "references": "person"
+            }
+        ]
+    },
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "consider"
+            }
+        ]
+    },
+    {
+        "name": "consider",
+        "columns": [
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "admit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tough",
+        "foreign_keys": [
+            {
+                "column": "tough",
+                "references": "everybody"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "clear",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "natural",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "six"
+            }
+        ]
+    },
+    {
+        "name": "six",
+        "columns": [
+            {
+                "name": "good",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "good",
+        "foreign_keys": [
+            {
+                "column": "good",
+                "references": "allow"
+            }
+        ]
+    },
+    {
+        "name": "allow",
+        "columns": [
+            {
+                "name": "determine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "buy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "determine",
+        "foreign_keys": [
+            {
+                "column": "determine",
+                "references": "pull"
+            }
+        ]
+    },
+    {
+        "name": "pull",
+        "columns": [
+            {
+                "name": "others",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "ready"
+            }
+        ]
+    },
+    {
+        "name": "ready",
+        "columns": [
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "doctor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "put"
+            }
+        ]
+    },
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "would",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "would",
+        "foreign_keys": [
+            {
+                "column": "would",
+                "references": "clear"
+            }
+        ]
+    }
+]

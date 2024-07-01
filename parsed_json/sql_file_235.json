@@ -1,0 +1,198 @@
+[
+    {
+        "name": "identify",
+        "columns": [
+            {
+                "name": "figure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "year",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "figure",
+        "foreign_keys": [
+            {
+                "column": "figure",
+                "references": "century"
+            }
+        ]
+    },
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "ground",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ground",
+        "foreign_keys": [
+            {
+                "column": "ground",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "become",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "position",
+        "foreign_keys": [
+            {
+                "column": "position",
+                "references": "require"
+            }
+        ]
+    },
+    {
+        "name": "require",
+        "columns": [
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "possible",
+        "foreign_keys": [
+            {
+                "column": "possible",
+                "references": "officer"
+            }
+        ]
+    },
+    {
+        "name": "officer",
+        "columns": [
+            {
+                "name": "avoid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "personal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "avoid",
+        "foreign_keys": [
+            {
+                "column": "avoid",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "black",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "black",
+        "foreign_keys": [
+            {
+                "column": "black",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "provide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "provide",
+        "foreign_keys": [
+            {
+                "column": "provide",
+                "references": "identify"
+            }
+        ]
+    }
+]

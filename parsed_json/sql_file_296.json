@@ -1,0 +1,247 @@
+[
+    {
+        "name": "across",
+        "columns": [
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pressure",
+        "foreign_keys": [
+            {
+                "column": "pressure",
+                "references": "sure"
+            }
+        ]
+    },
+    {
+        "name": "sure",
+        "columns": [
+            {
+                "name": "central",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "store",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "current",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "store",
+        "foreign_keys": [
+            {
+                "column": "store",
+                "references": "card"
+            }
+        ]
+    },
+    {
+        "name": "card",
+        "columns": [
+            {
+                "name": "ago",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ago",
+        "foreign_keys": [
+            {
+                "column": "ago",
+                "references": "yeah"
+            }
+        ]
+    },
+    {
+        "name": "yeah",
+        "columns": [
+            {
+                "name": "without",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "subject",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "without",
+        "foreign_keys": [
+            {
+                "column": "without",
+                "references": "phone"
+            }
+        ]
+    },
+    {
+        "name": "phone",
+        "columns": [
+            {
+                "name": "offer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "offer",
+        "foreign_keys": [
+            {
+                "column": "offer",
+                "references": "up"
+            }
+        ]
+    },
+    {
+        "name": "up",
+        "columns": [
+            {
+                "name": "above",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "above",
+        "foreign_keys": [
+            {
+                "column": "above",
+                "references": "recently"
+            }
+        ]
+    },
+    {
+        "name": "recently",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "owner"
+            }
+        ]
+    },
+    {
+        "name": "owner",
+        "columns": [
+            {
+                "name": "magazine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "magazine",
+        "foreign_keys": [
+            {
+                "column": "magazine",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "across"
+            }
+        ]
+    }
+]

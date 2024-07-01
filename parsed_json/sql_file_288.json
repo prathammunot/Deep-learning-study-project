@@ -1,0 +1,198 @@
+[
+    {
+        "name": "spend",
+        "columns": [
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "adult",
+        "foreign_keys": [
+            {
+                "column": "adult",
+                "references": "matter"
+            }
+        ]
+    },
+    {
+        "name": "matter",
+        "columns": [
+            {
+                "name": "can",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "can",
+        "foreign_keys": [
+            {
+                "column": "can",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "pretty",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pretty",
+        "foreign_keys": [
+            {
+                "column": "pretty",
+                "references": "since"
+            }
+        ]
+    },
+    {
+        "name": "since",
+        "columns": [
+            {
+                "name": "yard",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yard",
+        "foreign_keys": [
+            {
+                "column": "yard",
+                "references": "them"
+            }
+        ]
+    },
+    {
+        "name": "them",
+        "columns": [
+            {
+                "name": "best",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "attention",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "best",
+        "foreign_keys": [
+            {
+                "column": "best",
+                "references": "five"
+            }
+        ]
+    },
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "firm",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "firm",
+        "foreign_keys": [
+            {
+                "column": "firm",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "increase",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "old",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "increase",
+        "foreign_keys": [
+            {
+                "column": "increase",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "even",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "even",
+        "foreign_keys": [
+            {
+                "column": "even",
+                "references": "spend"
+            }
+        ]
+    }
+]

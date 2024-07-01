@@ -1,0 +1,176 @@
+[
+    {
+        "name": "generation",
+        "columns": [
+            {
+                "name": "from",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "from",
+        "foreign_keys": [
+            {
+                "column": "from",
+                "references": "education"
+            }
+        ]
+    },
+    {
+        "name": "education",
+        "columns": [
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "including",
+        "foreign_keys": [
+            {
+                "column": "including",
+                "references": "price"
+            }
+        ]
+    },
+    {
+        "name": "price",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "important",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "important",
+        "foreign_keys": [
+            {
+                "column": "important",
+                "references": "figure"
+            }
+        ]
+    },
+    {
+        "name": "figure",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "against",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "reveal"
+            }
+        ]
+    },
+    {
+        "name": "reveal",
+        "columns": [
+            {
+                "name": "usually",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "usually",
+        "foreign_keys": [
+            {
+                "column": "usually",
+                "references": "instead"
+            }
+        ]
+    },
+    {
+        "name": "instead",
+        "columns": [
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "read",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "per",
+        "foreign_keys": [
+            {
+                "column": "per",
+                "references": "generation"
+            }
+        ]
+    }
+]

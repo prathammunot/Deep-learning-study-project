@@ -1,0 +1,127 @@
+[
+    {
+        "name": "magazine",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "cut"
+            }
+        ]
+    },
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "several",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "analysis",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "nor"
+            }
+        ]
+    },
+    {
+        "name": "nor",
+        "columns": [
+            {
+                "name": "imagine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sometimes",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "imagine",
+        "foreign_keys": [
+            {
+                "column": "imagine",
+                "references": "item"
+            }
+        ]
+    },
+    {
+        "name": "item",
+        "columns": [
+            {
+                "name": "player",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "player",
+        "foreign_keys": [
+            {
+                "column": "player",
+                "references": "magazine"
+            }
+        ]
+    }
+]

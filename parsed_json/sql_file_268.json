@@ -1,0 +1,296 @@
+[
+    {
+        "name": "choice",
+        "columns": [
+            {
+                "name": "color",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "determine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "hit"
+            }
+        ]
+    },
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "assume",
+        "foreign_keys": [
+            {
+                "column": "assume",
+                "references": "a"
+            }
+        ]
+    },
+    {
+        "name": "a",
+        "columns": [
+            {
+                "name": "opportunity",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "author",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "opportunity",
+        "foreign_keys": [
+            {
+                "column": "opportunity",
+                "references": "wear"
+            }
+        ]
+    },
+    {
+        "name": "wear",
+        "columns": [
+            {
+                "name": "unit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "unit",
+        "foreign_keys": [
+            {
+                "column": "unit",
+                "references": "go"
+            }
+        ]
+    },
+    {
+        "name": "go",
+        "columns": [
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "management",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "week",
+        "foreign_keys": [
+            {
+                "column": "week",
+                "references": "once"
+            }
+        ]
+    },
+    {
+        "name": "once",
+        "columns": [
+            {
+                "name": "front",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "front",
+        "foreign_keys": [
+            {
+                "column": "front",
+                "references": "amount"
+            }
+        ]
+    },
+    {
+        "name": "amount",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "material"
+            }
+        ]
+    },
+    {
+        "name": "material",
+        "columns": [
+            {
+                "name": "require",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "read",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "require",
+        "foreign_keys": [
+            {
+                "column": "require",
+                "references": "surface"
+            }
+        ]
+    },
+    {
+        "name": "surface",
+        "columns": [
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "set",
+        "foreign_keys": [
+            {
+                "column": "set",
+                "references": "near"
+            }
+        ]
+    },
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "else",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sister",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "else",
+        "foreign_keys": [
+            {
+                "column": "else",
+                "references": "event"
+            }
+        ]
+    },
+    {
+        "name": "event",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "choice"
+            }
+        ]
+    }
+]

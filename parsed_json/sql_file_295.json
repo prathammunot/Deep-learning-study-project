@@ -1,0 +1,247 @@
+[
+    {
+        "name": "pick",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "author",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "author",
+        "foreign_keys": [
+            {
+                "column": "author",
+                "references": "before"
+            }
+        ]
+    },
+    {
+        "name": "before",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "letter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "positive"
+            }
+        ]
+    },
+    {
+        "name": "positive",
+        "columns": [
+            {
+                "name": "fish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "job",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fish",
+        "foreign_keys": [
+            {
+                "column": "fish",
+                "references": "program"
+            }
+        ]
+    },
+    {
+        "name": "program",
+        "columns": [
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "be",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "finish",
+        "foreign_keys": [
+            {
+                "column": "finish",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "sometimes",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sometimes",
+        "foreign_keys": [
+            {
+                "column": "sometimes",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "special",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "choose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "special",
+        "foreign_keys": [
+            {
+                "column": "special",
+                "references": "pass"
+            }
+        ]
+    },
+    {
+        "name": "pass",
+        "columns": [
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "election",
+        "foreign_keys": [
+            {
+                "column": "election",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maybe",
+        "foreign_keys": [
+            {
+                "column": "maybe",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "pick"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "child",
+        "columns": [
+            {
+                "name": "wind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wind",
+        "foreign_keys": [
+            {
+                "column": "wind",
+                "references": "its"
+            }
+        ]
+    },
+    {
+        "name": "its",
+        "columns": [
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "herself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "already",
+        "foreign_keys": [
+            {
+                "column": "already",
+                "references": "fine"
+            }
+        ]
+    },
+    {
+        "name": "fine",
+        "columns": [
+            {
+                "name": "generation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "generation",
+        "foreign_keys": [
+            {
+                "column": "generation",
+                "references": "clear"
+            }
+        ]
+    },
+    {
+        "name": "clear",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "recognize"
+            }
+        ]
+    },
+    {
+        "name": "recognize",
+        "columns": [
+            {
+                "name": "lead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lead",
+        "foreign_keys": [
+            {
+                "column": "lead",
+                "references": "administration"
+            }
+        ]
+    },
+    {
+        "name": "administration",
+        "columns": [
+            {
+                "name": "any",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "whole"
+            }
+        ]
+    },
+    {
+        "name": "whole",
+        "columns": [
+            {
+                "name": "tonight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tonight",
+        "foreign_keys": [
+            {
+                "column": "tonight",
+                "references": "at"
+            }
+        ]
+    },
+    {
+        "name": "at",
+        "columns": [
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "computer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "none",
+        "foreign_keys": [
+            {
+                "column": "none",
+                "references": "both"
+            }
+        ]
+    },
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "arrive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "arrive",
+        "foreign_keys": [
+            {
+                "column": "arrive",
+                "references": "happen"
+            }
+        ]
+    },
+    {
+        "name": "happen",
+        "columns": [
+            {
+                "name": "stand",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stand",
+        "foreign_keys": [
+            {
+                "column": "stand",
+                "references": "child"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "name": "risk",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "analysis",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "letter"
+            }
+        ]
+    },
+    {
+        "name": "letter",
+        "columns": [
+            {
+                "name": "still",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dinner",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "still",
+        "foreign_keys": [
+            {
+                "column": "still",
+                "references": "old"
+            }
+        ]
+    },
+    {
+        "name": "old",
+        "columns": [
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "theory",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "now",
+        "foreign_keys": [
+            {
+                "column": "now",
+                "references": "want"
+            }
+        ]
+    },
+    {
+        "name": "want",
+        "columns": [
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "the"
+            }
+        ]
+    },
+    {
+        "name": "the",
+        "columns": [
+            {
+                "name": "about",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "son",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "about",
+        "foreign_keys": [
+            {
+                "column": "about",
+                "references": "evidence"
+            }
+        ]
+    },
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "bill",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bill",
+        "foreign_keys": [
+            {
+                "column": "bill",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "manager",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "manager",
+        "foreign_keys": [
+            {
+                "column": "manager",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "husband",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "husband",
+        "foreign_keys": [
+            {
+                "column": "husband",
+                "references": "risk"
+            }
+        ]
+    }
+]

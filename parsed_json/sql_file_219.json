@@ -1,0 +1,225 @@
+[
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "still",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "still",
+        "foreign_keys": [
+            {
+                "column": "still",
+                "references": "already"
+            }
+        ]
+    },
+    {
+        "name": "already",
+        "columns": [
+            {
+                "name": "man",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "man",
+        "foreign_keys": [
+            {
+                "column": "man",
+                "references": "already"
+            }
+        ]
+    },
+    {
+        "name": "already",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "free"
+            }
+        ]
+    },
+    {
+        "name": "free",
+        "columns": [
+            {
+                "name": "money",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "financial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "money",
+        "foreign_keys": [
+            {
+                "column": "money",
+                "references": "cost"
+            }
+        ]
+    },
+    {
+        "name": "cost",
+        "columns": [
+            {
+                "name": "drop",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drop",
+        "foreign_keys": [
+            {
+                "column": "drop",
+                "references": "case"
+            }
+        ]
+    },
+    {
+        "name": "case",
+        "columns": [
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "marriage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "life",
+        "foreign_keys": [
+            {
+                "column": "life",
+                "references": "hit"
+            }
+        ]
+    },
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "institution",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "institution",
+        "foreign_keys": [
+            {
+                "column": "institution",
+                "references": "tax"
+            }
+        ]
+    },
+    {
+        "name": "tax",
+        "columns": [
+            {
+                "name": "laugh",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "laugh",
+        "foreign_keys": [
+            {
+                "column": "laugh",
+                "references": "memory"
+            }
+        ]
+    },
+    {
+        "name": "memory",
+        "columns": [
+            {
+                "name": "beyond",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beyond",
+        "foreign_keys": [
+            {
+                "column": "beyond",
+                "references": "teach"
+            }
+        ]
+    }
+]

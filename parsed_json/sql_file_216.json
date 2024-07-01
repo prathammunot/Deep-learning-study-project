@@ -1,0 +1,274 @@
+[
+    {
+        "name": "mother",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "price",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "although"
+            }
+        ]
+    },
+    {
+        "name": "although",
+        "columns": [
+            {
+                "name": "fall",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fall",
+        "foreign_keys": [
+            {
+                "column": "fall",
+                "references": "must"
+            }
+        ]
+    },
+    {
+        "name": "must",
+        "columns": [
+            {
+                "name": "school",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "school",
+        "foreign_keys": [
+            {
+                "column": "school",
+                "references": "process"
+            }
+        ]
+    },
+    {
+        "name": "process",
+        "columns": [
+            {
+                "name": "heavy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "heavy",
+        "foreign_keys": [
+            {
+                "column": "heavy",
+                "references": "standard"
+            }
+        ]
+    },
+    {
+        "name": "standard",
+        "columns": [
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "star",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "positive"
+            }
+        ]
+    },
+    {
+        "name": "positive",
+        "columns": [
+            {
+                "name": "management",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "management",
+        "foreign_keys": [
+            {
+                "column": "management",
+                "references": "where"
+            }
+        ]
+    },
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "box",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "sort"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "glass",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "glass",
+        "foreign_keys": [
+            {
+                "column": "glass",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "lose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lose",
+        "foreign_keys": [
+            {
+                "column": "lose",
+                "references": "board"
+            }
+        ]
+    },
+    {
+        "name": "board",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "big",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "mother"
+            }
+        ]
+    }
+]

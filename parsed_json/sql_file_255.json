@@ -1,0 +1,176 @@
+[
+    {
+        "name": "share",
+        "columns": [
+            {
+                "name": "drive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drive",
+        "foreign_keys": [
+            {
+                "column": "drive",
+                "references": "right"
+            }
+        ]
+    },
+    {
+        "name": "right",
+        "columns": [
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "paper"
+            }
+        ]
+    },
+    {
+        "name": "paper",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "big"
+            }
+        ]
+    },
+    {
+        "name": "big",
+        "columns": [
+            {
+                "name": "collection",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "try",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "collection",
+        "foreign_keys": [
+            {
+                "column": "collection",
+                "references": "similar"
+            }
+        ]
+    },
+    {
+        "name": "similar",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "make",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "yeah"
+            }
+        ]
+    },
+    {
+        "name": "yeah",
+        "columns": [
+            {
+                "name": "at",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "at",
+        "foreign_keys": [
+            {
+                "column": "at",
+                "references": "share"
+            }
+        ]
+    }
+]

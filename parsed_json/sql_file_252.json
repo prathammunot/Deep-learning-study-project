@@ -1,0 +1,144 @@
+[
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "heavy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "heavy",
+        "foreign_keys": [
+            {
+                "column": "heavy",
+                "references": "never"
+            }
+        ]
+    },
+    {
+        "name": "never",
+        "columns": [
+            {
+                "name": "born",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "born",
+        "foreign_keys": [
+            {
+                "column": "born",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "future",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "future",
+        "foreign_keys": [
+            {
+                "column": "future",
+                "references": "card"
+            }
+        ]
+    },
+    {
+        "name": "card",
+        "columns": [
+            {
+                "name": "way",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "most"
+            }
+        ]
+    },
+    {
+        "name": "most",
+        "columns": [
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "foreign",
+        "foreign_keys": [
+            {
+                "column": "foreign",
+                "references": "evidence"
+            }
+        ]
+    }
+]

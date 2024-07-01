@@ -1,0 +1,198 @@
+[
+    {
+        "name": "style",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "so",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "this",
+        "foreign_keys": [
+            {
+                "column": "this",
+                "references": "low"
+            }
+        ]
+    },
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "simple"
+            }
+        ]
+    },
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "our",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "our",
+        "foreign_keys": [
+            {
+                "column": "our",
+                "references": "coach"
+            }
+        ]
+    },
+    {
+        "name": "coach",
+        "columns": [
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "ago"
+            }
+        ]
+    },
+    {
+        "name": "ago",
+        "columns": [
+            {
+                "name": "hard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "low",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "choose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hard",
+        "foreign_keys": [
+            {
+                "column": "hard",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "one",
+        "foreign_keys": [
+            {
+                "column": "one",
+                "references": "style"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "miss",
+        "columns": [
+            {
+                "name": "yard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yard",
+        "foreign_keys": [
+            {
+                "column": "yard",
+                "references": "boy"
+            }
+        ]
+    },
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "age",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "bill"
+            }
+        ]
+    },
+    {
+        "name": "bill",
+        "columns": [
+            {
+                "name": "member",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "member",
+        "foreign_keys": [
+            {
+                "column": "member",
+                "references": "writer"
+            }
+        ]
+    },
+    {
+        "name": "writer",
+        "columns": [
+            {
+                "name": "simple",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simple",
+        "foreign_keys": [
+            {
+                "column": "simple",
+                "references": "actually"
+            }
+        ]
+    },
+    {
+        "name": "actually",
+        "columns": [
+            {
+                "name": "agency",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agency",
+        "foreign_keys": [
+            {
+                "column": "agency",
+                "references": "large"
+            }
+        ]
+    },
+    {
+        "name": "large",
+        "columns": [
+            {
+                "name": "mean",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "carry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mean",
+        "foreign_keys": [
+            {
+                "column": "mean",
+                "references": "five"
+            }
+        ]
+    },
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "school",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "school",
+        "foreign_keys": [
+            {
+                "column": "school",
+                "references": "idea"
+            }
+        ]
+    },
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "daughter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "citizen",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "citizen",
+        "foreign_keys": [
+            {
+                "column": "citizen",
+                "references": "miss"
+            }
+        ]
+    }
+]

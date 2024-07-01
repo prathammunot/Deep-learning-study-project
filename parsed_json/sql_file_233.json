@@ -1,0 +1,274 @@
+[
+    {
+        "name": "forget",
+        "columns": [
+            {
+                "name": "teach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "teach",
+        "foreign_keys": [
+            {
+                "column": "teach",
+                "references": "claim"
+            }
+        ]
+    },
+    {
+        "name": "claim",
+        "columns": [
+            {
+                "name": "raise",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "raise",
+        "foreign_keys": [
+            {
+                "column": "raise",
+                "references": "prove"
+            }
+        ]
+    },
+    {
+        "name": "prove",
+        "columns": [
+            {
+                "name": "begin",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "begin",
+        "foreign_keys": [
+            {
+                "column": "begin",
+                "references": "business"
+            }
+        ]
+    },
+    {
+        "name": "business",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "ability"
+            }
+        ]
+    },
+    {
+        "name": "ability",
+        "columns": [
+            {
+                "name": "garden",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cultural",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "garden",
+        "foreign_keys": [
+            {
+                "column": "garden",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "article",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "bank"
+            }
+        ]
+    },
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "large",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "large",
+        "foreign_keys": [
+            {
+                "column": "large",
+                "references": "sort"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "force",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "college"
+            }
+        ]
+    },
+    {
+        "name": "college",
+        "columns": [
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "table",
+        "foreign_keys": [
+            {
+                "column": "table",
+                "references": "election"
+            }
+        ]
+    },
+    {
+        "name": "election",
+        "columns": [
+            {
+                "name": "ball",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ball",
+        "foreign_keys": [
+            {
+                "column": "ball",
+                "references": "result"
+            }
+        ]
+    },
+    {
+        "name": "result",
+        "columns": [
+            {
+                "name": "administration",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "administration",
+        "foreign_keys": [
+            {
+                "column": "administration",
+                "references": "forget"
+            }
+        ]
+    }
+]

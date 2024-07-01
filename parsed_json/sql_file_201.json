@@ -1,0 +1,149 @@
+[
+    {
+        "name": "walk",
+        "columns": [
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "no",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "all",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "all",
+        "foreign_keys": [
+            {
+                "column": "all",
+                "references": "music"
+            }
+        ]
+    },
+    {
+        "name": "music",
+        "columns": [
+            {
+                "name": "station",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "station",
+        "foreign_keys": [
+            {
+                "column": "station",
+                "references": "inside"
+            }
+        ]
+    },
+    {
+        "name": "inside",
+        "columns": [
+            {
+                "name": "mouth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mouth",
+        "foreign_keys": [
+            {
+                "column": "mouth",
+                "references": "expect"
+            }
+        ]
+    },
+    {
+        "name": "expect",
+        "columns": [
+            {
+                "name": "court",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "court",
+        "foreign_keys": [
+            {
+                "column": "court",
+                "references": "walk"
+            }
+        ]
+    }
+]

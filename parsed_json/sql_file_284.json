@@ -1,0 +1,225 @@
+[
+    {
+        "name": "though",
+        "columns": [
+            {
+                "name": "fish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fish",
+        "foreign_keys": [
+            {
+                "column": "fish",
+                "references": "energy"
+            }
+        ]
+    },
+    {
+        "name": "energy",
+        "columns": [
+            {
+                "name": "staff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "knowledge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "staff",
+        "foreign_keys": [
+            {
+                "column": "staff",
+                "references": "may"
+            }
+        ]
+    },
+    {
+        "name": "may",
+        "columns": [
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "agree"
+            }
+        ]
+    },
+    {
+        "name": "agree",
+        "columns": [
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dinner",
+        "foreign_keys": [
+            {
+                "column": "dinner",
+                "references": "century"
+            }
+        ]
+    },
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "political",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "political",
+        "foreign_keys": [
+            {
+                "column": "political",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "blue",
+        "foreign_keys": [
+            {
+                "column": "blue",
+                "references": "site"
+            }
+        ]
+    },
+    {
+        "name": "site",
+        "columns": [
+            {
+                "name": "skill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "skill",
+        "foreign_keys": [
+            {
+                "column": "skill",
+                "references": "role"
+            }
+        ]
+    },
+    {
+        "name": "role",
+        "columns": [
+            {
+                "name": "rest",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rest",
+        "foreign_keys": [
+            {
+                "column": "rest",
+                "references": "avoid"
+            }
+        ]
+    },
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trip",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "though"
+            }
+        ]
+    }
+]

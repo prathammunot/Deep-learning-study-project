@@ -1,0 +1,274 @@
+[
+    {
+        "name": "decision",
+        "columns": [
+            {
+                "name": "probably",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "probably",
+        "foreign_keys": [
+            {
+                "column": "probably",
+                "references": "popular"
+            }
+        ]
+    },
+    {
+        "name": "popular",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "simply"
+            }
+        ]
+    },
+    {
+        "name": "simply",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "work"
+            }
+        ]
+    },
+    {
+        "name": "work",
+        "columns": [
+            {
+                "name": "sea",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sea",
+        "foreign_keys": [
+            {
+                "column": "sea",
+                "references": "stand"
+            }
+        ]
+    },
+    {
+        "name": "stand",
+        "columns": [
+            {
+                "name": "second",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "firm",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "firm",
+        "foreign_keys": [
+            {
+                "column": "firm",
+                "references": "author"
+            }
+        ]
+    },
+    {
+        "name": "author",
+        "columns": [
+            {
+                "name": "son",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "son",
+        "foreign_keys": [
+            {
+                "column": "son",
+                "references": "subject"
+            }
+        ]
+    },
+    {
+        "name": "subject",
+        "columns": [
+            {
+                "name": "political",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "political",
+        "foreign_keys": [
+            {
+                "column": "political",
+                "references": "send"
+            }
+        ]
+    },
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "per",
+        "foreign_keys": [
+            {
+                "column": "per",
+                "references": "check"
+            }
+        ]
+    },
+    {
+        "name": "check",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "carry"
+            }
+        ]
+    },
+    {
+        "name": "carry",
+        "columns": [
+            {
+                "name": "second",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "summer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "decision"
+            }
+        ]
+    }
+]

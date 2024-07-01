@@ -1,0 +1,127 @@
+[
+    {
+        "name": "article",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "open"
+            }
+        ]
+    },
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "cut",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cut",
+        "foreign_keys": [
+            {
+                "column": "cut",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "budget",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pick",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "budget",
+        "foreign_keys": [
+            {
+                "column": "budget",
+                "references": "sell"
+            }
+        ]
+    },
+    {
+        "name": "sell",
+        "columns": [
+            {
+                "name": "artist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "two",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "artist",
+        "foreign_keys": [
+            {
+                "column": "artist",
+                "references": "participant"
+            }
+        ]
+    },
+    {
+        "name": "participant",
+        "columns": [
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "while",
+        "foreign_keys": [
+            {
+                "column": "while",
+                "references": "article"
+            }
+        ]
+    }
+]

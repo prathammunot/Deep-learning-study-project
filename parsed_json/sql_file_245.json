@@ -1,0 +1,247 @@
+[
+    {
+        "name": "business",
+        "columns": [
+            {
+                "name": "music",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "music",
+        "foreign_keys": [
+            {
+                "column": "music",
+                "references": "maintain"
+            }
+        ]
+    },
+    {
+        "name": "maintain",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "song",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "majority",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "song",
+        "foreign_keys": [
+            {
+                "column": "song",
+                "references": "summer"
+            }
+        ]
+    },
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "remain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "high"
+            }
+        ]
+    },
+    {
+        "name": "high",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "design"
+            }
+        ]
+    },
+    {
+        "name": "design",
+        "columns": [
+            {
+                "name": "result",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "guy"
+            }
+        ]
+    },
+    {
+        "name": "guy",
+        "columns": [
+            {
+                "name": "north",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "north",
+        "foreign_keys": [
+            {
+                "column": "north",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yard",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "anyone"
+            }
+        ]
+    },
+    {
+        "name": "anyone",
+        "columns": [
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "decade"
+            }
+        ]
+    },
+    {
+        "name": "decade",
+        "columns": [
+            {
+                "name": "land",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "land",
+        "foreign_keys": [
+            {
+                "column": "land",
+                "references": "business"
+            }
+        ]
+    }
+]

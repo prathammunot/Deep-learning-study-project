@@ -1,0 +1,269 @@
+[
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "knowledge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "knowledge",
+        "foreign_keys": [
+            {
+                "column": "knowledge",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "late",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "power",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "center"
+            }
+        ]
+    },
+    {
+        "name": "center",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "leader"
+            }
+        ]
+    },
+    {
+        "name": "leader",
+        "columns": [
+            {
+                "name": "key",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "key",
+        "foreign_keys": [
+            {
+                "column": "key",
+                "references": "painting"
+            }
+        ]
+    },
+    {
+        "name": "painting",
+        "columns": [
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "week",
+        "foreign_keys": [
+            {
+                "column": "week",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "true"
+            }
+        ]
+    },
+    {
+        "name": "true",
+        "columns": [
+            {
+                "name": "ahead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ahead",
+        "foreign_keys": [
+            {
+                "column": "ahead",
+                "references": "skill"
+            }
+        ]
+    },
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "foreign",
+        "foreign_keys": [
+            {
+                "column": "foreign",
+                "references": "American"
+            }
+        ]
+    },
+    {
+        "name": "American",
+        "columns": [
+            {
+                "name": "focus",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "focus",
+        "foreign_keys": [
+            {
+                "column": "focus",
+                "references": "defense"
+            }
+        ]
+    },
+    {
+        "name": "defense",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "science",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "account"
+            }
+        ]
+    },
+    {
+        "name": "account",
+        "columns": [
+            {
+                "name": "term",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "theory",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "measure"
+            }
+        ]
+    }
+]

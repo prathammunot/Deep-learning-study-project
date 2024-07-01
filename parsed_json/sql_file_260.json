@@ -1,0 +1,198 @@
+[
+    {
+        "name": "author",
+        "columns": [
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "recently",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recently",
+        "foreign_keys": [
+            {
+                "column": "recently",
+                "references": "old"
+            }
+        ]
+    },
+    {
+        "name": "old",
+        "columns": [
+            {
+                "name": "middle",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "middle",
+        "foreign_keys": [
+            {
+                "column": "middle",
+                "references": "see"
+            }
+        ]
+    },
+    {
+        "name": "see",
+        "columns": [
+            {
+                "name": "property",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "property",
+        "foreign_keys": [
+            {
+                "column": "property",
+                "references": "effort"
+            }
+        ]
+    },
+    {
+        "name": "effort",
+        "columns": [
+            {
+                "name": "ahead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ahead",
+        "foreign_keys": [
+            {
+                "column": "ahead",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "fish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fish",
+        "foreign_keys": [
+            {
+                "column": "fish",
+                "references": "woman"
+            }
+        ]
+    },
+    {
+        "name": "woman",
+        "columns": [
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "professor"
+            }
+        ]
+    },
+    {
+        "name": "professor",
+        "columns": [
+            {
+                "name": "successful",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "successful",
+        "foreign_keys": [
+            {
+                "column": "successful",
+                "references": "author"
+            }
+        ]
+    }
+]

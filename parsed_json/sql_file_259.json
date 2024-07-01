@@ -1,0 +1,149 @@
+[
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "far",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "own",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "far",
+        "foreign_keys": [
+            {
+                "column": "far",
+                "references": "environment"
+            }
+        ]
+    },
+    {
+        "name": "environment",
+        "columns": [
+            {
+                "name": "window",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "window",
+        "foreign_keys": [
+            {
+                "column": "window",
+                "references": "medical"
+            }
+        ]
+    },
+    {
+        "name": "medical",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "director",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "high",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "nature"
+            }
+        ]
+    },
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "late",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "on"
+            }
+        ]
+    },
+    {
+        "name": "on",
+        "columns": [
+            {
+                "name": "work",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leave",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "work",
+        "foreign_keys": [
+            {
+                "column": "work",
+                "references": "sense"
+            }
+        ]
+    },
+    {
+        "name": "sense",
+        "columns": [
+            {
+                "name": "spring",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "spring",
+        "foreign_keys": [
+            {
+                "column": "spring",
+                "references": "onto"
+            }
+        ]
+    }
+]

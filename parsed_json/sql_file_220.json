@@ -1,0 +1,225 @@
+[
+    {
+        "name": "tend",
+        "columns": [
+            {
+                "name": "it",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "technology",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "it",
+        "foreign_keys": [
+            {
+                "column": "it",
+                "references": "administration"
+            }
+        ]
+    },
+    {
+        "name": "administration",
+        "columns": [
+            {
+                "name": "woman",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "woman",
+        "foreign_keys": [
+            {
+                "column": "woman",
+                "references": "back"
+            }
+        ]
+    },
+    {
+        "name": "back",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "data"
+            }
+        ]
+    },
+    {
+        "name": "data",
+        "columns": [
+            {
+                "name": "such",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "such",
+        "foreign_keys": [
+            {
+                "column": "such",
+                "references": "teach"
+            }
+        ]
+    },
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "more",
+        "foreign_keys": [
+            {
+                "column": "more",
+                "references": "ago"
+            }
+        ]
+    },
+    {
+        "name": "ago",
+        "columns": [
+            {
+                "name": "word",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "word",
+        "foreign_keys": [
+            {
+                "column": "word",
+                "references": "nearly"
+            }
+        ]
+    },
+    {
+        "name": "nearly",
+        "columns": [
+            {
+                "name": "great",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stay",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "anyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "great",
+        "foreign_keys": [
+            {
+                "column": "great",
+                "references": "really"
+            }
+        ]
+    },
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "concern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "concern",
+        "foreign_keys": [
+            {
+                "column": "concern",
+                "references": "account"
+            }
+        ]
+    },
+    {
+        "name": "account",
+        "columns": [
+            {
+                "name": "listen",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "listen",
+        "foreign_keys": [
+            {
+                "column": "listen",
+                "references": "tend"
+            }
+        ]
+    }
+]

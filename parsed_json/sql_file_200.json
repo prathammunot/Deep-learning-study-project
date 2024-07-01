@@ -1,0 +1,274 @@
+[
+    {
+        "name": "exactly",
+        "columns": [
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "become"
+            }
+        ]
+    },
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "lose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lose",
+        "foreign_keys": [
+            {
+                "column": "lose",
+                "references": "pick"
+            }
+        ]
+    },
+    {
+        "name": "pick",
+        "columns": [
+            {
+                "name": "yard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yard",
+        "foreign_keys": [
+            {
+                "column": "yard",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "Congress",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Congress",
+        "foreign_keys": [
+            {
+                "column": "Congress",
+                "references": "example"
+            }
+        ]
+    },
+    {
+        "name": "example",
+        "columns": [
+            {
+                "name": "join",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "join",
+        "foreign_keys": [
+            {
+                "column": "join",
+                "references": "land"
+            }
+        ]
+    },
+    {
+        "name": "land",
+        "columns": [
+            {
+                "name": "picture",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "or",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "picture",
+        "foreign_keys": [
+            {
+                "column": "picture",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quite",
+        "foreign_keys": [
+            {
+                "column": "quite",
+                "references": "sit"
+            }
+        ]
+    },
+    {
+        "name": "sit",
+        "columns": [
+            {
+                "name": "wind",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "push",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wind",
+        "foreign_keys": [
+            {
+                "column": "wind",
+                "references": "explain"
+            }
+        ]
+    },
+    {
+        "name": "explain",
+        "columns": [
+            {
+                "name": "find",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "find",
+        "foreign_keys": [
+            {
+                "column": "find",
+                "references": "become"
+            }
+        ]
+    },
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "present",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "present",
+        "foreign_keys": [
+            {
+                "column": "present",
+                "references": "market"
+            }
+        ]
+    },
+    {
+        "name": "market",
+        "columns": [
+            {
+                "name": "specific",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "specific",
+        "foreign_keys": [
+            {
+                "column": "specific",
+                "references": "exactly"
+            }
+        ]
+    }
+]

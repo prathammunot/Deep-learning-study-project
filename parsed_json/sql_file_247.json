@@ -1,0 +1,149 @@
+[
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "peace",
+        "foreign_keys": [
+            {
+                "column": "peace",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "local",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "local",
+        "foreign_keys": [
+            {
+                "column": "local",
+                "references": "can"
+            }
+        ]
+    },
+    {
+        "name": "can",
+        "columns": [
+            {
+                "name": "seek",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seek",
+        "foreign_keys": [
+            {
+                "column": "seek",
+                "references": "society"
+            }
+        ]
+    },
+    {
+        "name": "society",
+        "columns": [
+            {
+                "name": "entire",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "entire",
+        "foreign_keys": [
+            {
+                "column": "entire",
+                "references": "on"
+            }
+        ]
+    },
+    {
+        "name": "on",
+        "columns": [
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "drive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tough",
+        "foreign_keys": [
+            {
+                "column": "tough",
+                "references": "produce"
+            }
+        ]
+    },
+    {
+        "name": "produce",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "late"
+            }
+        ]
+    }
+]

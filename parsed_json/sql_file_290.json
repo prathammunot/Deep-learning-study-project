@@ -1,0 +1,247 @@
+[
+    {
+        "name": "team",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "face"
+            }
+        ]
+    },
+    {
+        "name": "face",
+        "columns": [
+            {
+                "name": "design",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hard",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "design",
+        "foreign_keys": [
+            {
+                "column": "design",
+                "references": "walk"
+            }
+        ]
+    },
+    {
+        "name": "walk",
+        "columns": [
+            {
+                "name": "blood",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "blood",
+        "foreign_keys": [
+            {
+                "column": "blood",
+                "references": "adult"
+            }
+        ]
+    },
+    {
+        "name": "adult",
+        "columns": [
+            {
+                "name": "save",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "resource",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "save",
+        "foreign_keys": [
+            {
+                "column": "save",
+                "references": "cover"
+            }
+        ]
+    },
+    {
+        "name": "cover",
+        "columns": [
+            {
+                "name": "police",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "police",
+        "foreign_keys": [
+            {
+                "column": "police",
+                "references": "bit"
+            }
+        ]
+    },
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "the"
+            }
+        ]
+    },
+    {
+        "name": "the",
+        "columns": [
+            {
+                "name": "most",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "most",
+        "foreign_keys": [
+            {
+                "column": "most",
+                "references": "material"
+            }
+        ]
+    },
+    {
+        "name": "material",
+        "columns": [
+            {
+                "name": "it",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "it",
+        "foreign_keys": [
+            {
+                "column": "it",
+                "references": "role"
+            }
+        ]
+    },
+    {
+        "name": "role",
+        "columns": [
+            {
+                "name": "large",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "large",
+        "foreign_keys": [
+            {
+                "column": "large",
+                "references": "main"
+            }
+        ]
+    },
+    {
+        "name": "main",
+        "columns": [
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trial",
+        "foreign_keys": [
+            {
+                "column": "trial",
+                "references": "team"
+            }
+        ]
+    }
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "name": "because",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "coach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "hope"
+            }
+        ]
+    },
+    {
+        "name": "hope",
+        "columns": [
+            {
+                "name": "important",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "important",
+        "foreign_keys": [
+            {
+                "column": "important",
+                "references": "foot"
+            }
+        ]
+    },
+    {
+        "name": "foot",
+        "columns": [
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agreement",
+        "foreign_keys": [
+            {
+                "column": "agreement",
+                "references": "grow"
+            }
+        ]
+    },
+    {
+        "name": "grow",
+        "columns": [
+            {
+                "name": "catch",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "catch",
+        "foreign_keys": [
+            {
+                "column": "catch",
+                "references": "compare"
+            }
+        ]
+    },
+    {
+        "name": "compare",
+        "columns": [
+            {
+                "name": "nearly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "day",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nearly",
+        "foreign_keys": [
+            {
+                "column": "nearly",
+                "references": "find"
+            }
+        ]
+    },
+    {
+        "name": "find",
+        "columns": [
+            {
+                "name": "speech",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "speech",
+        "foreign_keys": [
+            {
+                "column": "speech",
+                "references": "require"
+            }
+        ]
+    },
+    {
+        "name": "require",
+        "columns": [
+            {
+                "name": "information",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "they",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "they",
+        "foreign_keys": [
+            {
+                "column": "they",
+                "references": "reflect"
+            }
+        ]
+    },
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "force",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "simple"
+            }
+        ]
+    },
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "space",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "song"
+            }
+        ]
+    },
+    {
+        "name": "song",
+        "columns": [
+            {
+                "name": "we",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "we",
+        "foreign_keys": [
+            {
+                "column": "we",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "develop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "develop",
+        "foreign_keys": [
+            {
+                "column": "develop",
+                "references": "because"
+            }
+        ]
+    }
+]

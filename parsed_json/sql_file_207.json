@@ -1,0 +1,274 @@
+[
+    {
+        "name": "success",
+        "columns": [
+            {
+                "name": "movement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "west",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movement",
+        "foreign_keys": [
+            {
+                "column": "movement",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "account"
+            }
+        ]
+    },
+    {
+        "name": "account",
+        "columns": [
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everybody",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "their",
+        "foreign_keys": [
+            {
+                "column": "their",
+                "references": "something"
+            }
+        ]
+    },
+    {
+        "name": "something",
+        "columns": [
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "never",
+        "foreign_keys": [
+            {
+                "column": "never",
+                "references": "class"
+            }
+        ]
+    },
+    {
+        "name": "class",
+        "columns": [
+            {
+                "name": "today",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "today",
+        "foreign_keys": [
+            {
+                "column": "today",
+                "references": "along"
+            }
+        ]
+    },
+    {
+        "name": "along",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "nearly"
+            }
+        ]
+    },
+    {
+        "name": "nearly",
+        "columns": [
+            {
+                "name": "yard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yard",
+        "foreign_keys": [
+            {
+                "column": "yard",
+                "references": "common"
+            }
+        ]
+    },
+    {
+        "name": "common",
+        "columns": [
+            {
+                "name": "despite",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "despite",
+        "foreign_keys": [
+            {
+                "column": "despite",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fund",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "painting"
+            }
+        ]
+    },
+    {
+        "name": "painting",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "space"
+            }
+        ]
+    },
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "central",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wrong",
+        "foreign_keys": [
+            {
+                "column": "wrong",
+                "references": "success"
+            }
+        ]
+    }
+]

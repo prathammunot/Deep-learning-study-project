@@ -1,0 +1,247 @@
+[
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "choose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "choose",
+        "foreign_keys": [
+            {
+                "column": "choose",
+                "references": "point"
+            }
+        ]
+    },
+    {
+        "name": "point",
+        "columns": [
+            {
+                "name": "room",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "room",
+        "foreign_keys": [
+            {
+                "column": "room",
+                "references": "scientist"
+            }
+        ]
+    },
+    {
+        "name": "scientist",
+        "columns": [
+            {
+                "name": "young",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "field",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "young",
+        "foreign_keys": [
+            {
+                "column": "young",
+                "references": "wrong"
+            }
+        ]
+    },
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "matter"
+            }
+        ]
+    },
+    {
+        "name": "matter",
+        "columns": [
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "specific",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hotel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sit",
+        "foreign_keys": [
+            {
+                "column": "sit",
+                "references": "candidate"
+            }
+        ]
+    },
+    {
+        "name": "candidate",
+        "columns": [
+            {
+                "name": "finish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "finish",
+        "foreign_keys": [
+            {
+                "column": "finish",
+                "references": "upon"
+            }
+        ]
+    },
+    {
+        "name": "upon",
+        "columns": [
+            {
+                "name": "program",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "program",
+        "foreign_keys": [
+            {
+                "column": "program",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "agreement"
+            }
+        ]
+    },
+    {
+        "name": "agreement",
+        "columns": [
+            {
+                "name": "front",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "movement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "front",
+        "foreign_keys": [
+            {
+                "column": "front",
+                "references": "employee"
+            }
+        ]
+    },
+    {
+        "name": "employee",
+        "columns": [
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "husband",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "western",
+        "foreign_keys": [
+            {
+                "column": "western",
+                "references": "fill"
+            }
+        ]
+    }
+]

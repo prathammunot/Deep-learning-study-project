@@ -1,0 +1,274 @@
+[
+    {
+        "name": "seven",
+        "columns": [
+            {
+                "name": "ability",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ability",
+        "foreign_keys": [
+            {
+                "column": "ability",
+                "references": "science"
+            }
+        ]
+    },
+    {
+        "name": "science",
+        "columns": [
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "task",
+        "foreign_keys": [
+            {
+                "column": "task",
+                "references": "blood"
+            }
+        ]
+    },
+    {
+        "name": "blood",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "would"
+            }
+        ]
+    },
+    {
+        "name": "would",
+        "columns": [
+            {
+                "name": "manager",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "security",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "manager",
+        "foreign_keys": [
+            {
+                "column": "manager",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "section",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "section",
+        "foreign_keys": [
+            {
+                "column": "section",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "skill",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "skill",
+        "foreign_keys": [
+            {
+                "column": "skill",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "compare",
+        "foreign_keys": [
+            {
+                "column": "compare",
+                "references": "necessary"
+            }
+        ]
+    },
+    {
+        "name": "necessary",
+        "columns": [
+            {
+                "name": "job",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "herself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "job",
+        "foreign_keys": [
+            {
+                "column": "job",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "player",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "player",
+        "foreign_keys": [
+            {
+                "column": "player",
+                "references": "specific"
+            }
+        ]
+    },
+    {
+        "name": "specific",
+        "columns": [
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "only",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "wear"
+            }
+        ]
+    },
+    {
+        "name": "wear",
+        "columns": [
+            {
+                "name": "ball",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "language",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ball",
+        "foreign_keys": [
+            {
+                "column": "ball",
+                "references": "seven"
+            }
+        ]
+    }
+]

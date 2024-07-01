@@ -1,0 +1,149 @@
+[
+    {
+        "name": "safe",
+        "columns": [
+            {
+                "name": "increase",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "enjoy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "increase",
+        "foreign_keys": [
+            {
+                "column": "increase",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "draw",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "current",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "draw",
+        "foreign_keys": [
+            {
+                "column": "draw",
+                "references": "turn"
+            }
+        ]
+    },
+    {
+        "name": "turn",
+        "columns": [
+            {
+                "name": "fall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fall",
+        "foreign_keys": [
+            {
+                "column": "fall",
+                "references": "deal"
+            }
+        ]
+    },
+    {
+        "name": "deal",
+        "columns": [
+            {
+                "name": "next",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "claim"
+            }
+        ]
+    },
+    {
+        "name": "claim",
+        "columns": [
+            {
+                "name": "may",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "may",
+        "foreign_keys": [
+            {
+                "column": "may",
+                "references": "maintain"
+            }
+        ]
+    },
+    {
+        "name": "maintain",
+        "columns": [
+            {
+                "name": "cut",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "data",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cut",
+        "foreign_keys": [
+            {
+                "column": "cut",
+                "references": "safe"
+            }
+        ]
+    }
+]

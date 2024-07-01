@@ -1,0 +1,198 @@
+[
+    {
+        "name": "same",
+        "columns": [
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "development",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agreement",
+        "foreign_keys": [
+            {
+                "column": "agreement",
+                "references": "might"
+            }
+        ]
+    },
+    {
+        "name": "might",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "with",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "work",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "with",
+        "foreign_keys": [
+            {
+                "column": "with",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "accept",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "accept",
+        "foreign_keys": [
+            {
+                "column": "accept",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "share",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "share",
+        "foreign_keys": [
+            {
+                "column": "share",
+                "references": "almost"
+            }
+        ]
+    },
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "family"
+            }
+        ]
+    },
+    {
+        "name": "family",
+        "columns": [
+            {
+                "name": "form",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "form",
+        "foreign_keys": [
+            {
+                "column": "form",
+                "references": "outside"
+            }
+        ]
+    },
+    {
+        "name": "outside",
+        "columns": [
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "same"
+            }
+        ]
+    }
+]

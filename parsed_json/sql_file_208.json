@@ -1,0 +1,225 @@
+[
+    {
+        "name": "source",
+        "columns": [
+            {
+                "name": "big",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "form",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "sell"
+            }
+        ]
+    },
+    {
+        "name": "sell",
+        "columns": [
+            {
+                "name": "dinner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "subject",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dinner",
+        "foreign_keys": [
+            {
+                "column": "dinner",
+                "references": "drop"
+            }
+        ]
+    },
+    {
+        "name": "drop",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "while"
+            }
+        ]
+    },
+    {
+        "name": "while",
+        "columns": [
+            {
+                "name": "mention",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mention",
+        "foreign_keys": [
+            {
+                "column": "mention",
+                "references": "line"
+            }
+        ]
+    },
+    {
+        "name": "line",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "forward"
+            }
+        ]
+    },
+    {
+        "name": "forward",
+        "columns": [
+            {
+                "name": "bit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bit",
+        "foreign_keys": [
+            {
+                "column": "bit",
+                "references": "realize"
+            }
+        ]
+    },
+    {
+        "name": "realize",
+        "columns": [
+            {
+                "name": "two",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "two",
+        "foreign_keys": [
+            {
+                "column": "two",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "water",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "water",
+        "foreign_keys": [
+            {
+                "column": "water",
+                "references": "source"
+            }
+        ]
+    }
+]

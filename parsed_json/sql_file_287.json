@@ -1,0 +1,225 @@
+[
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "paper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "security",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "paper",
+        "foreign_keys": [
+            {
+                "column": "paper",
+                "references": "voice"
+            }
+        ]
+    },
+    {
+        "name": "voice",
+        "columns": [
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "with",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "above",
+        "foreign_keys": [
+            {
+                "column": "above",
+                "references": "economic"
+            }
+        ]
+    },
+    {
+        "name": "economic",
+        "columns": [
+            {
+                "name": "three",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "three",
+        "foreign_keys": [
+            {
+                "column": "three",
+                "references": "remain"
+            }
+        ]
+    },
+    {
+        "name": "remain",
+        "columns": [
+            {
+                "name": "wish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wish",
+        "foreign_keys": [
+            {
+                "column": "wish",
+                "references": "sort"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "smile",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "smile",
+        "foreign_keys": [
+            {
+                "column": "smile",
+                "references": "administration"
+            }
+        ]
+    },
+    {
+        "name": "administration",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "page"
+            }
+        ]
+    },
+    {
+        "name": "page",
+        "columns": [
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agreement",
+        "foreign_keys": [
+            {
+                "column": "agreement",
+                "references": "decide"
+            }
+        ]
+    },
+    {
+        "name": "decide",
+        "columns": [
+            {
+                "name": "away",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "believe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "away",
+        "foreign_keys": [
+            {
+                "column": "away",
+                "references": "effect"
+            }
+        ]
+    },
+    {
+        "name": "effect",
+        "columns": [
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "system",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suggest",
+        "foreign_keys": [
+            {
+                "column": "suggest",
+                "references": "job"
+            }
+        ]
+    }
+]

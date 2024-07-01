@@ -1,0 +1,225 @@
+[
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "red",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "soldier"
+            }
+        ]
+    },
+    {
+        "name": "soldier",
+        "columns": [
+            {
+                "name": "popular",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "answer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "popular",
+        "foreign_keys": [
+            {
+                "column": "popular",
+                "references": "culture"
+            }
+        ]
+    },
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "cut",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cut",
+        "foreign_keys": [
+            {
+                "column": "cut",
+                "references": "senior"
+            }
+        ]
+    },
+    {
+        "name": "senior",
+        "columns": [
+            {
+                "name": "exist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "better",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "exist",
+        "foreign_keys": [
+            {
+                "column": "exist",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "evidence"
+            }
+        ]
+    },
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "top",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "top",
+        "foreign_keys": [
+            {
+                "column": "top",
+                "references": "draw"
+            }
+        ]
+    },
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "truth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "artist"
+            }
+        ]
+    },
+    {
+        "name": "artist",
+        "columns": [
+            {
+                "name": "myself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "myself",
+        "foreign_keys": [
+            {
+                "column": "myself",
+                "references": "defense"
+            }
+        ]
+    },
+    {
+        "name": "defense",
+        "columns": [
+            {
+                "name": "high",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "draw"
+            }
+        ]
+    }
+]

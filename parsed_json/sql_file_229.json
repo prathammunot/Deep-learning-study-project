@@ -1,0 +1,225 @@
+[
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cover",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "effect"
+            }
+        ]
+    },
+    {
+        "name": "effect",
+        "columns": [
+            {
+                "name": "share",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "share",
+        "foreign_keys": [
+            {
+                "column": "share",
+                "references": "treat"
+            }
+        ]
+    },
+    {
+        "name": "treat",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "artist"
+            }
+        ]
+    },
+    {
+        "name": "artist",
+        "columns": [
+            {
+                "name": "together",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "a",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "together",
+        "foreign_keys": [
+            {
+                "column": "together",
+                "references": "huge"
+            }
+        ]
+    },
+    {
+        "name": "huge",
+        "columns": [
+            {
+                "name": "her",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "her",
+        "foreign_keys": [
+            {
+                "column": "her",
+                "references": "chair"
+            }
+        ]
+    },
+    {
+        "name": "chair",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sometimes",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "big"
+            }
+        ]
+    },
+    {
+        "name": "big",
+        "columns": [
+            {
+                "name": "particularly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "affect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "particularly",
+        "foreign_keys": [
+            {
+                "column": "particularly",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "magazine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "magazine",
+        "foreign_keys": [
+            {
+                "column": "magazine",
+                "references": "country"
+            }
+        ]
+    },
+    {
+        "name": "country",
+        "columns": [
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "drug",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "almost"
+            }
+        ]
+    }
+]

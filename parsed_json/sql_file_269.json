@@ -1,0 +1,225 @@
+[
+    {
+        "name": "area",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "word",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "voice"
+            }
+        ]
+    },
+    {
+        "name": "voice",
+        "columns": [
+            {
+                "name": "worker",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "worker",
+        "foreign_keys": [
+            {
+                "column": "worker",
+                "references": "important"
+            }
+        ]
+    },
+    {
+        "name": "important",
+        "columns": [
+            {
+                "name": "walk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "walk",
+        "foreign_keys": [
+            {
+                "column": "walk",
+                "references": "stage"
+            }
+        ]
+    },
+    {
+        "name": "stage",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "professional"
+            }
+        ]
+    },
+    {
+        "name": "professional",
+        "columns": [
+            {
+                "name": "by",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "by",
+        "foreign_keys": [
+            {
+                "column": "by",
+                "references": "whole"
+            }
+        ]
+    },
+    {
+        "name": "whole",
+        "columns": [
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "place",
+        "foreign_keys": [
+            {
+                "column": "place",
+                "references": "phone"
+            }
+        ]
+    },
+    {
+        "name": "phone",
+        "columns": [
+            {
+                "name": "large",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "large",
+        "foreign_keys": [
+            {
+                "column": "large",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cover",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "later",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "later",
+        "foreign_keys": [
+            {
+                "column": "later",
+                "references": "area"
+            }
+        ]
+    }
+]

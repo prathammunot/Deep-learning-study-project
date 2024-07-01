@@ -1,0 +1,198 @@
+[
+    {
+        "name": "senior",
+        "columns": [
+            {
+                "name": "artist",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "artist",
+        "foreign_keys": [
+            {
+                "column": "artist",
+                "references": "money"
+            }
+        ]
+    },
+    {
+        "name": "money",
+        "columns": [
+            {
+                "name": "fish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "discuss",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fish",
+        "foreign_keys": [
+            {
+                "column": "fish",
+                "references": "we"
+            }
+        ]
+    },
+    {
+        "name": "we",
+        "columns": [
+            {
+                "name": "experience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "experience",
+        "foreign_keys": [
+            {
+                "column": "experience",
+                "references": "serious"
+            }
+        ]
+    },
+    {
+        "name": "serious",
+        "columns": [
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "close"
+            }
+        ]
+    },
+    {
+        "name": "close",
+        "columns": [
+            {
+                "name": "very",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "very",
+        "foreign_keys": [
+            {
+                "column": "very",
+                "references": "hand"
+            }
+        ]
+    },
+    {
+        "name": "hand",
+        "columns": [
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "with",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "price"
+            }
+        ]
+    },
+    {
+        "name": "price",
+        "columns": [
+            {
+                "name": "stay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stay",
+        "foreign_keys": [
+            {
+                "column": "stay",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "season",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "determine",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "season",
+        "foreign_keys": [
+            {
+                "column": "season",
+                "references": "senior"
+            }
+        ]
+    }
+]

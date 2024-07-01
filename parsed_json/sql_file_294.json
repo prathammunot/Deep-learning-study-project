@@ -1,0 +1,296 @@
+[
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "their",
+        "foreign_keys": [
+            {
+                "column": "their",
+                "references": "send"
+            }
+        ]
+    },
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "development",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "college",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "development",
+        "foreign_keys": [
+            {
+                "column": "development",
+                "references": "third"
+            }
+        ]
+    },
+    {
+        "name": "third",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "recent"
+            }
+        ]
+    },
+    {
+        "name": "recent",
+        "columns": [
+            {
+                "name": "reality",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reality",
+        "foreign_keys": [
+            {
+                "column": "reality",
+                "references": "pick"
+            }
+        ]
+    },
+    {
+        "name": "pick",
+        "columns": [
+            {
+                "name": "cut",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cut",
+        "foreign_keys": [
+            {
+                "column": "cut",
+                "references": "around"
+            }
+        ]
+    },
+    {
+        "name": "around",
+        "columns": [
+            {
+                "name": "cultural",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cultural",
+        "foreign_keys": [
+            {
+                "column": "cultural",
+                "references": "hit"
+            }
+        ]
+    },
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "first",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "first",
+        "foreign_keys": [
+            {
+                "column": "first",
+                "references": "character"
+            }
+        ]
+    },
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "response",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "response",
+        "foreign_keys": [
+            {
+                "column": "response",
+                "references": "government"
+            }
+        ]
+    },
+    {
+        "name": "government",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "use"
+            }
+        ]
+    },
+    {
+        "name": "use",
+        "columns": [
+            {
+                "name": "either",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "either",
+        "foreign_keys": [
+            {
+                "column": "either",
+                "references": "spring"
+            }
+        ]
+    },
+    {
+        "name": "spring",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environmental",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "avoid"
+            }
+        ]
+    },
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "country",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "country",
+        "foreign_keys": [
+            {
+                "column": "country",
+                "references": "perform"
+            }
+        ]
+    }
+]

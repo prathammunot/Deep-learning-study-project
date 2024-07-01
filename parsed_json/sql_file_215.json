@@ -1,0 +1,225 @@
+[
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "someone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "someone",
+        "foreign_keys": [
+            {
+                "column": "someone",
+                "references": "explain"
+            }
+        ]
+    },
+    {
+        "name": "explain",
+        "columns": [
+            {
+                "name": "them",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "them",
+        "foreign_keys": [
+            {
+                "column": "them",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "bring",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bring",
+        "foreign_keys": [
+            {
+                "column": "bring",
+                "references": "long"
+            }
+        ]
+    },
+    {
+        "name": "long",
+        "columns": [
+            {
+                "name": "bar",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bar",
+        "foreign_keys": [
+            {
+                "column": "bar",
+                "references": "third"
+            }
+        ]
+    },
+    {
+        "name": "third",
+        "columns": [
+            {
+                "name": "officer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hotel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "officer",
+        "foreign_keys": [
+            {
+                "column": "officer",
+                "references": "character"
+            }
+        ]
+    },
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "interest",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "interest",
+        "foreign_keys": [
+            {
+                "column": "interest",
+                "references": "art"
+            }
+        ]
+    },
+    {
+        "name": "art",
+        "columns": [
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "end",
+        "foreign_keys": [
+            {
+                "column": "end",
+                "references": "air"
+            }
+        ]
+    },
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "response",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "response",
+        "foreign_keys": [
+            {
+                "column": "response",
+                "references": "reflect"
+            }
+        ]
+    },
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eye",
+        "foreign_keys": [
+            {
+                "column": "eye",
+                "references": "way"
+            }
+        ]
+    }
+]

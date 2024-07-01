@@ -1,0 +1,176 @@
+[
+    {
+        "name": "him",
+        "columns": [
+            {
+                "name": "call",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "central",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "call",
+        "foreign_keys": [
+            {
+                "column": "call",
+                "references": "quite"
+            }
+        ]
+    },
+    {
+        "name": "quite",
+        "columns": [
+            {
+                "name": "case",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "case",
+        "foreign_keys": [
+            {
+                "column": "case",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "responsibility",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "responsibility",
+        "foreign_keys": [
+            {
+                "column": "responsibility",
+                "references": "executive"
+            }
+        ]
+    },
+    {
+        "name": "executive",
+        "columns": [
+            {
+                "name": "require",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "example",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "require",
+        "foreign_keys": [
+            {
+                "column": "require",
+                "references": "southern"
+            }
+        ]
+    },
+    {
+        "name": "southern",
+        "columns": [
+            {
+                "name": "my",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "my",
+        "foreign_keys": [
+            {
+                "column": "my",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "matter",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "matter",
+        "foreign_keys": [
+            {
+                "column": "matter",
+                "references": "ahead"
+            }
+        ]
+    },
+    {
+        "name": "ahead",
+        "columns": [
+            {
+                "name": "few",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "few",
+        "foreign_keys": [
+            {
+                "column": "few",
+                "references": "him"
+            }
+        ]
+    }
+]

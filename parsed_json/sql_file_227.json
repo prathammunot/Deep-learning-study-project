@@ -1,0 +1,127 @@
+[
+    {
+        "name": "thus",
+        "columns": [
+            {
+                "name": "move",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "move",
+        "foreign_keys": [
+            {
+                "column": "move",
+                "references": "almost"
+            }
+        ]
+    },
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "police",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "police",
+        "foreign_keys": [
+            {
+                "column": "police",
+                "references": "risk"
+            }
+        ]
+    },
+    {
+        "name": "risk",
+        "columns": [
+            {
+                "name": "appear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "appear",
+        "foreign_keys": [
+            {
+                "column": "appear",
+                "references": "everything"
+            }
+        ]
+    },
+    {
+        "name": "everything",
+        "columns": [
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wife",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seem",
+        "foreign_keys": [
+            {
+                "column": "seem",
+                "references": "teach"
+            }
+        ]
+    },
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "course",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "course",
+        "foreign_keys": [
+            {
+                "column": "course",
+                "references": "thus"
+            }
+        ]
+    }
+]

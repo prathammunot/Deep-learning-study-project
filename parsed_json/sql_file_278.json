@@ -1,0 +1,247 @@
+[
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "and",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "and",
+        "foreign_keys": [
+            {
+                "column": "and",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "author",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "environment"
+            }
+        ]
+    },
+    {
+        "name": "environment",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "how",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "head",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trip",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "how",
+        "foreign_keys": [
+            {
+                "column": "how",
+                "references": "imagine"
+            }
+        ]
+    },
+    {
+        "name": "imagine",
+        "columns": [
+            {
+                "name": "beyond",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "student",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beyond",
+        "foreign_keys": [
+            {
+                "column": "beyond",
+                "references": "indeed"
+            }
+        ]
+    },
+    {
+        "name": "indeed",
+        "columns": [
+            {
+                "name": "development",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "development",
+        "foreign_keys": [
+            {
+                "column": "development",
+                "references": "take"
+            }
+        ]
+    },
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "trial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hope",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trial",
+        "foreign_keys": [
+            {
+                "column": "trial",
+                "references": "right"
+            }
+        ]
+    },
+    {
+        "name": "right",
+        "columns": [
+            {
+                "name": "deep",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deep",
+        "foreign_keys": [
+            {
+                "column": "deep",
+                "references": "into"
+            }
+        ]
+    }
+]

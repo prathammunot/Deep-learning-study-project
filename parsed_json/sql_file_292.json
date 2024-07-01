@@ -1,0 +1,225 @@
+[
+    {
+        "name": "memory",
+        "columns": [
+            {
+                "name": "hand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "strategy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hand",
+        "foreign_keys": [
+            {
+                "column": "hand",
+                "references": "eye"
+            }
+        ]
+    },
+    {
+        "name": "eye",
+        "columns": [
+            {
+                "name": "skin",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "skin",
+        "foreign_keys": [
+            {
+                "column": "skin",
+                "references": "number"
+            }
+        ]
+    },
+    {
+        "name": "number",
+        "columns": [
+            {
+                "name": "step",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "arrive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "step",
+        "foreign_keys": [
+            {
+                "column": "step",
+                "references": "run"
+            }
+        ]
+    },
+    {
+        "name": "run",
+        "columns": [
+            {
+                "name": "present",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "present",
+        "foreign_keys": [
+            {
+                "column": "present",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "kitchen",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kitchen",
+        "foreign_keys": [
+            {
+                "column": "kitchen",
+                "references": "least"
+            }
+        ]
+    },
+    {
+        "name": "least",
+        "columns": [
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "lead"
+            }
+        ]
+    },
+    {
+        "name": "lead",
+        "columns": [
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "life",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "increase",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "increase",
+        "foreign_keys": [
+            {
+                "column": "increase",
+                "references": "other"
+            }
+        ]
+    },
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cost",
+        "foreign_keys": [
+            {
+                "column": "cost",
+                "references": "memory"
+            }
+        ]
+    }
+]

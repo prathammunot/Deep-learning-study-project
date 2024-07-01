@@ -1,0 +1,296 @@
+[
+    {
+        "name": "seven",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "even"
+            }
+        ]
+    },
+    {
+        "name": "even",
+        "columns": [
+            {
+                "name": "herself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "herself",
+        "foreign_keys": [
+            {
+                "column": "herself",
+                "references": "tend"
+            }
+        ]
+    },
+    {
+        "name": "tend",
+        "columns": [
+            {
+                "name": "accept",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "accept",
+        "foreign_keys": [
+            {
+                "column": "accept",
+                "references": "father"
+            }
+        ]
+    },
+    {
+        "name": "father",
+        "columns": [
+            {
+                "name": "how",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "successful",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "how",
+        "foreign_keys": [
+            {
+                "column": "how",
+                "references": "owner"
+            }
+        ]
+    },
+    {
+        "name": "owner",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "away"
+            }
+        ]
+    },
+    {
+        "name": "away",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "factor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "will"
+            }
+        ]
+    },
+    {
+        "name": "will",
+        "columns": [
+            {
+                "name": "something",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "something",
+        "foreign_keys": [
+            {
+                "column": "something",
+                "references": "reach"
+            }
+        ]
+    },
+    {
+        "name": "reach",
+        "columns": [
+            {
+                "name": "hold",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hold",
+        "foreign_keys": [
+            {
+                "column": "hold",
+                "references": "nothing"
+            }
+        ]
+    },
+    {
+        "name": "nothing",
+        "columns": [
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "win",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "wide"
+            }
+        ]
+    },
+    {
+        "name": "wide",
+        "columns": [
+            {
+                "name": "probably",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "probably",
+        "foreign_keys": [
+            {
+                "column": "probably",
+                "references": "someone"
+            }
+        ]
+    },
+    {
+        "name": "someone",
+        "columns": [
+            {
+                "name": "way",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "heavy"
+            }
+        ]
+    },
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "vote",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "vote",
+        "foreign_keys": [
+            {
+                "column": "vote",
+                "references": "seven"
+            }
+        ]
+    }
+]

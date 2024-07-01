@@ -1,0 +1,149 @@
+[
+    {
+        "name": "bed",
+        "columns": [
+            {
+                "name": "fish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reason",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fish",
+        "foreign_keys": [
+            {
+                "column": "fish",
+                "references": "probably"
+            }
+        ]
+    },
+    {
+        "name": "probably",
+        "columns": [
+            {
+                "name": "dog",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dog",
+        "foreign_keys": [
+            {
+                "column": "dog",
+                "references": "my"
+            }
+        ]
+    },
+    {
+        "name": "my",
+        "columns": [
+            {
+                "name": "account",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "account",
+        "foreign_keys": [
+            {
+                "column": "account",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "its",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "its",
+        "foreign_keys": [
+            {
+                "column": "its",
+                "references": "cut"
+            }
+        ]
+    },
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "across"
+            }
+        ]
+    },
+    {
+        "name": "across",
+        "columns": [
+            {
+                "name": "improve",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "improve",
+        "foreign_keys": [
+            {
+                "column": "improve",
+                "references": "bed"
+            }
+        ]
+    }
+]

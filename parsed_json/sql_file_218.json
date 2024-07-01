@@ -1,0 +1,198 @@
+[
+    {
+        "name": "technology",
+        "columns": [
+            {
+                "name": "should",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "should",
+        "foreign_keys": [
+            {
+                "column": "should",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "free",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "site",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "free",
+        "foreign_keys": [
+            {
+                "column": "free",
+                "references": "student"
+            }
+        ]
+    },
+    {
+        "name": "student",
+        "columns": [
+            {
+                "name": "reach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reach",
+        "foreign_keys": [
+            {
+                "column": "reach",
+                "references": "nearly"
+            }
+        ]
+    },
+    {
+        "name": "nearly",
+        "columns": [
+            {
+                "name": "else",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "these",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "else",
+        "foreign_keys": [
+            {
+                "column": "else",
+                "references": "newspaper"
+            }
+        ]
+    },
+    {
+        "name": "newspaper",
+        "columns": [
+            {
+                "name": "at",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "at",
+        "foreign_keys": [
+            {
+                "column": "at",
+                "references": "individual"
+            }
+        ]
+    },
+    {
+        "name": "individual",
+        "columns": [
+            {
+                "name": "pull",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pull",
+        "foreign_keys": [
+            {
+                "column": "pull",
+                "references": "somebody"
+            }
+        ]
+    },
+    {
+        "name": "somebody",
+        "columns": [
+            {
+                "name": "song",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "song",
+        "foreign_keys": [
+            {
+                "column": "song",
+                "references": "people"
+            }
+        ]
+    },
+    {
+        "name": "people",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "technology"
+            }
+        ]
+    }
+]

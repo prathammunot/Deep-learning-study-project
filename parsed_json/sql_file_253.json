@@ -1,0 +1,247 @@
+[
+    {
+        "name": "world",
+        "columns": [
+            {
+                "name": "budget",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "budget",
+        "foreign_keys": [
+            {
+                "column": "budget",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "experience"
+            }
+        ]
+    },
+    {
+        "name": "experience",
+        "columns": [
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "child",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "run",
+        "foreign_keys": [
+            {
+                "column": "run",
+                "references": "boy"
+            }
+        ]
+    },
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "place",
+        "foreign_keys": [
+            {
+                "column": "place",
+                "references": "amount"
+            }
+        ]
+    },
+    {
+        "name": "amount",
+        "columns": [
+            {
+                "name": "billion",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "billion",
+        "foreign_keys": [
+            {
+                "column": "billion",
+                "references": "former"
+            }
+        ]
+    },
+    {
+        "name": "former",
+        "columns": [
+            {
+                "name": "company",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "company",
+        "foreign_keys": [
+            {
+                "column": "company",
+                "references": "eat"
+            }
+        ]
+    },
+    {
+        "name": "eat",
+        "columns": [
+            {
+                "name": "risk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "risk",
+        "foreign_keys": [
+            {
+                "column": "risk",
+                "references": "beyond"
+            }
+        ]
+    },
+    {
+        "name": "beyond",
+        "columns": [
+            {
+                "name": "nothing",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nothing",
+        "foreign_keys": [
+            {
+                "column": "nothing",
+                "references": "stop"
+            }
+        ]
+    },
+    {
+        "name": "stop",
+        "columns": [
+            {
+                "name": "trade",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trade",
+        "foreign_keys": [
+            {
+                "column": "trade",
+                "references": "test"
+            }
+        ]
+    },
+    {
+        "name": "test",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "at",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "world"
+            }
+        ]
+    }
+]

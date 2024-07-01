@@ -1,0 +1,247 @@
+[
+    {
+        "name": "year",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mrs",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "character"
+            }
+        ]
+    },
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "upon"
+            }
+        ]
+    },
+    {
+        "name": "upon",
+        "columns": [
+            {
+                "name": "head",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "head",
+        "foreign_keys": [
+            {
+                "column": "head",
+                "references": "stop"
+            }
+        ]
+    },
+    {
+        "name": "stop",
+        "columns": [
+            {
+                "name": "nothing",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nothing",
+        "foreign_keys": [
+            {
+                "column": "nothing",
+                "references": "near"
+            }
+        ]
+    },
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "believe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "believe",
+        "foreign_keys": [
+            {
+                "column": "believe",
+                "references": "not"
+            }
+        ]
+    },
+    {
+        "name": "not",
+        "columns": [
+            {
+                "name": "which",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "which",
+        "foreign_keys": [
+            {
+                "column": "which",
+                "references": "indeed"
+            }
+        ]
+    },
+    {
+        "name": "indeed",
+        "columns": [
+            {
+                "name": "least",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "least",
+        "foreign_keys": [
+            {
+                "column": "least",
+                "references": "player"
+            }
+        ]
+    },
+    {
+        "name": "player",
+        "columns": [
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "apply"
+            }
+        ]
+    },
+    {
+        "name": "apply",
+        "columns": [
+            {
+                "name": "exist",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exist",
+        "foreign_keys": [
+            {
+                "column": "exist",
+                "references": "blue"
+            }
+        ]
+    },
+    {
+        "name": "blue",
+        "columns": [
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rock",
+        "foreign_keys": [
+            {
+                "column": "rock",
+                "references": "year"
+            }
+        ]
+    }
+]

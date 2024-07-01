@@ -1,0 +1,198 @@
+[
+    {
+        "name": "clear",
+        "columns": [
+            {
+                "name": "total",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "next",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "total",
+        "foreign_keys": [
+            {
+                "column": "total",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "strong",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "strong",
+        "foreign_keys": [
+            {
+                "column": "strong",
+                "references": "deep"
+            }
+        ]
+    },
+    {
+        "name": "deep",
+        "columns": [
+            {
+                "name": "produce",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "produce",
+        "foreign_keys": [
+            {
+                "column": "produce",
+                "references": "answer"
+            }
+        ]
+    },
+    {
+        "name": "answer",
+        "columns": [
+            {
+                "name": "become",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "become",
+        "foreign_keys": [
+            {
+                "column": "become",
+                "references": "whose"
+            }
+        ]
+    },
+    {
+        "name": "whose",
+        "columns": [
+            {
+                "name": "learn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "learn",
+        "foreign_keys": [
+            {
+                "column": "learn",
+                "references": "official"
+            }
+        ]
+    },
+    {
+        "name": "official",
+        "columns": [
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "charge",
+        "foreign_keys": [
+            {
+                "column": "charge",
+                "references": "industry"
+            }
+        ]
+    },
+    {
+        "name": "industry",
+        "columns": [
+            {
+                "name": "grow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "grow",
+        "foreign_keys": [
+            {
+                "column": "grow",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "age",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "clear"
+            }
+        ]
+    }
+]

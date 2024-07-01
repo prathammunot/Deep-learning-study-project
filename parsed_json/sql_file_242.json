@@ -1,0 +1,274 @@
+[
+    {
+        "name": "let",
+        "columns": [
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thing",
+        "foreign_keys": [
+            {
+                "column": "thing",
+                "references": "ability"
+            }
+        ]
+    },
+    {
+        "name": "ability",
+        "columns": [
+            {
+                "name": "decade",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decade",
+        "foreign_keys": [
+            {
+                "column": "decade",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "ok",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "floor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ok",
+        "foreign_keys": [
+            {
+                "column": "ok",
+                "references": "shoulder"
+            }
+        ]
+    },
+    {
+        "name": "shoulder",
+        "columns": [
+            {
+                "name": "true",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "true",
+        "foreign_keys": [
+            {
+                "column": "true",
+                "references": "room"
+            }
+        ]
+    },
+    {
+        "name": "room",
+        "columns": [
+            {
+                "name": "history",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "next",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "number"
+            }
+        ]
+    },
+    {
+        "name": "number",
+        "columns": [
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "address",
+        "foreign_keys": [
+            {
+                "column": "address",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "perhaps",
+        "foreign_keys": [
+            {
+                "column": "perhaps",
+                "references": "sort"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "eye",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "eye",
+        "foreign_keys": [
+            {
+                "column": "eye",
+                "references": "last"
+            }
+        ]
+    },
+    {
+        "name": "last",
+        "columns": [
+            {
+                "name": "share",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "share",
+        "foreign_keys": [
+            {
+                "column": "share",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "fear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fear",
+        "foreign_keys": [
+            {
+                "column": "fear",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "put",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "point",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "put",
+        "foreign_keys": [
+            {
+                "column": "put",
+                "references": "let"
+            }
+        ]
+    }
+]

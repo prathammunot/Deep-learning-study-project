@@ -1,0 +1,296 @@
+[
+    {
+        "name": "light",
+        "columns": [
+            {
+                "name": "detail",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rule",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "college",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "detail",
+        "foreign_keys": [
+            {
+                "column": "detail",
+                "references": "doctor"
+            }
+        ]
+    },
+    {
+        "name": "doctor",
+        "columns": [
+            {
+                "name": "range",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "range",
+        "foreign_keys": [
+            {
+                "column": "range",
+                "references": "little"
+            }
+        ]
+    },
+    {
+        "name": "little",
+        "columns": [
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "loss"
+            }
+        ]
+    },
+    {
+        "name": "loss",
+        "columns": [
+            {
+                "name": "natural",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "natural",
+        "foreign_keys": [
+            {
+                "column": "natural",
+                "references": "rather"
+            }
+        ]
+    },
+    {
+        "name": "rather",
+        "columns": [
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pressure",
+        "foreign_keys": [
+            {
+                "column": "pressure",
+                "references": "can"
+            }
+        ]
+    },
+    {
+        "name": "can",
+        "columns": [
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "safe",
+        "foreign_keys": [
+            {
+                "column": "safe",
+                "references": "in"
+            }
+        ]
+    },
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "its",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "its",
+        "foreign_keys": [
+            {
+                "column": "its",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "nearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "summer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nearly",
+        "foreign_keys": [
+            {
+                "column": "nearly",
+                "references": "everybody"
+            }
+        ]
+    },
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "side",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "side",
+        "foreign_keys": [
+            {
+                "column": "side",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behavior",
+        "foreign_keys": [
+            {
+                "column": "behavior",
+                "references": "task"
+            }
+        ]
+    },
+    {
+        "name": "task",
+        "columns": [
+            {
+                "name": "still",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "still",
+        "foreign_keys": [
+            {
+                "column": "still",
+                "references": "seek"
+            }
+        ]
+    },
+    {
+        "name": "seek",
+        "columns": [
+            {
+                "name": "total",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "total",
+        "foreign_keys": [
+            {
+                "column": "total",
+                "references": "light"
+            }
+        ]
+    }
+]

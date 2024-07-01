@@ -1,0 +1,296 @@
+[
+    {
+        "name": "never",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "event"
+            }
+        ]
+    },
+    {
+        "name": "event",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deep",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "eat"
+            }
+        ]
+    },
+    {
+        "name": "eat",
+        "columns": [
+            {
+                "name": "test",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "test",
+        "foreign_keys": [
+            {
+                "column": "test",
+                "references": "if"
+            }
+        ]
+    },
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "house",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "house",
+        "foreign_keys": [
+            {
+                "column": "house",
+                "references": "they"
+            }
+        ]
+    },
+    {
+        "name": "they",
+        "columns": [
+            {
+                "name": "behind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "be",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "behind",
+        "foreign_keys": [
+            {
+                "column": "behind",
+                "references": "knowledge"
+            }
+        ]
+    },
+    {
+        "name": "knowledge",
+        "columns": [
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "decision",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decision",
+        "foreign_keys": [
+            {
+                "column": "decision",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "leg",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leg",
+        "foreign_keys": [
+            {
+                "column": "leg",
+                "references": "probably"
+            }
+        ]
+    },
+    {
+        "name": "probably",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "system"
+            }
+        ]
+    },
+    {
+        "name": "system",
+        "columns": [
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "market",
+        "foreign_keys": [
+            {
+                "column": "market",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "entire",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "issue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "entire",
+        "foreign_keys": [
+            {
+                "column": "entire",
+                "references": "act"
+            }
+        ]
+    },
+    {
+        "name": "act",
+        "columns": [
+            {
+                "name": "into",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "into",
+        "foreign_keys": [
+            {
+                "column": "into",
+                "references": "never"
+            }
+        ]
+    }
+]

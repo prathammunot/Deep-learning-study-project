@@ -1,0 +1,274 @@
+[
+    {
+        "name": "white",
+        "columns": [
+            {
+                "name": "first",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "first",
+        "foreign_keys": [
+            {
+                "column": "first",
+                "references": "rule"
+            }
+        ]
+    },
+    {
+        "name": "rule",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "financial"
+            }
+        ]
+    },
+    {
+        "name": "financial",
+        "columns": [
+            {
+                "name": "move",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "offer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "move",
+        "foreign_keys": [
+            {
+                "column": "move",
+                "references": "cup"
+            }
+        ]
+    },
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "may",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "financial",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "may",
+        "foreign_keys": [
+            {
+                "column": "may",
+                "references": "reduce"
+            }
+        ]
+    },
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "onto",
+        "foreign_keys": [
+            {
+                "column": "onto",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "idea",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "old",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "idea",
+        "foreign_keys": [
+            {
+                "column": "idea",
+                "references": "never"
+            }
+        ]
+    },
+    {
+        "name": "never",
+        "columns": [
+            {
+                "name": "all",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "all",
+        "foreign_keys": [
+            {
+                "column": "all",
+                "references": "chance"
+            }
+        ]
+    },
+    {
+        "name": "chance",
+        "columns": [
+            {
+                "name": "although",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "although",
+        "foreign_keys": [
+            {
+                "column": "although",
+                "references": "ask"
+            }
+        ]
+    },
+    {
+        "name": "ask",
+        "columns": [
+            {
+                "name": "between",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "star",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "between",
+        "foreign_keys": [
+            {
+                "column": "between",
+                "references": "the"
+            }
+        ]
+    },
+    {
+        "name": "the",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "group"
+            }
+        ]
+    },
+    {
+        "name": "group",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "white"
+            }
+        ]
+    }
+]

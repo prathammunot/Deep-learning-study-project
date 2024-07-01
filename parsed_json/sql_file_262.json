@@ -1,0 +1,247 @@
+[
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "term",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "Mr"
+            }
+        ]
+    },
+    {
+        "name": "Mr",
+        "columns": [
+            {
+                "name": "oil",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "oil",
+        "foreign_keys": [
+            {
+                "column": "oil",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dinner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "old"
+            }
+        ]
+    },
+    {
+        "name": "old",
+        "columns": [
+            {
+                "name": "official",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "official",
+        "foreign_keys": [
+            {
+                "column": "official",
+                "references": "type"
+            }
+        ]
+    },
+    {
+        "name": "type",
+        "columns": [
+            {
+                "name": "single",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "single",
+        "foreign_keys": [
+            {
+                "column": "single",
+                "references": "subject"
+            }
+        ]
+    },
+    {
+        "name": "subject",
+        "columns": [
+            {
+                "name": "myself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "myself",
+        "foreign_keys": [
+            {
+                "column": "myself",
+                "references": "head"
+            }
+        ]
+    },
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "health",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "health",
+        "foreign_keys": [
+            {
+                "column": "health",
+                "references": "where"
+            }
+        ]
+    },
+    {
+        "name": "where",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "couple",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "couple",
+        "foreign_keys": [
+            {
+                "column": "couple",
+                "references": "far"
+            }
+        ]
+    },
+    {
+        "name": "far",
+        "columns": [
+            {
+                "name": "television",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "only"
+            }
+        ]
+    }
+]
