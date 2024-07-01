@@ -1,0 +1,198 @@
+[
+    {
+        "name": "fall",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "wonder"
+            }
+        ]
+    },
+    {
+        "name": "wonder",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "remain"
+            }
+        ]
+    },
+    {
+        "name": "remain",
+        "columns": [
+            {
+                "name": "put",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "see",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "worker",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "put",
+        "foreign_keys": [
+            {
+                "column": "put",
+                "references": "else"
+            }
+        ]
+    },
+    {
+        "name": "else",
+        "columns": [
+            {
+                "name": "be",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "be",
+        "foreign_keys": [
+            {
+                "column": "be",
+                "references": "ever"
+            }
+        ]
+    },
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "figure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thank",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "debate"
+            }
+        ]
+    },
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "each",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "each",
+        "foreign_keys": [
+            {
+                "column": "each",
+                "references": "beautiful"
+            }
+        ]
+    },
+    {
+        "name": "beautiful",
+        "columns": [
+            {
+                "name": "glass",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "carry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "glass",
+        "foreign_keys": [
+            {
+                "column": "glass",
+                "references": "once"
+            }
+        ]
+    },
+    {
+        "name": "once",
+        "columns": [
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "they",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wear",
+        "foreign_keys": [
+            {
+                "column": "wear",
+                "references": "fall"
+            }
+        ]
+    }
+]

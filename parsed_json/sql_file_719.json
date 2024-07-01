@@ -1,0 +1,247 @@
+[
+    {
+        "name": "shoulder",
+        "columns": [
+            {
+                "name": "various",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "particular"
+            }
+        ]
+    },
+    {
+        "name": "particular",
+        "columns": [
+            {
+                "name": "central",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "lead"
+            }
+        ]
+    },
+    {
+        "name": "lead",
+        "columns": [
+            {
+                "name": "thus",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thus",
+        "foreign_keys": [
+            {
+                "column": "thus",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "middle",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "middle",
+        "foreign_keys": [
+            {
+                "column": "middle",
+                "references": "bill"
+            }
+        ]
+    },
+    {
+        "name": "bill",
+        "columns": [
+            {
+                "name": "student",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "on",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "federal"
+            }
+        ]
+    },
+    {
+        "name": "federal",
+        "columns": [
+            {
+                "name": "discuss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "discuss",
+        "foreign_keys": [
+            {
+                "column": "discuss",
+                "references": "meeting"
+            }
+        ]
+    },
+    {
+        "name": "meeting",
+        "columns": [
+            {
+                "name": "wind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wind",
+        "foreign_keys": [
+            {
+                "column": "wind",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "too"
+            }
+        ]
+    },
+    {
+        "name": "too",
+        "columns": [
+            {
+                "name": "medical",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "medical",
+        "foreign_keys": [
+            {
+                "column": "medical",
+                "references": "rock"
+            }
+        ]
+    },
+    {
+        "name": "rock",
+        "columns": [
+            {
+                "name": "discover",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "discover",
+        "foreign_keys": [
+            {
+                "column": "discover",
+                "references": "shoulder"
+            }
+        ]
+    }
+]

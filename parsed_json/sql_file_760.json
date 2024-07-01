@@ -1,0 +1,198 @@
+[
+    {
+        "name": "poor",
+        "columns": [
+            {
+                "name": "successful",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "machine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "successful",
+        "foreign_keys": [
+            {
+                "column": "successful",
+                "references": "guy"
+            }
+        ]
+    },
+    {
+        "name": "guy",
+        "columns": [
+            {
+                "name": "you",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "you",
+        "foreign_keys": [
+            {
+                "column": "you",
+                "references": "book"
+            }
+        ]
+    },
+    {
+        "name": "book",
+        "columns": [
+            {
+                "name": "show",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "show",
+        "foreign_keys": [
+            {
+                "column": "show",
+                "references": "necessary"
+            }
+        ]
+    },
+    {
+        "name": "necessary",
+        "columns": [
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "along",
+        "foreign_keys": [
+            {
+                "column": "along",
+                "references": "student"
+            }
+        ]
+    },
+    {
+        "name": "student",
+        "columns": [
+            {
+                "name": "cover",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "drop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cover",
+        "foreign_keys": [
+            {
+                "column": "cover",
+                "references": "race"
+            }
+        ]
+    },
+    {
+        "name": "race",
+        "columns": [
+            {
+                "name": "administration",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "administration",
+        "foreign_keys": [
+            {
+                "column": "administration",
+                "references": "audience"
+            }
+        ]
+    },
+    {
+        "name": "audience",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "natural"
+            }
+        ]
+    },
+    {
+        "name": "natural",
+        "columns": [
+            {
+                "name": "season",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "season",
+        "foreign_keys": [
+            {
+                "column": "season",
+                "references": "poor"
+            }
+        ]
+    }
+]

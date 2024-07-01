@@ -1,0 +1,296 @@
+[
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "woman",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "president",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "property",
+        "foreign_keys": [
+            {
+                "column": "property",
+                "references": "spring"
+            }
+        ]
+    },
+    {
+        "name": "spring",
+        "columns": [
+            {
+                "name": "claim",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "claim",
+        "foreign_keys": [
+            {
+                "column": "claim",
+                "references": "high"
+            }
+        ]
+    },
+    {
+        "name": "high",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "individual"
+            }
+        ]
+    },
+    {
+        "name": "individual",
+        "columns": [
+            {
+                "name": "building",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "building",
+        "foreign_keys": [
+            {
+                "column": "building",
+                "references": "book"
+            }
+        ]
+    },
+    {
+        "name": "book",
+        "columns": [
+            {
+                "name": "force",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "should"
+            }
+        ]
+    },
+    {
+        "name": "should",
+        "columns": [
+            {
+                "name": "technology",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "technology",
+        "foreign_keys": [
+            {
+                "column": "technology",
+                "references": "edge"
+            }
+        ]
+    },
+    {
+        "name": "edge",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seek",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "office"
+            }
+        ]
+    },
+    {
+        "name": "office",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "plan"
+            }
+        ]
+    },
+    {
+        "name": "plan",
+        "columns": [
+            {
+                "name": "country",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "country",
+        "foreign_keys": [
+            {
+                "column": "country",
+                "references": "human"
+            }
+        ]
+    },
+    {
+        "name": "human",
+        "columns": [
+            {
+                "name": "against",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "against",
+        "foreign_keys": [
+            {
+                "column": "against",
+                "references": "better"
+            }
+        ]
+    },
+    {
+        "name": "better",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "oil"
+            }
+        ]
+    }
+]

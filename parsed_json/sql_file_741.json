@@ -1,0 +1,247 @@
+[
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "star",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "draw"
+            }
+        ]
+    },
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "have",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thank",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "have",
+        "foreign_keys": [
+            {
+                "column": "have",
+                "references": "in"
+            }
+        ]
+    },
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "give"
+            }
+        ]
+    },
+    {
+        "name": "give",
+        "columns": [
+            {
+                "name": "talk",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "talk",
+        "foreign_keys": [
+            {
+                "column": "talk",
+                "references": "other"
+            }
+        ]
+    },
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "which",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "break"
+            }
+        ]
+    },
+    {
+        "name": "break",
+        "columns": [
+            {
+                "name": "office",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "member"
+            }
+        ]
+    },
+    {
+        "name": "member",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "serious"
+            }
+        ]
+    },
+    {
+        "name": "serious",
+        "columns": [
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "open",
+        "foreign_keys": [
+            {
+                "column": "open",
+                "references": "national"
+            }
+        ]
+    },
+    {
+        "name": "national",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "red",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "trip"
+            }
+        ]
+    },
+    {
+        "name": "trip",
+        "columns": [
+            {
+                "name": "several",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "born"
+            }
+        ]
+    }
+]

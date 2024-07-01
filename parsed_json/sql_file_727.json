@@ -1,0 +1,274 @@
+[
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "store",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "store",
+        "foreign_keys": [
+            {
+                "column": "store",
+                "references": "almost"
+            }
+        ]
+    },
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "military",
+        "foreign_keys": [
+            {
+                "column": "military",
+                "references": "successful"
+            }
+        ]
+    },
+    {
+        "name": "successful",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "focus"
+            }
+        ]
+    },
+    {
+        "name": "focus",
+        "columns": [
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "city",
+        "foreign_keys": [
+            {
+                "column": "city",
+                "references": "crime"
+            }
+        ]
+    },
+    {
+        "name": "crime",
+        "columns": [
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sea",
+        "foreign_keys": [
+            {
+                "column": "sea",
+                "references": "shake"
+            }
+        ]
+    },
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "left",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "worker",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "left",
+        "foreign_keys": [
+            {
+                "column": "left",
+                "references": "certain"
+            }
+        ]
+    },
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "during",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hair",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "during",
+        "foreign_keys": [
+            {
+                "column": "during",
+                "references": "military"
+            }
+        ]
+    },
+    {
+        "name": "military",
+        "columns": [
+            {
+                "name": "challenge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "challenge",
+        "foreign_keys": [
+            {
+                "column": "challenge",
+                "references": "environment"
+            }
+        ]
+    },
+    {
+        "name": "environment",
+        "columns": [
+            {
+                "name": "room",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "child",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "room",
+        "foreign_keys": [
+            {
+                "column": "room",
+                "references": "thought"
+            }
+        ]
+    },
+    {
+        "name": "thought",
+        "columns": [
+            {
+                "name": "people",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "people",
+        "foreign_keys": [
+            {
+                "column": "people",
+                "references": "as"
+            }
+        ]
+    },
+    {
+        "name": "as",
+        "columns": [
+            {
+                "name": "up",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "up",
+        "foreign_keys": [
+            {
+                "column": "up",
+                "references": "degree"
+            }
+        ]
+    }
+]

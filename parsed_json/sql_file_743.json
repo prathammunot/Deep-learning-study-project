@@ -1,0 +1,247 @@
+[
+    {
+        "name": "continue",
+        "columns": [
+            {
+                "name": "guess",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "guess",
+        "foreign_keys": [
+            {
+                "column": "guess",
+                "references": "understand"
+            }
+        ]
+    },
+    {
+        "name": "understand",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "against"
+            }
+        ]
+    },
+    {
+        "name": "against",
+        "columns": [
+            {
+                "name": "force",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "value",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "treatment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "long"
+            }
+        ]
+    },
+    {
+        "name": "long",
+        "columns": [
+            {
+                "name": "often",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "often",
+        "foreign_keys": [
+            {
+                "column": "often",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "front",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "worker",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "front",
+        "foreign_keys": [
+            {
+                "column": "front",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "soon",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "religious",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "soon",
+        "foreign_keys": [
+            {
+                "column": "soon",
+                "references": "loss"
+            }
+        ]
+    },
+    {
+        "name": "loss",
+        "columns": [
+            {
+                "name": "whatever",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whatever",
+        "foreign_keys": [
+            {
+                "column": "whatever",
+                "references": "little"
+            }
+        ]
+    },
+    {
+        "name": "little",
+        "columns": [
+            {
+                "name": "herself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "herself",
+        "foreign_keys": [
+            {
+                "column": "herself",
+                "references": "war"
+            }
+        ]
+    },
+    {
+        "name": "war",
+        "columns": [
+            {
+                "name": "term",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "reason"
+            }
+        ]
+    },
+    {
+        "name": "reason",
+        "columns": [
+            {
+                "name": "guy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "guy",
+        "foreign_keys": [
+            {
+                "column": "guy",
+                "references": "continue"
+            }
+        ]
+    }
+]

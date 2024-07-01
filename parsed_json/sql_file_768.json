@@ -1,0 +1,127 @@
+[
+    {
+        "name": "any",
+        "columns": [
+            {
+                "name": "network",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "past",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "network",
+        "foreign_keys": [
+            {
+                "column": "network",
+                "references": "reason"
+            }
+        ]
+    },
+    {
+        "name": "reason",
+        "columns": [
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "policy",
+        "foreign_keys": [
+            {
+                "column": "policy",
+                "references": "law"
+            }
+        ]
+    },
+    {
+        "name": "law",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "try",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "blue"
+            }
+        ]
+    },
+    {
+        "name": "blue",
+        "columns": [
+            {
+                "name": "star",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "organization",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "star",
+        "foreign_keys": [
+            {
+                "column": "star",
+                "references": "mission"
+            }
+        ]
+    },
+    {
+        "name": "mission",
+        "columns": [
+            {
+                "name": "summer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "summer",
+        "foreign_keys": [
+            {
+                "column": "summer",
+                "references": "any"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "authority",
+        "columns": [
+            {
+                "name": "may",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "may",
+        "foreign_keys": [
+            {
+                "column": "may",
+                "references": "test"
+            }
+        ]
+    },
+    {
+        "name": "test",
+        "columns": [
+            {
+                "name": "around",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "around",
+        "foreign_keys": [
+            {
+                "column": "around",
+                "references": "indicate"
+            }
+        ]
+    },
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "child",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "two",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "child",
+        "foreign_keys": [
+            {
+                "column": "child",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "woman"
+            }
+        ]
+    },
+    {
+        "name": "woman",
+        "columns": [
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "hot"
+            }
+        ]
+    },
+    {
+        "name": "hot",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "item",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "whole"
+            }
+        ]
+    },
+    {
+        "name": "whole",
+        "columns": [
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "might"
+            }
+        ]
+    },
+    {
+        "name": "might",
+        "columns": [
+            {
+                "name": "eat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "eat",
+        "foreign_keys": [
+            {
+                "column": "eat",
+                "references": "language"
+            }
+        ]
+    },
+    {
+        "name": "language",
+        "columns": [
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "effect",
+        "foreign_keys": [
+            {
+                "column": "effect",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "least",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "common"
+            }
+        ]
+    },
+    {
+        "name": "common",
+        "columns": [
+            {
+                "name": "next",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "authority"
+            }
+        ]
+    }
+]

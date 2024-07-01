@@ -1,0 +1,127 @@
+[
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "today",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "today",
+        "foreign_keys": [
+            {
+                "column": "today",
+                "references": "poor"
+            }
+        ]
+    },
+    {
+        "name": "poor",
+        "columns": [
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "inside"
+            }
+        ]
+    },
+    {
+        "name": "inside",
+        "columns": [
+            {
+                "name": "red",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "red",
+        "foreign_keys": [
+            {
+                "column": "red",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "energy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "energy",
+        "foreign_keys": [
+            {
+                "column": "energy",
+                "references": "step"
+            }
+        ]
+    },
+    {
+        "name": "step",
+        "columns": [
+            {
+                "name": "history",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "reflect"
+            }
+        ]
+    }
+]

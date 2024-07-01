@@ -1,0 +1,149 @@
+[
+    {
+        "name": "study",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pretty",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "organization"
+            }
+        ]
+    },
+    {
+        "name": "organization",
+        "columns": [
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "good"
+            }
+        ]
+    },
+    {
+        "name": "good",
+        "columns": [
+            {
+                "name": "necessary",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "make",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "necessary",
+        "foreign_keys": [
+            {
+                "column": "necessary",
+                "references": "save"
+            }
+        ]
+    },
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "some",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "drive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "yet"
+            }
+        ]
+    },
+    {
+        "name": "yet",
+        "columns": [
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "talk",
+        "foreign_keys": [
+            {
+                "column": "talk",
+                "references": "face"
+            }
+        ]
+    },
+    {
+        "name": "face",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "study"
+            }
+        ]
+    }
+]

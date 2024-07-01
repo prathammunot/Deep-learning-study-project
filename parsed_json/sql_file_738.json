@@ -1,0 +1,127 @@
+[
+    {
+        "name": "people",
+        "columns": [
+            {
+                "name": "thus",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thus",
+        "foreign_keys": [
+            {
+                "column": "thus",
+                "references": "year"
+            }
+        ]
+    },
+    {
+        "name": "year",
+        "columns": [
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "theory",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "material",
+        "foreign_keys": [
+            {
+                "column": "material",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "seek",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seek",
+        "foreign_keys": [
+            {
+                "column": "seek",
+                "references": "across"
+            }
+        ]
+    },
+    {
+        "name": "across",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "bad"
+            }
+        ]
+    },
+    {
+        "name": "bad",
+        "columns": [
+            {
+                "name": "mission",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mission",
+        "foreign_keys": [
+            {
+                "column": "mission",
+                "references": "people"
+            }
+        ]
+    }
+]

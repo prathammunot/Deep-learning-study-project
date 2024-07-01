@@ -1,0 +1,274 @@
+[
+    {
+        "name": "thousand",
+        "columns": [
+            {
+                "name": "smile",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "buy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "smile",
+        "foreign_keys": [
+            {
+                "column": "smile",
+                "references": "media"
+            }
+        ]
+    },
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "perform",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "perform",
+        "foreign_keys": [
+            {
+                "column": "perform",
+                "references": "question"
+            }
+        ]
+    },
+    {
+        "name": "question",
+        "columns": [
+            {
+                "name": "where",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "where",
+        "foreign_keys": [
+            {
+                "column": "where",
+                "references": "government"
+            }
+        ]
+    },
+    {
+        "name": "government",
+        "columns": [
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "million",
+        "foreign_keys": [
+            {
+                "column": "million",
+                "references": "themselves"
+            }
+        ]
+    },
+    {
+        "name": "themselves",
+        "columns": [
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "as"
+            }
+        ]
+    },
+    {
+        "name": "as",
+        "columns": [
+            {
+                "name": "second",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "itself"
+            }
+        ]
+    },
+    {
+        "name": "itself",
+        "columns": [
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quite",
+        "foreign_keys": [
+            {
+                "column": "quite",
+                "references": "market"
+            }
+        ]
+    },
+    {
+        "name": "market",
+        "columns": [
+            {
+                "name": "television",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "expect"
+            }
+        ]
+    },
+    {
+        "name": "expect",
+        "columns": [
+            {
+                "name": "fast",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thousand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fast",
+        "foreign_keys": [
+            {
+                "column": "fast",
+                "references": "though"
+            }
+        ]
+    },
+    {
+        "name": "though",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "one"
+            }
+        ]
+    },
+    {
+        "name": "one",
+        "columns": [
+            {
+                "name": "process",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "process",
+        "foreign_keys": [
+            {
+                "column": "process",
+                "references": "thousand"
+            }
+        ]
+    }
+]

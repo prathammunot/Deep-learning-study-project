@@ -1,0 +1,247 @@
+[
+    {
+        "name": "magazine",
+        "columns": [
+            {
+                "name": "share",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "share",
+        "foreign_keys": [
+            {
+                "column": "share",
+                "references": "son"
+            }
+        ]
+    },
+    {
+        "name": "son",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "according"
+            }
+        ]
+    },
+    {
+        "name": "according",
+        "columns": [
+            {
+                "name": "common",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tax",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "media"
+            }
+        ]
+    },
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "this"
+            }
+        ]
+    },
+    {
+        "name": "this",
+        "columns": [
+            {
+                "name": "name",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "name",
+        "foreign_keys": [
+            {
+                "column": "name",
+                "references": "nor"
+            }
+        ]
+    },
+    {
+        "name": "nor",
+        "columns": [
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "black"
+            }
+        ]
+    },
+    {
+        "name": "black",
+        "columns": [
+            {
+                "name": "no",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "more"
+            }
+        ]
+    },
+    {
+        "name": "more",
+        "columns": [
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "do",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "likely",
+        "foreign_keys": [
+            {
+                "column": "likely",
+                "references": "this"
+            }
+        ]
+    },
+    {
+        "name": "this",
+        "columns": [
+            {
+                "name": "our",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "our",
+        "foreign_keys": [
+            {
+                "column": "our",
+                "references": "magazine"
+            }
+        ]
+    }
+]

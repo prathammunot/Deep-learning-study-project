@@ -1,0 +1,127 @@
+[
+    {
+        "name": "movie",
+        "columns": [
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "force",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "rest"
+            }
+        ]
+    },
+    {
+        "name": "rest",
+        "columns": [
+            {
+                "name": "exist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "exist",
+        "foreign_keys": [
+            {
+                "column": "exist",
+                "references": "mother"
+            }
+        ]
+    },
+    {
+        "name": "mother",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "try",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "contain"
+            }
+        ]
+    },
+    {
+        "name": "contain",
+        "columns": [
+            {
+                "name": "able",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "able",
+        "foreign_keys": [
+            {
+                "column": "able",
+                "references": "future"
+            }
+        ]
+    },
+    {
+        "name": "future",
+        "columns": [
+            {
+                "name": "economic",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "economic",
+        "foreign_keys": [
+            {
+                "column": "economic",
+                "references": "movie"
+            }
+        ]
+    }
+]

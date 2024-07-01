@@ -1,0 +1,225 @@
+[
+    {
+        "name": "attention",
+        "columns": [
+            {
+                "name": "way",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "star"
+            }
+        ]
+    },
+    {
+        "name": "star",
+        "columns": [
+            {
+                "name": "window",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fund",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "window",
+        "foreign_keys": [
+            {
+                "column": "window",
+                "references": "maybe"
+            }
+        ]
+    },
+    {
+        "name": "maybe",
+        "columns": [
+            {
+                "name": "appear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tax",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "appear",
+        "foreign_keys": [
+            {
+                "column": "appear",
+                "references": "impact"
+            }
+        ]
+    },
+    {
+        "name": "impact",
+        "columns": [
+            {
+                "name": "say",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "myself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "say",
+        "foreign_keys": [
+            {
+                "column": "say",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "song",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "song",
+        "foreign_keys": [
+            {
+                "column": "song",
+                "references": "together"
+            }
+        ]
+    },
+    {
+        "name": "together",
+        "columns": [
+            {
+                "name": "factor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "factor",
+        "foreign_keys": [
+            {
+                "column": "factor",
+                "references": "activity"
+            }
+        ]
+    },
+    {
+        "name": "activity",
+        "columns": [
+            {
+                "name": "condition",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "condition",
+        "foreign_keys": [
+            {
+                "column": "condition",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "join",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "majority",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "join",
+        "foreign_keys": [
+            {
+                "column": "join",
+                "references": "drive"
+            }
+        ]
+    },
+    {
+        "name": "drive",
+        "columns": [
+            {
+                "name": "western",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "language",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "western",
+        "foreign_keys": [
+            {
+                "column": "western",
+                "references": "attention"
+            }
+        ]
+    }
+]

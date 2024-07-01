@@ -1,0 +1,296 @@
+[
+    {
+        "name": "carry",
+        "columns": [
+            {
+                "name": "direction",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "direction",
+        "foreign_keys": [
+            {
+                "column": "direction",
+                "references": "training"
+            }
+        ]
+    },
+    {
+        "name": "training",
+        "columns": [
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "along",
+        "foreign_keys": [
+            {
+                "column": "along",
+                "references": "dinner"
+            }
+        ]
+    },
+    {
+        "name": "dinner",
+        "columns": [
+            {
+                "name": "hard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hard",
+        "foreign_keys": [
+            {
+                "column": "hard",
+                "references": "both"
+            }
+        ]
+    },
+    {
+        "name": "both",
+        "columns": [
+            {
+                "name": "rise",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "already",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rise",
+        "foreign_keys": [
+            {
+                "column": "rise",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "matter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "matter",
+        "foreign_keys": [
+            {
+                "column": "matter",
+                "references": "he"
+            }
+        ]
+    },
+    {
+        "name": "he",
+        "columns": [
+            {
+                "name": "drop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drop",
+        "foreign_keys": [
+            {
+                "column": "drop",
+                "references": "beat"
+            }
+        ]
+    },
+    {
+        "name": "beat",
+        "columns": [
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "run",
+        "foreign_keys": [
+            {
+                "column": "run",
+                "references": "safe"
+            }
+        ]
+    },
+    {
+        "name": "safe",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "rock"
+            }
+        ]
+    },
+    {
+        "name": "rock",
+        "columns": [
+            {
+                "name": "return",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "return",
+        "foreign_keys": [
+            {
+                "column": "return",
+                "references": "support"
+            }
+        ]
+    },
+    {
+        "name": "support",
+        "columns": [
+            {
+                "name": "important",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everybody",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "important",
+        "foreign_keys": [
+            {
+                "column": "important",
+                "references": "pretty"
+            }
+        ]
+    },
+    {
+        "name": "pretty",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "town",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "activity",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "arrive"
+            }
+        ]
+    },
+    {
+        "name": "arrive",
+        "columns": [
+            {
+                "name": "cause",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cause",
+        "foreign_keys": [
+            {
+                "column": "cause",
+                "references": "carry"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "member",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "example",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "media"
+            }
+        ]
+    },
+    {
+        "name": "media",
+        "columns": [
+            {
+                "name": "time",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "family"
+            }
+        ]
+    },
+    {
+        "name": "family",
+        "columns": [
+            {
+                "name": "mother",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "data",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mother",
+        "foreign_keys": [
+            {
+                "column": "mother",
+                "references": "attorney"
+            }
+        ]
+    },
+    {
+        "name": "attorney",
+        "columns": [
+            {
+                "name": "there",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "there",
+        "foreign_keys": [
+            {
+                "column": "there",
+                "references": "read"
+            }
+        ]
+    },
+    {
+        "name": "read",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "over"
+            }
+        ]
+    },
+    {
+        "name": "over",
+        "columns": [
+            {
+                "name": "over",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "focus",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "wrong"
+            }
+        ]
+    },
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "black",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "black",
+        "foreign_keys": [
+            {
+                "column": "black",
+                "references": "manager"
+            }
+        ]
+    },
+    {
+        "name": "manager",
+        "columns": [
+            {
+                "name": "particularly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "water",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "particularly",
+        "foreign_keys": [
+            {
+                "column": "particularly",
+                "references": "recognize"
+            }
+        ]
+    },
+    {
+        "name": "recognize",
+        "columns": [
+            {
+                "name": "develop",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "develop",
+        "foreign_keys": [
+            {
+                "column": "develop",
+                "references": "cup"
+            }
+        ]
+    },
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "west",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "already",
+        "foreign_keys": [
+            {
+                "column": "already",
+                "references": "member"
+            }
+        ]
+    }
+]

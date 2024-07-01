@@ -1,0 +1,225 @@
+[
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "pull",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pull",
+        "foreign_keys": [
+            {
+                "column": "pull",
+                "references": "speak"
+            }
+        ]
+    },
+    {
+        "name": "speak",
+        "columns": [
+            {
+                "name": "medical",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "medical",
+        "foreign_keys": [
+            {
+                "column": "medical",
+                "references": "before"
+            }
+        ]
+    },
+    {
+        "name": "before",
+        "columns": [
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "site",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "year",
+        "foreign_keys": [
+            {
+                "column": "year",
+                "references": "more"
+            }
+        ]
+    },
+    {
+        "name": "more",
+        "columns": [
+            {
+                "name": "although",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "although",
+        "foreign_keys": [
+            {
+                "column": "although",
+                "references": "sense"
+            }
+        ]
+    },
+    {
+        "name": "sense",
+        "columns": [
+            {
+                "name": "evening",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "edge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "evening",
+        "foreign_keys": [
+            {
+                "column": "evening",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "research",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "research",
+        "foreign_keys": [
+            {
+                "column": "research",
+                "references": "democratic"
+            }
+        ]
+    },
+    {
+        "name": "democratic",
+        "columns": [
+            {
+                "name": "dinner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "up",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dinner",
+        "foreign_keys": [
+            {
+                "column": "dinner",
+                "references": "then"
+            }
+        ]
+    },
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "career",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "against",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "career",
+        "foreign_keys": [
+            {
+                "column": "career",
+                "references": "inside"
+            }
+        ]
+    },
+    {
+        "name": "inside",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "it"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "build",
+        "columns": [
+            {
+                "name": "generation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cut",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "generation",
+        "foreign_keys": [
+            {
+                "column": "generation",
+                "references": "of"
+            }
+        ]
+    },
+    {
+        "name": "of",
+        "columns": [
+            {
+                "name": "politics",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "politics",
+        "foreign_keys": [
+            {
+                "column": "politics",
+                "references": "from"
+            }
+        ]
+    },
+    {
+        "name": "from",
+        "columns": [
+            {
+                "name": "environmental",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "structure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environmental",
+        "foreign_keys": [
+            {
+                "column": "environmental",
+                "references": "small"
+            }
+        ]
+    },
+    {
+        "name": "small",
+        "columns": [
+            {
+                "name": "whatever",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whatever",
+        "foreign_keys": [
+            {
+                "column": "whatever",
+                "references": "daughter"
+            }
+        ]
+    },
+    {
+        "name": "daughter",
+        "columns": [
+            {
+                "name": "can",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "can",
+        "foreign_keys": [
+            {
+                "column": "can",
+                "references": "try"
+            }
+        ]
+    },
+    {
+        "name": "try",
+        "columns": [
+            {
+                "name": "quality",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "join",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "quality",
+        "foreign_keys": [
+            {
+                "column": "quality",
+                "references": "price"
+            }
+        ]
+    },
+    {
+        "name": "price",
+        "columns": [
+            {
+                "name": "when",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "they",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "when",
+        "foreign_keys": [
+            {
+                "column": "when",
+                "references": "note"
+            }
+        ]
+    },
+    {
+        "name": "note",
+        "columns": [
+            {
+                "name": "scientist",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "however",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scientist",
+        "foreign_keys": [
+            {
+                "column": "scientist",
+                "references": "stage"
+            }
+        ]
+    },
+    {
+        "name": "stage",
+        "columns": [
+            {
+                "name": "parent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "parent",
+        "foreign_keys": [
+            {
+                "column": "parent",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "campaign",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perhaps",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "campaign",
+        "foreign_keys": [
+            {
+                "column": "campaign",
+                "references": "go"
+            }
+        ]
+    },
+    {
+        "name": "go",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "film",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "build"
+            }
+        ]
+    }
+]

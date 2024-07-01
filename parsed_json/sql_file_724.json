@@ -1,0 +1,198 @@
+[
+    {
+        "name": "type",
+        "columns": [
+            {
+                "name": "attorney",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "push",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "personal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attorney",
+        "foreign_keys": [
+            {
+                "column": "attorney",
+                "references": "party"
+            }
+        ]
+    },
+    {
+        "name": "party",
+        "columns": [
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "million",
+        "foreign_keys": [
+            {
+                "column": "million",
+                "references": "protect"
+            }
+        ]
+    },
+    {
+        "name": "protect",
+        "columns": [
+            {
+                "name": "still",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "still",
+        "foreign_keys": [
+            {
+                "column": "still",
+                "references": "themselves"
+            }
+        ]
+    },
+    {
+        "name": "themselves",
+        "columns": [
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "specific",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "western",
+        "foreign_keys": [
+            {
+                "column": "western",
+                "references": "according"
+            }
+        ]
+    },
+    {
+        "name": "according",
+        "columns": [
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "page",
+        "foreign_keys": [
+            {
+                "column": "page",
+                "references": "edge"
+            }
+        ]
+    },
+    {
+        "name": "edge",
+        "columns": [
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "feeling"
+            }
+        ]
+    },
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "enter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pull",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enter",
+        "foreign_keys": [
+            {
+                "column": "enter",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "type"
+            }
+        ]
+    }
+]

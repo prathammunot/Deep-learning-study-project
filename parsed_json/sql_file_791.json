@@ -1,0 +1,127 @@
+[
+    {
+        "name": "art",
+        "columns": [
+            {
+                "name": "upon",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "upon",
+        "foreign_keys": [
+            {
+                "column": "upon",
+                "references": "interview"
+            }
+        ]
+    },
+    {
+        "name": "interview",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "summer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "test"
+            }
+        ]
+    },
+    {
+        "name": "test",
+        "columns": [
+            {
+                "name": "production",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "production",
+        "foreign_keys": [
+            {
+                "column": "production",
+                "references": "citizen"
+            }
+        ]
+    },
+    {
+        "name": "citizen",
+        "columns": [
+            {
+                "name": "miss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "miss",
+        "foreign_keys": [
+            {
+                "column": "miss",
+                "references": "candidate"
+            }
+        ]
+    },
+    {
+        "name": "candidate",
+        "columns": [
+            {
+                "name": "magazine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "opportunity",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "specific",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "magazine",
+        "foreign_keys": [
+            {
+                "column": "magazine",
+                "references": "art"
+            }
+        ]
+    }
+]

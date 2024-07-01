@@ -1,0 +1,247 @@
+[
+    {
+        "name": "eye",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "kind"
+            }
+        ]
+    },
+    {
+        "name": "kind",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "skill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "range"
+            }
+        ]
+    },
+    {
+        "name": "range",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "must",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "every"
+            }
+        ]
+    },
+    {
+        "name": "every",
+        "columns": [
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "such"
+            }
+        ]
+    },
+    {
+        "name": "such",
+        "columns": [
+            {
+                "name": "party",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "party",
+        "foreign_keys": [
+            {
+                "column": "party",
+                "references": "provide"
+            }
+        ]
+    },
+    {
+        "name": "provide",
+        "columns": [
+            {
+                "name": "view",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "view",
+        "foreign_keys": [
+            {
+                "column": "view",
+                "references": "per"
+            }
+        ]
+    },
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "find",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "find",
+        "foreign_keys": [
+            {
+                "column": "find",
+                "references": "he"
+            }
+        ]
+    },
+    {
+        "name": "he",
+        "columns": [
+            {
+                "name": "various",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "movement"
+            }
+        ]
+    },
+    {
+        "name": "movement",
+        "columns": [
+            {
+                "name": "sometimes",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sometimes",
+        "foreign_keys": [
+            {
+                "column": "sometimes",
+                "references": "red"
+            }
+        ]
+    },
+    {
+        "name": "red",
+        "columns": [
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fine",
+        "foreign_keys": [
+            {
+                "column": "fine",
+                "references": "eye"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "mention",
+        "columns": [
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "alone"
+            }
+        ]
+    },
+    {
+        "name": "alone",
+        "columns": [
+            {
+                "name": "religious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "religious",
+        "foreign_keys": [
+            {
+                "column": "religious",
+                "references": "occur"
+            }
+        ]
+    },
+    {
+        "name": "occur",
+        "columns": [
+            {
+                "name": "meet",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "staff",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "meet",
+        "foreign_keys": [
+            {
+                "column": "meet",
+                "references": "open"
+            }
+        ]
+    },
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "agent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agent",
+        "foreign_keys": [
+            {
+                "column": "agent",
+                "references": "character"
+            }
+        ]
+    },
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "sometimes",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sometimes",
+        "foreign_keys": [
+            {
+                "column": "sometimes",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "land",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "land",
+        "foreign_keys": [
+            {
+                "column": "land",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sport",
+        "foreign_keys": [
+            {
+                "column": "sport",
+                "references": "bag"
+            }
+        ]
+    },
+    {
+        "name": "bag",
+        "columns": [
+            {
+                "name": "degree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "degree",
+        "foreign_keys": [
+            {
+                "column": "degree",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "true",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "true",
+        "foreign_keys": [
+            {
+                "column": "true",
+                "references": "mention"
+            }
+        ]
+    }
+]

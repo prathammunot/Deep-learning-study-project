@@ -1,0 +1,127 @@
+[
+    {
+        "name": "drop",
+        "columns": [
+            {
+                "name": "garden",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "garden",
+        "foreign_keys": [
+            {
+                "column": "garden",
+                "references": "player"
+            }
+        ]
+    },
+    {
+        "name": "player",
+        "columns": [
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "determine"
+            }
+        ]
+    },
+    {
+        "name": "determine",
+        "columns": [
+            {
+                "name": "white",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "white",
+        "foreign_keys": [
+            {
+                "column": "white",
+                "references": "common"
+            }
+        ]
+    },
+    {
+        "name": "common",
+        "columns": [
+            {
+                "name": "better",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "better",
+        "foreign_keys": [
+            {
+                "column": "better",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "drop"
+            }
+        ]
+    }
+]

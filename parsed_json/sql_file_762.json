@@ -1,0 +1,176 @@
+[
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "last",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "last",
+        "foreign_keys": [
+            {
+                "column": "last",
+                "references": "soldier"
+            }
+        ]
+    },
+    {
+        "name": "soldier",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "history"
+            }
+        ]
+    },
+    {
+        "name": "history",
+        "columns": [
+            {
+                "name": "remember",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "remember",
+        "foreign_keys": [
+            {
+                "column": "remember",
+                "references": "vote"
+            }
+        ]
+    },
+    {
+        "name": "vote",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "drug",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "direction",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "direction",
+        "foreign_keys": [
+            {
+                "column": "direction",
+                "references": "southern"
+            }
+        ]
+    },
+    {
+        "name": "southern",
+        "columns": [
+            {
+                "name": "know",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "example",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "know",
+        "foreign_keys": [
+            {
+                "column": "know",
+                "references": "if"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "local",
+        "columns": [
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agreement",
+        "foreign_keys": [
+            {
+                "column": "agreement",
+                "references": "remain"
+            }
+        ]
+    },
+    {
+        "name": "remain",
+        "columns": [
+            {
+                "name": "become",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "become",
+        "foreign_keys": [
+            {
+                "column": "become",
+                "references": "they"
+            }
+        ]
+    },
+    {
+        "name": "they",
+        "columns": [
+            {
+                "name": "later",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "listen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "later",
+        "foreign_keys": [
+            {
+                "column": "later",
+                "references": "away"
+            }
+        ]
+    },
+    {
+        "name": "away",
+        "columns": [
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "structure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "market",
+        "foreign_keys": [
+            {
+                "column": "market",
+                "references": "wish"
+            }
+        ]
+    },
+    {
+        "name": "wish",
+        "columns": [
+            {
+                "name": "day",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "drop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "day",
+        "foreign_keys": [
+            {
+                "column": "day",
+                "references": "vote"
+            }
+        ]
+    },
+    {
+        "name": "vote",
+        "columns": [
+            {
+                "name": "only",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "only",
+        "foreign_keys": [
+            {
+                "column": "only",
+                "references": "truth"
+            }
+        ]
+    },
+    {
+        "name": "truth",
+        "columns": [
+            {
+                "name": "side",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "must",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "side",
+        "foreign_keys": [
+            {
+                "column": "side",
+                "references": "help"
+            }
+        ]
+    },
+    {
+        "name": "help",
+        "columns": [
+            {
+                "name": "others",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "notice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "it",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "it",
+        "foreign_keys": [
+            {
+                "column": "it",
+                "references": "local"
+            }
+        ]
+    }
+]

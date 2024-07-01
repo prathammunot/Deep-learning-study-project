@@ -1,0 +1,127 @@
+[
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "series",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "step",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "remain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "series",
+        "foreign_keys": [
+            {
+                "column": "series",
+                "references": "bring"
+            }
+        ]
+    },
+    {
+        "name": "bring",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "add"
+            }
+        ]
+    },
+    {
+        "name": "add",
+        "columns": [
+            {
+                "name": "vote",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "vote",
+        "foreign_keys": [
+            {
+                "column": "vote",
+                "references": "four"
+            }
+        ]
+    },
+    {
+        "name": "four",
+        "columns": [
+            {
+                "name": "subject",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bar",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "subject",
+        "foreign_keys": [
+            {
+                "column": "subject",
+                "references": "back"
+            }
+        ]
+    },
+    {
+        "name": "back",
+        "columns": [
+            {
+                "name": "indeed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "computer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indeed",
+        "foreign_keys": [
+            {
+                "column": "indeed",
+                "references": "hotel"
+            }
+        ]
+    }
+]

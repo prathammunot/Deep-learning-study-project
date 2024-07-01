@@ -1,0 +1,247 @@
+[
+    {
+        "name": "their",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "me"
+            }
+        ]
+    },
+    {
+        "name": "me",
+        "columns": [
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "draw"
+            }
+        ]
+    },
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "return",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "return",
+        "foreign_keys": [
+            {
+                "column": "return",
+                "references": "serious"
+            }
+        ]
+    },
+    {
+        "name": "serious",
+        "columns": [
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "factor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "factor",
+        "foreign_keys": [
+            {
+                "column": "factor",
+                "references": "start"
+            }
+        ]
+    },
+    {
+        "name": "start",
+        "columns": [
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "positive"
+            }
+        ]
+    },
+    {
+        "name": "positive",
+        "columns": [
+            {
+                "name": "paper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "paper",
+        "foreign_keys": [
+            {
+                "column": "paper",
+                "references": "behind"
+            }
+        ]
+    },
+    {
+        "name": "behind",
+        "columns": [
+            {
+                "name": "standard",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "standard",
+        "foreign_keys": [
+            {
+                "column": "standard",
+                "references": "today"
+            }
+        ]
+    },
+    {
+        "name": "today",
+        "columns": [
+            {
+                "name": "wish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wish",
+        "foreign_keys": [
+            {
+                "column": "wish",
+                "references": "put"
+            }
+        ]
+    },
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "see",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "their"
+            }
+        ]
+    }
+]

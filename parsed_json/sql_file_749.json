@@ -1,0 +1,149 @@
+[
+    {
+        "name": "condition",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "computer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "artist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "wife"
+            }
+        ]
+    },
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "appear"
+            }
+        ]
+    },
+    {
+        "name": "appear",
+        "columns": [
+            {
+                "name": "risk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "though",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "risk",
+        "foreign_keys": [
+            {
+                "column": "risk",
+                "references": "floor"
+            }
+        ]
+    },
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "business",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "real"
+            }
+        ]
+    },
+    {
+        "name": "real",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lead",
+        "foreign_keys": [
+            {
+                "column": "lead",
+                "references": "condition"
+            }
+        ]
+    }
+]

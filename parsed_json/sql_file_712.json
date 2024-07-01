@@ -1,0 +1,296 @@
+[
+    {
+        "name": "former",
+        "columns": [
+            {
+                "name": "admit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "admit",
+        "foreign_keys": [
+            {
+                "column": "admit",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "task"
+            }
+        ]
+    },
+    {
+        "name": "task",
+        "columns": [
+            {
+                "name": "various",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "nearly"
+            }
+        ]
+    },
+    {
+        "name": "nearly",
+        "columns": [
+            {
+                "name": "remember",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "remember",
+        "foreign_keys": [
+            {
+                "column": "remember",
+                "references": "join"
+            }
+        ]
+    },
+    {
+        "name": "join",
+        "columns": [
+            {
+                "name": "big",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "discuss"
+            }
+        ]
+    },
+    {
+        "name": "discuss",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "yeah"
+            }
+        ]
+    },
+    {
+        "name": "yeah",
+        "columns": [
+            {
+                "name": "help",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "help",
+        "foreign_keys": [
+            {
+                "column": "help",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "drop",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drop",
+        "foreign_keys": [
+            {
+                "column": "drop",
+                "references": "later"
+            }
+        ]
+    },
+    {
+        "name": "later",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "to"
+            }
+        ]
+    },
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "save",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "appear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "save",
+        "foreign_keys": [
+            {
+                "column": "save",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "operation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "operation",
+        "foreign_keys": [
+            {
+                "column": "operation",
+                "references": "former"
+            }
+        ]
+    }
+]

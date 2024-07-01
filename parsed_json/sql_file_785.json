@@ -1,0 +1,149 @@
+[
+    {
+        "name": "property",
+        "columns": [
+            {
+                "name": "term",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "rate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "they",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rate",
+        "foreign_keys": [
+            {
+                "column": "rate",
+                "references": "discuss"
+            }
+        ]
+    },
+    {
+        "name": "discuss",
+        "columns": [
+            {
+                "name": "determine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "determine",
+        "foreign_keys": [
+            {
+                "column": "determine",
+                "references": "line"
+            }
+        ]
+    },
+    {
+        "name": "line",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "try"
+            }
+        ]
+    },
+    {
+        "name": "try",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "will"
+            }
+        ]
+    },
+    {
+        "name": "will",
+        "columns": [
+            {
+                "name": "last",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "last",
+        "foreign_keys": [
+            {
+                "column": "last",
+                "references": "property"
+            }
+        ]
+    }
+]

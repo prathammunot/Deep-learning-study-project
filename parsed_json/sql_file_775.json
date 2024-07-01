@@ -1,0 +1,176 @@
+[
+    {
+        "name": "site",
+        "columns": [
+            {
+                "name": "social",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "social",
+        "foreign_keys": [
+            {
+                "column": "social",
+                "references": "thank"
+            }
+        ]
+    },
+    {
+        "name": "thank",
+        "columns": [
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "one",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "military",
+        "foreign_keys": [
+            {
+                "column": "military",
+                "references": "arrive"
+            }
+        ]
+    },
+    {
+        "name": "arrive",
+        "columns": [
+            {
+                "name": "too",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "too",
+        "foreign_keys": [
+            {
+                "column": "too",
+                "references": "your"
+            }
+        ]
+    },
+    {
+        "name": "your",
+        "columns": [
+            {
+                "name": "see",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "few"
+            }
+        ]
+    },
+    {
+        "name": "few",
+        "columns": [
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "concern",
+        "foreign_keys": [
+            {
+                "column": "concern",
+                "references": "drive"
+            }
+        ]
+    },
+    {
+        "name": "drive",
+        "columns": [
+            {
+                "name": "defense",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "defense",
+        "foreign_keys": [
+            {
+                "column": "defense",
+                "references": "ten"
+            }
+        ]
+    },
+    {
+        "name": "ten",
+        "columns": [
+            {
+                "name": "different",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mrs",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "different",
+        "foreign_keys": [
+            {
+                "column": "different",
+                "references": "site"
+            }
+        ]
+    }
+]

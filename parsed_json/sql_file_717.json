@@ -1,0 +1,247 @@
+[
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "compare",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "head",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "eye"
+            }
+        ]
+    },
+    {
+        "name": "eye",
+        "columns": [
+            {
+                "name": "attention",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "attention",
+        "foreign_keys": [
+            {
+                "column": "attention",
+                "references": "sometimes"
+            }
+        ]
+    },
+    {
+        "name": "sometimes",
+        "columns": [
+            {
+                "name": "piece",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "paper",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "piece",
+        "foreign_keys": [
+            {
+                "column": "piece",
+                "references": "he"
+            }
+        ]
+    },
+    {
+        "name": "he",
+        "columns": [
+            {
+                "name": "step",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "step",
+        "foreign_keys": [
+            {
+                "column": "step",
+                "references": "do"
+            }
+        ]
+    },
+    {
+        "name": "do",
+        "columns": [
+            {
+                "name": "difference",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "difference",
+        "foreign_keys": [
+            {
+                "column": "difference",
+                "references": "though"
+            }
+        ]
+    },
+    {
+        "name": "though",
+        "columns": [
+            {
+                "name": "decision",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decision",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decision",
+        "foreign_keys": [
+            {
+                "column": "decision",
+                "references": "growth"
+            }
+        ]
+    },
+    {
+        "name": "growth",
+        "columns": [
+            {
+                "name": "instead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yard",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "instead",
+        "foreign_keys": [
+            {
+                "column": "instead",
+                "references": "figure"
+            }
+        ]
+    },
+    {
+        "name": "figure",
+        "columns": [
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "expect",
+        "foreign_keys": [
+            {
+                "column": "expect",
+                "references": "little"
+            }
+        ]
+    },
+    {
+        "name": "little",
+        "columns": [
+            {
+                "name": "have",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "assume",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "have",
+        "foreign_keys": [
+            {
+                "column": "have",
+                "references": "however"
+            }
+        ]
+    },
+    {
+        "name": "however",
+        "columns": [
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "common",
+        "foreign_keys": [
+            {
+                "column": "common",
+                "references": "all"
+            }
+        ]
+    }
+]

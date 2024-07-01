@@ -1,0 +1,274 @@
+[
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tough",
+        "foreign_keys": [
+            {
+                "column": "tough",
+                "references": "away"
+            }
+        ]
+    },
+    {
+        "name": "away",
+        "columns": [
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "table",
+        "foreign_keys": [
+            {
+                "column": "table",
+                "references": "card"
+            }
+        ]
+    },
+    {
+        "name": "card",
+        "columns": [
+            {
+                "name": "describe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "describe",
+        "foreign_keys": [
+            {
+                "column": "describe",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "while",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "while",
+        "foreign_keys": [
+            {
+                "column": "while",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "thing",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thing",
+        "foreign_keys": [
+            {
+                "column": "thing",
+                "references": "great"
+            }
+        ]
+    },
+    {
+        "name": "great",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "happy"
+            }
+        ]
+    },
+    {
+        "name": "happy",
+        "columns": [
+            {
+                "name": "partner",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "partner",
+        "foreign_keys": [
+            {
+                "column": "partner",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "near",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "near",
+        "foreign_keys": [
+            {
+                "column": "near",
+                "references": "produce"
+            }
+        ]
+    },
+    {
+        "name": "produce",
+        "columns": [
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "no",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "involve"
+            }
+        ]
+    },
+    {
+        "name": "involve",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "near"
+            }
+        ]
+    }
+]

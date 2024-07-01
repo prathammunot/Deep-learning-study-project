@@ -1,0 +1,198 @@
+[
+    {
+        "name": "whatever",
+        "columns": [
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "short",
+        "foreign_keys": [
+            {
+                "column": "short",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "commercial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "commercial",
+        "foreign_keys": [
+            {
+                "column": "commercial",
+                "references": "food"
+            }
+        ]
+    },
+    {
+        "name": "food",
+        "columns": [
+            {
+                "name": "effort",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "effort",
+        "foreign_keys": [
+            {
+                "column": "effort",
+                "references": "police"
+            }
+        ]
+    },
+    {
+        "name": "police",
+        "columns": [
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "short",
+        "foreign_keys": [
+            {
+                "column": "short",
+                "references": "child"
+            }
+        ]
+    },
+    {
+        "name": "child",
+        "columns": [
+            {
+                "name": "career",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "career",
+        "foreign_keys": [
+            {
+                "column": "career",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tax",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "any",
+        "foreign_keys": [
+            {
+                "column": "any",
+                "references": "success"
+            }
+        ]
+    },
+    {
+        "name": "success",
+        "columns": [
+            {
+                "name": "thus",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thus",
+        "foreign_keys": [
+            {
+                "column": "thus",
+                "references": "whatever"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "message",
+        "foreign_keys": [
+            {
+                "column": "message",
+                "references": "hour"
+            }
+        ]
+    },
+    {
+        "name": "hour",
+        "columns": [
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "five"
+            }
+        ]
+    },
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "up"
+            }
+        ]
+    },
+    {
+        "name": "up",
+        "columns": [
+            {
+                "name": "police",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "police",
+        "foreign_keys": [
+            {
+                "column": "police",
+                "references": "school"
+            }
+        ]
+    },
+    {
+        "name": "school",
+        "columns": [
+            {
+                "name": "third",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "third",
+        "foreign_keys": [
+            {
+                "column": "third",
+                "references": "certain"
+            }
+        ]
+    },
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "alone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "material"
+            }
+        ]
+    },
+    {
+        "name": "material",
+        "columns": [
+            {
+                "name": "account",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "account",
+        "foreign_keys": [
+            {
+                "column": "account",
+                "references": "foreign"
+            }
+        ]
+    },
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "seven",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seven",
+        "foreign_keys": [
+            {
+                "column": "seven",
+                "references": "show"
+            }
+        ]
+    },
+    {
+        "name": "show",
+        "columns": [
+            {
+                "name": "resource",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "resource",
+        "foreign_keys": [
+            {
+                "column": "resource",
+                "references": "charge"
+            }
+        ]
+    }
+]

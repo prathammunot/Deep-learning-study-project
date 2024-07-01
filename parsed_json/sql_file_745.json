@@ -1,0 +1,247 @@
+[
+    {
+        "name": "maintain",
+        "columns": [
+            {
+                "name": "offer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "offer",
+        "foreign_keys": [
+            {
+                "column": "offer",
+                "references": "gas"
+            }
+        ]
+    },
+    {
+        "name": "gas",
+        "columns": [
+            {
+                "name": "it",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "it",
+        "foreign_keys": [
+            {
+                "column": "it",
+                "references": "able"
+            }
+        ]
+    },
+    {
+        "name": "able",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "small"
+            }
+        ]
+    },
+    {
+        "name": "small",
+        "columns": [
+            {
+                "name": "admit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "public",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "admit",
+        "foreign_keys": [
+            {
+                "column": "admit",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "show",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "with",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wife",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "show",
+        "foreign_keys": [
+            {
+                "column": "show",
+                "references": "bit"
+            }
+        ]
+    },
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "you"
+            }
+        ]
+    },
+    {
+        "name": "you",
+        "columns": [
+            {
+                "name": "hope",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "finally",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hope",
+        "foreign_keys": [
+            {
+                "column": "hope",
+                "references": "miss"
+            }
+        ]
+    },
+    {
+        "name": "miss",
+        "columns": [
+            {
+                "name": "together",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "together",
+        "foreign_keys": [
+            {
+                "column": "together",
+                "references": "newspaper"
+            }
+        ]
+    },
+    {
+        "name": "newspaper",
+        "columns": [
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "management",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "institution",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "oil",
+        "foreign_keys": [
+            {
+                "column": "oil",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "maintain"
+            }
+        ]
+    }
+]

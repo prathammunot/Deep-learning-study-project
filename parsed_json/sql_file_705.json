@@ -1,0 +1,225 @@
+[
+    {
+        "name": "size",
+        "columns": [
+            {
+                "name": "parent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "parent",
+        "foreign_keys": [
+            {
+                "column": "parent",
+                "references": "direction"
+            }
+        ]
+    },
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "including",
+        "foreign_keys": [
+            {
+                "column": "including",
+                "references": "reduce"
+            }
+        ]
+    },
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "those",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hit",
+        "foreign_keys": [
+            {
+                "column": "hit",
+                "references": "expert"
+            }
+        ]
+    },
+    {
+        "name": "expert",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "throw"
+            }
+        ]
+    },
+    {
+        "name": "throw",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "company",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "son"
+            }
+        ]
+    },
+    {
+        "name": "son",
+        "columns": [
+            {
+                "name": "particular",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "particular",
+        "foreign_keys": [
+            {
+                "column": "particular",
+                "references": "stop"
+            }
+        ]
+    },
+    {
+        "name": "stop",
+        "columns": [
+            {
+                "name": "race",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wife",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "race",
+        "foreign_keys": [
+            {
+                "column": "race",
+                "references": "occur"
+            }
+        ]
+    },
+    {
+        "name": "occur",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "body",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "size"
+            }
+        ]
+    }
+]

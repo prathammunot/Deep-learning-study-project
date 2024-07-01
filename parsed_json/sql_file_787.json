@@ -1,0 +1,127 @@
+[
+    {
+        "name": "defense",
+        "columns": [
+            {
+                "name": "subject",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "subject",
+        "foreign_keys": [
+            {
+                "column": "subject",
+                "references": "financial"
+            }
+        ]
+    },
+    {
+        "name": "financial",
+        "columns": [
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seem",
+        "foreign_keys": [
+            {
+                "column": "seem",
+                "references": "never"
+            }
+        ]
+    },
+    {
+        "name": "never",
+        "columns": [
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suggest",
+        "foreign_keys": [
+            {
+                "column": "suggest",
+                "references": "approach"
+            }
+        ]
+    },
+    {
+        "name": "approach",
+        "columns": [
+            {
+                "name": "whether",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whether",
+        "foreign_keys": [
+            {
+                "column": "whether",
+                "references": "today"
+            }
+        ]
+    },
+    {
+        "name": "today",
+        "columns": [
+            {
+                "name": "information",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "second",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "defense"
+            }
+        ]
+    }
+]

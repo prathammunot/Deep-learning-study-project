@@ -1,0 +1,176 @@
+[
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pressure",
+        "foreign_keys": [
+            {
+                "column": "pressure",
+                "references": "five"
+            }
+        ]
+    },
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "look",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "free"
+            }
+        ]
+    },
+    {
+        "name": "free",
+        "columns": [
+            {
+                "name": "minute",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "minute",
+        "foreign_keys": [
+            {
+                "column": "minute",
+                "references": "site"
+            }
+        ]
+    },
+    {
+        "name": "site",
+        "columns": [
+            {
+                "name": "though",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "though",
+        "foreign_keys": [
+            {
+                "column": "though",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "sort",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sort",
+        "foreign_keys": [
+            {
+                "column": "sort",
+                "references": "what"
+            }
+        ]
+    },
+    {
+        "name": "what",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "pull"
+            }
+        ]
+    },
+    {
+        "name": "pull",
+        "columns": [
+            {
+                "name": "heart",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "heart",
+        "foreign_keys": [
+            {
+                "column": "heart",
+                "references": "about"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "blue",
+        "columns": [
+            {
+                "name": "throw",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "early",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "throw",
+        "foreign_keys": [
+            {
+                "column": "throw",
+                "references": "hear"
+            }
+        ]
+    },
+    {
+        "name": "hear",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "space"
+            }
+        ]
+    },
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "word",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "these",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "simply"
+            }
+        ]
+    },
+    {
+        "name": "simply",
+        "columns": [
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "possible",
+        "foreign_keys": [
+            {
+                "column": "possible",
+                "references": "factor"
+            }
+        ]
+    },
+    {
+        "name": "factor",
+        "columns": [
+            {
+                "name": "glass",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "glass",
+        "foreign_keys": [
+            {
+                "column": "glass",
+                "references": "sit"
+            }
+        ]
+    },
+    {
+        "name": "sit",
+        "columns": [
+            {
+                "name": "across",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "across",
+        "foreign_keys": [
+            {
+                "column": "across",
+                "references": "including"
+            }
+        ]
+    },
+    {
+        "name": "including",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "travel"
+            }
+        ]
+    },
+    {
+        "name": "travel",
+        "columns": [
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rise",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "five",
+        "foreign_keys": [
+            {
+                "column": "five",
+                "references": "small"
+            }
+        ]
+    },
+    {
+        "name": "small",
+        "columns": [
+            {
+                "name": "consumer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fund",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consumer",
+        "foreign_keys": [
+            {
+                "column": "consumer",
+                "references": "commercial"
+            }
+        ]
+    },
+    {
+        "name": "commercial",
+        "columns": [
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "table"
+            }
+        ]
+    },
+    {
+        "name": "table",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "detail",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "blue"
+            }
+        ]
+    }
+]

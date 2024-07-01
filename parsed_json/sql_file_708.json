@@ -1,0 +1,247 @@
+[
+    {
+        "name": "beat",
+        "columns": [
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "now",
+        "foreign_keys": [
+            {
+                "column": "now",
+                "references": "executive"
+            }
+        ]
+    },
+    {
+        "name": "executive",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "pick"
+            }
+        ]
+    },
+    {
+        "name": "pick",
+        "columns": [
+            {
+                "name": "particularly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "least",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "particularly",
+        "foreign_keys": [
+            {
+                "column": "particularly",
+                "references": "conference"
+            }
+        ]
+    },
+    {
+        "name": "conference",
+        "columns": [
+            {
+                "name": "guy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "guy",
+        "foreign_keys": [
+            {
+                "column": "guy",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "improve",
+        "foreign_keys": [
+            {
+                "column": "improve",
+                "references": "lay"
+            }
+        ]
+    },
+    {
+        "name": "lay",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "him"
+            }
+        ]
+    },
+    {
+        "name": "him",
+        "columns": [
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "together",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "finish",
+        "foreign_keys": [
+            {
+                "column": "finish",
+                "references": "risk"
+            }
+        ]
+    },
+    {
+        "name": "risk",
+        "columns": [
+            {
+                "name": "feel",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feel",
+        "foreign_keys": [
+            {
+                "column": "feel",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "performance",
+        "foreign_keys": [
+            {
+                "column": "performance",
+                "references": "moment"
+            }
+        ]
+    },
+    {
+        "name": "moment",
+        "columns": [
+            {
+                "name": "fire",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fire",
+        "foreign_keys": [
+            {
+                "column": "fire",
+                "references": "beat"
+            }
+        ]
+    }
+]

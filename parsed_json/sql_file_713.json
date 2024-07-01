@@ -1,0 +1,176 @@
+[
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "local",
+        "foreign_keys": [
+            {
+                "column": "local",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "check",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "describe"
+            }
+        ]
+    },
+    {
+        "name": "describe",
+        "columns": [
+            {
+                "name": "change",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "turn",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "them"
+            }
+        ]
+    },
+    {
+        "name": "them",
+        "columns": [
+            {
+                "name": "different",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hotel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "different",
+        "foreign_keys": [
+            {
+                "column": "different",
+                "references": "born"
+            }
+        ]
+    },
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "throughout",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "memory",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "throughout",
+        "foreign_keys": [
+            {
+                "column": "throughout",
+                "references": "woman"
+            }
+        ]
+    },
+    {
+        "name": "woman",
+        "columns": [
+            {
+                "name": "piece",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "piece",
+        "foreign_keys": [
+            {
+                "column": "piece",
+                "references": "top"
+            }
+        ]
+    },
+    {
+        "name": "top",
+        "columns": [
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "itself",
+        "foreign_keys": [
+            {
+                "column": "itself",
+                "references": "everybody"
+            }
+        ]
+    }
+]

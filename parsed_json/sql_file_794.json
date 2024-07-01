@@ -1,0 +1,176 @@
+[
+    {
+        "name": "white",
+        "columns": [
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "end",
+        "foreign_keys": [
+            {
+                "column": "end",
+                "references": "behind"
+            }
+        ]
+    },
+    {
+        "name": "behind",
+        "columns": [
+            {
+                "name": "fall",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fall",
+        "foreign_keys": [
+            {
+                "column": "fall",
+                "references": "interview"
+            }
+        ]
+    },
+    {
+        "name": "interview",
+        "columns": [
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "enough",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "put"
+            }
+        ]
+    },
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "evening",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evening",
+        "foreign_keys": [
+            {
+                "column": "evening",
+                "references": "woman"
+            }
+        ]
+    },
+    {
+        "name": "woman",
+        "columns": [
+            {
+                "name": "thus",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thus",
+        "foreign_keys": [
+            {
+                "column": "thus",
+                "references": "purpose"
+            }
+        ]
+    },
+    {
+        "name": "purpose",
+        "columns": [
+            {
+                "name": "reduce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reduce",
+        "foreign_keys": [
+            {
+                "column": "reduce",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "police",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "police",
+        "foreign_keys": [
+            {
+                "column": "police",
+                "references": "white"
+            }
+        ]
+    }
+]

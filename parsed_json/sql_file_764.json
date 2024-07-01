@@ -1,0 +1,176 @@
+[
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "college",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "food",
+        "foreign_keys": [
+            {
+                "column": "food",
+                "references": "see"
+            }
+        ]
+    },
+    {
+        "name": "see",
+        "columns": [
+            {
+                "name": "especially",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "especially",
+        "foreign_keys": [
+            {
+                "column": "especially",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "someone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "someone",
+        "foreign_keys": [
+            {
+                "column": "someone",
+                "references": "more"
+            }
+        ]
+    },
+    {
+        "name": "more",
+        "columns": [
+            {
+                "name": "officer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "officer",
+        "foreign_keys": [
+            {
+                "column": "officer",
+                "references": "something"
+            }
+        ]
+    },
+    {
+        "name": "something",
+        "columns": [
+            {
+                "name": "strong",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "later",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "strong",
+        "foreign_keys": [
+            {
+                "column": "strong",
+                "references": "author"
+            }
+        ]
+    },
+    {
+        "name": "author",
+        "columns": [
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "even",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "even",
+        "foreign_keys": [
+            {
+                "column": "even",
+                "references": "day"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "them",
+        "columns": [
+            {
+                "name": "line",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "line",
+        "foreign_keys": [
+            {
+                "column": "line",
+                "references": "energy"
+            }
+        ]
+    },
+    {
+        "name": "energy",
+        "columns": [
+            {
+                "name": "which",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "risk",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "which",
+        "foreign_keys": [
+            {
+                "column": "which",
+                "references": "share"
+            }
+        ]
+    },
+    {
+        "name": "share",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "try",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "week"
+            }
+        ]
+    },
+    {
+        "name": "week",
+        "columns": [
+            {
+                "name": "light",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "light",
+        "foreign_keys": [
+            {
+                "column": "light",
+                "references": "mind"
+            }
+        ]
+    },
+    {
+        "name": "mind",
+        "columns": [
+            {
+                "name": "born",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "born",
+        "foreign_keys": [
+            {
+                "column": "born",
+                "references": "painting"
+            }
+        ]
+    },
+    {
+        "name": "painting",
+        "columns": [
+            {
+                "name": "only",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "only",
+        "foreign_keys": [
+            {
+                "column": "only",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "game",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "defense",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "them"
+            }
+        ]
+    }
+]

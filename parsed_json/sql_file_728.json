@@ -1,0 +1,296 @@
+[
+    {
+        "name": "others",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "reveal"
+            }
+        ]
+    },
+    {
+        "name": "reveal",
+        "columns": [
+            {
+                "name": "friend",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "friend",
+        "foreign_keys": [
+            {
+                "column": "friend",
+                "references": "suggest"
+            }
+        ]
+    },
+    {
+        "name": "suggest",
+        "columns": [
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "second",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "prove"
+            }
+        ]
+    },
+    {
+        "name": "prove",
+        "columns": [
+            {
+                "name": "meeting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "meeting",
+        "foreign_keys": [
+            {
+                "column": "meeting",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "better",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "coach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "better",
+        "foreign_keys": [
+            {
+                "column": "better",
+                "references": "determine"
+            }
+        ]
+    },
+    {
+        "name": "determine",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "simple"
+            }
+        ]
+    },
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "who",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "who",
+        "foreign_keys": [
+            {
+                "column": "who",
+                "references": "either"
+            }
+        ]
+    },
+    {
+        "name": "either",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "fly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fly",
+        "foreign_keys": [
+            {
+                "column": "fly",
+                "references": "sense"
+            }
+        ]
+    },
+    {
+        "name": "sense",
+        "columns": [
+            {
+                "name": "citizen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "citizen",
+        "foreign_keys": [
+            {
+                "column": "citizen",
+                "references": "current"
+            }
+        ]
+    },
+    {
+        "name": "current",
+        "columns": [
+            {
+                "name": "door",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "join"
+            }
+        ]
+    },
+    {
+        "name": "join",
+        "columns": [
+            {
+                "name": "strategy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "remain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "strategy",
+        "foreign_keys": [
+            {
+                "column": "strategy",
+                "references": "others"
+            }
+        ]
+    }
+]

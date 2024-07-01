@@ -1,0 +1,176 @@
+[
+    {
+        "name": "interview",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "discover",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "use",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "use",
+        "foreign_keys": [
+            {
+                "column": "use",
+                "references": "bring"
+            }
+        ]
+    },
+    {
+        "name": "bring",
+        "columns": [
+            {
+                "name": "project",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rule",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "project",
+        "foreign_keys": [
+            {
+                "column": "project",
+                "references": "left"
+            }
+        ]
+    },
+    {
+        "name": "left",
+        "columns": [
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "stage"
+            }
+        ]
+    },
+    {
+        "name": "stage",
+        "columns": [
+            {
+                "name": "staff",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "staff",
+        "foreign_keys": [
+            {
+                "column": "staff",
+                "references": "husband"
+            }
+        ]
+    },
+    {
+        "name": "husband",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "box"
+            }
+        ]
+    },
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "military",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "across",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "military",
+        "foreign_keys": [
+            {
+                "column": "military",
+                "references": "interview"
+            }
+        ]
+    }
+]

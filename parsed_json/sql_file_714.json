@@ -1,0 +1,198 @@
+[
+    {
+        "name": "mind",
+        "columns": [
+            {
+                "name": "instead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "instead",
+        "foreign_keys": [
+            {
+                "column": "instead",
+                "references": "main"
+            }
+        ]
+    },
+    {
+        "name": "main",
+        "columns": [
+            {
+                "name": "these",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "these",
+        "foreign_keys": [
+            {
+                "column": "these",
+                "references": "never"
+            }
+        ]
+    },
+    {
+        "name": "never",
+        "columns": [
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "action",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "action",
+        "foreign_keys": [
+            {
+                "column": "action",
+                "references": "of"
+            }
+        ]
+    },
+    {
+        "name": "of",
+        "columns": [
+            {
+                "name": "star",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "star",
+        "foreign_keys": [
+            {
+                "column": "star",
+                "references": "way"
+            }
+        ]
+    },
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "gas",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "gas",
+        "foreign_keys": [
+            {
+                "column": "gas",
+                "references": "place"
+            }
+        ]
+    },
+    {
+        "name": "place",
+        "columns": [
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "drive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "material",
+        "foreign_keys": [
+            {
+                "column": "material",
+                "references": "pass"
+            }
+        ]
+    },
+    {
+        "name": "pass",
+        "columns": [
+            {
+                "name": "visit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "visit",
+        "foreign_keys": [
+            {
+                "column": "visit",
+                "references": "mind"
+            }
+        ]
+    }
+]

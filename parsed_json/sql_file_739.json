@@ -1,0 +1,247 @@
+[
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "practice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "practice",
+        "foreign_keys": [
+            {
+                "column": "practice",
+                "references": "table"
+            }
+        ]
+    },
+    {
+        "name": "table",
+        "columns": [
+            {
+                "name": "magazine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "executive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "magazine",
+        "foreign_keys": [
+            {
+                "column": "magazine",
+                "references": "choose"
+            }
+        ]
+    },
+    {
+        "name": "choose",
+        "columns": [
+            {
+                "name": "rate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rate",
+        "foreign_keys": [
+            {
+                "column": "rate",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "argue"
+            }
+        ]
+    },
+    {
+        "name": "argue",
+        "columns": [
+            {
+                "name": "north",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "north",
+        "foreign_keys": [
+            {
+                "column": "north",
+                "references": "marriage"
+            }
+        ]
+    },
+    {
+        "name": "marriage",
+        "columns": [
+            {
+                "name": "certainly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certainly",
+        "foreign_keys": [
+            {
+                "column": "certainly",
+                "references": "series"
+            }
+        ]
+    },
+    {
+        "name": "series",
+        "columns": [
+            {
+                "name": "do",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "create",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "strong",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "do",
+        "foreign_keys": [
+            {
+                "column": "do",
+                "references": "hotel"
+            }
+        ]
+    },
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "late",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "risk",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "event"
+            }
+        ]
+    },
+    {
+        "name": "event",
+        "columns": [
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sea",
+        "foreign_keys": [
+            {
+                "column": "sea",
+                "references": "store"
+            }
+        ]
+    },
+    {
+        "name": "store",
+        "columns": [
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "character"
+            }
+        ]
+    }
+]

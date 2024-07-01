@@ -1,0 +1,247 @@
+[
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cost",
+        "foreign_keys": [
+            {
+                "column": "cost",
+                "references": "what"
+            }
+        ]
+    },
+    {
+        "name": "what",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "policy"
+            }
+        ]
+    },
+    {
+        "name": "policy",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "institution",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "push"
+            }
+        ]
+    },
+    {
+        "name": "push",
+        "columns": [
+            {
+                "name": "interest",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "boy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "interest",
+        "foreign_keys": [
+            {
+                "column": "interest",
+                "references": "majority"
+            }
+        ]
+    },
+    {
+        "name": "majority",
+        "columns": [
+            {
+                "name": "stage",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stage",
+        "foreign_keys": [
+            {
+                "column": "stage",
+                "references": "not"
+            }
+        ]
+    },
+    {
+        "name": "not",
+        "columns": [
+            {
+                "name": "experience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "experience",
+        "foreign_keys": [
+            {
+                "column": "experience",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "health"
+            }
+        ]
+    },
+    {
+        "name": "health",
+        "columns": [
+            {
+                "name": "for",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "I"
+            }
+        ]
+    },
+    {
+        "name": "I",
+        "columns": [
+            {
+                "name": "animal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "animal",
+        "foreign_keys": [
+            {
+                "column": "animal",
+                "references": "themselves"
+            }
+        ]
+    },
+    {
+        "name": "themselves",
+        "columns": [
+            {
+                "name": "thank",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thank",
+        "foreign_keys": [
+            {
+                "column": "thank",
+                "references": "admit"
+            }
+        ]
+    }
+]

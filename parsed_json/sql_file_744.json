@@ -1,0 +1,225 @@
+[
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sit",
+        "foreign_keys": [
+            {
+                "column": "sit",
+                "references": "although"
+            }
+        ]
+    },
+    {
+        "name": "although",
+        "columns": [
+            {
+                "name": "particular",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "resource",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "particular",
+        "foreign_keys": [
+            {
+                "column": "particular",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "vote",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "data",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "vote",
+        "foreign_keys": [
+            {
+                "column": "vote",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "available",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "trouble",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "wide"
+            }
+        ]
+    },
+    {
+        "name": "wide",
+        "columns": [
+            {
+                "name": "rise",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rise",
+        "foreign_keys": [
+            {
+                "column": "rise",
+                "references": "prove"
+            }
+        ]
+    },
+    {
+        "name": "prove",
+        "columns": [
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fine",
+        "foreign_keys": [
+            {
+                "column": "fine",
+                "references": "whole"
+            }
+        ]
+    },
+    {
+        "name": "whole",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "keep"
+            }
+        ]
+    },
+    {
+        "name": "keep",
+        "columns": [
+            {
+                "name": "difference",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "difference",
+        "foreign_keys": [
+            {
+                "column": "difference",
+                "references": "build"
+            }
+        ]
+    },
+    {
+        "name": "build",
+        "columns": [
+            {
+                "name": "student",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "job"
+            }
+        ]
+    }
+]

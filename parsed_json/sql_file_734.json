@@ -1,0 +1,176 @@
+[
+    {
+        "name": "bring",
+        "columns": [
+            {
+                "name": "impact",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environmental",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "impact",
+        "foreign_keys": [
+            {
+                "column": "impact",
+                "references": "thought"
+            }
+        ]
+    },
+    {
+        "name": "thought",
+        "columns": [
+            {
+                "name": "group",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "group",
+        "foreign_keys": [
+            {
+                "column": "group",
+                "references": "girl"
+            }
+        ]
+    },
+    {
+        "name": "girl",
+        "columns": [
+            {
+                "name": "bill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bill",
+        "foreign_keys": [
+            {
+                "column": "bill",
+                "references": "simply"
+            }
+        ]
+    },
+    {
+        "name": "simply",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "listen"
+            }
+        ]
+    },
+    {
+        "name": "listen",
+        "columns": [
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ten",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "film",
+        "foreign_keys": [
+            {
+                "column": "film",
+                "references": "ever"
+            }
+        ]
+    },
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "show"
+            }
+        ]
+    },
+    {
+        "name": "show",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "bring"
+            }
+        ]
+    }
+]

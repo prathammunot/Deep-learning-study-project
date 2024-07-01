@@ -1,0 +1,247 @@
+[
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "author",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "age",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "culture"
+            }
+        ]
+    },
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "tough"
+            }
+        ]
+    },
+    {
+        "name": "tough",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "trip"
+            }
+        ]
+    },
+    {
+        "name": "trip",
+        "columns": [
+            {
+                "name": "lead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lead",
+        "foreign_keys": [
+            {
+                "column": "lead",
+                "references": "small"
+            }
+        ]
+    },
+    {
+        "name": "small",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "care"
+            }
+        ]
+    },
+    {
+        "name": "care",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "ability"
+            }
+        ]
+    },
+    {
+        "name": "ability",
+        "columns": [
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suggest",
+        "foreign_keys": [
+            {
+                "column": "suggest",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "evidence",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "evidence",
+        "foreign_keys": [
+            {
+                "column": "evidence",
+                "references": "everyone"
+            }
+        ]
+    },
+    {
+        "name": "everyone",
+        "columns": [
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pull",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "also",
+        "foreign_keys": [
+            {
+                "column": "also",
+                "references": "simple"
+            }
+        ]
+    }
+]

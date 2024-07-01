@@ -1,0 +1,274 @@
+[
+    {
+        "name": "election",
+        "columns": [
+            {
+                "name": "window",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lawyer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "low",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "window",
+        "foreign_keys": [
+            {
+                "column": "window",
+                "references": "return"
+            }
+        ]
+    },
+    {
+        "name": "return",
+        "columns": [
+            {
+                "name": "pass",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pass",
+        "foreign_keys": [
+            {
+                "column": "pass",
+                "references": "common"
+            }
+        ]
+    },
+    {
+        "name": "common",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "job",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "could",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "could",
+        "foreign_keys": [
+            {
+                "column": "could",
+                "references": "themselves"
+            }
+        ]
+    },
+    {
+        "name": "themselves",
+        "columns": [
+            {
+                "name": "performance",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "of",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "performance",
+        "foreign_keys": [
+            {
+                "column": "performance",
+                "references": "nation"
+            }
+        ]
+    },
+    {
+        "name": "nation",
+        "columns": [
+            {
+                "name": "fast",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fast",
+        "foreign_keys": [
+            {
+                "column": "fast",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "rise",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rise",
+        "foreign_keys": [
+            {
+                "column": "rise",
+                "references": "wonder"
+            }
+        ]
+    },
+    {
+        "name": "wonder",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "end",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "end",
+        "foreign_keys": [
+            {
+                "column": "end",
+                "references": "compare"
+            }
+        ]
+    },
+    {
+        "name": "compare",
+        "columns": [
+            {
+                "name": "charge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "charge",
+        "foreign_keys": [
+            {
+                "column": "charge",
+                "references": "election"
+            }
+        ]
+    }
+]

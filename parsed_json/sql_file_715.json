@@ -1,0 +1,274 @@
+[
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "street",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agent",
+        "foreign_keys": [
+            {
+                "column": "agent",
+                "references": "million"
+            }
+        ]
+    },
+    {
+        "name": "million",
+        "columns": [
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "along",
+        "foreign_keys": [
+            {
+                "column": "along",
+                "references": "answer"
+            }
+        ]
+    },
+    {
+        "name": "answer",
+        "columns": [
+            {
+                "name": "man",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "man",
+        "foreign_keys": [
+            {
+                "column": "man",
+                "references": "its"
+            }
+        ]
+    },
+    {
+        "name": "its",
+        "columns": [
+            {
+                "name": "employee",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "employee",
+        "foreign_keys": [
+            {
+                "column": "employee",
+                "references": "space"
+            }
+        ]
+    },
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "include",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mrs",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "include",
+        "foreign_keys": [
+            {
+                "column": "include",
+                "references": "join"
+            }
+        ]
+    },
+    {
+        "name": "join",
+        "columns": [
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rise",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "one",
+        "foreign_keys": [
+            {
+                "column": "one",
+                "references": "or"
+            }
+        ]
+    },
+    {
+        "name": "or",
+        "columns": [
+            {
+                "name": "fine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fine",
+        "foreign_keys": [
+            {
+                "column": "fine",
+                "references": "enough"
+            }
+        ]
+    },
+    {
+        "name": "enough",
+        "columns": [
+            {
+                "name": "stop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stop",
+        "foreign_keys": [
+            {
+                "column": "stop",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "hotel",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hotel",
+        "foreign_keys": [
+            {
+                "column": "hotel",
+                "references": "face"
+            }
+        ]
+    },
+    {
+        "name": "face",
+        "columns": [
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "price",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "mission"
+            }
+        ]
+    },
+    {
+        "name": "mission",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "take"
+            }
+        ]
+    }
+]

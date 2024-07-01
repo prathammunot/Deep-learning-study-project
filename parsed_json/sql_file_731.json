@@ -1,0 +1,127 @@
+[
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "arrive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ground",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "arrive",
+        "foreign_keys": [
+            {
+                "column": "arrive",
+                "references": "cut"
+            }
+        ]
+    },
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "add",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "add",
+        "foreign_keys": [
+            {
+                "column": "add",
+                "references": "collection"
+            }
+        ]
+    },
+    {
+        "name": "collection",
+        "columns": [
+            {
+                "name": "open",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "open",
+        "foreign_keys": [
+            {
+                "column": "open",
+                "references": "fight"
+            }
+        ]
+    },
+    {
+        "name": "fight",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "budget"
+            }
+        ]
+    },
+    {
+        "name": "budget",
+        "columns": [
+            {
+                "name": "energy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "arrive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "energy",
+        "foreign_keys": [
+            {
+                "column": "energy",
+                "references": "theory"
+            }
+        ]
+    }
+]

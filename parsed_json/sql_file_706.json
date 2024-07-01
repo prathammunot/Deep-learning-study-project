@@ -1,0 +1,274 @@
+[
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "late",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "light"
+            }
+        ]
+    },
+    {
+        "name": "light",
+        "columns": [
+            {
+                "name": "security",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "security",
+        "foreign_keys": [
+            {
+                "column": "security",
+                "references": "away"
+            }
+        ]
+    },
+    {
+        "name": "away",
+        "columns": [
+            {
+                "name": "development",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recognize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "development",
+        "foreign_keys": [
+            {
+                "column": "development",
+                "references": "thing"
+            }
+        ]
+    },
+    {
+        "name": "thing",
+        "columns": [
+            {
+                "name": "player",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "player",
+        "foreign_keys": [
+            {
+                "column": "player",
+                "references": "modern"
+            }
+        ]
+    },
+    {
+        "name": "modern",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "down"
+            }
+        ]
+    },
+    {
+        "name": "down",
+        "columns": [
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "my"
+            }
+        ]
+    },
+    {
+        "name": "my",
+        "columns": [
+            {
+                "name": "who",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "who",
+        "foreign_keys": [
+            {
+                "column": "who",
+                "references": "culture"
+            }
+        ]
+    },
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prevent",
+        "foreign_keys": [
+            {
+                "column": "prevent",
+                "references": "pretty"
+            }
+        ]
+    },
+    {
+        "name": "pretty",
+        "columns": [
+            {
+                "name": "pick",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "public",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pick",
+        "foreign_keys": [
+            {
+                "column": "pick",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "establish"
+            }
+        ]
+    }
+]

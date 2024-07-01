@@ -1,0 +1,274 @@
+[
+    {
+        "name": "campaign",
+        "columns": [
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "experience"
+            }
+        ]
+    },
+    {
+        "name": "experience",
+        "columns": [
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "parent",
+        "foreign_keys": [
+            {
+                "column": "parent",
+                "references": "population"
+            }
+        ]
+    },
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "through",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "brother",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "through",
+        "foreign_keys": [
+            {
+                "column": "through",
+                "references": "baby"
+            }
+        ]
+    },
+    {
+        "name": "baby",
+        "columns": [
+            {
+                "name": "appear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "specific",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "appear",
+        "foreign_keys": [
+            {
+                "column": "appear",
+                "references": "list"
+            }
+        ]
+    },
+    {
+        "name": "list",
+        "columns": [
+            {
+                "name": "system",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "system",
+        "foreign_keys": [
+            {
+                "column": "system",
+                "references": "within"
+            }
+        ]
+    },
+    {
+        "name": "within",
+        "columns": [
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behavior",
+        "foreign_keys": [
+            {
+                "column": "behavior",
+                "references": "outside"
+            }
+        ]
+    },
+    {
+        "name": "outside",
+        "columns": [
+            {
+                "name": "owner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hotel",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "owner",
+        "foreign_keys": [
+            {
+                "column": "owner",
+                "references": "far"
+            }
+        ]
+    },
+    {
+        "name": "far",
+        "columns": [
+            {
+                "name": "than",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "than",
+        "foreign_keys": [
+            {
+                "column": "than",
+                "references": "way"
+            }
+        ]
+    },
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "next",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "and",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "teacher"
+            }
+        ]
+    },
+    {
+        "name": "teacher",
+        "columns": [
+            {
+                "name": "hope",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "laugh",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hope",
+        "foreign_keys": [
+            {
+                "column": "hope",
+                "references": "campaign"
+            }
+        ]
+    }
+]

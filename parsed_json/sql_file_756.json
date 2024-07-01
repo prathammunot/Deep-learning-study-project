@@ -1,0 +1,149 @@
+[
+    {
+        "name": "turn",
+        "columns": [
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "company",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "study",
+        "foreign_keys": [
+            {
+                "column": "study",
+                "references": "answer"
+            }
+        ]
+    },
+    {
+        "name": "answer",
+        "columns": [
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "mean"
+            }
+        ]
+    },
+    {
+        "name": "mean",
+        "columns": [
+            {
+                "name": "trouble",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "improve",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trouble",
+        "foreign_keys": [
+            {
+                "column": "trouble",
+                "references": "stock"
+            }
+        ]
+    },
+    {
+        "name": "stock",
+        "columns": [
+            {
+                "name": "which",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "which",
+        "foreign_keys": [
+            {
+                "column": "which",
+                "references": "fish"
+            }
+        ]
+    },
+    {
+        "name": "fish",
+        "columns": [
+            {
+                "name": "special",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "special",
+        "foreign_keys": [
+            {
+                "column": "special",
+                "references": "sort"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "those",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mission",
+        "foreign_keys": [
+            {
+                "column": "mission",
+                "references": "turn"
+            }
+        ]
+    }
+]

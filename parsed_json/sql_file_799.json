@@ -1,0 +1,225 @@
+[
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "Republican",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Republican",
+        "foreign_keys": [
+            {
+                "column": "Republican",
+                "references": "resource"
+            }
+        ]
+    },
+    {
+        "name": "resource",
+        "columns": [
+            {
+                "name": "set",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "set",
+        "foreign_keys": [
+            {
+                "column": "set",
+                "references": "tree"
+            }
+        ]
+    },
+    {
+        "name": "tree",
+        "columns": [
+            {
+                "name": "foot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "foot",
+        "foreign_keys": [
+            {
+                "column": "foot",
+                "references": "under"
+            }
+        ]
+    },
+    {
+        "name": "under",
+        "columns": [
+            {
+                "name": "detail",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "detail",
+        "foreign_keys": [
+            {
+                "column": "detail",
+                "references": "still"
+            }
+        ]
+    },
+    {
+        "name": "still",
+        "columns": [
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "contain",
+        "foreign_keys": [
+            {
+                "column": "contain",
+                "references": "real"
+            }
+        ]
+    },
+    {
+        "name": "real",
+        "columns": [
+            {
+                "name": "ahead",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ahead",
+        "foreign_keys": [
+            {
+                "column": "ahead",
+                "references": "direction"
+            }
+        ]
+    },
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "protect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "summer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "protect",
+        "foreign_keys": [
+            {
+                "column": "protect",
+                "references": "floor"
+            }
+        ]
+    },
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "ago",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ago",
+        "foreign_keys": [
+            {
+                "column": "ago",
+                "references": "past"
+            }
+        ]
+    },
+    {
+        "name": "past",
+        "columns": [
+            {
+                "name": "key",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "success",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "key",
+        "foreign_keys": [
+            {
+                "column": "key",
+                "references": "five"
+            }
+        ]
+    }
+]

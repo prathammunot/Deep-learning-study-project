@@ -1,0 +1,296 @@
+[
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "success",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "data",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "success",
+        "foreign_keys": [
+            {
+                "column": "success",
+                "references": "yourself"
+            }
+        ]
+    },
+    {
+        "name": "yourself",
+        "columns": [
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "policy",
+        "foreign_keys": [
+            {
+                "column": "policy",
+                "references": "lose"
+            }
+        ]
+    },
+    {
+        "name": "lose",
+        "columns": [
+            {
+                "name": "explain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "explain",
+        "foreign_keys": [
+            {
+                "column": "explain",
+                "references": "worry"
+            }
+        ]
+    },
+    {
+        "name": "worry",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "management",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "national",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "national",
+        "foreign_keys": [
+            {
+                "column": "national",
+                "references": "along"
+            }
+        ]
+    },
+    {
+        "name": "along",
+        "columns": [
+            {
+                "name": "help",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "help",
+        "foreign_keys": [
+            {
+                "column": "help",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "raise",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "raise",
+        "foreign_keys": [
+            {
+                "column": "raise",
+                "references": "gun"
+            }
+        ]
+    },
+    {
+        "name": "gun",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "skin",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "scene",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scene",
+        "foreign_keys": [
+            {
+                "column": "scene",
+                "references": "rich"
+            }
+        ]
+    },
+    {
+        "name": "rich",
+        "columns": [
+            {
+                "name": "role",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "street",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "issue"
+            }
+        ]
+    },
+    {
+        "name": "issue",
+        "columns": [
+            {
+                "name": "shoulder",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "shoulder",
+        "foreign_keys": [
+            {
+                "column": "shoulder",
+                "references": "Mrs"
+            }
+        ]
+    }
+]

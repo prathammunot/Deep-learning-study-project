@@ -1,0 +1,176 @@
+[
+    {
+        "name": "simply",
+        "columns": [
+            {
+                "name": "head",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "head",
+        "foreign_keys": [
+            {
+                "column": "head",
+                "references": "not"
+            }
+        ]
+    },
+    {
+        "name": "not",
+        "columns": [
+            {
+                "name": "it",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "it",
+        "foreign_keys": [
+            {
+                "column": "it",
+                "references": "start"
+            }
+        ]
+    },
+    {
+        "name": "start",
+        "columns": [
+            {
+                "name": "score",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "score",
+        "foreign_keys": [
+            {
+                "column": "score",
+                "references": "treat"
+            }
+        ]
+    },
+    {
+        "name": "treat",
+        "columns": [
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "address",
+        "foreign_keys": [
+            {
+                "column": "address",
+                "references": "land"
+            }
+        ]
+    },
+    {
+        "name": "land",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "able"
+            }
+        ]
+    },
+    {
+        "name": "able",
+        "columns": [
+            {
+                "name": "board",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "board",
+        "foreign_keys": [
+            {
+                "column": "board",
+                "references": "majority"
+            }
+        ]
+    },
+    {
+        "name": "majority",
+        "columns": [
+            {
+                "name": "resource",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "natural",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "resource",
+        "foreign_keys": [
+            {
+                "column": "resource",
+                "references": "simply"
+            }
+        ]
+    }
+]

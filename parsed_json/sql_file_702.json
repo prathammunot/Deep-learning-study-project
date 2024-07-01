@@ -1,0 +1,225 @@
+[
+    {
+        "name": "including",
+        "columns": [
+            {
+                "name": "box",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "case"
+            }
+        ]
+    },
+    {
+        "name": "case",
+        "columns": [
+            {
+                "name": "future",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "future",
+        "foreign_keys": [
+            {
+                "column": "future",
+                "references": "not"
+            }
+        ]
+    },
+    {
+        "name": "not",
+        "columns": [
+            {
+                "name": "stay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stay",
+        "foreign_keys": [
+            {
+                "column": "stay",
+                "references": "him"
+            }
+        ]
+    },
+    {
+        "name": "him",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "bad"
+            }
+        ]
+    },
+    {
+        "name": "bad",
+        "columns": [
+            {
+                "name": "beautiful",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whether",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beautiful",
+        "foreign_keys": [
+            {
+                "column": "beautiful",
+                "references": "treat"
+            }
+        ]
+    },
+    {
+        "name": "treat",
+        "columns": [
+            {
+                "name": "force",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "program"
+            }
+        ]
+    },
+    {
+        "name": "program",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "million"
+            }
+        ]
+    },
+    {
+        "name": "million",
+        "columns": [
+            {
+                "name": "season",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "force",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "season",
+        "foreign_keys": [
+            {
+                "column": "season",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "interesting",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "interesting",
+        "foreign_keys": [
+            {
+                "column": "interesting",
+                "references": "including"
+            }
+        ]
+    }
+]

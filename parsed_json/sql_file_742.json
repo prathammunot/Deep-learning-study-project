@@ -1,0 +1,247 @@
+[
+    {
+        "name": "baby",
+        "columns": [
+            {
+                "name": "at",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "at",
+        "foreign_keys": [
+            {
+                "column": "at",
+                "references": "many"
+            }
+        ]
+    },
+    {
+        "name": "many",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "laugh",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "network"
+            }
+        ]
+    },
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "could",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "could",
+        "foreign_keys": [
+            {
+                "column": "could",
+                "references": "guess"
+            }
+        ]
+    },
+    {
+        "name": "guess",
+        "columns": [
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trial",
+        "foreign_keys": [
+            {
+                "column": "trial",
+                "references": "charge"
+            }
+        ]
+    },
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trouble",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "prepare"
+            }
+        ]
+    },
+    {
+        "name": "prepare",
+        "columns": [
+            {
+                "name": "young",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "young",
+        "foreign_keys": [
+            {
+                "column": "young",
+                "references": "activity"
+            }
+        ]
+    },
+    {
+        "name": "activity",
+        "columns": [
+            {
+                "name": "owner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thank",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "owner",
+        "foreign_keys": [
+            {
+                "column": "owner",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "first",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "challenge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "first",
+        "foreign_keys": [
+            {
+                "column": "first",
+                "references": "return"
+            }
+        ]
+    },
+    {
+        "name": "return",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "sound",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sound",
+        "foreign_keys": [
+            {
+                "column": "sound",
+                "references": "baby"
+            }
+        ]
+    }
+]

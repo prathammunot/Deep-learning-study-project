@@ -1,0 +1,225 @@
+[
+    {
+        "name": "figure",
+        "columns": [
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "public",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "apply",
+        "foreign_keys": [
+            {
+                "column": "apply",
+                "references": "student"
+            }
+        ]
+    },
+    {
+        "name": "student",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "say"
+            }
+        ]
+    },
+    {
+        "name": "say",
+        "columns": [
+            {
+                "name": "drug",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "approach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drug",
+        "foreign_keys": [
+            {
+                "column": "drug",
+                "references": "various"
+            }
+        ]
+    },
+    {
+        "name": "various",
+        "columns": [
+            {
+                "name": "source",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "executive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "source",
+        "foreign_keys": [
+            {
+                "column": "source",
+                "references": "task"
+            }
+        ]
+    },
+    {
+        "name": "task",
+        "columns": [
+            {
+                "name": "again",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "chair",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "again",
+        "foreign_keys": [
+            {
+                "column": "again",
+                "references": "quickly"
+            }
+        ]
+    },
+    {
+        "name": "quickly",
+        "columns": [
+            {
+                "name": "build",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "build",
+        "foreign_keys": [
+            {
+                "column": "build",
+                "references": "lay"
+            }
+        ]
+    },
+    {
+        "name": "lay",
+        "columns": [
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "week",
+        "foreign_keys": [
+            {
+                "column": "week",
+                "references": "politics"
+            }
+        ]
+    },
+    {
+        "name": "politics",
+        "columns": [
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sound",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "along"
+            }
+        ]
+    },
+    {
+        "name": "along",
+        "columns": [
+            {
+                "name": "serious",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "serious",
+        "foreign_keys": [
+            {
+                "column": "serious",
+                "references": "figure"
+            }
+        ]
+    }
+]

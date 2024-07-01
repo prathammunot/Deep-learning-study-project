@@ -1,0 +1,198 @@
+[
+    {
+        "name": "response",
+        "columns": [
+            {
+                "name": "far",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "source",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "far",
+        "foreign_keys": [
+            {
+                "column": "far",
+                "references": "act"
+            }
+        ]
+    },
+    {
+        "name": "act",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "assume",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "hair"
+            }
+        ]
+    },
+    {
+        "name": "hair",
+        "columns": [
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "project",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quite",
+        "foreign_keys": [
+            {
+                "column": "quite",
+                "references": "someone"
+            }
+        ]
+    },
+    {
+        "name": "someone",
+        "columns": [
+            {
+                "name": "their",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "their",
+        "foreign_keys": [
+            {
+                "column": "their",
+                "references": "thus"
+            }
+        ]
+    },
+    {
+        "name": "thus",
+        "columns": [
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "pressure"
+            }
+        ]
+    },
+    {
+        "name": "pressure",
+        "columns": [
+            {
+                "name": "than",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "than",
+        "foreign_keys": [
+            {
+                "column": "than",
+                "references": "short"
+            }
+        ]
+    },
+    {
+        "name": "short",
+        "columns": [
+            {
+                "name": "sister",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sister",
+        "foreign_keys": [
+            {
+                "column": "sister",
+                "references": "subject"
+            }
+        ]
+    },
+    {
+        "name": "subject",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "response"
+            }
+        ]
+    }
+]

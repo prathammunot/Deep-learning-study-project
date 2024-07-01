@@ -1,0 +1,225 @@
+[
+    {
+        "name": "score",
+        "columns": [
+            {
+                "name": "though",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "though",
+        "foreign_keys": [
+            {
+                "column": "though",
+                "references": "nation"
+            }
+        ]
+    },
+    {
+        "name": "nation",
+        "columns": [
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "human",
+        "foreign_keys": [
+            {
+                "column": "human",
+                "references": "vote"
+            }
+        ]
+    },
+    {
+        "name": "vote",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "year",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "song"
+            }
+        ]
+    },
+    {
+        "name": "song",
+        "columns": [
+            {
+                "name": "Congress",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Congress",
+        "foreign_keys": [
+            {
+                "column": "Congress",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seek",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "name"
+            }
+        ]
+    },
+    {
+        "name": "name",
+        "columns": [
+            {
+                "name": "reflect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reflect",
+        "foreign_keys": [
+            {
+                "column": "reflect",
+                "references": "stay"
+            }
+        ]
+    },
+    {
+        "name": "stay",
+        "columns": [
+            {
+                "name": "art",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "game"
+            }
+        ]
+    },
+    {
+        "name": "game",
+        "columns": [
+            {
+                "name": "reality",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reality",
+        "foreign_keys": [
+            {
+                "column": "reality",
+                "references": "order"
+            }
+        ]
+    },
+    {
+        "name": "order",
+        "columns": [
+            {
+                "name": "serious",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "his",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "serious",
+        "foreign_keys": [
+            {
+                "column": "serious",
+                "references": "score"
+            }
+        ]
+    }
+]

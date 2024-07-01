@@ -1,0 +1,274 @@
+[
+    {
+        "name": "turn",
+        "columns": [
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "campaign",
+        "foreign_keys": [
+            {
+                "column": "campaign",
+                "references": "deep"
+            }
+        ]
+    },
+    {
+        "name": "deep",
+        "columns": [
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "natural"
+            }
+        ]
+    },
+    {
+        "name": "natural",
+        "columns": [
+            {
+                "name": "into",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "care",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "into",
+        "foreign_keys": [
+            {
+                "column": "into",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "would",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "would",
+        "foreign_keys": [
+            {
+                "column": "would",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "field"
+            }
+        ]
+    },
+    {
+        "name": "field",
+        "columns": [
+            {
+                "name": "throughout",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "offer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "throughout",
+        "foreign_keys": [
+            {
+                "column": "throughout",
+                "references": "sound"
+            }
+        ]
+    },
+    {
+        "name": "sound",
+        "columns": [
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "onto",
+        "foreign_keys": [
+            {
+                "column": "onto",
+                "references": "light"
+            }
+        ]
+    },
+    {
+        "name": "light",
+        "columns": [
+            {
+                "name": "those",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "later",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "those",
+        "foreign_keys": [
+            {
+                "column": "those",
+                "references": "water"
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "columns": [
+            {
+                "name": "clear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "clear",
+        "foreign_keys": [
+            {
+                "column": "clear",
+                "references": "hear"
+            }
+        ]
+    },
+    {
+        "name": "hear",
+        "columns": [
+            {
+                "name": "adult",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "second",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "adult",
+        "foreign_keys": [
+            {
+                "column": "adult",
+                "references": "beautiful"
+            }
+        ]
+    },
+    {
+        "name": "beautiful",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wife",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "turn"
+            }
+        ]
+    }
+]

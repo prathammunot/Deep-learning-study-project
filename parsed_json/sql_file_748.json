@@ -1,0 +1,296 @@
+[
+    {
+        "name": "son",
+        "columns": [
+            {
+                "name": "present",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "true",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "present",
+        "foreign_keys": [
+            {
+                "column": "present",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "case",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "case",
+        "foreign_keys": [
+            {
+                "column": "case",
+                "references": "break"
+            }
+        ]
+    },
+    {
+        "name": "break",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "few"
+            }
+        ]
+    },
+    {
+        "name": "few",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "ask"
+            }
+        ]
+    },
+    {
+        "name": "ask",
+        "columns": [
+            {
+                "name": "crime",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "crime",
+        "foreign_keys": [
+            {
+                "column": "crime",
+                "references": "national"
+            }
+        ]
+    },
+    {
+        "name": "national",
+        "columns": [
+            {
+                "name": "yes",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yes",
+        "foreign_keys": [
+            {
+                "column": "yes",
+                "references": "turn"
+            }
+        ]
+    },
+    {
+        "name": "turn",
+        "columns": [
+            {
+                "name": "my",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "my",
+        "foreign_keys": [
+            {
+                "column": "my",
+                "references": "and"
+            }
+        ]
+    },
+    {
+        "name": "and",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "far"
+            }
+        ]
+    },
+    {
+        "name": "far",
+        "columns": [
+            {
+                "name": "type",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "these",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "type",
+        "foreign_keys": [
+            {
+                "column": "type",
+                "references": "do"
+            }
+        ]
+    },
+    {
+        "name": "do",
+        "columns": [
+            {
+                "name": "house",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "house",
+        "foreign_keys": [
+            {
+                "column": "house",
+                "references": "perhaps"
+            }
+        ]
+    },
+    {
+        "name": "perhaps",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "boy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "commercial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "successful",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "commercial",
+        "foreign_keys": [
+            {
+                "column": "commercial",
+                "references": "son"
+            }
+        ]
+    }
+]

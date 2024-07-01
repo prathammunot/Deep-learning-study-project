@@ -1,0 +1,296 @@
+[
+    {
+        "name": "general",
+        "columns": [
+            {
+                "name": "respond",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "respond",
+        "foreign_keys": [
+            {
+                "column": "respond",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "build",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "build",
+        "foreign_keys": [
+            {
+                "column": "build",
+                "references": "or"
+            }
+        ]
+    },
+    {
+        "name": "or",
+        "columns": [
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "student",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "spend",
+        "foreign_keys": [
+            {
+                "column": "spend",
+                "references": "social"
+            }
+        ]
+    },
+    {
+        "name": "social",
+        "columns": [
+            {
+                "name": "upon",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "professional",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "line",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "upon",
+        "foreign_keys": [
+            {
+                "column": "upon",
+                "references": "number"
+            }
+        ]
+    },
+    {
+        "name": "number",
+        "columns": [
+            {
+                "name": "yet",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "challenge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yet",
+        "foreign_keys": [
+            {
+                "column": "yet",
+                "references": "anyone"
+            }
+        ]
+    },
+    {
+        "name": "anyone",
+        "columns": [
+            {
+                "name": "across",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "across",
+        "foreign_keys": [
+            {
+                "column": "across",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "similar",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "air",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "similar",
+        "foreign_keys": [
+            {
+                "column": "similar",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "small",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "official",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "official",
+        "foreign_keys": [
+            {
+                "column": "official",
+                "references": "drive"
+            }
+        ]
+    },
+    {
+        "name": "drive",
+        "columns": [
+            {
+                "name": "glass",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "glass",
+        "foreign_keys": [
+            {
+                "column": "glass",
+                "references": "nothing"
+            }
+        ]
+    },
+    {
+        "name": "nothing",
+        "columns": [
+            {
+                "name": "sister",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sister",
+        "foreign_keys": [
+            {
+                "column": "sister",
+                "references": "general"
+            }
+        ]
+    }
+]

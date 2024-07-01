@@ -1,0 +1,220 @@
+[
+    {
+        "name": "listen",
+        "columns": [
+            {
+                "name": "yes",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yes",
+        "foreign_keys": [
+            {
+                "column": "yes",
+                "references": "join"
+            }
+        ]
+    },
+    {
+        "name": "join",
+        "columns": [
+            {
+                "name": "show",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "show",
+        "foreign_keys": [
+            {
+                "column": "show",
+                "references": "sign"
+            }
+        ]
+    },
+    {
+        "name": "sign",
+        "columns": [
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "record",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fill",
+        "foreign_keys": [
+            {
+                "column": "fill",
+                "references": "choice"
+            }
+        ]
+    },
+    {
+        "name": "choice",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "commercial"
+            }
+        ]
+    },
+    {
+        "name": "commercial",
+        "columns": [
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "system",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "require",
+        "foreign_keys": [
+            {
+                "column": "require",
+                "references": "college"
+            }
+        ]
+    },
+    {
+        "name": "college",
+        "columns": [
+            {
+                "name": "nature",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "growth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nature",
+        "foreign_keys": [
+            {
+                "column": "nature",
+                "references": "away"
+            }
+        ]
+    },
+    {
+        "name": "away",
+        "columns": [
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tough",
+        "foreign_keys": [
+            {
+                "column": "tough",
+                "references": "beautiful"
+            }
+        ]
+    },
+    {
+        "name": "beautiful",
+        "columns": [
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "paper",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "campaign"
+            }
+        ]
+    },
+    {
+        "name": "campaign",
+        "columns": [
+            {
+                "name": "your",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "listen"
+            }
+        ]
+    }
+]

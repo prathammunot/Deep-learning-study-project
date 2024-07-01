@@ -1,0 +1,127 @@
+[
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "describe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "describe",
+        "foreign_keys": [
+            {
+                "column": "describe",
+                "references": "energy"
+            }
+        ]
+    },
+    {
+        "name": "energy",
+        "columns": [
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "science",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "outside",
+        "foreign_keys": [
+            {
+                "column": "outside",
+                "references": "during"
+            }
+        ]
+    },
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "service",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "new"
+            }
+        ]
+    },
+    {
+        "name": "new",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "conference",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yeah",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "conference",
+        "foreign_keys": [
+            {
+                "column": "conference",
+                "references": "goal"
+            }
+        ]
+    }
+]

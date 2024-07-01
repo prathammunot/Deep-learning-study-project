@@ -1,0 +1,198 @@
+[
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "put",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "put",
+        "foreign_keys": [
+            {
+                "column": "put",
+                "references": "suggest"
+            }
+        ]
+    },
+    {
+        "name": "suggest",
+        "columns": [
+            {
+                "name": "chance",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "chance",
+        "foreign_keys": [
+            {
+                "column": "chance",
+                "references": "action"
+            }
+        ]
+    },
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "for",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "play"
+            }
+        ]
+    },
+    {
+        "name": "play",
+        "columns": [
+            {
+                "name": "high",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "down",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thousand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "down",
+        "foreign_keys": [
+            {
+                "column": "down",
+                "references": "line"
+            }
+        ]
+    },
+    {
+        "name": "line",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "officer"
+            }
+        ]
+    },
+    {
+        "name": "officer",
+        "columns": [
+            {
+                "name": "increase",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "police",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "increase",
+        "foreign_keys": [
+            {
+                "column": "increase",
+                "references": "together"
+            }
+        ]
+    },
+    {
+        "name": "together",
+        "columns": [
+            {
+                "name": "sign",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sign",
+        "foreign_keys": [
+            {
+                "column": "sign",
+                "references": "really"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "continue",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "happen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "happen",
+        "foreign_keys": [
+            {
+                "column": "happen",
+                "references": "under"
+            }
+        ]
+    },
+    {
+        "name": "under",
+        "columns": [
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "system"
+            }
+        ]
+    },
+    {
+        "name": "system",
+        "columns": [
+            {
+                "name": "outside",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "outside",
+        "foreign_keys": [
+            {
+                "column": "outside",
+                "references": "major"
+            }
+        ]
+    },
+    {
+        "name": "major",
+        "columns": [
+            {
+                "name": "about",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "laugh",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "then",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "about",
+        "foreign_keys": [
+            {
+                "column": "about",
+                "references": "candidate"
+            }
+        ]
+    },
+    {
+        "name": "candidate",
+        "columns": [
+            {
+                "name": "professional",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sometimes",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "professional",
+        "foreign_keys": [
+            {
+                "column": "professional",
+                "references": "development"
+            }
+        ]
+    },
+    {
+        "name": "development",
+        "columns": [
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "involve",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "once",
+        "foreign_keys": [
+            {
+                "column": "once",
+                "references": "happen"
+            }
+        ]
+    },
+    {
+        "name": "happen",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "left"
+            }
+        ]
+    },
+    {
+        "name": "left",
+        "columns": [
+            {
+                "name": "radio",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attention",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "radio",
+        "foreign_keys": [
+            {
+                "column": "radio",
+                "references": "professional"
+            }
+        ]
+    },
+    {
+        "name": "professional",
+        "columns": [
+            {
+                "name": "choose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choose",
+        "foreign_keys": [
+            {
+                "column": "choose",
+                "references": "continue"
+            }
+        ]
+    }
+]

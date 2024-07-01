@@ -1,0 +1,225 @@
+[
+    {
+        "name": "accept",
+        "columns": [
+            {
+                "name": "of",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "of",
+        "foreign_keys": [
+            {
+                "column": "of",
+                "references": "that"
+            }
+        ]
+    },
+    {
+        "name": "that",
+        "columns": [
+            {
+                "name": "meet",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "meet",
+        "foreign_keys": [
+            {
+                "column": "meet",
+                "references": "girl"
+            }
+        ]
+    },
+    {
+        "name": "girl",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "wish"
+            }
+        ]
+    },
+    {
+        "name": "wish",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "executive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "majority"
+            }
+        ]
+    },
+    {
+        "name": "majority",
+        "columns": [
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ago",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "traditional"
+            }
+        ]
+    },
+    {
+        "name": "traditional",
+        "columns": [
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "life",
+        "foreign_keys": [
+            {
+                "column": "life",
+                "references": "list"
+            }
+        ]
+    },
+    {
+        "name": "list",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thank",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "sister"
+            }
+        ]
+    },
+    {
+        "name": "sister",
+        "columns": [
+            {
+                "name": "both",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "both",
+        "foreign_keys": [
+            {
+                "column": "both",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "instead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "push",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "instead",
+        "foreign_keys": [
+            {
+                "column": "instead",
+                "references": "accept"
+            }
+        ]
+    }
+]

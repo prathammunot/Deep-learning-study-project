@@ -1,0 +1,225 @@
+[
+    {
+        "name": "year",
+        "columns": [
+            {
+                "name": "throughout",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "throughout",
+        "foreign_keys": [
+            {
+                "column": "throughout",
+                "references": "much"
+            }
+        ]
+    },
+    {
+        "name": "much",
+        "columns": [
+            {
+                "name": "pressure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pressure",
+        "foreign_keys": [
+            {
+                "column": "pressure",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "entire",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "entire",
+        "foreign_keys": [
+            {
+                "column": "entire",
+                "references": "middle"
+            }
+        ]
+    },
+    {
+        "name": "middle",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "north",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "north",
+        "foreign_keys": [
+            {
+                "column": "north",
+                "references": "coach"
+            }
+        ]
+    },
+    {
+        "name": "coach",
+        "columns": [
+            {
+                "name": "level",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "level",
+        "foreign_keys": [
+            {
+                "column": "level",
+                "references": "president"
+            }
+        ]
+    },
+    {
+        "name": "president",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "year"
+            }
+        ]
+    },
+    {
+        "name": "year",
+        "columns": [
+            {
+                "name": "instead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "instead",
+        "foreign_keys": [
+            {
+                "column": "instead",
+                "references": "year"
+            }
+        ]
+    }
+]

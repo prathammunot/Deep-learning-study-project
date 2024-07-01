@@ -1,0 +1,198 @@
+[
+    {
+        "name": "third",
+        "columns": [
+            {
+                "name": "rest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rest",
+        "foreign_keys": [
+            {
+                "column": "rest",
+                "references": "nice"
+            }
+        ]
+    },
+    {
+        "name": "nice",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "development",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "stand"
+            }
+        ]
+    },
+    {
+        "name": "stand",
+        "columns": [
+            {
+                "name": "always",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "always",
+        "foreign_keys": [
+            {
+                "column": "always",
+                "references": "structure"
+            }
+        ]
+    },
+    {
+        "name": "structure",
+        "columns": [
+            {
+                "name": "simple",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "brother",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simple",
+        "foreign_keys": [
+            {
+                "column": "simple",
+                "references": "order"
+            }
+        ]
+    },
+    {
+        "name": "order",
+        "columns": [
+            {
+                "name": "difficult",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "difficult",
+        "foreign_keys": [
+            {
+                "column": "difficult",
+                "references": "various"
+            }
+        ]
+    },
+    {
+        "name": "various",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "will"
+            }
+        ]
+    },
+    {
+        "name": "will",
+        "columns": [
+            {
+                "name": "direction",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "direction",
+        "foreign_keys": [
+            {
+                "column": "direction",
+                "references": "member"
+            }
+        ]
+    },
+    {
+        "name": "member",
+        "columns": [
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "or",
+        "foreign_keys": [
+            {
+                "column": "or",
+                "references": "third"
+            }
+        ]
+    }
+]

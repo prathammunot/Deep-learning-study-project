@@ -1,0 +1,274 @@
+[
+    {
+        "name": "real",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "marriage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "life"
+            }
+        ]
+    },
+    {
+        "name": "life",
+        "columns": [
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "miss"
+            }
+        ]
+    },
+    {
+        "name": "miss",
+        "columns": [
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Democrat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "election",
+        "foreign_keys": [
+            {
+                "column": "election",
+                "references": "various"
+            }
+        ]
+    },
+    {
+        "name": "various",
+        "columns": [
+            {
+                "name": "statement",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "college",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "statement",
+        "foreign_keys": [
+            {
+                "column": "statement",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "establish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "establish",
+        "foreign_keys": [
+            {
+                "column": "establish",
+                "references": "research"
+            }
+        ]
+    },
+    {
+        "name": "research",
+        "columns": [
+            {
+                "name": "without",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "up",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rise",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "without",
+        "foreign_keys": [
+            {
+                "column": "without",
+                "references": "these"
+            }
+        ]
+    },
+    {
+        "name": "these",
+        "columns": [
+            {
+                "name": "commercial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "commercial",
+        "foreign_keys": [
+            {
+                "column": "commercial",
+                "references": "on"
+            }
+        ]
+    },
+    {
+        "name": "on",
+        "columns": [
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "Mr"
+            }
+        ]
+    },
+    {
+        "name": "Mr",
+        "columns": [
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "place",
+        "foreign_keys": [
+            {
+                "column": "place",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "force",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "development",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "real"
+            }
+        ]
+    }
+]

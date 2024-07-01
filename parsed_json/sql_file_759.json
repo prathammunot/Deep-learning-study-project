@@ -1,0 +1,225 @@
+[
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "consumer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consumer",
+        "foreign_keys": [
+            {
+                "column": "consumer",
+                "references": "manager"
+            }
+        ]
+    },
+    {
+        "name": "manager",
+        "columns": [
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sell",
+        "foreign_keys": [
+            {
+                "column": "sell",
+                "references": "machine"
+            }
+        ]
+    },
+    {
+        "name": "machine",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "product"
+            }
+        ]
+    },
+    {
+        "name": "product",
+        "columns": [
+            {
+                "name": "color",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "edge"
+            }
+        ]
+    },
+    {
+        "name": "edge",
+        "columns": [
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "true",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "his",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "page",
+        "foreign_keys": [
+            {
+                "column": "page",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "sense",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sense",
+        "foreign_keys": [
+            {
+                "column": "sense",
+                "references": "level"
+            }
+        ]
+    },
+    {
+        "name": "level",
+        "columns": [
+            {
+                "name": "your",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "crime"
+            }
+        ]
+    },
+    {
+        "name": "crime",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "relate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "seem"
+            }
+        ]
+    },
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "Congress",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Congress",
+        "foreign_keys": [
+            {
+                "column": "Congress",
+                "references": "box"
+            }
+        ]
+    }
+]

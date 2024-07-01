@@ -1,0 +1,149 @@
+[
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "economic",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "economic",
+        "foreign_keys": [
+            {
+                "column": "economic",
+                "references": "theory"
+            }
+        ]
+    },
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "modern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "modern",
+        "foreign_keys": [
+            {
+                "column": "modern",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "exist",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "significant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exist",
+        "foreign_keys": [
+            {
+                "column": "exist",
+                "references": "letter"
+            }
+        ]
+    },
+    {
+        "name": "letter",
+        "columns": [
+            {
+                "name": "central",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "shake"
+            }
+        ]
+    },
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "through",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "through",
+        "foreign_keys": [
+            {
+                "column": "through",
+                "references": "boy"
+            }
+        ]
+    },
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "other"
+            }
+        ]
+    }
+]

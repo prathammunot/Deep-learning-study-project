@@ -1,0 +1,149 @@
+[
+    {
+        "name": "player",
+        "columns": [
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "end",
+        "foreign_keys": [
+            {
+                "column": "end",
+                "references": "lead"
+            }
+        ]
+    },
+    {
+        "name": "lead",
+        "columns": [
+            {
+                "name": "with",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "with",
+        "foreign_keys": [
+            {
+                "column": "with",
+                "references": "inside"
+            }
+        ]
+    },
+    {
+        "name": "inside",
+        "columns": [
+            {
+                "name": "politics",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "another",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "politics",
+        "foreign_keys": [
+            {
+                "column": "politics",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reach",
+        "foreign_keys": [
+            {
+                "column": "reach",
+                "references": "range"
+            }
+        ]
+    },
+    {
+        "name": "range",
+        "columns": [
+            {
+                "name": "live",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "live",
+        "foreign_keys": [
+            {
+                "column": "live",
+                "references": "or"
+            }
+        ]
+    },
+    {
+        "name": "or",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "player"
+            }
+        ]
+    }
+]

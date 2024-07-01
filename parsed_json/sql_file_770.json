@@ -1,0 +1,274 @@
+[
+    {
+        "name": "rate",
+        "columns": [
+            {
+                "name": "bag",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ground",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bag",
+        "foreign_keys": [
+            {
+                "column": "bag",
+                "references": "couple"
+            }
+        ]
+    },
+    {
+        "name": "couple",
+        "columns": [
+            {
+                "name": "second",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "response",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "although",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "response",
+        "foreign_keys": [
+            {
+                "column": "response",
+                "references": "south"
+            }
+        ]
+    },
+    {
+        "name": "south",
+        "columns": [
+            {
+                "name": "store",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "store",
+        "foreign_keys": [
+            {
+                "column": "store",
+                "references": "no"
+            }
+        ]
+    },
+    {
+        "name": "no",
+        "columns": [
+            {
+                "name": "weight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "weight",
+        "foreign_keys": [
+            {
+                "column": "weight",
+                "references": "democratic"
+            }
+        ]
+    },
+    {
+        "name": "democratic",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "record",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "despite"
+            }
+        ]
+    },
+    {
+        "name": "despite",
+        "columns": [
+            {
+                "name": "identify",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "identify",
+        "foreign_keys": [
+            {
+                "column": "identify",
+                "references": "school"
+            }
+        ]
+    },
+    {
+        "name": "school",
+        "columns": [
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ground",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wear",
+        "foreign_keys": [
+            {
+                "column": "wear",
+                "references": "since"
+            }
+        ]
+    },
+    {
+        "name": "since",
+        "columns": [
+            {
+                "name": "energy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "energy",
+        "foreign_keys": [
+            {
+                "column": "energy",
+                "references": "quality"
+            }
+        ]
+    },
+    {
+        "name": "quality",
+        "columns": [
+            {
+                "name": "need",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "need",
+        "foreign_keys": [
+            {
+                "column": "need",
+                "references": "according"
+            }
+        ]
+    },
+    {
+        "name": "according",
+        "columns": [
+            {
+                "name": "main",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seek",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "rate"
+            }
+        ]
+    }
+]

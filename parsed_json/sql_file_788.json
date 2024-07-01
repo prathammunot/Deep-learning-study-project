@@ -1,0 +1,149 @@
+[
+    {
+        "name": "service",
+        "columns": [
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eye",
+        "foreign_keys": [
+            {
+                "column": "eye",
+                "references": "international"
+            }
+        ]
+    },
+    {
+        "name": "international",
+        "columns": [
+            {
+                "name": "on",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "on",
+        "foreign_keys": [
+            {
+                "column": "on",
+                "references": "way"
+            }
+        ]
+    },
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "person"
+            }
+        ]
+    },
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "fly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "site",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fly",
+        "foreign_keys": [
+            {
+                "column": "fly",
+                "references": "over"
+            }
+        ]
+    },
+    {
+        "name": "over",
+        "columns": [
+            {
+                "name": "task",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "task",
+        "foreign_keys": [
+            {
+                "column": "task",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "pay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pay",
+        "foreign_keys": [
+            {
+                "column": "pay",
+                "references": "service"
+            }
+        ]
+    }
+]

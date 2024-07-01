@@ -1,0 +1,149 @@
+[
+    {
+        "name": "own",
+        "columns": [
+            {
+                "name": "stop",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stop",
+        "foreign_keys": [
+            {
+                "column": "stop",
+                "references": "success"
+            }
+        ]
+    },
+    {
+        "name": "success",
+        "columns": [
+            {
+                "name": "force",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "bit"
+            }
+        ]
+    },
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "citizen",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "citizen",
+        "foreign_keys": [
+            {
+                "column": "citizen",
+                "references": "father"
+            }
+        ]
+    },
+    {
+        "name": "father",
+        "columns": [
+            {
+                "name": "throw",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "throw",
+        "foreign_keys": [
+            {
+                "column": "throw",
+                "references": "page"
+            }
+        ]
+    },
+    {
+        "name": "page",
+        "columns": [
+            {
+                "name": "country",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "country",
+        "foreign_keys": [
+            {
+                "column": "country",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "report",
+        "foreign_keys": [
+            {
+                "column": "report",
+                "references": "own"
+            }
+        ]
+    }
+]

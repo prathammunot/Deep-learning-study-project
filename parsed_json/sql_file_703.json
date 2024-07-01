@@ -1,0 +1,247 @@
+[
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "or",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "method",
+        "foreign_keys": [
+            {
+                "column": "method",
+                "references": "go"
+            }
+        ]
+    },
+    {
+        "name": "go",
+        "columns": [
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "exist",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "benefit"
+            }
+        ]
+    },
+    {
+        "name": "benefit",
+        "columns": [
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "team",
+        "foreign_keys": [
+            {
+                "column": "team",
+                "references": "note"
+            }
+        ]
+    },
+    {
+        "name": "note",
+        "columns": [
+            {
+                "name": "show",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "show",
+        "foreign_keys": [
+            {
+                "column": "show",
+                "references": "subject"
+            }
+        ]
+    },
+    {
+        "name": "subject",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "between",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "three"
+            }
+        ]
+    },
+    {
+        "name": "three",
+        "columns": [
+            {
+                "name": "step",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "step",
+        "foreign_keys": [
+            {
+                "column": "step",
+                "references": "million"
+            }
+        ]
+    },
+    {
+        "name": "million",
+        "columns": [
+            {
+                "name": "wear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hope",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wear",
+        "foreign_keys": [
+            {
+                "column": "wear",
+                "references": "effect"
+            }
+        ]
+    },
+    {
+        "name": "effect",
+        "columns": [
+            {
+                "name": "pull",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pull",
+        "foreign_keys": [
+            {
+                "column": "pull",
+                "references": "central"
+            }
+        ]
+    },
+    {
+        "name": "central",
+        "columns": [
+            {
+                "name": "hot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "a",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hot",
+        "foreign_keys": [
+            {
+                "column": "hot",
+                "references": "even"
+            }
+        ]
+    },
+    {
+        "name": "even",
+        "columns": [
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behavior",
+        "foreign_keys": [
+            {
+                "column": "behavior",
+                "references": "shake"
+            }
+        ]
+    }
+]

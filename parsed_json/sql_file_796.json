@@ -1,0 +1,176 @@
+[
+    {
+        "name": "hour",
+        "columns": [
+            {
+                "name": "you",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "add",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lawyer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "you",
+        "foreign_keys": [
+            {
+                "column": "you",
+                "references": "open"
+            }
+        ]
+    },
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "sit"
+            }
+        ]
+    },
+    {
+        "name": "sit",
+        "columns": [
+            {
+                "name": "effort",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "effort",
+        "foreign_keys": [
+            {
+                "column": "effort",
+                "references": "field"
+            }
+        ]
+    },
+    {
+        "name": "field",
+        "columns": [
+            {
+                "name": "might",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "might",
+        "foreign_keys": [
+            {
+                "column": "might",
+                "references": "if"
+            }
+        ]
+    },
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "head",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "artist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "head",
+        "foreign_keys": [
+            {
+                "column": "head",
+                "references": "voice"
+            }
+        ]
+    },
+    {
+        "name": "voice",
+        "columns": [
+            {
+                "name": "listen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "listen",
+        "foreign_keys": [
+            {
+                "column": "listen",
+                "references": "gun"
+            }
+        ]
+    },
+    {
+        "name": "gun",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "hour"
+            }
+        ]
+    }
+]

@@ -1,0 +1,247 @@
+[
+    {
+        "name": "resource",
+        "columns": [
+            {
+                "name": "interest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "interest",
+        "foreign_keys": [
+            {
+                "column": "interest",
+                "references": "any"
+            }
+        ]
+    },
+    {
+        "name": "any",
+        "columns": [
+            {
+                "name": "star",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "star",
+        "foreign_keys": [
+            {
+                "column": "star",
+                "references": "board"
+            }
+        ]
+    },
+    {
+        "name": "board",
+        "columns": [
+            {
+                "name": "budget",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pick",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "budget",
+        "foreign_keys": [
+            {
+                "column": "budget",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "total",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "total",
+        "foreign_keys": [
+            {
+                "column": "total",
+                "references": "country"
+            }
+        ]
+    },
+    {
+        "name": "country",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "history",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "if"
+            }
+        ]
+    },
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "car",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "great"
+            }
+        ]
+    },
+    {
+        "name": "great",
+        "columns": [
+            {
+                "name": "send",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indeed",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "send",
+        "foreign_keys": [
+            {
+                "column": "send",
+                "references": "fight"
+            }
+        ]
+    },
+    {
+        "name": "fight",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "head",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "with"
+            }
+        ]
+    },
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "base"
+            }
+        ]
+    },
+    {
+        "name": "base",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "resource"
+            }
+        ]
+    }
+]

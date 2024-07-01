@@ -1,0 +1,127 @@
+[
+    {
+        "name": "marriage",
+        "columns": [
+            {
+                "name": "art",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "century"
+            }
+        ]
+    },
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "test"
+            }
+        ]
+    },
+    {
+        "name": "test",
+        "columns": [
+            {
+                "name": "media",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "arrive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "game"
+            }
+        ]
+    },
+    {
+        "name": "game",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decision",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "total",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "total",
+        "foreign_keys": [
+            {
+                "column": "total",
+                "references": "marriage"
+            }
+        ]
+    }
+]

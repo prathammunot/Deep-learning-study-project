@@ -1,0 +1,225 @@
+[
+    {
+        "name": "thing",
+        "columns": [
+            {
+                "name": "ground",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ground",
+        "foreign_keys": [
+            {
+                "column": "ground",
+                "references": "almost"
+            }
+        ]
+    },
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "his",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "his",
+        "foreign_keys": [
+            {
+                "column": "his",
+                "references": "dark"
+            }
+        ]
+    },
+    {
+        "name": "dark",
+        "columns": [
+            {
+                "name": "production",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "they",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "production",
+        "foreign_keys": [
+            {
+                "column": "production",
+                "references": "other"
+            }
+        ]
+    },
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "sound",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ask",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sound",
+        "foreign_keys": [
+            {
+                "column": "sound",
+                "references": "trip"
+            }
+        ]
+    },
+    {
+        "name": "trip",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "magazine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "suffer"
+            }
+        ]
+    },
+    {
+        "name": "suffer",
+        "columns": [
+            {
+                "name": "consumer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "consumer",
+        "foreign_keys": [
+            {
+                "column": "consumer",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "especially",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "especially",
+        "foreign_keys": [
+            {
+                "column": "especially",
+                "references": "industry"
+            }
+        ]
+    },
+    {
+        "name": "industry",
+        "columns": [
+            {
+                "name": "she",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "she",
+        "foreign_keys": [
+            {
+                "column": "she",
+                "references": "democratic"
+            }
+        ]
+    },
+    {
+        "name": "democratic",
+        "columns": [
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wife",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sea",
+        "foreign_keys": [
+            {
+                "column": "sea",
+                "references": "thing"
+            }
+        ]
+    }
+]

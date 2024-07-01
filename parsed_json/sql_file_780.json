@@ -1,0 +1,198 @@
+[
+    {
+        "name": "able",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "reveal"
+            }
+        ]
+    },
+    {
+        "name": "reveal",
+        "columns": [
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ten",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "movement"
+            }
+        ]
+    },
+    {
+        "name": "movement",
+        "columns": [
+            {
+                "name": "work",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "opportunity",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "work",
+        "foreign_keys": [
+            {
+                "column": "work",
+                "references": "begin"
+            }
+        ]
+    },
+    {
+        "name": "begin",
+        "columns": [
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pass",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "example"
+            }
+        ]
+    },
+    {
+        "name": "example",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "result"
+            }
+        ]
+    },
+    {
+        "name": "result",
+        "columns": [
+            {
+                "name": "sound",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sound",
+        "foreign_keys": [
+            {
+                "column": "sound",
+                "references": "arm"
+            }
+        ]
+    },
+    {
+        "name": "arm",
+        "columns": [
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "place",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "weight",
+        "foreign_keys": [
+            {
+                "column": "weight",
+                "references": "able"
+            }
+        ]
+    }
+]

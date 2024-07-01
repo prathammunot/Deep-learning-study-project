@@ -1,0 +1,296 @@
+[
+    {
+        "name": "risk",
+        "columns": [
+            {
+                "name": "walk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "against",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "walk",
+        "foreign_keys": [
+            {
+                "column": "walk",
+                "references": "all"
+            }
+        ]
+    },
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "practice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "practice",
+        "foreign_keys": [
+            {
+                "column": "practice",
+                "references": "service"
+            }
+        ]
+    },
+    {
+        "name": "service",
+        "columns": [
+            {
+                "name": "car",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "car",
+        "foreign_keys": [
+            {
+                "column": "car",
+                "references": "fish"
+            }
+        ]
+    },
+    {
+        "name": "fish",
+        "columns": [
+            {
+                "name": "condition",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "resource",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "condition",
+        "foreign_keys": [
+            {
+                "column": "condition",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "allow",
+        "foreign_keys": [
+            {
+                "column": "allow",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "by",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "by",
+        "foreign_keys": [
+            {
+                "column": "by",
+                "references": "once"
+            }
+        ]
+    },
+    {
+        "name": "once",
+        "columns": [
+            {
+                "name": "the",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "happy"
+            }
+        ]
+    },
+    {
+        "name": "happy",
+        "columns": [
+            {
+                "name": "leg",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leg",
+        "foreign_keys": [
+            {
+                "column": "leg",
+                "references": "country"
+            }
+        ]
+    },
+    {
+        "name": "country",
+        "columns": [
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "through",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "through",
+        "foreign_keys": [
+            {
+                "column": "through",
+                "references": "far"
+            }
+        ]
+    },
+    {
+        "name": "far",
+        "columns": [
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "moment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "a",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "require",
+        "foreign_keys": [
+            {
+                "column": "require",
+                "references": "shake"
+            }
+        ]
+    },
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enjoy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "risk"
+            }
+        ]
+    }
+]

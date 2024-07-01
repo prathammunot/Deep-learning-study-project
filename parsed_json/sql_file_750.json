@@ -1,0 +1,127 @@
+[
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "concern",
+        "foreign_keys": [
+            {
+                "column": "concern",
+                "references": "relationship"
+            }
+        ]
+    },
+    {
+        "name": "relationship",
+        "columns": [
+            {
+                "name": "network",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "network",
+        "foreign_keys": [
+            {
+                "column": "network",
+                "references": "character"
+            }
+        ]
+    },
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "begin",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "begin",
+        "foreign_keys": [
+            {
+                "column": "begin",
+                "references": "run"
+            }
+        ]
+    },
+    {
+        "name": "run",
+        "columns": [
+            {
+                "name": "whom",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whom",
+        "foreign_keys": [
+            {
+                "column": "whom",
+                "references": "us"
+            }
+        ]
+    }
+]

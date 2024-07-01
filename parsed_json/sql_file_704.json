@@ -1,0 +1,176 @@
+[
+    {
+        "name": "voice",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "summer"
+            }
+        ]
+    },
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "hour",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hour",
+        "foreign_keys": [
+            {
+                "column": "hour",
+                "references": "effort"
+            }
+        ]
+    },
+    {
+        "name": "effort",
+        "columns": [
+            {
+                "name": "instead",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "instead",
+        "foreign_keys": [
+            {
+                "column": "instead",
+                "references": "tend"
+            }
+        ]
+    },
+    {
+        "name": "tend",
+        "columns": [
+            {
+                "name": "true",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "true",
+        "foreign_keys": [
+            {
+                "column": "true",
+                "references": "remain"
+            }
+        ]
+    },
+    {
+        "name": "remain",
+        "columns": [
+            {
+                "name": "experience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "experience",
+        "foreign_keys": [
+            {
+                "column": "experience",
+                "references": "account"
+            }
+        ]
+    },
+    {
+        "name": "account",
+        "columns": [
+            {
+                "name": "send",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "send",
+        "foreign_keys": [
+            {
+                "column": "send",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "view",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "view",
+        "foreign_keys": [
+            {
+                "column": "view",
+                "references": "voice"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "enjoy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "into",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "campaign",
+        "foreign_keys": [
+            {
+                "column": "campaign",
+                "references": "ten"
+            }
+        ]
+    },
+    {
+        "name": "ten",
+        "columns": [
+            {
+                "name": "stage",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "police",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stage",
+        "foreign_keys": [
+            {
+                "column": "stage",
+                "references": "into"
+            }
+        ]
+    },
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kid",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "middle"
+            }
+        ]
+    },
+    {
+        "name": "middle",
+        "columns": [
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deep",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "debate",
+        "foreign_keys": [
+            {
+                "column": "debate",
+                "references": "deal"
+            }
+        ]
+    },
+    {
+        "name": "deal",
+        "columns": [
+            {
+                "name": "central",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reality",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "admit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "bit"
+            }
+        ]
+    }
+]

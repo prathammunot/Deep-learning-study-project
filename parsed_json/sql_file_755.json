@@ -1,0 +1,225 @@
+[
+    {
+        "name": "whether",
+        "columns": [
+            {
+                "name": "third",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "third",
+        "foreign_keys": [
+            {
+                "column": "third",
+                "references": "hold"
+            }
+        ]
+    },
+    {
+        "name": "hold",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "age"
+            }
+        ]
+    },
+    {
+        "name": "age",
+        "columns": [
+            {
+                "name": "western",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "age",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "western",
+        "foreign_keys": [
+            {
+                "column": "western",
+                "references": "direction"
+            }
+        ]
+    },
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "morning",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "morning",
+        "foreign_keys": [
+            {
+                "column": "morning",
+                "references": "quickly"
+            }
+        ]
+    },
+    {
+        "name": "quickly",
+        "columns": [
+            {
+                "name": "mention",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mention",
+        "foreign_keys": [
+            {
+                "column": "mention",
+                "references": "quality"
+            }
+        ]
+    },
+    {
+        "name": "quality",
+        "columns": [
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "kitchen",
+        "foreign_keys": [
+            {
+                "column": "kitchen",
+                "references": "if"
+            }
+        ]
+    },
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "provide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "provide",
+        "foreign_keys": [
+            {
+                "column": "provide",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "for",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "skill"
+            }
+        ]
+    },
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "edge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "edge",
+        "foreign_keys": [
+            {
+                "column": "edge",
+                "references": "whether"
+            }
+        ]
+    }
+]

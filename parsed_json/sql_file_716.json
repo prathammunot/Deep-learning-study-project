@@ -1,0 +1,274 @@
+[
+    {
+        "name": "law",
+        "columns": [
+            {
+                "name": "however",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "edge",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "wonder"
+            }
+        ]
+    },
+    {
+        "name": "wonder",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "decide"
+            }
+        ]
+    },
+    {
+        "name": "decide",
+        "columns": [
+            {
+                "name": "finally",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "next",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trip",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "finally",
+        "foreign_keys": [
+            {
+                "column": "finally",
+                "references": "his"
+            }
+        ]
+    },
+    {
+        "name": "his",
+        "columns": [
+            {
+                "name": "control",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "control",
+        "foreign_keys": [
+            {
+                "column": "control",
+                "references": "direction"
+            }
+        ]
+    },
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "be",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "past",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "be",
+        "foreign_keys": [
+            {
+                "column": "be",
+                "references": "lawyer"
+            }
+        ]
+    },
+    {
+        "name": "lawyer",
+        "columns": [
+            {
+                "name": "organization",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "organization",
+        "foreign_keys": [
+            {
+                "column": "organization",
+                "references": "explain"
+            }
+        ]
+    },
+    {
+        "name": "explain",
+        "columns": [
+            {
+                "name": "catch",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "these",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "catch",
+        "foreign_keys": [
+            {
+                "column": "catch",
+                "references": "experience"
+            }
+        ]
+    },
+    {
+        "name": "experience",
+        "columns": [
+            {
+                "name": "window",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "project",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "window",
+        "foreign_keys": [
+            {
+                "column": "window",
+                "references": "too"
+            }
+        ]
+    },
+    {
+        "name": "too",
+        "columns": [
+            {
+                "name": "radio",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "radio",
+        "foreign_keys": [
+            {
+                "column": "radio",
+                "references": "rest"
+            }
+        ]
+    },
+    {
+        "name": "rest",
+        "columns": [
+            {
+                "name": "could",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "could",
+        "foreign_keys": [
+            {
+                "column": "could",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "scene",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "memory",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "scene",
+        "foreign_keys": [
+            {
+                "column": "scene",
+                "references": "law"
+            }
+        ]
+    }
+]

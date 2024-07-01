@@ -1,0 +1,274 @@
+[
+    {
+        "name": "national",
+        "columns": [
+            {
+                "name": "less",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "certainly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "agreement"
+            }
+        ]
+    },
+    {
+        "name": "agreement",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "military"
+            }
+        ]
+    },
+    {
+        "name": "military",
+        "columns": [
+            {
+                "name": "trade",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trade",
+        "foreign_keys": [
+            {
+                "column": "trade",
+                "references": "west"
+            }
+        ]
+    },
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "guy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "evidence",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "guy",
+        "foreign_keys": [
+            {
+                "column": "guy",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "product",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "writer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "adult",
+        "foreign_keys": [
+            {
+                "column": "adult",
+                "references": "present"
+            }
+        ]
+    },
+    {
+        "name": "present",
+        "columns": [
+            {
+                "name": "discover",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "any",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "discover",
+        "foreign_keys": [
+            {
+                "column": "discover",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "without",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "worker",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "without",
+        "foreign_keys": [
+            {
+                "column": "without",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "half",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "strategy"
+            }
+        ]
+    },
+    {
+        "name": "strategy",
+        "columns": [
+            {
+                "name": "know",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "know",
+        "foreign_keys": [
+            {
+                "column": "know",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "fill",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fill",
+        "foreign_keys": [
+            {
+                "column": "fill",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "worry",
+        "foreign_keys": [
+            {
+                "column": "worry",
+                "references": "national"
+            }
+        ]
+    }
+]
