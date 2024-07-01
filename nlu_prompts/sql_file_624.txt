@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram584'.
+There is a table 'stuff' with the columns 'time' (DATE), 'behavior' (TEXT), 'attack' (VARCHAR(50)). The primary key is 'time'. 'stuff' references another table 'member' in an exactly one to zero or many relationship. The relationship should be called 'time'. 
+There is another table 'member' with the columns 'although' (VARCHAR(50)), 'keep' (DATE). The primary key is 'although'. 'member' references another table 'drop' in an exactly one to zero or many relationship. The relationship should be called 'although'. 
+There is another table 'drop' with the columns 'prevent' (DATE), 'sign' (TEXT), 'about' (VARCHAR(50)). The primary key is 'prevent'. 'drop' references another table 'several' in an exactly one to zero or many relationship. The relationship should be called 'prevent'. 
+There is another table 'several' with the columns 'win' (VARCHAR(50)), 'management' (DATE). The primary key is 'win'. 'several' references another table 'believe' in an exactly one to zero or many relationship. The relationship should be called 'win'. 
+There is another table 'believe' with the columns 'sign' (DATE), 'simply' (TEXT), 'along' (VARCHAR(50)). The primary key is 'sign'. 'believe' references another table 'quickly' in an exactly one to zero or many relationship. The relationship should be called 'sign'. 
+There is another table 'quickly' with the columns 'hear' (VARCHAR(50)), 'particular' (DATE). The primary key is 'hear'. 'quickly' references another table 'stuff' in an exactly one to zero or many relationship. The relationship should be called 'hear'. 
+

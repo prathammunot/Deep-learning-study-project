@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram636'.
+There is a table 'certainly' with the columns 'kind' (DATE), 'join' (TEXT), 'song' (VARCHAR(50)). The primary key is 'kind'. 'certainly' references another table 'notice' in an exactly one to zero or many relationship. The relationship should be called 'kind'. 
+There is another table 'notice' with the columns 'vote' (VARCHAR(50)), 'more' (DATE). The primary key is 'vote'. 'notice' references another table 'political' in an exactly one to zero or many relationship. The relationship should be called 'vote'. 
+There is another table 'political' with the columns 'watch' (DATE), 'image' (TEXT), 'onto' (VARCHAR(50)). The primary key is 'watch'. 'political' references another table 'goal' in an exactly one to zero or many relationship. The relationship should be called 'watch'. 
+There is another table 'goal' with the columns 'behavior' (VARCHAR(50)), 'seven' (DATE). The primary key is 'behavior'. 'goal' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'behavior'. 
+There is another table 'out' with the columns 'character' (DATE), 'large' (TEXT), 'ok' (VARCHAR(50)). The primary key is 'character'. 'out' references another table 'instead' in an exactly one to zero or many relationship. The relationship should be called 'character'. 
+There is another table 'instead' with the columns 'stuff' (VARCHAR(50)), 'image' (DATE). The primary key is 'stuff'. 'instead' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'stuff'. 
+There is another table 'out' with the columns 'whose' (DATE), 'interesting' (TEXT), 'color' (VARCHAR(50)). The primary key is 'whose'. 'out' references another table 'certainly' in an exactly one to zero or many relationship. The relationship should be called 'whose'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram592'.
+There is a table 'if' with the columns 'parent' (DATE), 'way' (TEXT), 'indicate' (VARCHAR(50)). The primary key is 'parent'. 'if' references another table 'population' in an exactly one to zero or many relationship. The relationship should be called 'parent'. 
+There is another table 'population' with the columns 'enough' (VARCHAR(50)), 'somebody' (DATE). The primary key is 'enough'. 'population' references another table 'expert' in an exactly one to zero or many relationship. The relationship should be called 'enough'. 
+There is another table 'expert' with the columns 'play' (DATE), 'single' (TEXT), 'card' (VARCHAR(50)). The primary key is 'play'. 'expert' references another table 'black' in an exactly one to zero or many relationship. The relationship should be called 'play'. 
+There is another table 'black' with the columns 'how' (VARCHAR(50)), 'now' (DATE). The primary key is 'how'. 'black' references another table 'wife' in an exactly one to zero or many relationship. The relationship should be called 'how'. 
+There is another table 'wife' with the columns 'their' (DATE), 'head' (TEXT), 'final' (VARCHAR(50)). The primary key is 'their'. 'wife' references another table 'parent' in an exactly one to zero or many relationship. The relationship should be called 'their'. 
+There is another table 'parent' with the columns 'page' (VARCHAR(50)), 'well' (DATE). The primary key is 'page'. 'parent' references another table 'even' in an exactly one to zero or many relationship. The relationship should be called 'page'. 
+There is another table 'even' with the columns 'parent' (DATE), 'Mr' (TEXT), 'health' (VARCHAR(50)). The primary key is 'parent'. 'even' references another table 'if' in an exactly one to zero or many relationship. The relationship should be called 'parent'. 
+

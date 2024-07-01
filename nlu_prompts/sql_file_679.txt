@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram644'.
+There is a table 'should' with the columns 'fill' (DATE), 'citizen' (TEXT), 'floor' (VARCHAR(50)). The primary key is 'fill'. 'should' references another table 'summer' in an exactly one to zero or many relationship. The relationship should be called 'fill'. 
+There is another table 'summer' with the columns 'decision' (VARCHAR(50)), 'summer' (DATE). The primary key is 'decision'. 'summer' references another table 'quality' in an exactly one to zero or many relationship. The relationship should be called 'decision'. 
+There is another table 'quality' with the columns 'hundred' (DATE), 'so' (TEXT), 'open' (VARCHAR(50)). The primary key is 'hundred'. 'quality' references another table 'above' in an exactly one to zero or many relationship. The relationship should be called 'hundred'. 
+There is another table 'above' with the columns 'dog' (VARCHAR(50)), 'structure' (DATE). The primary key is 'dog'. 'above' references another table 'most' in an exactly one to zero or many relationship. The relationship should be called 'dog'. 
+There is another table 'most' with the columns 'door' (DATE), 'general' (TEXT), 'other' (VARCHAR(50)). The primary key is 'door'. 'most' references another table 'young' in an exactly one to zero or many relationship. The relationship should be called 'door'. 
+There is another table 'young' with the columns 'man' (VARCHAR(50)), 'build' (DATE). The primary key is 'man'. 'young' references another table 'at' in an exactly one to zero or many relationship. The relationship should be called 'man'. 
+There is another table 'at' with the columns 'office' (DATE), 'character' (TEXT), 'about' (VARCHAR(50)). The primary key is 'office'. 'at' references another table 'should' in an exactly one to zero or many relationship. The relationship should be called 'office'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram576'.
+There is a table 'until' with the columns 'source' (DATE), 'call' (TEXT), 'anything' (VARCHAR(50)). The primary key is 'source'. 'until' references another table 'style' in an exactly one to zero or many relationship. The relationship should be called 'source'. 
+There is another table 'style' with the columns 'accept' (VARCHAR(50)), 'total' (DATE). The primary key is 'accept'. 'style' references another table 'start' in an exactly one to zero or many relationship. The relationship should be called 'accept'. 
+There is another table 'start' with the columns 'as' (DATE), 'only' (TEXT), 'company' (VARCHAR(50)). The primary key is 'as'. 'start' references another table 'use' in an exactly one to zero or many relationship. The relationship should be called 'as'. 
+There is another table 'use' with the columns 'when' (VARCHAR(50)), 'eye' (DATE). The primary key is 'when'. 'use' references another table 'wrong' in an exactly one to zero or many relationship. The relationship should be called 'when'. 
+There is another table 'wrong' with the columns 'whether' (DATE), 'serious' (TEXT), 'voice' (VARCHAR(50)). The primary key is 'whether'. 'wrong' references another table 'until' in an exactly one to zero or many relationship. The relationship should be called 'whether'. 
+

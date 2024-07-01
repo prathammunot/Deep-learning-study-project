@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram604'.
+There is a table 'long' with the columns 'though' (DATE), 'usually' (TEXT), 'material' (VARCHAR(50)). The primary key is 'though'. 'long' references another table 'girl' in an exactly one to zero or many relationship. The relationship should be called 'though'. 
+There is another table 'girl' with the columns 'security' (VARCHAR(50)), 'whose' (DATE). The primary key is 'security'. 'girl' references another table 'indicate' in an exactly one to zero or many relationship. The relationship should be called 'security'. 
+There is another table 'indicate' with the columns 'already' (DATE), 'they' (TEXT), 'choose' (VARCHAR(50)). The primary key is 'already'. 'indicate' references another table 'else' in an exactly one to zero or many relationship. The relationship should be called 'already'. 
+There is another table 'else' with the columns 'fly' (VARCHAR(50)), 'perform' (DATE). The primary key is 'fly'. 'else' references another table 'affect' in an exactly one to zero or many relationship. The relationship should be called 'fly'. 
+There is another table 'affect' with the columns 'local' (DATE), 'commercial' (TEXT), 'race' (VARCHAR(50)). The primary key is 'local'. 'affect' references another table 'with' in an exactly one to zero or many relationship. The relationship should be called 'local'. 
+There is another table 'with' with the columns 'skill' (VARCHAR(50)), 'thing' (DATE). The primary key is 'skill'. 'with' references another table 'west' in an exactly one to zero or many relationship. The relationship should be called 'skill'. 
+There is another table 'west' with the columns 'left' (DATE), 'soldier' (TEXT), 'purpose' (VARCHAR(50)). The primary key is 'left'. 'west' references another table 'long' in an exactly one to zero or many relationship. The relationship should be called 'left'. 
+

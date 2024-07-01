@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram581'.
+There is a table 'increase' with the columns 'compare' (DATE), 'carry' (TEXT), 'draw' (VARCHAR(50)). The primary key is 'compare'. 'increase' references another table 'month' in an exactly one to zero or many relationship. The relationship should be called 'compare'. 
+There is another table 'month' with the columns 'role' (VARCHAR(50)), 'education' (DATE). The primary key is 'role'. 'month' references another table 'while' in an exactly one to zero or many relationship. The relationship should be called 'role'. 
+There is another table 'while' with the columns 'senior' (DATE), 'also' (TEXT), 'much' (VARCHAR(50)). The primary key is 'senior'. 'while' references another table 'really' in an exactly one to zero or many relationship. The relationship should be called 'senior'. 
+There is another table 'really' with the columns 'there' (VARCHAR(50)), 'difference' (DATE). The primary key is 'there'. 'really' references another table 'very' in an exactly one to zero or many relationship. The relationship should be called 'there'. 
+There is another table 'very' with the columns 'coach' (DATE), 'call' (TEXT), 'director' (VARCHAR(50)). The primary key is 'coach'. 'very' references another table 'suggest' in an exactly one to zero or many relationship. The relationship should be called 'coach'. 
+There is another table 'suggest' with the columns 'change' (VARCHAR(50)), 'audience' (DATE). The primary key is 'change'. 'suggest' references another table 'drop' in an exactly one to zero or many relationship. The relationship should be called 'change'. 
+There is another table 'drop' with the columns 'so' (DATE), 'indicate' (TEXT), 'government' (VARCHAR(50)). The primary key is 'so'. 'drop' references another table 'increase' in an exactly one to zero or many relationship. The relationship should be called 'so'. 
+

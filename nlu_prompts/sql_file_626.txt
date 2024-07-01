@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram586'.
+There is a table 'very' with the columns 'whether' (DATE), 'question' (TEXT), 'growth' (VARCHAR(50)). The primary key is 'whether'. 'very' references another table 'color' in an exactly one to zero or many relationship. The relationship should be called 'whether'. 
+There is another table 'color' with the columns 'window' (VARCHAR(50)), 'protect' (DATE). The primary key is 'window'. 'color' references another table 'free' in an exactly one to zero or many relationship. The relationship should be called 'window'. 
+There is another table 'free' with the columns 'want' (DATE), 'oil' (TEXT), 'art' (VARCHAR(50)). The primary key is 'want'. 'free' references another table 'seat' in an exactly one to zero or many relationship. The relationship should be called 'want'. 
+There is another table 'seat' with the columns 'could' (VARCHAR(50)), 'challenge' (DATE). The primary key is 'could'. 'seat' references another table 'low' in an exactly one to zero or many relationship. The relationship should be called 'could'. 
+There is another table 'low' with the columns 'nature' (DATE), 'future' (TEXT), 'maybe' (VARCHAR(50)). The primary key is 'nature'. 'low' references another table 'focus' in an exactly one to zero or many relationship. The relationship should be called 'nature'. 
+There is another table 'focus' with the columns 'kitchen' (VARCHAR(50)), 'character' (DATE). The primary key is 'kitchen'. 'focus' references another table 'range' in an exactly one to zero or many relationship. The relationship should be called 'kitchen'. 
+There is another table 'range' with the columns 'discussion' (DATE), 'down' (TEXT), 'strategy' (VARCHAR(50)). The primary key is 'discussion'. 'range' references another table 'add' in an exactly one to zero or many relationship. The relationship should be called 'discussion'. 
+There is another table 'add' with the columns 'alone' (VARCHAR(50)), 'trade' (DATE). The primary key is 'alone'. 'add' references another table 'her' in an exactly one to zero or many relationship. The relationship should be called 'alone'. 
+There is another table 'her' with the columns 'really' (DATE), 'approach' (TEXT), 'it' (VARCHAR(50)). The primary key is 'really'. 'her' references another table 'very' in an exactly one to zero or many relationship. The relationship should be called 'really'. 
+

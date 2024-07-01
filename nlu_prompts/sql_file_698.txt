@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram665'.
+There is a table 'about' with the columns 'note' (DATE), 'clear' (TEXT), 'story' (VARCHAR(50)). The primary key is 'note'. 'about' references another table 'language' in an exactly one to zero or many relationship. The relationship should be called 'note'. 
+There is another table 'language' with the columns 'total' (VARCHAR(50)), 'product' (DATE). The primary key is 'total'. 'language' references another table 'reflect' in an exactly one to zero or many relationship. The relationship should be called 'total'. 
+There is another table 'reflect' with the columns 'every' (DATE), 'morning' (TEXT), 'order' (VARCHAR(50)). The primary key is 'every'. 'reflect' references another table 'military' in an exactly one to zero or many relationship. The relationship should be called 'every'. 
+There is another table 'military' with the columns 'treatment' (VARCHAR(50)), 'culture' (DATE). The primary key is 'treatment'. 'military' references another table 'final' in an exactly one to zero or many relationship. The relationship should be called 'treatment'. 
+There is another table 'final' with the columns 'personal' (DATE), 'end' (TEXT), 'enter' (VARCHAR(50)). The primary key is 'personal'. 'final' references another table 'side' in an exactly one to zero or many relationship. The relationship should be called 'personal'. 
+There is another table 'side' with the columns 'east' (VARCHAR(50)), 'reality' (DATE). The primary key is 'east'. 'side' references another table 'could' in an exactly one to zero or many relationship. The relationship should be called 'east'. 
+There is another table 'could' with the columns 'white' (DATE), 'building' (TEXT), 'whose' (VARCHAR(50)). The primary key is 'white'. 'could' references another table 'story' in an exactly one to zero or many relationship. The relationship should be called 'white'. 
+There is another table 'story' with the columns 'interest' (VARCHAR(50)), 'sense' (DATE). The primary key is 'interest'. 'story' references another table 'about' in an exactly one to zero or many relationship. The relationship should be called 'interest'. 
+

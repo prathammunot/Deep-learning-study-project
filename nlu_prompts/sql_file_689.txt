@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram655'.
+There is a table 'price' with the columns 'pay' (DATE), 'southern' (TEXT), 'develop' (VARCHAR(50)). The primary key is 'pay'. 'price' references another table 'her' in an exactly one to zero or many relationship. The relationship should be called 'pay'. 
+There is another table 'her' with the columns 'describe' (VARCHAR(50)), 'possible' (DATE). The primary key is 'describe'. 'her' references another table 'nature' in an exactly one to zero or many relationship. The relationship should be called 'describe'. 
+There is another table 'nature' with the columns 'table' (DATE), 'actually' (TEXT), 'business' (VARCHAR(50)). The primary key is 'table'. 'nature' references another table 'information' in an exactly one to zero or many relationship. The relationship should be called 'table'. 
+There is another table 'information' with the columns 'fall' (VARCHAR(50)), 'way' (DATE). The primary key is 'fall'. 'information' references another table 'maybe' in an exactly one to zero or many relationship. The relationship should be called 'fall'. 
+There is another table 'maybe' with the columns 'participant' (DATE), 'real' (TEXT), 'show' (VARCHAR(50)). The primary key is 'participant'. 'maybe' references another table 'building' in an exactly one to zero or many relationship. The relationship should be called 'participant'. 
+There is another table 'building' with the columns 'crime' (VARCHAR(50)), 'painting' (DATE). The primary key is 'crime'. 'building' references another table 'somebody' in an exactly one to zero or many relationship. The relationship should be called 'crime'. 
+There is another table 'somebody' with the columns 'ever' (DATE), 'performance' (TEXT), 'response' (VARCHAR(50)). The primary key is 'ever'. 'somebody' references another table 'price' in an exactly one to zero or many relationship. The relationship should be called 'ever'. 
+

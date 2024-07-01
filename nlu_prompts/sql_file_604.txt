@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram562'.
+There is a table 'level' with the columns 'send' (DATE), 'heart' (TEXT), 'surface' (VARCHAR(50)). The primary key is 'send'. 'level' references another table 'whatever' in an exactly one to zero or many relationship. The relationship should be called 'send'. 
+There is another table 'whatever' with the columns 'situation' (VARCHAR(50)), 'toward' (DATE). The primary key is 'situation'. 'whatever' references another table 'consumer' in an exactly one to zero or many relationship. The relationship should be called 'situation'. 
+There is another table 'consumer' with the columns 'central' (DATE), 'sort' (TEXT), 'consider' (VARCHAR(50)). The primary key is 'central'. 'consumer' references another table 'behavior' in an exactly one to zero or many relationship. The relationship should be called 'central'. 
+There is another table 'behavior' with the columns 'relationship' (VARCHAR(50)), 'deep' (DATE). The primary key is 'relationship'. 'behavior' references another table 'wind' in an exactly one to zero or many relationship. The relationship should be called 'relationship'. 
+There is another table 'wind' with the columns 'present' (DATE), 'special' (TEXT), 'there' (VARCHAR(50)). The primary key is 'present'. 'wind' references another table 'reduce' in an exactly one to zero or many relationship. The relationship should be called 'present'. 
+There is another table 'reduce' with the columns 'during' (VARCHAR(50)), 'or' (DATE). The primary key is 'during'. 'reduce' references another table 'anyone' in an exactly one to zero or many relationship. The relationship should be called 'during'. 
+There is another table 'anyone' with the columns 'us' (DATE), 'resource' (TEXT), 'law' (VARCHAR(50)). The primary key is 'us'. 'anyone' references another table 'level' in an exactly one to zero or many relationship. The relationship should be called 'us'. 
+

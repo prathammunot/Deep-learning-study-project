@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram588'.
+There is a table 'indeed' with the columns 'through' (DATE), 'matter' (TEXT), 'pressure' (VARCHAR(50)). The primary key is 'through'. 'indeed' references another table 'yard' in an exactly one to zero or many relationship. The relationship should be called 'through'. 
+There is another table 'yard' with the columns 'everybody' (VARCHAR(50)), 'deep' (DATE). The primary key is 'everybody'. 'yard' references another table 'agreement' in an exactly one to zero or many relationship. The relationship should be called 'everybody'. 
+There is another table 'agreement' with the columns 'when' (DATE), 'employee' (TEXT), 'thing' (VARCHAR(50)). The primary key is 'when'. 'agreement' references another table 'brother' in an exactly one to zero or many relationship. The relationship should be called 'when'. 
+There is another table 'brother' with the columns 'fact' (VARCHAR(50)), 'eight' (DATE). The primary key is 'fact'. 'brother' references another table 'each' in an exactly one to zero or many relationship. The relationship should be called 'fact'. 
+There is another table 'each' with the columns 'policy' (DATE), 'operation' (TEXT), 'community' (VARCHAR(50)). The primary key is 'policy'. 'each' references another table 'with' in an exactly one to zero or many relationship. The relationship should be called 'policy'. 
+There is another table 'with' with the columns 'power' (VARCHAR(50)), 'sea' (DATE). The primary key is 'power'. 'with' references another table 'indeed' in an exactly one to zero or many relationship. The relationship should be called 'power'. 
+

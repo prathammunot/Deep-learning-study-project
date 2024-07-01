@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram611'.
+There is a table 'system' with the columns 'professor' (DATE), 'late' (TEXT), 'indeed' (VARCHAR(50)). The primary key is 'professor'. 'system' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'professor'. 
+There is another table 'section' with the columns 'where' (VARCHAR(50)), 'somebody' (DATE). The primary key is 'where'. 'section' references another table 'region' in an exactly one to zero or many relationship. The relationship should be called 'where'. 
+There is another table 'region' with the columns 'player' (DATE), 'and' (TEXT), 'cell' (VARCHAR(50)). The primary key is 'player'. 'region' references another table 'local' in an exactly one to zero or many relationship. The relationship should be called 'player'. 
+There is another table 'local' with the columns 'care' (VARCHAR(50)), 'voice' (DATE). The primary key is 'care'. 'local' references another table 'foreign' in an exactly one to zero or many relationship. The relationship should be called 'care'. 
+There is another table 'foreign' with the columns 'surface' (DATE), 'difference' (TEXT), 'cut' (VARCHAR(50)). The primary key is 'surface'. 'foreign' references another table 'you' in an exactly one to zero or many relationship. The relationship should be called 'surface'. 
+There is another table 'you' with the columns 'professional' (VARCHAR(50)), 'member' (DATE). The primary key is 'professional'. 'you' references another table 'think' in an exactly one to zero or many relationship. The relationship should be called 'professional'. 
+There is another table 'think' with the columns 'team' (DATE), 'maintain' (TEXT), 'democratic' (VARCHAR(50)). The primary key is 'team'. 'think' references another table 'system' in an exactly one to zero or many relationship. The relationship should be called 'team'. 
+

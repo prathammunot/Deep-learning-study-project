@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram626'.
+There is a table 'bring' with the columns 'cause' (DATE), 'race' (TEXT), 'clearly' (VARCHAR(50)). The primary key is 'cause'. 'bring' references another table 'bag' in an exactly one to zero or many relationship. The relationship should be called 'cause'. 
+There is another table 'bag' with the columns 'recognize' (VARCHAR(50)), 'arrive' (DATE). The primary key is 'recognize'. 'bag' references another table 'whom' in an exactly one to zero or many relationship. The relationship should be called 'recognize'. 
+There is another table 'whom' with the columns 'discussion' (DATE), 'democratic' (TEXT), 'bed' (VARCHAR(50)). The primary key is 'discussion'. 'whom' references another table 'often' in an exactly one to zero or many relationship. The relationship should be called 'discussion'. 
+There is another table 'often' with the columns 'hit' (VARCHAR(50)), 'born' (DATE). The primary key is 'hit'. 'often' references another table 'carry' in an exactly one to zero or many relationship. The relationship should be called 'hit'. 
+There is another table 'carry' with the columns 'wide' (DATE), 'light' (TEXT), 'wife' (VARCHAR(50)). The primary key is 'wide'. 'carry' references another table 'upon' in an exactly one to zero or many relationship. The relationship should be called 'wide'. 
+There is another table 'upon' with the columns 'population' (VARCHAR(50)), 'force' (DATE). The primary key is 'population'. 'upon' references another table 'bring' in an exactly one to zero or many relationship. The relationship should be called 'population'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram622'.
+There is a table 'base' with the columns 'movie' (DATE), 'task' (TEXT), 'hold' (VARCHAR(50)). The primary key is 'movie'. 'base' references another table 'determine' in an exactly one to zero or many relationship. The relationship should be called 'movie'. 
+There is another table 'determine' with the columns 'worry' (VARCHAR(50)), 'else' (DATE). The primary key is 'worry'. 'determine' references another table 'party' in an exactly one to zero or many relationship. The relationship should be called 'worry'. 
+There is another table 'party' with the columns 'various' (DATE), 'easy' (TEXT), 'standard' (VARCHAR(50)). The primary key is 'various'. 'party' references another table 'well' in an exactly one to zero or many relationship. The relationship should be called 'various'. 
+There is another table 'well' with the columns 'mission' (VARCHAR(50)), 'myself' (DATE). The primary key is 'mission'. 'well' references another table 'prepare' in an exactly one to zero or many relationship. The relationship should be called 'mission'. 
+There is another table 'prepare' with the columns 'leader' (DATE), 'soon' (TEXT), 'father' (VARCHAR(50)). The primary key is 'leader'. 'prepare' references another table 'any' in an exactly one to zero or many relationship. The relationship should be called 'leader'. 
+There is another table 'any' with the columns 'second' (VARCHAR(50)), 'population' (DATE). The primary key is 'second'. 'any' references another table 'on' in an exactly one to zero or many relationship. The relationship should be called 'second'. 
+There is another table 'on' with the columns 'between' (DATE), 'put' (TEXT), 'north' (VARCHAR(50)). The primary key is 'between'. 'on' references another table 'its' in an exactly one to zero or many relationship. The relationship should be called 'between'. 
+There is another table 'its' with the columns 'deal' (VARCHAR(50)), 'understand' (DATE). The primary key is 'deal'. 'its' references another table 'base' in an exactly one to zero or many relationship. The relationship should be called 'deal'. 
+

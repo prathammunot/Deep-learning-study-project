@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram638'.
+There is a table 'page' with the columns 'blue' (DATE), 'five' (TEXT), 'safe' (VARCHAR(50)). The primary key is 'blue'. 'page' references another table 'unit' in an exactly one to zero or many relationship. The relationship should be called 'blue'. 
+There is another table 'unit' with the columns 'even' (VARCHAR(50)), 'music' (DATE). The primary key is 'even'. 'unit' references another table 'unit' in an exactly one to zero or many relationship. The relationship should be called 'even'. 
+There is another table 'unit' with the columns 'half' (DATE), 'partner' (TEXT), 'site' (VARCHAR(50)). The primary key is 'half'. 'unit' references another table 'street' in an exactly one to zero or many relationship. The relationship should be called 'half'. 
+There is another table 'street' with the columns 'forget' (VARCHAR(50)), 'office' (DATE). The primary key is 'forget'. 'street' references another table 'oil' in an exactly one to zero or many relationship. The relationship should be called 'forget'. 
+There is another table 'oil' with the columns 'friend' (DATE), 'around' (TEXT), 'product' (VARCHAR(50)). The primary key is 'friend'. 'oil' references another table 'speak' in an exactly one to zero or many relationship. The relationship should be called 'friend'. 
+There is another table 'speak' with the columns 'factor' (VARCHAR(50)), 'foot' (DATE). The primary key is 'factor'. 'speak' references another table 'thing' in an exactly one to zero or many relationship. The relationship should be called 'factor'. 
+There is another table 'thing' with the columns 'eye' (DATE), 'rest' (TEXT), 'draw' (VARCHAR(50)). The primary key is 'eye'. 'thing' references another table 'certainly' in an exactly one to zero or many relationship. The relationship should be called 'eye'. 
+There is another table 'certainly' with the columns 'understand' (VARCHAR(50)), 'scientist' (DATE). The primary key is 'understand'. 'certainly' references another table 'page' in an exactly one to zero or many relationship. The relationship should be called 'understand'. 
+

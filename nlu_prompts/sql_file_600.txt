@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram558'.
+There is a table 'might' with the columns 'author' (DATE), 'save' (TEXT), 'ever' (VARCHAR(50)). The primary key is 'author'. 'might' references another table 'near' in an exactly one to zero or many relationship. The relationship should be called 'author'. 
+There is another table 'near' with the columns 'feel' (VARCHAR(50)), 'seem' (DATE). The primary key is 'feel'. 'near' references another table 'why' in an exactly one to zero or many relationship. The relationship should be called 'feel'. 
+There is another table 'why' with the columns 'pull' (DATE), 'school' (TEXT), 'when' (VARCHAR(50)). The primary key is 'pull'. 'why' references another table 'heavy' in an exactly one to zero or many relationship. The relationship should be called 'pull'. 
+There is another table 'heavy' with the columns 'thought' (VARCHAR(50)), 'table' (DATE). The primary key is 'thought'. 'heavy' references another table 'mean' in an exactly one to zero or many relationship. The relationship should be called 'thought'. 
+There is another table 'mean' with the columns 'night' (DATE), 'safe' (TEXT), 'mission' (VARCHAR(50)). The primary key is 'night'. 'mean' references another table 'might' in an exactly one to zero or many relationship. The relationship should be called 'night'. 
+

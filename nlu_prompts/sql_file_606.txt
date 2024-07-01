@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram564'.
+There is a table 'someone' with the columns 'matter' (DATE), 'crime' (TEXT), 'stuff' (VARCHAR(50)). The primary key is 'matter'. 'someone' references another table 'end' in an exactly one to zero or many relationship. The relationship should be called 'matter'. 
+There is another table 'end' with the columns 'exactly' (VARCHAR(50)), 'over' (DATE). The primary key is 'exactly'. 'end' references another table 'future' in an exactly one to zero or many relationship. The relationship should be called 'exactly'. 
+There is another table 'future' with the columns 'himself' (DATE), 'should' (TEXT), 'discussion' (VARCHAR(50)). The primary key is 'himself'. 'future' references another table 'wrong' in an exactly one to zero or many relationship. The relationship should be called 'himself'. 
+There is another table 'wrong' with the columns 'effort' (VARCHAR(50)), 'run' (DATE). The primary key is 'effort'. 'wrong' references another table 'respond' in an exactly one to zero or many relationship. The relationship should be called 'effort'. 
+There is another table 'respond' with the columns 'chance' (DATE), 'baby' (TEXT), 'military' (VARCHAR(50)). The primary key is 'chance'. 'respond' references another table 'particularly' in an exactly one to zero or many relationship. The relationship should be called 'chance'. 
+There is another table 'particularly' with the columns 'customer' (VARCHAR(50)), 'team' (DATE). The primary key is 'customer'. 'particularly' references another table 'enter' in an exactly one to zero or many relationship. The relationship should be called 'customer'. 
+There is another table 'enter' with the columns 'author' (DATE), 'American' (TEXT), 'surface' (VARCHAR(50)). The primary key is 'author'. 'enter' references another table 'someone' in an exactly one to zero or many relationship. The relationship should be called 'author'. 
+

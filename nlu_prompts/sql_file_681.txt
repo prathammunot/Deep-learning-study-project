@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram647'.
+There is a table 'him' with the columns 'administration' (DATE), 'themselves' (TEXT), 'bad' (VARCHAR(50)). The primary key is 'administration'. 'him' references another table 'brother' in an exactly one to zero or many relationship. The relationship should be called 'administration'. 
+There is another table 'brother' with the columns 'sit' (VARCHAR(50)), 'million' (DATE). The primary key is 'sit'. 'brother' references another table 'foreign' in an exactly one to zero or many relationship. The relationship should be called 'sit'. 
+There is another table 'foreign' with the columns 'then' (DATE), 'wait' (TEXT), 'establish' (VARCHAR(50)). The primary key is 'then'. 'foreign' references another table 'before' in an exactly one to zero or many relationship. The relationship should be called 'then'. 
+There is another table 'before' with the columns 'fund' (VARCHAR(50)), 'section' (DATE). The primary key is 'fund'. 'before' references another table 'long' in an exactly one to zero or many relationship. The relationship should be called 'fund'. 
+There is another table 'long' with the columns 'really' (DATE), 'maintain' (TEXT), 'minute' (VARCHAR(50)). The primary key is 'really'. 'long' references another table 'him' in an exactly one to zero or many relationship. The relationship should be called 'really'. 
+

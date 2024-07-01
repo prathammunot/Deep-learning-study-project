@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram599'.
+There is a table 'forget' with the columns 'might' (DATE), 'share' (TEXT), 'order' (VARCHAR(50)). The primary key is 'might'. 'forget' references another table 'mouth' in an exactly one to zero or many relationship. The relationship should be called 'might'. 
+There is another table 'mouth' with the columns 'American' (VARCHAR(50)), 'why' (DATE). The primary key is 'American'. 'mouth' references another table 'against' in an exactly one to zero or many relationship. The relationship should be called 'American'. 
+There is another table 'against' with the columns 'child' (DATE), 'reality' (TEXT), 'you' (VARCHAR(50)). The primary key is 'child'. 'against' references another table 'hundred' in an exactly one to zero or many relationship. The relationship should be called 'child'. 
+There is another table 'hundred' with the columns 'down' (VARCHAR(50)), 'international' (DATE). The primary key is 'down'. 'hundred' references another table 'east' in an exactly one to zero or many relationship. The relationship should be called 'down'. 
+There is another table 'east' with the columns 'oil' (DATE), 'behind' (TEXT), 'attorney' (VARCHAR(50)). The primary key is 'oil'. 'east' references another table 'part' in an exactly one to zero or many relationship. The relationship should be called 'oil'. 
+There is another table 'part' with the columns 'special' (DATE). The primary key is 'foreign'. 'part' references another table 'forget' in an exactly one to zero or many relationship. The relationship should be called 'foreign'. 
+

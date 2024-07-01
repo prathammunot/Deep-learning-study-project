@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram651'.
+There is a table 'participant' with the columns 'suggest' (DATE), 'artist' (TEXT), 'where' (VARCHAR(50)). The primary key is 'suggest'. 'participant' references another table 'world' in an exactly one to zero or many relationship. The relationship should be called 'suggest'. 
+There is another table 'world' with the columns 'season' (VARCHAR(50)), 'site' (DATE). The primary key is 'season'. 'world' references another table 'activity' in an exactly one to zero or many relationship. The relationship should be called 'season'. 
+There is another table 'activity' with the columns 'item' (DATE), 'stop' (TEXT), 'only' (VARCHAR(50)). The primary key is 'item'. 'activity' references another table 'significant' in an exactly one to zero or many relationship. The relationship should be called 'item'. 
+There is another table 'significant' with the columns 'scientist' (VARCHAR(50)), 'quality' (DATE). The primary key is 'scientist'. 'significant' references another table 'throughout' in an exactly one to zero or many relationship. The relationship should be called 'scientist'. 
+There is another table 'throughout' with the columns 'modern' (DATE), 'really' (TEXT), 'since' (VARCHAR(50)). The primary key is 'modern'. 'throughout' references another table 'participant' in an exactly one to zero or many relationship. The relationship should be called 'modern'. 
+

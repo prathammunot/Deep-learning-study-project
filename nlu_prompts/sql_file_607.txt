@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram565'.
+There is a table 'notice' with the columns 'network' (DATE), 'poor' (TEXT), 'whose' (VARCHAR(50)). The primary key is 'network'. 'notice' references another table 'leader' in an exactly one to zero or many relationship. The relationship should be called 'network'. 
+There is another table 'leader' with the columns 'new' (VARCHAR(50)), 'ball' (DATE). The primary key is 'new'. 'leader' references another table 'choice' in an exactly one to zero or many relationship. The relationship should be called 'new'. 
+There is another table 'choice' with the columns 'already' (DATE), 'entire' (TEXT), 'probably' (VARCHAR(50)). The primary key is 'already'. 'choice' references another table 'moment' in an exactly one to zero or many relationship. The relationship should be called 'already'. 
+There is another table 'moment' with the columns 'sound' (VARCHAR(50)), 'action' (DATE). The primary key is 'sound'. 'moment' references another table 'anything' in an exactly one to zero or many relationship. The relationship should be called 'sound'. 
+There is another table 'anything' with the columns 'number' (DATE), 'speak' (TEXT), 'reveal' (VARCHAR(50)). The primary key is 'number'. 'anything' references another table 'international' in an exactly one to zero or many relationship. The relationship should be called 'number'. 
+There is another table 'international' with the columns 'small' (VARCHAR(50)), 'drug' (DATE). The primary key is 'small'. 'international' references another table 'play' in an exactly one to zero or many relationship. The relationship should be called 'small'. 
+There is another table 'play' with the columns 'senior' (DATE), 'including' (TEXT), 'especially' (VARCHAR(50)). The primary key is 'senior'. 'play' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'senior'. 
+There is another table 'section' with the columns 'degree' (VARCHAR(50)), 'arm' (DATE). The primary key is 'degree'. 'section' references another table 'notice' in an exactly one to zero or many relationship. The relationship should be called 'degree'. 
+

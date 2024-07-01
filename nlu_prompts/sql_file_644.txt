@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram606'.
+There is a table 'all' with the columns 'green' (DATE), 'always' (TEXT), 'should' (VARCHAR(50)). The primary key is 'green'. 'all' references another table 'whether' in an exactly one to zero or many relationship. The relationship should be called 'green'. 
+There is another table 'whether' with the columns 'heart' (VARCHAR(50)), 'debate' (DATE). The primary key is 'heart'. 'whether' references another table 'radio' in an exactly one to zero or many relationship. The relationship should be called 'heart'. 
+There is another table 'radio' with the columns 'laugh' (DATE), 'large' (TEXT), 'start' (VARCHAR(50)). The primary key is 'laugh'. 'radio' references another table 'my' in an exactly one to zero or many relationship. The relationship should be called 'laugh'. 
+There is another table 'my' with the columns 'cup' (VARCHAR(50)), 'full' (DATE). The primary key is 'cup'. 'my' references another table 'rate' in an exactly one to zero or many relationship. The relationship should be called 'cup'. 
+There is another table 'rate' with the columns 'involve' (DATE), 'also' (TEXT), 'face' (VARCHAR(50)). The primary key is 'involve'. 'rate' references another table 'involve' in an exactly one to zero or many relationship. The relationship should be called 'involve'. 
+There is another table 'involve' with the columns 'arm' (VARCHAR(50)), 'number' (DATE). The primary key is 'arm'. 'involve' references another table 'such' in an exactly one to zero or many relationship. The relationship should be called 'arm'. 
+There is another table 'such' with the columns 'father' (DATE), 'plan' (TEXT), 'program' (VARCHAR(50)). The primary key is 'father'. 'such' references another table 'son' in an exactly one to zero or many relationship. The relationship should be called 'father'. 
+There is another table 'son' with the columns 'score' (VARCHAR(50)), 'before' (DATE). The primary key is 'score'. 'son' references another table 'all' in an exactly one to zero or many relationship. The relationship should be called 'score'. 
+

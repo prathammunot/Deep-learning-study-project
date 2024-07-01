@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram642'.
+There is a table 'summer' with the columns 'remember' (DATE), 'guess' (TEXT), 'win' (VARCHAR(50)). The primary key is 'remember'. 'summer' references another table 'since' in an exactly one to zero or many relationship. The relationship should be called 'remember'. 
+There is another table 'since' with the columns 'mother' (VARCHAR(50)), 'off' (DATE). The primary key is 'mother'. 'since' references another table 'note' in an exactly one to zero or many relationship. The relationship should be called 'mother'. 
+There is another table 'note' with the columns 'reason' (DATE), 'simply' (TEXT), 'follow' (VARCHAR(50)). The primary key is 'reason'. 'note' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'reason'. 
+There is another table 'situation' with the columns 'woman' (VARCHAR(50)), 'site' (DATE). The primary key is 'woman'. 'situation' references another table 'war' in an exactly one to zero or many relationship. The relationship should be called 'woman'. 
+There is another table 'war' with the columns 'together' (DATE), 'ever' (TEXT), 'can' (VARCHAR(50)). The primary key is 'together'. 'war' references another table 'summer' in an exactly one to zero or many relationship. The relationship should be called 'together'. 
+

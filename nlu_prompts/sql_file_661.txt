@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram625'.
+There is a table 'official' with the columns 'coach' (DATE), 'hit' (TEXT), 'especially' (VARCHAR(50)). The primary key is 'coach'. 'official' references another table 'staff' in an exactly one to zero or many relationship. The relationship should be called 'coach'. 
+There is another table 'staff' with the columns 'add' (VARCHAR(50)), 'institution' (DATE). The primary key is 'add'. 'staff' references another table 'east' in an exactly one to zero or many relationship. The relationship should be called 'add'. 
+There is another table 'east' with the columns 'discussion' (DATE), 'action' (TEXT), 'within' (VARCHAR(50)). The primary key is 'discussion'. 'east' references another table 'drug' in an exactly one to zero or many relationship. The relationship should be called 'discussion'. 
+There is another table 'drug' with the columns 'body' (VARCHAR(50)), 'open' (DATE). The primary key is 'body'. 'drug' references another table 'bar' in an exactly one to zero or many relationship. The relationship should be called 'body'. 
+There is another table 'bar' with the columns 'candidate' (DATE), 'part' (TEXT), 'short' (VARCHAR(50)). The primary key is 'candidate'. 'bar' references another table 'live' in an exactly one to zero or many relationship. The relationship should be called 'candidate'. 
+There is another table 'live' with the columns 'west' (VARCHAR(50)), 'visit' (DATE). The primary key is 'west'. 'live' references another table 'more' in an exactly one to zero or many relationship. The relationship should be called 'west'. 
+There is another table 'more' with the columns 'mind' (DATE), 'often' (TEXT), 'garden' (VARCHAR(50)). The primary key is 'mind'. 'more' references another table 'process' in an exactly one to zero or many relationship. The relationship should be called 'mind'. 
+There is another table 'process' with the columns 'benefit' (VARCHAR(50)), 'would' (DATE). The primary key is 'benefit'. 'process' references another table 'official' in an exactly one to zero or many relationship. The relationship should be called 'benefit'. 
+

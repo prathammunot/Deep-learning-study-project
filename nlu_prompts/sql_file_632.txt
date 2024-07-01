@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram593'.
+There is a table 'goal' with the columns 'finish' (DATE), 'nation' (TEXT), 'environmental' (VARCHAR(50)). The primary key is 'finish'. 'goal' references another table 'thing' in an exactly one to zero or many relationship. The relationship should be called 'finish'. 
+There is another table 'thing' with the columns 'safe' (VARCHAR(50)), 'feel' (DATE). The primary key is 'safe'. 'thing' references another table 'put' in an exactly one to zero or many relationship. The relationship should be called 'safe'. 
+There is another table 'put' with the columns 'whole' (DATE), 'bank' (TEXT), 'society' (VARCHAR(50)). The primary key is 'whole'. 'put' references another table 'public' in an exactly one to zero or many relationship. The relationship should be called 'whole'. 
+There is another table 'public' with the columns 'task' (VARCHAR(50)), 'while' (DATE). The primary key is 'task'. 'public' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'task'. 
+There is another table 'early' with the columns 'middle' (DATE), 'decade' (TEXT), 'run' (VARCHAR(50)). The primary key is 'middle'. 'early' references another table 'goal' in an exactly one to zero or many relationship. The relationship should be called 'middle'. 
+

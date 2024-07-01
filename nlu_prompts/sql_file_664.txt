@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram628'.
+There is a table 'large' with the columns 'truth' (DATE), 'around' (TEXT), 'adult' (VARCHAR(50)). The primary key is 'truth'. 'large' references another table 'option' in an exactly one to zero or many relationship. The relationship should be called 'truth'. 
+There is another table 'option' with the columns 'we' (VARCHAR(50)), 'blue' (DATE). The primary key is 'we'. 'option' references another table 'environmental' in an exactly one to zero or many relationship. The relationship should be called 'we'. 
+There is another table 'environmental' with the columns 'very' (DATE), 'in' (TEXT), 'charge' (VARCHAR(50)). The primary key is 'very'. 'environmental' references another table 'technology' in an exactly one to zero or many relationship. The relationship should be called 'very'. 
+There is another table 'technology' with the columns 'really' (VARCHAR(50)), 'notice' (DATE). The primary key is 'really'. 'technology' references another table 'although' in an exactly one to zero or many relationship. The relationship should be called 'really'. 
+There is another table 'although' with the columns 'among' (DATE), 'information' (TEXT), 'step' (VARCHAR(50)). The primary key is 'among'. 'although' references another table 'Mr' in an exactly one to zero or many relationship. The relationship should be called 'among'. 
+There is another table 'Mr' with the columns 'sell' (VARCHAR(50)), 'interest' (DATE). The primary key is 'sell'. 'Mr' references another table 'large' in an exactly one to zero or many relationship. The relationship should be called 'sell'. 
+

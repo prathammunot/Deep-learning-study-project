@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram617'.
+There is a table 'side' with the columns 'free' (DATE), 'argue' (TEXT), 'specific' (VARCHAR(50)). The primary key is 'free'. 'side' references another table 'loss' in an exactly one to zero or many relationship. The relationship should be called 'free'. 
+There is another table 'loss' with the columns 'personal' (VARCHAR(50)), 'man' (DATE). The primary key is 'personal'. 'loss' references another table 'while' in an exactly one to zero or many relationship. The relationship should be called 'personal'. 
+There is another table 'while' with the columns 'concern' (DATE), 'our' (TEXT), 'into' (VARCHAR(50)). The primary key is 'concern'. 'while' references another table 'middle' in an exactly one to zero or many relationship. The relationship should be called 'concern'. 
+There is another table 'middle' with the columns 'who' (VARCHAR(50)), 'degree' (DATE). The primary key is 'who'. 'middle' references another table 'fire' in an exactly one to zero or many relationship. The relationship should be called 'who'. 
+There is another table 'fire' with the columns 'economic' (DATE), 'involve' (TEXT), 'policy' (VARCHAR(50)). The primary key is 'economic'. 'fire' references another table 'on' in an exactly one to zero or many relationship. The relationship should be called 'economic'. 
+There is another table 'on' with the columns 'hold' (VARCHAR(50)), 'good' (DATE). The primary key is 'hold'. 'on' references another table 'standard' in an exactly one to zero or many relationship. The relationship should be called 'hold'. 
+There is another table 'standard' with the columns 'job' (DATE), 'under' (TEXT), 'station' (VARCHAR(50)). The primary key is 'job'. 'standard' references another table 'him' in an exactly one to zero or many relationship. The relationship should be called 'job'. 
+There is another table 'him' with the columns 'cell' (VARCHAR(50)), 'north' (DATE). The primary key is 'cell'. 'him' references another table 'side' in an exactly one to zero or many relationship. The relationship should be called 'cell'. 
+

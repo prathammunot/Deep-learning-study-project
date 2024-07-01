@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram570'.
+There is a table 'situation' with the columns 'environment' (DATE), 'ask' (TEXT), 'mouth' (VARCHAR(50)). The primary key is 'environment'. 'situation' references another table 'alone' in an exactly one to zero or many relationship. The relationship should be called 'environment'. 
+There is another table 'alone' with the columns 'control' (VARCHAR(50)), 'hit' (DATE). The primary key is 'control'. 'alone' references another table 'possible' in an exactly one to zero or many relationship. The relationship should be called 'control'. 
+There is another table 'possible' with the columns 'find' (DATE), 'enough' (TEXT), 'certainly' (VARCHAR(50)). The primary key is 'find'. 'possible' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'find'. 
+There is another table 'section' with the columns 'adult' (VARCHAR(50)), 'heart' (DATE). The primary key is 'adult'. 'section' references another table 'peace' in an exactly one to zero or many relationship. The relationship should be called 'adult'. 
+There is another table 'peace' with the columns 'soon' (DATE), 'than' (TEXT), 'event' (VARCHAR(50)). The primary key is 'soon'. 'peace' references another table 'smile' in an exactly one to zero or many relationship. The relationship should be called 'soon'. 
+There is another table 'smile' with the columns 'arrive' (VARCHAR(50)), 'early' (DATE). The primary key is 'arrive'. 'smile' references another table 'way' in an exactly one to zero or many relationship. The relationship should be called 'arrive'. 
+There is another table 'way' with the columns 'early' (DATE), 'pass' (TEXT), 'share' (VARCHAR(50)). The primary key is 'early'. 'way' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'early'. 
+

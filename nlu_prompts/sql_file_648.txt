@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram610'.
+There is a table 'tough' with the columns 'up' (DATE), 'week' (TEXT), 'agreement' (VARCHAR(50)). The primary key is 'up'. 'tough' references another table 'think' in an exactly one to zero or many relationship. The relationship should be called 'up'. 
+There is another table 'think' with the columns 'over' (VARCHAR(50)), 'respond' (DATE). The primary key is 'over'. 'think' references another table 'idea' in an exactly one to zero or many relationship. The relationship should be called 'over'. 
+There is another table 'idea' with the columns 'Democrat' (DATE), 'structure' (TEXT), 'common' (VARCHAR(50)). The primary key is 'Democrat'. 'idea' references another table 'special' in an exactly one to zero or many relationship. The relationship should be called 'Democrat'. 
+There is another table 'special' with the columns 'how' (VARCHAR(50)), 'common' (DATE). The primary key is 'how'. 'special' references another table 'several' in an exactly one to zero or many relationship. The relationship should be called 'how'. 
+There is another table 'several' with the columns 'community' (DATE), 'popular' (TEXT), 'agent' (VARCHAR(50)). The primary key is 'community'. 'several' references another table 'major' in an exactly one to zero or many relationship. The relationship should be called 'community'. 
+There is another table 'major' with the columns 'history' (VARCHAR(50)), 'operation' (DATE). The primary key is 'history'. 'major' references another table 'return' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+There is another table 'return' with the columns 'cause' (DATE), 'eight' (TEXT), 'manager' (VARCHAR(50)). The primary key is 'cause'. 'return' references another table 'tough' in an exactly one to zero or many relationship. The relationship should be called 'cause'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram662'.
+There is a table 'wind' with the columns 'be' (DATE), 'turn' (TEXT), 'imagine' (VARCHAR(50)). The primary key is 'be'. 'wind' references another table 'skill' in an exactly one to zero or many relationship. The relationship should be called 'be'. 
+There is another table 'skill' with the columns 'piece' (VARCHAR(50)), 'character' (DATE). The primary key is 'piece'. 'skill' references another table 'always' in an exactly one to zero or many relationship. The relationship should be called 'piece'. 
+There is another table 'always' with the columns 'group' (DATE), 'weight' (TEXT), 'market' (VARCHAR(50)). The primary key is 'group'. 'always' references another table 'major' in an exactly one to zero or many relationship. The relationship should be called 'group'. 
+There is another table 'major' with the columns 'however' (VARCHAR(50)), 'history' (DATE). The primary key is 'however'. 'major' references another table 'college' in an exactly one to zero or many relationship. The relationship should be called 'however'. 
+There is another table 'college' with the columns 'including' (DATE), 'board' (TEXT), 'view' (VARCHAR(50)). The primary key is 'including'. 'college' references another table 'senior' in an exactly one to zero or many relationship. The relationship should be called 'including'. 
+There is another table 'senior' with the columns 'medical' (VARCHAR(50)), 'outside' (DATE). The primary key is 'medical'. 'senior' references another table 'person' in an exactly one to zero or many relationship. The relationship should be called 'medical'. 
+There is another table 'person' with the columns 'our' (DATE), 'special' (TEXT), 'answer' (VARCHAR(50)). The primary key is 'our'. 'person' references another table 'wind' in an exactly one to zero or many relationship. The relationship should be called 'our'. 
+

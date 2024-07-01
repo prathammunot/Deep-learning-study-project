@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram574'.
+There is a table 'return' with the columns 'south' (DATE), 'computer' (TEXT), 'address' (VARCHAR(50)). The primary key is 'south'. 'return' references another table 'country' in an exactly one to zero or many relationship. The relationship should be called 'south'. 
+There is another table 'country' with the columns 'off' (VARCHAR(50)), 'value' (DATE). The primary key is 'off'. 'country' references another table 'continue' in an exactly one to zero or many relationship. The relationship should be called 'off'. 
+There is another table 'continue' with the columns 'long' (DATE), 'also' (TEXT), 'remember' (VARCHAR(50)). The primary key is 'long'. 'continue' references another table 'show' in an exactly one to zero or many relationship. The relationship should be called 'long'. 
+There is another table 'show' with the columns 'amount' (VARCHAR(50)), 'quite' (DATE). The primary key is 'amount'. 'show' references another table 'better' in an exactly one to zero or many relationship. The relationship should be called 'amount'. 
+There is another table 'better' with the columns 'force' (DATE), 'support' (TEXT), 'body' (VARCHAR(50)). The primary key is 'force'. 'better' references another table 'account' in an exactly one to zero or many relationship. The relationship should be called 'force'. 
+There is another table 'account' with the columns 'forward' (VARCHAR(50)), 'sell' (DATE). The primary key is 'forward'. 'account' references another table 'nature' in an exactly one to zero or many relationship. The relationship should be called 'forward'. 
+There is another table 'nature' with the columns 'join' (DATE), 'build' (TEXT), 'manage' (VARCHAR(50)). The primary key is 'join'. 'nature' references another table 'return' in an exactly one to zero or many relationship. The relationship should be called 'join'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram616'.
+There is a table 'discuss' with the columns 'time' (DATE), 'professional' (TEXT), 'toward' (VARCHAR(50)). The primary key is 'time'. 'discuss' references another table 'senior' in an exactly one to zero or many relationship. The relationship should be called 'time'. 
+There is another table 'senior' with the columns 'technology' (VARCHAR(50)), 'worry' (DATE). The primary key is 'technology'. 'senior' references another table 'Democrat' in an exactly one to zero or many relationship. The relationship should be called 'technology'. 
+There is another table 'Democrat' with the columns 'once' (DATE), 'group' (TEXT), 'hot' (VARCHAR(50)). The primary key is 'once'. 'Democrat' references another table 'born' in an exactly one to zero or many relationship. The relationship should be called 'once'. 
+There is another table 'born' with the columns 'a' (VARCHAR(50)), 'order' (DATE). The primary key is 'a'. 'born' references another table 'by' in an exactly one to zero or many relationship. The relationship should be called 'a'. 
+There is another table 'by' with the columns 'degree' (DATE), 'miss' (TEXT), 'sea' (VARCHAR(50)). The primary key is 'degree'. 'by' references another table 'wrong' in an exactly one to zero or many relationship. The relationship should be called 'degree'. 
+There is another table 'wrong' with the columns 'do' (VARCHAR(50)), 'learn' (DATE). The primary key is 'do'. 'wrong' references another table 'make' in an exactly one to zero or many relationship. The relationship should be called 'do'. 
+There is another table 'make' with the columns 'serve' (DATE), 'music' (TEXT), 'hit' (VARCHAR(50)). The primary key is 'serve'. 'make' references another table 'size' in an exactly one to zero or many relationship. The relationship should be called 'serve'. 
+There is another table 'size' with the columns 'interview' (VARCHAR(50)), 'seem' (DATE). The primary key is 'interview'. 'size' references another table 'discuss' in an exactly one to zero or many relationship. The relationship should be called 'interview'. 
+

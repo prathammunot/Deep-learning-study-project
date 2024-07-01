@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram635'.
+There is a table 'enough' with the columns 'partner' (DATE), 'nor' (TEXT), 'travel' (VARCHAR(50)). The primary key is 'partner'. 'enough' references another table 'production' in an exactly one to zero or many relationship. The relationship should be called 'partner'. 
+There is another table 'production' with the columns 'set' (VARCHAR(50)), 'other' (DATE). The primary key is 'set'. 'production' references another table 'all' in an exactly one to zero or many relationship. The relationship should be called 'set'. 
+There is another table 'all' with the columns 'somebody' (DATE), 'particularly' (TEXT), 'matter' (VARCHAR(50)). The primary key is 'somebody'. 'all' references another table 'offer' in an exactly one to zero or many relationship. The relationship should be called 'somebody'. 
+There is another table 'offer' with the columns 'parent' (VARCHAR(50)), 'suddenly' (DATE). The primary key is 'parent'. 'offer' references another table 'body' in an exactly one to zero or many relationship. The relationship should be called 'parent'. 
+There is another table 'body' with the columns 'material' (DATE), 'mean' (TEXT), 'state' (VARCHAR(50)). The primary key is 'material'. 'body' references another table 'ok' in an exactly one to zero or many relationship. The relationship should be called 'material'. 
+There is another table 'ok' with the columns 'style' (VARCHAR(50)), 'allow' (DATE). The primary key is 'style'. 'ok' references another table 'enough' in an exactly one to zero or many relationship. The relationship should be called 'style'. 
+

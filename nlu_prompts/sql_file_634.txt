@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram595'.
+There is a table 'network' with the columns 'husband' (DATE), 'heavy' (TEXT), 'audience' (VARCHAR(50)). The primary key is 'husband'. 'network' references another table 'any' in an exactly one to zero or many relationship. The relationship should be called 'husband'. 
+There is another table 'any' with the columns 'region' (VARCHAR(50)), 'among' (DATE). The primary key is 'region'. 'any' references another table 'build' in an exactly one to zero or many relationship. The relationship should be called 'region'. 
+There is another table 'build' with the columns 'speech' (DATE), 'ball' (TEXT), 'bank' (VARCHAR(50)). The primary key is 'speech'. 'build' references another table 'bit' in an exactly one to zero or many relationship. The relationship should be called 'speech'. 
+There is another table 'bit' with the columns 'community' (VARCHAR(50)), 'also' (DATE). The primary key is 'community'. 'bit' references another table 'mother' in an exactly one to zero or many relationship. The relationship should be called 'community'. 
+There is another table 'mother' with the columns 'west' (DATE), 'hot' (TEXT), 'threat' (VARCHAR(50)). The primary key is 'west'. 'mother' references another table 'news' in an exactly one to zero or many relationship. The relationship should be called 'west'. 
+There is another table 'news' with the columns 'debate' (VARCHAR(50)), 'in' (DATE). The primary key is 'debate'. 'news' references another table 'network' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+

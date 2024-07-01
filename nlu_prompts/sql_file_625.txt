@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram585'.
+There is a table 'improve' with the columns 'state' (DATE), 'indeed' (TEXT), 'race' (VARCHAR(50)). The primary key is 'state'. 'improve' references another table 'training' in an exactly one to zero or many relationship. The relationship should be called 'state'. 
+There is another table 'training' with the columns 'cold' (VARCHAR(50)), 'point' (DATE). The primary key is 'cold'. 'training' references another table 'become' in an exactly one to zero or many relationship. The relationship should be called 'cold'. 
+There is another table 'become' with the columns 'popular' (DATE), 'future' (TEXT), 'economic' (VARCHAR(50)). The primary key is 'popular'. 'become' references another table 'join' in an exactly one to zero or many relationship. The relationship should be called 'popular'. 
+There is another table 'join' with the columns 'summer' (VARCHAR(50)), 'decade' (DATE). The primary key is 'summer'. 'join' references another table 'maintain' in an exactly one to zero or many relationship. The relationship should be called 'summer'. 
+There is another table 'maintain' with the columns 'green' (DATE), 'dream' (TEXT), 'middle' (VARCHAR(50)). The primary key is 'green'. 'maintain' references another table 'improve' in an exactly one to zero or many relationship. The relationship should be called 'green'. 
+

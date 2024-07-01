@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram615'.
+There is a table 'father' with the columns 'society' (DATE), 'medical' (TEXT), 'value' (VARCHAR(50)). The primary key is 'society'. 'father' references another table 'nature' in an exactly one to zero or many relationship. The relationship should be called 'society'. 
+There is another table 'nature' with the columns 'city' (VARCHAR(50)), 'chair' (DATE). The primary key is 'city'. 'nature' references another table 'about' in an exactly one to zero or many relationship. The relationship should be called 'city'. 
+There is another table 'about' with the columns 'say' (DATE), 'collection' (TEXT), 'real' (VARCHAR(50)). The primary key is 'say'. 'about' references another table 'option' in an exactly one to zero or many relationship. The relationship should be called 'say'. 
+There is another table 'option' with the columns 'agent' (VARCHAR(50)), 'health' (DATE). The primary key is 'agent'. 'option' references another table 'moment' in an exactly one to zero or many relationship. The relationship should be called 'agent'. 
+There is another table 'moment' with the columns 'investment' (DATE), 'letter' (TEXT), 'common' (VARCHAR(50)). The primary key is 'investment'. 'moment' references another table 'father' in an exactly one to zero or many relationship. The relationship should be called 'investment'. 
+

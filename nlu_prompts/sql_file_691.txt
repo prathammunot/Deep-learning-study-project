@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram658'.
+There is a table 'behavior' with the columns 'risk' (DATE), 'matter' (TEXT), 'notice' (VARCHAR(50)). The primary key is 'risk'. 'behavior' references another table 'goal' in an exactly one to zero or many relationship. The relationship should be called 'risk'. 
+There is another table 'goal' with the columns 'former' (VARCHAR(50)), 'case' (DATE). The primary key is 'former'. 'goal' references another table 'line' in an exactly one to zero or many relationship. The relationship should be called 'former'. 
+There is another table 'line' with the columns 'yeah' (DATE), 'day' (TEXT), 'stock' (VARCHAR(50)). The primary key is 'yeah'. 'line' references another table 'treat' in an exactly one to zero or many relationship. The relationship should be called 'yeah'. 
+There is another table 'treat' with the columns 'close' (VARCHAR(50)), 'sound' (DATE). The primary key is 'close'. 'treat' references another table 'carry' in an exactly one to zero or many relationship. The relationship should be called 'close'. 
+There is another table 'carry' with the columns 'need' (DATE), 'serious' (TEXT), 'dinner' (VARCHAR(50)). The primary key is 'need'. 'carry' references another table 'report' in an exactly one to zero or many relationship. The relationship should be called 'need'. 
+There is another table 'report' with the columns 'nice' (VARCHAR(50)), 'happen' (DATE). The primary key is 'nice'. 'report' references another table 'mouth' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+There is another table 'mouth' with the columns 'day' (DATE), 'everything' (TEXT), 'citizen' (VARCHAR(50)). The primary key is 'day'. 'mouth' references another table 'want' in an exactly one to zero or many relationship. The relationship should be called 'day'. 
+There is another table 'want' with the columns 'produce' (VARCHAR(50)), 'after' (DATE). The primary key is 'produce'. 'want' references another table 'lot' in an exactly one to zero or many relationship. The relationship should be called 'produce'. 
+There is another table 'lot' with the columns 'include' (DATE), 'the' (TEXT), 'share' (VARCHAR(50)). The primary key is 'include'. 'lot' references another table 'behavior' in an exactly one to zero or many relationship. The relationship should be called 'include'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram578'.
+There is a table 'understand' with the columns 'threat' (DATE), 'second' (TEXT), 'service' (VARCHAR(50)). The primary key is 'threat'. 'understand' references another table 'husband' in an exactly one to zero or many relationship. The relationship should be called 'threat'. 
+There is another table 'husband' with the columns 'issue' (VARCHAR(50)), 'particularly' (DATE). The primary key is 'issue'. 'husband' references another table 'leg' in an exactly one to zero or many relationship. The relationship should be called 'issue'. 
+There is another table 'leg' with the columns 'professional' (DATE), 'leg' (TEXT), 'ask' (VARCHAR(50)). The primary key is 'professional'. 'leg' references another table 'choose' in an exactly one to zero or many relationship. The relationship should be called 'professional'. 
+There is another table 'choose' with the columns 'upon' (VARCHAR(50)), 'first' (DATE). The primary key is 'upon'. 'choose' references another table 'sea' in an exactly one to zero or many relationship. The relationship should be called 'upon'. 
+There is another table 'sea' with the columns 'listen' (DATE), 'financial' (TEXT), 'it' (VARCHAR(50)). The primary key is 'listen'. 'sea' references another table 'again' in an exactly one to zero or many relationship. The relationship should be called 'listen'. 
+There is another table 'again' with the columns 'move' (VARCHAR(50)), 'I' (DATE). The primary key is 'move'. 'again' references another table 'difference' in an exactly one to zero or many relationship. The relationship should be called 'move'. 
+There is another table 'difference' with the columns 'yet' (DATE), 'when' (TEXT), 'happy' (VARCHAR(50)). The primary key is 'yet'. 'difference' references another table 'daughter' in an exactly one to zero or many relationship. The relationship should be called 'yet'. 
+There is another table 'daughter' with the columns 'decide' (VARCHAR(50)), 'choice' (DATE). The primary key is 'decide'. 'daughter' references another table 'understand' in an exactly one to zero or many relationship. The relationship should be called 'decide'. 
+

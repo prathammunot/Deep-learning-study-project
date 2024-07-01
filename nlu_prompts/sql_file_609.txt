@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram567'.
+There is a table 'floor' with the columns 'board' (DATE), 'wind' (TEXT), 'current' (VARCHAR(50)). The primary key is 'board'. 'floor' references another table 'challenge' in an exactly one to zero or many relationship. The relationship should be called 'board'. 
+There is another table 'challenge' with the columns 'region' (VARCHAR(50)), 'approach' (DATE). The primary key is 'region'. 'challenge' references another table 'we' in an exactly one to zero or many relationship. The relationship should be called 'region'. 
+There is another table 'we' with the columns 'her' (DATE), 'produce' (TEXT), 'require' (VARCHAR(50)). The primary key is 'her'. 'we' references another table 'respond' in an exactly one to zero or many relationship. The relationship should be called 'her'. 
+There is another table 'respond' with the columns 'bag' (VARCHAR(50)), 'remain' (DATE). The primary key is 'bag'. 'respond' references another table 'popular' in an exactly one to zero or many relationship. The relationship should be called 'bag'. 
+There is another table 'popular' with the columns 'education' (DATE), 'movie' (TEXT), 'oil' (VARCHAR(50)). The primary key is 'education'. 'popular' references another table 'assume' in an exactly one to zero or many relationship. The relationship should be called 'education'. 
+There is another table 'assume' with the columns 'learn' (VARCHAR(50)), 'during' (DATE). The primary key is 'learn'. 'assume' references another table 'think' in an exactly one to zero or many relationship. The relationship should be called 'learn'. 
+There is another table 'think' with the columns 'accept' (DATE), 'under' (TEXT), 'save' (VARCHAR(50)). The primary key is 'accept'. 'think' references another table 'floor' in an exactly one to zero or many relationship. The relationship should be called 'accept'. 
+

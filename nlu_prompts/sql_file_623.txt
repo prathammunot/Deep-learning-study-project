@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram583'.
+There is a table 'tax' with the columns 'maintain' (DATE), 'give' (TEXT), 'language' (VARCHAR(50)). The primary key is 'maintain'. 'tax' references another table 'remain' in an exactly one to zero or many relationship. The relationship should be called 'maintain'. 
+There is another table 'remain' with the columns 'yourself' (VARCHAR(50)), 'beautiful' (DATE). The primary key is 'yourself'. 'remain' references another table 'activity' in an exactly one to zero or many relationship. The relationship should be called 'yourself'. 
+There is another table 'activity' with the columns 'watch' (DATE), 'establish' (TEXT), 'take' (VARCHAR(50)). The primary key is 'watch'. 'activity' references another table 'exist' in an exactly one to zero or many relationship. The relationship should be called 'watch'. 
+There is another table 'exist' with the columns 'low' (VARCHAR(50)), 'throw' (DATE). The primary key is 'low'. 'exist' references another table 'play' in an exactly one to zero or many relationship. The relationship should be called 'low'. 
+There is another table 'play' with the columns 'almost' (DATE), 'magazine' (TEXT), 'sign' (VARCHAR(50)). The primary key is 'almost'. 'play' references another table 'tax' in an exactly one to zero or many relationship. The relationship should be called 'almost'. 
+

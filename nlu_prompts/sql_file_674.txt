@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram639'.
+There is a table 'different' with the columns 'somebody' (DATE), 'beat' (TEXT), 'she' (VARCHAR(50)). The primary key is 'somebody'. 'different' references another table 'morning' in an exactly one to zero or many relationship. The relationship should be called 'somebody'. 
+There is another table 'morning' with the columns 'either' (VARCHAR(50)), 'receive' (DATE). The primary key is 'either'. 'morning' references another table 'until' in an exactly one to zero or many relationship. The relationship should be called 'either'. 
+There is another table 'until' with the columns 'arm' (DATE), 'check' (TEXT), 'science' (VARCHAR(50)). The primary key is 'arm'. 'until' references another table 'investment' in an exactly one to zero or many relationship. The relationship should be called 'arm'. 
+There is another table 'investment' with the columns 'official' (VARCHAR(50)), 'million' (DATE). The primary key is 'official'. 'investment' references another table 'involve' in an exactly one to zero or many relationship. The relationship should be called 'official'. 
+There is another table 'involve' with the columns 'attention' (DATE), 'attack' (TEXT), 'husband' (VARCHAR(50)). The primary key is 'attention'. 'involve' references another table 'away' in an exactly one to zero or many relationship. The relationship should be called 'attention'. 
+There is another table 'away' with the columns 'her' (VARCHAR(50)), 'station' (DATE). The primary key is 'her'. 'away' references another table 'husband' in an exactly one to zero or many relationship. The relationship should be called 'her'. 
+There is another table 'husband' with the columns 'either' (DATE), 'beautiful' (TEXT), 'serious' (VARCHAR(50)). The primary key is 'either'. 'husband' references another table 'different' in an exactly one to zero or many relationship. The relationship should be called 'either'. 
+

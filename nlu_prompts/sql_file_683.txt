@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram649'.
+There is a table 'must' with the columns 'before' (DATE), 'suffer' (TEXT), 'take' (VARCHAR(50)). The primary key is 'before'. 'must' references another table 'statement' in an exactly one to zero or many relationship. The relationship should be called 'before'. 
+There is another table 'statement' with the columns 'food' (VARCHAR(50)), 'yourself' (DATE). The primary key is 'food'. 'statement' references another table 'focus' in an exactly one to zero or many relationship. The relationship should be called 'food'. 
+There is another table 'focus' with the columns 'degree' (DATE), 'write' (TEXT), 'evidence' (VARCHAR(50)). The primary key is 'degree'. 'focus' references another table 'trip' in an exactly one to zero or many relationship. The relationship should be called 'degree'. 
+There is another table 'trip' with the columns 'write' (VARCHAR(50)), 'pull' (DATE). The primary key is 'write'. 'trip' references another table 'daughter' in an exactly one to zero or many relationship. The relationship should be called 'write'. 
+There is another table 'daughter' with the columns 'investment' (DATE), 'fill' (TEXT), 'ask' (VARCHAR(50)). The primary key is 'investment'. 'daughter' references another table 'must' in an exactly one to zero or many relationship. The relationship should be called 'investment'. 
+

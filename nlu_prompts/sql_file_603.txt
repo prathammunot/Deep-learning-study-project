@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram561'.
+There is a table 'behind' with the columns 'have' (DATE), 'none' (TEXT), 'feeling' (VARCHAR(50)). The primary key is 'have'. 'behind' references another table 'truth' in an exactly one to zero or many relationship. The relationship should be called 'have'. 
+There is another table 'truth' with the columns 'hold' (VARCHAR(50)), 'couple' (DATE). The primary key is 'hold'. 'truth' references another table 'feeling' in an exactly one to zero or many relationship. The relationship should be called 'hold'. 
+There is another table 'feeling' with the columns 'would' (DATE), 'lead' (TEXT), 'dark' (VARCHAR(50)). The primary key is 'would'. 'feeling' references another table 'white' in an exactly one to zero or many relationship. The relationship should be called 'would'. 
+There is another table 'white' with the columns 'old' (VARCHAR(50)), 'even' (DATE). The primary key is 'old'. 'white' references another table 'red' in an exactly one to zero or many relationship. The relationship should be called 'old'. 
+There is another table 'red' with the columns 'avoid' (DATE), 'play' (TEXT), 'suggest' (VARCHAR(50)). The primary key is 'avoid'. 'red' references another table 'land' in an exactly one to zero or many relationship. The relationship should be called 'avoid'. 
+There is another table 'land' with the columns 'standard' (VARCHAR(50)), 'always' (DATE). The primary key is 'standard'. 'land' references another table 'girl' in an exactly one to zero or many relationship. The relationship should be called 'standard'. 
+There is another table 'girl' with the columns 'social' (DATE), 'less' (TEXT), 'where' (VARCHAR(50)). The primary key is 'social'. 'girl' references another table 'who' in an exactly one to zero or many relationship. The relationship should be called 'social'. 
+There is another table 'who' with the columns 'threat' (VARCHAR(50)), 'respond' (DATE). The primary key is 'threat'. 'who' references another table 'behind' in an exactly one to zero or many relationship. The relationship should be called 'threat'. 
+

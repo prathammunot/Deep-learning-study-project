@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram664'.
+There is a table 'half' with the columns 'why' (DATE), 'apply' (TEXT), 'game' (VARCHAR(50)). The primary key is 'why'. 'half' references another table 'into' in an exactly one to zero or many relationship. The relationship should be called 'why'. 
+There is another table 'into' with the columns 'major' (VARCHAR(50)), 'around' (DATE). The primary key is 'major'. 'into' references another table 'politics' in an exactly one to zero or many relationship. The relationship should be called 'major'. 
+There is another table 'politics' with the columns 'true' (DATE), 'whom' (TEXT), 'watch' (VARCHAR(50)). The primary key is 'true'. 'politics' references another table 'building' in an exactly one to zero or many relationship. The relationship should be called 'true'. 
+There is another table 'building' with the columns 'activity' (VARCHAR(50)), 'result' (DATE). The primary key is 'activity'. 'building' references another table 'claim' in an exactly one to zero or many relationship. The relationship should be called 'activity'. 
+There is another table 'claim' with the columns 'about' (DATE), 'own' (TEXT), 'ten' (VARCHAR(50)). The primary key is 'about'. 'claim' references another table 'admit' in an exactly one to zero or many relationship. The relationship should be called 'about'. 
+There is another table 'admit' with the columns 'behind' (VARCHAR(50)), 'economic' (DATE). The primary key is 'behind'. 'admit' references another table 'half' in an exactly one to zero or many relationship. The relationship should be called 'behind'. 
+

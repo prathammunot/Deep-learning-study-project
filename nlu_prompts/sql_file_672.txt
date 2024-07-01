@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram637'.
+There is a table 'impact' with the columns 'agreement' (DATE), 'push' (TEXT), 'study' (VARCHAR(50)). The primary key is 'agreement'. 'impact' references another table 'they' in an exactly one to zero or many relationship. The relationship should be called 'agreement'. 
+There is another table 'they' with the columns 'trip' (VARCHAR(50)), 'help' (DATE). The primary key is 'trip'. 'they' references another table 'change' in an exactly one to zero or many relationship. The relationship should be called 'trip'. 
+There is another table 'change' with the columns 'even' (DATE), 'after' (TEXT), 'write' (VARCHAR(50)). The primary key is 'even'. 'change' references another table 'would' in an exactly one to zero or many relationship. The relationship should be called 'even'. 
+There is another table 'would' with the columns 'challenge' (VARCHAR(50)), 'full' (DATE). The primary key is 'challenge'. 'would' references another table 'score' in an exactly one to zero or many relationship. The relationship should be called 'challenge'. 
+There is another table 'score' with the columns 'administration' (DATE), 'meeting' (TEXT), 'office' (VARCHAR(50)). The primary key is 'administration'. 'score' references another table 'another' in an exactly one to zero or many relationship. The relationship should be called 'administration'. 
+There is another table 'another' with the columns 'about' (VARCHAR(50)), 'beyond' (DATE). The primary key is 'about'. 'another' references another table 'central' in an exactly one to zero or many relationship. The relationship should be called 'about'. 
+There is another table 'central' with the columns 'red' (DATE), 'main' (TEXT), 'attention' (VARCHAR(50)). The primary key is 'red'. 'central' references another table 'eight' in an exactly one to zero or many relationship. The relationship should be called 'red'. 
+There is another table 'eight' with the columns 'three' (VARCHAR(50)), 'performance' (DATE). The primary key is 'three'. 'eight' references another table 'impact' in an exactly one to zero or many relationship. The relationship should be called 'three'. 
+

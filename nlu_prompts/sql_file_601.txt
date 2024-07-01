@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram559'.
+There is a table 'peace' with the columns 'two' (DATE), 'through' (TEXT), 'local' (VARCHAR(50)). The primary key is 'two'. 'peace' references another table 'read' in an exactly one to zero or many relationship. The relationship should be called 'two'. 
+There is another table 'read' with the columns 'special' (VARCHAR(50)), 'traditional' (DATE). The primary key is 'special'. 'read' references another table 'ago' in an exactly one to zero or many relationship. The relationship should be called 'special'. 
+There is another table 'ago' with the columns 'bring' (DATE), 'church' (TEXT), 'down' (VARCHAR(50)). The primary key is 'bring'. 'ago' references another table 'economic' in an exactly one to zero or many relationship. The relationship should be called 'bring'. 
+There is another table 'economic' with the columns 'attorney' (VARCHAR(50)), 'new' (DATE). The primary key is 'attorney'. 'economic' references another table 'rule' in an exactly one to zero or many relationship. The relationship should be called 'attorney'. 
+There is another table 'rule' with the columns 'positive' (DATE), 'anyone' (TEXT), 'same' (VARCHAR(50)). The primary key is 'positive'. 'rule' references another table 'win' in an exactly one to zero or many relationship. The relationship should be called 'positive'. 
+There is another table 'win' with the columns 'medical' (VARCHAR(50)), 'dream' (DATE). The primary key is 'medical'. 'win' references another table 'require' in an exactly one to zero or many relationship. The relationship should be called 'medical'. 
+There is another table 'require' with the columns 'probably' (DATE), 'father' (TEXT), 'watch' (VARCHAR(50)). The primary key is 'probably'. 'require' references another table 'peace' in an exactly one to zero or many relationship. The relationship should be called 'probably'. 
+

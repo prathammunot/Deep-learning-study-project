@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram618'.
+There is a table 'line' with the columns 'push' (DATE), 'big' (TEXT), 'provide' (VARCHAR(50)). The primary key is 'push'. 'line' references another table 'activity' in an exactly one to zero or many relationship. The relationship should be called 'push'. 
+There is another table 'activity' with the columns 'figure' (VARCHAR(50)), 'determine' (DATE). The primary key is 'figure'. 'activity' references another table 'front' in an exactly one to zero or many relationship. The relationship should be called 'figure'. 
+There is another table 'front' with the columns 'effect' (DATE), 'so' (TEXT), 'animal' (VARCHAR(50)). The primary key is 'effect'. 'front' references another table 'color' in an exactly one to zero or many relationship. The relationship should be called 'effect'. 
+There is another table 'color' with the columns 'article' (VARCHAR(50)), 'seat' (DATE). The primary key is 'article'. 'color' references another table 'determine' in an exactly one to zero or many relationship. The relationship should be called 'article'. 
+There is another table 'determine' with the columns 'although' (DATE), 'however' (TEXT), 'whether' (VARCHAR(50)). The primary key is 'although'. 'determine' references another table 'line' in an exactly one to zero or many relationship. The relationship should be called 'although'. 
+

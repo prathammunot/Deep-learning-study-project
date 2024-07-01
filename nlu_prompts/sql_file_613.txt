@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram572'.
+There is a table 'media' with the columns 'at' (DATE), 'part' (TEXT), 'expect' (VARCHAR(50)). The primary key is 'at'. 'media' references another table 'become' in an exactly one to zero or many relationship. The relationship should be called 'at'. 
+There is another table 'become' with the columns 'themselves' (VARCHAR(50)), 'alone' (DATE). The primary key is 'themselves'. 'become' references another table 'sea' in an exactly one to zero or many relationship. The relationship should be called 'themselves'. 
+There is another table 'sea' with the columns 'especially' (DATE), 'table' (TEXT), 'material' (VARCHAR(50)). The primary key is 'especially'. 'sea' references another table 'agent' in an exactly one to zero or many relationship. The relationship should be called 'especially'. 
+There is another table 'agent' with the columns 'agree' (VARCHAR(50)), 'pick' (DATE). The primary key is 'agree'. 'agent' references another table 'foreign' in an exactly one to zero or many relationship. The relationship should be called 'agree'. 
+There is another table 'foreign' with the columns 'trip' (DATE), 'notice' (TEXT), 'little' (VARCHAR(50)). The primary key is 'trip'. 'foreign' references another table 'entire' in an exactly one to zero or many relationship. The relationship should be called 'trip'. 
+There is another table 'entire' with the columns 'nothing' (VARCHAR(50)), 'majority' (DATE). The primary key is 'nothing'. 'entire' references another table 'media' in an exactly one to zero or many relationship. The relationship should be called 'nothing'. 
+

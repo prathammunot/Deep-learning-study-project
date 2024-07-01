@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram605'.
+There is a table 'wonder' with the columns 'social' (DATE), 'owner' (TEXT), 'TV' (VARCHAR(50)). The primary key is 'social'. 'wonder' references another table 'year' in an exactly one to zero or many relationship. The relationship should be called 'social'. 
+There is another table 'year' with the columns 'they' (VARCHAR(50)), 'expert' (DATE). The primary key is 'they'. 'year' references another table 'almost' in an exactly one to zero or many relationship. The relationship should be called 'they'. 
+There is another table 'almost' with the columns 'mean' (DATE), 'cell' (TEXT), 'kitchen' (VARCHAR(50)). The primary key is 'mean'. 'almost' references another table 'possible' in an exactly one to zero or many relationship. The relationship should be called 'mean'. 
+There is another table 'possible' with the columns 'create' (VARCHAR(50)), 'available' (DATE). The primary key is 'create'. 'possible' references another table 'whole' in an exactly one to zero or many relationship. The relationship should be called 'create'. 
+There is another table 'whole' with the columns 'maintain' (DATE), 'could' (TEXT), 'stuff' (VARCHAR(50)). The primary key is 'maintain'. 'whole' references another table 'his' in an exactly one to zero or many relationship. The relationship should be called 'maintain'. 
+There is another table 'his' with the columns 'out' (VARCHAR(50)), 'even' (DATE). The primary key is 'out'. 'his' references another table 'green' in an exactly one to zero or many relationship. The relationship should be called 'out'. 
+There is another table 'green' with the columns 'check' (DATE), 'medical' (TEXT), 'quality' (VARCHAR(50)). The primary key is 'check'. 'green' references another table 'about' in an exactly one to zero or many relationship. The relationship should be called 'check'. 
+There is another table 'about' with the columns 'budget' (VARCHAR(50)), 'yourself' (DATE). The primary key is 'budget'. 'about' references another table 'wonder' in an exactly one to zero or many relationship. The relationship should be called 'budget'. 
+

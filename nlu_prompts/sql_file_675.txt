@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram640'.
+There is a table 'animal' with the columns 'attack' (DATE), 'receive' (TEXT), 'sit' (VARCHAR(50)). The primary key is 'attack'. 'animal' references another table 'his' in an exactly one to zero or many relationship. The relationship should be called 'attack'. 
+There is another table 'his' with the columns 'purpose' (VARCHAR(50)), 'daughter' (DATE). The primary key is 'purpose'. 'his' references another table 'different' in an exactly one to zero or many relationship. The relationship should be called 'purpose'. 
+There is another table 'different' with the columns 'mind' (DATE), 'control' (TEXT), 'enter' (VARCHAR(50)). The primary key is 'mind'. 'different' references another table 'what' in an exactly one to zero or many relationship. The relationship should be called 'mind'. 
+There is another table 'what' with the columns 'bar' (VARCHAR(50)), 'team' (DATE). The primary key is 'bar'. 'what' references another table 'late' in an exactly one to zero or many relationship. The relationship should be called 'bar'. 
+There is another table 'late' with the columns 'approach' (DATE), 'think' (TEXT), 'bit' (VARCHAR(50)). The primary key is 'approach'. 'late' references another table 'group' in an exactly one to zero or many relationship. The relationship should be called 'approach'. 
+There is another table 'group' with the columns 'something' (VARCHAR(50)), 'pick' (DATE). The primary key is 'something'. 'group' references another table 'animal' in an exactly one to zero or many relationship. The relationship should be called 'something'. 
+

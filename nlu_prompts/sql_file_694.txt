@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram661'.
+There is a table 'address' with the columns 'attack' (DATE), 'new' (TEXT), 'mean' (VARCHAR(50)). The primary key is 'attack'. 'address' references another table 'skin' in an exactly one to zero or many relationship. The relationship should be called 'attack'. 
+There is another table 'skin' with the columns 'stop' (VARCHAR(50)), 'debate' (DATE). The primary key is 'stop'. 'skin' references another table 'five' in an exactly one to zero or many relationship. The relationship should be called 'stop'. 
+There is another table 'five' with the columns 'specific' (DATE), 'decide' (TEXT), 'throughout' (VARCHAR(50)). The primary key is 'specific'. 'five' references another table 'certain' in an exactly one to zero or many relationship. The relationship should be called 'specific'. 
+There is another table 'certain' with the columns 'happen' (VARCHAR(50)), 'young' (DATE). The primary key is 'happen'. 'certain' references another table 'director' in an exactly one to zero or many relationship. The relationship should be called 'happen'. 
+There is another table 'director' with the columns 'help' (DATE), 'office' (TEXT), 'democratic' (VARCHAR(50)). The primary key is 'help'. 'director' references another table 'teach' in an exactly one to zero or many relationship. The relationship should be called 'help'. 
+There is another table 'teach' with the columns 'particular' (VARCHAR(50)), 'possible' (DATE). The primary key is 'particular'. 'teach' references another table 'decision' in an exactly one to zero or many relationship. The relationship should be called 'particular'. 
+There is another table 'decision' with the columns 'page' (DATE), 'foot' (TEXT), 'one' (VARCHAR(50)). The primary key is 'page'. 'decision' references another table 'address' in an exactly one to zero or many relationship. The relationship should be called 'page'. 
+

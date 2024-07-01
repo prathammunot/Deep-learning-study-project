@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram627'.
+There is a table 'nature' with the columns 'doctor' (DATE), 'experience' (TEXT), 'policy' (VARCHAR(50)). The primary key is 'doctor'. 'nature' references another table 'right' in an exactly one to zero or many relationship. The relationship should be called 'doctor'. 
+There is another table 'right' with the columns 'last' (VARCHAR(50)), 'direction' (DATE). The primary key is 'last'. 'right' references another table 'option' in an exactly one to zero or many relationship. The relationship should be called 'last'. 
+There is another table 'option' with the columns 'high' (DATE), 'prove' (TEXT), 'another' (VARCHAR(50)). The primary key is 'high'. 'option' references another table 'score' in an exactly one to zero or many relationship. The relationship should be called 'high'. 
+There is another table 'score' with the columns 'letter' (VARCHAR(50)), 'like' (DATE). The primary key is 'letter'. 'score' references another table 'among' in an exactly one to zero or many relationship. The relationship should be called 'letter'. 
+There is another table 'among' with the columns 'hour' (DATE), 'necessary' (TEXT), 'long' (VARCHAR(50)). The primary key is 'hour'. 'among' references another table 'child' in an exactly one to zero or many relationship. The relationship should be called 'hour'. 
+There is another table 'child' with the columns 'he' (VARCHAR(50)), 'the' (DATE). The primary key is 'he'. 'child' references another table 'nature' in an exactly one to zero or many relationship. The relationship should be called 'he'. 
+

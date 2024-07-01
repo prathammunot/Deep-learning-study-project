@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram607'.
+There is a table 'may' with the columns 'pick' (DATE), 'level' (TEXT), 'in' (VARCHAR(50)). The primary key is 'pick'. 'may' references another table 'too' in an exactly one to zero or many relationship. The relationship should be called 'pick'. 
+There is another table 'too' with the columns 'left' (VARCHAR(50)), 'lot' (DATE). The primary key is 'left'. 'too' references another table 'hour' in an exactly one to zero or many relationship. The relationship should be called 'left'. 
+There is another table 'hour' with the columns 'animal' (DATE), 'since' (TEXT), 'nation' (VARCHAR(50)). The primary key is 'animal'. 'hour' references another table 'mission' in an exactly one to zero or many relationship. The relationship should be called 'animal'. 
+There is another table 'mission' with the columns 'history' (VARCHAR(50)), 'health' (DATE). The primary key is 'history'. 'mission' references another table 'different' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+There is another table 'different' with the columns 'play' (DATE), 'world' (TEXT), 'under' (VARCHAR(50)). The primary key is 'play'. 'different' references another table 'mother' in an exactly one to zero or many relationship. The relationship should be called 'play'. 
+There is another table 'mother' with the columns 'price' (VARCHAR(50)), 'land' (DATE). The primary key is 'price'. 'mother' references another table 'result' in an exactly one to zero or many relationship. The relationship should be called 'price'. 
+There is another table 'result' with the columns 'program' (DATE), 'gas' (TEXT), 'need' (VARCHAR(50)). The primary key is 'program'. 'result' references another table 'may' in an exactly one to zero or many relationship. The relationship should be called 'program'. 
+

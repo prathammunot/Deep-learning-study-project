@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram571'.
+There is a table 'room' with the columns 'no' (DATE), 'attorney' (TEXT), 'food' (VARCHAR(50)). The primary key is 'no'. 'room' references another table 'television' in an exactly one to zero or many relationship. The relationship should be called 'no'. 
+There is another table 'television' with the columns 'economy' (VARCHAR(50)), 'interview' (DATE). The primary key is 'economy'. 'television' references another table 'agent' in an exactly one to zero or many relationship. The relationship should be called 'economy'. 
+There is another table 'agent' with the columns 'cover' (DATE), 'your' (TEXT), 'return' (VARCHAR(50)). The primary key is 'cover'. 'agent' references another table 'very' in an exactly one to zero or many relationship. The relationship should be called 'cover'. 
+There is another table 'very' with the columns 'somebody' (VARCHAR(50)), 'difference' (DATE). The primary key is 'somebody'. 'very' references another table 'central' in an exactly one to zero or many relationship. The relationship should be called 'somebody'. 
+There is another table 'central' with the columns 'somebody' (DATE), 'tree' (TEXT), 'Republican' (VARCHAR(50)). The primary key is 'somebody'. 'central' references another table 'performance' in an exactly one to zero or many relationship. The relationship should be called 'somebody'. 
+There is another table 'performance' with the columns 'even' (VARCHAR(50)), 'kid' (DATE). The primary key is 'even'. 'performance' references another table 'room' in an exactly one to zero or many relationship. The relationship should be called 'even'. 
+

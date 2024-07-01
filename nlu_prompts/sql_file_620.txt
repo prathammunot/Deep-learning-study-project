@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram580'.
+There is a table 'tax' with the columns 'talk' (DATE), 'cultural' (TEXT), 'today' (VARCHAR(50)). The primary key is 'talk'. 'tax' references another table 'relationship' in an exactly one to zero or many relationship. The relationship should be called 'talk'. 
+There is another table 'relationship' with the columns 'eight' (VARCHAR(50)), 'improve' (DATE). The primary key is 'eight'. 'relationship' references another table 'company' in an exactly one to zero or many relationship. The relationship should be called 'eight'. 
+There is another table 'company' with the columns 'this' (DATE), 'wrong' (TEXT), 'indeed' (VARCHAR(50)). The primary key is 'this'. 'company' references another table 'evening' in an exactly one to zero or many relationship. The relationship should be called 'this'. 
+There is another table 'evening' with the columns 'speak' (VARCHAR(50)), 'like' (DATE). The primary key is 'speak'. 'evening' references another table 'world' in an exactly one to zero or many relationship. The relationship should be called 'speak'. 
+There is another table 'world' with the columns 'power' (DATE), 'service' (TEXT), 'big' (VARCHAR(50)). The primary key is 'power'. 'world' references another table 'itself' in an exactly one to zero or many relationship. The relationship should be called 'power'. 
+There is another table 'itself' with the columns 'thousand' (VARCHAR(50)), 'attack' (DATE). The primary key is 'thousand'. 'itself' references another table 'tough' in an exactly one to zero or many relationship. The relationship should be called 'thousand'. 
+There is another table 'tough' with the columns 'central' (DATE), 'have' (TEXT), 'administration' (VARCHAR(50)). The primary key is 'central'. 'tough' references another table 'tax' in an exactly one to zero or many relationship. The relationship should be called 'central'. 
+
