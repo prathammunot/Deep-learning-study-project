@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram741'.
+There is a table 'whatever' with the columns 'short' (DATE), 'sure' (TEXT), 'bag' (VARCHAR(50)). The primary key is 'short'. 'whatever' references another table 'out' in an exactly one to zero or many relationship. The relationship should be called 'short'. 
+There is another table 'out' with the columns 'debate' (VARCHAR(50)), 'use' (DATE). The primary key is 'debate'. 'out' references another table 'create' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+There is another table 'create' with the columns 'commercial' (DATE), 'full' (TEXT), 'parent' (VARCHAR(50)). The primary key is 'commercial'. 'create' references another table 'food' in an exactly one to zero or many relationship. The relationship should be called 'commercial'. 
+There is another table 'food' with the columns 'effort' (VARCHAR(50)), 'local' (DATE). The primary key is 'effort'. 'food' references another table 'police' in an exactly one to zero or many relationship. The relationship should be called 'effort'. 
+There is another table 'police' with the columns 'short' (DATE), 'movie' (TEXT), 'fire' (VARCHAR(50)). The primary key is 'short'. 'police' references another table 'child' in an exactly one to zero or many relationship. The relationship should be called 'short'. 
+There is another table 'child' with the columns 'career' (VARCHAR(50)), 'five' (DATE). The primary key is 'career'. 'child' references another table 'cultural' in an exactly one to zero or many relationship. The relationship should be called 'career'. 
+There is another table 'cultural' with the columns 'any' (DATE), 'tax' (TEXT), 'spring' (VARCHAR(50)). The primary key is 'any'. 'cultural' references another table 'success' in an exactly one to zero or many relationship. The relationship should be called 'any'. 
+There is another table 'success' with the columns 'thus' (VARCHAR(50)), 'light' (DATE). The primary key is 'thus'. 'success' references another table 'whatever' in an exactly one to zero or many relationship. The relationship should be called 'thus'. 
+

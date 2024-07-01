@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram846'.
+There is a table 'claim' with the columns 'technology' (DATE), 'staff' (TEXT), 'relate' (VARCHAR(50)). The primary key is 'technology'. 'claim' references another table 'field' in an exactly one to zero or many relationship. The relationship should be called 'technology'. 
+There is another table 'field' with the columns 'dark' (VARCHAR(50)), 'national' (DATE). The primary key is 'dark'. 'field' references another table 'look' in an exactly one to zero or many relationship. The relationship should be called 'dark'. 
+There is another table 'look' with the columns 'year' (DATE), 'walk' (TEXT), 'student' (VARCHAR(50)). The primary key is 'year'. 'look' references another table 'indicate' in an exactly one to zero or many relationship. The relationship should be called 'year'. 
+There is another table 'indicate' with the columns 'west' (VARCHAR(50)), 'cost' (DATE). The primary key is 'west'. 'indicate' references another table 'next' in an exactly one to zero or many relationship. The relationship should be called 'west'. 
+There is another table 'next' with the columns 'head' (DATE), 'specific' (TEXT), 'probably' (VARCHAR(50)). The primary key is 'head'. 'next' references another table 'actually' in an exactly one to zero or many relationship. The relationship should be called 'head'. 
+There is another table 'actually' with the columns 'scientist' (VARCHAR(50)), 'vote' (DATE). The primary key is 'scientist'. 'actually' references another table 'to' in an exactly one to zero or many relationship. The relationship should be called 'scientist'. 
+There is another table 'to' with the columns 'life' (DATE), 'ability' (TEXT), 'military' (VARCHAR(50)). The primary key is 'life'. 'to' references another table 'claim' in an exactly one to zero or many relationship. The relationship should be called 'life'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram941'.
+There is a table 'her' with the columns 'class' (DATE), 'place' (TEXT), 'give' (VARCHAR(50)). The primary key is 'class'. 'her' references another table 'career' in an exactly one to zero or many relationship. The relationship should be called 'class'. 
+There is another table 'career' with the columns 'result' (VARCHAR(50)), 'up' (DATE). The primary key is 'result'. 'career' references another table 'in' in an exactly one to zero or many relationship. The relationship should be called 'result'. 
+There is another table 'in' with the columns 'performance' (DATE), 'response' (TEXT), 'action' (VARCHAR(50)). The primary key is 'performance'. 'in' references another table 'Republican' in an exactly one to zero or many relationship. The relationship should be called 'performance'. 
+There is another table 'Republican' with the columns 'drug' (VARCHAR(50)), 'arm' (DATE). The primary key is 'drug'. 'Republican' references another table 'sea' in an exactly one to zero or many relationship. The relationship should be called 'drug'. 
+There is another table 'sea' with the columns 'clear' (DATE), 'because' (TEXT), 'tell' (VARCHAR(50)). The primary key is 'clear'. 'sea' references another table 'exactly' in an exactly one to zero or many relationship. The relationship should be called 'clear'. 
+There is another table 'exactly' with the columns 'number' (VARCHAR(50)), 'meeting' (DATE). The primary key is 'number'. 'exactly' references another table 'avoid' in an exactly one to zero or many relationship. The relationship should be called 'number'. 
+There is another table 'avoid' with the columns 'animal' (DATE), 'quickly' (TEXT), 'almost' (VARCHAR(50)). The primary key is 'animal'. 'avoid' references another table 'her' in an exactly one to zero or many relationship. The relationship should be called 'animal'. 
+

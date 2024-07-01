@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram981'.
+There is a table 'theory' with the columns 'ground' (DATE), 'usually' (TEXT), 'certain' (VARCHAR(50)). The primary key is 'ground'. 'theory' references another table 'cut' in an exactly one to zero or many relationship. The relationship should be called 'ground'. 
+There is another table 'cut' with the columns 'feeling' (VARCHAR(50)), 'country' (DATE). The primary key is 'feeling'. 'cut' references another table 'which' in an exactly one to zero or many relationship. The relationship should be called 'feeling'. 
+There is another table 'which' with the columns 'so' (DATE), 'positive' (TEXT), 'individual' (VARCHAR(50)). The primary key is 'so'. 'which' references another table 'area' in an exactly one to zero or many relationship. The relationship should be called 'so'. 
+There is another table 'area' with the columns 'turn' (VARCHAR(50)), 'end' (DATE). The primary key is 'turn'. 'area' references another table 'seek' in an exactly one to zero or many relationship. The relationship should be called 'turn'. 
+There is another table 'seek' with the columns 'next' (DATE), 'leave' (TEXT), 'fly' (VARCHAR(50)). The primary key is 'next'. 'seek' references another table 'interview' in an exactly one to zero or many relationship. The relationship should be called 'next'. 
+There is another table 'interview' with the columns 'question' (VARCHAR(50)), 'few' (DATE). The primary key is 'question'. 'interview' references another table 'Democrat' in an exactly one to zero or many relationship. The relationship should be called 'question'. 
+There is another table 'Democrat' with the columns 'become' (DATE), 'hour' (TEXT), 'brother' (VARCHAR(50)). The primary key is 'become'. 'Democrat' references another table 'theory' in an exactly one to zero or many relationship. The relationship should be called 'become'. 
+

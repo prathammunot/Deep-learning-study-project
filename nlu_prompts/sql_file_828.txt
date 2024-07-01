@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram810'.
+There is a table 'country' with the columns 'worry' (DATE), 'different' (TEXT), 'long' (VARCHAR(50)). The primary key is 'worry'. 'country' references another table 'parent' in an exactly one to zero or many relationship. The relationship should be called 'worry'. 
+There is another table 'parent' with the columns 'north' (VARCHAR(50)), 'school' (DATE). The primary key is 'north'. 'parent' references another table 'book' in an exactly one to zero or many relationship. The relationship should be called 'north'. 
+There is another table 'book' with the columns 'law' (DATE), 'great' (TEXT), 'food' (VARCHAR(50)). The primary key is 'law'. 'book' references another table 'measure' in an exactly one to zero or many relationship. The relationship should be called 'law'. 
+There is another table 'measure' with the columns 'everyone' (VARCHAR(50)), 'activity' (DATE). The primary key is 'everyone'. 'measure' references another table 'old' in an exactly one to zero or many relationship. The relationship should be called 'everyone'. 
+There is another table 'old' with the columns 'most' (DATE), 'occur' (TEXT), 'teacher' (VARCHAR(50)). The primary key is 'most'. 'old' references another table 'student' in an exactly one to zero or many relationship. The relationship should be called 'most'. 
+There is another table 'student' with the columns 'nation' (VARCHAR(50)), 'herself' (DATE). The primary key is 'nation'. 'student' references another table 'open' in an exactly one to zero or many relationship. The relationship should be called 'nation'. 
+There is another table 'open' with the columns 'coach' (DATE), 'money' (TEXT), 'technology' (VARCHAR(50)). The primary key is 'coach'. 'open' references another table 'political' in an exactly one to zero or many relationship. The relationship should be called 'coach'. 
+There is another table 'political' with the columns 'take' (VARCHAR(50)), 'same' (DATE). The primary key is 'take'. 'political' references another table 'country' in an exactly one to zero or many relationship. The relationship should be called 'take'. 
+

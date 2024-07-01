@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram774'.
+There is a table 'hour' with the columns 'you' (DATE), 'add' (TEXT), 'lawyer' (VARCHAR(50)). The primary key is 'you'. 'hour' references another table 'open' in an exactly one to zero or many relationship. The relationship should be called 'you'. 
+There is another table 'open' with the columns 'door' (VARCHAR(50)), 'history' (DATE). The primary key is 'door'. 'open' references another table 'sit' in an exactly one to zero or many relationship. The relationship should be called 'door'. 
+There is another table 'sit' with the columns 'effort' (DATE), 'fill' (TEXT), 'poor' (VARCHAR(50)). The primary key is 'effort'. 'sit' references another table 'field' in an exactly one to zero or many relationship. The relationship should be called 'effort'. 
+There is another table 'field' with the columns 'might' (VARCHAR(50)), 'building' (DATE). The primary key is 'might'. 'field' references another table 'if' in an exactly one to zero or many relationship. The relationship should be called 'might'. 
+There is another table 'if' with the columns 'head' (DATE), 'artist' (TEXT), 'attorney' (VARCHAR(50)). The primary key is 'head'. 'if' references another table 'voice' in an exactly one to zero or many relationship. The relationship should be called 'head'. 
+There is another table 'voice' with the columns 'listen' (VARCHAR(50)), 'senior' (DATE). The primary key is 'listen'. 'voice' references another table 'gun' in an exactly one to zero or many relationship. The relationship should be called 'listen'. 
+There is another table 'gun' with the columns 'economy' (DATE), 'size' (TEXT), 'blue' (VARCHAR(50)). The primary key is 'economy'. 'gun' references another table 'hour' in an exactly one to zero or many relationship. The relationship should be called 'economy'. 
+

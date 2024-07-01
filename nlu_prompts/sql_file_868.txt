@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram854'.
+There is a table 'nice' with the columns 'east' (DATE), 'individual' (TEXT), 'write' (VARCHAR(50)). The primary key is 'east'. 'nice' references another table 'while' in an exactly one to zero or many relationship. The relationship should be called 'east'. 
+There is another table 'while' with the columns 'painting' (VARCHAR(50)), 'language' (DATE). The primary key is 'painting'. 'while' references another table 'none' in an exactly one to zero or many relationship. The relationship should be called 'painting'. 
+There is another table 'none' with the columns 'this' (DATE), 'dog' (TEXT), 'night' (VARCHAR(50)). The primary key is 'this'. 'none' references another table 'popular' in an exactly one to zero or many relationship. The relationship should be called 'this'. 
+There is another table 'popular' with the columns 'available' (VARCHAR(50)), 'item' (DATE). The primary key is 'available'. 'popular' references another table 'push' in an exactly one to zero or many relationship. The relationship should be called 'available'. 
+There is another table 'push' with the columns 'same' (DATE), 'sea' (TEXT), 'guy' (VARCHAR(50)). The primary key is 'same'. 'push' references another table 'nice' in an exactly one to zero or many relationship. The relationship should be called 'same'. 
+

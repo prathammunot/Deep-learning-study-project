@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram896'.
+There is a table 'can' with the columns 'better' (DATE), 'cup' (TEXT), 'open' (VARCHAR(50)). The primary key is 'better'. 'can' references another table 'feel' in an exactly one to zero or many relationship. The relationship should be called 'better'. 
+There is another table 'feel' with the columns 'stop' (VARCHAR(50)), 'local' (DATE). The primary key is 'stop'. 'feel' references another table 'well' in an exactly one to zero or many relationship. The relationship should be called 'stop'. 
+There is another table 'well' with the columns 'participant' (DATE), 'human' (TEXT), 'red' (VARCHAR(50)). The primary key is 'participant'. 'well' references another table 'court' in an exactly one to zero or many relationship. The relationship should be called 'participant'. 
+There is another table 'court' with the columns 'young' (VARCHAR(50)), 'why' (DATE). The primary key is 'young'. 'court' references another table 'catch' in an exactly one to zero or many relationship. The relationship should be called 'young'. 
+There is another table 'catch' with the columns 'ago' (DATE), 'upon' (TEXT), 'chance' (VARCHAR(50)). The primary key is 'ago'. 'catch' references another table 'parent' in an exactly one to zero or many relationship. The relationship should be called 'ago'. 
+There is another table 'parent' with the columns 'most' (VARCHAR(50)), 'probably' (DATE). The primary key is 'most'. 'parent' references another table 'have' in an exactly one to zero or many relationship. The relationship should be called 'most'. 
+There is another table 'have' with the columns 'standard' (DATE), 'look' (TEXT), 'size' (VARCHAR(50)). The primary key is 'standard'. 'have' references another table 'cold' in an exactly one to zero or many relationship. The relationship should be called 'standard'. 
+There is another table 'cold' with the columns 'difficult' (VARCHAR(50)), 'ahead' (DATE). The primary key is 'difficult'. 'cold' references another table 'can' in an exactly one to zero or many relationship. The relationship should be called 'difficult'. 
+

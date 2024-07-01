@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram932'.
+There is a table 'range' with the columns 'whose' (DATE), 'morning' (TEXT), 'plan' (VARCHAR(50)). The primary key is 'whose'. 'range' references another table 'then' in an exactly one to zero or many relationship. The relationship should be called 'whose'. 
+There is another table 'then' with the columns 'someone' (VARCHAR(50)), 'number' (DATE). The primary key is 'someone'. 'then' references another table 'man' in an exactly one to zero or many relationship. The relationship should be called 'someone'. 
+There is another table 'man' with the columns 'natural' (DATE), 'deep' (TEXT), 'best' (VARCHAR(50)). The primary key is 'natural'. 'man' references another table 'discussion' in an exactly one to zero or many relationship. The relationship should be called 'natural'. 
+There is another table 'discussion' with the columns 'serious' (VARCHAR(50)), 'above' (DATE). The primary key is 'serious'. 'discussion' references another table 'none' in an exactly one to zero or many relationship. The relationship should be called 'serious'. 
+There is another table 'none' with the columns 'main' (DATE), 'apply' (TEXT), 'investment' (VARCHAR(50)). The primary key is 'main'. 'none' references another table 'discussion' in an exactly one to zero or many relationship. The relationship should be called 'main'. 
+There is another table 'discussion' with the columns 'property' (VARCHAR(50)), 'better' (DATE). The primary key is 'property'. 'discussion' references another table 'over' in an exactly one to zero or many relationship. The relationship should be called 'property'. 
+There is another table 'over' with the columns 'inside' (DATE), 'water' (TEXT), 'occur' (VARCHAR(50)). The primary key is 'inside'. 'over' references another table 'range' in an exactly one to zero or many relationship. The relationship should be called 'inside'. 
+

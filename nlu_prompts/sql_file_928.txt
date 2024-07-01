@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram921'.
+There is a table 'month' with the columns 'benefit' (DATE), 'seven' (TEXT), 'surface' (VARCHAR(50)). The primary key is 'benefit'. 'month' references another table 'final' in an exactly one to zero or many relationship. The relationship should be called 'benefit'. 
+There is another table 'final' with the columns 'certainly' (VARCHAR(50)), 'read' (DATE). The primary key is 'certainly'. 'final' references another table 'pressure' in an exactly one to zero or many relationship. The relationship should be called 'certainly'. 
+There is another table 'pressure' with the columns 'little' (DATE), 'know' (TEXT), 'song' (VARCHAR(50)). The primary key is 'little'. 'pressure' references another table 'partner' in an exactly one to zero or many relationship. The relationship should be called 'little'. 
+There is another table 'partner' with the columns 'standard' (VARCHAR(50)), 'poor' (DATE). The primary key is 'standard'. 'partner' references another table 'according' in an exactly one to zero or many relationship. The relationship should be called 'standard'. 
+There is another table 'according' with the columns 'executive' (DATE), 'key' (TEXT), 'present' (VARCHAR(50)). The primary key is 'executive'. 'according' references another table 'month' in an exactly one to zero or many relationship. The relationship should be called 'executive'. 
+

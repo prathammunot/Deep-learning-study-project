@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram892'.
+There is a table 'fire' with the columns 'admit' (DATE), 'section' (TEXT), 'often' (VARCHAR(50)). The primary key is 'admit'. 'fire' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'admit'. 
+There is another table 'early' with the columns 'imagine' (VARCHAR(50)), 'out' (DATE). The primary key is 'imagine'. 'early' references another table 'here' in an exactly one to zero or many relationship. The relationship should be called 'imagine'. 
+There is another table 'here' with the columns 'if' (DATE), 'capital' (TEXT), 'option' (VARCHAR(50)). The primary key is 'if'. 'here' references another table 'new' in an exactly one to zero or many relationship. The relationship should be called 'if'. 
+There is another table 'new' with the columns 'myself' (VARCHAR(50)), 'ball' (DATE). The primary key is 'myself'. 'new' references another table 'each' in an exactly one to zero or many relationship. The relationship should be called 'myself'. 
+There is another table 'each' with the columns 'concern' (DATE), 'two' (TEXT), 'run' (VARCHAR(50)). The primary key is 'concern'. 'each' references another table 'notice' in an exactly one to zero or many relationship. The relationship should be called 'concern'. 
+There is another table 'notice' with the columns 'plan' (VARCHAR(50)), 'exactly' (DATE). The primary key is 'plan'. 'notice' references another table 'page' in an exactly one to zero or many relationship. The relationship should be called 'plan'. 
+There is another table 'page' with the columns 'nation' (DATE), 'structure' (TEXT), 'type' (VARCHAR(50)). The primary key is 'nation'. 'page' references another table 'fire' in an exactly one to zero or many relationship. The relationship should be called 'nation'. 
+

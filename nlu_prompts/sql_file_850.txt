@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram835'.
+There is a table 'maybe' with the columns 'stand' (DATE), 'nation' (TEXT), 'capital' (VARCHAR(50)). The primary key is 'stand'. 'maybe' references another table 'quality' in an exactly one to zero or many relationship. The relationship should be called 'stand'. 
+There is another table 'quality' with the columns 'off' (VARCHAR(50)), 'behavior' (DATE). The primary key is 'off'. 'quality' references another table 'thank' in an exactly one to zero or many relationship. The relationship should be called 'off'. 
+There is another table 'thank' with the columns 'sense' (DATE), 'mind' (TEXT), 'sea' (VARCHAR(50)). The primary key is 'sense'. 'thank' references another table 'well' in an exactly one to zero or many relationship. The relationship should be called 'sense'. 
+There is another table 'well' with the columns 'assume' (VARCHAR(50)), 'everything' (DATE). The primary key is 'assume'. 'well' references another table 'fact' in an exactly one to zero or many relationship. The relationship should be called 'assume'. 
+There is another table 'fact' with the columns 'executive' (DATE), 'eight' (TEXT), 'look' (VARCHAR(50)). The primary key is 'executive'. 'fact' references another table 'maybe' in an exactly one to zero or many relationship. The relationship should be called 'executive'. 
+

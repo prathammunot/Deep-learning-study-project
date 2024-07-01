@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram899'.
+There is a table 'that' with the columns 'morning' (DATE), 'behavior' (TEXT), 'two' (VARCHAR(50)). The primary key is 'morning'. 'that' references another table 'east' in an exactly one to zero or many relationship. The relationship should be called 'morning'. 
+There is another table 'east' with the columns 'nothing' (VARCHAR(50)), 'structure' (DATE). The primary key is 'nothing'. 'east' references another table 'new' in an exactly one to zero or many relationship. The relationship should be called 'nothing'. 
+There is another table 'new' with the columns 'nothing' (DATE), 'view' (TEXT), 'bank' (VARCHAR(50)). The primary key is 'nothing'. 'new' references another table 'dark' in an exactly one to zero or many relationship. The relationship should be called 'nothing'. 
+There is another table 'dark' with the columns 'outside' (VARCHAR(50)), 'research' (DATE). The primary key is 'outside'. 'dark' references another table 'idea' in an exactly one to zero or many relationship. The relationship should be called 'outside'. 
+There is another table 'idea' with the columns 'bring' (DATE), 'language' (TEXT), 'show' (VARCHAR(50)). The primary key is 'bring'. 'idea' references another table 'nothing' in an exactly one to zero or many relationship. The relationship should be called 'bring'. 
+There is another table 'nothing' with the columns 'brother' (VARCHAR(50)), 'process' (DATE). The primary key is 'brother'. 'nothing' references another table 'that' in an exactly one to zero or many relationship. The relationship should be called 'brother'. 
+

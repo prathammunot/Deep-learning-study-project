@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram852'.
+There is a table 'between' with the columns 'everything' (DATE), 'event' (TEXT), 'unit' (VARCHAR(50)). The primary key is 'everything'. 'between' references another table 'quickly' in an exactly one to zero or many relationship. The relationship should be called 'everything'. 
+There is another table 'quickly' with the columns 'evening' (VARCHAR(50)), 'past' (DATE). The primary key is 'evening'. 'quickly' references another table 'another' in an exactly one to zero or many relationship. The relationship should be called 'evening'. 
+There is another table 'another' with the columns 'hot' (DATE), 'form' (TEXT), 'economic' (VARCHAR(50)). The primary key is 'hot'. 'another' references another table 'station' in an exactly one to zero or many relationship. The relationship should be called 'hot'. 
+There is another table 'station' with the columns 'summer' (VARCHAR(50)), 'last' (DATE). The primary key is 'summer'. 'station' references another table 'group' in an exactly one to zero or many relationship. The relationship should be called 'summer'. 
+There is another table 'group' with the columns 'surface' (DATE), 'different' (TEXT), 'name' (VARCHAR(50)). The primary key is 'surface'. 'group' references another table 'between' in an exactly one to zero or many relationship. The relationship should be called 'surface'. 
+

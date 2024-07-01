@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram847'.
+There is a table 'space' with the columns 'entire' (DATE), 'spend' (TEXT), 'home' (VARCHAR(50)). The primary key is 'entire'. 'space' references another table 'suddenly' in an exactly one to zero or many relationship. The relationship should be called 'entire'. 
+There is another table 'suddenly' with the columns 'democratic' (VARCHAR(50)), 'evening' (DATE). The primary key is 'democratic'. 'suddenly' references another table 'she' in an exactly one to zero or many relationship. The relationship should be called 'democratic'. 
+There is another table 'she' with the columns 'decide' (DATE), 'number' (TEXT), 'forget' (VARCHAR(50)). The primary key is 'decide'. 'she' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'decide'. 
+There is another table 'section' with the columns 'radio' (VARCHAR(50)), 'glass' (DATE). The primary key is 'radio'. 'section' references another table 'raise' in an exactly one to zero or many relationship. The relationship should be called 'radio'. 
+There is another table 'raise' with the columns 'meet' (DATE), 'remember' (TEXT), 'military' (VARCHAR(50)). The primary key is 'meet'. 'raise' references another table 'often' in an exactly one to zero or many relationship. The relationship should be called 'meet'. 
+There is another table 'often' with the columns 'positive' (VARCHAR(50)), 'experience' (DATE). The primary key is 'positive'. 'often' references another table 'action' in an exactly one to zero or many relationship. The relationship should be called 'positive'. 
+There is another table 'action' with the columns 'special' (DATE), 'statement' (TEXT), 'million' (VARCHAR(50)). The primary key is 'special'. 'action' references another table 'be' in an exactly one to zero or many relationship. The relationship should be called 'special'. 
+There is another table 'be' with the columns 'any' (VARCHAR(50)). The primary key is 'any'. 'be' references another table 'space' in an exactly one to zero or many relationship. The relationship should be called 'any'. 
+

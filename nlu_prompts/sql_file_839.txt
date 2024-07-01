@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram822'.
+There is a table 'lead' with the columns 'push' (DATE), 'play' (TEXT), 'three' (VARCHAR(50)). The primary key is 'push'. 'lead' references another table 'security' in an exactly one to zero or many relationship. The relationship should be called 'push'. 
+There is another table 'security' with the columns 'raise' (VARCHAR(50)), 'feeling' (DATE). The primary key is 'raise'. 'security' references another table 'style' in an exactly one to zero or many relationship. The relationship should be called 'raise'. 
+There is another table 'style' with the columns 'once' (DATE), 'item' (TEXT), 'practice' (VARCHAR(50)). The primary key is 'once'. 'style' references another table 'possible' in an exactly one to zero or many relationship. The relationship should be called 'once'. 
+There is another table 'possible' with the columns 'scene' (VARCHAR(50)), 'send' (DATE). The primary key is 'scene'. 'possible' references another table 'among' in an exactly one to zero or many relationship. The relationship should be called 'scene'. 
+There is another table 'among' with the columns 'identify' (DATE), 'card' (TEXT), 'collection' (VARCHAR(50)). The primary key is 'identify'. 'among' references another table 'let' in an exactly one to zero or many relationship. The relationship should be called 'identify'. 
+There is another table 'let' with the columns 'event' (VARCHAR(50)), 'wonder' (DATE). The primary key is 'event'. 'let' references another table 'miss' in an exactly one to zero or many relationship. The relationship should be called 'event'. 
+There is another table 'miss' with the columns 'writer' (DATE), 'once' (TEXT), 'range' (VARCHAR(50)). The primary key is 'writer'. 'miss' references another table 'them' in an exactly one to zero or many relationship. The relationship should be called 'writer'. 
+There is another table 'them' with the columns 'small' (VARCHAR(50)), 'level' (DATE). The primary key is 'small'. 'them' references another table 'lead' in an exactly one to zero or many relationship. The relationship should be called 'small'. 
+

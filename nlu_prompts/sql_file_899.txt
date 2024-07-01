@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram888'.
+There is a table 'situation' with the columns 'difference' (DATE), 'police' (TEXT), 'seek' (VARCHAR(50)). The primary key is 'difference'. 'situation' references another table 'already' in an exactly one to zero or many relationship. The relationship should be called 'difference'. 
+There is another table 'already' with the columns 'set' (VARCHAR(50)), 'hand' (DATE). The primary key is 'set'. 'already' references another table 'staff' in an exactly one to zero or many relationship. The relationship should be called 'set'. 
+There is another table 'staff' with the columns 'ever' (DATE), 'fine' (TEXT), 'down' (VARCHAR(50)). The primary key is 'ever'. 'staff' references another table 'western' in an exactly one to zero or many relationship. The relationship should be called 'ever'. 
+There is another table 'western' with the columns 'into' (VARCHAR(50)), 'still' (DATE). The primary key is 'into'. 'western' references another table 'opportunity' in an exactly one to zero or many relationship. The relationship should be called 'into'. 
+There is another table 'opportunity' with the columns 'change' (DATE), 'develop' (TEXT), 'relate' (VARCHAR(50)). The primary key is 'change'. 'opportunity' references another table 'myself' in an exactly one to zero or many relationship. The relationship should be called 'change'. 
+There is another table 'myself' with the columns 'catch' (VARCHAR(50)), 'pay' (DATE). The primary key is 'catch'. 'myself' references another table 'major' in an exactly one to zero or many relationship. The relationship should be called 'catch'. 
+There is another table 'major' with the columns 'section' (DATE), 'sure' (TEXT), 'business' (VARCHAR(50)). The primary key is 'section'. 'major' references another table 'situation' in an exactly one to zero or many relationship. The relationship should be called 'section'. 
+

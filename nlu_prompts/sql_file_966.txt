@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram963'.
+There is a table 'science' with the columns 'action' (DATE), 'traditional' (TEXT), 'party' (VARCHAR(50)). The primary key is 'action'. 'science' references another table 'around' in an exactly one to zero or many relationship. The relationship should be called 'action'. 
+There is another table 'around' with the columns 'marriage' (VARCHAR(50)), 'senior' (DATE). The primary key is 'marriage'. 'around' references another table 'policy' in an exactly one to zero or many relationship. The relationship should be called 'marriage'. 
+There is another table 'policy' with the columns 'magazine' (DATE), 'culture' (TEXT), 'nation' (VARCHAR(50)). The primary key is 'magazine'. 'policy' references another table 'professor' in an exactly one to zero or many relationship. The relationship should be called 'magazine'. 
+There is another table 'professor' with the columns 'time' (DATE). The primary key is 'foreign'. 'professor' references another table 'moment' in an exactly one to zero or many relationship. The relationship should be called 'foreign'. 
+There is another table 'moment' with the columns 'chance' (DATE), 'nice' (TEXT), 'police' (VARCHAR(50)). The primary key is 'chance'. 'moment' references another table 'science' in an exactly one to zero or many relationship. The relationship should be called 'chance'. 
+

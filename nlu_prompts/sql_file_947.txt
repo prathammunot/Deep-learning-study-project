@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram942'.
+There is a table 'entire' with the columns 'paper' (DATE), 'one' (TEXT), 'might' (VARCHAR(50)). The primary key is 'paper'. 'entire' references another table 'not' in an exactly one to zero or many relationship. The relationship should be called 'paper'. 
+There is another table 'not' with the columns 'good' (VARCHAR(50)), 'garden' (DATE). The primary key is 'good'. 'not' references another table 'rate' in an exactly one to zero or many relationship. The relationship should be called 'good'. 
+There is another table 'rate' with the columns 'send' (DATE), 'save' (TEXT), 'effect' (VARCHAR(50)). The primary key is 'send'. 'rate' references another table 'road' in an exactly one to zero or many relationship. The relationship should be called 'send'. 
+There is another table 'road' with the columns 'run' (VARCHAR(50)), 'bed' (DATE). The primary key is 'run'. 'road' references another table 'create' in an exactly one to zero or many relationship. The relationship should be called 'run'. 
+There is another table 'create' with the columns 'wonder' (DATE), 'art' (TEXT), 'bad' (VARCHAR(50)). The primary key is 'wonder'. 'create' references another table 'everything' in an exactly one to zero or many relationship. The relationship should be called 'wonder'. 
+There is another table 'everything' with the columns 'speech' (VARCHAR(50)), 'management' (DATE). The primary key is 'speech'. 'everything' references another table 'ask' in an exactly one to zero or many relationship. The relationship should be called 'speech'. 
+There is another table 'ask' with the columns 'so' (DATE), 'small' (TEXT), 'theory' (VARCHAR(50)). The primary key is 'so'. 'ask' references another table 'kitchen' in an exactly one to zero or many relationship. The relationship should be called 'so'. 
+There is another table 'kitchen' with the columns 'officer' (VARCHAR(50)), 'finish' (DATE). The primary key is 'officer'. 'kitchen' references another table 'those' in an exactly one to zero or many relationship. The relationship should be called 'officer'. 
+There is another table 'those' with the columns 'machine' (DATE), 'ok' (TEXT), 'safe' (VARCHAR(50)). The primary key is 'machine'. 'those' references another table 'entire' in an exactly one to zero or many relationship. The relationship should be called 'machine'. 
+

@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram995'.
+There is a table 'reveal' with the columns 'deal' (DATE), 'over' (TEXT), 'experience' (VARCHAR(50)). The primary key is 'deal'. 'reveal' references another table 'hair' in an exactly one to zero or many relationship. The relationship should be called 'deal'. 
+There is another table 'hair' with the columns 'address' (VARCHAR(50)), 'might' (DATE). The primary key is 'address'. 'hair' references another table 'watch' in an exactly one to zero or many relationship. The relationship should be called 'address'. 
+There is another table 'watch' with the columns 'space' (DATE), 'by' (TEXT), 'book' (VARCHAR(50)). The primary key is 'space'. 'watch' references another table 'we' in an exactly one to zero or many relationship. The relationship should be called 'space'. 
+There is another table 'we' with the columns 'knowledge' (VARCHAR(50)), 'sort' (DATE). The primary key is 'knowledge'. 'we' references another table 'case' in an exactly one to zero or many relationship. The relationship should be called 'knowledge'. 
+There is another table 'case' with the columns 'single' (DATE), 'exactly' (TEXT), 'important' (VARCHAR(50)). The primary key is 'single'. 'case' references another table 'leave' in an exactly one to zero or many relationship. The relationship should be called 'single'. 
+There is another table 'leave' with the columns 'month' (VARCHAR(50)), 'without' (DATE). The primary key is 'month'. 'leave' references another table 'authority' in an exactly one to zero or many relationship. The relationship should be called 'month'. 
+There is another table 'authority' with the columns 'rest' (DATE), 'could' (TEXT), 'water' (VARCHAR(50)). The primary key is 'rest'. 'authority' references another table 'lose' in an exactly one to zero or many relationship. The relationship should be called 'rest'. 
+There is another table 'lose' with the columns 'whether' (VARCHAR(50)), 'open' (DATE). The primary key is 'whether'. 'lose' references another table 'fine' in an exactly one to zero or many relationship. The relationship should be called 'whether'. 
+There is another table 'fine' with the columns 'until' (DATE), 'vote' (TEXT), 'memory' (VARCHAR(50)). The primary key is 'until'. 'fine' references another table 'reveal' in an exactly one to zero or many relationship. The relationship should be called 'until'. 
+

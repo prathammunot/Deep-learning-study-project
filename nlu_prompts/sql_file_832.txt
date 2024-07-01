@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram815'.
+There is a table 'help' with the columns 'word' (DATE), 'Democrat' (TEXT), 'suggest' (VARCHAR(50)). The primary key is 'word'. 'help' references another table 'war' in an exactly one to zero or many relationship. The relationship should be called 'word'. 
+There is another table 'war' with the columns 'visit' (VARCHAR(50)), 'possible' (DATE). The primary key is 'visit'. 'war' references another table 'treatment' in an exactly one to zero or many relationship. The relationship should be called 'visit'. 
+There is another table 'treatment' with the columns 'many' (DATE), 'material' (TEXT), 'manage' (VARCHAR(50)). The primary key is 'many'. 'treatment' references another table 'message' in an exactly one to zero or many relationship. The relationship should be called 'many'. 
+There is another table 'message' with the columns 'later' (VARCHAR(50)), 'degree' (DATE). The primary key is 'later'. 'message' references another table 'knowledge' in an exactly one to zero or many relationship. The relationship should be called 'later'. 
+There is another table 'knowledge' with the columns 'stuff' (DATE), 'evening' (TEXT), 'computer' (VARCHAR(50)). The primary key is 'stuff'. 'knowledge' references another table 'difference' in an exactly one to zero or many relationship. The relationship should be called 'stuff'. 
+There is another table 'difference' with the columns 'customer' (VARCHAR(50)), 'enough' (DATE). The primary key is 'customer'. 'difference' references another table 'professor' in an exactly one to zero or many relationship. The relationship should be called 'customer'. 
+There is another table 'professor' with the columns 'score' (DATE), 'seek' (TEXT), 'early' (VARCHAR(50)). The primary key is 'score'. 'professor' references another table 'help' in an exactly one to zero or many relationship. The relationship should be called 'score'. 
+

@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram974'.
+There is a table 'company' with the columns 'many' (DATE), 'poor' (TEXT), 'beat' (VARCHAR(50)). The primary key is 'many'. 'company' references another table 'something' in an exactly one to zero or many relationship. The relationship should be called 'many'. 
+There is another table 'something' with the columns 'factor' (VARCHAR(50)), 'support' (DATE). The primary key is 'factor'. 'something' references another table 'return' in an exactly one to zero or many relationship. The relationship should be called 'factor'. 
+There is another table 'return' with the columns 'forget' (DATE), 'issue' (TEXT), 'theory' (VARCHAR(50)). The primary key is 'forget'. 'return' references another table 'campaign' in an exactly one to zero or many relationship. The relationship should be called 'forget'. 
+There is another table 'campaign' with the columns 'camera' (VARCHAR(50)), 'team' (DATE). The primary key is 'camera'. 'campaign' references another table 'bad' in an exactly one to zero or many relationship. The relationship should be called 'camera'. 
+There is another table 'bad' with the columns 'will' (DATE), 'out' (TEXT), 'government' (VARCHAR(50)). The primary key is 'will'. 'bad' references another table 'rich' in an exactly one to zero or many relationship. The relationship should be called 'will'. 
+There is another table 'rich' with the columns 'paper' (VARCHAR(50)), 'person' (DATE). The primary key is 'paper'. 'rich' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'paper'. 
+There is another table 'early' with the columns 'design' (DATE), 'executive' (TEXT), 'try' (VARCHAR(50)). The primary key is 'design'. 'early' references another table 'company' in an exactly one to zero or many relationship. The relationship should be called 'design'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram764'.
+There is a table 'defense' with the columns 'subject' (DATE), 'chair' (TEXT), 'training' (VARCHAR(50)). The primary key is 'subject'. 'defense' references another table 'financial' in an exactly one to zero or many relationship. The relationship should be called 'subject'. 
+There is another table 'financial' with the columns 'seem' (VARCHAR(50)), 'task' (DATE). The primary key is 'seem'. 'financial' references another table 'never' in an exactly one to zero or many relationship. The relationship should be called 'seem'. 
+There is another table 'never' with the columns 'suggest' (DATE), 'audience' (TEXT), 'foot' (VARCHAR(50)). The primary key is 'suggest'. 'never' references another table 'approach' in an exactly one to zero or many relationship. The relationship should be called 'suggest'. 
+There is another table 'approach' with the columns 'whether' (VARCHAR(50)), 'raise' (DATE). The primary key is 'whether'. 'approach' references another table 'today' in an exactly one to zero or many relationship. The relationship should be called 'whether'. 
+There is another table 'today' with the columns 'information' (DATE), 'second' (TEXT), 'account' (VARCHAR(50)). The primary key is 'information'. 'today' references another table 'defense' in an exactly one to zero or many relationship. The relationship should be called 'information'. 
+

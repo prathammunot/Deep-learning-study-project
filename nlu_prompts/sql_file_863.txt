@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram849'.
+There is a table 'compare' with the columns 'material' (DATE), 'cover' (TEXT), 'push' (VARCHAR(50)). The primary key is 'material'. 'compare' references another table 'poor' in an exactly one to zero or many relationship. The relationship should be called 'material'. 
+There is another table 'poor' with the columns 'president' (VARCHAR(50)), 'deal' (DATE). The primary key is 'president'. 'poor' references another table 'establish' in an exactly one to zero or many relationship. The relationship should be called 'president'. 
+There is another table 'establish' with the columns 'remain' (DATE), 'through' (TEXT), 'since' (VARCHAR(50)). The primary key is 'remain'. 'establish' references another table 'bag' in an exactly one to zero or many relationship. The relationship should be called 'remain'. 
+There is another table 'bag' with the columns 'reduce' (VARCHAR(50)), 'down' (DATE). The primary key is 'reduce'. 'bag' references another table 'up' in an exactly one to zero or many relationship. The relationship should be called 'reduce'. 
+There is another table 'up' with the columns 'when' (DATE), 'score' (TEXT), 'population' (VARCHAR(50)). The primary key is 'when'. 'up' references another table 'around' in an exactly one to zero or many relationship. The relationship should be called 'when'. 
+There is another table 'around' with the columns 'leave' (VARCHAR(50)), 'pass' (DATE). The primary key is 'leave'. 'around' references another table 'wall' in an exactly one to zero or many relationship. The relationship should be called 'leave'. 
+There is another table 'wall' with the columns 'choice' (DATE), 'toward' (TEXT), 'media' (VARCHAR(50)). The primary key is 'choice'. 'wall' references another table 'set' in an exactly one to zero or many relationship. The relationship should be called 'choice'. 
+There is another table 'set' with the columns 'forward' (VARCHAR(50)), 'statement' (DATE). The primary key is 'forward'. 'set' references another table 'compare' in an exactly one to zero or many relationship. The relationship should be called 'forward'. 
+

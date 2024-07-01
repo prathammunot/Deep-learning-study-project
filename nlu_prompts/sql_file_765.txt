@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram740'.
+There is a table 'movie' with the columns 'off' (DATE), 'approach' (TEXT), 'force' (VARCHAR(50)). The primary key is 'off'. 'movie' references another table 'rest' in an exactly one to zero or many relationship. The relationship should be called 'off'. 
+There is another table 'rest' with the columns 'exist' (VARCHAR(50)), 'young' (DATE). The primary key is 'exist'. 'rest' references another table 'mother' in an exactly one to zero or many relationship. The relationship should be called 'exist'. 
+There is another table 'mother' with the columns 'senior' (DATE), 'action' (TEXT), 'try' (VARCHAR(50)). The primary key is 'senior'. 'mother' references another table 'contain' in an exactly one to zero or many relationship. The relationship should be called 'senior'. 
+There is another table 'contain' with the columns 'able' (VARCHAR(50)), 'should' (DATE). The primary key is 'able'. 'contain' references another table 'future' in an exactly one to zero or many relationship. The relationship should be called 'able'. 
+There is another table 'future' with the columns 'economic' (DATE), 'outside' (TEXT), 'bit' (VARCHAR(50)). The primary key is 'economic'. 'future' references another table 'movie' in an exactly one to zero or many relationship. The relationship should be called 'economic'. 
+

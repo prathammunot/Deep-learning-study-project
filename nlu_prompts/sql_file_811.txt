@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram792'.
+There is a table 'foreign' with the columns 'edge' (DATE), 'nothing' (TEXT), 'popular' (VARCHAR(50)). The primary key is 'edge'. 'foreign' references another table 'guy' in an exactly one to zero or many relationship. The relationship should be called 'edge'. 
+There is another table 'guy' with the columns 'ask' (VARCHAR(50)), 'nearly' (DATE). The primary key is 'ask'. 'guy' references another table 'keep' in an exactly one to zero or many relationship. The relationship should be called 'ask'. 
+There is another table 'keep' with the columns 'mind' (DATE), 'pick' (TEXT), 'service' (VARCHAR(50)). The primary key is 'mind'. 'keep' references another table 'person' in an exactly one to zero or many relationship. The relationship should be called 'mind'. 
+There is another table 'person' with the columns 'challenge' (VARCHAR(50)), 'field' (DATE). The primary key is 'challenge'. 'person' references another table 'baby' in an exactly one to zero or many relationship. The relationship should be called 'challenge'. 
+There is another table 'baby' with the columns 'safe' (DATE), 'need' (TEXT), 'thought' (VARCHAR(50)). The primary key is 'safe'. 'baby' references another table 'them' in an exactly one to zero or many relationship. The relationship should be called 'safe'. 
+There is another table 'them' with the columns 'together' (VARCHAR(50)), 'common' (DATE). The primary key is 'together'. 'them' references another table 'seat' in an exactly one to zero or many relationship. The relationship should be called 'together'. 
+There is another table 'seat' with the columns 'arrive' (DATE), 'exactly' (TEXT), 'audience' (VARCHAR(50)). The primary key is 'arrive'. 'seat' references another table 'system' in an exactly one to zero or many relationship. The relationship should be called 'arrive'. 
+There is another table 'system' with the columns 'phone' (VARCHAR(50)), 'decide' (DATE). The primary key is 'phone'. 'system' references another table 'foreign' in an exactly one to zero or many relationship. The relationship should be called 'phone'. 
+

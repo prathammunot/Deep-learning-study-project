@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram724'.
+There is a table 'us' with the columns 'concern' (DATE), 'owner' (TEXT), 'small' (VARCHAR(50)). The primary key is 'concern'. 'us' references another table 'relationship' in an exactly one to zero or many relationship. The relationship should be called 'concern'. 
+There is another table 'relationship' with the columns 'network' (VARCHAR(50)), 'more' (DATE). The primary key is 'network'. 'relationship' references another table 'character' in an exactly one to zero or many relationship. The relationship should be called 'network'. 
+There is another table 'character' with the columns 'hundred' (DATE), 'administration' (TEXT), 'many' (VARCHAR(50)). The primary key is 'hundred'. 'character' references another table 'side' in an exactly one to zero or many relationship. The relationship should be called 'hundred'. 
+There is another table 'side' with the columns 'begin' (VARCHAR(50)), 'as' (DATE). The primary key is 'begin'. 'side' references another table 'run' in an exactly one to zero or many relationship. The relationship should be called 'begin'. 
+There is another table 'run' with the columns 'whom' (DATE), 'put' (TEXT), 'general' (VARCHAR(50)). The primary key is 'whom'. 'run' references another table 'us' in an exactly one to zero or many relationship. The relationship should be called 'whom'. 
+

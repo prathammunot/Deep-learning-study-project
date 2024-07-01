@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram793'.
+There is a table 'production' with the columns 'bit' (DATE), 'tree' (TEXT), 'successful' (VARCHAR(50)). The primary key is 'bit'. 'production' references another table 'play' in an exactly one to zero or many relationship. The relationship should be called 'bit'. 
+There is another table 'play' with the columns 'serious' (VARCHAR(50)), 'political' (DATE). The primary key is 'serious'. 'play' references another table 'force' in an exactly one to zero or many relationship. The relationship should be called 'serious'. 
+There is another table 'force' with the columns 'go' (DATE), 'lead' (TEXT). The primary key is 'go'. 'force' references another table 'indeed' in an exactly one to zero or many relationship. The relationship should be called 'go'. 
+There is another table 'indeed' with the columns 'paper' (VARCHAR(50)), 'style' (DATE). The primary key is 'paper'. 'indeed' references another table 'service' in an exactly one to zero or many relationship. The relationship should be called 'paper'. 
+There is another table 'service' with the columns 'wrong' (DATE), 'home' (TEXT), 'each' (VARCHAR(50)). The primary key is 'wrong'. 'service' references another table 'court' in an exactly one to zero or many relationship. The relationship should be called 'wrong'. 
+There is another table 'court' with the columns 'without' (VARCHAR(50)), 'middle' (DATE). The primary key is 'without'. 'court' references another table 'part' in an exactly one to zero or many relationship. The relationship should be called 'without'. 
+There is another table 'part' with the columns 'cold' (DATE), 'method' (TEXT), 'next' (VARCHAR(50)). The primary key is 'cold'. 'part' references another table 'necessary' in an exactly one to zero or many relationship. The relationship should be called 'cold'. 
+There is another table 'necessary' with the columns 'treat' (VARCHAR(50)), 'education' (DATE). The primary key is 'treat'. 'necessary' references another table 'despite' in an exactly one to zero or many relationship. The relationship should be called 'treat'. 
+There is another table 'despite' with the columns 'heavy' (DATE), 'Mr' (TEXT), 'expert' (VARCHAR(50)). The primary key is 'heavy'. 'despite' references another table 'production' in an exactly one to zero or many relationship. The relationship should be called 'heavy'. 
+

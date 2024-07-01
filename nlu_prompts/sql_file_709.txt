@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram678'.
+There is a table 'reflect' with the columns 'today' (DATE), 'amount' (TEXT), 'now' (VARCHAR(50)). The primary key is 'today'. 'reflect' references another table 'poor' in an exactly one to zero or many relationship. The relationship should be called 'today'. 
+There is another table 'poor' with the columns 'character' (VARCHAR(50)), 'per' (DATE). The primary key is 'character'. 'poor' references another table 'inside' in an exactly one to zero or many relationship. The relationship should be called 'character'. 
+There is another table 'inside' with the columns 'red' (DATE), 'still' (TEXT), 'man' (VARCHAR(50)). The primary key is 'red'. 'inside' references another table 'make' in an exactly one to zero or many relationship. The relationship should be called 'red'. 
+There is another table 'make' with the columns 'energy' (VARCHAR(50)), 'to' (DATE). The primary key is 'energy'. 'make' references another table 'step' in an exactly one to zero or many relationship. The relationship should be called 'energy'. 
+There is another table 'step' with the columns 'history' (DATE), 'meet' (TEXT), 'east' (VARCHAR(50)). The primary key is 'history'. 'step' references another table 'reflect' in an exactly one to zero or many relationship. The relationship should be called 'history'. 
+

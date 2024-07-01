@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram713'.
+There is a table 'simply' with the columns 'head' (DATE), 'not' (TEXT), 'heavy' (VARCHAR(50)). The primary key is 'head'. 'simply' references another table 'not' in an exactly one to zero or many relationship. The relationship should be called 'head'. 
+There is another table 'not' with the columns 'it' (VARCHAR(50)), 'to' (DATE). The primary key is 'it'. 'not' references another table 'start' in an exactly one to zero or many relationship. The relationship should be called 'it'. 
+There is another table 'start' with the columns 'score' (DATE), 'first' (TEXT), 'huge' (VARCHAR(50)). The primary key is 'score'. 'start' references another table 'treat' in an exactly one to zero or many relationship. The relationship should be called 'score'. 
+There is another table 'treat' with the columns 'address' (VARCHAR(50)), 'he' (DATE). The primary key is 'address'. 'treat' references another table 'land' in an exactly one to zero or many relationship. The relationship should be called 'address'. 
+There is another table 'land' with the columns 'activity' (DATE), 'middle' (TEXT), 'size' (VARCHAR(50)). The primary key is 'activity'. 'land' references another table 'able' in an exactly one to zero or many relationship. The relationship should be called 'activity'. 
+There is another table 'able' with the columns 'board' (VARCHAR(50)), 'energy' (DATE). The primary key is 'board'. 'able' references another table 'majority' in an exactly one to zero or many relationship. The relationship should be called 'board'. 
+There is another table 'majority' with the columns 'resource' (DATE), 'natural' (TEXT), 'very' (VARCHAR(50)). The primary key is 'resource'. 'majority' references another table 'simply' in an exactly one to zero or many relationship. The relationship should be called 'resource'. 
+

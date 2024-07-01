@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram796'.
+There is a table 'type' with the columns 'skill' (DATE), 'experience' (TEXT), 'method' (VARCHAR(50)). The primary key is 'skill'. 'type' references another table 'talk' in an exactly one to zero or many relationship. The relationship should be called 'skill'. 
+There is another table 'talk' with the columns 'community' (VARCHAR(50)), 'bad' (DATE). The primary key is 'community'. 'talk' references another table 'prevent' in an exactly one to zero or many relationship. The relationship should be called 'community'. 
+There is another table 'prevent' with the columns 'course' (DATE), 'imagine' (TEXT), 'build' (VARCHAR(50)). The primary key is 'course'. 'prevent' references another table 'my' in an exactly one to zero or many relationship. The relationship should be called 'course'. 
+There is another table 'my' with the columns 'collection' (VARCHAR(50)), 'reach' (DATE). The primary key is 'collection'. 'my' references another table 'tend' in an exactly one to zero or many relationship. The relationship should be called 'collection'. 
+There is another table 'tend' with the columns 'order' (DATE), 'ball' (TEXT), 'offer' (VARCHAR(50)). The primary key is 'order'. 'tend' references another table 'similar' in an exactly one to zero or many relationship. The relationship should be called 'order'. 
+There is another table 'similar' with the columns 'learn' (VARCHAR(50)), 'too' (DATE). The primary key is 'learn'. 'similar' references another table 'forget' in an exactly one to zero or many relationship. The relationship should be called 'learn'. 
+There is another table 'forget' with the columns 'relate' (DATE), 'decade' (TEXT), 'memory' (VARCHAR(50)). The primary key is 'relate'. 'forget' references another table 'thus' in an exactly one to zero or many relationship. The relationship should be called 'relate'. 
+There is another table 'thus' with the columns 'particularly' (VARCHAR(50)), 'action' (DATE). The primary key is 'particularly'. 'thus' references another table 'type' in an exactly one to zero or many relationship. The relationship should be called 'particularly'. 
+

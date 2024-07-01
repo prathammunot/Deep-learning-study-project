@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram859'.
+There is a table 'may' with the columns 'attack' (DATE), 'trouble' (TEXT), 'book' (VARCHAR(50)). The primary key is 'attack'. 'may' references another table 'think' in an exactly one to zero or many relationship. The relationship should be called 'attack'. 
+There is another table 'think' with the columns 'performance' (VARCHAR(50)), 'check' (DATE). The primary key is 'performance'. 'think' references another table 'last' in an exactly one to zero or many relationship. The relationship should be called 'performance'. 
+There is another table 'last' with the columns 'authority' (DATE), 'trouble' (TEXT), 'carry' (VARCHAR(50)). The primary key is 'authority'. 'last' references another table 'then' in an exactly one to zero or many relationship. The relationship should be called 'authority'. 
+There is another table 'then' with the columns 'develop' (VARCHAR(50)), 'step' (DATE). The primary key is 'develop'. 'then' references another table 'pressure' in an exactly one to zero or many relationship. The relationship should be called 'develop'. 
+There is another table 'pressure' with the columns 'hot' (DATE), 'else' (TEXT), 'create' (VARCHAR(50)). The primary key is 'hot'. 'pressure' references another table 'what' in an exactly one to zero or many relationship. The relationship should be called 'hot'. 
+There is another table 'what' with the columns 'may' (VARCHAR(50)), 'including' (DATE). The primary key is 'may'. 'what' references another table 'college' in an exactly one to zero or many relationship. The relationship should be called 'may'. 
+There is another table 'college' with the columns 'both' (DATE), 'wife' (TEXT), 'magazine' (VARCHAR(50)). The primary key is 'both'. 'college' references another table 'may' in an exactly one to zero or many relationship. The relationship should be called 'both'. 
+

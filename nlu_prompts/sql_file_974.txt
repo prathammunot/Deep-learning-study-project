@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram972'.
+There is a table 'perform' with the columns 'upon' (DATE), 'give' (TEXT), 'seven' (VARCHAR(50)). The primary key is 'upon'. 'perform' references another table 'often' in an exactly one to zero or many relationship. The relationship should be called 'upon'. 
+There is another table 'often' with the columns 'third' (VARCHAR(50)), 'talk' (DATE). The primary key is 'third'. 'often' references another table 'hard' in an exactly one to zero or many relationship. The relationship should be called 'third'. 
+There is another table 'hard' with the columns 'toward' (DATE), 'type' (TEXT), 'world' (VARCHAR(50)). The primary key is 'toward'. 'hard' references another table 'story' in an exactly one to zero or many relationship. The relationship should be called 'toward'. 
+There is another table 'story' with the columns 'travel' (VARCHAR(50)), 'parent' (DATE). The primary key is 'travel'. 'story' references another table 'also' in an exactly one to zero or many relationship. The relationship should be called 'travel'. 
+There is another table 'also' with the columns 'social' (DATE), 'land' (TEXT), 'upon' (VARCHAR(50)). The primary key is 'social'. 'also' references another table 'director' in an exactly one to zero or many relationship. The relationship should be called 'social'. 
+There is another table 'director' with the columns 'however' (VARCHAR(50)), 'tend' (DATE). The primary key is 'however'. 'director' references another table 'perform' in an exactly one to zero or many relationship. The relationship should be called 'however'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram765'.
+There is a table 'service' with the columns 'eye' (DATE), 'list' (TEXT), 'human' (VARCHAR(50)). The primary key is 'eye'. 'service' references another table 'international' in an exactly one to zero or many relationship. The relationship should be called 'eye'. 
+There is another table 'international' with the columns 'on' (VARCHAR(50)), 'prepare' (DATE). The primary key is 'on'. 'international' references another table 'way' in an exactly one to zero or many relationship. The relationship should be called 'on'. 
+There is another table 'way' with the columns 'argue' (DATE), 'situation' (TEXT), 'good' (VARCHAR(50)). The primary key is 'argue'. 'way' references another table 'person' in an exactly one to zero or many relationship. The relationship should be called 'argue'. 
+There is another table 'person' with the columns 'fly' (VARCHAR(50)), 'site' (DATE). The primary key is 'fly'. 'person' references another table 'over' in an exactly one to zero or many relationship. The relationship should be called 'fly'. 
+There is another table 'over' with the columns 'task' (DATE), 'the' (TEXT), 'represent' (VARCHAR(50)). The primary key is 'task'. 'over' references another table 'special' in an exactly one to zero or many relationship. The relationship should be called 'task'. 
+There is another table 'special' with the columns 'pay' (VARCHAR(50)), 'process' (DATE). The primary key is 'pay'. 'special' references another table 'service' in an exactly one to zero or many relationship. The relationship should be called 'pay'. 
+

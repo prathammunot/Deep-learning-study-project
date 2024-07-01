@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram855'.
+There is a table 'world' with the columns 'from' (DATE), 'term' (TEXT), 'hair' (VARCHAR(50)). The primary key is 'from'. 'world' references another table 'condition' in an exactly one to zero or many relationship. The relationship should be called 'from'. 
+There is another table 'condition' with the columns 'argue' (VARCHAR(50)), 'animal' (DATE). The primary key is 'argue'. 'condition' references another table 'seek' in an exactly one to zero or many relationship. The relationship should be called 'argue'. 
+There is another table 'seek' with the columns 'very' (DATE), 'fund' (TEXT), 'term' (VARCHAR(50)). The primary key is 'very'. 'seek' references another table 'claim' in an exactly one to zero or many relationship. The relationship should be called 'very'. 
+There is another table 'claim' with the columns 'upon' (VARCHAR(50)), 'consumer' (DATE). The primary key is 'upon'. 'claim' references another table 'no' in an exactly one to zero or many relationship. The relationship should be called 'upon'. 
+There is another table 'no' with the columns 'practice' (DATE), 'most' (TEXT), 'believe' (VARCHAR(50)). The primary key is 'practice'. 'no' references another table 'husband' in an exactly one to zero or many relationship. The relationship should be called 'practice'. 
+There is another table 'husband' with the columns 'read' (VARCHAR(50)), 'rise' (DATE). The primary key is 'read'. 'husband' references another table 'world' in an exactly one to zero or many relationship. The relationship should be called 'read'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram702'.
+There is a table 'bit' with the columns 'campaign' (DATE), 'enjoy' (TEXT), 'into' (VARCHAR(50)). The primary key is 'campaign'. 'bit' references another table 'ten' in an exactly one to zero or many relationship. The relationship should be called 'campaign'. 
+There is another table 'ten' with the columns 'stage' (VARCHAR(50)), 'police' (DATE). The primary key is 'stage'. 'ten' references another table 'into' in an exactly one to zero or many relationship. The relationship should be called 'stage'. 
+There is another table 'into' with the columns 'anyone' (DATE), 'kid' (TEXT), 'our' (VARCHAR(50)). The primary key is 'anyone'. 'into' references another table 'middle' in an exactly one to zero or many relationship. The relationship should be called 'anyone'. 
+There is another table 'middle' with the columns 'debate' (VARCHAR(50)), 'deep' (DATE). The primary key is 'debate'. 'middle' references another table 'deal' in an exactly one to zero or many relationship. The relationship should be called 'debate'. 
+There is another table 'deal' with the columns 'central' (DATE), 'reality' (TEXT), 'admit' (VARCHAR(50)). The primary key is 'central'. 'deal' references another table 'bit' in an exactly one to zero or many relationship. The relationship should be called 'central'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram730'.
+There is a table 'turn' with the columns 'study' (DATE), 'company' (TEXT), 'character' (VARCHAR(50)). The primary key is 'study'. 'turn' references another table 'answer' in an exactly one to zero or many relationship. The relationship should be called 'study'. 
+There is another table 'answer' with the columns 'final' (VARCHAR(50)), 'nor' (DATE). The primary key is 'final'. 'answer' references another table 'mean' in an exactly one to zero or many relationship. The relationship should be called 'final'. 
+There is another table 'mean' with the columns 'trouble' (DATE), 'improve' (TEXT), 'mission' (VARCHAR(50)). The primary key is 'trouble'. 'mean' references another table 'stock' in an exactly one to zero or many relationship. The relationship should be called 'trouble'. 
+There is another table 'stock' with the columns 'which' (VARCHAR(50)), 'to' (DATE). The primary key is 'which'. 'stock' references another table 'fish' in an exactly one to zero or many relationship. The relationship should be called 'which'. 
+There is another table 'fish' with the columns 'special' (DATE), 'might' (TEXT), 'material' (VARCHAR(50)). The primary key is 'special'. 'fish' references another table 'sort' in an exactly one to zero or many relationship. The relationship should be called 'special'. 
+There is another table 'sort' with the columns 'mission' (VARCHAR(50)), 'those' (DATE). The primary key is 'mission'. 'sort' references another table 'turn' in an exactly one to zero or many relationship. The relationship should be called 'mission'. 
+

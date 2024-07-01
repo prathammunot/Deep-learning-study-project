@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram916'.
+There is a table 'issue' with the columns 'per' (DATE), 'vote' (TEXT), 'her' (VARCHAR(50)). The primary key is 'per'. 'issue' references another table 'end' in an exactly one to zero or many relationship. The relationship should be called 'per'. 
+There is another table 'end' with the columns 'pay' (VARCHAR(50)), 'look' (DATE). The primary key is 'pay'. 'end' references another table 'save' in an exactly one to zero or many relationship. The relationship should be called 'pay'. 
+There is another table 'save' with the columns 'list' (DATE), 'method' (TEXT), 'along' (VARCHAR(50)). The primary key is 'list'. 'save' references another table 'bill' in an exactly one to zero or many relationship. The relationship should be called 'list'. 
+There is another table 'bill' with the columns 'writer' (VARCHAR(50)), 'prepare' (DATE). The primary key is 'writer'. 'bill' references another table 'law' in an exactly one to zero or many relationship. The relationship should be called 'writer'. 
+There is another table 'law' with the columns 'any' (DATE), 'conference' (TEXT), 'economy' (VARCHAR(50)). The primary key is 'any'. 'law' references another table 'enjoy' in an exactly one to zero or many relationship. The relationship should be called 'any'. 
+There is another table 'enjoy' with the columns 'body' (VARCHAR(50)), 'hear' (DATE). The primary key is 'body'. 'enjoy' references another table 'toward' in an exactly one to zero or many relationship. The relationship should be called 'body'. 
+There is another table 'toward' with the columns 'design' (DATE), 'between' (TEXT), 'head' (VARCHAR(50)). The primary key is 'design'. 'toward' references another table 'case' in an exactly one to zero or many relationship. The relationship should be called 'design'. 
+There is another table 'case' with the columns 'other' (VARCHAR(50)), 'game' (DATE). The primary key is 'other'. 'case' references another table 'issue' in an exactly one to zero or many relationship. The relationship should be called 'other'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram843'.
+There is a table 'entire' with the columns 'threat' (DATE), 'write' (TEXT), 'state' (VARCHAR(50)). The primary key is 'threat'. 'entire' references another table 'sport' in an exactly one to zero or many relationship. The relationship should be called 'threat'. 
+There is another table 'sport' with the columns 'writer' (VARCHAR(50)), 'something' (DATE). The primary key is 'writer'. 'sport' references another table 'such' in an exactly one to zero or many relationship. The relationship should be called 'writer'. 
+There is another table 'such' with the columns 'six' (DATE), 'great' (TEXT), 'economic' (VARCHAR(50)). The primary key is 'six'. 'such' references another table 'whom' in an exactly one to zero or many relationship. The relationship should be called 'six'. 
+There is another table 'whom' with the columns 'impact' (VARCHAR(50)), 'especially' (DATE). The primary key is 'impact'. 'whom' references another table 'dark' in an exactly one to zero or many relationship. The relationship should be called 'impact'. 
+There is another table 'dark' with the columns 'green' (DATE), 'year' (TEXT), 'sort' (VARCHAR(50)). The primary key is 'green'. 'dark' references another table 'entire' in an exactly one to zero or many relationship. The relationship should be called 'green'. 
+

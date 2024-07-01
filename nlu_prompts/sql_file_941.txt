@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram936'.
+There is a table 'paper' with the columns 'exactly' (DATE), 'man' (TEXT), 'feeling' (VARCHAR(50)). The primary key is 'exactly'. 'paper' references another table 'manager' in an exactly one to zero or many relationship. The relationship should be called 'exactly'. 
+There is another table 'manager' with the columns 'administration' (VARCHAR(50)), 'bring' (DATE). The primary key is 'administration'. 'manager' references another table 'where' in an exactly one to zero or many relationship. The relationship should be called 'administration'. 
+There is another table 'where' with the columns 'during' (DATE), 'late' (TEXT), 'around' (VARCHAR(50)). The primary key is 'during'. 'where' references another table 'along' in an exactly one to zero or many relationship. The relationship should be called 'during'. 
+There is another table 'along' with the columns 'case' (VARCHAR(50)), 'himself' (DATE). The primary key is 'case'. 'along' references another table 'environmental' in an exactly one to zero or many relationship. The relationship should be called 'case'. 
+There is another table 'environmental' with the columns 'one' (DATE), 'base' (TEXT), 'number' (VARCHAR(50)). The primary key is 'one'. 'environmental' references another table 'paper' in an exactly one to zero or many relationship. The relationship should be called 'one'. 
+

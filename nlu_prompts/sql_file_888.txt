@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram876'.
+There is a table 'new' with the columns 'author' (DATE), 'return' (TEXT), 'tell' (VARCHAR(50)). The primary key is 'author'. 'new' references another table 'note' in an exactly one to zero or many relationship. The relationship should be called 'author'. 
+There is another table 'note' with the columns 'former' (VARCHAR(50)), 'door' (DATE). The primary key is 'former'. 'note' references another table 'brother' in an exactly one to zero or many relationship. The relationship should be called 'former'. 
+There is another table 'brother' with the columns 'over' (DATE), 'against' (TEXT), 'other' (VARCHAR(50)). The primary key is 'over'. 'brother' references another table 'media' in an exactly one to zero or many relationship. The relationship should be called 'over'. 
+There is another table 'media' with the columns 'our' (VARCHAR(50)), 'song' (DATE). The primary key is 'our'. 'media' references another table 'thus' in an exactly one to zero or many relationship. The relationship should be called 'our'. 
+There is another table 'thus' with the columns 'off' (DATE), 'property' (TEXT), 'pick' (VARCHAR(50)). The primary key is 'off'. 'thus' references another table 'seem' in an exactly one to zero or many relationship. The relationship should be called 'off'. 
+There is another table 'seem' with the columns 'smile' (VARCHAR(50)), 'tax' (DATE). The primary key is 'smile'. 'seem' references another table 'new' in an exactly one to zero or many relationship. The relationship should be called 'smile'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram960'.
+There is a table 'lay' with the columns 'relationship' (DATE), 'pretty' (TEXT), 'much' (VARCHAR(50)). The primary key is 'relationship'. 'lay' references another table 'need' in an exactly one to zero or many relationship. The relationship should be called 'relationship'. 
+There is another table 'need' with the columns 'light' (VARCHAR(50)), 'paper' (DATE). The primary key is 'light'. 'need' references another table 'institution' in an exactly one to zero or many relationship. The relationship should be called 'light'. 
+There is another table 'institution' with the columns 'occur' (DATE), 'score' (TEXT), 'under' (VARCHAR(50)). The primary key is 'occur'. 'institution' references another table 'day' in an exactly one to zero or many relationship. The relationship should be called 'occur'. 
+There is another table 'day' with the columns 'edge' (VARCHAR(50)), 'character' (DATE). The primary key is 'edge'. 'day' references another table 'once' in an exactly one to zero or many relationship. The relationship should be called 'edge'. 
+There is another table 'once' with the columns 'challenge' (DATE), 'out' (TEXT), 'room' (VARCHAR(50)). The primary key is 'challenge'. 'once' references another table 'section' in an exactly one to zero or many relationship. The relationship should be called 'challenge'. 
+There is another table 'section' with the columns 'how' (VARCHAR(50)), 'exactly' (DATE). The primary key is 'how'. 'section' references another table 'require' in an exactly one to zero or many relationship. The relationship should be called 'how'. 
+There is another table 'require' with the columns 'provide' (DATE), 'recent' (TEXT), 'idea' (VARCHAR(50)). The primary key is 'provide'. 'require' references another table 'speak' in an exactly one to zero or many relationship. The relationship should be called 'provide'. 
+There is another table 'speak' with the columns 'among' (VARCHAR(50)), 'eight' (DATE). The primary key is 'among'. 'speak' references another table 'lay' in an exactly one to zero or many relationship. The relationship should be called 'among'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram769'.
+There is a table 'art' with the columns 'upon' (DATE), 'full' (TEXT), 'month' (VARCHAR(50)). The primary key is 'upon'. 'art' references another table 'interview' in an exactly one to zero or many relationship. The relationship should be called 'upon'. 
+There is another table 'interview' with the columns 'beat' (VARCHAR(50)), 'summer' (DATE). The primary key is 'beat'. 'interview' references another table 'test' in an exactly one to zero or many relationship. The relationship should be called 'beat'. 
+There is another table 'test' with the columns 'production' (DATE), 'this' (TEXT), 'card' (VARCHAR(50)). The primary key is 'production'. 'test' references another table 'citizen' in an exactly one to zero or many relationship. The relationship should be called 'production'. 
+There is another table 'citizen' with the columns 'miss' (VARCHAR(50)), 'want' (DATE). The primary key is 'miss'. 'citizen' references another table 'candidate' in an exactly one to zero or many relationship. The relationship should be called 'miss'. 
+There is another table 'candidate' with the columns 'magazine' (DATE), 'opportunity' (TEXT), 'specific' (VARCHAR(50)). The primary key is 'magazine'. 'candidate' references another table 'art' in an exactly one to zero or many relationship. The relationship should be called 'magazine'. 
+

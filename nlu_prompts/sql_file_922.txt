@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram915'.
+There is a table 'that' with the columns 'have' (DATE), 'party' (TEXT), 'huge' (VARCHAR(50)). The primary key is 'have'. 'that' references another table 'race' in an exactly one to zero or many relationship. The relationship should be called 'have'. 
+There is another table 'race' with the columns 'turn' (VARCHAR(50)), 'manage' (DATE). The primary key is 'turn'. 'race' references another table 'smile' in an exactly one to zero or many relationship. The relationship should be called 'turn'. 
+There is another table 'smile' with the columns 'hit' (DATE), 'wind' (TEXT), 'develop' (VARCHAR(50)). The primary key is 'hit'. 'smile' references another table 'say' in an exactly one to zero or many relationship. The relationship should be called 'hit'. 
+There is another table 'say' with the columns 'professor' (VARCHAR(50)), 'buy' (DATE). The primary key is 'professor'. 'say' references another table 'girl' in an exactly one to zero or many relationship. The relationship should be called 'professor'. 
+There is another table 'girl' with the columns 'thus' (DATE), 'analysis' (TEXT), 'front' (VARCHAR(50)). The primary key is 'thus'. 'girl' references another table 'space' in an exactly one to zero or many relationship. The relationship should be called 'thus'. 
+There is another table 'space' with the columns 'rise' (VARCHAR(50)), 'middle' (DATE). The primary key is 'rise'. 'space' references another table 'before' in an exactly one to zero or many relationship. The relationship should be called 'rise'. 
+There is another table 'before' with the columns 'indicate' (DATE), 'also' (TEXT), 'serious' (VARCHAR(50)). The primary key is 'indicate'. 'before' references another table 'yes' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'yes' with the columns 'today' (VARCHAR(50)), 'position' (DATE). The primary key is 'today'. 'yes' references another table 'TV' in an exactly one to zero or many relationship. The relationship should be called 'today'. 
+There is another table 'TV' with the columns 'without' (DATE), 'after' (TEXT), 'arm' (VARCHAR(50)). The primary key is 'without'. 'TV' references another table 'that' in an exactly one to zero or many relationship. The relationship should be called 'without'. 
+

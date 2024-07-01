@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram976'.
+There is a table 'support' with the columns 'visit' (DATE), 'green' (TEXT), 'discuss' (VARCHAR(50)). The primary key is 'visit'. 'support' references another table 'economy' in an exactly one to zero or many relationship. The relationship should be called 'visit'. 
+There is another table 'economy' with the columns 'get' (VARCHAR(50)), 'surface' (DATE). The primary key is 'get'. 'economy' references another table 'stage' in an exactly one to zero or many relationship. The relationship should be called 'get'. 
+There is another table 'stage' with the columns 'quite' (DATE), 'back' (TEXT), 'economy' (VARCHAR(50)). The primary key is 'quite'. 'stage' references another table 'last' in an exactly one to zero or many relationship. The relationship should be called 'quite'. 
+There is another table 'last' with the columns 'toward' (VARCHAR(50)), 'argue' (DATE). The primary key is 'toward'. 'last' references another table 'official' in an exactly one to zero or many relationship. The relationship should be called 'toward'. 
+There is another table 'official' with the columns 'sing' (DATE), 'claim' (TEXT), 'how' (VARCHAR(50)). The primary key is 'sing'. 'official' references another table 'city' in an exactly one to zero or many relationship. The relationship should be called 'sing'. 
+There is another table 'city' with the columns 'speak' (VARCHAR(50)), 'measure' (DATE). The primary key is 'speak'. 'city' references another table 'support' in an exactly one to zero or many relationship. The relationship should be called 'speak'. 
+

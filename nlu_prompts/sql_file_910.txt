@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram902'.
+There is a table 'describe' with the columns 'right' (DATE), 'teach' (TEXT), 'me' (VARCHAR(50)). The primary key is 'right'. 'describe' references another table 'natural' in an exactly one to zero or many relationship. The relationship should be called 'right'. 
+There is another table 'natural' with the columns 'beat' (VARCHAR(50)), 'tend' (DATE). The primary key is 'beat'. 'natural' references another table 'add' in an exactly one to zero or many relationship. The relationship should be called 'beat'. 
+There is another table 'add' with the columns 'off' (DATE), 'likely' (TEXT), 'painting' (VARCHAR(50)). The primary key is 'off'. 'add' references another table 'accept' in an exactly one to zero or many relationship. The relationship should be called 'off'. 
+There is another table 'accept' with the columns 'deep' (VARCHAR(50)), 'trade' (DATE). The primary key is 'deep'. 'accept' references another table 'security' in an exactly one to zero or many relationship. The relationship should be called 'deep'. 
+There is another table 'security' with the columns 'structure' (DATE), 'history' (TEXT), 'authority' (VARCHAR(50)). The primary key is 'structure'. 'security' references another table 'low' in an exactly one to zero or many relationship. The relationship should be called 'structure'. 
+There is another table 'low' with the columns 'he' (VARCHAR(50)), 'camera' (DATE). The primary key is 'he'. 'low' references another table 'firm' in an exactly one to zero or many relationship. The relationship should be called 'he'. 
+There is another table 'firm' with the columns 'another' (DATE), 'exist' (TEXT), 'summer' (VARCHAR(50)). The primary key is 'another'. 'firm' references another table 'describe' in an exactly one to zero or many relationship. The relationship should be called 'another'. 
+

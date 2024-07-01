@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram732'.
+There is a table 'response' with the columns 'far' (DATE), 'source' (TEXT), 'social' (VARCHAR(50)). The primary key is 'far'. 'response' references another table 'act' in an exactly one to zero or many relationship. The relationship should be called 'far'. 
+There is another table 'act' with the columns 'feeling' (VARCHAR(50)), 'assume' (DATE). The primary key is 'feeling'. 'act' references another table 'hair' in an exactly one to zero or many relationship. The relationship should be called 'feeling'. 
+There is another table 'hair' with the columns 'quite' (DATE), 'project' (TEXT), 'cost' (VARCHAR(50)). The primary key is 'quite'. 'hair' references another table 'someone' in an exactly one to zero or many relationship. The relationship should be called 'quite'. 
+There is another table 'someone' with the columns 'their' (VARCHAR(50)), 'expert' (DATE). The primary key is 'their'. 'someone' references another table 'thus' in an exactly one to zero or many relationship. The relationship should be called 'their'. 
+There is another table 'thus' with the columns 'see' (DATE), 'wear' (TEXT), 'fight' (VARCHAR(50)). The primary key is 'see'. 'thus' references another table 'pressure' in an exactly one to zero or many relationship. The relationship should be called 'see'. 
+There is another table 'pressure' with the columns 'than' (VARCHAR(50)), 'control' (DATE). The primary key is 'than'. 'pressure' references another table 'short' in an exactly one to zero or many relationship. The relationship should be called 'than'. 
+There is another table 'short' with the columns 'sister' (DATE), 'fill' (TEXT), 'fish' (VARCHAR(50)). The primary key is 'sister'. 'short' references another table 'subject' in an exactly one to zero or many relationship. The relationship should be called 'sister'. 
+There is another table 'subject' with the columns 'culture' (VARCHAR(50)), 'capital' (DATE). The primary key is 'culture'. 'subject' references another table 'response' in an exactly one to zero or many relationship. The relationship should be called 'culture'. 
+

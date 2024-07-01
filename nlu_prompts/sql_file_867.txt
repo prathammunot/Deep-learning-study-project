@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram853'.
+There is a table 'business' with the columns 'room' (DATE), 'fact' (TEXT), 'industry' (VARCHAR(50)). The primary key is 'room'. 'business' references another table 'network' in an exactly one to zero or many relationship. The relationship should be called 'room'. 
+There is another table 'network' with the columns 'hope' (VARCHAR(50)), 'soon' (DATE). The primary key is 'hope'. 'network' references another table 'several' in an exactly one to zero or many relationship. The relationship should be called 'hope'. 
+There is another table 'several' with the columns 'ok' (DATE), 'interview' (TEXT), 'media' (VARCHAR(50)). The primary key is 'ok'. 'several' references another table 'first' in an exactly one to zero or many relationship. The relationship should be called 'ok'. 
+There is another table 'first' with the columns 'various' (VARCHAR(50)), 'religious' (DATE). The primary key is 'various'. 'first' references another table 'lose' in an exactly one to zero or many relationship. The relationship should be called 'various'. 
+There is another table 'lose' with the columns 'central' (DATE), 'according' (TEXT), 'force' (VARCHAR(50)). The primary key is 'central'. 'lose' references another table 'law' in an exactly one to zero or many relationship. The relationship should be called 'central'. 
+There is another table 'law' with the columns 'mean' (VARCHAR(50)), 'into' (DATE). The primary key is 'mean'. 'law' references another table 'recognize' in an exactly one to zero or many relationship. The relationship should be called 'mean'. 
+There is another table 'recognize' with the columns 'bed' (DATE), 'Congress' (TEXT), 'try' (VARCHAR(50)). The primary key is 'bed'. 'recognize' references another table 'business' in an exactly one to zero or many relationship. The relationship should be called 'bed'. 
+

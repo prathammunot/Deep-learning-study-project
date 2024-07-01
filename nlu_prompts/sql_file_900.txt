@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram891'.
+There is a table 'wish' with the columns 'hold' (DATE), 'determine' (TEXT), 'office' (VARCHAR(50)). The primary key is 'hold'. 'wish' references another table 'image' in an exactly one to zero or many relationship. The relationship should be called 'hold'. 
+There is another table 'image' with the columns 'store' (VARCHAR(50)), 'whom' (DATE). The primary key is 'store'. 'image' references another table 'safe' in an exactly one to zero or many relationship. The relationship should be called 'store'. 
+There is another table 'safe' with the columns 'finally' (DATE), 'nothing' (TEXT), 'write' (VARCHAR(50)). The primary key is 'finally'. 'safe' references another table 'military' in an exactly one to zero or many relationship. The relationship should be called 'finally'. 
+There is another table 'military' with the columns 'order' (VARCHAR(50)), 'see' (DATE). The primary key is 'order'. 'military' references another table 'near' in an exactly one to zero or many relationship. The relationship should be called 'order'. 
+There is another table 'near' with the columns 'property' (DATE), 'role' (TEXT), 'past' (VARCHAR(50)). The primary key is 'property'. 'near' references another table 'wish' in an exactly one to zero or many relationship. The relationship should be called 'property'. 
+

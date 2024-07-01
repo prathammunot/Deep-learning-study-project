@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram997'.
+There is a table 'it' with the columns 'skin' (DATE), 'she' (TEXT), 'when' (VARCHAR(50)). The primary key is 'skin'. 'it' references another table 'production' in an exactly one to zero or many relationship. The relationship should be called 'skin'. 
+There is another table 'production' with the columns 'against' (VARCHAR(50)), 'method' (DATE). The primary key is 'against'. 'production' references another table 'alone' in an exactly one to zero or many relationship. The relationship should be called 'against'. 
+There is another table 'alone' with the columns 'a' (DATE), 'method' (TEXT), 'girl' (VARCHAR(50)). The primary key is 'a'. 'alone' references another table 'civil' in an exactly one to zero or many relationship. The relationship should be called 'a'. 
+There is another table 'civil' with the columns 'sure' (VARCHAR(50)), 'population' (DATE). The primary key is 'sure'. 'civil' references another table 'full' in an exactly one to zero or many relationship. The relationship should be called 'sure'. 
+There is another table 'full' with the columns 'know' (DATE), 'she' (TEXT), 'writer' (VARCHAR(50)). The primary key is 'know'. 'full' references another table 'hear' in an exactly one to zero or many relationship. The relationship should be called 'know'. 
+There is another table 'hear' with the columns 'level' (VARCHAR(50)), 'thing' (DATE). The primary key is 'level'. 'hear' references another table 'ok' in an exactly one to zero or many relationship. The relationship should be called 'level'. 
+There is another table 'ok' with the columns 'look' (DATE), 'even' (TEXT), 'mind' (VARCHAR(50)). The primary key is 'look'. 'ok' references another table 'it' in an exactly one to zero or many relationship. The relationship should be called 'look'. 
+

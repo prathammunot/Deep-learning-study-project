@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram951'.
+There is a table 'ever' with the columns 'believe' (DATE), 'away' (TEXT), 'environment' (VARCHAR(50)). The primary key is 'believe'. 'ever' references another table 'until' in an exactly one to zero or many relationship. The relationship should be called 'believe'. 
+There is another table 'until' with the columns 'film' (VARCHAR(50)), 'indeed' (DATE). The primary key is 'film'. 'until' references another table 'air' in an exactly one to zero or many relationship. The relationship should be called 'film'. 
+There is another table 'air' with the columns 'recent' (DATE), 'now' (TEXT), 'human' (VARCHAR(50)). The primary key is 'recent'. 'air' references another table 'test' in an exactly one to zero or many relationship. The relationship should be called 'recent'. 
+There is another table 'test' with the columns 'life' (VARCHAR(50)), 'popular' (DATE). The primary key is 'life'. 'test' references another table 'couple' in an exactly one to zero or many relationship. The relationship should be called 'life'. 
+There is another table 'couple' with the columns 'blood' (DATE), 'drop' (TEXT), 'school' (VARCHAR(50)). The primary key is 'blood'. 'couple' references another table 'ever' in an exactly one to zero or many relationship. The relationship should be called 'blood'. 
+

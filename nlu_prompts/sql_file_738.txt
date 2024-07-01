@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram710'.
+There is a table 'people' with the columns 'thus' (DATE), 'position' (TEXT), 'short' (VARCHAR(50)). The primary key is 'thus'. 'people' references another table 'year' in an exactly one to zero or many relationship. The relationship should be called 'thus'. 
+There is another table 'year' with the columns 'material' (VARCHAR(50)), 'theory' (DATE). The primary key is 'material'. 'year' references another table 'television' in an exactly one to zero or many relationship. The relationship should be called 'material'. 
+There is another table 'television' with the columns 'seek' (DATE), 'city' (TEXT), 'whether' (VARCHAR(50)). The primary key is 'seek'. 'television' references another table 'across' in an exactly one to zero or many relationship. The relationship should be called 'seek'. 
+There is another table 'across' with the columns 'camera' (VARCHAR(50)), 'spring' (DATE). The primary key is 'camera'. 'across' references another table 'bad' in an exactly one to zero or many relationship. The relationship should be called 'camera'. 
+There is another table 'bad' with the columns 'mission' (DATE), 'PM' (TEXT), 'mention' (VARCHAR(50)). The primary key is 'mission'. 'bad' references another table 'people' in an exactly one to zero or many relationship. The relationship should be called 'mission'. 
+

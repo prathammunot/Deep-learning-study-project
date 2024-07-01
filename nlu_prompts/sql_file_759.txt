@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram733'.
+There is a table 'box' with the columns 'consumer' (DATE), 'like' (TEXT), 'audience' (VARCHAR(50)). The primary key is 'consumer'. 'box' references another table 'manager' in an exactly one to zero or many relationship. The relationship should be called 'consumer'. 
+There is another table 'manager' with the columns 'sell' (VARCHAR(50)), 'radio' (DATE). The primary key is 'sell'. 'manager' references another table 'machine' in an exactly one to zero or many relationship. The relationship should be called 'sell'. 
+There is another table 'machine' with the columns 'continue' (DATE), 'I' (TEXT), 'court' (VARCHAR(50)). The primary key is 'continue'. 'machine' references another table 'product' in an exactly one to zero or many relationship. The relationship should be called 'continue'. 
+There is another table 'product' with the columns 'color' (VARCHAR(50)), 'clearly' (DATE). The primary key is 'color'. 'product' references another table 'edge' in an exactly one to zero or many relationship. The relationship should be called 'color'. 
+There is another table 'edge' with the columns 'page' (DATE), 'true' (TEXT), 'his' (VARCHAR(50)). The primary key is 'page'. 'edge' references another table 'early' in an exactly one to zero or many relationship. The relationship should be called 'page'. 
+There is another table 'early' with the columns 'sense' (VARCHAR(50)), 'baby' (DATE). The primary key is 'sense'. 'early' references another table 'level' in an exactly one to zero or many relationship. The relationship should be called 'sense'. 
+There is another table 'level' with the columns 'your' (DATE), 'box' (TEXT), 'measure' (VARCHAR(50)). The primary key is 'your'. 'level' references another table 'crime' in an exactly one to zero or many relationship. The relationship should be called 'your'. 
+There is another table 'crime' with the columns 'buy' (VARCHAR(50)), 'relate' (DATE). The primary key is 'buy'. 'crime' references another table 'seem' in an exactly one to zero or many relationship. The relationship should be called 'buy'. 
+There is another table 'seem' with the columns 'Congress' (DATE), 'expect' (TEXT), 'near' (VARCHAR(50)). The primary key is 'Congress'. 'seem' references another table 'box' in an exactly one to zero or many relationship. The relationship should be called 'Congress'. 
+

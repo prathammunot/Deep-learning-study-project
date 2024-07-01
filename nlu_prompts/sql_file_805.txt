@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram785'.
+There is a table 'white' with the columns 'garden' (DATE), 'water' (TEXT), 'detail' (VARCHAR(50)). The primary key is 'garden'. 'white' references another table 'its' in an exactly one to zero or many relationship. The relationship should be called 'garden'. 
+There is another table 'its' with the columns 'here' (VARCHAR(50)), 'office' (DATE). The primary key is 'here'. 'its' references another table 'yet' in an exactly one to zero or many relationship. The relationship should be called 'here'. 
+There is another table 'yet' with the columns 'civil' (DATE), 'world' (TEXT), 'also' (VARCHAR(50)). The primary key is 'civil'. 'yet' references another table 'back' in an exactly one to zero or many relationship. The relationship should be called 'civil'. 
+There is another table 'back' with the columns 'full' (VARCHAR(50)), 'may' (DATE). The primary key is 'full'. 'back' references another table 'ago' in an exactly one to zero or many relationship. The relationship should be called 'full'. 
+There is another table 'ago' with the columns 'available' (DATE), 'company' (TEXT), 'fine' (VARCHAR(50)). The primary key is 'available'. 'ago' references another table 'white' in an exactly one to zero or many relationship. The relationship should be called 'available'. 
+

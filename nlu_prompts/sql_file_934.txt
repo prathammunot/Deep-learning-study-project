@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram928'.
+There is a table 'place' with the columns 'view' (DATE), 'law' (TEXT), 'same' (VARCHAR(50)). The primary key is 'view'. 'place' references another table 'drug' in an exactly one to zero or many relationship. The relationship should be called 'view'. 
+There is another table 'drug' with the columns 'born' (VARCHAR(50)), 'few' (DATE). The primary key is 'born'. 'drug' references another table 'control' in an exactly one to zero or many relationship. The relationship should be called 'born'. 
+There is another table 'control' with the columns 'simple' (DATE), 'certain' (TEXT), 'yet' (VARCHAR(50)). The primary key is 'simple'. 'control' references another table 'physical' in an exactly one to zero or many relationship. The relationship should be called 'simple'. 
+There is another table 'physical' with the columns 'affect' (VARCHAR(50)), 'along' (DATE). The primary key is 'affect'. 'physical' references another table 'here' in an exactly one to zero or many relationship. The relationship should be called 'affect'. 
+There is another table 'here' with the columns 'floor' (DATE), 'success' (TEXT), 'kind' (VARCHAR(50)). The primary key is 'floor'. 'here' references another table 'loss' in an exactly one to zero or many relationship. The relationship should be called 'floor'. 
+There is another table 'loss' with the columns 'the' (VARCHAR(50)), 'machine' (DATE). The primary key is 'the'. 'loss' references another table 'best' in an exactly one to zero or many relationship. The relationship should be called 'the'. 
+There is another table 'best' with the columns 'food' (DATE), 'character' (TEXT), 'authority' (VARCHAR(50)). The primary key is 'food'. 'best' references another table 'loss' in an exactly one to zero or many relationship. The relationship should be called 'food'. 
+There is another table 'loss' with the columns 'both' (VARCHAR(50)), 'forget' (DATE). The primary key is 'both'. 'loss' references another table 'popular' in an exactly one to zero or many relationship. The relationship should be called 'both'. 
+There is another table 'popular' with the columns 'realize' (DATE), 'piece' (TEXT), 'how' (VARCHAR(50)). The primary key is 'realize'. 'popular' references another table 'place' in an exactly one to zero or many relationship. The relationship should be called 'realize'. 
+

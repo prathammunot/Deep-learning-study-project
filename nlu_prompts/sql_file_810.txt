@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram791'.
+There is a table 'according' with the columns 'husband' (DATE), 'series' (TEXT), 'picture' (VARCHAR(50)). The primary key is 'husband'. 'according' references another table 'quality' in an exactly one to zero or many relationship. The relationship should be called 'husband'. 
+There is another table 'quality' with the columns 'discussion' (VARCHAR(50)), 'skin' (DATE). The primary key is 'discussion'. 'quality' references another table 'party' in an exactly one to zero or many relationship. The relationship should be called 'discussion'. 
+There is another table 'party' with the columns 'develop' (DATE), 'often' (TEXT), 'Democrat' (VARCHAR(50)). The primary key is 'develop'. 'party' references another table 'every' in an exactly one to zero or many relationship. The relationship should be called 'develop'. 
+There is another table 'every' with the columns 'consider' (VARCHAR(50)), 'along' (DATE). The primary key is 'consider'. 'every' references another table 'pretty' in an exactly one to zero or many relationship. The relationship should be called 'consider'. 
+There is another table 'pretty' with the columns 'child' (DATE), 'nature' (TEXT), 'themselves' (VARCHAR(50)). The primary key is 'child'. 'pretty' references another table 'black' in an exactly one to zero or many relationship. The relationship should be called 'child'. 
+There is another table 'black' with the columns 'again' (VARCHAR(50)), 'science' (DATE). The primary key is 'again'. 'black' references another table 'according' in an exactly one to zero or many relationship. The relationship should be called 'again'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram930'.
+There is a table 'measure' with the columns 'gas' (DATE), 'protect' (TEXT), 'late' (VARCHAR(50)). The primary key is 'gas'. 'measure' references another table 'also' in an exactly one to zero or many relationship. The relationship should be called 'gas'. 
+There is another table 'also' with the columns 'month' (VARCHAR(50)), 'poor' (DATE). The primary key is 'month'. 'also' references another table 'choose' in an exactly one to zero or many relationship. The relationship should be called 'month'. 
+There is another table 'choose' with the columns 'cover' (DATE), 'full' (TEXT), 'member' (VARCHAR(50)). The primary key is 'cover'. 'choose' references another table 'catch' in an exactly one to zero or many relationship. The relationship should be called 'cover'. 
+There is another table 'catch' with the columns 'myself' (VARCHAR(50)), 'region' (DATE). The primary key is 'myself'. 'catch' references another table 'possible' in an exactly one to zero or many relationship. The relationship should be called 'myself'. 
+There is another table 'possible' with the columns 'wide' (DATE), 'lose' (TEXT), 'shake' (VARCHAR(50)). The primary key is 'wide'. 'possible' references another table 'floor' in an exactly one to zero or many relationship. The relationship should be called 'wide'. 
+There is another table 'floor' with the columns 'firm' (VARCHAR(50)), 'concern' (DATE). The primary key is 'firm'. 'floor' references another table 'southern' in an exactly one to zero or many relationship. The relationship should be called 'firm'. 
+There is another table 'southern' with the columns 'civil' (DATE), 'blue' (TEXT), 'wind' (VARCHAR(50)). The primary key is 'civil'. 'southern' references another table 'fly' in an exactly one to zero or many relationship. The relationship should be called 'civil'. 
+There is another table 'fly' with the columns 'throw' (VARCHAR(50)), 'paper' (DATE). The primary key is 'throw'. 'fly' references another table 'measure' in an exactly one to zero or many relationship. The relationship should be called 'throw'. 
+

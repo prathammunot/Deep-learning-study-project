@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram808'.
+There is a table 'image' with the columns 'rock' (DATE), 'member' (TEXT), 'then' (VARCHAR(50)). The primary key is 'rock'. 'image' references another table 'staff' in an exactly one to zero or many relationship. The relationship should be called 'rock'. 
+There is another table 'staff' with the columns 'commercial' (VARCHAR(50)), 'inside' (DATE). The primary key is 'commercial'. 'staff' references another table 'prepare' in an exactly one to zero or many relationship. The relationship should be called 'commercial'. 
+There is another table 'prepare' with the columns 'choice' (DATE), 'walk' (TEXT), 'include' (VARCHAR(50)). The primary key is 'choice'. 'prepare' references another table 'once' in an exactly one to zero or many relationship. The relationship should be called 'choice'. 
+There is another table 'once' with the columns 'score' (VARCHAR(50)), 'control' (DATE). The primary key is 'score'. 'once' references another table 'billion' in an exactly one to zero or many relationship. The relationship should be called 'score'. 
+There is another table 'billion' with the columns 'prevent' (DATE), 'every' (TEXT), 'city' (VARCHAR(50)). The primary key is 'prevent'. 'billion' references another table 'debate' in an exactly one to zero or many relationship. The relationship should be called 'prevent'. 
+There is another table 'debate' with the columns 'have' (VARCHAR(50)), 'player' (DATE). The primary key is 'have'. 'debate' references another table 'conference' in an exactly one to zero or many relationship. The relationship should be called 'have'. 
+There is another table 'conference' with the columns 'staff' (DATE), 'meeting' (TEXT), 'nearly' (VARCHAR(50)). The primary key is 'staff'. 'conference' references another table 'make' in an exactly one to zero or many relationship. The relationship should be called 'staff'. 
+There is another table 'make' with the columns 'certainly' (VARCHAR(50)), 'but' (DATE). The primary key is 'certainly'. 'make' references another table 'image' in an exactly one to zero or many relationship. The relationship should be called 'certainly'. 
+

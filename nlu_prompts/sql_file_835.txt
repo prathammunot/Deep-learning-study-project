@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram818'.
+There is a table 'tough' with the columns 'approach' (DATE), 'now' (TEXT), 'relate' (VARCHAR(50)). The primary key is 'approach'. 'tough' references another table 'oil' in an exactly one to zero or many relationship. The relationship should be called 'approach'. 
+There is another table 'oil' with the columns 'race' (VARCHAR(50)), 'some' (DATE). The primary key is 'race'. 'oil' references another table 'hear' in an exactly one to zero or many relationship. The relationship should be called 'race'. 
+There is another table 'hear' with the columns 'expert' (DATE), 'for' (TEXT), 'control' (VARCHAR(50)). The primary key is 'expert'. 'hear' references another table 'personal' in an exactly one to zero or many relationship. The relationship should be called 'expert'. 
+There is another table 'personal' with the columns 'early' (VARCHAR(50)), 'picture' (DATE). The primary key is 'early'. 'personal' references another table 'last' in an exactly one to zero or many relationship. The relationship should be called 'early'. 
+There is another table 'last' with the columns 'ball' (DATE), 'let' (TEXT), 'spend' (VARCHAR(50)). The primary key is 'ball'. 'last' references another table 'resource' in an exactly one to zero or many relationship. The relationship should be called 'ball'. 
+There is another table 'resource' with the columns 'east' (VARCHAR(50)), 'common' (DATE). The primary key is 'east'. 'resource' references another table 'tough' in an exactly one to zero or many relationship. The relationship should be called 'east'. 
+

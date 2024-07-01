@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram993'.
+There is a table 'former' with the columns 'that' (DATE), 'message' (TEXT), 'entire' (VARCHAR(50)). The primary key is 'that'. 'former' references another table 'represent' in an exactly one to zero or many relationship. The relationship should be called 'that'. 
+There is another table 'represent' with the columns 'financial' (VARCHAR(50)), 'lead' (DATE). The primary key is 'financial'. 'represent' references another table 'write' in an exactly one to zero or many relationship. The relationship should be called 'financial'. 
+There is another table 'write' with the columns 'policy' (DATE), 'single' (TEXT), 'attorney' (VARCHAR(50)). The primary key is 'policy'. 'write' references another table 'statement' in an exactly one to zero or many relationship. The relationship should be called 'policy'. 
+There is another table 'statement' with the columns 'happen' (VARCHAR(50)), 'beyond' (DATE). The primary key is 'happen'. 'statement' references another table 'tell' in an exactly one to zero or many relationship. The relationship should be called 'happen'. 
+There is another table 'tell' with the columns 'sea' (DATE), 'ball' (TEXT), 'vote' (VARCHAR(50)). The primary key is 'sea'. 'tell' references another table 'former' in an exactly one to zero or many relationship. The relationship should be called 'sea'. 
+

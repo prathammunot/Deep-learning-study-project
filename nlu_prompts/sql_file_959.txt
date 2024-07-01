@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram955'.
+There is a table 'join' with the columns 'win' (DATE), 'throughout' (TEXT), 'in' (VARCHAR(50)). The primary key is 'win'. 'join' references another table 'state' in an exactly one to zero or many relationship. The relationship should be called 'win'. 
+There is another table 'state' with the columns 'create' (VARCHAR(50)), 'position' (DATE). The primary key is 'create'. 'state' references another table 'always' in an exactly one to zero or many relationship. The relationship should be called 'create'. 
+There is another table 'always' with the columns 'think' (DATE), 'instead' (TEXT), 'process' (VARCHAR(50)). The primary key is 'think'. 'always' references another table 'its' in an exactly one to zero or many relationship. The relationship should be called 'think'. 
+There is another table 'its' with the columns 'nice' (VARCHAR(50)), 'whether' (DATE). The primary key is 'nice'. 'its' references another table 'visit' in an exactly one to zero or many relationship. The relationship should be called 'nice'. 
+There is another table 'visit' with the columns 'around' (DATE), 'where' (TEXT), 'right' (VARCHAR(50)). The primary key is 'around'. 'visit' references another table 'own' in an exactly one to zero or many relationship. The relationship should be called 'around'. 
+There is another table 'own' with the columns 'suffer' (VARCHAR(50)), 'many' (DATE). The primary key is 'suffer'. 'own' references another table 'join' in an exactly one to zero or many relationship. The relationship should be called 'suffer'. 
+

@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram949'.
+There is a table 'paper' with the columns 'right' (DATE), 'simple' (TEXT), 'wonder' (VARCHAR(50)). The primary key is 'right'. 'paper' references another table 'class' in an exactly one to zero or many relationship. The relationship should be called 'right'. 
+There is another table 'class' with the columns 'board' (VARCHAR(50)), 'lot' (DATE). The primary key is 'board'. 'class' references another table 'too' in an exactly one to zero or many relationship. The relationship should be called 'board'. 
+There is another table 'too' with the columns 'now' (DATE), 'think' (TEXT), 'day' (VARCHAR(50)). The primary key is 'now'. 'too' references another table 'impact' in an exactly one to zero or many relationship. The relationship should be called 'now'. 
+There is another table 'impact' with the columns 'take' (VARCHAR(50)), 'senior' (DATE). The primary key is 'take'. 'impact' references another table 'fight' in an exactly one to zero or many relationship. The relationship should be called 'take'. 
+There is another table 'fight' with the columns 'about' (DATE), 'authority' (TEXT), 'still' (VARCHAR(50)). The primary key is 'about'. 'fight' references another table 'during' in an exactly one to zero or many relationship. The relationship should be called 'about'. 
+There is another table 'during' with the columns 'political' (VARCHAR(50)), 'which' (DATE). The primary key is 'political'. 'during' references another table 'much' in an exactly one to zero or many relationship. The relationship should be called 'political'. 
+There is another table 'much' with the columns 'experience' (DATE), 'others' (TEXT), 'contain' (VARCHAR(50)). The primary key is 'experience'. 'much' references another table 'current' in an exactly one to zero or many relationship. The relationship should be called 'experience'. 
+There is another table 'current' with the columns 'quickly' (VARCHAR(50)), 'there' (DATE). The primary key is 'quickly'. 'current' references another table 'paper' in an exactly one to zero or many relationship. The relationship should be called 'quickly'. 
+

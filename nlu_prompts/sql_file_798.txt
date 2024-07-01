@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram776'.
+There is a table 'really' with the columns 'put' (DATE), 'mother' (TEXT), 'economic' (VARCHAR(50)). The primary key is 'put'. 'really' references another table 'suggest' in an exactly one to zero or many relationship. The relationship should be called 'put'. 
+There is another table 'suggest' with the columns 'chance' (VARCHAR(50)), 'top' (DATE). The primary key is 'chance'. 'suggest' references another table 'action' in an exactly one to zero or many relationship. The relationship should be called 'chance'. 
+There is another table 'action' with the columns 'for' (DATE), 'everyone' (TEXT), 'recent' (VARCHAR(50)). The primary key is 'for'. 'action' references another table 'play' in an exactly one to zero or many relationship. The relationship should be called 'for'. 
+There is another table 'play' with the columns 'high' (VARCHAR(50)), 'middle' (DATE). The primary key is 'high'. 'play' references another table 'billion' in an exactly one to zero or many relationship. The relationship should be called 'high'. 
+There is another table 'billion' with the columns 'down' (DATE), 'thousand' (TEXT), 'want' (VARCHAR(50)). The primary key is 'down'. 'billion' references another table 'line' in an exactly one to zero or many relationship. The relationship should be called 'down'. 
+There is another table 'line' with the columns 'reason' (VARCHAR(50)), 'suggest' (DATE). The primary key is 'reason'. 'line' references another table 'officer' in an exactly one to zero or many relationship. The relationship should be called 'reason'. 
+There is another table 'officer' with the columns 'increase' (DATE), 'run' (TEXT), 'police' (VARCHAR(50)). The primary key is 'increase'. 'officer' references another table 'together' in an exactly one to zero or many relationship. The relationship should be called 'increase'. 
+There is another table 'together' with the columns 'sign' (VARCHAR(50)), 'order' (DATE). The primary key is 'sign'. 'together' references another table 'really' in an exactly one to zero or many relationship. The relationship should be called 'sign'. 
+

@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram802'.
+There is a table 'tonight' with the columns 'financial' (DATE), 'although' (TEXT), 'painting' (VARCHAR(50)). The primary key is 'financial'. 'tonight' references another table 'as' in an exactly one to zero or many relationship. The relationship should be called 'financial'. 
+There is another table 'as' with the columns 'involve' (VARCHAR(50)), 'history' (DATE). The primary key is 'involve'. 'as' references another table 'test' in an exactly one to zero or many relationship. The relationship should be called 'involve'. 
+There is another table 'test' with the columns 'task' (DATE), 'safe' (TEXT), 'test' (VARCHAR(50)). The primary key is 'task'. 'test' references another table 'require' in an exactly one to zero or many relationship. The relationship should be called 'task'. 
+There is another table 'require' with the columns 'central' (VARCHAR(50)), 'language' (DATE). The primary key is 'central'. 'require' references another table 'hit' in an exactly one to zero or many relationship. The relationship should be called 'central'. 
+There is another table 'hit' with the columns 'family' (DATE), 'indeed' (TEXT), 'offer' (VARCHAR(50)). The primary key is 'family'. 'hit' references another table 'sport' in an exactly one to zero or many relationship. The relationship should be called 'family'. 
+There is another table 'sport' with the columns 'value' (VARCHAR(50)), 'fact' (DATE). The primary key is 'value'. 'sport' references another table 'tonight' in an exactly one to zero or many relationship. The relationship should be called 'value'. 
+

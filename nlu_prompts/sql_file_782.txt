@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram759'.
+There is a table 'interview' with the columns 'relate' (DATE), 'discover' (TEXT), 'consider' (VARCHAR(50)). The primary key is 'relate'. 'interview' references another table 'fire' in an exactly one to zero or many relationship. The relationship should be called 'relate'. 
+There is another table 'fire' with the columns 'use' (VARCHAR(50)), 'standard' (DATE). The primary key is 'use'. 'fire' references another table 'bring' in an exactly one to zero or many relationship. The relationship should be called 'use'. 
+There is another table 'bring' with the columns 'project' (DATE), 'rule' (TEXT), 'billion' (VARCHAR(50)). The primary key is 'project'. 'bring' references another table 'left' in an exactly one to zero or many relationship. The relationship should be called 'project'. 
+There is another table 'left' with the columns 'however' (VARCHAR(50)), 'pass' (DATE). The primary key is 'however'. 'left' references another table 'stage' in an exactly one to zero or many relationship. The relationship should be called 'however'. 
+There is another table 'stage' with the columns 'staff' (DATE), 'sign' (TEXT), 'hospital' (VARCHAR(50)). The primary key is 'staff'. 'stage' references another table 'husband' in an exactly one to zero or many relationship. The relationship should be called 'staff'. 
+There is another table 'husband' with the columns 'floor' (VARCHAR(50)), 'PM' (DATE). The primary key is 'floor'. 'husband' references another table 'box' in an exactly one to zero or many relationship. The relationship should be called 'floor'. 
+There is another table 'box' with the columns 'military' (DATE), 'across' (TEXT), 'rock' (VARCHAR(50)). The primary key is 'military'. 'box' references another table 'interview' in an exactly one to zero or many relationship. The relationship should be called 'military'. 
+

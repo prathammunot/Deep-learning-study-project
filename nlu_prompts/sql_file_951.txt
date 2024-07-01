@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram947'.
+There is a table 'media' with the columns 'good' (DATE), 'its' (TEXT), 'night' (VARCHAR(50)). The primary key is 'good'. 'media' references another table 'paper' in an exactly one to zero or many relationship. The relationship should be called 'good'. 
+There is another table 'paper' with the columns 'community' (VARCHAR(50)), 'local' (DATE). The primary key is 'community'. 'paper' references another table 'it' in an exactly one to zero or many relationship. The relationship should be called 'community'. 
+There is another table 'it' with the columns 'nor' (DATE), 'hotel' (TEXT), 'national' (VARCHAR(50)). The primary key is 'nor'. 'it' references another table 'draw' in an exactly one to zero or many relationship. The relationship should be called 'nor'. 
+There is another table 'draw' with the columns 'what' (VARCHAR(50)), 'piece' (DATE). The primary key is 'what'. 'draw' references another table 'positive' in an exactly one to zero or many relationship. The relationship should be called 'what'. 
+There is another table 'positive' with the columns 'good' (DATE), 'sort' (TEXT), 'hundred' (VARCHAR(50)). The primary key is 'good'. 'positive' references another table 'tough' in an exactly one to zero or many relationship. The relationship should be called 'good'. 
+There is another table 'tough' with the columns 'community' (VARCHAR(50)), 'education' (DATE). The primary key is 'community'. 'tough' references another table 'media' in an exactly one to zero or many relationship. The relationship should be called 'community'. 
+

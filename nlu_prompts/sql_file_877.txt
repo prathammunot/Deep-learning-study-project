@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram864'.
+There is a table 'husband' with the columns 'improve' (DATE), 'art' (TEXT), 'nor' (VARCHAR(50)). The primary key is 'improve'. 'husband' references another table 'degree' in an exactly one to zero or many relationship. The relationship should be called 'improve'. 
+There is another table 'degree' with the columns 'threat' (VARCHAR(50)), 'law' (DATE). The primary key is 'threat'. 'degree' references another table 'expect' in an exactly one to zero or many relationship. The relationship should be called 'threat'. 
+There is another table 'expect' with the columns 'game' (DATE), 'throughout' (TEXT), 'quite' (VARCHAR(50)). The primary key is 'game'. 'expect' references another table 'author' in an exactly one to zero or many relationship. The relationship should be called 'game'. 
+There is another table 'author' with the columns 'want' (VARCHAR(50)), 'state' (DATE). The primary key is 'want'. 'author' references another table 'size' in an exactly one to zero or many relationship. The relationship should be called 'want'. 
+There is another table 'size' with the columns 'family' (DATE), 'direction' (TEXT), 'sort' (VARCHAR(50)). The primary key is 'family'. 'size' references another table 'adult' in an exactly one to zero or many relationship. The relationship should be called 'family'. 
+There is another table 'adult' with the columns 'position' (VARCHAR(50)), 'home' (DATE). The primary key is 'position'. 'adult' references another table 'put' in an exactly one to zero or many relationship. The relationship should be called 'position'. 
+There is another table 'put' with the columns 'knowledge' (DATE), 'bag' (TEXT), 'education' (VARCHAR(50)). The primary key is 'knowledge'. 'put' references another table 'husband' in an exactly one to zero or many relationship. The relationship should be called 'knowledge'. 
+

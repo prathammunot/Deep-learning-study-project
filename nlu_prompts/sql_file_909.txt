@@ -1,0 +1,11 @@
+Create an ER diagram titled 'erdiagram900'.
+There is a table 'evidence' with the columns 'hot' (DATE), 'million' (TEXT), 'week' (VARCHAR(50)). The primary key is 'hot'. 'evidence' references another table 'when' in an exactly one to zero or many relationship. The relationship should be called 'hot'. 
+There is another table 'when' with the columns 'plan' (VARCHAR(50)), 'together' (DATE). The primary key is 'plan'. 'when' references another table 'science' in an exactly one to zero or many relationship. The relationship should be called 'plan'. 
+There is another table 'science' with the columns 'they' (DATE), 'kitchen' (TEXT), 'lead' (VARCHAR(50)). The primary key is 'they'. 'science' references another table 'tree' in an exactly one to zero or many relationship. The relationship should be called 'they'. 
+There is another table 'tree' with the columns 'child' (VARCHAR(50)), 'middle' (DATE). The primary key is 'child'. 'tree' references another table 'parent' in an exactly one to zero or many relationship. The relationship should be called 'child'. 
+There is another table 'parent' with the columns 'various' (DATE), 'book' (TEXT), 'fear' (VARCHAR(50)). The primary key is 'various'. 'parent' references another table 'red' in an exactly one to zero or many relationship. The relationship should be called 'various'. 
+There is another table 'red' with the columns 'itself' (VARCHAR(50)), 'girl' (DATE). The primary key is 'itself'. 'red' references another table 'concern' in an exactly one to zero or many relationship. The relationship should be called 'itself'. 
+There is another table 'concern' with the columns 'agent' (DATE), 'star' (TEXT), 'better' (VARCHAR(50)). The primary key is 'agent'. 'concern' references another table 'tree' in an exactly one to zero or many relationship. The relationship should be called 'agent'. 
+There is another table 'tree' with the columns 'call' (VARCHAR(50)), 'local' (DATE). The primary key is 'call'. 'tree' references another table 'every' in an exactly one to zero or many relationship. The relationship should be called 'call'. 
+There is another table 'every' with the columns 'economy' (DATE), 'expect' (TEXT), 'political' (VARCHAR(50)). The primary key is 'economy'. 'every' references another table 'evidence' in an exactly one to zero or many relationship. The relationship should be called 'economy'. 
+

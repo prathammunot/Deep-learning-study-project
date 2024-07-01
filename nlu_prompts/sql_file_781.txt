@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram758'.
+There is a table 'marriage' with the columns 'art' (DATE), 'reveal' (TEXT), 'single' (VARCHAR(50)). The primary key is 'art'. 'marriage' references another table 'century' in an exactly one to zero or many relationship. The relationship should be called 'art'. 
+There is another table 'century' with the columns 'order' (VARCHAR(50)), 'store' (DATE). The primary key is 'order'. 'century' references another table 'test' in an exactly one to zero or many relationship. The relationship should be called 'order'. 
+There is another table 'test' with the columns 'media' (DATE), 'arrive' (TEXT), 'sing' (VARCHAR(50)). The primary key is 'media'. 'test' references another table 'game' in an exactly one to zero or many relationship. The relationship should be called 'media'. 
+There is another table 'game' with the columns 'rule' (VARCHAR(50)), 'decision' (DATE). The primary key is 'rule'. 'game' references another table 'brother' in an exactly one to zero or many relationship. The relationship should be called 'rule'. 
+There is another table 'brother' with the columns 'total' (DATE), 'anything' (TEXT), 'no' (VARCHAR(50)). The primary key is 'total'. 'brother' references another table 'marriage' in an exactly one to zero or many relationship. The relationship should be called 'total'. 
+

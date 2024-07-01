@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram826'.
+There is a table 'act' with the columns 'blood' (DATE), 'trial' (TEXT), 'image' (VARCHAR(50)). The primary key is 'blood'. 'act' references another table 'total' in an exactly one to zero or many relationship. The relationship should be called 'blood'. 
+There is another table 'total' with the columns 'pull' (VARCHAR(50)), 'finish' (DATE). The primary key is 'pull'. 'total' references another table 'look' in an exactly one to zero or many relationship. The relationship should be called 'pull'. 
+There is another table 'look' with the columns 'enter' (DATE), 'trouble' (TEXT), 'lot' (VARCHAR(50)). The primary key is 'enter'. 'look' references another table 'listen' in an exactly one to zero or many relationship. The relationship should be called 'enter'. 
+There is another table 'listen' with the columns 'bill' (VARCHAR(50)), 'movie' (DATE). The primary key is 'bill'. 'listen' references another table 'be' in an exactly one to zero or many relationship. The relationship should be called 'bill'. 
+There is another table 'be' with the columns 'house' (DATE), 'physical' (TEXT), 'produce' (VARCHAR(50)). The primary key is 'house'. 'be' references another table 'act' in an exactly one to zero or many relationship. The relationship should be called 'house'. 
+

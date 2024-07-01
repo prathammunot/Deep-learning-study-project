@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram762'.
+There is a table 'property' with the columns 'term' (DATE), 'according' (TEXT), 'other' (VARCHAR(50)). The primary key is 'term'. 'property' references another table 'hard' in an exactly one to zero or many relationship. The relationship should be called 'term'. 
+There is another table 'hard' with the columns 'rate' (VARCHAR(50)), 'they' (DATE). The primary key is 'rate'. 'hard' references another table 'discuss' in an exactly one to zero or many relationship. The relationship should be called 'rate'. 
+There is another table 'discuss' with the columns 'determine' (DATE), 'very' (TEXT), 'baby' (VARCHAR(50)). The primary key is 'determine'. 'discuss' references another table 'line' in an exactly one to zero or many relationship. The relationship should be called 'determine'. 
+There is another table 'line' with the columns 'answer' (VARCHAR(50)), 'that' (DATE). The primary key is 'answer'. 'line' references another table 'try' in an exactly one to zero or many relationship. The relationship should be called 'answer'. 
+There is another table 'try' with the columns 'threat' (DATE), 'never' (TEXT), 'tonight' (VARCHAR(50)). The primary key is 'threat'. 'try' references another table 'will' in an exactly one to zero or many relationship. The relationship should be called 'threat'. 
+There is another table 'will' with the columns 'last' (VARCHAR(50)), 'address' (DATE). The primary key is 'last'. 'will' references another table 'property' in an exactly one to zero or many relationship. The relationship should be called 'last'. 
+

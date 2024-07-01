@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram707'.
+There is a table 'fall' with the columns 'moment' (DATE), 'without' (TEXT), 'everyone' (VARCHAR(50)). The primary key is 'moment'. 'fall' references another table 'wonder' in an exactly one to zero or many relationship. The relationship should be called 'moment'. 
+There is another table 'wonder' with the columns 'fact' (VARCHAR(50)), 'feeling' (DATE). The primary key is 'fact'. 'wonder' references another table 'remain' in an exactly one to zero or many relationship. The relationship should be called 'fact'. 
+There is another table 'remain' with the columns 'put' (DATE), 'see' (TEXT), 'worker' (VARCHAR(50)). The primary key is 'put'. 'remain' references another table 'else' in an exactly one to zero or many relationship. The relationship should be called 'put'. 
+There is another table 'else' with the columns 'be' (VARCHAR(50)), 'without' (DATE). The primary key is 'be'. 'else' references another table 'ever' in an exactly one to zero or many relationship. The relationship should be called 'be'. 
+There is another table 'ever' with the columns 'order' (DATE), 'figure' (TEXT), 'thank' (VARCHAR(50)). The primary key is 'order'. 'ever' references another table 'debate' in an exactly one to zero or many relationship. The relationship should be called 'order'. 
+There is another table 'debate' with the columns 'each' (VARCHAR(50)), 'case' (DATE). The primary key is 'each'. 'debate' references another table 'beautiful' in an exactly one to zero or many relationship. The relationship should be called 'each'. 
+There is another table 'beautiful' with the columns 'glass' (DATE), 'carry' (TEXT), 'do' (VARCHAR(50)). The primary key is 'glass'. 'beautiful' references another table 'once' in an exactly one to zero or many relationship. The relationship should be called 'glass'. 
+There is another table 'once' with the columns 'wear' (VARCHAR(50)), 'they' (DATE). The primary key is 'wear'. 'once' references another table 'fall' in an exactly one to zero or many relationship. The relationship should be called 'wear'. 
+

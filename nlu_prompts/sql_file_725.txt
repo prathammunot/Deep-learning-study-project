@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram696'.
+There is a table 'hotel' with the columns 'series' (DATE), 'step' (TEXT), 'remain' (VARCHAR(50)). The primary key is 'series'. 'hotel' references another table 'bring' in an exactly one to zero or many relationship. The relationship should be called 'series'. 
+There is another table 'bring' with the columns 'bed' (VARCHAR(50)), 'matter' (DATE). The primary key is 'bed'. 'bring' references another table 'add' in an exactly one to zero or many relationship. The relationship should be called 'bed'. 
+There is another table 'add' with the columns 'vote' (DATE), 'office' (TEXT), 'small' (VARCHAR(50)). The primary key is 'vote'. 'add' references another table 'four' in an exactly one to zero or many relationship. The relationship should be called 'vote'. 
+There is another table 'four' with the columns 'subject' (VARCHAR(50)), 'bar' (DATE). The primary key is 'subject'. 'four' references another table 'back' in an exactly one to zero or many relationship. The relationship should be called 'subject'. 
+There is another table 'back' with the columns 'indeed' (DATE), 'computer' (TEXT), 'could' (VARCHAR(50)). The primary key is 'indeed'. 'back' references another table 'hotel' in an exactly one to zero or many relationship. The relationship should be called 'indeed'. 
+

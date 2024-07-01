@@ -1,0 +1,10 @@
+Create an ER diagram titled 'erdiagram948'.
+There is a table 'debate' with the columns 'money' (DATE), 'example' (TEXT), 'group' (VARCHAR(50)). The primary key is 'money'. 'debate' references another table 'practice' in an exactly one to zero or many relationship. The relationship should be called 'money'. 
+There is another table 'practice' with the columns 'month' (VARCHAR(50)), 'society' (DATE). The primary key is 'month'. 'practice' references another table 'difficult' in an exactly one to zero or many relationship. The relationship should be called 'month'. 
+There is another table 'difficult' with the columns 'so' (DATE), 'bring' (TEXT), 'ground' (VARCHAR(50)). The primary key is 'so'. 'difficult' references another table 'wife' in an exactly one to zero or many relationship. The relationship should be called 'so'. 
+There is another table 'wife' with the columns 'get' (VARCHAR(50)), 'inside' (DATE). The primary key is 'get'. 'wife' references another table 'future' in an exactly one to zero or many relationship. The relationship should be called 'get'. 
+There is another table 'future' with the columns 'test' (DATE), 'blood' (TEXT), 'though' (VARCHAR(50)). The primary key is 'test'. 'future' references another table 'among' in an exactly one to zero or many relationship. The relationship should be called 'test'. 
+There is another table 'among' with the columns 'since' (VARCHAR(50)), 'safe' (DATE). The primary key is 'since'. 'among' references another table 'unit' in an exactly one to zero or many relationship. The relationship should be called 'since'. 
+There is another table 'unit' with the columns 'spring' (DATE), 'piece' (TEXT), 'move' (VARCHAR(50)). The primary key is 'spring'. 'unit' references another table 'myself' in an exactly one to zero or many relationship. The relationship should be called 'spring'. 
+There is another table 'myself' with the columns 'natural' (VARCHAR(50)), 'author' (DATE). The primary key is 'natural'. 'myself' references another table 'debate' in an exactly one to zero or many relationship. The relationship should be called 'natural'. 
+

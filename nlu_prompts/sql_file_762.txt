@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram737'.
+There is a table 'if' with the columns 'last' (DATE), 'unit' (TEXT), 'south' (VARCHAR(50)). The primary key is 'last'. 'if' references another table 'soldier' in an exactly one to zero or many relationship. The relationship should be called 'last'. 
+There is another table 'soldier' with the columns 'hundred' (VARCHAR(50)), 'standard' (DATE). The primary key is 'hundred'. 'soldier' references another table 'history' in an exactly one to zero or many relationship. The relationship should be called 'hundred'. 
+There is another table 'history' with the columns 'remember' (DATE), 'citizen' (TEXT), 'soon' (VARCHAR(50)). The primary key is 'remember'. 'history' references another table 'vote' in an exactly one to zero or many relationship. The relationship should be called 'remember'. 
+There is another table 'vote' with the columns 'surface' (VARCHAR(50)), 'why' (DATE). The primary key is 'surface'. 'vote' references another table 'always' in an exactly one to zero or many relationship. The relationship should be called 'surface'. 
+There is another table 'always' with the columns 'business' (DATE), 'drug' (TEXT), 'music' (VARCHAR(50)). The primary key is 'business'. 'always' references another table 'by' in an exactly one to zero or many relationship. The relationship should be called 'business'. 
+There is another table 'by' with the columns 'direction' (VARCHAR(50)), 'property' (DATE). The primary key is 'direction'. 'by' references another table 'southern' in an exactly one to zero or many relationship. The relationship should be called 'direction'. 
+There is another table 'southern' with the columns 'know' (DATE), 'example' (TEXT), 'partner' (VARCHAR(50)). The primary key is 'know'. 'southern' references another table 'if' in an exactly one to zero or many relationship. The relationship should be called 'know'. 
+

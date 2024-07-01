@@ -1,0 +1,9 @@
+Create an ER diagram titled 'erdiagram917'.
+There is a table 'forward' with the columns 'century' (DATE), 'nearly' (TEXT), 'week' (VARCHAR(50)). The primary key is 'century'. 'forward' references another table 'happy' in an exactly one to zero or many relationship. The relationship should be called 'century'. 
+There is another table 'happy' with the columns 'listen' (VARCHAR(50)), 'enter' (DATE). The primary key is 'listen'. 'happy' references another table 'role' in an exactly one to zero or many relationship. The relationship should be called 'listen'. 
+There is another table 'role' with the columns 'fly' (DATE), 'person' (TEXT), 'often' (VARCHAR(50)). The primary key is 'fly'. 'role' references another table 'western' in an exactly one to zero or many relationship. The relationship should be called 'fly'. 
+There is another table 'western' with the columns 'TV' (VARCHAR(50)), 'ahead' (DATE). The primary key is 'TV'. 'western' references another table 'control' in an exactly one to zero or many relationship. The relationship should be called 'TV'. 
+There is another table 'control' with the columns 'important' (DATE), 'consider' (TEXT), 'produce' (VARCHAR(50)). The primary key is 'important'. 'control' references another table 'result' in an exactly one to zero or many relationship. The relationship should be called 'important'. 
+There is another table 'result' with the columns 'than' (VARCHAR(50)), 'note' (DATE). The primary key is 'than'. 'result' references another table 'special' in an exactly one to zero or many relationship. The relationship should be called 'than'. 
+There is another table 'special' with the columns 'table' (DATE), 'far' (TEXT), 'short' (VARCHAR(50)). The primary key is 'table'. 'special' references another table 'forward' in an exactly one to zero or many relationship. The relationship should be called 'table'. 
+

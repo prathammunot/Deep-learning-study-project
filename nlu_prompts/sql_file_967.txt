@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram964'.
+There is a table 'board' with the columns 'artist' (DATE), 'market' (TEXT), 'none' (VARCHAR(50)). The primary key is 'artist'. 'board' references another table 'understand' in an exactly one to zero or many relationship. The relationship should be called 'artist'. 
+There is another table 'understand' with the columns 'really' (VARCHAR(50)), 'key' (DATE). The primary key is 'really'. 'understand' references another table 'picture' in an exactly one to zero or many relationship. The relationship should be called 'really'. 
+There is another table 'picture' with the columns 'more' (DATE), 'walk' (TEXT), 'challenge' (VARCHAR(50)). The primary key is 'more'. 'picture' references another table 'during' in an exactly one to zero or many relationship. The relationship should be called 'more'. 
+There is another table 'during' with the columns 'choice' (VARCHAR(50)), 'off' (DATE). The primary key is 'choice'. 'during' references another table 'issue' in an exactly one to zero or many relationship. The relationship should be called 'choice'. 
+There is another table 'issue' with the columns 'here' (DATE), 'result' (TEXT), 'full' (VARCHAR(50)). The primary key is 'here'. 'issue' references another table 'board' in an exactly one to zero or many relationship. The relationship should be called 'here'. 
+

@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram875'.
+There is a table 'dog' with the columns 'here' (DATE), 'more' (TEXT), 'station' (VARCHAR(50)). The primary key is 'here'. 'dog' references another table 'dog' in an exactly one to zero or many relationship. The relationship should be called 'here'. 
+There is another table 'dog' with the columns 'PM' (VARCHAR(50)), 'adult' (DATE). The primary key is 'PM'. 'dog' references another table 'wrong' in an exactly one to zero or many relationship. The relationship should be called 'PM'. 
+There is another table 'wrong' with the columns 'before' (DATE), 'save' (TEXT), 'mouth' (VARCHAR(50)). The primary key is 'before'. 'wrong' references another table 'ball' in an exactly one to zero or many relationship. The relationship should be called 'before'. 
+There is another table 'ball' with the columns 'order' (VARCHAR(50)), 'trouble' (DATE). The primary key is 'order'. 'ball' references another table 'usually' in an exactly one to zero or many relationship. The relationship should be called 'order'. 
+There is another table 'usually' with the columns 'later' (DATE), 'off' (TEXT), 'pay' (VARCHAR(50)). The primary key is 'later'. 'usually' references another table 'dog' in an exactly one to zero or many relationship. The relationship should be called 'later'. 
+

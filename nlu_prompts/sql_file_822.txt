@@ -1,0 +1,7 @@
+Create an ER diagram titled 'erdiagram804'.
+There is a table 'majority' with the columns 'health' (DATE), 'ten' (TEXT), 'worker' (VARCHAR(50)). The primary key is 'health'. 'majority' references another table 'man' in an exactly one to zero or many relationship. The relationship should be called 'health'. 
+There is another table 'man' with the columns 'stock' (VARCHAR(50)), 'such' (DATE). The primary key is 'stock'. 'man' references another table 'mother' in an exactly one to zero or many relationship. The relationship should be called 'stock'. 
+There is another table 'mother' with the columns 'sing' (DATE), 'half' (TEXT), 'general' (VARCHAR(50)). The primary key is 'sing'. 'mother' references another table 'whatever' in an exactly one to zero or many relationship. The relationship should be called 'sing'. 
+There is another table 'whatever' with the columns 'party' (VARCHAR(50)), 'contain' (DATE). The primary key is 'party'. 'whatever' references another table 'throughout' in an exactly one to zero or many relationship. The relationship should be called 'party'. 
+There is another table 'throughout' with the columns 'yet' (DATE), 'kitchen' (TEXT), 'west' (VARCHAR(50)). The primary key is 'yet'. 'throughout' references another table 'majority' in an exactly one to zero or many relationship. The relationship should be called 'yet'. 
+

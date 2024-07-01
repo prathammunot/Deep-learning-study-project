@@ -1,0 +1,8 @@
+Create an ER diagram titled 'erdiagram841'.
+There is a table 'seem' with the columns 'attention' (DATE), 'environmental' (TEXT), 'true' (VARCHAR(50)). The primary key is 'attention'. 'seem' references another table 'crime' in an exactly one to zero or many relationship. The relationship should be called 'attention'. 
+There is another table 'crime' with the columns 'take' (VARCHAR(50)), 'build' (DATE). The primary key is 'take'. 'crime' references another table 'picture' in an exactly one to zero or many relationship. The relationship should be called 'take'. 
+There is another table 'picture' with the columns 'well' (DATE), 'some' (TEXT), 'administration' (VARCHAR(50)). The primary key is 'well'. 'picture' references another table 'establish' in an exactly one to zero or many relationship. The relationship should be called 'well'. 
+There is another table 'establish' with the columns 'truth' (VARCHAR(50)), 'every' (DATE). The primary key is 'truth'. 'establish' references another table 'age' in an exactly one to zero or many relationship. The relationship should be called 'truth'. 
+There is another table 'age' with the columns 'indicate' (DATE), 'candidate' (TEXT), 'least' (VARCHAR(50)). The primary key is 'indicate'. 'age' references another table 'in' in an exactly one to zero or many relationship. The relationship should be called 'indicate'. 
+There is another table 'in' with the columns 'may' (VARCHAR(50)), 'voice' (DATE). The primary key is 'may'. 'in' references another table 'seem' in an exactly one to zero or many relationship. The relationship should be called 'may'. 
+
