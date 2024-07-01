@@ -1,0 +1,198 @@
+[
+    {
+        "name": "including",
+        "columns": [
+            {
+                "name": "because",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "because",
+        "foreign_keys": [
+            {
+                "column": "because",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "business",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "others"
+            }
+        ]
+    },
+    {
+        "name": "others",
+        "columns": [
+            {
+                "name": "color",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reason",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "represent",
+        "foreign_keys": [
+            {
+                "column": "represent",
+                "references": "this"
+            }
+        ]
+    },
+    {
+        "name": "this",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "less",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "sort"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "hot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "leave",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hot",
+        "foreign_keys": [
+            {
+                "column": "hot",
+                "references": "heavy"
+            }
+        ]
+    },
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "head"
+            }
+        ]
+    },
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "five",
+        "foreign_keys": [
+            {
+                "column": "five",
+                "references": "including"
+            }
+        ]
+    }
+]

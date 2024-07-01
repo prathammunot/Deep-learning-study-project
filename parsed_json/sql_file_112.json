@@ -1,0 +1,274 @@
+[
+    {
+        "name": "eat",
+        "columns": [
+            {
+                "name": "detail",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "meeting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "detail",
+        "foreign_keys": [
+            {
+                "column": "detail",
+                "references": "majority"
+            }
+        ]
+    },
+    {
+        "name": "majority",
+        "columns": [
+            {
+                "name": "black",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "both",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "black",
+        "foreign_keys": [
+            {
+                "column": "black",
+                "references": "collection"
+            }
+        ]
+    },
+    {
+        "name": "collection",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "else"
+            }
+        ]
+    },
+    {
+        "name": "else",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Democrat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "world"
+            }
+        ]
+    },
+    {
+        "name": "world",
+        "columns": [
+            {
+                "name": "drug",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drug",
+        "foreign_keys": [
+            {
+                "column": "drug",
+                "references": "fast"
+            }
+        ]
+    },
+    {
+        "name": "fast",
+        "columns": [
+            {
+                "name": "window",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "window",
+        "foreign_keys": [
+            {
+                "column": "window",
+                "references": "thus"
+            }
+        ]
+    },
+    {
+        "name": "thus",
+        "columns": [
+            {
+                "name": "share",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pick",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "share",
+        "foreign_keys": [
+            {
+                "column": "share",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "many"
+            }
+        ]
+    },
+    {
+        "name": "many",
+        "columns": [
+            {
+                "name": "music",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "music",
+        "foreign_keys": [
+            {
+                "column": "music",
+                "references": "deal"
+            }
+        ]
+    },
+    {
+        "name": "deal",
+        "columns": [
+            {
+                "name": "arrive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "key",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "arrive",
+        "foreign_keys": [
+            {
+                "column": "arrive",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "stop",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hold",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stop",
+        "foreign_keys": [
+            {
+                "column": "stop",
+                "references": "eat"
+            }
+        ]
+    }
+]

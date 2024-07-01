@@ -1,0 +1,247 @@
+[
+    {
+        "name": "certainly",
+        "columns": [
+            {
+                "name": "coach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "coach",
+        "foreign_keys": [
+            {
+                "column": "coach",
+                "references": "nothing"
+            }
+        ]
+    },
+    {
+        "name": "nothing",
+        "columns": [
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "significant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whatever",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cost",
+        "foreign_keys": [
+            {
+                "column": "cost",
+                "references": "finish"
+            }
+        ]
+    },
+    {
+        "name": "finish",
+        "columns": [
+            {
+                "name": "smile",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mission",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "smile",
+        "foreign_keys": [
+            {
+                "column": "smile",
+                "references": "approach"
+            }
+        ]
+    },
+    {
+        "name": "approach",
+        "columns": [
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "from",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sell",
+        "foreign_keys": [
+            {
+                "column": "sell",
+                "references": "start"
+            }
+        ]
+    },
+    {
+        "name": "start",
+        "columns": [
+            {
+                "name": "power",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "loss",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "great",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "power",
+        "foreign_keys": [
+            {
+                "column": "power",
+                "references": "remember"
+            }
+        ]
+    },
+    {
+        "name": "remember",
+        "columns": [
+            {
+                "name": "career",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "career",
+        "foreign_keys": [
+            {
+                "column": "career",
+                "references": "statement"
+            }
+        ]
+    },
+    {
+        "name": "statement",
+        "columns": [
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "guy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "this",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "guy",
+        "foreign_keys": [
+            {
+                "column": "guy",
+                "references": "certainly"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "personal",
+        "columns": [
+            {
+                "name": "teach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "teach",
+        "foreign_keys": [
+            {
+                "column": "teach",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "meeting"
+            }
+        ]
+    },
+    {
+        "name": "meeting",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "guess",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "garden"
+            }
+        ]
+    },
+    {
+        "name": "garden",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "technology",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "material"
+            }
+        ]
+    },
+    {
+        "name": "material",
+        "columns": [
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "focus",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maybe",
+        "foreign_keys": [
+            {
+                "column": "maybe",
+                "references": "give"
+            }
+        ]
+    },
+    {
+        "name": "give",
+        "columns": [
+            {
+                "name": "feel",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "feel",
+        "foreign_keys": [
+            {
+                "column": "feel",
+                "references": "commercial"
+            }
+        ]
+    },
+    {
+        "name": "commercial",
+        "columns": [
+            {
+                "name": "wife",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "second",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wife",
+        "foreign_keys": [
+            {
+                "column": "wife",
+                "references": "personal"
+            }
+        ]
+    }
+]

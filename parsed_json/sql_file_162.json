@@ -1,0 +1,149 @@
+[
+    {
+        "name": "thousand",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "gun"
+            }
+        ]
+    },
+    {
+        "name": "gun",
+        "columns": [
+            {
+                "name": "appear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "appear",
+        "foreign_keys": [
+            {
+                "column": "appear",
+                "references": "mind"
+            }
+        ]
+    },
+    {
+        "name": "mind",
+        "columns": [
+            {
+                "name": "do",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "do",
+        "foreign_keys": [
+            {
+                "column": "do",
+                "references": "certainly"
+            }
+        ]
+    },
+    {
+        "name": "certainly",
+        "columns": [
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "five",
+        "foreign_keys": [
+            {
+                "column": "five",
+                "references": "call"
+            }
+        ]
+    },
+    {
+        "name": "call",
+        "columns": [
+            {
+                "name": "though",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "though",
+        "foreign_keys": [
+            {
+                "column": "though",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "thousand"
+            }
+        ]
+    }
+]

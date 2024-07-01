@@ -1,0 +1,296 @@
+[
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "less",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "up",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "movie"
+            }
+        ]
+    },
+    {
+        "name": "movie",
+        "columns": [
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reach",
+        "foreign_keys": [
+            {
+                "column": "reach",
+                "references": "evidence"
+            }
+        ]
+    },
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "war",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "war",
+        "foreign_keys": [
+            {
+                "column": "war",
+                "references": "happen"
+            }
+        ]
+    },
+    {
+        "name": "happen",
+        "columns": [
+            {
+                "name": "resource",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "alone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "resource",
+        "foreign_keys": [
+            {
+                "column": "resource",
+                "references": "line"
+            }
+        ]
+    },
+    {
+        "name": "line",
+        "columns": [
+            {
+                "name": "small",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "tend"
+            }
+        ]
+    },
+    {
+        "name": "tend",
+        "columns": [
+            {
+                "name": "piece",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "piece",
+        "foreign_keys": [
+            {
+                "column": "piece",
+                "references": "mind"
+            }
+        ]
+    },
+    {
+        "name": "mind",
+        "columns": [
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "together",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "air"
+            }
+        ]
+    },
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "with",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "with",
+        "foreign_keys": [
+            {
+                "column": "with",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "five"
+            }
+        ]
+    },
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "carry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "police",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "carry",
+        "foreign_keys": [
+            {
+                "column": "carry",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "radio",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "radio",
+        "foreign_keys": [
+            {
+                "column": "radio",
+                "references": "forward"
+            }
+        ]
+    },
+    {
+        "name": "forward",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "heavy"
+            }
+        ]
+    }
+]

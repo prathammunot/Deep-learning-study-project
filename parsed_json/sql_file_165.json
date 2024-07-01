@@ -1,0 +1,247 @@
+[
+    {
+        "name": "develop",
+        "columns": [
+            {
+                "name": "central",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "better",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "event"
+            }
+        ]
+    },
+    {
+        "name": "event",
+        "columns": [
+            {
+                "name": "staff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "staff",
+        "foreign_keys": [
+            {
+                "column": "staff",
+                "references": "continue"
+            }
+        ]
+    },
+    {
+        "name": "continue",
+        "columns": [
+            {
+                "name": "away",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "away",
+        "foreign_keys": [
+            {
+                "column": "away",
+                "references": "sell"
+            }
+        ]
+    },
+    {
+        "name": "sell",
+        "columns": [
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prepare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "above",
+        "foreign_keys": [
+            {
+                "column": "above",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "ability",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "carry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ability",
+        "foreign_keys": [
+            {
+                "column": "ability",
+                "references": "and"
+            }
+        ]
+    },
+    {
+        "name": "and",
+        "columns": [
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "listen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "above",
+        "foreign_keys": [
+            {
+                "column": "above",
+                "references": "church"
+            }
+        ]
+    },
+    {
+        "name": "church",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "rest"
+            }
+        ]
+    },
+    {
+        "name": "rest",
+        "columns": [
+            {
+                "name": "example",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "example",
+        "foreign_keys": [
+            {
+                "column": "example",
+                "references": "eight"
+            }
+        ]
+    },
+    {
+        "name": "eight",
+        "columns": [
+            {
+                "name": "weight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "weight",
+        "foreign_keys": [
+            {
+                "column": "weight",
+                "references": "significant"
+            }
+        ]
+    },
+    {
+        "name": "significant",
+        "columns": [
+            {
+                "name": "we",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "people",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "we",
+        "foreign_keys": [
+            {
+                "column": "we",
+                "references": "develop"
+            }
+        ]
+    }
+]

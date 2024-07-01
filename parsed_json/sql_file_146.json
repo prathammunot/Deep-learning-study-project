@@ -1,0 +1,176 @@
+[
+    {
+        "name": "challenge",
+        "columns": [
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sport",
+        "foreign_keys": [
+            {
+                "column": "sport",
+                "references": "surface"
+            }
+        ]
+    },
+    {
+        "name": "surface",
+        "columns": [
+            {
+                "name": "four",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cut",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "four",
+        "foreign_keys": [
+            {
+                "column": "four",
+                "references": "spring"
+            }
+        ]
+    },
+    {
+        "name": "spring",
+        "columns": [
+            {
+                "name": "policy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "buy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "policy",
+        "foreign_keys": [
+            {
+                "column": "policy",
+                "references": "condition"
+            }
+        ]
+    },
+    {
+        "name": "condition",
+        "columns": [
+            {
+                "name": "somebody",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "somebody",
+        "foreign_keys": [
+            {
+                "column": "somebody",
+                "references": "level"
+            }
+        ]
+    },
+    {
+        "name": "level",
+        "columns": [
+            {
+                "name": "daughter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "daughter",
+        "foreign_keys": [
+            {
+                "column": "daughter",
+                "references": "between"
+            }
+        ]
+    },
+    {
+        "name": "between",
+        "columns": [
+            {
+                "name": "at",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "at",
+        "foreign_keys": [
+            {
+                "column": "at",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "none",
+        "foreign_keys": [
+            {
+                "column": "none",
+                "references": "challenge"
+            }
+        ]
+    }
+]

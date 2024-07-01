@@ -1,0 +1,274 @@
+[
+    {
+        "name": "protect",
+        "columns": [
+            {
+                "name": "mouth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "between",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mouth",
+        "foreign_keys": [
+            {
+                "column": "mouth",
+                "references": "character"
+            }
+        ]
+    },
+    {
+        "name": "character",
+        "columns": [
+            {
+                "name": "serve",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "job",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "serve",
+        "foreign_keys": [
+            {
+                "column": "serve",
+                "references": "far"
+            }
+        ]
+    },
+    {
+        "name": "far",
+        "columns": [
+            {
+                "name": "budget",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "budget",
+        "foreign_keys": [
+            {
+                "column": "budget",
+                "references": "animal"
+            }
+        ]
+    },
+    {
+        "name": "animal",
+        "columns": [
+            {
+                "name": "four",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "four",
+        "foreign_keys": [
+            {
+                "column": "four",
+                "references": "toward"
+            }
+        ]
+    },
+    {
+        "name": "toward",
+        "columns": [
+            {
+                "name": "activity",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "activity",
+        "foreign_keys": [
+            {
+                "column": "activity",
+                "references": "spend"
+            }
+        ]
+    },
+    {
+        "name": "spend",
+        "columns": [
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "table",
+        "foreign_keys": [
+            {
+                "column": "table",
+                "references": "bad"
+            }
+        ]
+    },
+    {
+        "name": "bad",
+        "columns": [
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "player"
+            }
+        ]
+    },
+    {
+        "name": "player",
+        "columns": [
+            {
+                "name": "those",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "high",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "those",
+        "foreign_keys": [
+            {
+                "column": "those",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "she",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "she",
+        "foreign_keys": [
+            {
+                "column": "she",
+                "references": "military"
+            }
+        ]
+    },
+    {
+        "name": "military",
+        "columns": [
+            {
+                "name": "election",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "election",
+        "foreign_keys": [
+            {
+                "column": "election",
+                "references": "cut"
+            }
+        ]
+    },
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "image",
+        "foreign_keys": [
+            {
+                "column": "image",
+                "references": "protect"
+            }
+        ]
+    }
+]

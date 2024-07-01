@@ -1,0 +1,127 @@
+[
+    {
+        "name": "rise",
+        "columns": [
+            {
+                "name": "north",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "north",
+        "foreign_keys": [
+            {
+                "column": "north",
+                "references": "mean"
+            }
+        ]
+    },
+    {
+        "name": "mean",
+        "columns": [
+            {
+                "name": "writer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "door",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "writer",
+        "foreign_keys": [
+            {
+                "column": "writer",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "through",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "through",
+        "foreign_keys": [
+            {
+                "column": "through",
+                "references": "now"
+            }
+        ]
+    },
+    {
+        "name": "now",
+        "columns": [
+            {
+                "name": "help",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "help",
+        "foreign_keys": [
+            {
+                "column": "help",
+                "references": "strong"
+            }
+        ]
+    },
+    {
+        "name": "strong",
+        "columns": [
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "inside",
+        "foreign_keys": [
+            {
+                "column": "inside",
+                "references": "rise"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "whatever",
+        "columns": [
+            {
+                "name": "television",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "hotel"
+            }
+        ]
+    },
+    {
+        "name": "hotel",
+        "columns": [
+            {
+                "name": "movement",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "movement",
+        "foreign_keys": [
+            {
+                "column": "movement",
+                "references": "truth"
+            }
+        ]
+    },
+    {
+        "name": "truth",
+        "columns": [
+            {
+                "name": "commercial",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "point",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "commercial",
+        "foreign_keys": [
+            {
+                "column": "commercial",
+                "references": "ever"
+            }
+        ]
+    },
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "successful",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "successful",
+        "foreign_keys": [
+            {
+                "column": "successful",
+                "references": "claim"
+            }
+        ]
+    },
+    {
+        "name": "claim",
+        "columns": [
+            {
+                "name": "investment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "investment",
+        "foreign_keys": [
+            {
+                "column": "investment",
+                "references": "chair"
+            }
+        ]
+    },
+    {
+        "name": "chair",
+        "columns": [
+            {
+                "name": "rather",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rather",
+        "foreign_keys": [
+            {
+                "column": "rather",
+                "references": "own"
+            }
+        ]
+    },
+    {
+        "name": "own",
+        "columns": [
+            {
+                "name": "daughter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "source",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "daughter",
+        "foreign_keys": [
+            {
+                "column": "daughter",
+                "references": "whatever"
+            }
+        ]
+    }
+]

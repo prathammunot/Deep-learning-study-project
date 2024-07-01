@@ -1,0 +1,176 @@
+[
+    {
+        "name": "yes",
+        "columns": [
+            {
+                "name": "less",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "church",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "world"
+            }
+        ]
+    },
+    {
+        "name": "world",
+        "columns": [
+            {
+                "name": "major",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "phone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "major",
+        "foreign_keys": [
+            {
+                "column": "major",
+                "references": "PM"
+            }
+        ]
+    },
+    {
+        "name": "PM",
+        "columns": [
+            {
+                "name": "amount",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "amount",
+        "foreign_keys": [
+            {
+                "column": "amount",
+                "references": "marriage"
+            }
+        ]
+    },
+    {
+        "name": "marriage",
+        "columns": [
+            {
+                "name": "over",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "that"
+            }
+        ]
+    },
+    {
+        "name": "that",
+        "columns": [
+            {
+                "name": "note",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "current",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "note",
+        "foreign_keys": [
+            {
+                "column": "note",
+                "references": "open"
+            }
+        ]
+    },
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "current",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "current",
+        "foreign_keys": [
+            {
+                "column": "current",
+                "references": "just"
+            }
+        ]
+    },
+    {
+        "name": "just",
+        "columns": [
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "game",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "performance",
+        "foreign_keys": [
+            {
+                "column": "performance",
+                "references": "yes"
+            }
+        ]
+    }
+]

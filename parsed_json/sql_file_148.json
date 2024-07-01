@@ -1,0 +1,296 @@
+[
+    {
+        "name": "class",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "across"
+            }
+        ]
+    },
+    {
+        "name": "across",
+        "columns": [
+            {
+                "name": "individual",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "individual",
+        "foreign_keys": [
+            {
+                "column": "individual",
+                "references": "no"
+            }
+        ]
+    },
+    {
+        "name": "no",
+        "columns": [
+            {
+                "name": "number",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "west",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "number",
+        "foreign_keys": [
+            {
+                "column": "number",
+                "references": "total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "explain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "explain",
+        "foreign_keys": [
+            {
+                "column": "explain",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "individual",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "individual",
+        "foreign_keys": [
+            {
+                "column": "individual",
+                "references": "remain"
+            }
+        ]
+    },
+    {
+        "name": "remain",
+        "columns": [
+            {
+                "name": "center",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "institution",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "center",
+        "foreign_keys": [
+            {
+                "column": "center",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "likely",
+        "foreign_keys": [
+            {
+                "column": "likely",
+                "references": "about"
+            }
+        ]
+    },
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "window",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "window",
+        "foreign_keys": [
+            {
+                "column": "window",
+                "references": "none"
+            }
+        ]
+    },
+    {
+        "name": "none",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "close"
+            }
+        ]
+    },
+    {
+        "name": "close",
+        "columns": [
+            {
+                "name": "knowledge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pick",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "knowledge",
+        "foreign_keys": [
+            {
+                "column": "knowledge",
+                "references": "matter"
+            }
+        ]
+    },
+    {
+        "name": "matter",
+        "columns": [
+            {
+                "name": "teach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "teach",
+        "foreign_keys": [
+            {
+                "column": "teach",
+                "references": "name"
+            }
+        ]
+    },
+    {
+        "name": "name",
+        "columns": [
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "member",
+        "foreign_keys": [
+            {
+                "column": "member",
+                "references": "class"
+            }
+        ]
+    }
+]

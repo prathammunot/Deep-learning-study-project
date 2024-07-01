@@ -1,0 +1,144 @@
+[
+    {
+        "name": "fine",
+        "columns": [
+            {
+                "name": "product",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "color",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "product",
+        "foreign_keys": [
+            {
+                "column": "product",
+                "references": "job"
+            }
+        ]
+    },
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "chair"
+            }
+        ]
+    },
+    {
+        "name": "chair",
+        "columns": [
+            {
+                "name": "offer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cultural",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "offer",
+        "foreign_keys": [
+            {
+                "column": "offer",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "big",
+        "foreign_keys": [
+            {
+                "column": "big",
+                "references": "last"
+            }
+        ]
+    },
+    {
+        "name": "last",
+        "columns": [
+            {
+                "name": "four",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "foreign",
+        "foreign_keys": [
+            {
+                "column": "foreign",
+                "references": "generation"
+            }
+        ]
+    },
+    {
+        "name": "generation",
+        "columns": [
+            {
+                "name": "deep",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deep",
+        "foreign_keys": [
+            {
+                "column": "deep",
+                "references": "fine"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "room",
+        "columns": [
+            {
+                "name": "test",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "test",
+        "foreign_keys": [
+            {
+                "column": "test",
+                "references": "lot"
+            }
+        ]
+    },
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "test",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "test",
+        "foreign_keys": [
+            {
+                "column": "test",
+                "references": "yet"
+            }
+        ]
+    },
+    {
+        "name": "yet",
+        "columns": [
+            {
+                "name": "middle",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "middle",
+        "foreign_keys": [
+            {
+                "column": "middle",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reveal",
+        "foreign_keys": [
+            {
+                "column": "reveal",
+                "references": "concern"
+            }
+        ]
+    },
+    {
+        "name": "concern",
+        "columns": [
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suggest",
+        "foreign_keys": [
+            {
+                "column": "suggest",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "east",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "east",
+        "foreign_keys": [
+            {
+                "column": "east",
+                "references": "end"
+            }
+        ]
+    },
+    {
+        "name": "end",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "too"
+            }
+        ]
+    },
+    {
+        "name": "too",
+        "columns": [
+            {
+                "name": "suddenly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suddenly",
+        "foreign_keys": [
+            {
+                "column": "suddenly",
+                "references": "fact"
+            }
+        ]
+    },
+    {
+        "name": "fact",
+        "columns": [
+            {
+                "name": "inside",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "believe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "inside",
+        "foreign_keys": [
+            {
+                "column": "inside",
+                "references": "room"
+            }
+        ]
+    }
+]

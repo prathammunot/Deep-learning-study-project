@@ -1,0 +1,296 @@
+[
+    {
+        "name": "phone",
+        "columns": [
+            {
+                "name": "no",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "central",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "budget",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "under",
+        "foreign_keys": [
+            {
+                "column": "under",
+                "references": "any"
+            }
+        ]
+    },
+    {
+        "name": "any",
+        "columns": [
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "film",
+        "foreign_keys": [
+            {
+                "column": "film",
+                "references": "happen"
+            }
+        ]
+    },
+    {
+        "name": "happen",
+        "columns": [
+            {
+                "name": "fish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fish",
+        "foreign_keys": [
+            {
+                "column": "fish",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "though",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "though",
+        "foreign_keys": [
+            {
+                "column": "though",
+                "references": "speech"
+            }
+        ]
+    },
+    {
+        "name": "speech",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "main",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sister",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "door"
+            }
+        ]
+    },
+    {
+        "name": "door",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tax",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "fight"
+            }
+        ]
+    },
+    {
+        "name": "fight",
+        "columns": [
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "accept"
+            }
+        ]
+    },
+    {
+        "name": "accept",
+        "columns": [
+            {
+                "name": "reveal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reveal",
+        "foreign_keys": [
+            {
+                "column": "reveal",
+                "references": "whom"
+            }
+        ]
+    },
+    {
+        "name": "whom",
+        "columns": [
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sit",
+        "foreign_keys": [
+            {
+                "column": "sit",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "phone"
+            }
+        ]
+    }
+]

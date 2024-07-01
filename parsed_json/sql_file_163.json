@@ -1,0 +1,225 @@
+[
+    {
+        "name": "last",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "range",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "watch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "itself"
+            }
+        ]
+    },
+    {
+        "name": "itself",
+        "columns": [
+            {
+                "name": "must",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "must",
+        "foreign_keys": [
+            {
+                "column": "must",
+                "references": "real"
+            }
+        ]
+    },
+    {
+        "name": "real",
+        "columns": [
+            {
+                "name": "else",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "else",
+        "foreign_keys": [
+            {
+                "column": "else",
+                "references": "time"
+            }
+        ]
+    },
+    {
+        "name": "time",
+        "columns": [
+            {
+                "name": "summer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "summer",
+        "foreign_keys": [
+            {
+                "column": "summer",
+                "references": "some"
+            }
+        ]
+    },
+    {
+        "name": "some",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "century"
+            }
+        ]
+    },
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "hand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hand",
+        "foreign_keys": [
+            {
+                "column": "hand",
+                "references": "relate"
+            }
+        ]
+    },
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "performance"
+            }
+        ]
+    },
+    {
+        "name": "performance",
+        "columns": [
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "author",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "once",
+        "foreign_keys": [
+            {
+                "column": "once",
+                "references": "last"
+            }
+        ]
+    }
+]

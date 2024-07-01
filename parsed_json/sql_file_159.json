@@ -1,0 +1,193 @@
+[
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "break",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "break",
+        "foreign_keys": [
+            {
+                "column": "break",
+                "references": "experience"
+            }
+        ]
+    },
+    {
+        "name": "experience",
+        "columns": [
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "start",
+        "foreign_keys": [
+            {
+                "column": "start",
+                "references": "many"
+            }
+        ]
+    },
+    {
+        "name": "many",
+        "columns": [
+            {
+                "name": "like",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "TEXT",
+                "references": null
+            }
+        ],
+        "primary_key": "like",
+        "foreign_keys": [
+            {
+                "column": "like",
+                "references": "work"
+            }
+        ]
+    },
+    {
+        "name": "work",
+        "columns": [
+            {
+                "name": "must",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "people",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "must",
+        "foreign_keys": [
+            {
+                "column": "must",
+                "references": "will"
+            }
+        ]
+    },
+    {
+        "name": "will",
+        "columns": [
+            {
+                "name": "the",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "almost"
+            }
+        ]
+    },
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "finally"
+            }
+        ]
+    },
+    {
+        "name": "finally",
+        "columns": [
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "week",
+        "foreign_keys": [
+            {
+                "column": "week",
+                "references": "main"
+            }
+        ]
+    },
+    {
+        "name": "main",
+        "columns": [
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lead",
+        "foreign_keys": [
+            {
+                "column": "lead",
+                "references": "box"
+            }
+        ]
+    }
+]

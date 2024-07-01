@@ -1,0 +1,127 @@
+[
+    {
+        "name": "east",
+        "columns": [
+            {
+                "name": "about",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reality",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "about",
+        "foreign_keys": [
+            {
+                "column": "about",
+                "references": "anyone"
+            }
+        ]
+    },
+    {
+        "name": "anyone",
+        "columns": [
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "garden",
+        "foreign_keys": [
+            {
+                "column": "garden",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "real",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "last",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "two",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "real",
+        "foreign_keys": [
+            {
+                "column": "real",
+                "references": "however"
+            }
+        ]
+    },
+    {
+        "name": "however",
+        "columns": [
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "by"
+            }
+        ]
+    },
+    {
+        "name": "by",
+        "columns": [
+            {
+                "name": "or",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "determine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "or",
+        "foreign_keys": [
+            {
+                "column": "or",
+                "references": "east"
+            }
+        ]
+    }
+]

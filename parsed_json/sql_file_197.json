@@ -1,0 +1,274 @@
+[
+    {
+        "name": "issue",
+        "columns": [
+            {
+                "name": "after",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "impact",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "impact",
+        "foreign_keys": [
+            {
+                "column": "impact",
+                "references": "avoid"
+            }
+        ]
+    },
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "day",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "air",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "day",
+        "foreign_keys": [
+            {
+                "column": "day",
+                "references": "player"
+            }
+        ]
+    },
+    {
+        "name": "player",
+        "columns": [
+            {
+                "name": "generation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "generation",
+        "foreign_keys": [
+            {
+                "column": "generation",
+                "references": "share"
+            }
+        ]
+    },
+    {
+        "name": "share",
+        "columns": [
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "also",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "industry",
+        "foreign_keys": [
+            {
+                "column": "industry",
+                "references": "daughter"
+            }
+        ]
+    },
+    {
+        "name": "daughter",
+        "columns": [
+            {
+                "name": "out",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "out",
+        "foreign_keys": [
+            {
+                "column": "out",
+                "references": "music"
+            }
+        ]
+    },
+    {
+        "name": "music",
+        "columns": [
+            {
+                "name": "save",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "save",
+        "foreign_keys": [
+            {
+                "column": "save",
+                "references": "civil"
+            }
+        ]
+    },
+    {
+        "name": "civil",
+        "columns": [
+            {
+                "name": "record",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "record",
+        "foreign_keys": [
+            {
+                "column": "record",
+                "references": "assume"
+            }
+        ]
+    },
+    {
+        "name": "assume",
+        "columns": [
+            {
+                "name": "hold",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hold",
+        "foreign_keys": [
+            {
+                "column": "hold",
+                "references": "this"
+            }
+        ]
+    },
+    {
+        "name": "this",
+        "columns": [
+            {
+                "name": "site",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "site",
+        "foreign_keys": [
+            {
+                "column": "site",
+                "references": "decade"
+            }
+        ]
+    },
+    {
+        "name": "decade",
+        "columns": [
+            {
+                "name": "fall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fall",
+        "foreign_keys": [
+            {
+                "column": "fall",
+                "references": "issue"
+            }
+        ]
+    }
+]

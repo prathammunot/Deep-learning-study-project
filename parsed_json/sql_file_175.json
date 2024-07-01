@@ -1,0 +1,176 @@
+[
+    {
+        "name": "inside",
+        "columns": [
+            {
+                "name": "customer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "customer",
+        "foreign_keys": [
+            {
+                "column": "customer",
+                "references": "heavy"
+            }
+        ]
+    },
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "than",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "than",
+        "foreign_keys": [
+            {
+                "column": "than",
+                "references": "plan"
+            }
+        ]
+    },
+    {
+        "name": "plan",
+        "columns": [
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "data",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "staff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "compare",
+        "foreign_keys": [
+            {
+                "column": "compare",
+                "references": "report"
+            }
+        ]
+    },
+    {
+        "name": "report",
+        "columns": [
+            {
+                "name": "paper",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "finally",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "paper",
+        "foreign_keys": [
+            {
+                "column": "paper",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "step",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pressure",
+        "foreign_keys": [
+            {
+                "column": "pressure",
+                "references": "coach"
+            }
+        ]
+    },
+    {
+        "name": "coach",
+        "columns": [
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fact",
+        "foreign_keys": [
+            {
+                "column": "fact",
+                "references": "perform"
+            }
+        ]
+    },
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "event",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "campaign",
+        "foreign_keys": [
+            {
+                "column": "campaign",
+                "references": "inside"
+            }
+        ]
+    }
+]

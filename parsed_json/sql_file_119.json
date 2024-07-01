@@ -1,0 +1,149 @@
+[
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "summer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "summer",
+        "foreign_keys": [
+            {
+                "column": "summer",
+                "references": "ten"
+            }
+        ]
+    },
+    {
+        "name": "ten",
+        "columns": [
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "study",
+        "foreign_keys": [
+            {
+                "column": "study",
+                "references": "all"
+            }
+        ]
+    },
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "must",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "must",
+        "foreign_keys": [
+            {
+                "column": "must",
+                "references": "democratic"
+            }
+        ]
+    },
+    {
+        "name": "democratic",
+        "columns": [
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "institution"
+            }
+        ]
+    },
+    {
+        "name": "institution",
+        "columns": [
+            {
+                "name": "general",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "various",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "general",
+        "foreign_keys": [
+            {
+                "column": "general",
+                "references": "good"
+            }
+        ]
+    },
+    {
+        "name": "good",
+        "columns": [
+            {
+                "name": "force",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "individual",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "skill"
+            }
+        ]
+    }
+]

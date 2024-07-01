@@ -1,0 +1,296 @@
+[
+    {
+        "name": "enter",
+        "columns": [
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "floor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "many"
+            }
+        ]
+    },
+    {
+        "name": "many",
+        "columns": [
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "detail"
+            }
+        ]
+    },
+    {
+        "name": "detail",
+        "columns": [
+            {
+                "name": "reveal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reveal",
+        "foreign_keys": [
+            {
+                "column": "reveal",
+                "references": "thus"
+            }
+        ]
+    },
+    {
+        "name": "thus",
+        "columns": [
+            {
+                "name": "brother",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agency",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "brother",
+        "foreign_keys": [
+            {
+                "column": "brother",
+                "references": "student"
+            }
+        ]
+    },
+    {
+        "name": "student",
+        "columns": [
+            {
+                "name": "build",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "half",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "build",
+        "foreign_keys": [
+            {
+                "column": "build",
+                "references": "week"
+            }
+        ]
+    },
+    {
+        "name": "week",
+        "columns": [
+            {
+                "name": "financial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "discover",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "financial",
+        "foreign_keys": [
+            {
+                "column": "financial",
+                "references": "moment"
+            }
+        ]
+    },
+    {
+        "name": "moment",
+        "columns": [
+            {
+                "name": "a",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "a",
+        "foreign_keys": [
+            {
+                "column": "a",
+                "references": "short"
+            }
+        ]
+    },
+    {
+        "name": "short",
+        "columns": [
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wear",
+        "foreign_keys": [
+            {
+                "column": "wear",
+                "references": "measure"
+            }
+        ]
+    },
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "carry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "standard",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "water"
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "columns": [
+            {
+                "name": "its",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "its",
+        "foreign_keys": [
+            {
+                "column": "its",
+                "references": "worker"
+            }
+        ]
+    },
+    {
+        "name": "worker",
+        "columns": [
+            {
+                "name": "and",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "and",
+        "foreign_keys": [
+            {
+                "column": "and",
+                "references": "tree"
+            }
+        ]
+    },
+    {
+        "name": "tree",
+        "columns": [
+            {
+                "name": "special",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "special",
+        "foreign_keys": [
+            {
+                "column": "special",
+                "references": "enter"
+            }
+        ]
+    }
+]

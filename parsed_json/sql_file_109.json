@@ -1,0 +1,149 @@
+[
+    {
+        "name": "alone",
+        "columns": [
+            {
+                "name": "tonight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tonight",
+        "foreign_keys": [
+            {
+                "column": "tonight",
+                "references": "tough"
+            }
+        ]
+    },
+    {
+        "name": "tough",
+        "columns": [
+            {
+                "name": "design",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "design",
+        "foreign_keys": [
+            {
+                "column": "design",
+                "references": "college"
+            }
+        ]
+    },
+    {
+        "name": "college",
+        "columns": [
+            {
+                "name": "main",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "we"
+            }
+        ]
+    },
+    {
+        "name": "we",
+        "columns": [
+            {
+                "name": "newspaper",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "newspaper",
+        "foreign_keys": [
+            {
+                "column": "newspaper",
+                "references": "worry"
+            }
+        ]
+    },
+    {
+        "name": "worry",
+        "columns": [
+            {
+                "name": "final",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "together",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "alone"
+            }
+        ]
+    }
+]

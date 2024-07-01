@@ -1,0 +1,127 @@
+[
+    {
+        "name": "wear",
+        "columns": [
+            {
+                "name": "also",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interesting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "also",
+        "foreign_keys": [
+            {
+                "column": "also",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "probably",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "probably",
+        "foreign_keys": [
+            {
+                "column": "probably",
+                "references": "environmental"
+            }
+        ]
+    },
+    {
+        "name": "environmental",
+        "columns": [
+            {
+                "name": "town",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "town",
+        "foreign_keys": [
+            {
+                "column": "town",
+                "references": "evidence"
+            }
+        ]
+    },
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "speech",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "speech",
+        "foreign_keys": [
+            {
+                "column": "speech",
+                "references": "every"
+            }
+        ]
+    },
+    {
+        "name": "every",
+        "columns": [
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "significant",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "wear"
+            }
+        ]
+    }
+]

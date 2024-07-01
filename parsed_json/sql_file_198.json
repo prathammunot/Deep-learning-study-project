@@ -1,0 +1,127 @@
+[
+    {
+        "name": "source",
+        "columns": [
+            {
+                "name": "rise",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rise",
+        "foreign_keys": [
+            {
+                "column": "rise",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "fine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fine",
+        "foreign_keys": [
+            {
+                "column": "fine",
+                "references": "drive"
+            }
+        ]
+    },
+    {
+        "name": "drive",
+        "columns": [
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "talk",
+        "foreign_keys": [
+            {
+                "column": "talk",
+                "references": "in"
+            }
+        ]
+    },
+    {
+        "name": "in",
+        "columns": [
+            {
+                "name": "reality",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reality",
+        "foreign_keys": [
+            {
+                "column": "reality",
+                "references": "debate"
+            }
+        ]
+    },
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "source"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "name": "despite",
+        "columns": [
+            {
+                "name": "less",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "special",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "tend"
+            }
+        ]
+    },
+    {
+        "name": "tend",
+        "columns": [
+            {
+                "name": "unit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "unit",
+        "foreign_keys": [
+            {
+                "column": "unit",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "class",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "participant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "class",
+        "foreign_keys": [
+            {
+                "column": "class",
+                "references": "easy"
+            }
+        ]
+    },
+    {
+        "name": "easy",
+        "columns": [
+            {
+                "name": "check",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "particularly"
+            }
+        ]
+    },
+    {
+        "name": "particularly",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "available",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "put",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "team",
+        "foreign_keys": [
+            {
+                "column": "team",
+                "references": "call"
+            }
+        ]
+    },
+    {
+        "name": "call",
+        "columns": [
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "same",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "despite"
+            }
+        ]
+    }
+]

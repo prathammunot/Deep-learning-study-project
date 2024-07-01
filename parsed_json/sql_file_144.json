@@ -1,0 +1,247 @@
+[
+    {
+        "name": "whatever",
+        "columns": [
+            {
+                "name": "view",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "view",
+        "foreign_keys": [
+            {
+                "column": "view",
+                "references": "past"
+            }
+        ]
+    },
+    {
+        "name": "past",
+        "columns": [
+            {
+                "name": "key",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "key",
+        "foreign_keys": [
+            {
+                "column": "key",
+                "references": "arrive"
+            }
+        ]
+    },
+    {
+        "name": "arrive",
+        "columns": [
+            {
+                "name": "stay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ago",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stay",
+        "foreign_keys": [
+            {
+                "column": "stay",
+                "references": "work"
+            }
+        ]
+    },
+    {
+        "name": "work",
+        "columns": [
+            {
+                "name": "type",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "official",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "type",
+        "foreign_keys": [
+            {
+                "column": "type",
+                "references": "not"
+            }
+        ]
+    },
+    {
+        "name": "not",
+        "columns": [
+            {
+                "name": "specific",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "enjoy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "specific",
+        "foreign_keys": [
+            {
+                "column": "specific",
+                "references": "effort"
+            }
+        ]
+    },
+    {
+        "name": "effort",
+        "columns": [
+            {
+                "name": "eat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "eat",
+        "foreign_keys": [
+            {
+                "column": "eat",
+                "references": "popular"
+            }
+        ]
+    },
+    {
+        "name": "popular",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "budget",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cause",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "place"
+            }
+        ]
+    },
+    {
+        "name": "place",
+        "columns": [
+            {
+                "name": "cell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cell",
+        "foreign_keys": [
+            {
+                "column": "cell",
+                "references": "improve"
+            }
+        ]
+    },
+    {
+        "name": "improve",
+        "columns": [
+            {
+                "name": "alone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "alone",
+        "foreign_keys": [
+            {
+                "column": "alone",
+                "references": "into"
+            }
+        ]
+    },
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "protect",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "protect",
+        "foreign_keys": [
+            {
+                "column": "protect",
+                "references": "whatever"
+            }
+        ]
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "middle",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "option"
+            }
+        ]
+    },
+    {
+        "name": "option",
+        "columns": [
+            {
+                "name": "win",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reveal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "win",
+        "foreign_keys": [
+            {
+                "column": "win",
+                "references": "pass"
+            }
+        ]
+    },
+    {
+        "name": "pass",
+        "columns": [
+            {
+                "name": "long",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "story"
+            }
+        ]
+    },
+    {
+        "name": "story",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "natural",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "care"
+            }
+        ]
+    },
+    {
+        "name": "care",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tax",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "beyond"
+            }
+        ]
+    },
+    {
+        "name": "beyond",
+        "columns": [
+            {
+                "name": "level",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "level",
+        "foreign_keys": [
+            {
+                "column": "level",
+                "references": "culture"
+            }
+        ]
+    }
+]

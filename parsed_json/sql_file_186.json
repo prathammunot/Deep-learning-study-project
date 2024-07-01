@@ -1,0 +1,247 @@
+[
+    {
+        "name": "record",
+        "columns": [
+            {
+                "name": "well",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trip",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "well",
+        "foreign_keys": [
+            {
+                "column": "well",
+                "references": "debate"
+            }
+        ]
+    },
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "last",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "last",
+        "foreign_keys": [
+            {
+                "column": "last",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "action",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "action",
+        "foreign_keys": [
+            {
+                "column": "action",
+                "references": "take"
+            }
+        ]
+    },
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "street",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "animal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "street",
+        "foreign_keys": [
+            {
+                "column": "street",
+                "references": "since"
+            }
+        ]
+    },
+    {
+        "name": "since",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "player"
+            }
+        ]
+    },
+    {
+        "name": "player",
+        "columns": [
+            {
+                "name": "week",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "week",
+        "foreign_keys": [
+            {
+                "column": "week",
+                "references": "forget"
+            }
+        ]
+    },
+    {
+        "name": "forget",
+        "columns": [
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "him",
+        "foreign_keys": [
+            {
+                "column": "him",
+                "references": "especially"
+            }
+        ]
+    },
+    {
+        "name": "especially",
+        "columns": [
+            {
+                "name": "late",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "affect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "late",
+        "foreign_keys": [
+            {
+                "column": "late",
+                "references": "during"
+            }
+        ]
+    },
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "make",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "make",
+        "foreign_keys": [
+            {
+                "column": "make",
+                "references": "record"
+            }
+        ]
+    }
+]

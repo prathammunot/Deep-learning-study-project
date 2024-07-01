@@ -1,0 +1,176 @@
+[
+    {
+        "name": "relationship",
+        "columns": [
+            {
+                "name": "try",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "try",
+        "foreign_keys": [
+            {
+                "column": "try",
+                "references": "international"
+            }
+        ]
+    },
+    {
+        "name": "international",
+        "columns": [
+            {
+                "name": "song",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "song",
+        "foreign_keys": [
+            {
+                "column": "song",
+                "references": "project"
+            }
+        ]
+    },
+    {
+        "name": "project",
+        "columns": [
+            {
+                "name": "by",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "by",
+        "foreign_keys": [
+            {
+                "column": "by",
+                "references": "college"
+            }
+        ]
+    },
+    {
+        "name": "college",
+        "columns": [
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "off",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "garden"
+            }
+        ]
+    },
+    {
+        "name": "garden",
+        "columns": [
+            {
+                "name": "within",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "within",
+        "foreign_keys": [
+            {
+                "column": "within",
+                "references": "box"
+            }
+        ]
+    },
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "analysis",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "analysis",
+        "foreign_keys": [
+            {
+                "column": "analysis",
+                "references": "relationship"
+            }
+        ]
+    }
+]

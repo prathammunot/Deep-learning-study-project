@@ -1,0 +1,274 @@
+[
+    {
+        "name": "the",
+        "columns": [
+            {
+                "name": "difference",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "address",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "difference",
+        "foreign_keys": [
+            {
+                "column": "difference",
+                "references": "behind"
+            }
+        ]
+    },
+    {
+        "name": "behind",
+        "columns": [
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "human"
+            }
+        ]
+    },
+    {
+        "name": "human",
+        "columns": [
+            {
+                "name": "claim",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "accept",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "claim",
+        "foreign_keys": [
+            {
+                "column": "claim",
+                "references": "end"
+            }
+        ]
+    },
+    {
+        "name": "end",
+        "columns": [
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "reduce"
+            }
+        ]
+    },
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "ball",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ball",
+        "foreign_keys": [
+            {
+                "column": "ball",
+                "references": "military"
+            }
+        ]
+    },
+    {
+        "name": "military",
+        "columns": [
+            {
+                "name": "reduce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reduce",
+        "foreign_keys": [
+            {
+                "column": "reduce",
+                "references": "if"
+            }
+        ]
+    },
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "cell"
+            }
+        ]
+    },
+    {
+        "name": "cell",
+        "columns": [
+            {
+                "name": "law",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "law",
+        "foreign_keys": [
+            {
+                "column": "law",
+                "references": "magazine"
+            }
+        ]
+    },
+    {
+        "name": "magazine",
+        "columns": [
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "director",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "well"
+            }
+        ]
+    },
+    {
+        "name": "well",
+        "columns": [
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seem",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lead",
+        "foreign_keys": [
+            {
+                "column": "lead",
+                "references": "relationship"
+            }
+        ]
+    },
+    {
+        "name": "relationship",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "commercial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "the"
+            }
+        ]
+    }
+]

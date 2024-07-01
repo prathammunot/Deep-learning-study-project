@@ -1,0 +1,225 @@
+[
+    {
+        "name": "despite",
+        "columns": [
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "image",
+        "foreign_keys": [
+            {
+                "column": "image",
+                "references": "performance"
+            }
+        ]
+    },
+    {
+        "name": "performance",
+        "columns": [
+            {
+                "name": "identify",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "identify",
+        "foreign_keys": [
+            {
+                "column": "identify",
+                "references": "relate"
+            }
+        ]
+    },
+    {
+        "name": "relate",
+        "columns": [
+            {
+                "name": "interesting",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "customer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "interesting",
+        "foreign_keys": [
+            {
+                "column": "interesting",
+                "references": "use"
+            }
+        ]
+    },
+    {
+        "name": "use",
+        "columns": [
+            {
+                "name": "evidence",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evidence",
+        "foreign_keys": [
+            {
+                "column": "evidence",
+                "references": "alone"
+            }
+        ]
+    },
+    {
+        "name": "alone",
+        "columns": [
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "past",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "now",
+        "foreign_keys": [
+            {
+                "column": "now",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "short",
+        "foreign_keys": [
+            {
+                "column": "short",
+                "references": "eat"
+            }
+        ]
+    },
+    {
+        "name": "eat",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "try"
+            }
+        ]
+    },
+    {
+        "name": "try",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pull",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "despite"
+            }
+        ]
+    }
+]

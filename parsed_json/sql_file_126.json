@@ -1,0 +1,198 @@
+[
+    {
+        "name": "hair",
+        "columns": [
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "contain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "wonder"
+            }
+        ]
+    },
+    {
+        "name": "wonder",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "enter"
+            }
+        ]
+    },
+    {
+        "name": "enter",
+        "columns": [
+            {
+                "name": "lot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "alone",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "find",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lot",
+        "foreign_keys": [
+            {
+                "column": "lot",
+                "references": "bit"
+            }
+        ]
+    },
+    {
+        "name": "bit",
+        "columns": [
+            {
+                "name": "star",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "star",
+        "foreign_keys": [
+            {
+                "column": "star",
+                "references": "support"
+            }
+        ]
+    },
+    {
+        "name": "support",
+        "columns": [
+            {
+                "name": "fund",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fund",
+        "foreign_keys": [
+            {
+                "column": "fund",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "hear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hear",
+        "foreign_keys": [
+            {
+                "column": "hear",
+                "references": "spring"
+            }
+        ]
+    },
+    {
+        "name": "spring",
+        "columns": [
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "least",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "source"
+            }
+        ]
+    },
+    {
+        "name": "source",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "hair"
+            }
+        ]
+    }
+]

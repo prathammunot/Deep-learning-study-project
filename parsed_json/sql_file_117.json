@@ -1,0 +1,198 @@
+[
+    {
+        "name": "approach",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "customer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "which"
+            }
+        ]
+    },
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "people",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "the"
+            }
+        ]
+    },
+    {
+        "name": "the",
+        "columns": [
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hour",
+        "foreign_keys": [
+            {
+                "column": "hour",
+                "references": "because"
+            }
+        ]
+    },
+    {
+        "name": "because",
+        "columns": [
+            {
+                "name": "occur",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "occur",
+        "foreign_keys": [
+            {
+                "column": "occur",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "science",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "herself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "science",
+        "foreign_keys": [
+            {
+                "column": "science",
+                "references": "draw"
+            }
+        ]
+    },
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "main",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "check"
+            }
+        ]
+    },
+    {
+        "name": "check",
+        "columns": [
+            {
+                "name": "practice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "practice",
+        "foreign_keys": [
+            {
+                "column": "practice",
+                "references": "strong"
+            }
+        ]
+    },
+    {
+        "name": "strong",
+        "columns": [
+            {
+                "name": "record",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "record",
+        "foreign_keys": [
+            {
+                "column": "record",
+                "references": "approach"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "point",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "point",
+        "foreign_keys": [
+            {
+                "column": "point",
+                "references": "recognize"
+            }
+        ]
+    },
+    {
+        "name": "recognize",
+        "columns": [
+            {
+                "name": "detail",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "detail",
+        "foreign_keys": [
+            {
+                "column": "detail",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "age",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "school"
+            }
+        ]
+    },
+    {
+        "name": "school",
+        "columns": [
+            {
+                "name": "partner",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "partner",
+        "foreign_keys": [
+            {
+                "column": "partner",
+                "references": "dog"
+            }
+        ]
+    },
+    {
+        "name": "dog",
+        "columns": [
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "effect"
+            }
+        ]
+    },
+    {
+        "name": "effect",
+        "columns": [
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "forget",
+        "foreign_keys": [
+            {
+                "column": "forget",
+                "references": "so"
+            }
+        ]
+    },
+    {
+        "name": "so",
+        "columns": [
+            {
+                "name": "keep",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "keep",
+        "foreign_keys": [
+            {
+                "column": "keep",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "yard",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yard",
+        "foreign_keys": [
+            {
+                "column": "yard",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "claim",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "claim",
+        "foreign_keys": [
+            {
+                "column": "claim",
+                "references": "final"
+            }
+        ]
+    },
+    {
+        "name": "final",
+        "columns": [
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "five",
+        "foreign_keys": [
+            {
+                "column": "five",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "say",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "business",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "improve",
+        "foreign_keys": [
+            {
+                "column": "improve",
+                "references": "force"
+            }
+        ]
+    }
+]

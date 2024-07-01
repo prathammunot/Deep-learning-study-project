@@ -1,0 +1,198 @@
+[
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "after",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "answer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "money",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mission",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "money",
+        "foreign_keys": [
+            {
+                "column": "money",
+                "references": "turn"
+            }
+        ]
+    },
+    {
+        "name": "turn",
+        "columns": [
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "compare",
+        "foreign_keys": [
+            {
+                "column": "compare",
+                "references": "long"
+            }
+        ]
+    },
+    {
+        "name": "long",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "create",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "turn"
+            }
+        ]
+    },
+    {
+        "name": "turn",
+        "columns": [
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "onto",
+        "foreign_keys": [
+            {
+                "column": "onto",
+                "references": "doctor"
+            }
+        ]
+    },
+    {
+        "name": "doctor",
+        "columns": [
+            {
+                "name": "resource",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "resource",
+        "foreign_keys": [
+            {
+                "column": "resource",
+                "references": "hit"
+            }
+        ]
+    },
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "plan"
+            }
+        ]
+    },
+    {
+        "name": "plan",
+        "columns": [
+            {
+                "name": "step",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yes",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "step",
+        "foreign_keys": [
+            {
+                "column": "step",
+                "references": "behavior"
+            }
+        ]
+    }
+]

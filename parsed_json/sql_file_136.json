@@ -1,0 +1,127 @@
+[
+    {
+        "name": "somebody",
+        "columns": [
+            {
+                "name": "factor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "factor",
+        "foreign_keys": [
+            {
+                "column": "factor",
+                "references": "space"
+            }
+        ]
+    },
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "shake",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "shake",
+        "foreign_keys": [
+            {
+                "column": "shake",
+                "references": "lead"
+            }
+        ]
+    },
+    {
+        "name": "lead",
+        "columns": [
+            {
+                "name": "join",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "join",
+        "foreign_keys": [
+            {
+                "column": "join",
+                "references": "all"
+            }
+        ]
+    },
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "mother",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mother",
+        "foreign_keys": [
+            {
+                "column": "mother",
+                "references": "feeling"
+            }
+        ]
+    },
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "somebody"
+            }
+        ]
+    }
+]

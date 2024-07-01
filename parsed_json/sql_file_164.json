@@ -1,0 +1,198 @@
+[
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "central",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "man",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "our"
+            }
+        ]
+    },
+    {
+        "name": "our",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "most",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "around"
+            }
+        ]
+    },
+    {
+        "name": "around",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "determine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "be",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "economy"
+            }
+        ]
+    },
+    {
+        "name": "economy",
+        "columns": [
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "perform",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "school",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "true",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "school",
+        "foreign_keys": [
+            {
+                "column": "school",
+                "references": "understand"
+            }
+        ]
+    },
+    {
+        "name": "understand",
+        "columns": [
+            {
+                "name": "boy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "boy",
+        "foreign_keys": [
+            {
+                "column": "boy",
+                "references": "quality"
+            }
+        ]
+    },
+    {
+        "name": "quality",
+        "columns": [
+            {
+                "name": "a",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "a",
+        "foreign_keys": [
+            {
+                "column": "a",
+                "references": "field"
+            }
+        ]
+    },
+    {
+        "name": "field",
+        "columns": [
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "baby",
+        "foreign_keys": [
+            {
+                "column": "baby",
+                "references": "take"
+            }
+        ]
+    }
+]

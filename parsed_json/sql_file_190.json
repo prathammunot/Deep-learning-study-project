@@ -1,0 +1,127 @@
+[
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ground",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "subject",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "subject",
+        "foreign_keys": [
+            {
+                "column": "subject",
+                "references": "each"
+            }
+        ]
+    },
+    {
+        "name": "each",
+        "columns": [
+            {
+                "name": "bring",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bring",
+        "foreign_keys": [
+            {
+                "column": "bring",
+                "references": "heart"
+            }
+        ]
+    },
+    {
+        "name": "heart",
+        "columns": [
+            {
+                "name": "value",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "about",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "value",
+        "foreign_keys": [
+            {
+                "column": "value",
+                "references": "threat"
+            }
+        ]
+    },
+    {
+        "name": "threat",
+        "columns": [
+            {
+                "name": "eat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "produce",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eat",
+        "foreign_keys": [
+            {
+                "column": "eat",
+                "references": "very"
+            }
+        ]
+    }
+]

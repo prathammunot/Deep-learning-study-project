@@ -1,0 +1,198 @@
+[
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cause",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "about",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hit",
+        "foreign_keys": [
+            {
+                "column": "hit",
+                "references": "down"
+            }
+        ]
+    },
+    {
+        "name": "down",
+        "columns": [
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "well",
+        "foreign_keys": [
+            {
+                "column": "well",
+                "references": "visit"
+            }
+        ]
+    },
+    {
+        "name": "visit",
+        "columns": [
+            {
+                "name": "social",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "finally",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "social",
+        "foreign_keys": [
+            {
+                "column": "social",
+                "references": "necessary"
+            }
+        ]
+    },
+    {
+        "name": "necessary",
+        "columns": [
+            {
+                "name": "necessary",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "similar",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "necessary",
+        "foreign_keys": [
+            {
+                "column": "necessary",
+                "references": "happen"
+            }
+        ]
+    },
+    {
+        "name": "happen",
+        "columns": [
+            {
+                "name": "could",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "day",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "could",
+        "foreign_keys": [
+            {
+                "column": "could",
+                "references": "police"
+            }
+        ]
+    },
+    {
+        "name": "police",
+        "columns": [
+            {
+                "name": "avoid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "avoid",
+        "foreign_keys": [
+            {
+                "column": "avoid",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prevent",
+        "foreign_keys": [
+            {
+                "column": "prevent",
+                "references": "town"
+            }
+        ]
+    },
+    {
+        "name": "town",
+        "columns": [
+            {
+                "name": "meet",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "know",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "meet",
+        "foreign_keys": [
+            {
+                "column": "meet",
+                "references": "population"
+            }
+        ]
+    }
+]

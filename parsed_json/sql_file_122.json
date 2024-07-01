@@ -1,0 +1,176 @@
+[
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "actually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "position",
+        "foreign_keys": [
+            {
+                "column": "position",
+                "references": "along"
+            }
+        ]
+    },
+    {
+        "name": "along",
+        "columns": [
+            {
+                "name": "seek",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arrive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seek",
+        "foreign_keys": [
+            {
+                "column": "seek",
+                "references": "dinner"
+            }
+        ]
+    },
+    {
+        "name": "dinner",
+        "columns": [
+            {
+                "name": "key",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "better",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "key",
+        "foreign_keys": [
+            {
+                "column": "key",
+                "references": "few"
+            }
+        ]
+    },
+    {
+        "name": "few",
+        "columns": [
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "discussion"
+            }
+        ]
+    },
+    {
+        "name": "discussion",
+        "columns": [
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thing",
+        "foreign_keys": [
+            {
+                "column": "thing",
+                "references": "machine"
+            }
+        ]
+    },
+    {
+        "name": "machine",
+        "columns": [
+            {
+                "name": "two",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "two",
+        "foreign_keys": [
+            {
+                "column": "two",
+                "references": "even"
+            }
+        ]
+    },
+    {
+        "name": "even",
+        "columns": [
+            {
+                "name": "over",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "often"
+            }
+        ]
+    }
+]

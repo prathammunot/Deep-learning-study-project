@@ -1,0 +1,247 @@
+[
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thousand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "market",
+        "foreign_keys": [
+            {
+                "column": "market",
+                "references": "record"
+            }
+        ]
+    },
+    {
+        "name": "record",
+        "columns": [
+            {
+                "name": "teacher",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "teacher",
+        "foreign_keys": [
+            {
+                "column": "teacher",
+                "references": "than"
+            }
+        ]
+    },
+    {
+        "name": "than",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "great"
+            }
+        ]
+    },
+    {
+        "name": "great",
+        "columns": [
+            {
+                "name": "once",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "once",
+        "foreign_keys": [
+            {
+                "column": "once",
+                "references": "night"
+            }
+        ]
+    },
+    {
+        "name": "night",
+        "columns": [
+            {
+                "name": "impact",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "impact",
+        "foreign_keys": [
+            {
+                "column": "impact",
+                "references": "send"
+            }
+        ]
+    },
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "industry",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "industry",
+        "foreign_keys": [
+            {
+                "column": "industry",
+                "references": "send"
+            }
+        ]
+    },
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "improve",
+        "foreign_keys": [
+            {
+                "column": "improve",
+                "references": "future"
+            }
+        ]
+    },
+    {
+        "name": "future",
+        "columns": [
+            {
+                "name": "area",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "area",
+        "foreign_keys": [
+            {
+                "column": "area",
+                "references": "week"
+            }
+        ]
+    },
+    {
+        "name": "week",
+        "columns": [
+            {
+                "name": "since",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "since",
+        "foreign_keys": [
+            {
+                "column": "since",
+                "references": "into"
+            }
+        ]
+    },
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "hospital",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hospital",
+        "foreign_keys": [
+            {
+                "column": "hospital",
+                "references": "air"
+            }
+        ]
+    }
+]

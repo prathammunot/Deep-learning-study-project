@@ -1,0 +1,149 @@
+[
+    {
+        "name": "charge",
+        "columns": [
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "husband",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "husband",
+        "foreign_keys": [
+            {
+                "column": "husband",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "family"
+            }
+        ]
+    },
+    {
+        "name": "family",
+        "columns": [
+            {
+                "name": "arrive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "arrive",
+        "foreign_keys": [
+            {
+                "column": "arrive",
+                "references": "factor"
+            }
+        ]
+    },
+    {
+        "name": "factor",
+        "columns": [
+            {
+                "name": "fall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fall",
+        "foreign_keys": [
+            {
+                "column": "fall",
+                "references": "recent"
+            }
+        ]
+    },
+    {
+        "name": "recent",
+        "columns": [
+            {
+                "name": "here",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "care",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "here",
+        "foreign_keys": [
+            {
+                "column": "here",
+                "references": "charge"
+            }
+        ]
+    }
+]

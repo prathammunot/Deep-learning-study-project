@@ -1,0 +1,269 @@
+[
+    {
+        "name": "born",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "course",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "direction"
+            }
+        ]
+    },
+    {
+        "name": "direction",
+        "columns": [
+            {
+                "name": "much",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "much",
+        "foreign_keys": [
+            {
+                "column": "much",
+                "references": "difficult"
+            }
+        ]
+    },
+    {
+        "name": "difficult",
+        "columns": [
+            {
+                "name": "television",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "floor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "television",
+        "foreign_keys": [
+            {
+                "column": "television",
+                "references": "front"
+            }
+        ]
+    },
+    {
+        "name": "front",
+        "columns": [
+            {
+                "name": "individual",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "individual",
+        "foreign_keys": [
+            {
+                "column": "individual",
+                "references": "could"
+            }
+        ]
+    },
+    {
+        "name": "could",
+        "columns": [
+            {
+                "name": "last",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "last",
+        "foreign_keys": [
+            {
+                "column": "last",
+                "references": "nearly"
+            }
+        ]
+    },
+    {
+        "name": "nearly",
+        "columns": [
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "hope"
+            }
+        ]
+    },
+    {
+        "name": "hope",
+        "columns": [
+            {
+                "name": "age",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "item",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "none"
+            }
+        ]
+    },
+    {
+        "name": "none",
+        "columns": [
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "summer"
+            }
+        ]
+    },
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "see",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "level"
+            }
+        ]
+    },
+    {
+        "name": "level",
+        "columns": [
+            {
+                "name": "east",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "east",
+        "foreign_keys": [
+            {
+                "column": "east",
+                "references": "song"
+            }
+        ]
+    },
+    {
+        "name": "song",
+        "columns": [
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "state",
+        "foreign_keys": [
+            {
+                "column": "state",
+                "references": "born"
+            }
+        ]
+    }
+]

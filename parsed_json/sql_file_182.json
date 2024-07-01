@@ -1,0 +1,127 @@
+[
+    {
+        "name": "put",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "eight"
+            }
+        ]
+    },
+    {
+        "name": "eight",
+        "columns": [
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "memory"
+            }
+        ]
+    },
+    {
+        "name": "memory",
+        "columns": [
+            {
+                "name": "similar",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "similar",
+        "foreign_keys": [
+            {
+                "column": "similar",
+                "references": "major"
+            }
+        ]
+    },
+    {
+        "name": "major",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "quality",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quality",
+        "foreign_keys": [
+            {
+                "column": "quality",
+                "references": "put"
+            }
+        ]
+    }
+]

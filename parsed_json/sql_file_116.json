@@ -1,0 +1,176 @@
+[
+    {
+        "name": "big",
+        "columns": [
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "development",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "most",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "south",
+        "foreign_keys": [
+            {
+                "column": "south",
+                "references": "about"
+            }
+        ]
+    },
+    {
+        "name": "about",
+        "columns": [
+            {
+                "name": "drive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drive",
+        "foreign_keys": [
+            {
+                "column": "drive",
+                "references": "present"
+            }
+        ]
+    },
+    {
+        "name": "present",
+        "columns": [
+            {
+                "name": "main",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "by",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "main",
+        "foreign_keys": [
+            {
+                "column": "main",
+                "references": "much"
+            }
+        ]
+    },
+    {
+        "name": "much",
+        "columns": [
+            {
+                "name": "bar",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bar",
+        "foreign_keys": [
+            {
+                "column": "bar",
+                "references": "serve"
+            }
+        ]
+    },
+    {
+        "name": "serve",
+        "columns": [
+            {
+                "name": "sea",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sea",
+        "foreign_keys": [
+            {
+                "column": "sea",
+                "references": "authority"
+            }
+        ]
+    },
+    {
+        "name": "authority",
+        "columns": [
+            {
+                "name": "child",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "child",
+        "foreign_keys": [
+            {
+                "column": "child",
+                "references": "market"
+            }
+        ]
+    },
+    {
+        "name": "market",
+        "columns": [
+            {
+                "name": "we",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "we",
+        "foreign_keys": [
+            {
+                "column": "we",
+                "references": "big"
+            }
+        ]
+    }
+]

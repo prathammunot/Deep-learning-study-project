@@ -1,0 +1,247 @@
+[
+    {
+        "name": "serve",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "ask"
+            }
+        ]
+    },
+    {
+        "name": "ask",
+        "columns": [
+            {
+                "name": "until",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "later",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "until",
+        "foreign_keys": [
+            {
+                "column": "until",
+                "references": "rather"
+            }
+        ]
+    },
+    {
+        "name": "rather",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "half",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "use"
+            }
+        ]
+    },
+    {
+        "name": "use",
+        "columns": [
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "central",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "purpose",
+        "foreign_keys": [
+            {
+                "column": "purpose",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "up",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "must",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "up",
+        "foreign_keys": [
+            {
+                "column": "up",
+                "references": "professor"
+            }
+        ]
+    },
+    {
+        "name": "professor",
+        "columns": [
+            {
+                "name": "central",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "central",
+        "foreign_keys": [
+            {
+                "column": "central",
+                "references": "left"
+            }
+        ]
+    },
+    {
+        "name": "left",
+        "columns": [
+            {
+                "name": "dark",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dark",
+        "foreign_keys": [
+            {
+                "column": "dark",
+                "references": "politics"
+            }
+        ]
+    },
+    {
+        "name": "politics",
+        "columns": [
+            {
+                "name": "if",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "if",
+        "foreign_keys": [
+            {
+                "column": "if",
+                "references": "short"
+            }
+        ]
+    },
+    {
+        "name": "short",
+        "columns": [
+            {
+                "name": "memory",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tax",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "memory",
+        "foreign_keys": [
+            {
+                "column": "memory",
+                "references": "school"
+            }
+        ]
+    },
+    {
+        "name": "school",
+        "columns": [
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "officer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sort",
+        "foreign_keys": [
+            {
+                "column": "sort",
+                "references": "serve"
+            }
+        ]
+    }
+]

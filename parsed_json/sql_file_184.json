@@ -1,0 +1,127 @@
+[
+    {
+        "name": "person",
+        "columns": [
+            {
+                "name": "beyond",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beyond",
+        "foreign_keys": [
+            {
+                "column": "beyond",
+                "references": "perform"
+            }
+        ]
+    },
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "coach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "coach",
+        "foreign_keys": [
+            {
+                "column": "coach",
+                "references": "lawyer"
+            }
+        ]
+    },
+    {
+        "name": "lawyer",
+        "columns": [
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nothing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sport",
+        "foreign_keys": [
+            {
+                "column": "sport",
+                "references": "close"
+            }
+        ]
+    },
+    {
+        "name": "close",
+        "columns": [
+            {
+                "name": "build",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "build",
+        "foreign_keys": [
+            {
+                "column": "build",
+                "references": "wall"
+            }
+        ]
+    },
+    {
+        "name": "wall",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "military",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "person"
+            }
+        ]
+    }
+]

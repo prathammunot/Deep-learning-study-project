@@ -1,0 +1,198 @@
+[
+    {
+        "name": "wish",
+        "columns": [
+            {
+                "name": "cell",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "his",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cell",
+        "foreign_keys": [
+            {
+                "column": "cell",
+                "references": "Mrs"
+            }
+        ]
+    },
+    {
+        "name": "Mrs",
+        "columns": [
+            {
+                "name": "fall",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dream",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fall",
+        "foreign_keys": [
+            {
+                "column": "fall",
+                "references": "focus"
+            }
+        ]
+    },
+    {
+        "name": "focus",
+        "columns": [
+            {
+                "name": "wall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wall",
+        "foreign_keys": [
+            {
+                "column": "wall",
+                "references": "recent"
+            }
+        ]
+    },
+    {
+        "name": "recent",
+        "columns": [
+            {
+                "name": "century",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "century",
+        "foreign_keys": [
+            {
+                "column": "century",
+                "references": "property"
+            }
+        ]
+    },
+    {
+        "name": "property",
+        "columns": [
+            {
+                "name": "she",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "job",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "she",
+        "foreign_keys": [
+            {
+                "column": "she",
+                "references": "training"
+            }
+        ]
+    },
+    {
+        "name": "training",
+        "columns": [
+            {
+                "name": "court",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "half",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "court",
+        "foreign_keys": [
+            {
+                "column": "court",
+                "references": "major"
+            }
+        ]
+    },
+    {
+        "name": "major",
+        "columns": [
+            {
+                "name": "push",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "push",
+        "foreign_keys": [
+            {
+                "column": "push",
+                "references": "drop"
+            }
+        ]
+    },
+    {
+        "name": "drop",
+        "columns": [
+            {
+                "name": "network",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "strategy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "network",
+        "foreign_keys": [
+            {
+                "column": "network",
+                "references": "wish"
+            }
+        ]
+    }
+]

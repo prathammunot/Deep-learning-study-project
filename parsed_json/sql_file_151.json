@@ -1,0 +1,176 @@
+[
+    {
+        "name": "everything",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "analysis"
+            }
+        ]
+    },
+    {
+        "name": "analysis",
+        "columns": [
+            {
+                "name": "bit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bit",
+        "foreign_keys": [
+            {
+                "column": "bit",
+                "references": "nation"
+            }
+        ]
+    },
+    {
+        "name": "nation",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "letter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "visit"
+            }
+        ]
+    },
+    {
+        "name": "visit",
+        "columns": [
+            {
+                "name": "since",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "since",
+        "foreign_keys": [
+            {
+                "column": "since",
+                "references": "new"
+            }
+        ]
+    },
+    {
+        "name": "new",
+        "columns": [
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "allow",
+        "foreign_keys": [
+            {
+                "column": "allow",
+                "references": "approach"
+            }
+        ]
+    },
+    {
+        "name": "approach",
+        "columns": [
+            {
+                "name": "employee",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "employee",
+        "foreign_keys": [
+            {
+                "column": "employee",
+                "references": "recently"
+            }
+        ]
+    },
+    {
+        "name": "recently",
+        "columns": [
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "onto",
+        "foreign_keys": [
+            {
+                "column": "onto",
+                "references": "everything"
+            }
+        ]
+    }
+]

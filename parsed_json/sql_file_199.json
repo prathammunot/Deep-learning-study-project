@@ -1,0 +1,269 @@
+[
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "author",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "church",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "author",
+        "foreign_keys": [
+            {
+                "column": "author",
+                "references": "worker"
+            }
+        ]
+    },
+    {
+        "name": "worker",
+        "columns": [
+            {
+                "name": "base",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "someone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "base",
+        "foreign_keys": [
+            {
+                "column": "base",
+                "references": "list"
+            }
+        ]
+    },
+    {
+        "name": "list",
+        "columns": [
+            {
+                "name": "across",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "foreign",
+        "foreign_keys": [
+            {
+                "column": "foreign",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "each",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "each",
+        "foreign_keys": [
+            {
+                "column": "each",
+                "references": "open"
+            }
+        ]
+    },
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "small",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "activity"
+            }
+        ]
+    },
+    {
+        "name": "activity",
+        "columns": [
+            {
+                "name": "bag",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bag",
+        "foreign_keys": [
+            {
+                "column": "bag",
+                "references": "attack"
+            }
+        ]
+    },
+    {
+        "name": "attack",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "since"
+            }
+        ]
+    },
+    {
+        "name": "since",
+        "columns": [
+            {
+                "name": "unit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "unit",
+        "foreign_keys": [
+            {
+                "column": "unit",
+                "references": "option"
+            }
+        ]
+    },
+    {
+        "name": "option",
+        "columns": [
+            {
+                "name": "yard",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "defense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "but",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yard",
+        "foreign_keys": [
+            {
+                "column": "yard",
+                "references": "these"
+            }
+        ]
+    },
+    {
+        "name": "these",
+        "columns": [
+            {
+                "name": "I",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "I",
+        "foreign_keys": [
+            {
+                "column": "I",
+                "references": "stuff"
+            }
+        ]
+    },
+    {
+        "name": "stuff",
+        "columns": [
+            {
+                "name": "large",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "popular",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "large",
+        "foreign_keys": [
+            {
+                "column": "large",
+                "references": "nature"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "marriage",
+        "columns": [
+            {
+                "name": "sometimes",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sometimes",
+        "foreign_keys": [
+            {
+                "column": "sometimes",
+                "references": "fight"
+            }
+        ]
+    },
+    {
+        "name": "fight",
+        "columns": [
+            {
+                "name": "significant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decision",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "significant",
+        "foreign_keys": [
+            {
+                "column": "significant",
+                "references": "goal"
+            }
+        ]
+    },
+    {
+        "name": "goal",
+        "columns": [
+            {
+                "name": "important",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "policy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "important",
+        "foreign_keys": [
+            {
+                "column": "important",
+                "references": "many"
+            }
+        ]
+    },
+    {
+        "name": "many",
+        "columns": [
+            {
+                "name": "something",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "something",
+        "foreign_keys": [
+            {
+                "column": "something",
+                "references": "discuss"
+            }
+        ]
+    },
+    {
+        "name": "discuss",
+        "columns": [
+            {
+                "name": "food",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "food",
+        "foreign_keys": [
+            {
+                "column": "food",
+                "references": "under"
+            }
+        ]
+    },
+    {
+        "name": "under",
+        "columns": [
+            {
+                "name": "meet",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "challenge",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "meet",
+        "foreign_keys": [
+            {
+                "column": "meet",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "claim",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "these",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "technology",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "claim",
+        "foreign_keys": [
+            {
+                "column": "claim",
+                "references": "marriage"
+            }
+        ]
+    }
+]

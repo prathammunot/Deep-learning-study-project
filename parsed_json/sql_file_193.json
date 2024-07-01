@@ -1,0 +1,291 @@
+[
+    {
+        "name": "kid",
+        "columns": [
+            {
+                "name": "never",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "specific",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "provide",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "never",
+        "foreign_keys": [
+            {
+                "column": "never",
+                "references": "expect"
+            }
+        ]
+    },
+    {
+        "name": "expect",
+        "columns": [
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "party"
+            }
+        ]
+    },
+    {
+        "name": "party",
+        "columns": [
+            {
+                "name": "less",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "official",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "church",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "family",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "family",
+        "foreign_keys": [
+            {
+                "column": "family",
+                "references": "people"
+            }
+        ]
+    },
+    {
+        "name": "people",
+        "columns": [
+            {
+                "name": "phone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "issue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "phone",
+        "foreign_keys": [
+            {
+                "column": "phone",
+                "references": "series"
+            }
+        ]
+    },
+    {
+        "name": "series",
+        "columns": [
+            {
+                "name": "least",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "least",
+        "foreign_keys": [
+            {
+                "column": "least",
+                "references": "budget"
+            }
+        ]
+    },
+    {
+        "name": "budget",
+        "columns": [
+            {
+                "name": "source",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "source",
+        "foreign_keys": [
+            {
+                "column": "source",
+                "references": "everybody"
+            }
+        ]
+    },
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "choose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choose",
+        "foreign_keys": [
+            {
+                "column": "choose",
+                "references": "receive"
+            }
+        ]
+    },
+    {
+        "name": "receive",
+        "columns": [
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "form",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "adult",
+        "foreign_keys": [
+            {
+                "column": "adult",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "use",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "use",
+        "foreign_keys": [
+            {
+                "column": "use",
+                "references": "analysis"
+            }
+        ]
+    },
+    {
+        "name": "analysis",
+        "columns": [
+            {
+                "name": "ok",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "project",
+                "type": "TEXT",
+                "references": null
+            }
+        ],
+        "primary_key": "ok",
+        "foreign_keys": [
+            {
+                "column": "ok",
+                "references": "night"
+            }
+        ]
+    },
+    {
+        "name": "night",
+        "columns": [
+            {
+                "name": "scene",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scene",
+        "foreign_keys": [
+            {
+                "column": "scene",
+                "references": "kid"
+            }
+        ]
+    }
+]

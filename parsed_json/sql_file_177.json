@@ -1,0 +1,198 @@
+[
+    {
+        "name": "gas",
+        "columns": [
+            {
+                "name": "security",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "security",
+        "foreign_keys": [
+            {
+                "column": "security",
+                "references": "economic"
+            }
+        ]
+    },
+    {
+        "name": "economic",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "sense"
+            }
+        ]
+    },
+    {
+        "name": "sense",
+        "columns": [
+            {
+                "name": "because",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "because",
+        "foreign_keys": [
+            {
+                "column": "because",
+                "references": "test"
+            }
+        ]
+    },
+    {
+        "name": "test",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "president"
+            }
+        ]
+    },
+    {
+        "name": "president",
+        "columns": [
+            {
+                "name": "morning",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "morning",
+        "foreign_keys": [
+            {
+                "column": "morning",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "east",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "east",
+        "foreign_keys": [
+            {
+                "column": "east",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "which",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "which",
+        "foreign_keys": [
+            {
+                "column": "which",
+                "references": "citizen"
+            }
+        ]
+    },
+    {
+        "name": "citizen",
+        "columns": [
+            {
+                "name": "nation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nation",
+        "foreign_keys": [
+            {
+                "column": "nation",
+                "references": "gas"
+            }
+        ]
+    }
+]

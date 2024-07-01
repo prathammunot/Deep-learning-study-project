@@ -1,0 +1,247 @@
+[
+    {
+        "name": "start",
+        "columns": [
+            {
+                "name": "garden",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "better",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "garden",
+        "foreign_keys": [
+            {
+                "column": "garden",
+                "references": "reflect"
+            }
+        ]
+    },
+    {
+        "name": "reflect",
+        "columns": [
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lead",
+        "foreign_keys": [
+            {
+                "column": "lead",
+                "references": "court"
+            }
+        ]
+    },
+    {
+        "name": "court",
+        "columns": [
+            {
+                "name": "fast",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fast",
+        "foreign_keys": [
+            {
+                "column": "fast",
+                "references": "avoid"
+            }
+        ]
+    },
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "range",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "range",
+        "foreign_keys": [
+            {
+                "column": "range",
+                "references": "risk"
+            }
+        ]
+    },
+    {
+        "name": "risk",
+        "columns": [
+            {
+                "name": "experience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "several",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "experience",
+        "foreign_keys": [
+            {
+                "column": "experience",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "condition",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "condition",
+        "foreign_keys": [
+            {
+                "column": "condition",
+                "references": "manage"
+            }
+        ]
+    },
+    {
+        "name": "manage",
+        "columns": [
+            {
+                "name": "worker",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tree",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "worker",
+        "foreign_keys": [
+            {
+                "column": "worker",
+                "references": "city"
+            }
+        ]
+    },
+    {
+        "name": "city",
+        "columns": [
+            {
+                "name": "evening",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stay",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evening",
+        "foreign_keys": [
+            {
+                "column": "evening",
+                "references": "economy"
+            }
+        ]
+    },
+    {
+        "name": "economy",
+        "columns": [
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eye",
+        "foreign_keys": [
+            {
+                "column": "eye",
+                "references": "feel"
+            }
+        ]
+    },
+    {
+        "name": "feel",
+        "columns": [
+            {
+                "name": "decide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decide",
+        "foreign_keys": [
+            {
+                "column": "decide",
+                "references": "start"
+            }
+        ]
+    }
+]

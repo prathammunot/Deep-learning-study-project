@@ -1,0 +1,176 @@
+[
+    {
+        "name": "stand",
+        "columns": [
+            {
+                "name": "read",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "read",
+        "foreign_keys": [
+            {
+                "column": "read",
+                "references": "outside"
+            }
+        ]
+    },
+    {
+        "name": "outside",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "north"
+            }
+        ]
+    },
+    {
+        "name": "north",
+        "columns": [
+            {
+                "name": "white",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "institution",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "white",
+        "foreign_keys": [
+            {
+                "column": "white",
+                "references": "sea"
+            }
+        ]
+    },
+    {
+        "name": "sea",
+        "columns": [
+            {
+                "name": "minute",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "minute",
+        "foreign_keys": [
+            {
+                "column": "minute",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "several",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "speak",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "several",
+        "foreign_keys": [
+            {
+                "column": "several",
+                "references": "perhaps"
+            }
+        ]
+    },
+    {
+        "name": "perhaps",
+        "columns": [
+            {
+                "name": "represent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "represent",
+        "foreign_keys": [
+            {
+                "column": "represent",
+                "references": "market"
+            }
+        ]
+    },
+    {
+        "name": "market",
+        "columns": [
+            {
+                "name": "hold",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hold",
+        "foreign_keys": [
+            {
+                "column": "hold",
+                "references": "stand"
+            }
+        ]
+    }
+]

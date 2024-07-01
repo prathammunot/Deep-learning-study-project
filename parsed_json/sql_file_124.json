@@ -1,0 +1,127 @@
+[
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "tax",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tax",
+        "foreign_keys": [
+            {
+                "column": "tax",
+                "references": "chair"
+            }
+        ]
+    },
+    {
+        "name": "chair",
+        "columns": [
+            {
+                "name": "various",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "else",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "director"
+            }
+        ]
+    },
+    {
+        "name": "director",
+        "columns": [
+            {
+                "name": "catch",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "catch",
+        "foreign_keys": [
+            {
+                "column": "catch",
+                "references": "tend"
+            }
+        ]
+    },
+    {
+        "name": "tend",
+        "columns": [
+            {
+                "name": "free",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "free",
+        "foreign_keys": [
+            {
+                "column": "free",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "record",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "offer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yeah",
+        "foreign_keys": [
+            {
+                "column": "yeah",
+                "references": "day"
+            }
+        ]
+    }
+]

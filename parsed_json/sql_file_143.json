@@ -1,0 +1,149 @@
+[
+    {
+        "name": "better",
+        "columns": [
+            {
+                "name": "world",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "draw",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "coach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "draw",
+        "foreign_keys": [
+            {
+                "column": "draw",
+                "references": "wish"
+            }
+        ]
+    },
+    {
+        "name": "wish",
+        "columns": [
+            {
+                "name": "grow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "grow",
+        "foreign_keys": [
+            {
+                "column": "grow",
+                "references": "forward"
+            }
+        ]
+    },
+    {
+        "name": "forward",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "window"
+            }
+        ]
+    },
+    {
+        "name": "window",
+        "columns": [
+            {
+                "name": "memory",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lawyer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "memory",
+        "foreign_keys": [
+            {
+                "column": "memory",
+                "references": "three"
+            }
+        ]
+    },
+    {
+        "name": "three",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "skin",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "better"
+            }
+        ]
+    }
+]

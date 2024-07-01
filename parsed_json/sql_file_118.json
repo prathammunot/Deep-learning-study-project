@@ -1,0 +1,127 @@
+[
+    {
+        "name": "reduce",
+        "columns": [
+            {
+                "name": "good",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "movement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "good",
+        "foreign_keys": [
+            {
+                "column": "good",
+                "references": "then"
+            }
+        ]
+    },
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "change",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "war",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "yet"
+            }
+        ]
+    },
+    {
+        "name": "yet",
+        "columns": [
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "player",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "check",
+        "foreign_keys": [
+            {
+                "column": "check",
+                "references": "still"
+            }
+        ]
+    },
+    {
+        "name": "still",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "himself"
+            }
+        ]
+    },
+    {
+        "name": "himself",
+        "columns": [
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hope",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leave",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "message",
+        "foreign_keys": [
+            {
+                "column": "message",
+                "references": "reduce"
+            }
+        ]
+    }
+]

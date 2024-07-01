@@ -1,0 +1,176 @@
+[
+    {
+        "name": "my",
+        "columns": [
+            {
+                "name": "rate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "million",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rate",
+        "foreign_keys": [
+            {
+                "column": "rate",
+                "references": "record"
+            }
+        ]
+    },
+    {
+        "name": "record",
+        "columns": [
+            {
+                "name": "draw",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "draw",
+        "foreign_keys": [
+            {
+                "column": "draw",
+                "references": "off"
+            }
+        ]
+    },
+    {
+        "name": "off",
+        "columns": [
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "onto",
+        "foreign_keys": [
+            {
+                "column": "onto",
+                "references": "certain"
+            }
+        ]
+    },
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "different",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "different",
+        "foreign_keys": [
+            {
+                "column": "different",
+                "references": "main"
+            }
+        ]
+    },
+    {
+        "name": "main",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "understand"
+            }
+        ]
+    },
+    {
+        "name": "understand",
+        "columns": [
+            {
+                "name": "woman",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "woman",
+        "foreign_keys": [
+            {
+                "column": "woman",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "six",
+        "foreign_keys": [
+            {
+                "column": "six",
+                "references": "my"
+            }
+        ]
+    }
+]

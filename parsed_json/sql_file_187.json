@@ -1,0 +1,127 @@
+[
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "bag",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bag",
+        "foreign_keys": [
+            {
+                "column": "bag",
+                "references": "stand"
+            }
+        ]
+    },
+    {
+        "name": "stand",
+        "columns": [
+            {
+                "name": "religious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "religious",
+        "foreign_keys": [
+            {
+                "column": "religious",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "within",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "within",
+        "foreign_keys": [
+            {
+                "column": "within",
+                "references": "hot"
+            }
+        ]
+    },
+    {
+        "name": "hot",
+        "columns": [
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "doctor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "he",
+        "foreign_keys": [
+            {
+                "column": "he",
+                "references": "staff"
+            }
+        ]
+    },
+    {
+        "name": "staff",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "president",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "for"
+            }
+        ]
+    }
+]

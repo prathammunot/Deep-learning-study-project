@@ -1,0 +1,247 @@
+[
+    {
+        "name": "movement",
+        "columns": [
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "act"
+            }
+        ]
+    },
+    {
+        "name": "act",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "behind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "change"
+            }
+        ]
+    },
+    {
+        "name": "change",
+        "columns": [
+            {
+                "name": "present",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "present",
+        "foreign_keys": [
+            {
+                "column": "present",
+                "references": "particularly"
+            }
+        ]
+    },
+    {
+        "name": "particularly",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "voice"
+            }
+        ]
+    },
+    {
+        "name": "voice",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "heavy"
+            }
+        ]
+    },
+    {
+        "name": "heavy",
+        "columns": [
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "eye",
+        "foreign_keys": [
+            {
+                "column": "eye",
+                "references": "these"
+            }
+        ]
+    },
+    {
+        "name": "these",
+        "columns": [
+            {
+                "name": "minute",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "minute",
+        "foreign_keys": [
+            {
+                "column": "minute",
+                "references": "responsibility"
+            }
+        ]
+    },
+    {
+        "name": "responsibility",
+        "columns": [
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "time",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "table",
+        "foreign_keys": [
+            {
+                "column": "table",
+                "references": "recent"
+            }
+        ]
+    },
+    {
+        "name": "recent",
+        "columns": [
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "across",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "well",
+        "foreign_keys": [
+            {
+                "column": "well",
+                "references": "movement"
+            }
+        ]
+    }
+]

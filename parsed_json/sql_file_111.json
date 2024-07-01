@@ -1,0 +1,149 @@
+[
+    {
+        "name": "employee",
+        "columns": [
+            {
+                "name": "list",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "list",
+        "foreign_keys": [
+            {
+                "column": "list",
+                "references": "concern"
+            }
+        ]
+    },
+    {
+        "name": "concern",
+        "columns": [
+            {
+                "name": "though",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "early",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "though",
+        "foreign_keys": [
+            {
+                "column": "though",
+                "references": "see"
+            }
+        ]
+    },
+    {
+        "name": "see",
+        "columns": [
+            {
+                "name": "weight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "weight",
+        "foreign_keys": [
+            {
+                "column": "weight",
+                "references": "billion"
+            }
+        ]
+    },
+    {
+        "name": "billion",
+        "columns": [
+            {
+                "name": "wear",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wear",
+        "foreign_keys": [
+            {
+                "column": "wear",
+                "references": "call"
+            }
+        ]
+    },
+    {
+        "name": "call",
+        "columns": [
+            {
+                "name": "admit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "admit",
+        "foreign_keys": [
+            {
+                "column": "admit",
+                "references": "near"
+            }
+        ]
+    },
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "among",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "among",
+        "foreign_keys": [
+            {
+                "column": "among",
+                "references": "employee"
+            }
+        ]
+    }
+]

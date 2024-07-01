@@ -1,0 +1,296 @@
+[
+    {
+        "name": "professor",
+        "columns": [
+            {
+                "name": "Congress",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "offer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Congress",
+        "foreign_keys": [
+            {
+                "column": "Congress",
+                "references": "body"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "columns": [
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "agency",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "defense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agency",
+        "foreign_keys": [
+            {
+                "column": "agency",
+                "references": "leader"
+            }
+        ]
+    },
+    {
+        "name": "leader",
+        "columns": [
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "imagine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pretty",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "become",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "imagine",
+        "foreign_keys": [
+            {
+                "column": "imagine",
+                "references": "stand"
+            }
+        ]
+    },
+    {
+        "name": "stand",
+        "columns": [
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "beat"
+            }
+        ]
+    },
+    {
+        "name": "beat",
+        "columns": [
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "field",
+        "foreign_keys": [
+            {
+                "column": "field",
+                "references": "cup"
+            }
+        ]
+    },
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "present",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "establish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "present",
+        "foreign_keys": [
+            {
+                "column": "present",
+                "references": "history"
+            }
+        ]
+    },
+    {
+        "name": "history",
+        "columns": [
+            {
+                "name": "and",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "and",
+        "foreign_keys": [
+            {
+                "column": "and",
+                "references": "room"
+            }
+        ]
+    },
+    {
+        "name": "room",
+        "columns": [
+            {
+                "name": "relationship",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "practice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "relationship",
+        "foreign_keys": [
+            {
+                "column": "relationship",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "day",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "people",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "machine"
+            }
+        ]
+    },
+    {
+        "name": "machine",
+        "columns": [
+            {
+                "name": "explain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "able",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "explain",
+        "foreign_keys": [
+            {
+                "column": "explain",
+                "references": "professor"
+            }
+        ]
+    }
+]

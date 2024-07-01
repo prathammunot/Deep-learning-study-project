@@ -1,0 +1,296 @@
+[
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "drive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drive",
+        "foreign_keys": [
+            {
+                "column": "drive",
+                "references": "likely"
+            }
+        ]
+    },
+    {
+        "name": "likely",
+        "columns": [
+            {
+                "name": "no",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "drive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "pressure"
+            }
+        ]
+    },
+    {
+        "name": "pressure",
+        "columns": [
+            {
+                "name": "really",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "individual",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "four",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "road",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "four",
+        "foreign_keys": [
+            {
+                "column": "four",
+                "references": "statement"
+            }
+        ]
+    },
+    {
+        "name": "statement",
+        "columns": [
+            {
+                "name": "class",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "old",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "class",
+        "foreign_keys": [
+            {
+                "column": "class",
+                "references": "number"
+            }
+        ]
+    },
+    {
+        "name": "number",
+        "columns": [
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "real"
+            }
+        ]
+    },
+    {
+        "name": "real",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "option",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "major"
+            }
+        ]
+    },
+    {
+        "name": "major",
+        "columns": [
+            {
+                "name": "set",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "door",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "set",
+        "foreign_keys": [
+            {
+                "column": "set",
+                "references": "half"
+            }
+        ]
+    },
+    {
+        "name": "half",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nothing",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "simple",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "cell"
+            }
+        ]
+    },
+    {
+        "name": "cell",
+        "columns": [
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "box"
+            }
+        ]
+    },
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "adult",
+        "foreign_keys": [
+            {
+                "column": "adult",
+                "references": "improve"
+            }
+        ]
+    },
+    {
+        "name": "improve",
+        "columns": [
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "per"
+            }
+        ]
+    }
+]

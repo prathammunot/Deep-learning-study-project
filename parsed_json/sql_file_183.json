@@ -1,0 +1,247 @@
+[
+    {
+        "name": "score",
+        "columns": [
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "son",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "activity",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "none",
+        "foreign_keys": [
+            {
+                "column": "none",
+                "references": "summer"
+            }
+        ]
+    },
+    {
+        "name": "summer",
+        "columns": [
+            {
+                "name": "door",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "book",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "door",
+        "foreign_keys": [
+            {
+                "column": "door",
+                "references": "so"
+            }
+        ]
+    },
+    {
+        "name": "so",
+        "columns": [
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tough",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "full"
+            }
+        ]
+    },
+    {
+        "name": "full",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "so",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "their"
+            }
+        ]
+    },
+    {
+        "name": "their",
+        "columns": [
+            {
+                "name": "whatever",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "later",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whatever",
+        "foreign_keys": [
+            {
+                "column": "whatever",
+                "references": "sure"
+            }
+        ]
+    },
+    {
+        "name": "sure",
+        "columns": [
+            {
+                "name": "out",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "out",
+        "foreign_keys": [
+            {
+                "column": "out",
+                "references": "network"
+            }
+        ]
+    },
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "ago",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ago",
+        "foreign_keys": [
+            {
+                "column": "ago",
+                "references": "really"
+            }
+        ]
+    },
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "some",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "likely"
+            }
+        ]
+    },
+    {
+        "name": "likely",
+        "columns": [
+            {
+                "name": "style",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "catch",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thousand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "style",
+        "foreign_keys": [
+            {
+                "column": "style",
+                "references": "seem"
+            }
+        ]
+    },
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "five",
+        "foreign_keys": [
+            {
+                "column": "five",
+                "references": "score"
+            }
+        ]
+    }
+]

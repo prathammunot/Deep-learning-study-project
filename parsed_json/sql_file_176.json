@@ -1,0 +1,225 @@
+[
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "remain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "remain",
+        "foreign_keys": [
+            {
+                "column": "remain",
+                "references": "various"
+            }
+        ]
+    },
+    {
+        "name": "various",
+        "columns": [
+            {
+                "name": "which",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "which",
+        "foreign_keys": [
+            {
+                "column": "which",
+                "references": "whether"
+            }
+        ]
+    },
+    {
+        "name": "whether",
+        "columns": [
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "challenge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "pretty"
+            }
+        ]
+    },
+    {
+        "name": "pretty",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "part"
+            }
+        ]
+    },
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "medical",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "medical",
+        "foreign_keys": [
+            {
+                "column": "medical",
+                "references": "clear"
+            }
+        ]
+    },
+    {
+        "name": "clear",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "prepare"
+            }
+        ]
+    },
+    {
+        "name": "prepare",
+        "columns": [
+            {
+                "name": "member",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "be",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "so",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "member",
+        "foreign_keys": [
+            {
+                "column": "member",
+                "references": "within"
+            }
+        ]
+    },
+    {
+        "name": "within",
+        "columns": [
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "already",
+        "foreign_keys": [
+            {
+                "column": "already",
+                "references": "can"
+            }
+        ]
+    },
+    {
+        "name": "can",
+        "columns": [
+            {
+                "name": "story",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "case",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "story",
+        "foreign_keys": [
+            {
+                "column": "story",
+                "references": "morning"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "form",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "form",
+        "foreign_keys": [
+            {
+                "column": "form",
+                "references": "help"
+            }
+        ]
+    },
+    {
+        "name": "help",
+        "columns": [
+            {
+                "name": "bill",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bill",
+        "foreign_keys": [
+            {
+                "column": "bill",
+                "references": "list"
+            }
+        ]
+    },
+    {
+        "name": "list",
+        "columns": [
+            {
+                "name": "focus",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thousand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "focus",
+        "foreign_keys": [
+            {
+                "column": "focus",
+                "references": "training"
+            }
+        ]
+    },
+    {
+        "name": "training",
+        "columns": [
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "baby"
+            }
+        ]
+    },
+    {
+        "name": "baby",
+        "columns": [
+            {
+                "name": "quality",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quality",
+        "foreign_keys": [
+            {
+                "column": "quality",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "unit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "unit",
+        "foreign_keys": [
+            {
+                "column": "unit",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "much",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "much",
+        "foreign_keys": [
+            {
+                "column": "much",
+                "references": "teacher"
+            }
+        ]
+    },
+    {
+        "name": "teacher",
+        "columns": [
+            {
+                "name": "wind",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "though",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wind",
+        "foreign_keys": [
+            {
+                "column": "wind",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "news",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "news",
+        "foreign_keys": [
+            {
+                "column": "news",
+                "references": "space"
+            }
+        ]
+    },
+    {
+        "name": "space",
+        "columns": [
+            {
+                "name": "we",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "we",
+        "foreign_keys": [
+            {
+                "column": "we",
+                "references": "during"
+            }
+        ]
+    }
+]

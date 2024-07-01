@@ -1,0 +1,198 @@
+[
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "line",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "situation"
+            }
+        ]
+    },
+    {
+        "name": "situation",
+        "columns": [
+            {
+                "name": "own",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "own",
+        "foreign_keys": [
+            {
+                "column": "own",
+                "references": "call"
+            }
+        ]
+    },
+    {
+        "name": "call",
+        "columns": [
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "once",
+        "foreign_keys": [
+            {
+                "column": "once",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "back"
+            }
+        ]
+    },
+    {
+        "name": "back",
+        "columns": [
+            {
+                "name": "since",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "since",
+        "foreign_keys": [
+            {
+                "column": "since",
+                "references": "hand"
+            }
+        ]
+    },
+    {
+        "name": "hand",
+        "columns": [
+            {
+                "name": "decision",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decision",
+        "foreign_keys": [
+            {
+                "column": "decision",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "effect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "public",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "effect",
+        "foreign_keys": [
+            {
+                "column": "effect",
+                "references": "leave"
+            }
+        ]
+    },
+    {
+        "name": "leave",
+        "columns": [
+            {
+                "name": "day",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "day",
+        "foreign_keys": [
+            {
+                "column": "day",
+                "references": "head"
+            }
+        ]
+    }
+]

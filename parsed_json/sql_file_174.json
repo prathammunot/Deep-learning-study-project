@@ -1,0 +1,225 @@
+[
+    {
+        "name": "everything",
+        "columns": [
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "community",
+        "foreign_keys": [
+            {
+                "column": "community",
+                "references": "company"
+            }
+        ]
+    },
+    {
+        "name": "company",
+        "columns": [
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trial",
+        "foreign_keys": [
+            {
+                "column": "trial",
+                "references": "customer"
+            }
+        ]
+    },
+    {
+        "name": "customer",
+        "columns": [
+            {
+                "name": "upon",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "until",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "upon",
+        "foreign_keys": [
+            {
+                "column": "upon",
+                "references": "color"
+            }
+        ]
+    },
+    {
+        "name": "color",
+        "columns": [
+            {
+                "name": "hard",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hard",
+        "foreign_keys": [
+            {
+                "column": "hard",
+                "references": "tree"
+            }
+        ]
+    },
+    {
+        "name": "tree",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "others"
+            }
+        ]
+    },
+    {
+        "name": "others",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "modern"
+            }
+        ]
+    },
+    {
+        "name": "modern",
+        "columns": [
+            {
+                "name": "lawyer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "until",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "development",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lawyer",
+        "foreign_keys": [
+            {
+                "column": "lawyer",
+                "references": "free"
+            }
+        ]
+    },
+    {
+        "name": "free",
+        "columns": [
+            {
+                "name": "system",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "black",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "system",
+        "foreign_keys": [
+            {
+                "column": "system",
+                "references": "want"
+            }
+        ]
+    },
+    {
+        "name": "want",
+        "columns": [
+            {
+                "name": "son",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "son",
+        "foreign_keys": [
+            {
+                "column": "son",
+                "references": "everything"
+            }
+        ]
+    }
+]

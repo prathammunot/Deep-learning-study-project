@@ -1,0 +1,274 @@
+[
+    {
+        "name": "model",
+        "columns": [
+            {
+                "name": "teacher",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discover",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "teacher",
+        "foreign_keys": [
+            {
+                "column": "teacher",
+                "references": "spend"
+            }
+        ]
+    },
+    {
+        "name": "spend",
+        "columns": [
+            {
+                "name": "both",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "play",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "both",
+        "foreign_keys": [
+            {
+                "column": "both",
+                "references": "be"
+            }
+        ]
+    },
+    {
+        "name": "be",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "movement",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "floor"
+            }
+        ]
+    },
+    {
+        "name": "floor",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "economy"
+            }
+        ]
+    },
+    {
+        "name": "economy",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "finally",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "year",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "law"
+            }
+        ]
+    },
+    {
+        "name": "law",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "green"
+            }
+        ]
+    },
+    {
+        "name": "green",
+        "columns": [
+            {
+                "name": "speech",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interesting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "speech",
+        "foreign_keys": [
+            {
+                "column": "speech",
+                "references": "third"
+            }
+        ]
+    },
+    {
+        "name": "third",
+        "columns": [
+            {
+                "name": "stay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "soon",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stay",
+        "foreign_keys": [
+            {
+                "column": "stay",
+                "references": "condition"
+            }
+        ]
+    },
+    {
+        "name": "condition",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "well",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "sport"
+            }
+        ]
+    },
+    {
+        "name": "sport",
+        "columns": [
+            {
+                "name": "film",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "film",
+        "foreign_keys": [
+            {
+                "column": "film",
+                "references": "everybody"
+            }
+        ]
+    },
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "truth",
+        "foreign_keys": [
+            {
+                "column": "truth",
+                "references": "model"
+            }
+        ]
+    }
+]

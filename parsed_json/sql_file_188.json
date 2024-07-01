@@ -1,0 +1,247 @@
+[
+    {
+        "name": "investment",
+        "columns": [
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "trouble",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "consumer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "tax"
+            }
+        ]
+    },
+    {
+        "name": "tax",
+        "columns": [
+            {
+                "name": "them",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "them",
+        "foreign_keys": [
+            {
+                "column": "them",
+                "references": "their"
+            }
+        ]
+    },
+    {
+        "name": "their",
+        "columns": [
+            {
+                "name": "charge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "charge",
+        "foreign_keys": [
+            {
+                "column": "charge",
+                "references": "try"
+            }
+        ]
+    },
+    {
+        "name": "try",
+        "columns": [
+            {
+                "name": "choice",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "out",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choice",
+        "foreign_keys": [
+            {
+                "column": "choice",
+                "references": "ten"
+            }
+        ]
+    },
+    {
+        "name": "ten",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "century",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "movie"
+            }
+        ]
+    },
+    {
+        "name": "movie",
+        "columns": [
+            {
+                "name": "special",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "special",
+        "foreign_keys": [
+            {
+                "column": "special",
+                "references": "fear"
+            }
+        ]
+    },
+    {
+        "name": "fear",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "already",
+        "foreign_keys": [
+            {
+                "column": "already",
+                "references": "individual"
+            }
+        ]
+    },
+    {
+        "name": "individual",
+        "columns": [
+            {
+                "name": "prove",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prove",
+        "foreign_keys": [
+            {
+                "column": "prove",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "I",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "I",
+        "foreign_keys": [
+            {
+                "column": "I",
+                "references": "investment"
+            }
+        ]
+    }
+]

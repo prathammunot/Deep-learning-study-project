@@ -1,0 +1,176 @@
+[
+    {
+        "name": "stand",
+        "columns": [
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "turn",
+        "foreign_keys": [
+            {
+                "column": "turn",
+                "references": "lead"
+            }
+        ]
+    },
+    {
+        "name": "lead",
+        "columns": [
+            {
+                "name": "drop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drop",
+        "foreign_keys": [
+            {
+                "column": "drop",
+                "references": "movement"
+            }
+        ]
+    },
+    {
+        "name": "movement",
+        "columns": [
+            {
+                "name": "individual",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "individual",
+        "foreign_keys": [
+            {
+                "column": "individual",
+                "references": "set"
+            }
+        ]
+    },
+    {
+        "name": "set",
+        "columns": [
+            {
+                "name": "draw",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "option",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "draw",
+        "foreign_keys": [
+            {
+                "column": "draw",
+                "references": "third"
+            }
+        ]
+    },
+    {
+        "name": "third",
+        "columns": [
+            {
+                "name": "development",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "development",
+        "foreign_keys": [
+            {
+                "column": "development",
+                "references": "trial"
+            }
+        ]
+    },
+    {
+        "name": "trial",
+        "columns": [
+            {
+                "name": "top",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "top",
+        "foreign_keys": [
+            {
+                "column": "top",
+                "references": "race"
+            }
+        ]
+    },
+    {
+        "name": "race",
+        "columns": [
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "away",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fill",
+        "foreign_keys": [
+            {
+                "column": "fill",
+                "references": "stand"
+            }
+        ]
+    }
+]

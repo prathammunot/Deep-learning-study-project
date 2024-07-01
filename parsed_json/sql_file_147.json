@@ -1,0 +1,176 @@
+[
+    {
+        "name": "so",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "education",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "control"
+            }
+        ]
+    },
+    {
+        "name": "control",
+        "columns": [
+            {
+                "name": "history",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "today",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "from",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "today",
+        "foreign_keys": [
+            {
+                "column": "today",
+                "references": "remember"
+            }
+        ]
+    },
+    {
+        "name": "remember",
+        "columns": [
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hundred",
+        "foreign_keys": [
+            {
+                "column": "hundred",
+                "references": "perform"
+            }
+        ]
+    },
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "former",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "former",
+        "foreign_keys": [
+            {
+                "column": "former",
+                "references": "group"
+            }
+        ]
+    },
+    {
+        "name": "group",
+        "columns": [
+            {
+                "name": "figure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "instead",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "figure",
+        "foreign_keys": [
+            {
+                "column": "figure",
+                "references": "every"
+            }
+        ]
+    },
+    {
+        "name": "every",
+        "columns": [
+            {
+                "name": "generation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "set",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "generation",
+        "foreign_keys": [
+            {
+                "column": "generation",
+                "references": "so"
+            }
+        ]
+    }
+]

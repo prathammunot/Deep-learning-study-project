@@ -1,0 +1,296 @@
+[
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "character",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "character",
+        "foreign_keys": [
+            {
+                "column": "character",
+                "references": "page"
+            }
+        ]
+    },
+    {
+        "name": "page",
+        "columns": [
+            {
+                "name": "recognize",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professional",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recognize",
+        "foreign_keys": [
+            {
+                "column": "recognize",
+                "references": "white"
+            }
+        ]
+    },
+    {
+        "name": "white",
+        "columns": [
+            {
+                "name": "box",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "available",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "box",
+        "foreign_keys": [
+            {
+                "column": "box",
+                "references": "pass"
+            }
+        ]
+    },
+    {
+        "name": "pass",
+        "columns": [
+            {
+                "name": "need",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "need",
+        "foreign_keys": [
+            {
+                "column": "need",
+                "references": "try"
+            }
+        ]
+    },
+    {
+        "name": "try",
+        "columns": [
+            {
+                "name": "their",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "worry",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "their",
+        "foreign_keys": [
+            {
+                "column": "their",
+                "references": "ever"
+            }
+        ]
+    },
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "identify",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "identify",
+        "foreign_keys": [
+            {
+                "column": "identify",
+                "references": "experience"
+            }
+        ]
+    },
+    {
+        "name": "experience",
+        "columns": [
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "success",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "right",
+        "foreign_keys": [
+            {
+                "column": "right",
+                "references": "produce"
+            }
+        ]
+    },
+    {
+        "name": "produce",
+        "columns": [
+            {
+                "name": "process",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "process",
+        "foreign_keys": [
+            {
+                "column": "process",
+                "references": "bring"
+            }
+        ]
+    },
+    {
+        "name": "bring",
+        "columns": [
+            {
+                "name": "program",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "program",
+        "foreign_keys": [
+            {
+                "column": "program",
+                "references": "election"
+            }
+        ]
+    },
+    {
+        "name": "election",
+        "columns": [
+            {
+                "name": "plant",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "plant",
+        "foreign_keys": [
+            {
+                "column": "plant",
+                "references": "word"
+            }
+        ]
+    },
+    {
+        "name": "word",
+        "columns": [
+            {
+                "name": "hotel",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hotel",
+        "foreign_keys": [
+            {
+                "column": "hotel",
+                "references": "television"
+            }
+        ]
+    },
+    {
+        "name": "television",
+        "columns": [
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "president",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "garden",
+        "foreign_keys": [
+            {
+                "column": "garden",
+                "references": "take"
+            }
+        ]
+    }
+]

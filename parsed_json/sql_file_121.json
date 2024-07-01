@@ -1,0 +1,149 @@
+[
+    {
+        "name": "someone",
+        "columns": [
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "pattern"
+            }
+        ]
+    },
+    {
+        "name": "pattern",
+        "columns": [
+            {
+                "name": "place",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "place",
+        "foreign_keys": [
+            {
+                "column": "place",
+                "references": "positive"
+            }
+        ]
+    },
+    {
+        "name": "positive",
+        "columns": [
+            {
+                "name": "because",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "because",
+        "foreign_keys": [
+            {
+                "column": "because",
+                "references": "some"
+            }
+        ]
+    },
+    {
+        "name": "some",
+        "columns": [
+            {
+                "name": "term",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "term",
+        "foreign_keys": [
+            {
+                "column": "term",
+                "references": "force"
+            }
+        ]
+    },
+    {
+        "name": "force",
+        "columns": [
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "child",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "loss",
+        "foreign_keys": [
+            {
+                "column": "loss",
+                "references": "government"
+            }
+        ]
+    },
+    {
+        "name": "government",
+        "columns": [
+            {
+                "name": "early",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "early",
+        "foreign_keys": [
+            {
+                "column": "early",
+                "references": "someone"
+            }
+        ]
+    }
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "name": "between",
+        "columns": [
+            {
+                "name": "fly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "church",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fly",
+        "foreign_keys": [
+            {
+                "column": "fly",
+                "references": "and"
+            }
+        ]
+    },
+    {
+        "name": "and",
+        "columns": [
+            {
+                "name": "experience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "peace",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "experience",
+        "foreign_keys": [
+            {
+                "column": "experience",
+                "references": "people"
+            }
+        ]
+    },
+    {
+        "name": "people",
+        "columns": [
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sport",
+        "foreign_keys": [
+            {
+                "column": "sport",
+                "references": "institution"
+            }
+        ]
+    },
+    {
+        "name": "institution",
+        "columns": [
+            {
+                "name": "act",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "act",
+        "foreign_keys": [
+            {
+                "column": "act",
+                "references": "memory"
+            }
+        ]
+    },
+    {
+        "name": "memory",
+        "columns": [
+            {
+                "name": "room",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "from",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "factor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "room",
+        "foreign_keys": [
+            {
+                "column": "room",
+                "references": "dark"
+            }
+        ]
+    },
+    {
+        "name": "dark",
+        "columns": [
+            {
+                "name": "approach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "matter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "approach",
+        "foreign_keys": [
+            {
+                "column": "approach",
+                "references": "include"
+            }
+        ]
+    },
+    {
+        "name": "include",
+        "columns": [
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "partner"
+            }
+        ]
+    },
+    {
+        "name": "partner",
+        "columns": [
+            {
+                "name": "simple",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simple",
+        "foreign_keys": [
+            {
+                "column": "simple",
+                "references": "during"
+            }
+        ]
+    },
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "future",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "future",
+        "foreign_keys": [
+            {
+                "column": "future",
+                "references": "artist"
+            }
+        ]
+    },
+    {
+        "name": "artist",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "quality"
+            }
+        ]
+    },
+    {
+        "name": "quality",
+        "columns": [
+            {
+                "name": "issue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "defense",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "issue",
+        "foreign_keys": [
+            {
+                "column": "issue",
+                "references": "cost"
+            }
+        ]
+    },
+    {
+        "name": "cost",
+        "columns": [
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "also",
+        "foreign_keys": [
+            {
+                "column": "also",
+                "references": "between"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "present",
+        "columns": [
+            {
+                "name": "history",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "keep"
+            }
+        ]
+    },
+    {
+        "name": "keep",
+        "columns": [
+            {
+                "name": "choose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "old",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choose",
+        "foreign_keys": [
+            {
+                "column": "choose",
+                "references": "avoid"
+            }
+        ]
+    },
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "also",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "also",
+        "foreign_keys": [
+            {
+                "column": "also",
+                "references": "official"
+            }
+        ]
+    },
+    {
+        "name": "official",
+        "columns": [
+            {
+                "name": "color",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "senior",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "present"
+            }
+        ]
+    }
+]

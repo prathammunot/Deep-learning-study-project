@@ -1,0 +1,296 @@
+[
+    {
+        "name": "consider",
+        "columns": [
+            {
+                "name": "drive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "activity",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drive",
+        "foreign_keys": [
+            {
+                "column": "drive",
+                "references": "American"
+            }
+        ]
+    },
+    {
+        "name": "American",
+        "columns": [
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "western",
+        "foreign_keys": [
+            {
+                "column": "western",
+                "references": "least"
+            }
+        ]
+    },
+    {
+        "name": "least",
+        "columns": [
+            {
+                "name": "do",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "security",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "do",
+        "foreign_keys": [
+            {
+                "column": "do",
+                "references": "road"
+            }
+        ]
+    },
+    {
+        "name": "road",
+        "columns": [
+            {
+                "name": "subject",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "they",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "subject",
+        "foreign_keys": [
+            {
+                "column": "subject",
+                "references": "position"
+            }
+        ]
+    },
+    {
+        "name": "position",
+        "columns": [
+            {
+                "name": "culture",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "culture",
+        "foreign_keys": [
+            {
+                "column": "culture",
+                "references": "election"
+            }
+        ]
+    },
+    {
+        "name": "election",
+        "columns": [
+            {
+                "name": "on",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "on",
+        "foreign_keys": [
+            {
+                "column": "on",
+                "references": "partner"
+            }
+        ]
+    },
+    {
+        "name": "partner",
+        "columns": [
+            {
+                "name": "song",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "off",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "song",
+        "foreign_keys": [
+            {
+                "column": "song",
+                "references": "general"
+            }
+        ]
+    },
+    {
+        "name": "general",
+        "columns": [
+            {
+                "name": "conference",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "conference",
+        "foreign_keys": [
+            {
+                "column": "conference",
+                "references": "real"
+            }
+        ]
+    },
+    {
+        "name": "real",
+        "columns": [
+            {
+                "name": "wish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wish",
+        "foreign_keys": [
+            {
+                "column": "wish",
+                "references": "black"
+            }
+        ]
+    },
+    {
+        "name": "black",
+        "columns": [
+            {
+                "name": "itself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "itself",
+        "foreign_keys": [
+            {
+                "column": "itself",
+                "references": "artist"
+            }
+        ]
+    },
+    {
+        "name": "artist",
+        "columns": [
+            {
+                "name": "address",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "language",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "address",
+        "foreign_keys": [
+            {
+                "column": "address",
+                "references": "risk"
+            }
+        ]
+    },
+    {
+        "name": "risk",
+        "columns": [
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "measure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "get",
+        "foreign_keys": [
+            {
+                "column": "get",
+                "references": "consider"
+            }
+        ]
+    }
+]

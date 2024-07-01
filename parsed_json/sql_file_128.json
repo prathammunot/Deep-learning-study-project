@@ -1,0 +1,247 @@
+[
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "her"
+            }
+        ]
+    },
+    {
+        "name": "her",
+        "columns": [
+            {
+                "name": "according",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "according",
+        "foreign_keys": [
+            {
+                "column": "according",
+                "references": "human"
+            }
+        ]
+    },
+    {
+        "name": "human",
+        "columns": [
+            {
+                "name": "range",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "though",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "day",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "range",
+        "foreign_keys": [
+            {
+                "column": "range",
+                "references": "serve"
+            }
+        ]
+    },
+    {
+        "name": "serve",
+        "columns": [
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "stage"
+            }
+        ]
+    },
+    {
+        "name": "stage",
+        "columns": [
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "provide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whose",
+        "foreign_keys": [
+            {
+                "column": "whose",
+                "references": "whether"
+            }
+        ]
+    },
+    {
+        "name": "whether",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "fight"
+            }
+        ]
+    },
+    {
+        "name": "fight",
+        "columns": [
+            {
+                "name": "learn",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "newspaper",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "learn",
+        "foreign_keys": [
+            {
+                "column": "learn",
+                "references": "technology"
+            }
+        ]
+    },
+    {
+        "name": "technology",
+        "columns": [
+            {
+                "name": "choose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "choose",
+        "foreign_keys": [
+            {
+                "column": "choose",
+                "references": "evidence"
+            }
+        ]
+    },
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "bad",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "list",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bad",
+        "foreign_keys": [
+            {
+                "column": "bad",
+                "references": "because"
+            }
+        ]
+    },
+    {
+        "name": "because",
+        "columns": [
+            {
+                "name": "operation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "operation",
+        "foreign_keys": [
+            {
+                "column": "operation",
+                "references": "trade"
+            }
+        ]
+    }
+]

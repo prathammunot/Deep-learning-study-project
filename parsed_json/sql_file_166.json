@@ -1,0 +1,274 @@
+[
+    {
+        "name": "true",
+        "columns": [
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bar",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "six",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whose",
+        "foreign_keys": [
+            {
+                "column": "whose",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "around",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "around",
+        "foreign_keys": [
+            {
+                "column": "around",
+                "references": "long"
+            }
+        ]
+    },
+    {
+        "name": "long",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "computer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "two",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "every",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "every",
+        "foreign_keys": [
+            {
+                "column": "every",
+                "references": "trouble"
+            }
+        ]
+    },
+    {
+        "name": "trouble",
+        "columns": [
+            {
+                "name": "design",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "test",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "so",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "design",
+        "foreign_keys": [
+            {
+                "column": "design",
+                "references": "experience"
+            }
+        ]
+    },
+    {
+        "name": "experience",
+        "columns": [
+            {
+                "name": "condition",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "condition",
+        "foreign_keys": [
+            {
+                "column": "condition",
+                "references": "order"
+            }
+        ]
+    },
+    {
+        "name": "order",
+        "columns": [
+            {
+                "name": "reduce",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "federal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reduce",
+        "foreign_keys": [
+            {
+                "column": "reduce",
+                "references": "course"
+            }
+        ]
+    },
+    {
+        "name": "course",
+        "columns": [
+            {
+                "name": "be",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ahead",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "be",
+        "foreign_keys": [
+            {
+                "column": "be",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "special",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "special",
+        "foreign_keys": [
+            {
+                "column": "special",
+                "references": "similar"
+            }
+        ]
+    },
+    {
+        "name": "similar",
+        "columns": [
+            {
+                "name": "force",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agency",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "fly"
+            }
+        ]
+    },
+    {
+        "name": "fly",
+        "columns": [
+            {
+                "name": "remain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thing",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "remain",
+        "foreign_keys": [
+            {
+                "column": "remain",
+                "references": "true"
+            }
+        ]
+    }
+]

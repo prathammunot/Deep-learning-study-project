@@ -1,0 +1,274 @@
+[
+    {
+        "name": "foreign",
+        "columns": [
+            {
+                "name": "school",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "street",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "school",
+        "foreign_keys": [
+            {
+                "column": "school",
+                "references": "plan"
+            }
+        ]
+    },
+    {
+        "name": "plan",
+        "columns": [
+            {
+                "name": "know",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "despite",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "know",
+        "foreign_keys": [
+            {
+                "column": "know",
+                "references": "deep"
+            }
+        ]
+    },
+    {
+        "name": "deep",
+        "columns": [
+            {
+                "name": "blue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cause",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "organization",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "blue",
+        "foreign_keys": [
+            {
+                "column": "blue",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "treatment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "unit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "treatment",
+        "foreign_keys": [
+            {
+                "column": "treatment",
+                "references": "knowledge"
+            }
+        ]
+    },
+    {
+        "name": "knowledge",
+        "columns": [
+            {
+                "name": "theory",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "green",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "theory",
+        "foreign_keys": [
+            {
+                "column": "theory",
+                "references": "theory"
+            }
+        ]
+    },
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "remember",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "doctor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "remember",
+        "foreign_keys": [
+            {
+                "column": "remember",
+                "references": "year"
+            }
+        ]
+    },
+    {
+        "name": "year",
+        "columns": [
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "oil",
+        "foreign_keys": [
+            {
+                "column": "oil",
+                "references": "part"
+            }
+        ]
+    },
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "vote",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "vote",
+        "foreign_keys": [
+            {
+                "column": "vote",
+                "references": "moment"
+            }
+        ]
+    },
+    {
+        "name": "moment",
+        "columns": [
+            {
+                "name": "all",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "all",
+        "foreign_keys": [
+            {
+                "column": "all",
+                "references": "plan"
+            }
+        ]
+    },
+    {
+        "name": "plan",
+        "columns": [
+            {
+                "name": "various",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "after"
+            }
+        ]
+    },
+    {
+        "name": "after",
+        "columns": [
+            {
+                "name": "for",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "foreign"
+            }
+        ]
+    }
+]

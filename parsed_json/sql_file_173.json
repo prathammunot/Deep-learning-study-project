@@ -1,0 +1,225 @@
+[
+    {
+        "name": "bill",
+        "columns": [
+            {
+                "name": "candidate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "but",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "drug",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "candidate",
+        "foreign_keys": [
+            {
+                "column": "candidate",
+                "references": "prove"
+            }
+        ]
+    },
+    {
+        "name": "prove",
+        "columns": [
+            {
+                "name": "glass",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "glass",
+        "foreign_keys": [
+            {
+                "column": "glass",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "because",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "explain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "because",
+        "foreign_keys": [
+            {
+                "column": "because",
+                "references": "defense"
+            }
+        ]
+    },
+    {
+        "name": "defense",
+        "columns": [
+            {
+                "name": "Mrs",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "admit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Mrs",
+        "foreign_keys": [
+            {
+                "column": "Mrs",
+                "references": "such"
+            }
+        ]
+    },
+    {
+        "name": "such",
+        "columns": [
+            {
+                "name": "fly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "interesting",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fly",
+        "foreign_keys": [
+            {
+                "column": "fly",
+                "references": "understand"
+            }
+        ]
+    },
+    {
+        "name": "understand",
+        "columns": [
+            {
+                "name": "management",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "series",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "management",
+        "foreign_keys": [
+            {
+                "column": "management",
+                "references": "research"
+            }
+        ]
+    },
+    {
+        "name": "research",
+        "columns": [
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "reality"
+            }
+        ]
+    },
+    {
+        "name": "reality",
+        "columns": [
+            {
+                "name": "before",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "arrive"
+            }
+        ]
+    },
+    {
+        "name": "arrive",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forget",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "bill"
+            }
+        ]
+    }
+]

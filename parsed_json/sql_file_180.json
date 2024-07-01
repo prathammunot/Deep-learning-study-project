@@ -1,0 +1,225 @@
+[
+    {
+        "name": "feeling",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "instead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "society",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "doctor"
+            }
+        ]
+    },
+    {
+        "name": "doctor",
+        "columns": [
+            {
+                "name": "now",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "newspaper",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "now",
+        "foreign_keys": [
+            {
+                "column": "now",
+                "references": "break"
+            }
+        ]
+    },
+    {
+        "name": "break",
+        "columns": [
+            {
+                "name": "organization",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "knowledge",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "organization",
+        "foreign_keys": [
+            {
+                "column": "organization",
+                "references": "rise"
+            }
+        ]
+    },
+    {
+        "name": "rise",
+        "columns": [
+            {
+                "name": "option",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treatment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "option",
+        "foreign_keys": [
+            {
+                "column": "option",
+                "references": "else"
+            }
+        ]
+    },
+    {
+        "name": "else",
+        "columns": [
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "set"
+            }
+        ]
+    },
+    {
+        "name": "set",
+        "columns": [
+            {
+                "name": "center",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "how",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "center",
+        "foreign_keys": [
+            {
+                "column": "center",
+                "references": "seem"
+            }
+        ]
+    },
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "yes",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ball",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "majority",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yes",
+        "foreign_keys": [
+            {
+                "column": "yes",
+                "references": "race"
+            }
+        ]
+    },
+    {
+        "name": "race",
+        "columns": [
+            {
+                "name": "vote",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "vote",
+        "foreign_keys": [
+            {
+                "column": "vote",
+                "references": "article"
+            }
+        ]
+    },
+    {
+        "name": "article",
+        "columns": [
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everything",
+        "foreign_keys": [
+            {
+                "column": "everything",
+                "references": "feeling"
+            }
+        ]
+    }
+]

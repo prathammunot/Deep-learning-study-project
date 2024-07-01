@@ -1,0 +1,247 @@
+[
+    {
+        "name": "end",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "against",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "specific",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "throughout"
+            }
+        ]
+    },
+    {
+        "name": "throughout",
+        "columns": [
+            {
+                "name": "clearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "clearly",
+        "foreign_keys": [
+            {
+                "column": "clearly",
+                "references": "call"
+            }
+        ]
+    },
+    {
+        "name": "call",
+        "columns": [
+            {
+                "name": "part",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "station",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "part",
+        "foreign_keys": [
+            {
+                "column": "part",
+                "references": "one"
+            }
+        ]
+    },
+    {
+        "name": "one",
+        "columns": [
+            {
+                "name": "interesting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "benefit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "interesting",
+        "foreign_keys": [
+            {
+                "column": "interesting",
+                "references": "choose"
+            }
+        ]
+    },
+    {
+        "name": "choose",
+        "columns": [
+            {
+                "name": "similar",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "similar",
+        "foreign_keys": [
+            {
+                "column": "similar",
+                "references": "manage"
+            }
+        ]
+    },
+    {
+        "name": "manage",
+        "columns": [
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sort",
+        "foreign_keys": [
+            {
+                "column": "sort",
+                "references": "language"
+            }
+        ]
+    },
+    {
+        "name": "language",
+        "columns": [
+            {
+                "name": "arrive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "admit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "arrive",
+        "foreign_keys": [
+            {
+                "column": "arrive",
+                "references": "manager"
+            }
+        ]
+    },
+    {
+        "name": "manager",
+        "columns": [
+            {
+                "name": "himself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arrive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "himself",
+        "foreign_keys": [
+            {
+                "column": "himself",
+                "references": "final"
+            }
+        ]
+    },
+    {
+        "name": "final",
+        "columns": [
+            {
+                "name": "people",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "people",
+        "foreign_keys": [
+            {
+                "column": "people",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "born",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "born",
+        "foreign_keys": [
+            {
+                "column": "born",
+                "references": "end"
+            }
+        ]
+    }
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "name": "information",
+        "columns": [
+            {
+                "name": "building",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "make",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "radio",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "building",
+        "foreign_keys": [
+            {
+                "column": "building",
+                "references": "left"
+            }
+        ]
+    },
+    {
+        "name": "left",
+        "columns": [
+            {
+                "name": "describe",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hair",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "describe",
+        "foreign_keys": [
+            {
+                "column": "describe",
+                "references": "to"
+            }
+        ]
+    },
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "others",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "others",
+        "foreign_keys": [
+            {
+                "column": "others",
+                "references": "theory"
+            }
+        ]
+    },
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "candidate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "single"
+            }
+        ]
+    },
+    {
+        "name": "single",
+        "columns": [
+            {
+                "name": "art",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "resource"
+            }
+        ]
+    },
+    {
+        "name": "resource",
+        "columns": [
+            {
+                "name": "produce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "key",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "produce",
+        "foreign_keys": [
+            {
+                "column": "produce",
+                "references": "hair"
+            }
+        ]
+    },
+    {
+        "name": "hair",
+        "columns": [
+            {
+                "name": "professional",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "professional",
+        "foreign_keys": [
+            {
+                "column": "professional",
+                "references": "wonder"
+            }
+        ]
+    },
+    {
+        "name": "wonder",
+        "columns": [
+            {
+                "name": "career",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "word",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "career",
+        "foreign_keys": [
+            {
+                "column": "career",
+                "references": "culture"
+            }
+        ]
+    },
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "reality",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "part",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reality",
+        "foreign_keys": [
+            {
+                "column": "reality",
+                "references": "form"
+            }
+        ]
+    },
+    {
+        "name": "form",
+        "columns": [
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "him",
+        "foreign_keys": [
+            {
+                "column": "him",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "thousand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thousand",
+        "foreign_keys": [
+            {
+                "column": "thousand",
+                "references": "represent"
+            }
+        ]
+    },
+    {
+        "name": "represent",
+        "columns": [
+            {
+                "name": "yet",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yet",
+        "foreign_keys": [
+            {
+                "column": "yet",
+                "references": "information"
+            }
+        ]
+    }
+]

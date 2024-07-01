@@ -1,0 +1,176 @@
+[
+    {
+        "name": "room",
+        "columns": [
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recognize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "read",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "light",
+        "foreign_keys": [
+            {
+                "column": "light",
+                "references": "official"
+            }
+        ]
+    },
+    {
+        "name": "official",
+        "columns": [
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "laugh",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "institution"
+            }
+        ]
+    },
+    {
+        "name": "institution",
+        "columns": [
+            {
+                "name": "get",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "property",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "get",
+        "foreign_keys": [
+            {
+                "column": "get",
+                "references": "tell"
+            }
+        ]
+    },
+    {
+        "name": "tell",
+        "columns": [
+            {
+                "name": "road",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cup",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "road",
+        "foreign_keys": [
+            {
+                "column": "road",
+                "references": "safe"
+            }
+        ]
+    },
+    {
+        "name": "safe",
+        "columns": [
+            {
+                "name": "couple",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "program",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "accept",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "couple",
+        "foreign_keys": [
+            {
+                "column": "couple",
+                "references": "easy"
+            }
+        ]
+    },
+    {
+        "name": "easy",
+        "columns": [
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "onto"
+            }
+        ]
+    },
+    {
+        "name": "onto",
+        "columns": [
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "finish",
+        "foreign_keys": [
+            {
+                "column": "finish",
+                "references": "room"
+            }
+        ]
+    }
+]

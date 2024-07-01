@@ -1,0 +1,225 @@
+[
+    {
+        "name": "once",
+        "columns": [
+            {
+                "name": "player",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "first",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "player",
+        "foreign_keys": [
+            {
+                "column": "player",
+                "references": "usually"
+            }
+        ]
+    },
+    {
+        "name": "usually",
+        "columns": [
+            {
+                "name": "institution",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "institution",
+        "foreign_keys": [
+            {
+                "column": "institution",
+                "references": "something"
+            }
+        ]
+    },
+    {
+        "name": "something",
+        "columns": [
+            {
+                "name": "sport",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sing",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "he",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sport",
+        "foreign_keys": [
+            {
+                "column": "sport",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "so"
+            }
+        ]
+    },
+    {
+        "name": "so",
+        "columns": [
+            {
+                "name": "despite",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "despite",
+        "foreign_keys": [
+            {
+                "column": "despite",
+                "references": "answer"
+            }
+        ]
+    },
+    {
+        "name": "answer",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "full"
+            }
+        ]
+    },
+    {
+        "name": "full",
+        "columns": [
+            {
+                "name": "feeling",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "moment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "treatment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "feeling",
+        "foreign_keys": [
+            {
+                "column": "feeling",
+                "references": "history"
+            }
+        ]
+    },
+    {
+        "name": "history",
+        "columns": [
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sell",
+        "foreign_keys": [
+            {
+                "column": "sell",
+                "references": "Congress"
+            }
+        ]
+    },
+    {
+        "name": "Congress",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "once"
+            }
+        ]
+    }
+]

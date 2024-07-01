@@ -1,0 +1,225 @@
+[
+    {
+        "name": "white",
+        "columns": [
+            {
+                "name": "somebody",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "somebody",
+        "foreign_keys": [
+            {
+                "column": "somebody",
+                "references": "total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "quickly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "quickly",
+        "foreign_keys": [
+            {
+                "column": "quickly",
+                "references": "beat"
+            }
+        ]
+    },
+    {
+        "name": "beat",
+        "columns": [
+            {
+                "name": "politics",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "politics",
+        "foreign_keys": [
+            {
+                "column": "politics",
+                "references": "admit"
+            }
+        ]
+    },
+    {
+        "name": "admit",
+        "columns": [
+            {
+                "name": "would",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "would",
+        "foreign_keys": [
+            {
+                "column": "would",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "fear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fear",
+        "foreign_keys": [
+            {
+                "column": "fear",
+                "references": "value"
+            }
+        ]
+    },
+    {
+        "name": "value",
+        "columns": [
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "anything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mouth",
+        "foreign_keys": [
+            {
+                "column": "mouth",
+                "references": "name"
+            }
+        ]
+    },
+    {
+        "name": "name",
+        "columns": [
+            {
+                "name": "enjoy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enjoy",
+        "foreign_keys": [
+            {
+                "column": "enjoy",
+                "references": "group"
+            }
+        ]
+    },
+    {
+        "name": "group",
+        "columns": [
+            {
+                "name": "ok",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pick",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ok",
+        "foreign_keys": [
+            {
+                "column": "ok",
+                "references": "know"
+            }
+        ]
+    },
+    {
+        "name": "know",
+        "columns": [
+            {
+                "name": "example",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "school",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "example",
+        "foreign_keys": [
+            {
+                "column": "example",
+                "references": "white"
+            }
+        ]
+    }
+]

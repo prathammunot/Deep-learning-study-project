@@ -1,0 +1,274 @@
+[
+    {
+        "name": "deal",
+        "columns": [
+            {
+                "name": "national",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "national",
+        "foreign_keys": [
+            {
+                "column": "national",
+                "references": "pay"
+            }
+        ]
+    },
+    {
+        "name": "pay",
+        "columns": [
+            {
+                "name": "action",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "news",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "action",
+        "foreign_keys": [
+            {
+                "column": "action",
+                "references": "street"
+            }
+        ]
+    },
+    {
+        "name": "street",
+        "columns": [
+            {
+                "name": "it",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "it",
+        "foreign_keys": [
+            {
+                "column": "it",
+                "references": "tend"
+            }
+        ]
+    },
+    {
+        "name": "tend",
+        "columns": [
+            {
+                "name": "understand",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "understand",
+        "foreign_keys": [
+            {
+                "column": "understand",
+                "references": "evidence"
+            }
+        ]
+    },
+    {
+        "name": "evidence",
+        "columns": [
+            {
+                "name": "six",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "recognize",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "six",
+        "foreign_keys": [
+            {
+                "column": "six",
+                "references": "scientist"
+            }
+        ]
+    },
+    {
+        "name": "scientist",
+        "columns": [
+            {
+                "name": "avoid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "travel",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "avoid",
+        "foreign_keys": [
+            {
+                "column": "avoid",
+                "references": "interview"
+            }
+        ]
+    },
+    {
+        "name": "interview",
+        "columns": [
+            {
+                "name": "game",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "product",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "network"
+            }
+        ]
+    },
+    {
+        "name": "network",
+        "columns": [
+            {
+                "name": "score",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "imagine",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "score",
+        "foreign_keys": [
+            {
+                "column": "score",
+                "references": "case"
+            }
+        ]
+    },
+    {
+        "name": "case",
+        "columns": [
+            {
+                "name": "however",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tax",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "recently"
+            }
+        ]
+    },
+    {
+        "name": "recently",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "national"
+            }
+        ]
+    },
+    {
+        "name": "national",
+        "columns": [
+            {
+                "name": "brother",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "brother",
+        "foreign_keys": [
+            {
+                "column": "brother",
+                "references": "deal"
+            }
+        ]
+    }
+]

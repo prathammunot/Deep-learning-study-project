@@ -1,0 +1,198 @@
+[
+    {
+        "name": "interesting",
+        "columns": [
+            {
+                "name": "speech",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Democrat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "speech",
+        "foreign_keys": [
+            {
+                "column": "speech",
+                "references": "yet"
+            }
+        ]
+    },
+    {
+        "name": "yet",
+        "columns": [
+            {
+                "name": "fight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fight",
+        "foreign_keys": [
+            {
+                "column": "fight",
+                "references": "dog"
+            }
+        ]
+    },
+    {
+        "name": "dog",
+        "columns": [
+            {
+                "name": "often",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "left",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "often",
+        "foreign_keys": [
+            {
+                "column": "often",
+                "references": "certain"
+            }
+        ]
+    },
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "growth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "store"
+            }
+        ]
+    },
+    {
+        "name": "store",
+        "columns": [
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "camera",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "need",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mean",
+        "foreign_keys": [
+            {
+                "column": "mean",
+                "references": "sport"
+            }
+        ]
+    },
+    {
+        "name": "sport",
+        "columns": [
+            {
+                "name": "ability",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ability",
+        "foreign_keys": [
+            {
+                "column": "ability",
+                "references": "social"
+            }
+        ]
+    },
+    {
+        "name": "social",
+        "columns": [
+            {
+                "name": "former",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "former",
+        "foreign_keys": [
+            {
+                "column": "former",
+                "references": "who"
+            }
+        ]
+    },
+    {
+        "name": "who",
+        "columns": [
+            {
+                "name": "war",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "war",
+        "foreign_keys": [
+            {
+                "column": "war",
+                "references": "interesting"
+            }
+        ]
+    }
+]

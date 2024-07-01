@@ -1,0 +1,296 @@
+[
+    {
+        "name": "thought",
+        "columns": [
+            {
+                "name": "father",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "power",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "themselves",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "father",
+        "foreign_keys": [
+            {
+                "column": "father",
+                "references": "animal"
+            }
+        ]
+    },
+    {
+        "name": "animal",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "east"
+            }
+        ]
+    },
+    {
+        "name": "east",
+        "columns": [
+            {
+                "name": "officer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "street",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "officer",
+        "foreign_keys": [
+            {
+                "column": "officer",
+                "references": "per"
+            }
+        ]
+    },
+    {
+        "name": "per",
+        "columns": [
+            {
+                "name": "commercial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "resource",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "commercial",
+        "foreign_keys": [
+            {
+                "column": "commercial",
+                "references": "sure"
+            }
+        ]
+    },
+    {
+        "name": "sure",
+        "columns": [
+            {
+                "name": "hotel",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professional",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hotel",
+        "foreign_keys": [
+            {
+                "column": "hotel",
+                "references": "similar"
+            }
+        ]
+    },
+    {
+        "name": "similar",
+        "columns": [
+            {
+                "name": "size",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "even",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "size",
+        "foreign_keys": [
+            {
+                "column": "size",
+                "references": "power"
+            }
+        ]
+    },
+    {
+        "name": "power",
+        "columns": [
+            {
+                "name": "friend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "friend",
+        "foreign_keys": [
+            {
+                "column": "friend",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "relationship",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attention",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "relationship",
+        "foreign_keys": [
+            {
+                "column": "relationship",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "policy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "table",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "policy",
+        "foreign_keys": [
+            {
+                "column": "policy",
+                "references": "write"
+            }
+        ]
+    },
+    {
+        "name": "write",
+        "columns": [
+            {
+                "name": "wear",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "assume",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wear",
+        "foreign_keys": [
+            {
+                "column": "wear",
+                "references": "view"
+            }
+        ]
+    },
+    {
+        "name": "view",
+        "columns": [
+            {
+                "name": "general",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "general",
+        "foreign_keys": [
+            {
+                "column": "general",
+                "references": "thought"
+            }
+        ]
+    }
+]

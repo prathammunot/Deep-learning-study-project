@@ -1,0 +1,225 @@
+[
+    {
+        "name": "watch",
+        "columns": [
+            {
+                "name": "animal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "water",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "animal",
+        "foreign_keys": [
+            {
+                "column": "animal",
+                "references": "position"
+            }
+        ]
+    },
+    {
+        "name": "position",
+        "columns": [
+            {
+                "name": "similar",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "similar",
+        "foreign_keys": [
+            {
+                "column": "similar",
+                "references": "state"
+            }
+        ]
+    },
+    {
+        "name": "state",
+        "columns": [
+            {
+                "name": "laugh",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recognize",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "laugh",
+        "foreign_keys": [
+            {
+                "column": "laugh",
+                "references": "then"
+            }
+        ]
+    },
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "finally",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "finally",
+        "foreign_keys": [
+            {
+                "column": "finally",
+                "references": "water"
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "columns": [
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maybe",
+        "foreign_keys": [
+            {
+                "column": "maybe",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "model",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "four",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "participant"
+            }
+        ]
+    },
+    {
+        "name": "participant",
+        "columns": [
+            {
+                "name": "break",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "break",
+        "foreign_keys": [
+            {
+                "column": "break",
+                "references": "yet"
+            }
+        ]
+    },
+    {
+        "name": "yet",
+        "columns": [
+            {
+                "name": "pass",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pass",
+        "foreign_keys": [
+            {
+                "column": "pass",
+                "references": "science"
+            }
+        ]
+    },
+    {
+        "name": "science",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "suddenly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "watch"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "real",
+        "columns": [
+            {
+                "name": "successful",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "opportunity",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "successful",
+        "foreign_keys": [
+            {
+                "column": "successful",
+                "references": "other"
+            }
+        ]
+    },
+    {
+        "name": "other",
+        "columns": [
+            {
+                "name": "read",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "skin",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "read",
+        "foreign_keys": [
+            {
+                "column": "read",
+                "references": "speech"
+            }
+        ]
+    },
+    {
+        "name": "speech",
+        "columns": [
+            {
+                "name": "seek",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seek",
+        "foreign_keys": [
+            {
+                "column": "seek",
+                "references": "role"
+            }
+        ]
+    },
+    {
+        "name": "role",
+        "columns": [
+            {
+                "name": "center",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "benefit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "center",
+        "foreign_keys": [
+            {
+                "column": "center",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "surface",
+        "foreign_keys": [
+            {
+                "column": "surface",
+                "references": "process"
+            }
+        ]
+    },
+    {
+        "name": "process",
+        "columns": [
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "health",
+        "foreign_keys": [
+            {
+                "column": "health",
+                "references": "couple"
+            }
+        ]
+    },
+    {
+        "name": "couple",
+        "columns": [
+            {
+                "name": "show",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "show",
+        "foreign_keys": [
+            {
+                "column": "show",
+                "references": "real"
+            }
+        ]
+    }
+]

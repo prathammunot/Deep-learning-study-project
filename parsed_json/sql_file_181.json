@@ -1,0 +1,225 @@
+[
+    {
+        "name": "live",
+        "columns": [
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "until",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "suggest",
+        "foreign_keys": [
+            {
+                "column": "suggest",
+                "references": "sometimes"
+            }
+        ]
+    },
+    {
+        "name": "sometimes",
+        "columns": [
+            {
+                "name": "speech",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "speech",
+        "foreign_keys": [
+            {
+                "column": "speech",
+                "references": "data"
+            }
+        ]
+    },
+    {
+        "name": "data",
+        "columns": [
+            {
+                "name": "outside",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "technology",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "outside",
+        "foreign_keys": [
+            {
+                "column": "outside",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "five",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "five",
+        "foreign_keys": [
+            {
+                "column": "five",
+                "references": "us"
+            }
+        ]
+    },
+    {
+        "name": "us",
+        "columns": [
+            {
+                "name": "contain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "light",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "contain",
+        "foreign_keys": [
+            {
+                "column": "contain",
+                "references": "interesting"
+            }
+        ]
+    },
+    {
+        "name": "interesting",
+        "columns": [
+            {
+                "name": "attorney",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "miss",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "attorney",
+        "foreign_keys": [
+            {
+                "column": "attorney",
+                "references": "bag"
+            }
+        ]
+    },
+    {
+        "name": "bag",
+        "columns": [
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "study",
+        "foreign_keys": [
+            {
+                "column": "study",
+                "references": "age"
+            }
+        ]
+    },
+    {
+        "name": "age",
+        "columns": [
+            {
+                "name": "career",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "career",
+        "foreign_keys": [
+            {
+                "column": "career",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pull",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "participant",
+        "foreign_keys": [
+            {
+                "column": "participant",
+                "references": "live"
+            }
+        ]
+    }
+]

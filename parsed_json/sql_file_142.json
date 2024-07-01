@@ -1,0 +1,127 @@
+[
+    {
+        "name": "especially",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "have"
+            }
+        ]
+    },
+    {
+        "name": "have",
+        "columns": [
+            {
+                "name": "land",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hold",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "land",
+        "foreign_keys": [
+            {
+                "column": "land",
+                "references": "dog"
+            }
+        ]
+    },
+    {
+        "name": "dog",
+        "columns": [
+            {
+                "name": "new",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "up"
+            }
+        ]
+    },
+    {
+        "name": "up",
+        "columns": [
+            {
+                "name": "everything",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everything",
+        "foreign_keys": [
+            {
+                "column": "everything",
+                "references": "cup"
+            }
+        ]
+    },
+    {
+        "name": "cup",
+        "columns": [
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "industry",
+        "foreign_keys": [
+            {
+                "column": "industry",
+                "references": "especially"
+            }
+        ]
+    }
+]

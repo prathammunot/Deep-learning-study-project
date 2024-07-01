@@ -1,0 +1,291 @@
+[
+    {
+        "name": "recognize",
+        "columns": [
+            {
+                "name": "visit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "visit",
+        "foreign_keys": [
+            {
+                "column": "visit",
+                "references": "you"
+            }
+        ]
+    },
+    {
+        "name": "you",
+        "columns": [
+            {
+                "name": "management",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "management",
+        "foreign_keys": [
+            {
+                "column": "management",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "travel",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "situation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "travel",
+        "foreign_keys": [
+            {
+                "column": "travel",
+                "references": "their"
+            }
+        ]
+    },
+    {
+        "name": "their",
+        "columns": [
+            {
+                "name": "to",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "to",
+        "foreign_keys": [
+            {
+                "column": "to",
+                "references": "because"
+            }
+        ]
+    },
+    {
+        "name": "because",
+        "columns": [
+            {
+                "name": "strategy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "significant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "weight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "strategy",
+        "foreign_keys": [
+            {
+                "column": "strategy",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "author",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "value"
+            }
+        ]
+    },
+    {
+        "name": "value",
+        "columns": [
+            {
+                "name": "treatment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "let",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "treatment",
+        "foreign_keys": [
+            {
+                "column": "treatment",
+                "references": "turn"
+            }
+        ]
+    },
+    {
+        "name": "turn",
+        "columns": [
+            {
+                "name": "job",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "job",
+        "foreign_keys": [
+            {
+                "column": "job",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "Democrat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "near",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Democrat",
+        "foreign_keys": [
+            {
+                "column": "Democrat",
+                "references": "write"
+            }
+        ]
+    },
+    {
+        "name": "write",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "every",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "cost"
+            }
+        ]
+    },
+    {
+        "name": "cost",
+        "columns": [
+            {
+                "name": "assume",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "assume",
+        "foreign_keys": [
+            {
+                "column": "assume",
+                "references": "accept"
+            }
+        ]
+    },
+    {
+        "name": "accept",
+        "columns": [
+            {
+                "name": "avoid",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "avoid",
+        "foreign_keys": [
+            {
+                "column": "avoid",
+                "references": "recognize"
+            }
+        ]
+    }
+]

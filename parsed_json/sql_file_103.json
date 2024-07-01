@@ -1,0 +1,247 @@
+[
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "trip",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trip",
+        "foreign_keys": [
+            {
+                "column": "trip",
+                "references": "head"
+            }
+        ]
+    },
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "house"
+            }
+        ]
+    },
+    {
+        "name": "house",
+        "columns": [
+            {
+                "name": "argue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "argue",
+        "foreign_keys": [
+            {
+                "column": "argue",
+                "references": "least"
+            }
+        ]
+    },
+    {
+        "name": "least",
+        "columns": [
+            {
+                "name": "office",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "community"
+            }
+        ]
+    },
+    {
+        "name": "community",
+        "columns": [
+            {
+                "name": "thing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "minute",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thing",
+        "foreign_keys": [
+            {
+                "column": "thing",
+                "references": "woman"
+            }
+        ]
+    },
+    {
+        "name": "woman",
+        "columns": [
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "type",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "little",
+        "foreign_keys": [
+            {
+                "column": "little",
+                "references": "fly"
+            }
+        ]
+    },
+    {
+        "name": "fly",
+        "columns": [
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "society",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "group",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "themselves",
+        "foreign_keys": [
+            {
+                "column": "themselves",
+                "references": "how"
+            }
+        ]
+    },
+    {
+        "name": "how",
+        "columns": [
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "positive",
+        "foreign_keys": [
+            {
+                "column": "positive",
+                "references": "third"
+            }
+        ]
+    },
+    {
+        "name": "third",
+        "columns": [
+            {
+                "name": "theory",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "personal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "theory",
+        "foreign_keys": [
+            {
+                "column": "theory",
+                "references": "key"
+            }
+        ]
+    },
+    {
+        "name": "key",
+        "columns": [
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "report",
+        "foreign_keys": [
+            {
+                "column": "report",
+                "references": "skill"
+            }
+        ]
+    }
+]
