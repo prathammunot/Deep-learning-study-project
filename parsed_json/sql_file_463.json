@@ -1,0 +1,198 @@
+[
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "need",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trial",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "need",
+        "foreign_keys": [
+            {
+                "column": "need",
+                "references": "until"
+            }
+        ]
+    },
+    {
+        "name": "until",
+        "columns": [
+            {
+                "name": "third",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "notice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "third",
+        "foreign_keys": [
+            {
+                "column": "third",
+                "references": "once"
+            }
+        ]
+    },
+    {
+        "name": "once",
+        "columns": [
+            {
+                "name": "usually",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "grow",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "usually",
+        "foreign_keys": [
+            {
+                "column": "usually",
+                "references": "region"
+            }
+        ]
+    },
+    {
+        "name": "region",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "court",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "choose"
+            }
+        ]
+    },
+    {
+        "name": "choose",
+        "columns": [
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "order",
+        "foreign_keys": [
+            {
+                "column": "order",
+                "references": "design"
+            }
+        ]
+    },
+    {
+        "name": "design",
+        "columns": [
+            {
+                "name": "require",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "team",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "require",
+        "foreign_keys": [
+            {
+                "column": "require",
+                "references": "all"
+            }
+        ]
+    },
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "movie",
+        "foreign_keys": [
+            {
+                "column": "movie",
+                "references": "senior"
+            }
+        ]
+    },
+    {
+        "name": "senior",
+        "columns": [
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "individual",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "task",
+        "foreign_keys": [
+            {
+                "column": "task",
+                "references": "west"
+            }
+        ]
+    }
+]

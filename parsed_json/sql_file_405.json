@@ -1,0 +1,127 @@
+[
+    {
+        "name": "action",
+        "columns": [
+            {
+                "name": "second",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "go"
+            }
+        ]
+    },
+    {
+        "name": "go",
+        "columns": [
+            {
+                "name": "blood",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "blood",
+        "foreign_keys": [
+            {
+                "column": "blood",
+                "references": "fight"
+            }
+        ]
+    },
+    {
+        "name": "fight",
+        "columns": [
+            {
+                "name": "sure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "soldier",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "position",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sure",
+        "foreign_keys": [
+            {
+                "column": "sure",
+                "references": "ability"
+            }
+        ]
+    },
+    {
+        "name": "ability",
+        "columns": [
+            {
+                "name": "administration",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "administration",
+        "foreign_keys": [
+            {
+                "column": "administration",
+                "references": "adult"
+            }
+        ]
+    },
+    {
+        "name": "adult",
+        "columns": [
+            {
+                "name": "evidence",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "person",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "evidence",
+        "foreign_keys": [
+            {
+                "column": "evidence",
+                "references": "action"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "name": "rock",
+        "columns": [
+            {
+                "name": "but",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "heavy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "but",
+        "foreign_keys": [
+            {
+                "column": "but",
+                "references": "clearly"
+            }
+        ]
+    },
+    {
+        "name": "clearly",
+        "columns": [
+            {
+                "name": "sound",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "area",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sound",
+        "foreign_keys": [
+            {
+                "column": "sound",
+                "references": "white"
+            }
+        ]
+    },
+    {
+        "name": "white",
+        "columns": [
+            {
+                "name": "follow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "good",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "follow",
+        "foreign_keys": [
+            {
+                "column": "follow",
+                "references": "Congress"
+            }
+        ]
+    },
+    {
+        "name": "Congress",
+        "columns": [
+            {
+                "name": "why",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "stop"
+            }
+        ]
+    },
+    {
+        "name": "stop",
+        "columns": [
+            {
+                "name": "billion",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "than",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "later",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "billion",
+        "foreign_keys": [
+            {
+                "column": "billion",
+                "references": "bad"
+            }
+        ]
+    },
+    {
+        "name": "bad",
+        "columns": [
+            {
+                "name": "none",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "none",
+        "foreign_keys": [
+            {
+                "column": "none",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "of"
+            }
+        ]
+    },
+    {
+        "name": "of",
+        "columns": [
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "only",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "democratic",
+        "foreign_keys": [
+            {
+                "column": "democratic",
+                "references": "rock"
+            }
+        ]
+    }
+]

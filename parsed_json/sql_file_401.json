@@ -1,0 +1,225 @@
+[
+    {
+        "name": "particularly",
+        "columns": [
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "local",
+        "foreign_keys": [
+            {
+                "column": "local",
+                "references": "opportunity"
+            }
+        ]
+    },
+    {
+        "name": "opportunity",
+        "columns": [
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "know",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "region",
+        "foreign_keys": [
+            {
+                "column": "region",
+                "references": "job"
+            }
+        ]
+    },
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "tough",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "energy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tough",
+        "foreign_keys": [
+            {
+                "column": "tough",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "meeting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "meeting",
+        "foreign_keys": [
+            {
+                "column": "meeting",
+                "references": "government"
+            }
+        ]
+    },
+    {
+        "name": "government",
+        "columns": [
+            {
+                "name": "way",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "cup",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cup",
+        "foreign_keys": [
+            {
+                "column": "cup",
+                "references": "first"
+            }
+        ]
+    },
+    {
+        "name": "first",
+        "columns": [
+            {
+                "name": "significant",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "significant",
+        "foreign_keys": [
+            {
+                "column": "significant",
+                "references": "during"
+            }
+        ]
+    },
+    {
+        "name": "during",
+        "columns": [
+            {
+                "name": "finally",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "across",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "finally",
+        "foreign_keys": [
+            {
+                "column": "finally",
+                "references": "but"
+            }
+        ]
+    },
+    {
+        "name": "but",
+        "columns": [
+            {
+                "name": "trouble",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Republican",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "certain",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "trouble",
+        "foreign_keys": [
+            {
+                "column": "trouble",
+                "references": "particularly"
+            }
+        ]
+    }
+]

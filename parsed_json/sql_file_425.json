@@ -1,0 +1,127 @@
+[
+    {
+        "name": "expect",
+        "columns": [
+            {
+                "name": "lawyer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lawyer",
+        "foreign_keys": [
+            {
+                "column": "lawyer",
+                "references": "team"
+            }
+        ]
+    },
+    {
+        "name": "team",
+        "columns": [
+            {
+                "name": "exactly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "exactly",
+        "foreign_keys": [
+            {
+                "column": "exactly",
+                "references": "become"
+            }
+        ]
+    },
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "picture",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agency",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "but",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "picture",
+        "foreign_keys": [
+            {
+                "column": "picture",
+                "references": "thought"
+            }
+        ]
+    },
+    {
+        "name": "thought",
+        "columns": [
+            {
+                "name": "everyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everyone",
+        "foreign_keys": [
+            {
+                "column": "everyone",
+                "references": "deal"
+            }
+        ]
+    },
+    {
+        "name": "deal",
+        "columns": [
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fact",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wrong",
+        "foreign_keys": [
+            {
+                "column": "wrong",
+                "references": "expect"
+            }
+        ]
+    }
+]

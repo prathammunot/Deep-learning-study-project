@@ -1,0 +1,176 @@
+[
+    {
+        "name": "peace",
+        "columns": [
+            {
+                "name": "marriage",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "marriage",
+        "foreign_keys": [
+            {
+                "column": "marriage",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "half",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "half",
+        "foreign_keys": [
+            {
+                "column": "half",
+                "references": "blue"
+            }
+        ]
+    },
+    {
+        "name": "blue",
+        "columns": [
+            {
+                "name": "once",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "remain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "stay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "once",
+        "foreign_keys": [
+            {
+                "column": "once",
+                "references": "fire"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "columns": [
+            {
+                "name": "finally",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "later",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "finally",
+        "foreign_keys": [
+            {
+                "column": "finally",
+                "references": "factor"
+            }
+        ]
+    },
+    {
+        "name": "factor",
+        "columns": [
+            {
+                "name": "raise",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "college",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "raise",
+        "foreign_keys": [
+            {
+                "column": "raise",
+                "references": "part"
+            }
+        ]
+    },
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "get",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "when",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "get",
+        "foreign_keys": [
+            {
+                "column": "get",
+                "references": "employee"
+            }
+        ]
+    },
+    {
+        "name": "employee",
+        "columns": [
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cut",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "section",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "finish",
+        "foreign_keys": [
+            {
+                "column": "finish",
+                "references": "peace"
+            }
+        ]
+    }
+]

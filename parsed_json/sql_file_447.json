@@ -1,0 +1,127 @@
+[
+    {
+        "name": "majority",
+        "columns": [
+            {
+                "name": "particular",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "long",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "particular",
+        "foreign_keys": [
+            {
+                "column": "particular",
+                "references": "ahead"
+            }
+        ]
+    },
+    {
+        "name": "ahead",
+        "columns": [
+            {
+                "name": "role",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "laugh",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "worker"
+            }
+        ]
+    },
+    {
+        "name": "worker",
+        "columns": [
+            {
+                "name": "include",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "include",
+        "foreign_keys": [
+            {
+                "column": "include",
+                "references": "above"
+            }
+        ]
+    },
+    {
+        "name": "above",
+        "columns": [
+            {
+                "name": "information",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "election",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "teacher"
+            }
+        ]
+    },
+    {
+        "name": "teacher",
+        "columns": [
+            {
+                "name": "strategy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "people",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "strategy",
+        "foreign_keys": [
+            {
+                "column": "strategy",
+                "references": "majority"
+            }
+        ]
+    }
+]

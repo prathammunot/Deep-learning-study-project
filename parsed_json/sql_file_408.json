@@ -1,0 +1,149 @@
+[
+    {
+        "name": "natural",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "budget",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "create"
+            }
+        ]
+    },
+    {
+        "name": "create",
+        "columns": [
+            {
+                "name": "over",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "page"
+            }
+        ]
+    },
+    {
+        "name": "page",
+        "columns": [
+            {
+                "name": "explain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "explain",
+        "foreign_keys": [
+            {
+                "column": "explain",
+                "references": "society"
+            }
+        ]
+    },
+    {
+        "name": "society",
+        "columns": [
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "guess",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "safe",
+        "foreign_keys": [
+            {
+                "column": "safe",
+                "references": "letter"
+            }
+        ]
+    },
+    {
+        "name": "letter",
+        "columns": [
+            {
+                "name": "you",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "you",
+        "foreign_keys": [
+            {
+                "column": "you",
+                "references": "example"
+            }
+        ]
+    },
+    {
+        "name": "example",
+        "columns": [
+            {
+                "name": "recognize",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recognize",
+        "foreign_keys": [
+            {
+                "column": "recognize",
+                "references": "natural"
+            }
+        ]
+    }
+]

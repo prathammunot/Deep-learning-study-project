@@ -1,0 +1,127 @@
+[
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "north",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "north",
+        "foreign_keys": [
+            {
+                "column": "north",
+                "references": "follow"
+            }
+        ]
+    },
+    {
+        "name": "follow",
+        "columns": [
+            {
+                "name": "cover",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cover",
+        "foreign_keys": [
+            {
+                "column": "cover",
+                "references": "activity"
+            }
+        ]
+    },
+    {
+        "name": "activity",
+        "columns": [
+            {
+                "name": "future",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "future",
+        "foreign_keys": [
+            {
+                "column": "future",
+                "references": "cause"
+            }
+        ]
+    },
+    {
+        "name": "cause",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "himself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "civil"
+            }
+        ]
+    },
+    {
+        "name": "civil",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "out"
+            }
+        ]
+    }
+]

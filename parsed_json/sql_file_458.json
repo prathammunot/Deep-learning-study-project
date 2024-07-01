@@ -1,0 +1,127 @@
+[
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "art",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "require",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "live",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "second"
+            }
+        ]
+    },
+    {
+        "name": "second",
+        "columns": [
+            {
+                "name": "me",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "me",
+        "foreign_keys": [
+            {
+                "column": "me",
+                "references": "state"
+            }
+        ]
+    },
+    {
+        "name": "state",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "eat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "top",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "west"
+            }
+        ]
+    },
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "second",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "contain"
+            }
+        ]
+    },
+    {
+        "name": "contain",
+        "columns": [
+            {
+                "name": "view",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bag",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "our",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "view",
+        "foreign_keys": [
+            {
+                "column": "view",
+                "references": "another"
+            }
+        ]
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "name": "camera",
+        "columns": [
+            {
+                "name": "third",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "others",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "capital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "third",
+        "foreign_keys": [
+            {
+                "column": "third",
+                "references": "himself"
+            }
+        ]
+    },
+    {
+        "name": "himself",
+        "columns": [
+            {
+                "name": "movement",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "television",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "movement",
+        "foreign_keys": [
+            {
+                "column": "movement",
+                "references": "difficult"
+            }
+        ]
+    },
+    {
+        "name": "difficult",
+        "columns": [
+            {
+                "name": "do",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wall",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "do",
+        "foreign_keys": [
+            {
+                "column": "do",
+                "references": "run"
+            }
+        ]
+    },
+    {
+        "name": "run",
+        "columns": [
+            {
+                "name": "stay",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stay",
+        "foreign_keys": [
+            {
+                "column": "stay",
+                "references": "sort"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "local",
+        "foreign_keys": [
+            {
+                "column": "local",
+                "references": "become"
+            }
+        ]
+    },
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "determine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "determine",
+        "foreign_keys": [
+            {
+                "column": "determine",
+                "references": "order"
+            }
+        ]
+    },
+    {
+        "name": "order",
+        "columns": [
+            {
+                "name": "factor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "concern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "factor",
+        "foreign_keys": [
+            {
+                "column": "factor",
+                "references": "investment"
+            }
+        ]
+    },
+    {
+        "name": "investment",
+        "columns": [
+            {
+                "name": "suffer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "down",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suffer",
+        "foreign_keys": [
+            {
+                "column": "suffer",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "have",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "trip",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "have",
+        "foreign_keys": [
+            {
+                "column": "have",
+                "references": "camera"
+            }
+        ]
+    }
+]

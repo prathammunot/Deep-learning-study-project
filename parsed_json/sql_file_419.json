@@ -1,0 +1,225 @@
+[
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "range",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "range",
+        "foreign_keys": [
+            {
+                "column": "range",
+                "references": "low"
+            }
+        ]
+    },
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "structure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "structure",
+        "foreign_keys": [
+            {
+                "column": "structure",
+                "references": "food"
+            }
+        ]
+    },
+    {
+        "name": "food",
+        "columns": [
+            {
+                "name": "store",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "store",
+        "foreign_keys": [
+            {
+                "column": "store",
+                "references": "manage"
+            }
+        ]
+    },
+    {
+        "name": "manage",
+        "columns": [
+            {
+                "name": "citizen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "citizen",
+        "foreign_keys": [
+            {
+                "column": "citizen",
+                "references": "however"
+            }
+        ]
+    },
+    {
+        "name": "however",
+        "columns": [
+            {
+                "name": "high",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stay",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "window"
+            }
+        ]
+    },
+    {
+        "name": "window",
+        "columns": [
+            {
+                "name": "structure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "structure",
+        "foreign_keys": [
+            {
+                "column": "structure",
+                "references": "scientist"
+            }
+        ]
+    },
+    {
+        "name": "scientist",
+        "columns": [
+            {
+                "name": "woman",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "woman",
+        "foreign_keys": [
+            {
+                "column": "woman",
+                "references": "development"
+            }
+        ]
+    },
+    {
+        "name": "development",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "able"
+            }
+        ]
+    },
+    {
+        "name": "able",
+        "columns": [
+            {
+                "name": "nice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nice",
+        "foreign_keys": [
+            {
+                "column": "nice",
+                "references": "skill"
+            }
+        ]
+    }
+]

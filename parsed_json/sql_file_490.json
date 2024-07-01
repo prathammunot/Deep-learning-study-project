@@ -1,0 +1,274 @@
+[
+    {
+        "name": "card",
+        "columns": [
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "color",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wrong",
+        "foreign_keys": [
+            {
+                "column": "wrong",
+                "references": "want"
+            }
+        ]
+    },
+    {
+        "name": "want",
+        "columns": [
+            {
+                "name": "group",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "group",
+        "foreign_keys": [
+            {
+                "column": "group",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "market",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "imagine",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "market",
+        "foreign_keys": [
+            {
+                "column": "market",
+                "references": "with"
+            }
+        ]
+    },
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "computer"
+            }
+        ]
+    },
+    {
+        "name": "computer",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "who",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "avoid"
+            }
+        ]
+    },
+    {
+        "name": "avoid",
+        "columns": [
+            {
+                "name": "market",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "second",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "market",
+        "foreign_keys": [
+            {
+                "column": "market",
+                "references": "mind"
+            }
+        ]
+    },
+    {
+        "name": "mind",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "receive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "try",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "receive",
+        "foreign_keys": [
+            {
+                "column": "receive",
+                "references": "skin"
+            }
+        ]
+    },
+    {
+        "name": "skin",
+        "columns": [
+            {
+                "name": "able",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "later",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "able",
+        "foreign_keys": [
+            {
+                "column": "able",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "manager",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serious",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "manager",
+        "foreign_keys": [
+            {
+                "column": "manager",
+                "references": "become"
+            }
+        ]
+    },
+    {
+        "name": "become",
+        "columns": [
+            {
+                "name": "business",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "market",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "building",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "card"
+            }
+        ]
+    }
+]

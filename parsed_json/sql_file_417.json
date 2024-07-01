@@ -1,0 +1,176 @@
+[
+    {
+        "name": "would",
+        "columns": [
+            {
+                "name": "threat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "plant",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "threat",
+        "foreign_keys": [
+            {
+                "column": "threat",
+                "references": "or"
+            }
+        ]
+    },
+    {
+        "name": "or",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "participant",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "brother"
+            }
+        ]
+    },
+    {
+        "name": "brother",
+        "columns": [
+            {
+                "name": "say",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "citizen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "say",
+        "foreign_keys": [
+            {
+                "column": "say",
+                "references": "section"
+            }
+        ]
+    },
+    {
+        "name": "section",
+        "columns": [
+            {
+                "name": "identify",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "identify",
+        "foreign_keys": [
+            {
+                "column": "identify",
+                "references": "nation"
+            }
+        ]
+    },
+    {
+        "name": "nation",
+        "columns": [
+            {
+                "name": "than",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "like",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "than",
+        "foreign_keys": [
+            {
+                "column": "than",
+                "references": "bank"
+            }
+        ]
+    },
+    {
+        "name": "bank",
+        "columns": [
+            {
+                "name": "both",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "both",
+        "foreign_keys": [
+            {
+                "column": "both",
+                "references": "pull"
+            }
+        ]
+    },
+    {
+        "name": "pull",
+        "columns": [
+            {
+                "name": "item",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "speak",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "item",
+        "foreign_keys": [
+            {
+                "column": "item",
+                "references": "would"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "decision",
+        "columns": [
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "shoulder",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hour",
+        "foreign_keys": [
+            {
+                "column": "hour",
+                "references": "page"
+            }
+        ]
+    },
+    {
+        "name": "page",
+        "columns": [
+            {
+                "name": "admit",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "mission",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "admit",
+        "foreign_keys": [
+            {
+                "column": "admit",
+                "references": "community"
+            }
+        ]
+    },
+    {
+        "name": "community",
+        "columns": [
+            {
+                "name": "position",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "research",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "position",
+        "foreign_keys": [
+            {
+                "column": "position",
+                "references": "hand"
+            }
+        ]
+    },
+    {
+        "name": "hand",
+        "columns": [
+            {
+                "name": "model",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "outside",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "model",
+        "foreign_keys": [
+            {
+                "column": "model",
+                "references": "Mr"
+            }
+        ]
+    },
+    {
+        "name": "Mr",
+        "columns": [
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "inside",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rule",
+        "foreign_keys": [
+            {
+                "column": "rule",
+                "references": "decision"
+            }
+        ]
+    }
+]

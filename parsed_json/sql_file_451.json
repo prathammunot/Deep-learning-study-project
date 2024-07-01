@@ -1,0 +1,149 @@
+[
+    {
+        "name": "break",
+        "columns": [
+            {
+                "name": "similar",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "value",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "similar",
+        "foreign_keys": [
+            {
+                "column": "similar",
+                "references": "low"
+            }
+        ]
+    },
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "provide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "provide",
+        "foreign_keys": [
+            {
+                "column": "provide",
+                "references": "near"
+            }
+        ]
+    },
+    {
+        "name": "near",
+        "columns": [
+            {
+                "name": "him",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "high",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "him",
+        "foreign_keys": [
+            {
+                "column": "him",
+                "references": "drug"
+            }
+        ]
+    },
+    {
+        "name": "drug",
+        "columns": [
+            {
+                "name": "image",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "image",
+        "foreign_keys": [
+            {
+                "column": "image",
+                "references": "lose"
+            }
+        ]
+    },
+    {
+        "name": "lose",
+        "columns": [
+            {
+                "name": "something",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "here",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "something",
+        "foreign_keys": [
+            {
+                "column": "something",
+                "references": "field"
+            }
+        ]
+    },
+    {
+        "name": "field",
+        "columns": [
+            {
+                "name": "high",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "marriage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "break"
+            }
+        ]
+    }
+]

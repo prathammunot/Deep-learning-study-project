@@ -1,0 +1,176 @@
+[
+    {
+        "name": "tax",
+        "columns": [
+            {
+                "name": "difficult",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "difficult",
+        "foreign_keys": [
+            {
+                "column": "difficult",
+                "references": "sit"
+            }
+        ]
+    },
+    {
+        "name": "sit",
+        "columns": [
+            {
+                "name": "green",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "too",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "go"
+            }
+        ]
+    },
+    {
+        "name": "go",
+        "columns": [
+            {
+                "name": "authority",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "clearly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "security",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "authority",
+        "foreign_keys": [
+            {
+                "column": "authority",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "wife",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wife",
+        "foreign_keys": [
+            {
+                "column": "wife",
+                "references": "science"
+            }
+        ]
+    },
+    {
+        "name": "science",
+        "columns": [
+            {
+                "name": "indeed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agency",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indeed",
+        "foreign_keys": [
+            {
+                "column": "indeed",
+                "references": "record"
+            }
+        ]
+    },
+    {
+        "name": "record",
+        "columns": [
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "base"
+            }
+        ]
+    },
+    {
+        "name": "base",
+        "columns": [
+            {
+                "name": "her",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "of",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "usually",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "her",
+        "foreign_keys": [
+            {
+                "column": "her",
+                "references": "tax"
+            }
+        ]
+    }
+]

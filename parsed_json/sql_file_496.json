@@ -1,0 +1,149 @@
+[
+    {
+        "name": "people",
+        "columns": [
+            {
+                "name": "or",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "I",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "or",
+        "foreign_keys": [
+            {
+                "column": "or",
+                "references": "recently"
+            }
+        ]
+    },
+    {
+        "name": "recently",
+        "columns": [
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "language",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "him",
+        "foreign_keys": [
+            {
+                "column": "him",
+                "references": "management"
+            }
+        ]
+    },
+    {
+        "name": "management",
+        "columns": [
+            {
+                "name": "thank",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thank",
+        "foreign_keys": [
+            {
+                "column": "thank",
+                "references": "town"
+            }
+        ]
+    },
+    {
+        "name": "town",
+        "columns": [
+            {
+                "name": "school",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "school",
+        "foreign_keys": [
+            {
+                "column": "school",
+                "references": "phone"
+            }
+        ]
+    },
+    {
+        "name": "phone",
+        "columns": [
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "force",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "likely",
+        "foreign_keys": [
+            {
+                "column": "likely",
+                "references": "movement"
+            }
+        ]
+    },
+    {
+        "name": "movement",
+        "columns": [
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sell",
+        "foreign_keys": [
+            {
+                "column": "sell",
+                "references": "people"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "finally",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "get",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "finally",
+        "foreign_keys": [
+            {
+                "column": "finally",
+                "references": "end"
+            }
+        ]
+    },
+    {
+        "name": "end",
+        "columns": [
+            {
+                "name": "moment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "moment",
+        "foreign_keys": [
+            {
+                "column": "moment",
+                "references": "defense"
+            }
+        ]
+    },
+    {
+        "name": "defense",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "traditional"
+            }
+        ]
+    },
+    {
+        "name": "traditional",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "religious"
+            }
+        ]
+    },
+    {
+        "name": "religious",
+        "columns": [
+            {
+                "name": "pressure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "current",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "morning",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "pressure",
+        "foreign_keys": [
+            {
+                "column": "pressure",
+                "references": "move"
+            }
+        ]
+    },
+    {
+        "name": "move",
+        "columns": [
+            {
+                "name": "this",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "this",
+        "foreign_keys": [
+            {
+                "column": "this",
+                "references": "spring"
+            }
+        ]
+    },
+    {
+        "name": "spring",
+        "columns": [
+            {
+                "name": "white",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reality",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "white",
+        "foreign_keys": [
+            {
+                "column": "white",
+                "references": "open"
+            }
+        ]
+    }
+]

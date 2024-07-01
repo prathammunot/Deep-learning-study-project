@@ -1,0 +1,296 @@
+[
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "worry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reality",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "avoid",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "worry",
+        "foreign_keys": [
+            {
+                "column": "worry",
+                "references": "might"
+            }
+        ]
+    },
+    {
+        "name": "might",
+        "columns": [
+            {
+                "name": "economic",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "economic",
+        "foreign_keys": [
+            {
+                "column": "economic",
+                "references": "customer"
+            }
+        ]
+    },
+    {
+        "name": "customer",
+        "columns": [
+            {
+                "name": "situation",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "situation",
+        "foreign_keys": [
+            {
+                "column": "situation",
+                "references": "task"
+            }
+        ]
+    },
+    {
+        "name": "task",
+        "columns": [
+            {
+                "name": "coach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "coach",
+        "foreign_keys": [
+            {
+                "column": "coach",
+                "references": "that"
+            }
+        ]
+    },
+    {
+        "name": "that",
+        "columns": [
+            {
+                "name": "science",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quite",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "science",
+        "foreign_keys": [
+            {
+                "column": "science",
+                "references": "table"
+            }
+        ]
+    },
+    {
+        "name": "table",
+        "columns": [
+            {
+                "name": "various",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "particular",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "various",
+        "foreign_keys": [
+            {
+                "column": "various",
+                "references": "since"
+            }
+        ]
+    },
+    {
+        "name": "since",
+        "columns": [
+            {
+                "name": "want",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "want",
+        "foreign_keys": [
+            {
+                "column": "want",
+                "references": "win"
+            }
+        ]
+    },
+    {
+        "name": "win",
+        "columns": [
+            {
+                "name": "nothing",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "that",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nothing",
+        "foreign_keys": [
+            {
+                "column": "nothing",
+                "references": "human"
+            }
+        ]
+    },
+    {
+        "name": "human",
+        "columns": [
+            {
+                "name": "involve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "plan",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "involve",
+        "foreign_keys": [
+            {
+                "column": "involve",
+                "references": "collection"
+            }
+        ]
+    },
+    {
+        "name": "collection",
+        "columns": [
+            {
+                "name": "TV",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "TV",
+        "foreign_keys": [
+            {
+                "column": "TV",
+                "references": "cold"
+            }
+        ]
+    },
+    {
+        "name": "cold",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "record",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "political",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "turn",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "political",
+        "foreign_keys": [
+            {
+                "column": "political",
+                "references": "century"
+            }
+        ]
+    }
+]

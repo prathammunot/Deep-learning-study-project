@@ -1,0 +1,247 @@
+[
+    {
+        "name": "traditional",
+        "columns": [
+            {
+                "name": "mean",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "political",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "condition",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mean",
+        "foreign_keys": [
+            {
+                "column": "mean",
+                "references": "teach"
+            }
+        ]
+    },
+    {
+        "name": "teach",
+        "columns": [
+            {
+                "name": "form",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "form",
+        "foreign_keys": [
+            {
+                "column": "form",
+                "references": "return"
+            }
+        ]
+    },
+    {
+        "name": "return",
+        "columns": [
+            {
+                "name": "everything",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "include",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "everything",
+        "foreign_keys": [
+            {
+                "column": "everything",
+                "references": "they"
+            }
+        ]
+    },
+    {
+        "name": "they",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "election"
+            }
+        ]
+    },
+    {
+        "name": "election",
+        "columns": [
+            {
+                "name": "according",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "year",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "according",
+        "foreign_keys": [
+            {
+                "column": "according",
+                "references": "program"
+            }
+        ]
+    },
+    {
+        "name": "program",
+        "columns": [
+            {
+                "name": "state",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "state",
+        "foreign_keys": [
+            {
+                "column": "state",
+                "references": "time"
+            }
+        ]
+    },
+    {
+        "name": "time",
+        "columns": [
+            {
+                "name": "million",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "father",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "million",
+        "foreign_keys": [
+            {
+                "column": "million",
+                "references": "nothing"
+            }
+        ]
+    },
+    {
+        "name": "nothing",
+        "columns": [
+            {
+                "name": "body",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "body",
+        "foreign_keys": [
+            {
+                "column": "body",
+                "references": "your"
+            }
+        ]
+    },
+    {
+        "name": "your",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "general",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "debate"
+            }
+        ]
+    },
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "traditional"
+            }
+        ]
+    }
+]

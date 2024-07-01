@@ -1,0 +1,274 @@
+[
+    {
+        "name": "successful",
+        "columns": [
+            {
+                "name": "still",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "she",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "evidence",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "still",
+        "foreign_keys": [
+            {
+                "column": "still",
+                "references": "idea"
+            }
+        ]
+    },
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "explain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "explain",
+        "foreign_keys": [
+            {
+                "column": "explain",
+                "references": "beat"
+            }
+        ]
+    },
+    {
+        "name": "beat",
+        "columns": [
+            {
+                "name": "like",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "like",
+        "foreign_keys": [
+            {
+                "column": "like",
+                "references": "president"
+            }
+        ]
+    },
+    {
+        "name": "president",
+        "columns": [
+            {
+                "name": "contain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "contain",
+        "foreign_keys": [
+            {
+                "column": "contain",
+                "references": "various"
+            }
+        ]
+    },
+    {
+        "name": "various",
+        "columns": [
+            {
+                "name": "send",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "send",
+        "foreign_keys": [
+            {
+                "column": "send",
+                "references": "west"
+            }
+        ]
+    },
+    {
+        "name": "west",
+        "columns": [
+            {
+                "name": "provide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "provide",
+        "foreign_keys": [
+            {
+                "column": "provide",
+                "references": "face"
+            }
+        ]
+    },
+    {
+        "name": "face",
+        "columns": [
+            {
+                "name": "hot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hot",
+        "foreign_keys": [
+            {
+                "column": "hot",
+                "references": "theory"
+            }
+        ]
+    },
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "growth",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "growth",
+        "foreign_keys": [
+            {
+                "column": "growth",
+                "references": "pull"
+            }
+        ]
+    },
+    {
+        "name": "pull",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "brother",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "often",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "business",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "game"
+            }
+        ]
+    },
+    {
+        "name": "game",
+        "columns": [
+            {
+                "name": "drop",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "north",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "drop",
+        "foreign_keys": [
+            {
+                "column": "drop",
+                "references": "successful"
+            }
+        ]
+    }
+]

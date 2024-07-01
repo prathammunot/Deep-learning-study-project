@@ -1,0 +1,149 @@
+[
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "fast",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fast",
+        "foreign_keys": [
+            {
+                "column": "fast",
+                "references": "leg"
+            }
+        ]
+    },
+    {
+        "name": "leg",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "start",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "behavior"
+            }
+        ]
+    },
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "thus",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "give",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "thus",
+        "foreign_keys": [
+            {
+                "column": "thus",
+                "references": "read"
+            }
+        ]
+    },
+    {
+        "name": "read",
+        "columns": [
+            {
+                "name": "everybody",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "everybody",
+        "foreign_keys": [
+            {
+                "column": "everybody",
+                "references": "difference"
+            }
+        ]
+    },
+    {
+        "name": "difference",
+        "columns": [
+            {
+                "name": "court",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "court",
+        "foreign_keys": [
+            {
+                "column": "court",
+                "references": "sit"
+            }
+        ]
+    },
+    {
+        "name": "sit",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "picture"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "kid",
+        "columns": [
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "skin",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "figure"
+            }
+        ]
+    },
+    {
+        "name": "figure",
+        "columns": [
+            {
+                "name": "teacher",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "teacher",
+        "foreign_keys": [
+            {
+                "column": "teacher",
+                "references": "simple"
+            }
+        ]
+    },
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "house",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "myself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "money",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "house",
+        "foreign_keys": [
+            {
+                "column": "house",
+                "references": "beautiful"
+            }
+        ]
+    },
+    {
+        "name": "beautiful",
+        "columns": [
+            {
+                "name": "skill",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "skill",
+        "foreign_keys": [
+            {
+                "column": "skill",
+                "references": "company"
+            }
+        ]
+    },
+    {
+        "name": "company",
+        "columns": [
+            {
+                "name": "look",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "look",
+        "foreign_keys": [
+            {
+                "column": "look",
+                "references": "kid"
+            }
+        ]
+    }
+]

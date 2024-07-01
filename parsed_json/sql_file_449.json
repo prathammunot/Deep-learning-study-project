@@ -1,0 +1,296 @@
+[
+    {
+        "name": "choice",
+        "columns": [
+            {
+                "name": "no",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "call"
+            }
+        ]
+    },
+    {
+        "name": "call",
+        "columns": [
+            {
+                "name": "might",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "win",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "might",
+        "foreign_keys": [
+            {
+                "column": "might",
+                "references": "never"
+            }
+        ]
+    },
+    {
+        "name": "never",
+        "columns": [
+            {
+                "name": "degree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "degree",
+        "foreign_keys": [
+            {
+                "column": "degree",
+                "references": "card"
+            }
+        ]
+    },
+    {
+        "name": "card",
+        "columns": [
+            {
+                "name": "student",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "student",
+        "foreign_keys": [
+            {
+                "column": "student",
+                "references": "those"
+            }
+        ]
+    },
+    {
+        "name": "those",
+        "columns": [
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "movie",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sometimes",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "page",
+        "foreign_keys": [
+            {
+                "column": "page",
+                "references": "success"
+            }
+        ]
+    },
+    {
+        "name": "success",
+        "columns": [
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "during",
+        "foreign_keys": [
+            {
+                "column": "during",
+                "references": "old"
+            }
+        ]
+    },
+    {
+        "name": "old",
+        "columns": [
+            {
+                "name": "less",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "college",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "less",
+        "foreign_keys": [
+            {
+                "column": "less",
+                "references": "try"
+            }
+        ]
+    },
+    {
+        "name": "try",
+        "columns": [
+            {
+                "name": "week",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "week",
+        "foreign_keys": [
+            {
+                "column": "week",
+                "references": "ask"
+            }
+        ]
+    },
+    {
+        "name": "ask",
+        "columns": [
+            {
+                "name": "story",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "story",
+        "foreign_keys": [
+            {
+                "column": "story",
+                "references": "to"
+            }
+        ]
+    },
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "successful",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "successful",
+        "foreign_keys": [
+            {
+                "column": "successful",
+                "references": "picture"
+            }
+        ]
+    },
+    {
+        "name": "picture",
+        "columns": [
+            {
+                "name": "newspaper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "finally",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "newspaper",
+        "foreign_keys": [
+            {
+                "column": "newspaper",
+                "references": "whatever"
+            }
+        ]
+    },
+    {
+        "name": "whatever",
+        "columns": [
+            {
+                "name": "tell",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tell",
+        "foreign_keys": [
+            {
+                "column": "tell",
+                "references": "choice"
+            }
+        ]
+    }
+]

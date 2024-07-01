@@ -1,0 +1,176 @@
+[
+    {
+        "name": "military",
+        "columns": [
+            {
+                "name": "item",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "somebody",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "item",
+        "foreign_keys": [
+            {
+                "column": "item",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "director",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tell",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "director",
+        "foreign_keys": [
+            {
+                "column": "director",
+                "references": "history"
+            }
+        ]
+    },
+    {
+        "name": "history",
+        "columns": [
+            {
+                "name": "summer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "present",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "summer",
+        "foreign_keys": [
+            {
+                "column": "summer",
+                "references": "message"
+            }
+        ]
+    },
+    {
+        "name": "message",
+        "columns": [
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "security",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "game",
+        "foreign_keys": [
+            {
+                "column": "game",
+                "references": "land"
+            }
+        ]
+    },
+    {
+        "name": "land",
+        "columns": [
+            {
+                "name": "daughter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "daughter",
+        "foreign_keys": [
+            {
+                "column": "daughter",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "accept",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "worker",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "accept",
+        "foreign_keys": [
+            {
+                "column": "accept",
+                "references": "word"
+            }
+        ]
+    },
+    {
+        "name": "word",
+        "columns": [
+            {
+                "name": "themselves",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "responsibility",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "since",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "themselves",
+        "foreign_keys": [
+            {
+                "column": "themselves",
+                "references": "military"
+            }
+        ]
+    }
+]

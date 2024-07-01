@@ -1,0 +1,274 @@
+[
+    {
+        "name": "deep",
+        "columns": [
+            {
+                "name": "floor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "floor",
+        "foreign_keys": [
+            {
+                "column": "floor",
+                "references": "wait"
+            }
+        ]
+    },
+    {
+        "name": "wait",
+        "columns": [
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "sign"
+            }
+        ]
+    },
+    {
+        "name": "sign",
+        "columns": [
+            {
+                "name": "past",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "may",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "past",
+        "foreign_keys": [
+            {
+                "column": "past",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "skill"
+            }
+        ]
+    },
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "left",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "garden",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "item",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "left",
+        "foreign_keys": [
+            {
+                "column": "left",
+                "references": "allow"
+            }
+        ]
+    },
+    {
+        "name": "allow",
+        "columns": [
+            {
+                "name": "computer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "computer",
+        "foreign_keys": [
+            {
+                "column": "computer",
+                "references": "film"
+            }
+        ]
+    },
+    {
+        "name": "film",
+        "columns": [
+            {
+                "name": "federal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "computer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "federal",
+        "foreign_keys": [
+            {
+                "column": "federal",
+                "references": "up"
+            }
+        ]
+    },
+    {
+        "name": "up",
+        "columns": [
+            {
+                "name": "parent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "parent",
+        "foreign_keys": [
+            {
+                "column": "parent",
+                "references": "visit"
+            }
+        ]
+    },
+    {
+        "name": "visit",
+        "columns": [
+            {
+                "name": "consider",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "level",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "front",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consider",
+        "foreign_keys": [
+            {
+                "column": "consider",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "build",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "year",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "build",
+        "foreign_keys": [
+            {
+                "column": "build",
+                "references": "perform"
+            }
+        ]
+    },
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "month",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "month",
+        "foreign_keys": [
+            {
+                "column": "month",
+                "references": "deep"
+            }
+        ]
+    }
+]

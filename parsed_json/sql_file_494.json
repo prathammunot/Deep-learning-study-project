@@ -1,0 +1,296 @@
+[
+    {
+        "name": "budget",
+        "columns": [
+            {
+                "name": "election",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "white",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "election",
+        "foreign_keys": [
+            {
+                "column": "election",
+                "references": "sound"
+            }
+        ]
+    },
+    {
+        "name": "sound",
+        "columns": [
+            {
+                "name": "so",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "so",
+        "foreign_keys": [
+            {
+                "column": "so",
+                "references": "from"
+            }
+        ]
+    },
+    {
+        "name": "from",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "resource",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "all"
+            }
+        ]
+    },
+    {
+        "name": "all",
+        "columns": [
+            {
+                "name": "store",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "store",
+        "foreign_keys": [
+            {
+                "column": "store",
+                "references": "ask"
+            }
+        ]
+    },
+    {
+        "name": "ask",
+        "columns": [
+            {
+                "name": "letter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "letter",
+        "foreign_keys": [
+            {
+                "column": "letter",
+                "references": "news"
+            }
+        ]
+    },
+    {
+        "name": "news",
+        "columns": [
+            {
+                "name": "modern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "modern",
+        "foreign_keys": [
+            {
+                "column": "modern",
+                "references": "without"
+            }
+        ]
+    },
+    {
+        "name": "without",
+        "columns": [
+            {
+                "name": "quickly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "point",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "quickly",
+        "foreign_keys": [
+            {
+                "column": "quickly",
+                "references": "star"
+            }
+        ]
+    },
+    {
+        "name": "star",
+        "columns": [
+            {
+                "name": "painting",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "painting",
+        "foreign_keys": [
+            {
+                "column": "painting",
+                "references": "current"
+            }
+        ]
+    },
+    {
+        "name": "current",
+        "columns": [
+            {
+                "name": "poor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "office",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "poor",
+        "foreign_keys": [
+            {
+                "column": "poor",
+                "references": "nature"
+            }
+        ]
+    },
+    {
+        "name": "nature",
+        "columns": [
+            {
+                "name": "husband",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "offer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "husband",
+        "foreign_keys": [
+            {
+                "column": "husband",
+                "references": "employee"
+            }
+        ]
+    },
+    {
+        "name": "employee",
+        "columns": [
+            {
+                "name": "interview",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sound",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "defense",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "interview",
+        "foreign_keys": [
+            {
+                "column": "interview",
+                "references": "speak"
+            }
+        ]
+    },
+    {
+        "name": "speak",
+        "columns": [
+            {
+                "name": "since",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "since",
+        "foreign_keys": [
+            {
+                "column": "since",
+                "references": "budget"
+            }
+        ]
+    }
+]

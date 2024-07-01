@@ -1,0 +1,176 @@
+[
+    {
+        "name": "nearly",
+        "columns": [
+            {
+                "name": "range",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "range",
+        "foreign_keys": [
+            {
+                "column": "range",
+                "references": "entire"
+            }
+        ]
+    },
+    {
+        "name": "entire",
+        "columns": [
+            {
+                "name": "hand",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hand",
+        "foreign_keys": [
+            {
+                "column": "hand",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "person",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "degree",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "bill"
+            }
+        ]
+    },
+    {
+        "name": "bill",
+        "columns": [
+            {
+                "name": "attention",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "me",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "attention",
+        "foreign_keys": [
+            {
+                "column": "attention",
+                "references": "experience"
+            }
+        ]
+    },
+    {
+        "name": "experience",
+        "columns": [
+            {
+                "name": "event",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "second",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "event",
+        "foreign_keys": [
+            {
+                "column": "event",
+                "references": "issue"
+            }
+        ]
+    },
+    {
+        "name": "issue",
+        "columns": [
+            {
+                "name": "space",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "local",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "also"
+            }
+        ]
+    },
+    {
+        "name": "also",
+        "columns": [
+            {
+                "name": "treatment",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "owner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "treatment",
+        "foreign_keys": [
+            {
+                "column": "treatment",
+                "references": "nearly"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "name": "act",
+        "columns": [
+            {
+                "name": "teach",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "teach",
+        "foreign_keys": [
+            {
+                "column": "teach",
+                "references": "true"
+            }
+        ]
+    },
+    {
+        "name": "true",
+        "columns": [
+            {
+                "name": "small",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "small",
+        "foreign_keys": [
+            {
+                "column": "small",
+                "references": "around"
+            }
+        ]
+    },
+    {
+        "name": "around",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "its",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "yet"
+            }
+        ]
+    },
+    {
+        "name": "yet",
+        "columns": [
+            {
+                "name": "often",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "often",
+        "foreign_keys": [
+            {
+                "column": "often",
+                "references": "no"
+            }
+        ]
+    },
+    {
+        "name": "no",
+        "columns": [
+            {
+                "name": "high",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "color",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "high",
+        "foreign_keys": [
+            {
+                "column": "high",
+                "references": "science"
+            }
+        ]
+    },
+    {
+        "name": "science",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cover",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "consumer"
+            }
+        ]
+    },
+    {
+        "name": "consumer",
+        "columns": [
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stock",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hundred",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "end",
+        "foreign_keys": [
+            {
+                "column": "end",
+                "references": "response"
+            }
+        ]
+    },
+    {
+        "name": "response",
+        "columns": [
+            {
+                "name": "business",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "for",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "business",
+        "foreign_keys": [
+            {
+                "column": "business",
+                "references": "get"
+            }
+        ]
+    },
+    {
+        "name": "get",
+        "columns": [
+            {
+                "name": "likely",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "site",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "describe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "likely",
+        "foreign_keys": [
+            {
+                "column": "likely",
+                "references": "offer"
+            }
+        ]
+    },
+    {
+        "name": "offer",
+        "columns": [
+            {
+                "name": "method",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "method",
+        "foreign_keys": [
+            {
+                "column": "method",
+                "references": "central"
+            }
+        ]
+    },
+    {
+        "name": "central",
+        "columns": [
+            {
+                "name": "miss",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "it",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pay",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "miss",
+        "foreign_keys": [
+            {
+                "column": "miss",
+                "references": "act"
+            }
+        ]
+    }
+]

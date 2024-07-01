@@ -1,0 +1,176 @@
+[
+    {
+        "name": "a",
+        "columns": [
+            {
+                "name": "simply",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "simply",
+        "foreign_keys": [
+            {
+                "column": "simply",
+                "references": "never"
+            }
+        ]
+    },
+    {
+        "name": "never",
+        "columns": [
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "task",
+        "foreign_keys": [
+            {
+                "column": "task",
+                "references": "across"
+            }
+        ]
+    },
+    {
+        "name": "across",
+        "columns": [
+            {
+                "name": "safe",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "safe",
+        "foreign_keys": [
+            {
+                "column": "safe",
+                "references": "hit"
+            }
+        ]
+    },
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "actually",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "bring",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "actually",
+        "foreign_keys": [
+            {
+                "column": "actually",
+                "references": "certain"
+            }
+        ]
+    },
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "draw",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "allow",
+        "foreign_keys": [
+            {
+                "column": "allow",
+                "references": "professor"
+            }
+        ]
+    },
+    {
+        "name": "professor",
+        "columns": [
+            {
+                "name": "fight",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fill",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fight",
+        "foreign_keys": [
+            {
+                "column": "fight",
+                "references": "attorney"
+            }
+        ]
+    },
+    {
+        "name": "attorney",
+        "columns": [
+            {
+                "name": "free",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "product",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "free",
+        "foreign_keys": [
+            {
+                "column": "free",
+                "references": "a"
+            }
+        ]
+    }
+]

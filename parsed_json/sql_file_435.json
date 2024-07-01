@@ -1,0 +1,225 @@
+[
+    {
+        "name": "keep",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recently",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "win"
+            }
+        ]
+    },
+    {
+        "name": "win",
+        "columns": [
+            {
+                "name": "wife",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wife",
+        "foreign_keys": [
+            {
+                "column": "wife",
+                "references": "condition"
+            }
+        ]
+    },
+    {
+        "name": "condition",
+        "columns": [
+            {
+                "name": "rest",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "number",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rest",
+        "foreign_keys": [
+            {
+                "column": "rest",
+                "references": "most"
+            }
+        ]
+    },
+    {
+        "name": "most",
+        "columns": [
+            {
+                "name": "be",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "be",
+        "foreign_keys": [
+            {
+                "column": "be",
+                "references": "imagine"
+            }
+        ]
+    },
+    {
+        "name": "imagine",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "little",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "somebody"
+            }
+        ]
+    },
+    {
+        "name": "somebody",
+        "columns": [
+            {
+                "name": "nation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "increase",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nation",
+        "foreign_keys": [
+            {
+                "column": "nation",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "interesting",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "interesting",
+        "foreign_keys": [
+            {
+                "column": "interesting",
+                "references": "little"
+            }
+        ]
+    },
+    {
+        "name": "little",
+        "columns": [
+            {
+                "name": "produce",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "young",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "produce",
+        "foreign_keys": [
+            {
+                "column": "produce",
+                "references": "easy"
+            }
+        ]
+    },
+    {
+        "name": "easy",
+        "columns": [
+            {
+                "name": "professional",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "for",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "professional",
+        "foreign_keys": [
+            {
+                "column": "professional",
+                "references": "keep"
+            }
+        ]
+    }
+]

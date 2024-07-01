@@ -1,0 +1,198 @@
+[
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "ready",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ready",
+        "foreign_keys": [
+            {
+                "column": "ready",
+                "references": "among"
+            }
+        ]
+    },
+    {
+        "name": "among",
+        "columns": [
+            {
+                "name": "stuff",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cultural",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "stuff",
+        "foreign_keys": [
+            {
+                "column": "stuff",
+                "references": "forward"
+            }
+        ]
+    },
+    {
+        "name": "forward",
+        "columns": [
+            {
+                "name": "first",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "first",
+        "foreign_keys": [
+            {
+                "column": "first",
+                "references": "its"
+            }
+        ]
+    },
+    {
+        "name": "its",
+        "columns": [
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "with",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "break",
+        "foreign_keys": [
+            {
+                "column": "break",
+                "references": "but"
+            }
+        ]
+    },
+    {
+        "name": "but",
+        "columns": [
+            {
+                "name": "town",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "nature",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "town",
+        "foreign_keys": [
+            {
+                "column": "town",
+                "references": "thus"
+            }
+        ]
+    },
+    {
+        "name": "thus",
+        "columns": [
+            {
+                "name": "from",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "board",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "from",
+        "foreign_keys": [
+            {
+                "column": "from",
+                "references": "song"
+            }
+        ]
+    },
+    {
+        "name": "song",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "gas",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "use"
+            }
+        ]
+    },
+    {
+        "name": "use",
+        "columns": [
+            {
+                "name": "within",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "within",
+        "foreign_keys": [
+            {
+                "column": "within",
+                "references": "sort"
+            }
+        ]
+    }
+]

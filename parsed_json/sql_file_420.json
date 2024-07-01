@@ -1,0 +1,225 @@
+[
+    {
+        "name": "trip",
+        "columns": [
+            {
+                "name": "improve",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "doctor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "improve",
+        "foreign_keys": [
+            {
+                "column": "improve",
+                "references": "notice"
+            }
+        ]
+    },
+    {
+        "name": "notice",
+        "columns": [
+            {
+                "name": "part",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "own",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "part",
+        "foreign_keys": [
+            {
+                "column": "part",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "seek",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "high",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "assume",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seek",
+        "foreign_keys": [
+            {
+                "column": "seek",
+                "references": "until"
+            }
+        ]
+    },
+    {
+        "name": "until",
+        "columns": [
+            {
+                "name": "degree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "degree",
+        "foreign_keys": [
+            {
+                "column": "degree",
+                "references": "education"
+            }
+        ]
+    },
+    {
+        "name": "education",
+        "columns": [
+            {
+                "name": "machine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "food",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "leader",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "machine",
+        "foreign_keys": [
+            {
+                "column": "machine",
+                "references": "peace"
+            }
+        ]
+    },
+    {
+        "name": "peace",
+        "columns": [
+            {
+                "name": "environmental",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "environmental",
+        "foreign_keys": [
+            {
+                "column": "environmental",
+                "references": "tend"
+            }
+        ]
+    },
+    {
+        "name": "tend",
+        "columns": [
+            {
+                "name": "color",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "woman",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "thank"
+            }
+        ]
+    },
+    {
+        "name": "thank",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "way"
+            }
+        ]
+    },
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "loss",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "yard",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "not",
+        "foreign_keys": [
+            {
+                "column": "not",
+                "references": "trip"
+            }
+        ]
+    }
+]

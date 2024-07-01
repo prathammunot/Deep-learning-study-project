@@ -1,0 +1,296 @@
+[
+    {
+        "name": "one",
+        "columns": [
+            {
+                "name": "positive",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "care",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "land",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "positive",
+        "foreign_keys": [
+            {
+                "column": "positive",
+                "references": "need"
+            }
+        ]
+    },
+    {
+        "name": "need",
+        "columns": [
+            {
+                "name": "training",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whom",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "training",
+        "foreign_keys": [
+            {
+                "column": "training",
+                "references": "wife"
+            }
+        ]
+    },
+    {
+        "name": "wife",
+        "columns": [
+            {
+                "name": "part",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "data",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "part",
+        "foreign_keys": [
+            {
+                "column": "part",
+                "references": "scene"
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "columns": [
+            {
+                "name": "memory",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "learn",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "memory",
+        "foreign_keys": [
+            {
+                "column": "memory",
+                "references": "hard"
+            }
+        ]
+    },
+    {
+        "name": "hard",
+        "columns": [
+            {
+                "name": "new",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "peace",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "go",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "new",
+        "foreign_keys": [
+            {
+                "column": "new",
+                "references": "walk"
+            }
+        ]
+    },
+    {
+        "name": "walk",
+        "columns": [
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "company",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thought",
+        "foreign_keys": [
+            {
+                "column": "thought",
+                "references": "receive"
+            }
+        ]
+    },
+    {
+        "name": "receive",
+        "columns": [
+            {
+                "name": "when",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "when",
+        "foreign_keys": [
+            {
+                "column": "when",
+                "references": "respond"
+            }
+        ]
+    },
+    {
+        "name": "respond",
+        "columns": [
+            {
+                "name": "travel",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "travel",
+        "foreign_keys": [
+            {
+                "column": "travel",
+                "references": "environment"
+            }
+        ]
+    },
+    {
+        "name": "environment",
+        "columns": [
+            {
+                "name": "region",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "glass",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "teacher",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "region",
+        "foreign_keys": [
+            {
+                "column": "region",
+                "references": "air"
+            }
+        ]
+    },
+    {
+        "name": "air",
+        "columns": [
+            {
+                "name": "than",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "eye",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "than",
+        "foreign_keys": [
+            {
+                "column": "than",
+                "references": "stage"
+            }
+        ]
+    },
+    {
+        "name": "stage",
+        "columns": [
+            {
+                "name": "care",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "voice",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "care",
+        "foreign_keys": [
+            {
+                "column": "care",
+                "references": "industry"
+            }
+        ]
+    },
+    {
+        "name": "industry",
+        "columns": [
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "one"
+            }
+        ]
+    }
+]

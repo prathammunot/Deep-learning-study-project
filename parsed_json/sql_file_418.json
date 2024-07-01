@@ -1,0 +1,193 @@
+[
+    {
+        "name": "program",
+        "columns": [
+            {
+                "name": "morning",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "TEXT",
+                "references": null
+            }
+        ],
+        "primary_key": "morning",
+        "foreign_keys": [
+            {
+                "column": "morning",
+                "references": "produce"
+            }
+        ]
+    },
+    {
+        "name": "produce",
+        "columns": [
+            {
+                "name": "increase",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "increase",
+        "foreign_keys": [
+            {
+                "column": "increase",
+                "references": "future"
+            }
+        ]
+    },
+    {
+        "name": "future",
+        "columns": [
+            {
+                "name": "hot",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "couple",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hot",
+        "foreign_keys": [
+            {
+                "column": "hot",
+                "references": "owner"
+            }
+        ]
+    },
+    {
+        "name": "owner",
+        "columns": [
+            {
+                "name": "general",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "appear",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "general",
+        "foreign_keys": [
+            {
+                "column": "general",
+                "references": "must"
+            }
+        ]
+    },
+    {
+        "name": "must",
+        "columns": [
+            {
+                "name": "might",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "their",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "break",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "might",
+        "foreign_keys": [
+            {
+                "column": "might",
+                "references": "not"
+            }
+        ]
+    },
+    {
+        "name": "not",
+        "columns": [
+            {
+                "name": "for",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "crime",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "image",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "machine",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "crime",
+        "foreign_keys": [
+            {
+                "column": "crime",
+                "references": "new"
+            }
+        ]
+    },
+    {
+        "name": "new",
+        "columns": [
+            {
+                "name": "lead",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beyond",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "lead",
+        "foreign_keys": [
+            {
+                "column": "lead",
+                "references": "program"
+            }
+        ]
+    }
+]

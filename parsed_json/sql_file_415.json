@@ -1,0 +1,198 @@
+[
+    {
+        "name": "structure",
+        "columns": [
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "security",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "among",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "home",
+        "foreign_keys": [
+            {
+                "column": "home",
+                "references": "animal"
+            }
+        ]
+    },
+    {
+        "name": "animal",
+        "columns": [
+            {
+                "name": "build",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "build",
+        "foreign_keys": [
+            {
+                "column": "build",
+                "references": "think"
+            }
+        ]
+    },
+    {
+        "name": "think",
+        "columns": [
+            {
+                "name": "space",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "believe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "space",
+        "foreign_keys": [
+            {
+                "column": "space",
+                "references": "meeting"
+            }
+        ]
+    },
+    {
+        "name": "meeting",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "step",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "there"
+            }
+        ]
+    },
+    {
+        "name": "there",
+        "columns": [
+            {
+                "name": "kid",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mean",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "kid",
+        "foreign_keys": [
+            {
+                "column": "kid",
+                "references": "class"
+            }
+        ]
+    },
+    {
+        "name": "class",
+        "columns": [
+            {
+                "name": "see",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "study",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "see",
+        "foreign_keys": [
+            {
+                "column": "see",
+                "references": "manager"
+            }
+        ]
+    },
+    {
+        "name": "manager",
+        "columns": [
+            {
+                "name": "physical",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "law",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "knowledge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "physical",
+        "foreign_keys": [
+            {
+                "column": "physical",
+                "references": "sing"
+            }
+        ]
+    },
+    {
+        "name": "sing",
+        "columns": [
+            {
+                "name": "night",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "night",
+        "foreign_keys": [
+            {
+                "column": "night",
+                "references": "structure"
+            }
+        ]
+    }
+]

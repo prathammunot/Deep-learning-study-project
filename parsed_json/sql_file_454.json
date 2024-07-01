@@ -1,0 +1,296 @@
+[
+    {
+        "name": "high",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stand",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "heart"
+            }
+        ]
+    },
+    {
+        "name": "heart",
+        "columns": [
+            {
+                "name": "line",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "billion",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "line",
+        "foreign_keys": [
+            {
+                "column": "line",
+                "references": "understand"
+            }
+        ]
+    },
+    {
+        "name": "understand",
+        "columns": [
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "decision",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "class",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "campaign",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "class",
+        "foreign_keys": [
+            {
+                "column": "class",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "either",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "station"
+            }
+        ]
+    },
+    {
+        "name": "station",
+        "columns": [
+            {
+                "name": "thank",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "thank",
+        "foreign_keys": [
+            {
+                "column": "thank",
+                "references": "important"
+            }
+        ]
+    },
+    {
+        "name": "important",
+        "columns": [
+            {
+                "name": "them",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "them",
+        "foreign_keys": [
+            {
+                "column": "them",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "buy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "buy",
+        "foreign_keys": [
+            {
+                "column": "buy",
+                "references": "line"
+            }
+        ]
+    },
+    {
+        "name": "line",
+        "columns": [
+            {
+                "name": "outside",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "recently",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "outside",
+        "foreign_keys": [
+            {
+                "column": "outside",
+                "references": "hair"
+            }
+        ]
+    },
+    {
+        "name": "hair",
+        "columns": [
+            {
+                "name": "sign",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sign",
+        "foreign_keys": [
+            {
+                "column": "sign",
+                "references": "contain"
+            }
+        ]
+    },
+    {
+        "name": "contain",
+        "columns": [
+            {
+                "name": "education",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "education",
+        "foreign_keys": [
+            {
+                "column": "education",
+                "references": "several"
+            }
+        ]
+    },
+    {
+        "name": "several",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "sense",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "high"
+            }
+        ]
+    }
+]

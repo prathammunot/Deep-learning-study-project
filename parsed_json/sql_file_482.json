@@ -1,0 +1,198 @@
+[
+    {
+        "name": "pressure",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "say",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "protect"
+            }
+        ]
+    },
+    {
+        "name": "protect",
+        "columns": [
+            {
+                "name": "send",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "send",
+        "foreign_keys": [
+            {
+                "column": "send",
+                "references": "worry"
+            }
+        ]
+    },
+    {
+        "name": "worry",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "song",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "music",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "mention"
+            }
+        ]
+    },
+    {
+        "name": "mention",
+        "columns": [
+            {
+                "name": "TV",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "TV",
+        "foreign_keys": [
+            {
+                "column": "TV",
+                "references": "response"
+            }
+        ]
+    },
+    {
+        "name": "response",
+        "columns": [
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "important",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "lot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "his",
+        "foreign_keys": [
+            {
+                "column": "his",
+                "references": "knowledge"
+            }
+        ]
+    },
+    {
+        "name": "knowledge",
+        "columns": [
+            {
+                "name": "else",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "else",
+        "foreign_keys": [
+            {
+                "column": "else",
+                "references": "actually"
+            }
+        ]
+    },
+    {
+        "name": "actually",
+        "columns": [
+            {
+                "name": "support",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "support",
+        "foreign_keys": [
+            {
+                "column": "support",
+                "references": "produce"
+            }
+        ]
+    },
+    {
+        "name": "produce",
+        "columns": [
+            {
+                "name": "whose",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "development",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whose",
+        "foreign_keys": [
+            {
+                "column": "whose",
+                "references": "pressure"
+            }
+        ]
+    }
+]

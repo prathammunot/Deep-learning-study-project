@@ -1,0 +1,225 @@
+[
+    {
+        "name": "science",
+        "columns": [
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bed",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "low",
+        "foreign_keys": [
+            {
+                "column": "low",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "pretty",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "main",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pretty",
+        "foreign_keys": [
+            {
+                "column": "pretty",
+                "references": "or"
+            }
+        ]
+    },
+    {
+        "name": "or",
+        "columns": [
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "pretty",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pretty",
+        "foreign_keys": [
+            {
+                "column": "pretty",
+                "references": "soldier"
+            }
+        ]
+    },
+    {
+        "name": "soldier",
+        "columns": [
+            {
+                "name": "make",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "side",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "of",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "make",
+        "foreign_keys": [
+            {
+                "column": "make",
+                "references": "member"
+            }
+        ]
+    },
+    {
+        "name": "member",
+        "columns": [
+            {
+                "name": "listen",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "more",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "listen",
+        "foreign_keys": [
+            {
+                "column": "listen",
+                "references": "begin"
+            }
+        ]
+    },
+    {
+        "name": "begin",
+        "columns": [
+            {
+                "name": "ask",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "force",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "budget",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ask",
+        "foreign_keys": [
+            {
+                "column": "ask",
+                "references": "begin"
+            }
+        ]
+    },
+    {
+        "name": "begin",
+        "columns": [
+            {
+                "name": "time",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "support",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "firm"
+            }
+        ]
+    },
+    {
+        "name": "firm",
+        "columns": [
+            {
+                "name": "strategy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "social",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "strategy",
+        "foreign_keys": [
+            {
+                "column": "strategy",
+                "references": "science"
+            }
+        ]
+    }
+]

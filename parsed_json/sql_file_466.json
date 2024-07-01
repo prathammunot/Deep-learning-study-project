@@ -1,0 +1,247 @@
+[
+    {
+        "name": "fund",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "some",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rise",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "six",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "six",
+        "foreign_keys": [
+            {
+                "column": "six",
+                "references": "prevent"
+            }
+        ]
+    },
+    {
+        "name": "prevent",
+        "columns": [
+            {
+                "name": "major",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "medical",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "major",
+        "foreign_keys": [
+            {
+                "column": "major",
+                "references": "member"
+            }
+        ]
+    },
+    {
+        "name": "member",
+        "columns": [
+            {
+                "name": "study",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "employee",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "study",
+        "foreign_keys": [
+            {
+                "column": "study",
+                "references": "cell"
+            }
+        ]
+    },
+    {
+        "name": "cell",
+        "columns": [
+            {
+                "name": "resource",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "term",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thus",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "resource",
+        "foreign_keys": [
+            {
+                "column": "resource",
+                "references": "shoulder"
+            }
+        ]
+    },
+    {
+        "name": "shoulder",
+        "columns": [
+            {
+                "name": "data",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "international",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "data",
+        "foreign_keys": [
+            {
+                "column": "data",
+                "references": "figure"
+            }
+        ]
+    },
+    {
+        "name": "figure",
+        "columns": [
+            {
+                "name": "then",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "effort",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bill",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "then",
+        "foreign_keys": [
+            {
+                "column": "then",
+                "references": "read"
+            }
+        ]
+    },
+    {
+        "name": "read",
+        "columns": [
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "memory",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "us",
+        "foreign_keys": [
+            {
+                "column": "us",
+                "references": "have"
+            }
+        ]
+    },
+    {
+        "name": "have",
+        "columns": [
+            {
+                "name": "practice",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "all",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "practice",
+        "foreign_keys": [
+            {
+                "column": "practice",
+                "references": "last"
+            }
+        ]
+    },
+    {
+        "name": "last",
+        "columns": [
+            {
+                "name": "budget",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "poor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "budget",
+        "foreign_keys": [
+            {
+                "column": "budget",
+                "references": "fund"
+            }
+        ]
+    }
+]

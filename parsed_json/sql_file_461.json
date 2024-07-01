@@ -1,0 +1,198 @@
+[
+    {
+        "name": "central",
+        "columns": [
+            {
+                "name": "something",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "style",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "something",
+        "foreign_keys": [
+            {
+                "column": "something",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "difference",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "difference",
+        "foreign_keys": [
+            {
+                "column": "difference",
+                "references": "company"
+            }
+        ]
+    },
+    {
+        "name": "company",
+        "columns": [
+            {
+                "name": "some",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "today",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "some",
+        "foreign_keys": [
+            {
+                "column": "some",
+                "references": "information"
+            }
+        ]
+    },
+    {
+        "name": "information",
+        "columns": [
+            {
+                "name": "already",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "already",
+        "foreign_keys": [
+            {
+                "column": "already",
+                "references": "wear"
+            }
+        ]
+    },
+    {
+        "name": "wear",
+        "columns": [
+            {
+                "name": "Republican",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "red",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "Republican",
+        "foreign_keys": [
+            {
+                "column": "Republican",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agreement",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "career"
+            }
+        ]
+    },
+    {
+        "name": "career",
+        "columns": [
+            {
+                "name": "professional",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "while",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "husband",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "professional",
+        "foreign_keys": [
+            {
+                "column": "professional",
+                "references": "contain"
+            }
+        ]
+    },
+    {
+        "name": "contain",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "central"
+            }
+        ]
+    }
+]

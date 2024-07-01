@@ -1,0 +1,198 @@
+[
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "professional",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "network",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "name",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "professional",
+        "foreign_keys": [
+            {
+                "column": "professional",
+                "references": "market"
+            }
+        ]
+    },
+    {
+        "name": "market",
+        "columns": [
+            {
+                "name": "fast",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "score",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "fast",
+        "foreign_keys": [
+            {
+                "column": "fast",
+                "references": "owner"
+            }
+        ]
+    },
+    {
+        "name": "owner",
+        "columns": [
+            {
+                "name": "home",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "base",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "few",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "home",
+        "foreign_keys": [
+            {
+                "column": "home",
+                "references": "Democrat"
+            }
+        ]
+    },
+    {
+        "name": "Democrat",
+        "columns": [
+            {
+                "name": "close",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "close",
+        "foreign_keys": [
+            {
+                "column": "close",
+                "references": "film"
+            }
+        ]
+    },
+    {
+        "name": "film",
+        "columns": [
+            {
+                "name": "before",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "couple"
+            }
+        ]
+    },
+    {
+        "name": "couple",
+        "columns": [
+            {
+                "name": "difficult",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "difficult",
+        "foreign_keys": [
+            {
+                "column": "difficult",
+                "references": "tough"
+            }
+        ]
+    },
+    {
+        "name": "tough",
+        "columns": [
+            {
+                "name": "especially",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "entire",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "especially",
+        "foreign_keys": [
+            {
+                "column": "especially",
+                "references": "receive"
+            }
+        ]
+    },
+    {
+        "name": "receive",
+        "columns": [
+            {
+                "name": "people",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "oil",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "people",
+        "foreign_keys": [
+            {
+                "column": "people",
+                "references": "which"
+            }
+        ]
+    }
+]

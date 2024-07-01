@@ -1,0 +1,176 @@
+[
+    {
+        "name": "small",
+        "columns": [
+            {
+                "name": "scientist",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "west",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "scientist",
+        "foreign_keys": [
+            {
+                "column": "scientist",
+                "references": "toward"
+            }
+        ]
+    },
+    {
+        "name": "toward",
+        "columns": [
+            {
+                "name": "college",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "college",
+        "foreign_keys": [
+            {
+                "column": "college",
+                "references": "computer"
+            }
+        ]
+    },
+    {
+        "name": "computer",
+        "columns": [
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ago",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "allow",
+        "foreign_keys": [
+            {
+                "column": "allow",
+                "references": "likely"
+            }
+        ]
+    },
+    {
+        "name": "likely",
+        "columns": [
+            {
+                "name": "miss",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "decade",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "miss",
+        "foreign_keys": [
+            {
+                "column": "miss",
+                "references": "generation"
+            }
+        ]
+    },
+    {
+        "name": "generation",
+        "columns": [
+            {
+                "name": "information",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "word",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "prove"
+            }
+        ]
+    },
+    {
+        "name": "prove",
+        "columns": [
+            {
+                "name": "ten",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ten",
+        "foreign_keys": [
+            {
+                "column": "ten",
+                "references": "if"
+            }
+        ]
+    },
+    {
+        "name": "if",
+        "columns": [
+            {
+                "name": "region",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "region",
+        "foreign_keys": [
+            {
+                "column": "region",
+                "references": "small"
+            }
+        ]
+    }
+]

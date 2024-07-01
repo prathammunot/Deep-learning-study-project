@@ -1,0 +1,176 @@
+[
+    {
+        "name": "land",
+        "columns": [
+            {
+                "name": "set",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "set",
+        "foreign_keys": [
+            {
+                "column": "set",
+                "references": "red"
+            }
+        ]
+    },
+    {
+        "name": "red",
+        "columns": [
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "during",
+        "foreign_keys": [
+            {
+                "column": "during",
+                "references": "take"
+            }
+        ]
+    },
+    {
+        "name": "take",
+        "columns": [
+            {
+                "name": "still",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ever",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "but",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "still",
+        "foreign_keys": [
+            {
+                "column": "still",
+                "references": "leg"
+            }
+        ]
+    },
+    {
+        "name": "leg",
+        "columns": [
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "far",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "however",
+        "foreign_keys": [
+            {
+                "column": "however",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "senior",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "opportunity",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "mother",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "senior",
+        "foreign_keys": [
+            {
+                "column": "senior",
+                "references": "stand"
+            }
+        ]
+    },
+    {
+        "name": "stand",
+        "columns": [
+            {
+                "name": "really",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seek",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "really",
+        "foreign_keys": [
+            {
+                "column": "really",
+                "references": "total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "brother",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "land"
+            }
+        ]
+    }
+]

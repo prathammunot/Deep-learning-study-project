@@ -1,0 +1,274 @@
+[
+    {
+        "name": "her",
+        "columns": [
+            {
+                "name": "police",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "police",
+        "foreign_keys": [
+            {
+                "column": "police",
+                "references": "training"
+            }
+        ]
+    },
+    {
+        "name": "training",
+        "columns": [
+            {
+                "name": "environment",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "environment",
+        "foreign_keys": [
+            {
+                "column": "environment",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "within",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "your",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "drop",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "within",
+        "foreign_keys": [
+            {
+                "column": "within",
+                "references": "minute"
+            }
+        ]
+    },
+    {
+        "name": "minute",
+        "columns": [
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reality",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mission",
+        "foreign_keys": [
+            {
+                "column": "mission",
+                "references": "political"
+            }
+        ]
+    },
+    {
+        "name": "political",
+        "columns": [
+            {
+                "name": "time",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hour",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "time",
+        "foreign_keys": [
+            {
+                "column": "time",
+                "references": "benefit"
+            }
+        ]
+    },
+    {
+        "name": "benefit",
+        "columns": [
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "theory",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "day"
+            }
+        ]
+    },
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "vote",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "vote",
+        "foreign_keys": [
+            {
+                "column": "vote",
+                "references": "government"
+            }
+        ]
+    },
+    {
+        "name": "government",
+        "columns": [
+            {
+                "name": "relate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "organization",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "relate",
+        "foreign_keys": [
+            {
+                "column": "relate",
+                "references": "another"
+            }
+        ]
+    },
+    {
+        "name": "another",
+        "columns": [
+            {
+                "name": "stock",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "close",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "during",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stock",
+        "foreign_keys": [
+            {
+                "column": "stock",
+                "references": "power"
+            }
+        ]
+    },
+    {
+        "name": "power",
+        "columns": [
+            {
+                "name": "the",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "ten",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "the",
+        "foreign_keys": [
+            {
+                "column": "the",
+                "references": "image"
+            }
+        ]
+    },
+    {
+        "name": "image",
+        "columns": [
+            {
+                "name": "decade",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "game",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "something",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "decade",
+        "foreign_keys": [
+            {
+                "column": "decade",
+                "references": "her"
+            }
+        ]
+    }
+]

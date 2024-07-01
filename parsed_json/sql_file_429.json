@@ -1,0 +1,127 @@
+[
+    {
+        "name": "window",
+        "columns": [
+            {
+                "name": "history",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "collection",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "history",
+        "foreign_keys": [
+            {
+                "column": "history",
+                "references": "book"
+            }
+        ]
+    },
+    {
+        "name": "book",
+        "columns": [
+            {
+                "name": "teacher",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "check",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "teacher",
+        "foreign_keys": [
+            {
+                "column": "teacher",
+                "references": "event"
+            }
+        ]
+    },
+    {
+        "name": "event",
+        "columns": [
+            {
+                "name": "sit",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "price",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sit",
+        "foreign_keys": [
+            {
+                "column": "sit",
+                "references": "shoulder"
+            }
+        ]
+    },
+    {
+        "name": "shoulder",
+        "columns": [
+            {
+                "name": "need",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nothing",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "need",
+        "foreign_keys": [
+            {
+                "column": "need",
+                "references": "city"
+            }
+        ]
+    },
+    {
+        "name": "city",
+        "columns": [
+            {
+                "name": "tax",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "believe",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "west",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tax",
+        "foreign_keys": [
+            {
+                "column": "tax",
+                "references": "window"
+            }
+        ]
+    }
+]

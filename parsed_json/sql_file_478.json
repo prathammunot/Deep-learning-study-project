@@ -1,0 +1,149 @@
+[
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "agree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "always",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agree",
+        "foreign_keys": [
+            {
+                "column": "agree",
+                "references": "into"
+            }
+        ]
+    },
+    {
+        "name": "into",
+        "columns": [
+            {
+                "name": "inside",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "focus",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "inside",
+        "foreign_keys": [
+            {
+                "column": "inside",
+                "references": "open"
+            }
+        ]
+    },
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manager",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "market"
+            }
+        ]
+    },
+    {
+        "name": "market",
+        "columns": [
+            {
+                "name": "use",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "use",
+        "foreign_keys": [
+            {
+                "column": "use",
+                "references": "interesting"
+            }
+        ]
+    },
+    {
+        "name": "interesting",
+        "columns": [
+            {
+                "name": "day",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "hard",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "day",
+        "foreign_keys": [
+            {
+                "column": "day",
+                "references": "save"
+            }
+        ]
+    },
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "front",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "not",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "front",
+        "foreign_keys": [
+            {
+                "column": "front",
+                "references": "century"
+            }
+        ]
+    }
+]

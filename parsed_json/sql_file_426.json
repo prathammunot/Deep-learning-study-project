@@ -1,0 +1,274 @@
+[
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "chair",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "still",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "chair",
+        "foreign_keys": [
+            {
+                "column": "chair",
+                "references": "determine"
+            }
+        ]
+    },
+    {
+        "name": "determine",
+        "columns": [
+            {
+                "name": "girl",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "now",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "girl",
+        "foreign_keys": [
+            {
+                "column": "girl",
+                "references": "parent"
+            }
+        ]
+    },
+    {
+        "name": "parent",
+        "columns": [
+            {
+                "name": "three",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "probably",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "three",
+        "foreign_keys": [
+            {
+                "column": "three",
+                "references": "various"
+            }
+        ]
+    },
+    {
+        "name": "various",
+        "columns": [
+            {
+                "name": "claim",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "claim",
+        "foreign_keys": [
+            {
+                "column": "claim",
+                "references": "join"
+            }
+        ]
+    },
+    {
+        "name": "join",
+        "columns": [
+            {
+                "name": "spring",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "spring",
+        "foreign_keys": [
+            {
+                "column": "spring",
+                "references": "unit"
+            }
+        ]
+    },
+    {
+        "name": "unit",
+        "columns": [
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "start",
+        "foreign_keys": [
+            {
+                "column": "start",
+                "references": "make"
+            }
+        ]
+    },
+    {
+        "name": "make",
+        "columns": [
+            {
+                "name": "measure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "task",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "measure",
+        "foreign_keys": [
+            {
+                "column": "measure",
+                "references": "research"
+            }
+        ]
+    },
+    {
+        "name": "research",
+        "columns": [
+            {
+                "name": "also",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "also",
+        "foreign_keys": [
+            {
+                "column": "also",
+                "references": "mother"
+            }
+        ]
+    },
+    {
+        "name": "mother",
+        "columns": [
+            {
+                "name": "article",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "must",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "article",
+        "foreign_keys": [
+            {
+                "column": "article",
+                "references": "whether"
+            }
+        ]
+    },
+    {
+        "name": "whether",
+        "columns": [
+            {
+                "name": "end",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wrong",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "end",
+        "foreign_keys": [
+            {
+                "column": "end",
+                "references": "organization"
+            }
+        ]
+    },
+    {
+        "name": "organization",
+        "columns": [
+            {
+                "name": "usually",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "such",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "usually",
+        "foreign_keys": [
+            {
+                "column": "usually",
+                "references": "draw"
+            }
+        ]
+    }
+]

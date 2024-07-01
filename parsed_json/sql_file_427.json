@@ -1,0 +1,247 @@
+[
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "former",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "push",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "former",
+        "foreign_keys": [
+            {
+                "column": "former",
+                "references": "which"
+            }
+        ]
+    },
+    {
+        "name": "which",
+        "columns": [
+            {
+                "name": "authority",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "south",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "authority",
+        "foreign_keys": [
+            {
+                "column": "authority",
+                "references": "effort"
+            }
+        ]
+    },
+    {
+        "name": "effort",
+        "columns": [
+            {
+                "name": "development",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "instead",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "development",
+        "foreign_keys": [
+            {
+                "column": "development",
+                "references": "several"
+            }
+        ]
+    },
+    {
+        "name": "several",
+        "columns": [
+            {
+                "name": "whether",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whether",
+        "foreign_keys": [
+            {
+                "column": "whether",
+                "references": "nearly"
+            }
+        ]
+    },
+    {
+        "name": "nearly",
+        "columns": [
+            {
+                "name": "level",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wear",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "level",
+        "foreign_keys": [
+            {
+                "column": "level",
+                "references": "free"
+            }
+        ]
+    },
+    {
+        "name": "free",
+        "columns": [
+            {
+                "name": "create",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "remember",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "create",
+        "foreign_keys": [
+            {
+                "column": "create",
+                "references": "church"
+            }
+        ]
+    },
+    {
+        "name": "church",
+        "columns": [
+            {
+                "name": "just",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "discussion",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "just",
+        "foreign_keys": [
+            {
+                "column": "just",
+                "references": "beautiful"
+            }
+        ]
+    },
+    {
+        "name": "beautiful",
+        "columns": [
+            {
+                "name": "detail",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "might",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "detail",
+        "foreign_keys": [
+            {
+                "column": "detail",
+                "references": "work"
+            }
+        ]
+    },
+    {
+        "name": "work",
+        "columns": [
+            {
+                "name": "price",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "would",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "hit"
+            }
+        ]
+    },
+    {
+        "name": "hit",
+        "columns": [
+            {
+                "name": "man",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "question",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "man",
+        "foreign_keys": [
+            {
+                "column": "man",
+                "references": "shake"
+            }
+        ]
+    }
+]

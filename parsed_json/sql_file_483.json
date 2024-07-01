@@ -1,0 +1,274 @@
+[
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "film",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "blood",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "east",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "film",
+        "foreign_keys": [
+            {
+                "column": "film",
+                "references": "full"
+            }
+        ]
+    },
+    {
+        "name": "full",
+        "columns": [
+            {
+                "name": "trouble",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "trouble",
+        "foreign_keys": [
+            {
+                "column": "trouble",
+                "references": "possible"
+            }
+        ]
+    },
+    {
+        "name": "possible",
+        "columns": [
+            {
+                "name": "its",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "its",
+        "foreign_keys": [
+            {
+                "column": "its",
+                "references": "wait"
+            }
+        ]
+    },
+    {
+        "name": "wait",
+        "columns": [
+            {
+                "name": "career",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "air",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "career",
+        "foreign_keys": [
+            {
+                "column": "career",
+                "references": "daughter"
+            }
+        ]
+    },
+    {
+        "name": "daughter",
+        "columns": [
+            {
+                "name": "his",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "his",
+        "foreign_keys": [
+            {
+                "column": "his",
+                "references": "president"
+            }
+        ]
+    },
+    {
+        "name": "president",
+        "columns": [
+            {
+                "name": "generation",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "idea",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "generation",
+        "foreign_keys": [
+            {
+                "column": "generation",
+                "references": "budget"
+            }
+        ]
+    },
+    {
+        "name": "budget",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "government",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "charge",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "explain"
+            }
+        ]
+    },
+    {
+        "name": "explain",
+        "columns": [
+            {
+                "name": "back",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "different",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "back",
+        "foreign_keys": [
+            {
+                "column": "back",
+                "references": "quickly"
+            }
+        ]
+    },
+    {
+        "name": "quickly",
+        "columns": [
+            {
+                "name": "hair",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "necessary",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pull",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "hair",
+        "foreign_keys": [
+            {
+                "column": "hair",
+                "references": "president"
+            }
+        ]
+    },
+    {
+        "name": "president",
+        "columns": [
+            {
+                "name": "goal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "goal",
+        "foreign_keys": [
+            {
+                "column": "goal",
+                "references": "hope"
+            }
+        ]
+    },
+    {
+        "name": "hope",
+        "columns": [
+            {
+                "name": "night",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "very",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "difference",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "night",
+        "foreign_keys": [
+            {
+                "column": "night",
+                "references": "sort"
+            }
+        ]
+    }
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "name": "late",
+        "columns": [
+            {
+                "name": "huge",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "husband",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "huge",
+        "foreign_keys": [
+            {
+                "column": "huge",
+                "references": "industry"
+            }
+        ]
+    },
+    {
+        "name": "industry",
+        "columns": [
+            {
+                "name": "like",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "dog",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "like",
+        "foreign_keys": [
+            {
+                "column": "like",
+                "references": "hour"
+            }
+        ]
+    },
+    {
+        "name": "hour",
+        "columns": [
+            {
+                "name": "every",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "state",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "every",
+        "foreign_keys": [
+            {
+                "column": "every",
+                "references": "drop"
+            }
+        ]
+    },
+    {
+        "name": "drop",
+        "columns": [
+            {
+                "name": "deal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "son",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "deal",
+        "foreign_keys": [
+            {
+                "column": "deal",
+                "references": "open"
+            }
+        ]
+    },
+    {
+        "name": "open",
+        "columns": [
+            {
+                "name": "modern",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "science",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "behind",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "modern",
+        "foreign_keys": [
+            {
+                "column": "modern",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "Congress",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "compare",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Congress",
+        "foreign_keys": [
+            {
+                "column": "Congress",
+                "references": "whose"
+            }
+        ]
+    },
+    {
+        "name": "whose",
+        "columns": [
+            {
+                "name": "process",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "everything",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "process",
+        "foreign_keys": [
+            {
+                "column": "process",
+                "references": "different"
+            }
+        ]
+    },
+    {
+        "name": "different",
+        "columns": [
+            {
+                "name": "sport",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "represent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sport",
+        "foreign_keys": [
+            {
+                "column": "sport",
+                "references": "herself"
+            }
+        ]
+    },
+    {
+        "name": "herself",
+        "columns": [
+            {
+                "name": "second",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "night",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "effect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "second",
+        "foreign_keys": [
+            {
+                "column": "second",
+                "references": "wide"
+            }
+        ]
+    },
+    {
+        "name": "wide",
+        "columns": [
+            {
+                "name": "scene",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "allow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "scene",
+        "foreign_keys": [
+            {
+                "column": "scene",
+                "references": "somebody"
+            }
+        ]
+    },
+    {
+        "name": "somebody",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "current",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "deep"
+            }
+        ]
+    },
+    {
+        "name": "deep",
+        "columns": [
+            {
+                "name": "yet",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "though",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "yet",
+        "foreign_keys": [
+            {
+                "column": "yet",
+                "references": "late"
+            }
+        ]
+    }
+]

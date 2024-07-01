@@ -1,0 +1,127 @@
+[
+    {
+        "name": "rather",
+        "columns": [
+            {
+                "name": "either",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "either",
+        "foreign_keys": [
+            {
+                "column": "either",
+                "references": "pressure"
+            }
+        ]
+    },
+    {
+        "name": "pressure",
+        "columns": [
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "focus",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "open",
+        "foreign_keys": [
+            {
+                "column": "open",
+                "references": "letter"
+            }
+        ]
+    },
+    {
+        "name": "letter",
+        "columns": [
+            {
+                "name": "particularly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rather",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interesting",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "particularly",
+        "foreign_keys": [
+            {
+                "column": "particularly",
+                "references": "daughter"
+            }
+        ]
+    },
+    {
+        "name": "daughter",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "treatment",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "back"
+            }
+        ]
+    },
+    {
+        "name": "back",
+        "columns": [
+            {
+                "name": "when",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "offer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "recently",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "when",
+        "foreign_keys": [
+            {
+                "column": "when",
+                "references": "rather"
+            }
+        ]
+    }
+]

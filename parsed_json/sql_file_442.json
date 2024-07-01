@@ -1,0 +1,176 @@
+[
+    {
+        "name": "still",
+        "columns": [
+            {
+                "name": "push",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "center",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "push",
+        "foreign_keys": [
+            {
+                "column": "push",
+                "references": "morning"
+            }
+        ]
+    },
+    {
+        "name": "morning",
+        "columns": [
+            {
+                "name": "knowledge",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "water",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "knowledge",
+        "foreign_keys": [
+            {
+                "column": "knowledge",
+                "references": "almost"
+            }
+        ]
+    },
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "around",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rock",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "around",
+        "foreign_keys": [
+            {
+                "column": "around",
+                "references": "dinner"
+            }
+        ]
+    },
+    {
+        "name": "dinner",
+        "columns": [
+            {
+                "name": "far",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "firm",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "far",
+        "foreign_keys": [
+            {
+                "column": "far",
+                "references": "side"
+            }
+        ]
+    },
+    {
+        "name": "side",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "data",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "want"
+            }
+        ]
+    },
+    {
+        "name": "want",
+        "columns": [
+            {
+                "name": "Mrs",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nearly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Mrs",
+        "foreign_keys": [
+            {
+                "column": "Mrs",
+                "references": "everybody"
+            }
+        ]
+    },
+    {
+        "name": "everybody",
+        "columns": [
+            {
+                "name": "happen",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "under",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "treatment",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "happen",
+        "foreign_keys": [
+            {
+                "column": "happen",
+                "references": "still"
+            }
+        ]
+    }
+]

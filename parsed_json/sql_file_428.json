@@ -1,0 +1,225 @@
+[
+    {
+        "name": "notice",
+        "columns": [
+            {
+                "name": "white",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "white",
+        "foreign_keys": [
+            {
+                "column": "white",
+                "references": "father"
+            }
+        ]
+    },
+    {
+        "name": "father",
+        "columns": [
+            {
+                "name": "prepare",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "prepare",
+        "foreign_keys": [
+            {
+                "column": "prepare",
+                "references": "special"
+            }
+        ]
+    },
+    {
+        "name": "special",
+        "columns": [
+            {
+                "name": "different",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "upon",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "truth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "different",
+        "foreign_keys": [
+            {
+                "column": "different",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "who",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "size",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "who",
+        "foreign_keys": [
+            {
+                "column": "who",
+                "references": "growth"
+            }
+        ]
+    },
+    {
+        "name": "growth",
+        "columns": [
+            {
+                "name": "industry",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "industry",
+        "foreign_keys": [
+            {
+                "column": "industry",
+                "references": "old"
+            }
+        ]
+    },
+    {
+        "name": "old",
+        "columns": [
+            {
+                "name": "easy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "though",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "easy",
+        "foreign_keys": [
+            {
+                "column": "easy",
+                "references": "lot"
+            }
+        ]
+    },
+    {
+        "name": "lot",
+        "columns": [
+            {
+                "name": "nothing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nothing",
+        "foreign_keys": [
+            {
+                "column": "nothing",
+                "references": "participant"
+            }
+        ]
+    },
+    {
+        "name": "participant",
+        "columns": [
+            {
+                "name": "team",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "team",
+        "foreign_keys": [
+            {
+                "column": "team",
+                "references": "skill"
+            }
+        ]
+    },
+    {
+        "name": "skill",
+        "columns": [
+            {
+                "name": "nor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nor",
+        "foreign_keys": [
+            {
+                "column": "nor",
+                "references": "notice"
+            }
+        ]
+    }
+]

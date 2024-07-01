@@ -1,0 +1,176 @@
+[
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "important",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "important",
+        "foreign_keys": [
+            {
+                "column": "important",
+                "references": "audience"
+            }
+        ]
+    },
+    {
+        "name": "audience",
+        "columns": [
+            {
+                "name": "figure",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "right",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "figure",
+        "foreign_keys": [
+            {
+                "column": "figure",
+                "references": "agent"
+            }
+        ]
+    },
+    {
+        "name": "agent",
+        "columns": [
+            {
+                "name": "court",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "a",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "century",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "court",
+        "foreign_keys": [
+            {
+                "column": "court",
+                "references": "threat"
+            }
+        ]
+    },
+    {
+        "name": "threat",
+        "columns": [
+            {
+                "name": "ability",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ability",
+        "foreign_keys": [
+            {
+                "column": "ability",
+                "references": "fill"
+            }
+        ]
+    },
+    {
+        "name": "fill",
+        "columns": [
+            {
+                "name": "vote",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "view",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "vote",
+        "foreign_keys": [
+            {
+                "column": "vote",
+                "references": "member"
+            }
+        ]
+    },
+    {
+        "name": "member",
+        "columns": [
+            {
+                "name": "half",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "half",
+        "foreign_keys": [
+            {
+                "column": "half",
+                "references": "century"
+            }
+        ]
+    },
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "American",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "low"
+            }
+        ]
+    }
+]

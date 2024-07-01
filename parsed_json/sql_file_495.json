@@ -1,0 +1,149 @@
+[
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "popular",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "offer",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "popular",
+        "foreign_keys": [
+            {
+                "column": "popular",
+                "references": "of"
+            }
+        ]
+    },
+    {
+        "name": "of",
+        "columns": [
+            {
+                "name": "strong",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "strong",
+        "foreign_keys": [
+            {
+                "column": "strong",
+                "references": "high"
+            }
+        ]
+    },
+    {
+        "name": "high",
+        "columns": [
+            {
+                "name": "need",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reality",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "need",
+        "foreign_keys": [
+            {
+                "column": "need",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "court",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "court",
+        "foreign_keys": [
+            {
+                "column": "court",
+                "references": "building"
+            }
+        ]
+    },
+    {
+        "name": "building",
+        "columns": [
+            {
+                "name": "after",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ok",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "fact"
+            }
+        ]
+    },
+    {
+        "name": "fact",
+        "columns": [
+            {
+                "name": "reach",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "reach",
+        "foreign_keys": [
+            {
+                "column": "reach",
+                "references": "to"
+            }
+        ]
+    }
+]

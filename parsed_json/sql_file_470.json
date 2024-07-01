@@ -1,0 +1,296 @@
+[
+    {
+        "name": "value",
+        "columns": [
+            {
+                "name": "wall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "method",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wall",
+        "foreign_keys": [
+            {
+                "column": "wall",
+                "references": "understand"
+            }
+        ]
+    },
+    {
+        "name": "understand",
+        "columns": [
+            {
+                "name": "hope",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hope",
+        "foreign_keys": [
+            {
+                "column": "hope",
+                "references": "impact"
+            }
+        ]
+    },
+    {
+        "name": "impact",
+        "columns": [
+            {
+                "name": "current",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "guy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "current",
+        "foreign_keys": [
+            {
+                "column": "current",
+                "references": "record"
+            }
+        ]
+    },
+    {
+        "name": "record",
+        "columns": [
+            {
+                "name": "remain",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "protect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "remain",
+        "foreign_keys": [
+            {
+                "column": "remain",
+                "references": "few"
+            }
+        ]
+    },
+    {
+        "name": "few",
+        "columns": [
+            {
+                "name": "laugh",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "per",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "major",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "laugh",
+        "foreign_keys": [
+            {
+                "column": "laugh",
+                "references": "decade"
+            }
+        ]
+    },
+    {
+        "name": "decade",
+        "columns": [
+            {
+                "name": "result",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "establish"
+            }
+        ]
+    },
+    {
+        "name": "establish",
+        "columns": [
+            {
+                "name": "case",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "many",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "case",
+        "foreign_keys": [
+            {
+                "column": "case",
+                "references": "trade"
+            }
+        ]
+    },
+    {
+        "name": "trade",
+        "columns": [
+            {
+                "name": "answer",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suggest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "answer",
+        "foreign_keys": [
+            {
+                "column": "answer",
+                "references": "pressure"
+            }
+        ]
+    },
+    {
+        "name": "pressure",
+        "columns": [
+            {
+                "name": "tree",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "heart",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tree",
+        "foreign_keys": [
+            {
+                "column": "tree",
+                "references": "standard"
+            }
+        ]
+    },
+    {
+        "name": "standard",
+        "columns": [
+            {
+                "name": "develop",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "class",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "develop",
+        "foreign_keys": [
+            {
+                "column": "develop",
+                "references": "meet"
+            }
+        ]
+    },
+    {
+        "name": "meet",
+        "columns": [
+            {
+                "name": "for",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "for",
+        "foreign_keys": [
+            {
+                "column": "for",
+                "references": "blue"
+            }
+        ]
+    },
+    {
+        "name": "blue",
+        "columns": [
+            {
+                "name": "change",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "maybe",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "change",
+        "foreign_keys": [
+            {
+                "column": "change",
+                "references": "value"
+            }
+        ]
+    }
+]

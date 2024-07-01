@@ -1,0 +1,247 @@
+[
+    {
+        "name": "easy",
+        "columns": [
+            {
+                "name": "citizen",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "citizen",
+        "foreign_keys": [
+            {
+                "column": "citizen",
+                "references": "age"
+            }
+        ]
+    },
+    {
+        "name": "age",
+        "columns": [
+            {
+                "name": "decision",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "write",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "decision",
+        "foreign_keys": [
+            {
+                "column": "decision",
+                "references": "home"
+            }
+        ]
+    },
+    {
+        "name": "home",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "whatever",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "south"
+            }
+        ]
+    },
+    {
+        "name": "south",
+        "columns": [
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "between",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "animal",
+        "foreign_keys": [
+            {
+                "column": "animal",
+                "references": "part"
+            }
+        ]
+    },
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "reason",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ground",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beautiful",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "reason",
+        "foreign_keys": [
+            {
+                "column": "reason",
+                "references": "catch"
+            }
+        ]
+    },
+    {
+        "name": "catch",
+        "columns": [
+            {
+                "name": "help",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "itself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "help",
+        "foreign_keys": [
+            {
+                "column": "help",
+                "references": "success"
+            }
+        ]
+    },
+    {
+        "name": "success",
+        "columns": [
+            {
+                "name": "person",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stuff",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "become",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "race"
+            }
+        ]
+    },
+    {
+        "name": "race",
+        "columns": [
+            {
+                "name": "sometimes",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "sometimes",
+        "foreign_keys": [
+            {
+                "column": "sometimes",
+                "references": "sister"
+            }
+        ]
+    },
+    {
+        "name": "sister",
+        "columns": [
+            {
+                "name": "though",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "yourself",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "range",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "though",
+        "foreign_keys": [
+            {
+                "column": "though",
+                "references": "final"
+            }
+        ]
+    },
+    {
+        "name": "final",
+        "columns": [
+            {
+                "name": "result",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "final",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "easy"
+            }
+        ]
+    }
+]

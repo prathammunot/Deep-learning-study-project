@@ -1,0 +1,225 @@
+[
+    {
+        "name": "day",
+        "columns": [
+            {
+                "name": "run",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "focus",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "run",
+        "foreign_keys": [
+            {
+                "column": "run",
+                "references": "indicate"
+            }
+        ]
+    },
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "control",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "impact",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "control",
+        "foreign_keys": [
+            {
+                "column": "control",
+                "references": "moment"
+            }
+        ]
+    },
+    {
+        "name": "moment",
+        "columns": [
+            {
+                "name": "top",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "or",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "top",
+        "foreign_keys": [
+            {
+                "column": "top",
+                "references": "any"
+            }
+        ]
+    },
+    {
+        "name": "any",
+        "columns": [
+            {
+                "name": "free",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "free",
+        "foreign_keys": [
+            {
+                "column": "free",
+                "references": "matter"
+            }
+        ]
+    },
+    {
+        "name": "matter",
+        "columns": [
+            {
+                "name": "large",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "item",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "generation",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "large",
+        "foreign_keys": [
+            {
+                "column": "large",
+                "references": "rather"
+            }
+        ]
+    },
+    {
+        "name": "rather",
+        "columns": [
+            {
+                "name": "never",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "take",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "never",
+        "foreign_keys": [
+            {
+                "column": "never",
+                "references": "number"
+            }
+        ]
+    },
+    {
+        "name": "number",
+        "columns": [
+            {
+                "name": "why",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "dark",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "after",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "why",
+        "foreign_keys": [
+            {
+                "column": "why",
+                "references": "few"
+            }
+        ]
+    },
+    {
+        "name": "few",
+        "columns": [
+            {
+                "name": "series",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "series",
+        "foreign_keys": [
+            {
+                "column": "series",
+                "references": "writer"
+            }
+        ]
+    },
+    {
+        "name": "writer",
+        "columns": [
+            {
+                "name": "field",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "star",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "field",
+        "foreign_keys": [
+            {
+                "column": "field",
+                "references": "day"
+            }
+        ]
+    }
+]

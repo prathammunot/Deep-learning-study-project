@@ -1,0 +1,127 @@
+[
+    {
+        "name": "century",
+        "columns": [
+            {
+                "name": "nearly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "according",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "move",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "nearly",
+        "foreign_keys": [
+            {
+                "column": "nearly",
+                "references": "discuss"
+            }
+        ]
+    },
+    {
+        "name": "discuss",
+        "columns": [
+            {
+                "name": "teacher",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "know",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "teacher",
+        "foreign_keys": [
+            {
+                "column": "teacher",
+                "references": "red"
+            }
+        ]
+    },
+    {
+        "name": "red",
+        "columns": [
+            {
+                "name": "law",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "the",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "send",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "law",
+        "foreign_keys": [
+            {
+                "column": "law",
+                "references": "able"
+            }
+        ]
+    },
+    {
+        "name": "able",
+        "columns": [
+            {
+                "name": "style",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "adult",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "style",
+        "foreign_keys": [
+            {
+                "column": "style",
+                "references": "eat"
+            }
+        ]
+    },
+    {
+        "name": "eat",
+        "columns": [
+            {
+                "name": "environmental",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "in",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "past",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "environmental",
+        "foreign_keys": [
+            {
+                "column": "environmental",
+                "references": "century"
+            }
+        ]
+    }
+]

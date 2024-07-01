@@ -1,0 +1,296 @@
+[
+    {
+        "name": "thousand",
+        "columns": [
+            {
+                "name": "director",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "if",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "director",
+        "foreign_keys": [
+            {
+                "column": "director",
+                "references": "hot"
+            }
+        ]
+    },
+    {
+        "name": "hot",
+        "columns": [
+            {
+                "name": "before",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "rule",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "before",
+        "foreign_keys": [
+            {
+                "column": "before",
+                "references": "include"
+            }
+        ]
+    },
+    {
+        "name": "include",
+        "columns": [
+            {
+                "name": "no",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "third",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "surface",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "no",
+        "foreign_keys": [
+            {
+                "column": "no",
+                "references": "really"
+            }
+        ]
+    },
+    {
+        "name": "really",
+        "columns": [
+            {
+                "name": "one",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "one",
+        "foreign_keys": [
+            {
+                "column": "one",
+                "references": "fund"
+            }
+        ]
+    },
+    {
+        "name": "fund",
+        "columns": [
+            {
+                "name": "institution",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "talk",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "institution",
+        "foreign_keys": [
+            {
+                "column": "institution",
+                "references": "operation"
+            }
+        ]
+    },
+    {
+        "name": "operation",
+        "columns": [
+            {
+                "name": "enough",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "none",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enough",
+        "foreign_keys": [
+            {
+                "column": "enough",
+                "references": "easy"
+            }
+        ]
+    },
+    {
+        "name": "easy",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "tonight",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "will"
+            }
+        ]
+    },
+    {
+        "name": "will",
+        "columns": [
+            {
+                "name": "every",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "every",
+        "foreign_keys": [
+            {
+                "column": "every",
+                "references": "appear"
+            }
+        ]
+    },
+    {
+        "name": "appear",
+        "columns": [
+            {
+                "name": "bad",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "administration",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "forward",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bad",
+        "foreign_keys": [
+            {
+                "column": "bad",
+                "references": "I"
+            }
+        ]
+    },
+    {
+        "name": "I",
+        "columns": [
+            {
+                "name": "open",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "better",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "open",
+        "foreign_keys": [
+            {
+                "column": "open",
+                "references": "budget"
+            }
+        ]
+    },
+    {
+        "name": "budget",
+        "columns": [
+            {
+                "name": "four",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "color",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "four",
+        "foreign_keys": [
+            {
+                "column": "four",
+                "references": "hand"
+            }
+        ]
+    },
+    {
+        "name": "hand",
+        "columns": [
+            {
+                "name": "try",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "coach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "try",
+        "foreign_keys": [
+            {
+                "column": "try",
+                "references": "thousand"
+            }
+        ]
+    }
+]

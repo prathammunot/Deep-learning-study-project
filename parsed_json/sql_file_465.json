@@ -1,0 +1,274 @@
+[
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "state",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "modern",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "old",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "state",
+        "foreign_keys": [
+            {
+                "column": "state",
+                "references": "financial"
+            }
+        ]
+    },
+    {
+        "name": "financial",
+        "columns": [
+            {
+                "name": "then",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "single",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "then",
+        "foreign_keys": [
+            {
+                "column": "then",
+                "references": "others"
+            }
+        ]
+    },
+    {
+        "name": "others",
+        "columns": [
+            {
+                "name": "establish",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "quality",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "box",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "establish",
+        "foreign_keys": [
+            {
+                "column": "establish",
+                "references": "four"
+            }
+        ]
+    },
+    {
+        "name": "four",
+        "columns": [
+            {
+                "name": "off",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "off",
+        "foreign_keys": [
+            {
+                "column": "off",
+                "references": "protect"
+            }
+        ]
+    },
+    {
+        "name": "protect",
+        "columns": [
+            {
+                "name": "land",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "kitchen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "land",
+        "foreign_keys": [
+            {
+                "column": "land",
+                "references": "let"
+            }
+        ]
+    },
+    {
+        "name": "let",
+        "columns": [
+            {
+                "name": "soldier",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "spring",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "soldier",
+        "foreign_keys": [
+            {
+                "column": "soldier",
+                "references": "popular"
+            }
+        ]
+    },
+    {
+        "name": "popular",
+        "columns": [
+            {
+                "name": "fall",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wait",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "available",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "fall",
+        "foreign_keys": [
+            {
+                "column": "fall",
+                "references": "agent"
+            }
+        ]
+    },
+    {
+        "name": "agent",
+        "columns": [
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "develop",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mention",
+        "foreign_keys": [
+            {
+                "column": "mention",
+                "references": "water"
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "columns": [
+            {
+                "name": "street",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "big",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "police",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "street",
+        "foreign_keys": [
+            {
+                "column": "street",
+                "references": "culture"
+            }
+        ]
+    },
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "these",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "these",
+        "foreign_keys": [
+            {
+                "column": "these",
+                "references": "realize"
+            }
+        ]
+    },
+    {
+        "name": "realize",
+        "columns": [
+            {
+                "name": "create",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ready",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reflect",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "create",
+        "foreign_keys": [
+            {
+                "column": "create",
+                "references": "suddenly"
+            }
+        ]
+    }
+]

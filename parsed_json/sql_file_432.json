@@ -1,0 +1,225 @@
+[
+    {
+        "name": "draw",
+        "columns": [
+            {
+                "name": "beat",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "onto",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beat",
+        "foreign_keys": [
+            {
+                "column": "beat",
+                "references": "discover"
+            }
+        ]
+    },
+    {
+        "name": "discover",
+        "columns": [
+            {
+                "name": "half",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "floor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "half",
+        "foreign_keys": [
+            {
+                "column": "half",
+                "references": "current"
+            }
+        ]
+    },
+    {
+        "name": "current",
+        "columns": [
+            {
+                "name": "result",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "step",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "result",
+        "foreign_keys": [
+            {
+                "column": "result",
+                "references": "message"
+            }
+        ]
+    },
+    {
+        "name": "message",
+        "columns": [
+            {
+                "name": "very",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hold",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "very",
+        "foreign_keys": [
+            {
+                "column": "very",
+                "references": "treatment"
+            }
+        ]
+    },
+    {
+        "name": "treatment",
+        "columns": [
+            {
+                "name": "agency",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "happy",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "agency",
+        "foreign_keys": [
+            {
+                "column": "agency",
+                "references": "road"
+            }
+        ]
+    },
+    {
+        "name": "road",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "imagine",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "blood"
+            }
+        ]
+    },
+    {
+        "name": "blood",
+        "columns": [
+            {
+                "name": "know",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "wind",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "know",
+        "foreign_keys": [
+            {
+                "column": "know",
+                "references": "provide"
+            }
+        ]
+    },
+    {
+        "name": "provide",
+        "columns": [
+            {
+                "name": "face",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "again",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "face",
+        "foreign_keys": [
+            {
+                "column": "face",
+                "references": "maybe"
+            }
+        ]
+    },
+    {
+        "name": "maybe",
+        "columns": [
+            {
+                "name": "yourself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "country",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cold",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yourself",
+        "foreign_keys": [
+            {
+                "column": "yourself",
+                "references": "draw"
+            }
+        ]
+    }
+]

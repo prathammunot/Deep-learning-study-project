@@ -1,0 +1,127 @@
+[
+    {
+        "name": "send",
+        "columns": [
+            {
+                "name": "factor",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "step",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "factor",
+        "foreign_keys": [
+            {
+                "column": "factor",
+                "references": "after"
+            }
+        ]
+    },
+    {
+        "name": "after",
+        "columns": [
+            {
+                "name": "necessary",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attorney",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "necessary",
+        "foreign_keys": [
+            {
+                "column": "necessary",
+                "references": "half"
+            }
+        ]
+    },
+    {
+        "name": "half",
+        "columns": [
+            {
+                "name": "happy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sign",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "happy",
+        "foreign_keys": [
+            {
+                "column": "happy",
+                "references": "class"
+            }
+        ]
+    },
+    {
+        "name": "class",
+        "columns": [
+            {
+                "name": "mission",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "deal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mission",
+        "foreign_keys": [
+            {
+                "column": "mission",
+                "references": "few"
+            }
+        ]
+    },
+    {
+        "name": "few",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "paper",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "bank",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "send"
+            }
+        ]
+    }
+]

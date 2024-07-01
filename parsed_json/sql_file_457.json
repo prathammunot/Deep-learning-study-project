@@ -1,0 +1,247 @@
+[
+    {
+        "name": "individual",
+        "columns": [
+            {
+                "name": "information",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "week",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "event"
+            }
+        ]
+    },
+    {
+        "name": "event",
+        "columns": [
+            {
+                "name": "direction",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "truth",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "direction",
+        "foreign_keys": [
+            {
+                "column": "direction",
+                "references": "join"
+            }
+        ]
+    },
+    {
+        "name": "join",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "within",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "culture",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "likely"
+            }
+        ]
+    },
+    {
+        "name": "likely",
+        "columns": [
+            {
+                "name": "executive",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "process",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "executive",
+        "foreign_keys": [
+            {
+                "column": "executive",
+                "references": "available"
+            }
+        ]
+    },
+    {
+        "name": "available",
+        "columns": [
+            {
+                "name": "message",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "rise",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "safe",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "message",
+        "foreign_keys": [
+            {
+                "column": "message",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "price",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "price",
+        "foreign_keys": [
+            {
+                "column": "price",
+                "references": "when"
+            }
+        ]
+    },
+    {
+        "name": "when",
+        "columns": [
+            {
+                "name": "media",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "board"
+            }
+        ]
+    },
+    {
+        "name": "board",
+        "columns": [
+            {
+                "name": "quality",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "quality",
+        "foreign_keys": [
+            {
+                "column": "quality",
+                "references": "protect"
+            }
+        ]
+    },
+    {
+        "name": "protect",
+        "columns": [
+            {
+                "name": "affect",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bad",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "affect",
+        "foreign_keys": [
+            {
+                "column": "affect",
+                "references": "treat"
+            }
+        ]
+    },
+    {
+        "name": "treat",
+        "columns": [
+            {
+                "name": "vote",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "each",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "vote",
+        "foreign_keys": [
+            {
+                "column": "vote",
+                "references": "individual"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "impact",
+        "columns": [
+            {
+                "name": "view",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "relationship",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "view",
+        "foreign_keys": [
+            {
+                "column": "view",
+                "references": "people"
+            }
+        ]
+    },
+    {
+        "name": "people",
+        "columns": [
+            {
+                "name": "enjoy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "teach",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "enjoy",
+        "foreign_keys": [
+            {
+                "column": "enjoy",
+                "references": "election"
+            }
+        ]
+    },
+    {
+        "name": "election",
+        "columns": [
+            {
+                "name": "blood",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "friend",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "anyone",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "blood",
+        "foreign_keys": [
+            {
+                "column": "blood",
+                "references": "head"
+            }
+        ]
+    },
+    {
+        "name": "head",
+        "columns": [
+            {
+                "name": "word",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "word",
+        "foreign_keys": [
+            {
+                "column": "word",
+                "references": "population"
+            }
+        ]
+    },
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "newspaper",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "help",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "apply",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "newspaper",
+        "foreign_keys": [
+            {
+                "column": "newspaper",
+                "references": "night"
+            }
+        ]
+    },
+    {
+        "name": "night",
+        "columns": [
+            {
+                "name": "house",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "source",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "house",
+        "foreign_keys": [
+            {
+                "column": "house",
+                "references": "early"
+            }
+        ]
+    },
+    {
+        "name": "early",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "partner",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "future",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "impact"
+            }
+        ]
+    }
+]

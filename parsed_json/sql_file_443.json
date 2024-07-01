@@ -1,0 +1,149 @@
+[
+    {
+        "name": "pay",
+        "columns": [
+            {
+                "name": "better",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sound",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "serve",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "better",
+        "foreign_keys": [
+            {
+                "column": "better",
+                "references": "for"
+            }
+        ]
+    },
+    {
+        "name": "for",
+        "columns": [
+            {
+                "name": "still",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "scientist",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "still",
+        "foreign_keys": [
+            {
+                "column": "still",
+                "references": "center"
+            }
+        ]
+    },
+    {
+        "name": "center",
+        "columns": [
+            {
+                "name": "brother",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "lot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "respond",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "brother",
+        "foreign_keys": [
+            {
+                "column": "brother",
+                "references": "develop"
+            }
+        ]
+    },
+    {
+        "name": "develop",
+        "columns": [
+            {
+                "name": "popular",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "smile",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "popular",
+        "foreign_keys": [
+            {
+                "column": "popular",
+                "references": "continue"
+            }
+        ]
+    },
+    {
+        "name": "continue",
+        "columns": [
+            {
+                "name": "organization",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "mouth",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "reason",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "organization",
+        "foreign_keys": [
+            {
+                "column": "organization",
+                "references": "theory"
+            }
+        ]
+    },
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "line",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "line",
+        "foreign_keys": [
+            {
+                "column": "line",
+                "references": "pay"
+            }
+        ]
+    }
+]

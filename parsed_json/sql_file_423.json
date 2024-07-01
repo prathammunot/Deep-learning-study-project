@@ -1,0 +1,127 @@
+[
+    {
+        "name": "customer",
+        "columns": [
+            {
+                "name": "will",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "range",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "low",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "will",
+        "foreign_keys": [
+            {
+                "column": "will",
+                "references": "many"
+            }
+        ]
+    },
+    {
+        "name": "many",
+        "columns": [
+            {
+                "name": "a",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "expect",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "a",
+        "foreign_keys": [
+            {
+                "column": "a",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "north",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "power",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "north",
+        "foreign_keys": [
+            {
+                "column": "north",
+                "references": "measure"
+            }
+        ]
+    },
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "behavior",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "health",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "behavior",
+        "foreign_keys": [
+            {
+                "column": "behavior",
+                "references": "practice"
+            }
+        ]
+    },
+    {
+        "name": "practice",
+        "columns": [
+            {
+                "name": "magazine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "call",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "truth",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "magazine",
+        "foreign_keys": [
+            {
+                "column": "magazine",
+                "references": "customer"
+            }
+        ]
+    }
+]

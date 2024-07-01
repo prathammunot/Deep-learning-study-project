@@ -1,0 +1,198 @@
+[
+    {
+        "name": "that",
+        "columns": [
+            {
+                "name": "school",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "open",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "school",
+        "foreign_keys": [
+            {
+                "column": "school",
+                "references": "to"
+            }
+        ]
+    },
+    {
+        "name": "to",
+        "columns": [
+            {
+                "name": "shake",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "suffer",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "shake",
+        "foreign_keys": [
+            {
+                "column": "shake",
+                "references": "group"
+            }
+        ]
+    },
+    {
+        "name": "group",
+        "columns": [
+            {
+                "name": "design",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cause",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "memory",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "design",
+        "foreign_keys": [
+            {
+                "column": "design",
+                "references": "grow"
+            }
+        ]
+    },
+    {
+        "name": "grow",
+        "columns": [
+            {
+                "name": "write",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "note",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "write",
+        "foreign_keys": [
+            {
+                "column": "write",
+                "references": "only"
+            }
+        ]
+    },
+    {
+        "name": "only",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "these",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "deep"
+            }
+        ]
+    },
+    {
+        "name": "deep",
+        "columns": [
+            {
+                "name": "your",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "large",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "recognize"
+            }
+        ]
+    },
+    {
+        "name": "recognize",
+        "columns": [
+            {
+                "name": "large",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "can",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "high",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "large",
+        "foreign_keys": [
+            {
+                "column": "large",
+                "references": "down"
+            }
+        ]
+    },
+    {
+        "name": "down",
+        "columns": [
+            {
+                "name": "go",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "go",
+        "foreign_keys": [
+            {
+                "column": "go",
+                "references": "that"
+            }
+        ]
+    }
+]

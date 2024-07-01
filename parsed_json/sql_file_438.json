@@ -1,0 +1,225 @@
+[
+    {
+        "name": "job",
+        "columns": [
+            {
+                "name": "beyond",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "beyond",
+        "foreign_keys": [
+            {
+                "column": "beyond",
+                "references": "mean"
+            }
+        ]
+    },
+    {
+        "name": "mean",
+        "columns": [
+            {
+                "name": "ago",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "end",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ago",
+        "foreign_keys": [
+            {
+                "column": "ago",
+                "references": "suddenly"
+            }
+        ]
+    },
+    {
+        "name": "suddenly",
+        "columns": [
+            {
+                "name": "performance",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "listen",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "performance",
+        "foreign_keys": [
+            {
+                "column": "performance",
+                "references": "then"
+            }
+        ]
+    },
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "drug",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "relate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "drug",
+        "foreign_keys": [
+            {
+                "column": "drug",
+                "references": "sing"
+            }
+        ]
+    },
+    {
+        "name": "sing",
+        "columns": [
+            {
+                "name": "sing",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "goal",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sing",
+        "foreign_keys": [
+            {
+                "column": "sing",
+                "references": "too"
+            }
+        ]
+    },
+    {
+        "name": "too",
+        "columns": [
+            {
+                "name": "memory",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "my",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "memory",
+        "foreign_keys": [
+            {
+                "column": "memory",
+                "references": "do"
+            }
+        ]
+    },
+    {
+        "name": "do",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sell",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "attorney"
+            }
+        ]
+    },
+    {
+        "name": "attorney",
+        "columns": [
+            {
+                "name": "wait",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "over",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "wait",
+        "foreign_keys": [
+            {
+                "column": "wait",
+                "references": "society"
+            }
+        ]
+    },
+    {
+        "name": "society",
+        "columns": [
+            {
+                "name": "cost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "include",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cost",
+        "foreign_keys": [
+            {
+                "column": "cost",
+                "references": "job"
+            }
+        ]
+    }
+]

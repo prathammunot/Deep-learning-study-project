@@ -1,0 +1,149 @@
+[
+    {
+        "name": "ability",
+        "columns": [
+            {
+                "name": "many",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "resource",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "many",
+        "foreign_keys": [
+            {
+                "column": "many",
+                "references": "mouth"
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "columns": [
+            {
+                "name": "over",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "physical",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "over",
+        "foreign_keys": [
+            {
+                "column": "over",
+                "references": "worry"
+            }
+        ]
+    },
+    {
+        "name": "worry",
+        "columns": [
+            {
+                "name": "city",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "economy",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prove",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "city",
+        "foreign_keys": [
+            {
+                "column": "city",
+                "references": "record"
+            }
+        ]
+    },
+    {
+        "name": "record",
+        "columns": [
+            {
+                "name": "another",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "receive",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "hundred"
+            }
+        ]
+    },
+    {
+        "name": "hundred",
+        "columns": [
+            {
+                "name": "certain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "foot",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "as",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certain",
+        "foreign_keys": [
+            {
+                "column": "certain",
+                "references": "better"
+            }
+        ]
+    },
+    {
+        "name": "better",
+        "columns": [
+            {
+                "name": "close",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "herself",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "close",
+        "foreign_keys": [
+            {
+                "column": "close",
+                "references": "ability"
+            }
+        ]
+    }
+]

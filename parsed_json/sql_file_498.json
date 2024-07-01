@@ -1,0 +1,247 @@
+[
+    {
+        "name": "health",
+        "columns": [
+            {
+                "name": "audience",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "particularly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "report",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "audience",
+        "foreign_keys": [
+            {
+                "column": "audience",
+                "references": "story"
+            }
+        ]
+    },
+    {
+        "name": "story",
+        "columns": [
+            {
+                "name": "indicate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "baby",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "indicate",
+        "foreign_keys": [
+            {
+                "column": "indicate",
+                "references": "bar"
+            }
+        ]
+    },
+    {
+        "name": "bar",
+        "columns": [
+            {
+                "name": "mouth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "toward",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "democratic",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mouth",
+        "foreign_keys": [
+            {
+                "column": "mouth",
+                "references": "scientist"
+            }
+        ]
+    },
+    {
+        "name": "scientist",
+        "columns": [
+            {
+                "name": "how",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "low",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "how",
+        "foreign_keys": [
+            {
+                "column": "how",
+                "references": "tough"
+            }
+        ]
+    },
+    {
+        "name": "tough",
+        "columns": [
+            {
+                "name": "real",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "especially",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "why",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "real",
+        "foreign_keys": [
+            {
+                "column": "real",
+                "references": "somebody"
+            }
+        ]
+    },
+    {
+        "name": "somebody",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "item",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "catch"
+            }
+        ]
+    },
+    {
+        "name": "catch",
+        "columns": [
+            {
+                "name": "give",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "environment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "recent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "give",
+        "foreign_keys": [
+            {
+                "column": "give",
+                "references": "sing"
+            }
+        ]
+    },
+    {
+        "name": "sing",
+        "columns": [
+            {
+                "name": "mention",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "mention",
+        "foreign_keys": [
+            {
+                "column": "mention",
+                "references": "save"
+            }
+        ]
+    },
+    {
+        "name": "save",
+        "columns": [
+            {
+                "name": "our",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "authority",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "save",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "our",
+        "foreign_keys": [
+            {
+                "column": "our",
+                "references": "simple"
+            }
+        ]
+    },
+    {
+        "name": "simple",
+        "columns": [
+            {
+                "name": "military",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "military",
+        "foreign_keys": [
+            {
+                "column": "military",
+                "references": "health"
+            }
+        ]
+    }
+]

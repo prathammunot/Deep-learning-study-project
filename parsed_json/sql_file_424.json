@@ -1,0 +1,225 @@
+[
+    {
+        "name": "go",
+        "columns": [
+            {
+                "name": "record",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Democrat",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "record",
+        "foreign_keys": [
+            {
+                "column": "record",
+                "references": "condition"
+            }
+        ]
+    },
+    {
+        "name": "condition",
+        "columns": [
+            {
+                "name": "blue",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "blue",
+        "foreign_keys": [
+            {
+                "column": "blue",
+                "references": "table"
+            }
+        ]
+    },
+    {
+        "name": "table",
+        "columns": [
+            {
+                "name": "force",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "look",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "once",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "part"
+            }
+        ]
+    },
+    {
+        "name": "part",
+        "columns": [
+            {
+                "name": "magazine",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "career",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "magazine",
+        "foreign_keys": [
+            {
+                "column": "magazine",
+                "references": "specific"
+            }
+        ]
+    },
+    {
+        "name": "specific",
+        "columns": [
+            {
+                "name": "dinner",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "expert",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "dinner",
+        "foreign_keys": [
+            {
+                "column": "dinner",
+                "references": "PM"
+            }
+        ]
+    },
+    {
+        "name": "PM",
+        "columns": [
+            {
+                "name": "better",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "better",
+        "foreign_keys": [
+            {
+                "column": "better",
+                "references": "plan"
+            }
+        ]
+    },
+    {
+        "name": "plan",
+        "columns": [
+            {
+                "name": "onto",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "what",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "above",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "onto",
+        "foreign_keys": [
+            {
+                "column": "onto",
+                "references": "lead"
+            }
+        ]
+    },
+    {
+        "name": "lead",
+        "columns": [
+            {
+                "name": "candidate",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "head",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "candidate",
+        "foreign_keys": [
+            {
+                "column": "candidate",
+                "references": "oil"
+            }
+        ]
+    },
+    {
+        "name": "oil",
+        "columns": [
+            {
+                "name": "whole",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "argue",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pretty",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whole",
+        "foreign_keys": [
+            {
+                "column": "whole",
+                "references": "go"
+            }
+        ]
+    }
+]

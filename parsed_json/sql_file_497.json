@@ -1,0 +1,225 @@
+[
+    {
+        "name": "when",
+        "columns": [
+            {
+                "name": "production",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "investment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "article",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "production",
+        "foreign_keys": [
+            {
+                "column": "production",
+                "references": "garden"
+            }
+        ]
+    },
+    {
+        "name": "garden",
+        "columns": [
+            {
+                "name": "seek",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "action",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "seek",
+        "foreign_keys": [
+            {
+                "column": "seek",
+                "references": "out"
+            }
+        ]
+    },
+    {
+        "name": "out",
+        "columns": [
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "raise",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "material",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "society"
+            }
+        ]
+    },
+    {
+        "name": "society",
+        "columns": [
+            {
+                "name": "once",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "once",
+        "foreign_keys": [
+            {
+                "column": "once",
+                "references": "pay"
+            }
+        ]
+    },
+    {
+        "name": "pay",
+        "columns": [
+            {
+                "name": "rich",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "month",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "short",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rich",
+        "foreign_keys": [
+            {
+                "column": "rich",
+                "references": "physical"
+            }
+        ]
+    },
+    {
+        "name": "physical",
+        "columns": [
+            {
+                "name": "toward",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "control",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "toward",
+        "foreign_keys": [
+            {
+                "column": "toward",
+                "references": "together"
+            }
+        ]
+    },
+    {
+        "name": "together",
+        "columns": [
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "simply",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "almost",
+        "foreign_keys": [
+            {
+                "column": "almost",
+                "references": "score"
+            }
+        ]
+    },
+    {
+        "name": "score",
+        "columns": [
+            {
+                "name": "nearly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "piece",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "nearly",
+        "foreign_keys": [
+            {
+                "column": "nearly",
+                "references": "box"
+            }
+        ]
+    },
+    {
+        "name": "box",
+        "columns": [
+            {
+                "name": "range",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "great",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "range",
+        "foreign_keys": [
+            {
+                "column": "range",
+                "references": "when"
+            }
+        ]
+    }
+]

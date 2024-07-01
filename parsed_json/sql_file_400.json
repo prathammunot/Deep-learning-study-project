@@ -1,0 +1,198 @@
+[
+    {
+        "name": "up",
+        "columns": [
+            {
+                "name": "seek",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "day",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "treat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "seek",
+        "foreign_keys": [
+            {
+                "column": "seek",
+                "references": "maintain"
+            }
+        ]
+    },
+    {
+        "name": "maintain",
+        "columns": [
+            {
+                "name": "majority",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "term",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "majority",
+        "foreign_keys": [
+            {
+                "column": "majority",
+                "references": "ever"
+            }
+        ]
+    },
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "herself",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "difficult",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "room",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "herself",
+        "foreign_keys": [
+            {
+                "column": "herself",
+                "references": "phone"
+            }
+        ]
+    },
+    {
+        "name": "phone",
+        "columns": [
+            {
+                "name": "bill",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "TV",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "bill",
+        "foreign_keys": [
+            {
+                "column": "bill",
+                "references": "spend"
+            }
+        ]
+    },
+    {
+        "name": "spend",
+        "columns": [
+            {
+                "name": "both",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "around",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "both",
+        "foreign_keys": [
+            {
+                "column": "both",
+                "references": "particular"
+            }
+        ]
+    },
+    {
+        "name": "particular",
+        "columns": [
+            {
+                "name": "option",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "loss",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "option",
+        "foreign_keys": [
+            {
+                "column": "option",
+                "references": "white"
+            }
+        ]
+    },
+    {
+        "name": "white",
+        "columns": [
+            {
+                "name": "idea",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "family",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "western",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "idea",
+        "foreign_keys": [
+            {
+                "column": "idea",
+                "references": "kid"
+            }
+        ]
+    },
+    {
+        "name": "kid",
+        "columns": [
+            {
+                "name": "member",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "order",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "member",
+        "foreign_keys": [
+            {
+                "column": "member",
+                "references": "up"
+            }
+        ]
+    }
+]

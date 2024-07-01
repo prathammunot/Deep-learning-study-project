@@ -1,0 +1,127 @@
+[
+    {
+        "name": "seat",
+        "columns": [
+            {
+                "name": "recognize",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "walk",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "recognize",
+        "foreign_keys": [
+            {
+                "column": "recognize",
+                "references": "public"
+            }
+        ]
+    },
+    {
+        "name": "public",
+        "columns": [
+            {
+                "name": "either",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "pattern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "either",
+        "foreign_keys": [
+            {
+                "column": "either",
+                "references": "guy"
+            }
+        ]
+    },
+    {
+        "name": "guy",
+        "columns": [
+            {
+                "name": "person",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "change",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "beat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "person",
+        "foreign_keys": [
+            {
+                "column": "person",
+                "references": "worry"
+            }
+        ]
+    },
+    {
+        "name": "worry",
+        "columns": [
+            {
+                "name": "recent",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "late",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "recent",
+        "foreign_keys": [
+            {
+                "column": "recent",
+                "references": "doctor"
+            }
+        ]
+    },
+    {
+        "name": "doctor",
+        "columns": [
+            {
+                "name": "occur",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "occur",
+        "foreign_keys": [
+            {
+                "column": "occur",
+                "references": "seat"
+            }
+        ]
+    }
+]

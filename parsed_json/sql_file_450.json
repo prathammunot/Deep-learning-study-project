@@ -1,0 +1,127 @@
+[
+    {
+        "name": "debate",
+        "columns": [
+            {
+                "name": "long",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "total",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "account",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "long",
+        "foreign_keys": [
+            {
+                "column": "long",
+                "references": "its"
+            }
+        ]
+    },
+    {
+        "name": "its",
+        "columns": [
+            {
+                "name": "his",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "operation",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "his",
+        "foreign_keys": [
+            {
+                "column": "his",
+                "references": "idea"
+            }
+        ]
+    },
+    {
+        "name": "idea",
+        "columns": [
+            {
+                "name": "color",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "politics",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "however",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "color",
+        "foreign_keys": [
+            {
+                "column": "color",
+                "references": "might"
+            }
+        ]
+    },
+    {
+        "name": "might",
+        "columns": [
+            {
+                "name": "test",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "where",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "test",
+        "foreign_keys": [
+            {
+                "column": "test",
+                "references": "always"
+            }
+        ]
+    },
+    {
+        "name": "always",
+        "columns": [
+            {
+                "name": "possible",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "brother",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "purpose",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "possible",
+        "foreign_keys": [
+            {
+                "column": "possible",
+                "references": "debate"
+            }
+        ]
+    }
+]

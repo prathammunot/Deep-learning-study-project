@@ -1,0 +1,127 @@
+[
+    {
+        "name": "certain",
+        "columns": [
+            {
+                "name": "tonight",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "will",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "quality",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tonight",
+        "foreign_keys": [
+            {
+                "column": "tonight",
+                "references": "particularly"
+            }
+        ]
+    },
+    {
+        "name": "particularly",
+        "columns": [
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "traditional",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "him",
+        "foreign_keys": [
+            {
+                "column": "him",
+                "references": "often"
+            }
+        ]
+    },
+    {
+        "name": "often",
+        "columns": [
+            {
+                "name": "mouth",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "you",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "mouth",
+        "foreign_keys": [
+            {
+                "column": "mouth",
+                "references": "method"
+            }
+        ]
+    },
+    {
+        "name": "method",
+        "columns": [
+            {
+                "name": "expert",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "meet",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "expert",
+        "foreign_keys": [
+            {
+                "column": "expert",
+                "references": "look"
+            }
+        ]
+    },
+    {
+        "name": "look",
+        "columns": [
+            {
+                "name": "matter",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "likely",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "matter",
+        "foreign_keys": [
+            {
+                "column": "matter",
+                "references": "certain"
+            }
+        ]
+    }
+]

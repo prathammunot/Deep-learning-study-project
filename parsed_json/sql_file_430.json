@@ -1,0 +1,127 @@
+[
+    {
+        "name": "cut",
+        "columns": [
+            {
+                "name": "cold",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "institution",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "shake",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "cold",
+        "foreign_keys": [
+            {
+                "column": "cold",
+                "references": "who"
+            }
+        ]
+    },
+    {
+        "name": "who",
+        "columns": [
+            {
+                "name": "pick",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "economic",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pick",
+        "foreign_keys": [
+            {
+                "column": "pick",
+                "references": "lose"
+            }
+        ]
+    },
+    {
+        "name": "lose",
+        "columns": [
+            {
+                "name": "enjoy",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "vote",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "agree",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "enjoy",
+        "foreign_keys": [
+            {
+                "column": "enjoy",
+                "references": "me"
+            }
+        ]
+    },
+    {
+        "name": "me",
+        "columns": [
+            {
+                "name": "evidence",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "whole",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "evidence",
+        "foreign_keys": [
+            {
+                "column": "evidence",
+                "references": "shake"
+            }
+        ]
+    },
+    {
+        "name": "shake",
+        "columns": [
+            {
+                "name": "personal",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "feel",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "animal",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "personal",
+        "foreign_keys": [
+            {
+                "column": "personal",
+                "references": "cut"
+            }
+        ]
+    }
+]

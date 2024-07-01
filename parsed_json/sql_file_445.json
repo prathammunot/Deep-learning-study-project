@@ -1,0 +1,127 @@
+[
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "certainly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "certainly",
+        "foreign_keys": [
+            {
+                "column": "certainly",
+                "references": "measure"
+            }
+        ]
+    },
+    {
+        "name": "measure",
+        "columns": [
+            {
+                "name": "race",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "race",
+        "foreign_keys": [
+            {
+                "column": "race",
+                "references": "some"
+            }
+        ]
+    },
+    {
+        "name": "some",
+        "columns": [
+            {
+                "name": "magazine",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hold",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "magazine",
+        "foreign_keys": [
+            {
+                "column": "magazine",
+                "references": "cultural"
+            }
+        ]
+    },
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "dream",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "quality",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dream",
+        "foreign_keys": [
+            {
+                "column": "dream",
+                "references": "here"
+            }
+        ]
+    },
+    {
+        "name": "here",
+        "columns": [
+            {
+                "name": "prevent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "store",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "prevent",
+        "foreign_keys": [
+            {
+                "column": "prevent",
+                "references": "total"
+            }
+        ]
+    }
+]

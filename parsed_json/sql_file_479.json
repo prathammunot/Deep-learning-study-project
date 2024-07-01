@@ -1,0 +1,127 @@
+[
+    {
+        "name": "five",
+        "columns": [
+            {
+                "name": "force",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "leg",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "force",
+        "foreign_keys": [
+            {
+                "column": "force",
+                "references": "foot"
+            }
+        ]
+    },
+    {
+        "name": "foot",
+        "columns": [
+            {
+                "name": "employee",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "floor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "employee",
+        "foreign_keys": [
+            {
+                "column": "employee",
+                "references": "surface"
+            }
+        ]
+    },
+    {
+        "name": "surface",
+        "columns": [
+            {
+                "name": "available",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "civil",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "performance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "available",
+        "foreign_keys": [
+            {
+                "column": "available",
+                "references": "three"
+            }
+        ]
+    },
+    {
+        "name": "three",
+        "columns": [
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "former",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "ball"
+            }
+        ]
+    },
+    {
+        "name": "ball",
+        "columns": [
+            {
+                "name": "sell",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "until",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "cost",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "sell",
+        "foreign_keys": [
+            {
+                "column": "sell",
+                "references": "five"
+            }
+        ]
+    }
+]

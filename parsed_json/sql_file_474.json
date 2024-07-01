@@ -1,0 +1,274 @@
+[
+    {
+        "name": "cultural",
+        "columns": [
+            {
+                "name": "away",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "full",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "away",
+        "foreign_keys": [
+            {
+                "column": "away",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "management",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "yeah",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "management",
+        "foreign_keys": [
+            {
+                "column": "management",
+                "references": "hear"
+            }
+        ]
+    },
+    {
+        "name": "hear",
+        "columns": [
+            {
+                "name": "care",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "audience",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "life",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "care",
+        "foreign_keys": [
+            {
+                "column": "care",
+                "references": "total"
+            }
+        ]
+    },
+    {
+        "name": "total",
+        "columns": [
+            {
+                "name": "entire",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "entire",
+        "foreign_keys": [
+            {
+                "column": "entire",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "wait",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "story",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wait",
+        "foreign_keys": [
+            {
+                "column": "wait",
+                "references": "small"
+            }
+        ]
+    },
+    {
+        "name": "small",
+        "columns": [
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "think",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "him",
+        "foreign_keys": [
+            {
+                "column": "him",
+                "references": "yard"
+            }
+        ]
+    },
+    {
+        "name": "yard",
+        "columns": [
+            {
+                "name": "soldier",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "use",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "science",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "soldier",
+        "foreign_keys": [
+            {
+                "column": "soldier",
+                "references": "through"
+            }
+        ]
+    },
+    {
+        "name": "through",
+        "columns": [
+            {
+                "name": "political",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "strategy",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "political",
+        "foreign_keys": [
+            {
+                "column": "political",
+                "references": "degree"
+            }
+        ]
+    },
+    {
+        "name": "degree",
+        "columns": [
+            {
+                "name": "leader",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "church",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "leader",
+        "foreign_keys": [
+            {
+                "column": "leader",
+                "references": "production"
+            }
+        ]
+    },
+    {
+        "name": "production",
+        "columns": [
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "city",
+        "foreign_keys": [
+            {
+                "column": "city",
+                "references": "dinner"
+            }
+        ]
+    },
+    {
+        "name": "dinner",
+        "columns": [
+            {
+                "name": "card",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "born",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "card",
+        "foreign_keys": [
+            {
+                "column": "card",
+                "references": "cultural"
+            }
+        ]
+    }
+]

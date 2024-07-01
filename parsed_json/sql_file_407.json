@@ -1,0 +1,274 @@
+[
+    {
+        "name": "tax",
+        "columns": [
+            {
+                "name": "plan",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "door",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "share",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "plan",
+        "foreign_keys": [
+            {
+                "column": "plan",
+                "references": "population"
+            }
+        ]
+    },
+    {
+        "name": "population",
+        "columns": [
+            {
+                "name": "suddenly",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "art",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "suddenly",
+        "foreign_keys": [
+            {
+                "column": "suddenly",
+                "references": "agency"
+            }
+        ]
+    },
+    {
+        "name": "agency",
+        "columns": [
+            {
+                "name": "add",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "skin",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "add",
+        "foreign_keys": [
+            {
+                "column": "add",
+                "references": "give"
+            }
+        ]
+    },
+    {
+        "name": "give",
+        "columns": [
+            {
+                "name": "hot",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "seek",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hot",
+        "foreign_keys": [
+            {
+                "column": "hot",
+                "references": "employee"
+            }
+        ]
+    },
+    {
+        "name": "employee",
+        "columns": [
+            {
+                "name": "particularly",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "through",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "particularly",
+        "foreign_keys": [
+            {
+                "column": "particularly",
+                "references": "important"
+            }
+        ]
+    },
+    {
+        "name": "important",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "as"
+            }
+        ]
+    },
+    {
+        "name": "as",
+        "columns": [
+            {
+                "name": "who",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "amount",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "together",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "who",
+        "foreign_keys": [
+            {
+                "column": "who",
+                "references": "hospital"
+            }
+        ]
+    },
+    {
+        "name": "hospital",
+        "columns": [
+            {
+                "name": "world",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "body",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "world",
+        "foreign_keys": [
+            {
+                "column": "world",
+                "references": "drop"
+            }
+        ]
+    },
+    {
+        "name": "drop",
+        "columns": [
+            {
+                "name": "attack",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "home",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "common",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "attack",
+        "foreign_keys": [
+            {
+                "column": "attack",
+                "references": "consider"
+            }
+        ]
+    },
+    {
+        "name": "consider",
+        "columns": [
+            {
+                "name": "dinner",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "much",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dinner",
+        "foreign_keys": [
+            {
+                "column": "dinner",
+                "references": "perform"
+            }
+        ]
+    },
+    {
+        "name": "perform",
+        "columns": [
+            {
+                "name": "rock",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "message",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "real",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "rock",
+        "foreign_keys": [
+            {
+                "column": "rock",
+                "references": "tax"
+            }
+        ]
+    }
+]

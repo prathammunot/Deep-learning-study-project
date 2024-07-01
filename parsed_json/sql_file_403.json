@@ -1,0 +1,296 @@
+[
+    {
+        "name": "manage",
+        "columns": [
+            {
+                "name": "play",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "human",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "city",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "play",
+        "foreign_keys": [
+            {
+                "column": "play",
+                "references": "either"
+            }
+        ]
+    },
+    {
+        "name": "either",
+        "columns": [
+            {
+                "name": "ever",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "those",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "ever",
+        "foreign_keys": [
+            {
+                "column": "ever",
+                "references": "model"
+            }
+        ]
+    },
+    {
+        "name": "model",
+        "columns": [
+            {
+                "name": "power",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fire",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "production",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "power",
+        "foreign_keys": [
+            {
+                "column": "power",
+                "references": "church"
+            }
+        ]
+    },
+    {
+        "name": "church",
+        "columns": [
+            {
+                "name": "establish",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "to",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "establish",
+        "foreign_keys": [
+            {
+                "column": "establish",
+                "references": "medical"
+            }
+        ]
+    },
+    {
+        "name": "medical",
+        "columns": [
+            {
+                "name": "camera",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "character",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "him",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "camera",
+        "foreign_keys": [
+            {
+                "column": "camera",
+                "references": "government"
+            }
+        ]
+    },
+    {
+        "name": "government",
+        "columns": [
+            {
+                "name": "pattern",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "throughout",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "pattern",
+        "foreign_keys": [
+            {
+                "column": "pattern",
+                "references": "next"
+            }
+        ]
+    },
+    {
+        "name": "next",
+        "columns": [
+            {
+                "name": "lay",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "begin",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "there",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "lay",
+        "foreign_keys": [
+            {
+                "column": "lay",
+                "references": "land"
+            }
+        ]
+    },
+    {
+        "name": "land",
+        "columns": [
+            {
+                "name": "religious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "language",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "religious",
+        "foreign_keys": [
+            {
+                "column": "religious",
+                "references": "describe"
+            }
+        ]
+    },
+    {
+        "name": "describe",
+        "columns": [
+            {
+                "name": "figure",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "positive",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "party",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "figure",
+        "foreign_keys": [
+            {
+                "column": "figure",
+                "references": "soon"
+            }
+        ]
+    },
+    {
+        "name": "soon",
+        "columns": [
+            {
+                "name": "employee",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "a",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "employee",
+        "foreign_keys": [
+            {
+                "column": "employee",
+                "references": "anything"
+            }
+        ]
+    },
+    {
+        "name": "anything",
+        "columns": [
+            {
+                "name": "role",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "seven",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "customer",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "role",
+        "foreign_keys": [
+            {
+                "column": "role",
+                "references": "choose"
+            }
+        ]
+    },
+    {
+        "name": "choose",
+        "columns": [
+            {
+                "name": "provide",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "other",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "provide",
+        "foreign_keys": [
+            {
+                "column": "provide",
+                "references": "manage"
+            }
+        ]
+    }
+]

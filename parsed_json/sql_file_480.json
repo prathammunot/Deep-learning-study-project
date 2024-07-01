@@ -1,0 +1,247 @@
+[
+    {
+        "name": "hold",
+        "columns": [
+            {
+                "name": "example",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "example",
+        "foreign_keys": [
+            {
+                "column": "example",
+                "references": "fight"
+            }
+        ]
+    },
+    {
+        "name": "fight",
+        "columns": [
+            {
+                "name": "site",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "air",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "site",
+        "foreign_keys": [
+            {
+                "column": "site",
+                "references": "answer"
+            }
+        ]
+    },
+    {
+        "name": "answer",
+        "columns": [
+            {
+                "name": "necessary",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "just",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "Congress",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "necessary",
+        "foreign_keys": [
+            {
+                "column": "necessary",
+                "references": "ok"
+            }
+        ]
+    },
+    {
+        "name": "ok",
+        "columns": [
+            {
+                "name": "economy",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "gun",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "economy",
+        "foreign_keys": [
+            {
+                "column": "economy",
+                "references": "with"
+            }
+        ]
+    },
+    {
+        "name": "with",
+        "columns": [
+            {
+                "name": "spring",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "world",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "visit",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "spring",
+        "foreign_keys": [
+            {
+                "column": "spring",
+                "references": "before"
+            }
+        ]
+    },
+    {
+        "name": "before",
+        "columns": [
+            {
+                "name": "board",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "consider",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "board",
+        "foreign_keys": [
+            {
+                "column": "board",
+                "references": "believe"
+            }
+        ]
+    },
+    {
+        "name": "believe",
+        "columns": [
+            {
+                "name": "bed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "keep",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "bed",
+        "foreign_keys": [
+            {
+                "column": "bed",
+                "references": "smile"
+            }
+        ]
+    },
+    {
+        "name": "smile",
+        "columns": [
+            {
+                "name": "its",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "understand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "its",
+        "foreign_keys": [
+            {
+                "column": "its",
+                "references": "teacher"
+            }
+        ]
+    },
+    {
+        "name": "teacher",
+        "columns": [
+            {
+                "name": "five",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "game",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "five",
+        "foreign_keys": [
+            {
+                "column": "five",
+                "references": "social"
+            }
+        ]
+    },
+    {
+        "name": "social",
+        "columns": [
+            {
+                "name": "Mr",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "happen",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "Mr",
+        "foreign_keys": [
+            {
+                "column": "Mr",
+                "references": "hold"
+            }
+        ]
+    }
+]

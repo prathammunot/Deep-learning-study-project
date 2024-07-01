@@ -1,0 +1,198 @@
+[
+    {
+        "name": "then",
+        "columns": [
+            {
+                "name": "maintain",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "picture",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "various",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "maintain",
+        "foreign_keys": [
+            {
+                "column": "maintain",
+                "references": "song"
+            }
+        ]
+    },
+    {
+        "name": "song",
+        "columns": [
+            {
+                "name": "start",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "almost",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "start",
+        "foreign_keys": [
+            {
+                "column": "start",
+                "references": "indicate"
+            }
+        ]
+    },
+    {
+        "name": "indicate",
+        "columns": [
+            {
+                "name": "consumer",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "stage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "thought",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "consumer",
+        "foreign_keys": [
+            {
+                "column": "consumer",
+                "references": "use"
+            }
+        ]
+    },
+    {
+        "name": "use",
+        "columns": [
+            {
+                "name": "region",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "everyone",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "region",
+        "foreign_keys": [
+            {
+                "column": "region",
+                "references": "wrong"
+            }
+        ]
+    },
+    {
+        "name": "wrong",
+        "columns": [
+            {
+                "name": "continue",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "could",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "continue",
+        "foreign_keys": [
+            {
+                "column": "continue",
+                "references": "well"
+            }
+        ]
+    },
+    {
+        "name": "well",
+        "columns": [
+            {
+                "name": "age",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "age",
+        "foreign_keys": [
+            {
+                "column": "age",
+                "references": "sort"
+            }
+        ]
+    },
+    {
+        "name": "sort",
+        "columns": [
+            {
+                "name": "a",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "discuss",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "want",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "a",
+        "foreign_keys": [
+            {
+                "column": "a",
+                "references": "fact"
+            }
+        ]
+    },
+    {
+        "name": "fact",
+        "columns": [
+            {
+                "name": "herself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "card",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "herself",
+        "foreign_keys": [
+            {
+                "column": "herself",
+                "references": "then"
+            }
+        ]
+    }
+]

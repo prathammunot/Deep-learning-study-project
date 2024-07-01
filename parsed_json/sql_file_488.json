@@ -1,0 +1,274 @@
+[
+    {
+        "name": "spring",
+        "columns": [
+            {
+                "name": "forward",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "us",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hot",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "forward",
+        "foreign_keys": [
+            {
+                "column": "forward",
+                "references": "theory"
+            }
+        ]
+    },
+    {
+        "name": "theory",
+        "columns": [
+            {
+                "name": "line",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "follow",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "line",
+        "foreign_keys": [
+            {
+                "column": "line",
+                "references": "parent"
+            }
+        ]
+    },
+    {
+        "name": "parent",
+        "columns": [
+            {
+                "name": "after",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "year",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "chance",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "after",
+        "foreign_keys": [
+            {
+                "column": "after",
+                "references": "reality"
+            }
+        ]
+    },
+    {
+        "name": "reality",
+        "columns": [
+            {
+                "name": "next",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "PM",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "next",
+        "foreign_keys": [
+            {
+                "column": "next",
+                "references": "feel"
+            }
+        ]
+    },
+    {
+        "name": "feel",
+        "columns": [
+            {
+                "name": "use",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "past",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "because",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "use",
+        "foreign_keys": [
+            {
+                "column": "use",
+                "references": "very"
+            }
+        ]
+    },
+    {
+        "name": "very",
+        "columns": [
+            {
+                "name": "art",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "hospital",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "way"
+            }
+        ]
+    },
+    {
+        "name": "way",
+        "columns": [
+            {
+                "name": "billion",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "face",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "return",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "billion",
+        "foreign_keys": [
+            {
+                "column": "billion",
+                "references": "could"
+            }
+        ]
+    },
+    {
+        "name": "could",
+        "columns": [
+            {
+                "name": "author",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "personal",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "author",
+        "foreign_keys": [
+            {
+                "column": "author",
+                "references": "boy"
+            }
+        ]
+    },
+    {
+        "name": "boy",
+        "columns": [
+            {
+                "name": "view",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "maintain",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "enter",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "view",
+        "foreign_keys": [
+            {
+                "column": "view",
+                "references": "two"
+            }
+        ]
+    },
+    {
+        "name": "two",
+        "columns": [
+            {
+                "name": "hope",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "stand",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "hope",
+        "foreign_keys": [
+            {
+                "column": "hope",
+                "references": "break"
+            }
+        ]
+    },
+    {
+        "name": "break",
+        "columns": [
+            {
+                "name": "successful",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "page",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "spend",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "successful",
+        "foreign_keys": [
+            {
+                "column": "successful",
+                "references": "spring"
+            }
+        ]
+    }
+]

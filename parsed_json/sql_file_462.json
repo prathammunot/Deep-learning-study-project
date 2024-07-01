@@ -1,0 +1,296 @@
+[
+    {
+        "name": "movement",
+        "columns": [
+            {
+                "name": "understand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "manage",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "statement",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "understand",
+        "foreign_keys": [
+            {
+                "column": "understand",
+                "references": "hour"
+            }
+        ]
+    },
+    {
+        "name": "hour",
+        "columns": [
+            {
+                "name": "day",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "community",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "day",
+        "foreign_keys": [
+            {
+                "column": "day",
+                "references": "his"
+            }
+        ]
+    },
+    {
+        "name": "his",
+        "columns": [
+            {
+                "name": "painting",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "feeling",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interest",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "painting",
+        "foreign_keys": [
+            {
+                "column": "painting",
+                "references": "it"
+            }
+        ]
+    },
+    {
+        "name": "it",
+        "columns": [
+            {
+                "name": "more",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "leave",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "more",
+        "foreign_keys": [
+            {
+                "column": "more",
+                "references": "hundred"
+            }
+        ]
+    },
+    {
+        "name": "hundred",
+        "columns": [
+            {
+                "name": "billion",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "say",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "should",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "billion",
+        "foreign_keys": [
+            {
+                "column": "billion",
+                "references": "try"
+            }
+        ]
+    },
+    {
+        "name": "try",
+        "columns": [
+            {
+                "name": "commercial",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "way",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "commercial",
+        "foreign_keys": [
+            {
+                "column": "commercial",
+                "references": "group"
+            }
+        ]
+    },
+    {
+        "name": "group",
+        "columns": [
+            {
+                "name": "whose",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "three",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "scene",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "whose",
+        "foreign_keys": [
+            {
+                "column": "whose",
+                "references": "seem"
+            }
+        ]
+    },
+    {
+        "name": "seem",
+        "columns": [
+            {
+                "name": "morning",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "morning",
+        "foreign_keys": [
+            {
+                "column": "morning",
+                "references": "member"
+            }
+        ]
+    },
+    {
+        "name": "member",
+        "columns": [
+            {
+                "name": "town",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "design",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "interview",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "town",
+        "foreign_keys": [
+            {
+                "column": "town",
+                "references": "room"
+            }
+        ]
+    },
+    {
+        "name": "room",
+        "columns": [
+            {
+                "name": "office",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "season",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "office",
+        "foreign_keys": [
+            {
+                "column": "office",
+                "references": "pick"
+            }
+        ]
+    },
+    {
+        "name": "pick",
+        "columns": [
+            {
+                "name": "begin",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "moment",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "build",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "begin",
+        "foreign_keys": [
+            {
+                "column": "begin",
+                "references": "surface"
+            }
+        ]
+    },
+    {
+        "name": "surface",
+        "columns": [
+            {
+                "name": "final",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "direction",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "final",
+        "foreign_keys": [
+            {
+                "column": "final",
+                "references": "movement"
+            }
+        ]
+    }
+]

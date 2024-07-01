@@ -1,0 +1,247 @@
+[
+    {
+        "name": "message",
+        "columns": [
+            {
+                "name": "wife",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "region",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "claim",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wife",
+        "foreign_keys": [
+            {
+                "column": "wife",
+                "references": "indeed"
+            }
+        ]
+    },
+    {
+        "name": "indeed",
+        "columns": [
+            {
+                "name": "PM",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "act",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "PM",
+        "foreign_keys": [
+            {
+                "column": "PM",
+                "references": "film"
+            }
+        ]
+    },
+    {
+        "name": "film",
+        "columns": [
+            {
+                "name": "green",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "model",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "along",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "green",
+        "foreign_keys": [
+            {
+                "column": "green",
+                "references": "top"
+            }
+        ]
+    },
+    {
+        "name": "top",
+        "columns": [
+            {
+                "name": "myself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "agent",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "myself",
+        "foreign_keys": [
+            {
+                "column": "myself",
+                "references": "minute"
+            }
+        ]
+    },
+    {
+        "name": "minute",
+        "columns": [
+            {
+                "name": "anyone",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "bill",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "rich",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "anyone",
+        "foreign_keys": [
+            {
+                "column": "anyone",
+                "references": "note"
+            }
+        ]
+    },
+    {
+        "name": "note",
+        "columns": [
+            {
+                "name": "media",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "lead",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "media",
+        "foreign_keys": [
+            {
+                "column": "media",
+                "references": "season"
+            }
+        ]
+    },
+    {
+        "name": "season",
+        "columns": [
+            {
+                "name": "yes",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "time",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "evening",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "yes",
+        "foreign_keys": [
+            {
+                "column": "yes",
+                "references": "try"
+            }
+        ]
+    },
+    {
+        "name": "try",
+        "columns": [
+            {
+                "name": "serious",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "fight",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "serious",
+        "foreign_keys": [
+            {
+                "column": "serious",
+                "references": "behavior"
+            }
+        ]
+    },
+    {
+        "name": "behavior",
+        "columns": [
+            {
+                "name": "building",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "fast",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "prevent",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "building",
+        "foreign_keys": [
+            {
+                "column": "building",
+                "references": "major"
+            }
+        ]
+    },
+    {
+        "name": "major",
+        "columns": [
+            {
+                "name": "face",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "recognize",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "face",
+        "foreign_keys": [
+            {
+                "column": "face",
+                "references": "message"
+            }
+        ]
+    }
+]

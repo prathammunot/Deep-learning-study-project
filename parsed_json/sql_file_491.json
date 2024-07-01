@@ -1,0 +1,176 @@
+[
+    {
+        "name": "he",
+        "columns": [
+            {
+                "name": "item",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "official",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "national",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "item",
+        "foreign_keys": [
+            {
+                "column": "item",
+                "references": "democratic"
+            }
+        ]
+    },
+    {
+        "name": "democratic",
+        "columns": [
+            {
+                "name": "arm",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "exactly",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "arm",
+        "foreign_keys": [
+            {
+                "column": "arm",
+                "references": "culture"
+            }
+        ]
+    },
+    {
+        "name": "culture",
+        "columns": [
+            {
+                "name": "here",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sit",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "her",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "here",
+        "foreign_keys": [
+            {
+                "column": "here",
+                "references": "trouble"
+            }
+        ]
+    },
+    {
+        "name": "trouble",
+        "columns": [
+            {
+                "name": "without",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "response",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "without",
+        "foreign_keys": [
+            {
+                "column": "without",
+                "references": "he"
+            }
+        ]
+    },
+    {
+        "name": "he",
+        "columns": [
+            {
+                "name": "indeed",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "nation",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "population",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "indeed",
+        "foreign_keys": [
+            {
+                "column": "indeed",
+                "references": "environmental"
+            }
+        ]
+    },
+    {
+        "name": "environmental",
+        "columns": [
+            {
+                "name": "instead",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "southern",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "instead",
+        "foreign_keys": [
+            {
+                "column": "instead",
+                "references": "model"
+            }
+        ]
+    },
+    {
+        "name": "model",
+        "columns": [
+            {
+                "name": "page",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "forward",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "wish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "page",
+        "foreign_keys": [
+            {
+                "column": "page",
+                "references": "he"
+            }
+        ]
+    }
+]

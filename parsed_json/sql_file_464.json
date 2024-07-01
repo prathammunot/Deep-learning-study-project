@@ -1,0 +1,225 @@
+[
+    {
+        "name": "almost",
+        "columns": [
+            {
+                "name": "control",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "ground",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "compare",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "control",
+        "foreign_keys": [
+            {
+                "column": "control",
+                "references": "ever"
+            }
+        ]
+    },
+    {
+        "name": "ever",
+        "columns": [
+            {
+                "name": "too",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "debate",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "too",
+        "foreign_keys": [
+            {
+                "column": "too",
+                "references": "attorney"
+            }
+        ]
+    },
+    {
+        "name": "attorney",
+        "columns": [
+            {
+                "name": "another",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "conference",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "experience",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "another",
+        "foreign_keys": [
+            {
+                "column": "another",
+                "references": "politics"
+            }
+        ]
+    },
+    {
+        "name": "politics",
+        "columns": [
+            {
+                "name": "itself",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "reduce",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "itself",
+        "foreign_keys": [
+            {
+                "column": "itself",
+                "references": "social"
+            }
+        ]
+    },
+    {
+        "name": "social",
+        "columns": [
+            {
+                "name": "short",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "for",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "professor",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "short",
+        "foreign_keys": [
+            {
+                "column": "short",
+                "references": "help"
+            }
+        ]
+    },
+    {
+        "name": "help",
+        "columns": [
+            {
+                "name": "civil",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "training",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "civil",
+        "foreign_keys": [
+            {
+                "column": "civil",
+                "references": "shoulder"
+            }
+        ]
+    },
+    {
+        "name": "shoulder",
+        "columns": [
+            {
+                "name": "your",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "sport",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "example",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "your",
+        "foreign_keys": [
+            {
+                "column": "your",
+                "references": "participant"
+            }
+        ]
+    },
+    {
+        "name": "participant",
+        "columns": [
+            {
+                "name": "entire",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "back",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "entire",
+        "foreign_keys": [
+            {
+                "column": "entire",
+                "references": "ago"
+            }
+        ]
+    },
+    {
+        "name": "ago",
+        "columns": [
+            {
+                "name": "family",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "quickly",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "line",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "family",
+        "foreign_keys": [
+            {
+                "column": "family",
+                "references": "almost"
+            }
+        ]
+    }
+]

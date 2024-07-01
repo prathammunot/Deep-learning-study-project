@@ -1,0 +1,176 @@
+[
+    {
+        "name": "support",
+        "columns": [
+            {
+                "name": "information",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "new",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "crime",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "information",
+        "foreign_keys": [
+            {
+                "column": "information",
+                "references": "low"
+            }
+        ]
+    },
+    {
+        "name": "low",
+        "columns": [
+            {
+                "name": "red",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "attention",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "red",
+        "foreign_keys": [
+            {
+                "column": "red",
+                "references": "what"
+            }
+        ]
+    },
+    {
+        "name": "what",
+        "columns": [
+            {
+                "name": "stand",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "possible",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "realize",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "stand",
+        "foreign_keys": [
+            {
+                "column": "stand",
+                "references": "however"
+            }
+        ]
+    },
+    {
+        "name": "however",
+        "columns": [
+            {
+                "name": "dog",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "nor",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "dog",
+        "foreign_keys": [
+            {
+                "column": "dog",
+                "references": "marriage"
+            }
+        ]
+    },
+    {
+        "name": "marriage",
+        "columns": [
+            {
+                "name": "represent",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "which",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "including",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "represent",
+        "foreign_keys": [
+            {
+                "column": "represent",
+                "references": "carry"
+            }
+        ]
+    },
+    {
+        "name": "carry",
+        "columns": [
+            {
+                "name": "way",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "threat",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "way",
+        "foreign_keys": [
+            {
+                "column": "way",
+                "references": "speech"
+            }
+        ]
+    },
+    {
+        "name": "speech",
+        "columns": [
+            {
+                "name": "wide",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "time",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "sort",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "wide",
+        "foreign_keys": [
+            {
+                "column": "wide",
+                "references": "support"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "name": "language",
+        "columns": [
+            {
+                "name": "tend",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "without",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "finish",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "tend",
+        "foreign_keys": [
+            {
+                "column": "tend",
+                "references": "case"
+            }
+        ]
+    },
+    {
+        "name": "case",
+        "columns": [
+            {
+                "name": "leave",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "never",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "leave",
+        "foreign_keys": [
+            {
+                "column": "leave",
+                "references": "authority"
+            }
+        ]
+    },
+    {
+        "name": "authority",
+        "columns": [
+            {
+                "name": "write",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "them",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "pressure",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "write",
+        "foreign_keys": [
+            {
+                "column": "write",
+                "references": "word"
+            }
+        ]
+    },
+    {
+        "name": "word",
+        "columns": [
+            {
+                "name": "art",
+                "type": "VARCHAR(50)",
+                "references": null
+            },
+            {
+                "name": "identify",
+                "type": "DATE",
+                "references": null
+            }
+        ],
+        "primary_key": "art",
+        "foreign_keys": [
+            {
+                "column": "art",
+                "references": "than"
+            }
+        ]
+    },
+    {
+        "name": "than",
+        "columns": [
+            {
+                "name": "ball",
+                "type": "DATE",
+                "references": null
+            },
+            {
+                "name": "we",
+                "type": "TEXT",
+                "references": null
+            },
+            {
+                "name": "hand",
+                "type": "VARCHAR(50)",
+                "references": null
+            }
+        ],
+        "primary_key": "ball",
+        "foreign_keys": [
+            {
+                "column": "ball",
+                "references": "language"
+            }
+        ]
+    }
+]
