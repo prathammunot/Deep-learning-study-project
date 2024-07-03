@@ -1,60 +1,55 @@
 
-CREATE TABLE head (
-    not DATE,
-    line TEXT,
-    soldier VARCHAR(50),
-    PRIMARY KEY (not),
-    FOREIGN KEY (not) REFERENCES situation(not)
+CREATE TABLE Of_Throughout_100 (
+    from_professional INT PRIMARY KEY,
+    at_analysis DATE,
+    simple_process VARCHAR(100),
+    little_their DECIMAL(10, 2)
 );
 
-CREATE TABLE situation (
-    own VARCHAR(50),
-    body DATE,
-    PRIMARY KEY (own),
-    FOREIGN KEY (own) REFERENCES call(own)
+CREATE TABLE Upon_Medical_100 (
+    item_into INT PRIMARY KEY,
+    same_matter DATE,
+    garden_sure VARCHAR(100),
+    staff_tv DECIMAL(10, 2),
+    FOREIGN KEY (item_into) REFERENCES Of_Throughout_100(from_professional)
 );
 
-CREATE TABLE call (
-    once DATE,
-    real TEXT,
-    few VARCHAR(50),
-    PRIMARY KEY (once),
-    FOREIGN KEY (once) REFERENCES always(once)
+CREATE TABLE Over_According_100 (
+    its_answer INT PRIMARY KEY,
+    hot_around DATE,
+    recognize_board VARCHAR(100),
+    shoulder_usually DECIMAL(10, 2),
+    FOREIGN KEY (its_answer) REFERENCES Upon_Medical_100(item_into)
 );
 
-CREATE TABLE always (
-    approach VARCHAR(50),
-    ever DATE,
-    PRIMARY KEY (approach),
-    FOREIGN KEY (approach) REFERENCES back(approach)
+CREATE TABLE Sport_Old_100 (
+    western_summer INT PRIMARY KEY,
+    black_travel DATE,
+    pick_whether VARCHAR(100),
+    rule_several DECIMAL(10, 2),
+    FOREIGN KEY (western_summer) REFERENCES Over_According_100(its_answer)
 );
 
-CREATE TABLE back (
-    since DATE,
-    top TEXT,
-    office VARCHAR(50),
-    PRIMARY KEY (since),
-    FOREIGN KEY (since) REFERENCES hand(since)
+CREATE TABLE Across_Investment_100 (
+    local_fact INT PRIMARY KEY,
+    likely_cause DATE,
+    special_work VARCHAR(100),
+    not_trouble DECIMAL(10, 2),
+    FOREIGN KEY (local_fact) REFERENCES Sport_Old_100(western_summer)
 );
 
-CREATE TABLE hand (
-    decision VARCHAR(50),
-    prove DATE,
-    PRIMARY KEY (decision),
-    FOREIGN KEY (decision) REFERENCES single(decision)
+CREATE TABLE Moment_Vote_100 (
+    television_population INT PRIMARY KEY,
+    behind_past DATE,
+    few_reduce VARCHAR(100),
+    newspaper_chair DECIMAL(10, 2),
+    FOREIGN KEY (television_population) REFERENCES Across_Investment_100(local_fact)
 );
 
-CREATE TABLE single (
-    effect DATE,
-    her TEXT,
-    public VARCHAR(50),
-    PRIMARY KEY (effect),
-    FOREIGN KEY (effect) REFERENCES leave(effect)
-);
-
-CREATE TABLE leave (
-    day VARCHAR(50),
-    international DATE,
-    PRIMARY KEY (day),
-    FOREIGN KEY (day) REFERENCES head(day)
+CREATE TABLE Water_Use_100 (
+    option_all INT PRIMARY KEY,
+    station_leg DATE,
+    direction_yard VARCHAR(100),
+    almost_more DECIMAL(10, 2),
+    FOREIGN KEY (option_all) REFERENCES Moment_Vote_100(television_population)
 );

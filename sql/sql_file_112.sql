@@ -1,83 +1,63 @@
 
-CREATE TABLE eat (
-    detail DATE,
-    course TEXT,
-    meeting VARCHAR(50),
-    PRIMARY KEY (detail),
-    FOREIGN KEY (detail) REFERENCES majority(detail)
+CREATE TABLE Must_Work_112 (
+    rich_point INT PRIMARY KEY,
+    but_energy DATE,
+    which_agency VARCHAR(100),
+    high_computer DECIMAL(10, 2)
 );
 
-CREATE TABLE majority (
-    black VARCHAR(50),
-    both DATE,
-    PRIMARY KEY (black),
-    FOREIGN KEY (black) REFERENCES collection(black)
+CREATE TABLE Security_Lay_112 (
+    call_good INT PRIMARY KEY,
+    window_sometimes DATE,
+    take_table VARCHAR(100),
+    east_could DECIMAL(10, 2),
+    FOREIGN KEY (call_good) REFERENCES Must_Work_112(rich_point)
 );
 
-CREATE TABLE collection (
-    issue DATE,
-    everyone TEXT,
-    like VARCHAR(50),
-    PRIMARY KEY (issue),
-    FOREIGN KEY (issue) REFERENCES else(issue)
+CREATE TABLE Buy_Any_112 (
+    open_can INT PRIMARY KEY,
+    develop_brother DATE,
+    imagine_property VARCHAR(100),
+    apply_north DECIMAL(10, 2),
+    FOREIGN KEY (open_can) REFERENCES Security_Lay_112(call_good)
 );
 
-CREATE TABLE else (
-    audience VARCHAR(50),
-    Democrat DATE,
-    PRIMARY KEY (audience),
-    FOREIGN KEY (audience) REFERENCES world(audience)
+CREATE TABLE Others_Modern_112 (
+    hot_to INT PRIMARY KEY,
+    billion_return DATE,
+    address_drive VARCHAR(100),
+    look_mean DECIMAL(10, 2),
+    FOREIGN KEY (hot_to) REFERENCES Buy_Any_112(open_can)
 );
 
-CREATE TABLE world (
-    drug DATE,
-    measure TEXT,
-    center VARCHAR(50),
-    PRIMARY KEY (drug),
-    FOREIGN KEY (drug) REFERENCES fast(drug)
+CREATE TABLE Figure_Truth_112 (
+    make_wife INT PRIMARY KEY,
+    act_family DATE,
+    past_left VARCHAR(100),
+    effort_dark DECIMAL(10, 2),
+    FOREIGN KEY (make_wife) REFERENCES Others_Modern_112(hot_to)
 );
 
-CREATE TABLE fast (
-    window VARCHAR(50),
-    itself DATE,
-    PRIMARY KEY (window),
-    FOREIGN KEY (window) REFERENCES thus(window)
+CREATE TABLE International_Hit_112 (
+    oil_option INT PRIMARY KEY,
+    film_big DATE,
+    half_spring VARCHAR(100),
+    situation_page DECIMAL(10, 2),
+    FOREIGN KEY (oil_option) REFERENCES Figure_Truth_112(make_wife)
 );
 
-CREATE TABLE thus (
-    share DATE,
-    pick TEXT,
-    young VARCHAR(50),
-    PRIMARY KEY (share),
-    FOREIGN KEY (share) REFERENCES early(share)
+CREATE TABLE Pay_Board_112 (
+    box_choice INT PRIMARY KEY,
+    team_list DATE,
+    people_mouth VARCHAR(100),
+    our_behind DECIMAL(10, 2),
+    FOREIGN KEY (box_choice) REFERENCES International_Hit_112(oil_option)
 );
 
-CREATE TABLE early (
-    attack VARCHAR(50),
-    outside DATE,
-    PRIMARY KEY (attack),
-    FOREIGN KEY (attack) REFERENCES many(attack)
-);
-
-CREATE TABLE many (
-    music DATE,
-    what TEXT,
-    difference VARCHAR(50),
-    PRIMARY KEY (music),
-    FOREIGN KEY (music) REFERENCES deal(music)
-);
-
-CREATE TABLE deal (
-    arrive VARCHAR(50),
-    key DATE,
-    PRIMARY KEY (arrive),
-    FOREIGN KEY (arrive) REFERENCES green(arrive)
-);
-
-CREATE TABLE green (
-    stop DATE,
-    hold TEXT,
-    war VARCHAR(50),
-    PRIMARY KEY (stop),
-    FOREIGN KEY (stop) REFERENCES eat(stop)
+CREATE TABLE Fall_Best_112 (
+    voice_tv INT PRIMARY KEY,
+    size_stay DATE,
+    child_democrat VARCHAR(100),
+    its_somebody DECIMAL(10, 2),
+    FOREIGN KEY (voice_tv) REFERENCES Pay_Board_112(box_choice)
 );

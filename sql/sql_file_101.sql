@@ -1,90 +1,39 @@
 
-CREATE TABLE between (
-    fly DATE,
-    church TEXT,
-    report VARCHAR(50),
-    PRIMARY KEY (fly),
-    FOREIGN KEY (fly) REFERENCES and(fly)
+CREATE TABLE Whatever_Create_101 (
+    republican_west INT PRIMARY KEY,
+    billion_by DATE,
+    admit_serve VARCHAR(100),
+    everybody_health DECIMAL(10, 2)
 );
 
-CREATE TABLE and (
-    experience VARCHAR(50),
-    peace DATE,
-    PRIMARY KEY (experience),
-    FOREIGN KEY (experience) REFERENCES people(experience)
+CREATE TABLE Scientist_Baby_101 (
+    computer_would INT PRIMARY KEY,
+    together_young DATE,
+    bad_half VARCHAR(100),
+    join_worry DECIMAL(10, 2),
+    FOREIGN KEY (computer_would) REFERENCES Whatever_Create_101(republican_west)
 );
 
-CREATE TABLE people (
-    sport DATE,
-    school TEXT,
-    senior VARCHAR(50),
-    PRIMARY KEY (sport),
-    FOREIGN KEY (sport) REFERENCES institution(sport)
+CREATE TABLE Teacher_Meet_101 (
+    fire_impact INT PRIMARY KEY,
+    enter_minute DATE,
+    tax_hope VARCHAR(100),
+    perform_three DECIMAL(10, 2),
+    FOREIGN KEY (fire_impact) REFERENCES Scientist_Baby_101(computer_would)
 );
 
-CREATE TABLE institution (
-    act VARCHAR(50),
-    clearly DATE,
-    PRIMARY KEY (act),
-    FOREIGN KEY (act) REFERENCES memory(act)
+CREATE TABLE Often_Nice_101 (
+    pull_music INT PRIMARY KEY,
+    human_threat DATE,
+    sit_though VARCHAR(100),
+    science_father DECIMAL(10, 2),
+    FOREIGN KEY (pull_music) REFERENCES Teacher_Meet_101(fire_impact)
 );
 
-CREATE TABLE memory (
-    room DATE,
-    from TEXT,
-    factor VARCHAR(50),
-    PRIMARY KEY (room),
-    FOREIGN KEY (room) REFERENCES dark(room)
-);
-
-CREATE TABLE dark (
-    approach VARCHAR(50),
-    matter DATE,
-    PRIMARY KEY (approach),
-    FOREIGN KEY (approach) REFERENCES include(approach)
-);
-
-CREATE TABLE include (
-    available DATE,
-    test TEXT,
-    despite VARCHAR(50),
-    PRIMARY KEY (available),
-    FOREIGN KEY (available) REFERENCES partner(available)
-);
-
-CREATE TABLE partner (
-    simple VARCHAR(50),
-    industry DATE,
-    PRIMARY KEY (simple),
-    FOREIGN KEY (simple) REFERENCES during(simple)
-);
-
-CREATE TABLE during (
-    future DATE,
-    modern TEXT,
-    the VARCHAR(50),
-    PRIMARY KEY (future),
-    FOREIGN KEY (future) REFERENCES artist(future)
-);
-
-CREATE TABLE artist (
-    federal VARCHAR(50),
-    everything DATE,
-    PRIMARY KEY (federal),
-    FOREIGN KEY (federal) REFERENCES quality(federal)
-);
-
-CREATE TABLE quality (
-    issue DATE,
-    conference TEXT,
-    defense VARCHAR(50),
-    PRIMARY KEY (issue),
-    FOREIGN KEY (issue) REFERENCES cost(issue)
-);
-
-CREATE TABLE cost (
-    also VARCHAR(50),
-    wish DATE,
-    PRIMARY KEY (also),
-    FOREIGN KEY (also) REFERENCES between(also)
+CREATE TABLE Social_Left_101 (
+    court_research INT PRIMARY KEY,
+    other_thought DATE,
+    particularly_between VARCHAR(100),
+    company_ago DECIMAL(10, 2),
+    FOREIGN KEY (court_research) REFERENCES Often_Nice_101(pull_music)
 );

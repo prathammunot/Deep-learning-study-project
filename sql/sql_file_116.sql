@@ -1,53 +1,39 @@
 
-CREATE TABLE big (
-    south DATE,
-    development TEXT,
-    most VARCHAR(50),
-    PRIMARY KEY (south),
-    FOREIGN KEY (south) REFERENCES about(south)
+CREATE TABLE Defense_Face_116 (
+    attorney_sing INT PRIMARY KEY,
+    whether_customer DATE,
+    central_away VARCHAR(100),
+    my_during DECIMAL(10, 2)
 );
 
-CREATE TABLE about (
-    drive VARCHAR(50),
-    morning DATE,
-    PRIMARY KEY (drive),
-    FOREIGN KEY (drive) REFERENCES present(drive)
+CREATE TABLE Pretty_Much_116 (
+    hair_word INT PRIMARY KEY,
+    room_involve DATE,
+    free_quality VARCHAR(100),
+    exactly_pm DECIMAL(10, 2),
+    FOREIGN KEY (hair_word) REFERENCES Defense_Face_116(attorney_sing)
 );
 
-CREATE TABLE present (
-    main DATE,
-    by TEXT,
-    future VARCHAR(50),
-    PRIMARY KEY (main),
-    FOREIGN KEY (main) REFERENCES much(main)
+CREATE TABLE Stay_Friend_116 (
+    wish_easy INT PRIMARY KEY,
+    pull_collection DATE,
+    society_than VARCHAR(100),
+    major_crime DECIMAL(10, 2),
+    FOREIGN KEY (wish_easy) REFERENCES Pretty_Much_116(hair_word)
 );
 
-CREATE TABLE much (
-    bar VARCHAR(50),
-    senior DATE,
-    PRIMARY KEY (bar),
-    FOREIGN KEY (bar) REFERENCES serve(bar)
+CREATE TABLE Determine_Some_116 (
+    happy_option INT PRIMARY KEY,
+    from_property DATE,
+    class_wind VARCHAR(100),
+    protect_mind DECIMAL(10, 2),
+    FOREIGN KEY (happy_option) REFERENCES Stay_Friend_116(wish_easy)
 );
 
-CREATE TABLE serve (
-    sea DATE,
-    fast TEXT,
-    idea VARCHAR(50),
-    PRIMARY KEY (sea),
-    FOREIGN KEY (sea) REFERENCES authority(sea)
-);
-
-CREATE TABLE authority (
-    child VARCHAR(50),
-    serve DATE,
-    PRIMARY KEY (child),
-    FOREIGN KEY (child) REFERENCES market(child)
-);
-
-CREATE TABLE market (
-    we DATE,
-    response TEXT,
-    real VARCHAR(50),
-    PRIMARY KEY (we),
-    FOREIGN KEY (we) REFERENCES big(we)
+CREATE TABLE Statement_Analysis_116 (
+    help_join INT PRIMARY KEY,
+    expert_turn DATE,
+    hand_shoulder VARCHAR(100),
+    what_as DECIMAL(10, 2),
+    FOREIGN KEY (help_join) REFERENCES Determine_Some_116(happy_option)
 );

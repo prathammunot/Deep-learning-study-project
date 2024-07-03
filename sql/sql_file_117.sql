@@ -1,60 +1,39 @@
 
-CREATE TABLE approach (
-    thousand DATE,
-    administration TEXT,
-    customer VARCHAR(50),
-    PRIMARY KEY (thousand),
-    FOREIGN KEY (thousand) REFERENCES which(thousand)
+CREATE TABLE Just_Those_117 (
+    agent_instead INT PRIMARY KEY,
+    sell_figure DATE,
+    young_sea VARCHAR(100),
+    seek_it DECIMAL(10, 2)
 );
 
-CREATE TABLE which (
-    reason VARCHAR(50),
-    people DATE,
-    PRIMARY KEY (reason),
-    FOREIGN KEY (reason) REFERENCES the(reason)
+CREATE TABLE Cell_Gas_117 (
+    according_describe INT PRIMARY KEY,
+    she_capital DATE,
+    especially_computer VARCHAR(100),
+    plan_focus DECIMAL(10, 2),
+    FOREIGN KEY (according_describe) REFERENCES Just_Those_117(agent_instead)
 );
 
-CREATE TABLE the (
-    hour DATE,
-    entire TEXT,
-    nature VARCHAR(50),
-    PRIMARY KEY (hour),
-    FOREIGN KEY (hour) REFERENCES because(hour)
+CREATE TABLE Year_Opportunity_117 (
+    four_their INT PRIMARY KEY,
+    sometimes_near DATE,
+    stop_research VARCHAR(100),
+    up_director DECIMAL(10, 2),
+    FOREIGN KEY (four_their) REFERENCES Cell_Gas_117(according_describe)
 );
 
-CREATE TABLE because (
-    occur VARCHAR(50),
-    tough DATE,
-    PRIMARY KEY (occur),
-    FOREIGN KEY (occur) REFERENCES for(occur)
+CREATE TABLE Others_Cold_117 (
+    also_provide INT PRIMARY KEY,
+    significant_do DATE,
+    production_name VARCHAR(100),
+    wall_same DECIMAL(10, 2),
+    FOREIGN KEY (also_provide) REFERENCES Year_Opportunity_117(four_their)
 );
 
-CREATE TABLE for (
-    science DATE,
-    heart TEXT,
-    herself VARCHAR(50),
-    PRIMARY KEY (science),
-    FOREIGN KEY (science) REFERENCES draw(science)
-);
-
-CREATE TABLE draw (
-    main VARCHAR(50),
-    important DATE,
-    PRIMARY KEY (main),
-    FOREIGN KEY (main) REFERENCES check(main)
-);
-
-CREATE TABLE check (
-    practice DATE,
-    trade TEXT,
-    whole VARCHAR(50),
-    PRIMARY KEY (practice),
-    FOREIGN KEY (practice) REFERENCES strong(practice)
-);
-
-CREATE TABLE strong (
-    record VARCHAR(50),
-    today DATE,
-    PRIMARY KEY (record),
-    FOREIGN KEY (record) REFERENCES approach(record)
+CREATE TABLE Ago_Us_117 (
+    fast_these INT PRIMARY KEY,
+    such_spring DATE,
+    machine_they VARCHAR(100),
+    call_moment DECIMAL(10, 2),
+    FOREIGN KEY (fast_these) REFERENCES Others_Cold_117(also_provide)
 );

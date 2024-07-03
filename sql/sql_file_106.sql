@@ -1,90 +1,55 @@
 
-CREATE TABLE thought (
-    father DATE,
-    power TEXT,
-    themselves VARCHAR(50),
-    PRIMARY KEY (father),
-    FOREIGN KEY (father) REFERENCES animal(father)
+CREATE TABLE Discuss_When_106 (
+    meet_stop INT PRIMARY KEY,
+    over_foreign DATE,
+    under_move VARCHAR(100),
+    from_most DECIMAL(10, 2)
 );
 
-CREATE TABLE animal (
-    consider VARCHAR(50),
-    begin DATE,
-    PRIMARY KEY (consider),
-    FOREIGN KEY (consider) REFERENCES east(consider)
+CREATE TABLE Nature_Far_106 (
+    car_night INT PRIMARY KEY,
+    fight_wait DATE,
+    win_possible VARCHAR(100),
+    student_myself DECIMAL(10, 2),
+    FOREIGN KEY (car_night) REFERENCES Discuss_When_106(meet_stop)
 );
 
-CREATE TABLE east (
-    officer DATE,
-    clear TEXT,
-    street VARCHAR(50),
-    PRIMARY KEY (officer),
-    FOREIGN KEY (officer) REFERENCES per(officer)
+CREATE TABLE Station_Mention_106 (
+    color_real INT PRIMARY KEY,
+    building_paper DATE,
+    show_think VARCHAR(100),
+    system_memory DECIMAL(10, 2),
+    FOREIGN KEY (color_real) REFERENCES Nature_Far_106(car_night)
 );
 
-CREATE TABLE per (
-    commercial VARCHAR(50),
-    resource DATE,
-    PRIMARY KEY (commercial),
-    FOREIGN KEY (commercial) REFERENCES sure(commercial)
+CREATE TABLE Relationship_Stock_106 (
+    spend_consider INT PRIMARY KEY,
+    whom_yes DATE,
+    necessary_still VARCHAR(100),
+    identify_image DECIMAL(10, 2),
+    FOREIGN KEY (spend_consider) REFERENCES Station_Mention_106(color_real)
 );
 
-CREATE TABLE sure (
-    hotel DATE,
-    court TEXT,
-    professional VARCHAR(50),
-    PRIMARY KEY (hotel),
-    FOREIGN KEY (hotel) REFERENCES similar(hotel)
+CREATE TABLE Speak_Religious_106 (
+    design_class INT PRIMARY KEY,
+    republican_six DATE,
+    measure_include VARCHAR(100),
+    outside_week DECIMAL(10, 2),
+    FOREIGN KEY (design_class) REFERENCES Relationship_Stock_106(spend_consider)
 );
 
-CREATE TABLE similar (
-    size VARCHAR(50),
-    even DATE,
-    PRIMARY KEY (size),
-    FOREIGN KEY (size) REFERENCES power(size)
+CREATE TABLE Although_Should_106 (
+    in_fast INT PRIMARY KEY,
+    out_moment DATE,
+    painting_value VARCHAR(100),
+    practice_art DECIMAL(10, 2),
+    FOREIGN KEY (in_fast) REFERENCES Speak_Religious_106(design_class)
 );
 
-CREATE TABLE power (
-    friend DATE,
-    family TEXT,
-    hand VARCHAR(50),
-    PRIMARY KEY (friend),
-    FOREIGN KEY (friend) REFERENCES home(friend)
-);
-
-CREATE TABLE home (
-    trip VARCHAR(50),
-    present DATE,
-    PRIMARY KEY (trip),
-    FOREIGN KEY (trip) REFERENCES also(trip)
-);
-
-CREATE TABLE also (
-    relationship DATE,
-    attention TEXT,
-    right VARCHAR(50),
-    PRIMARY KEY (relationship),
-    FOREIGN KEY (relationship) REFERENCES follow(relationship)
-);
-
-CREATE TABLE follow (
-    policy VARCHAR(50),
-    table DATE,
-    PRIMARY KEY (policy),
-    FOREIGN KEY (policy) REFERENCES write(policy)
-);
-
-CREATE TABLE write (
-    wear DATE,
-    assume TEXT,
-    owner VARCHAR(50),
-    PRIMARY KEY (wear),
-    FOREIGN KEY (wear) REFERENCES view(wear)
-);
-
-CREATE TABLE view (
-    general VARCHAR(50),
-    including DATE,
-    PRIMARY KEY (general),
-    FOREIGN KEY (general) REFERENCES thought(general)
+CREATE TABLE For_Law_106 (
+    above_may INT PRIMARY KEY,
+    remain_reduce DATE,
+    least_continue VARCHAR(100),
+    focus_food DECIMAL(10, 2),
+    FOREIGN KEY (above_may) REFERENCES Although_Should_106(in_fast)
 );
