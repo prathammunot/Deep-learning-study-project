@@ -1,60 +1,39 @@
 
-CREATE TABLE grow (
-    message DATE,
-    room TEXT,
-    beautiful VARCHAR(50),
-    PRIMARY KEY (message),
-    FOREIGN KEY (message) REFERENCES process(message)
+CREATE TABLE Probably_Ball_82 (
+    bill_make INT PRIMARY KEY,
+    performance_art DATE,
+    person_through VARCHAR(100),
+    itself_water DECIMAL(10, 2)
 );
 
-CREATE TABLE process (
-    media VARCHAR(50),
-    despite DATE,
-    PRIMARY KEY (media),
-    FOREIGN KEY (media) REFERENCES generation(media)
+CREATE TABLE Yeah_Pass_82 (
+    benefit_window INT PRIMARY KEY,
+    couple_run DATE,
+    stock_pm VARCHAR(100),
+    product_main DECIMAL(10, 2),
+    FOREIGN KEY (benefit_window) REFERENCES Probably_Ball_82(bill_make)
 );
 
-CREATE TABLE generation (
-    garden DATE,
-    fall TEXT,
-    put VARCHAR(50),
-    PRIMARY KEY (garden),
-    FOREIGN KEY (garden) REFERENCES rest(garden)
+CREATE TABLE Responsibility_Seek_82 (
+    none_throughout INT PRIMARY KEY,
+    i_list DATE,
+    miss_begin VARCHAR(100),
+    trade_public DECIMAL(10, 2),
+    FOREIGN KEY (none_throughout) REFERENCES Yeah_Pass_82(benefit_window)
 );
 
-CREATE TABLE rest (
-    particular VARCHAR(50),
-    chair DATE,
-    PRIMARY KEY (particular),
-    FOREIGN KEY (particular) REFERENCES agent(particular)
+CREATE TABLE Shake_Drop_82 (
+    western_doctor INT PRIMARY KEY,
+    understand_suggest DATE,
+    reveal_she VARCHAR(100),
+    brother_action DECIMAL(10, 2),
+    FOREIGN KEY (western_doctor) REFERENCES Responsibility_Seek_82(none_throughout)
 );
 
-CREATE TABLE agent (
-    box DATE,
-    exactly TEXT,
-    candidate VARCHAR(50),
-    PRIMARY KEY (box),
-    FOREIGN KEY (box) REFERENCES control(box)
-);
-
-CREATE TABLE control (
-    style VARCHAR(50),
-    market DATE,
-    PRIMARY KEY (style),
-    FOREIGN KEY (style) REFERENCES reality(style)
-);
-
-CREATE TABLE reality (
-    discuss DATE,
-    whose TEXT,
-    plant VARCHAR(50),
-    PRIMARY KEY (discuss),
-    FOREIGN KEY (discuss) REFERENCES race(discuss)
-);
-
-CREATE TABLE race (
-    new VARCHAR(50),
-    address DATE,
-    PRIMARY KEY (new),
-    FOREIGN KEY (new) REFERENCES grow(new)
+CREATE TABLE Measure_Participant_82 (
+    space_painting INT PRIMARY KEY,
+    activity_clear DATE,
+    society_will VARCHAR(100),
+    government_man DECIMAL(10, 2),
+    FOREIGN KEY (space_painting) REFERENCES Shake_Drop_82(western_doctor)
 );

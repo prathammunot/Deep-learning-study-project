@@ -1,83 +1,47 @@
 
-CREATE TABLE TV (
-    field DATE,
-    care TEXT,
-    near VARCHAR(50),
-    PRIMARY KEY (field),
-    FOREIGN KEY (field) REFERENCES bit(field)
+CREATE TABLE Finally_About_81 (
+    keep_become INT PRIMARY KEY,
+    rule_entire DATE,
+    occur_season VARCHAR(100),
+    camera_face DECIMAL(10, 2)
 );
 
-CREATE TABLE bit (
-    never VARCHAR(50),
-    understand DATE,
-    PRIMARY KEY (never),
-    FOREIGN KEY (never) REFERENCES idea(never)
+CREATE TABLE Surface_We_81 (
+    exist_family INT PRIMARY KEY,
+    study_hot DATE,
+    when_senior VARCHAR(100),
+    step_crime DECIMAL(10, 2),
+    FOREIGN KEY (exist_family) REFERENCES Finally_About_81(keep_become)
 );
 
-CREATE TABLE idea (
-    economy DATE,
-    space TEXT,
-    stuff VARCHAR(50),
-    PRIMARY KEY (economy),
-    FOREIGN KEY (economy) REFERENCES mean(economy)
+CREATE TABLE Enjoy_Up_81 (
+    seven_at INT PRIMARY KEY,
+    either_reality DATE,
+    magazine_use VARCHAR(100),
+    east_hit DECIMAL(10, 2),
+    FOREIGN KEY (seven_at) REFERENCES Surface_We_81(exist_family)
 );
 
-CREATE TABLE mean (
-    result VARCHAR(50),
-    gun DATE,
-    PRIMARY KEY (result),
-    FOREIGN KEY (result) REFERENCES reflect(result)
+CREATE TABLE Say_Add_81 (
+    foot_middle INT PRIMARY KEY,
+    specific_ask DATE,
+    himself_among VARCHAR(100),
+    medical_mr DECIMAL(10, 2),
+    FOREIGN KEY (foot_middle) REFERENCES Enjoy_Up_81(seven_at)
 );
 
-CREATE TABLE reflect (
-    myself DATE,
-    real TEXT,
-    so VARCHAR(50),
-    PRIMARY KEY (myself),
-    FOREIGN KEY (myself) REFERENCES instead(myself)
+CREATE TABLE Baby_Until_81 (
+    sea_popular INT PRIMARY KEY,
+    movie_policy DATE,
+    go_debate VARCHAR(100),
+    indeed_for DECIMAL(10, 2),
+    FOREIGN KEY (sea_popular) REFERENCES Say_Add_81(foot_middle)
 );
 
-CREATE TABLE instead (
-    throw VARCHAR(50),
-    side DATE,
-    PRIMARY KEY (throw),
-    FOREIGN KEY (throw) REFERENCES brother(throw)
-);
-
-CREATE TABLE brother (
-    common DATE,
-    evidence TEXT,
-    still VARCHAR(50),
-    PRIMARY KEY (common),
-    FOREIGN KEY (common) REFERENCES agency(common)
-);
-
-CREATE TABLE agency (
-    ten VARCHAR(50),
-    even DATE,
-    PRIMARY KEY (ten),
-    FOREIGN KEY (ten) REFERENCES southern(ten)
-);
-
-CREATE TABLE southern (
-    energy DATE,
-    meeting TEXT,
-    dog VARCHAR(50),
-    PRIMARY KEY (energy),
-    FOREIGN KEY (energy) REFERENCES budget(energy)
-);
-
-CREATE TABLE budget (
-    seem VARCHAR(50),
-    amount DATE,
-    PRIMARY KEY (seem),
-    FOREIGN KEY (seem) REFERENCES us(seem)
-);
-
-CREATE TABLE us (
-    wide DATE,
-    claim TEXT,
-    pass VARCHAR(50),
-    PRIMARY KEY (wide),
-    FOREIGN KEY (wide) REFERENCES TV(wide)
+CREATE TABLE Let_Eight_81 (
+    recently_share INT PRIMARY KEY,
+    other_organization DATE,
+    available_soldier VARCHAR(100),
+    president_last DECIMAL(10, 2),
+    FOREIGN KEY (recently_share) REFERENCES Baby_Until_81(sea_popular)
 );

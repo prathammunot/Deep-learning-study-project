@@ -1,83 +1,63 @@
 
-CREATE TABLE short (
-    child DATE,
-    consumer TEXT,
-    leave VARCHAR(50),
-    PRIMARY KEY (child),
-    FOREIGN KEY (child) REFERENCES instead(child)
+CREATE TABLE Drop_Decade_16 (
+    heart_similar INT PRIMARY KEY,
+    finish_want DATE,
+    and_this VARCHAR(100),
+    offer_statement DECIMAL(10, 2)
 );
 
-CREATE TABLE instead (
-    beat VARCHAR(50),
-    medical DATE,
-    PRIMARY KEY (beat),
-    FOREIGN KEY (beat) REFERENCES only(beat)
+CREATE TABLE Before_Kind_16 (
+    decide_sure INT PRIMARY KEY,
+    lot_hit DATE,
+    firm_art VARCHAR(100),
+    feeling_consider DECIMAL(10, 2),
+    FOREIGN KEY (decide_sure) REFERENCES Drop_Decade_16(heart_similar)
 );
 
-CREATE TABLE only (
-    writer DATE,
-    though TEXT,
-    himself VARCHAR(50),
-    PRIMARY KEY (writer),
-    FOREIGN KEY (writer) REFERENCES later(writer)
+CREATE TABLE Attorney_Last_16 (
+    marriage_key INT PRIMARY KEY,
+    take_fast DATE,
+    leg_in VARCHAR(100),
+    bar_natural DECIMAL(10, 2),
+    FOREIGN KEY (marriage_key) REFERENCES Before_Kind_16(decide_sure)
 );
 
-CREATE TABLE later (
-    stay VARCHAR(50),
-    growth DATE,
-    PRIMARY KEY (stay),
-    FOREIGN KEY (stay) REFERENCES skill(stay)
+CREATE TABLE Wind_See_16 (
+    set_throughout INT PRIMARY KEY,
+    together_while DATE,
+    recent_mention VARCHAR(100),
+    later_level DECIMAL(10, 2),
+    FOREIGN KEY (set_throughout) REFERENCES Attorney_Last_16(marriage_key)
 );
 
-CREATE TABLE skill (
-    Democrat DATE,
-    condition TEXT,
-    stock VARCHAR(50),
-    PRIMARY KEY (Democrat),
-    FOREIGN KEY (Democrat) REFERENCES white(Democrat)
+CREATE TABLE Bad_Begin_16 (
+    floor_manager INT PRIMARY KEY,
+    life_without DATE,
+    leader_condition VARCHAR(100),
+    with_because DECIMAL(10, 2),
+    FOREIGN KEY (floor_manager) REFERENCES Wind_See_16(set_throughout)
 );
 
-CREATE TABLE white (
-    federal VARCHAR(50),
-    worry DATE,
-    PRIMARY KEY (federal),
-    FOREIGN KEY (federal) REFERENCES show(federal)
+CREATE TABLE Science_American_16 (
+    none_or INT PRIMARY KEY,
+    make_term DATE,
+    provide_should VARCHAR(100),
+    health_thought DECIMAL(10, 2),
+    FOREIGN KEY (none_or) REFERENCES Bad_Begin_16(floor_manager)
 );
 
-CREATE TABLE show (
-    consider DATE,
-    heart TEXT,
-    teach VARCHAR(50),
-    PRIMARY KEY (consider),
-    FOREIGN KEY (consider) REFERENCES next(consider)
+CREATE TABLE Low_Movie_16 (
+    close_price INT PRIMARY KEY,
+    purpose_training DATE,
+    compare_enjoy VARCHAR(100),
+    popular_lose DECIMAL(10, 2),
+    FOREIGN KEY (close_price) REFERENCES Science_American_16(none_or)
 );
 
-CREATE TABLE next (
-    common VARCHAR(50),
-    child DATE,
-    PRIMARY KEY (common),
-    FOREIGN KEY (common) REFERENCES whether(common)
-);
-
-CREATE TABLE whether (
-    hard DATE,
-    she TEXT,
-    no VARCHAR(50),
-    PRIMARY KEY (hard),
-    FOREIGN KEY (hard) REFERENCES away(hard)
-);
-
-CREATE TABLE away (
-    science VARCHAR(50),
-    customer DATE,
-    PRIMARY KEY (science),
-    FOREIGN KEY (science) REFERENCES sea(science)
-);
-
-CREATE TABLE sea (
-    behind DATE,
-    care TEXT,
-    shake VARCHAR(50),
-    PRIMARY KEY (behind),
-    FOREIGN KEY (behind) REFERENCES short(behind)
+CREATE TABLE Risk_Anything_16 (
+    doctor_use INT PRIMARY KEY,
+    yourself_oil DATE,
+    it_night VARCHAR(100),
+    place_determine DECIMAL(10, 2),
+    FOREIGN KEY (doctor_use) REFERENCES Low_Movie_16(close_price)
 );

@@ -1,68 +1,39 @@
 
-CREATE TABLE federal (
-    argue DATE,
-    quite TEXT,
-    heart VARCHAR(50),
-    PRIMARY KEY (argue),
-    FOREIGN KEY (argue) REFERENCES itself(argue)
+CREATE TABLE And_Commercial_96 (
+    society_see INT PRIMARY KEY,
+    man_sound DATE,
+    size_he VARCHAR(100),
+    yourself_these DECIMAL(10, 2)
 );
 
-CREATE TABLE itself (
-    carry VARCHAR(50),
-    give DATE,
-    PRIMARY KEY (carry),
-    FOREIGN KEY (carry) REFERENCES tree(carry)
+CREATE TABLE Today_Red_96 (
+    program_next INT PRIMARY KEY,
+    represent_couple DATE,
+    change_two VARCHAR(100),
+    forget_term DECIMAL(10, 2),
+    FOREIGN KEY (program_next) REFERENCES And_Commercial_96(society_see)
 );
 
-CREATE TABLE tree (
-    capital DATE,
-    respond TEXT,
-    program VARCHAR(50),
-    PRIMARY KEY (capital),
-    FOREIGN KEY (capital) REFERENCES Mrs(capital)
+CREATE TABLE Indeed_Hold_96 (
+    police_single INT PRIMARY KEY,
+    professor_per DATE,
+    add_bring VARCHAR(100),
+    space_especially DECIMAL(10, 2),
+    FOREIGN KEY (police_single) REFERENCES Today_Red_96(program_next)
 );
 
-CREATE TABLE Mrs (
-    hundred VARCHAR(50),
-    garden DATE,
-    PRIMARY KEY (hundred),
-    FOREIGN KEY (hundred) REFERENCES job(hundred)
+CREATE TABLE Anyone_Military_96 (
+    involve_environmental INT PRIMARY KEY,
+    without_our DATE,
+    exactly_prepare VARCHAR(100),
+    ahead_prevent DECIMAL(10, 2),
+    FOREIGN KEY (involve_environmental) REFERENCES Indeed_Hold_96(police_single)
 );
 
-CREATE TABLE job (
-    us DATE,
-    couple TEXT,
-    technology VARCHAR(50),
-    PRIMARY KEY (us),
-    FOREIGN KEY (us) REFERENCES could(us)
-);
-
-CREATE TABLE could (
-    act VARCHAR(50),
-    front DATE,
-    PRIMARY KEY (act),
-    FOREIGN KEY (act) REFERENCES strategy(act)
-);
-
-CREATE TABLE strategy (
-    short DATE,
-    level TEXT,
-    science VARCHAR(50),
-    PRIMARY KEY (short),
-    FOREIGN KEY (short) REFERENCES federal(short)
-);
-
-CREATE TABLE federal (
-    from VARCHAR(50),
-    front DATE,
-    PRIMARY KEY (from),
-    FOREIGN KEY (from) REFERENCES American(from)
-);
-
-CREATE TABLE American (
-    fight DATE,
-    state TEXT,
-    worry VARCHAR(50),
-    PRIMARY KEY (fight),
-    FOREIGN KEY (fight) REFERENCES federal(fight)
+CREATE TABLE Month_Itself_96 (
+    stop_leader INT PRIMARY KEY,
+    event_own DATE,
+    hour_for VARCHAR(100),
+    physical_whom DECIMAL(10, 2),
+    FOREIGN KEY (stop_leader) REFERENCES Anyone_Military_96(involve_environmental)
 );

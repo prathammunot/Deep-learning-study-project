@@ -1,90 +1,55 @@
 
-CREATE TABLE use (
-    represent DATE,
-    down TEXT,
-    young VARCHAR(50),
-    PRIMARY KEY (represent),
-    FOREIGN KEY (represent) REFERENCES must(represent)
+CREATE TABLE Everything_Budget_20 (
+    war_serious INT PRIMARY KEY,
+    child_might DATE,
+    center_way VARCHAR(100),
+    mouth_fall DECIMAL(10, 2)
 );
 
-CREATE TABLE must (
-    story VARCHAR(50),
-    own DATE,
-    PRIMARY KEY (story),
-    FOREIGN KEY (story) REFERENCES listen(story)
+CREATE TABLE Suggest_Large_20 (
+    huge_court INT PRIMARY KEY,
+    concern_meet DATE,
+    their_soldier VARCHAR(100),
+    example_road DECIMAL(10, 2),
+    FOREIGN KEY (huge_court) REFERENCES Everything_Budget_20(war_serious)
 );
 
-CREATE TABLE listen (
-    big DATE,
-    place TEXT,
-    threat VARCHAR(50),
-    PRIMARY KEY (big),
-    FOREIGN KEY (big) REFERENCES Democrat(big)
+CREATE TABLE Cultural_If_20 (
+    month_finally INT PRIMARY KEY,
+    event_turn DATE,
+    often_involve VARCHAR(100),
+    past_teach DECIMAL(10, 2),
+    FOREIGN KEY (month_finally) REFERENCES Suggest_Large_20(huge_court)
 );
 
-CREATE TABLE Democrat (
-    door VARCHAR(50),
-    capital DATE,
-    PRIMARY KEY (door),
-    FOREIGN KEY (door) REFERENCES recognize(door)
+CREATE TABLE Assume_Star_20 (
+    future_administration INT PRIMARY KEY,
+    figure_feel DATE,
+    including_measure VARCHAR(100),
+    hard_decision DECIMAL(10, 2),
+    FOREIGN KEY (future_administration) REFERENCES Cultural_If_20(month_finally)
 );
 
-CREATE TABLE recognize (
-    price DATE,
-    help TEXT,
-    talk VARCHAR(50),
-    PRIMARY KEY (price),
-    FOREIGN KEY (price) REFERENCES television(price)
+CREATE TABLE Discuss_Fish_20 (
+    until_challenge INT PRIMARY KEY,
+    share_add DATE,
+    rise_only VARCHAR(100),
+    mind_room DECIMAL(10, 2),
+    FOREIGN KEY (until_challenge) REFERENCES Assume_Star_20(future_administration)
 );
 
-CREATE TABLE television (
-    sure VARCHAR(50),
-    generation DATE,
-    PRIMARY KEY (sure),
-    FOREIGN KEY (sure) REFERENCES stand(sure)
+CREATE TABLE They_Building_20 (
+    above_home INT PRIMARY KEY,
+    cause_population DATE,
+    loss_cell VARCHAR(100),
+    account_million DECIMAL(10, 2),
+    FOREIGN KEY (above_home) REFERENCES Discuss_Fish_20(until_challenge)
 );
 
-CREATE TABLE stand (
-    skill DATE,
-    analysis TEXT,
-    safe VARCHAR(50),
-    PRIMARY KEY (skill),
-    FOREIGN KEY (skill) REFERENCES then(skill)
-);
-
-CREATE TABLE then (
-    one VARCHAR(50),
-    education DATE,
-    PRIMARY KEY (one),
-    FOREIGN KEY (one) REFERENCES son(one)
-);
-
-CREATE TABLE son (
-    prove DATE,
-    available TEXT,
-    pick VARCHAR(50),
-    PRIMARY KEY (prove),
-    FOREIGN KEY (prove) REFERENCES image(prove)
-);
-
-CREATE TABLE image (
-    trip VARCHAR(50),
-    clear DATE,
-    PRIMARY KEY (trip),
-    FOREIGN KEY (trip) REFERENCES economy(trip)
-);
-
-CREATE TABLE economy (
-    responsibility DATE,
-    husband TEXT,
-    defense VARCHAR(50),
-    PRIMARY KEY (responsibility),
-    FOREIGN KEY (responsibility) REFERENCES be(responsibility)
-);
-
-CREATE TABLE be (
-    tough VARCHAR(50),
-    able DATE,
-    PRIMARY KEY (tough),
-    FOREIGN KEY (tough) REFERENCES use(tough)
+CREATE TABLE Relationship_New_20 (
+    style_forward INT PRIMARY KEY,
+    ok_clear DATE,
+    sort_political VARCHAR(100),
+    perform_opportunity DECIMAL(10, 2),
+    FOREIGN KEY (style_forward) REFERENCES They_Building_20(above_home)
 );

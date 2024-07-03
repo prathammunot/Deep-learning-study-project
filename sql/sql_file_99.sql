@@ -1,90 +1,39 @@
 
-CREATE TABLE run (
-    product DATE,
-    similar TEXT,
-    performance VARCHAR(50),
-    PRIMARY KEY (product),
-    FOREIGN KEY (product) REFERENCES pretty(product)
+CREATE TABLE Service_However_99 (
+    word_senior INT PRIMARY KEY,
+    product_industry DATE,
+    site_follow VARCHAR(100),
+    as_decision DECIMAL(10, 2)
 );
 
-CREATE TABLE pretty (
-    or VARCHAR(50),
-    wear DATE,
-    PRIMARY KEY (or),
-    FOREIGN KEY (or) REFERENCES realize(or)
+CREATE TABLE Possible_In_99 (
+    modern_under INT PRIMARY KEY,
+    peace_give DATE,
+    lead_assume VARCHAR(100),
+    forward_ten DECIMAL(10, 2),
+    FOREIGN KEY (modern_under) REFERENCES Service_However_99(word_senior)
 );
 
-CREATE TABLE realize (
-    study DATE,
-    pattern TEXT,
-    discussion VARCHAR(50),
-    PRIMARY KEY (study),
-    FOREIGN KEY (study) REFERENCES become(study)
+CREATE TABLE Visit_Range_99 (
+    relationship_sing INT PRIMARY KEY,
+    produce_discover DATE,
+    stuff_reach VARCHAR(100),
+    market_citizen DECIMAL(10, 2),
+    FOREIGN KEY (relationship_sing) REFERENCES Possible_In_99(modern_under)
 );
 
-CREATE TABLE become (
-    soon VARCHAR(50),
-    social DATE,
-    PRIMARY KEY (soon),
-    FOREIGN KEY (soon) REFERENCES who(soon)
+CREATE TABLE Car_Wish_99 (
+    set_lay INT PRIMARY KEY,
+    listen_meeting DATE,
+    performance_suddenly VARCHAR(100),
+    artist_whose DECIMAL(10, 2),
+    FOREIGN KEY (set_lay) REFERENCES Visit_Range_99(relationship_sing)
 );
 
-CREATE TABLE who (
-    foreign DATE,
-    everyone TEXT,
-    claim VARCHAR(50),
-    PRIMARY KEY (foreign),
-    FOREIGN KEY (foreign) REFERENCES nice(foreign)
-);
-
-CREATE TABLE nice (
-    public VARCHAR(50),
-    reason DATE,
-    PRIMARY KEY (public),
-    FOREIGN KEY (public) REFERENCES quite(public)
-);
-
-CREATE TABLE quite (
-    itself DATE,
-    clearly TEXT,
-    three VARCHAR(50),
-    PRIMARY KEY (itself),
-    FOREIGN KEY (itself) REFERENCES two(itself)
-);
-
-CREATE TABLE two (
-    large VARCHAR(50),
-    best DATE,
-    PRIMARY KEY (large),
-    FOREIGN KEY (large) REFERENCES bar(large)
-);
-
-CREATE TABLE bar (
-    design DATE,
-    score TEXT,
-    she VARCHAR(50),
-    PRIMARY KEY (design),
-    FOREIGN KEY (design) REFERENCES trouble(design)
-);
-
-CREATE TABLE trouble (
-    money VARCHAR(50),
-    whose DATE,
-    PRIMARY KEY (money),
-    FOREIGN KEY (money) REFERENCES pull(money)
-);
-
-CREATE TABLE pull (
-    ten DATE,
-    task TEXT,
-    center VARCHAR(50),
-    PRIMARY KEY (ten),
-    FOREIGN KEY (ten) REFERENCES choose(ten)
-);
-
-CREATE TABLE choose (
-    position VARCHAR(50),
-    inside DATE,
-    PRIMARY KEY (position),
-    FOREIGN KEY (position) REFERENCES run(position)
+CREATE TABLE Plan_Election_99 (
+    class_which INT PRIMARY KEY,
+    lot_close DATE,
+    up_strong VARCHAR(100),
+    that_name DECIMAL(10, 2),
+    FOREIGN KEY (class_which) REFERENCES Car_Wish_99(set_lay)
 );

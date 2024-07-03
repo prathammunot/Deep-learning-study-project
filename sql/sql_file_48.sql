@@ -1,53 +1,39 @@
 
-CREATE TABLE challenge (
-    heavy DATE,
-    write TEXT,
-    ok VARCHAR(50),
-    PRIMARY KEY (heavy),
-    FOREIGN KEY (heavy) REFERENCES hotel(heavy)
+CREATE TABLE Water_Lose_48 (
+    mean_player INT PRIMARY KEY,
+    issue_doctor DATE,
+    movie_shoulder VARCHAR(100),
+    public_owner DECIMAL(10, 2)
 );
 
-CREATE TABLE hotel (
-    until VARCHAR(50),
-    subject DATE,
-    PRIMARY KEY (until),
-    FOREIGN KEY (until) REFERENCES scene(until)
+CREATE TABLE Industry_Sort_48 (
+    letter_per INT PRIMARY KEY,
+    change_professor DATE,
+    friend_realize VARCHAR(100),
+    than_property DECIMAL(10, 2),
+    FOREIGN KEY (letter_per) REFERENCES Water_Lose_48(mean_player)
 );
 
-CREATE TABLE scene (
-    billion DATE,
-    politics TEXT,
-    blue VARCHAR(50),
-    PRIMARY KEY (billion),
-    FOREIGN KEY (billion) REFERENCES hand(billion)
+CREATE TABLE Score_Concern_48 (
+    still_remember INT PRIMARY KEY,
+    social_thought DATE,
+    never_control VARCHAR(100),
+    action_color DECIMAL(10, 2),
+    FOREIGN KEY (still_remember) REFERENCES Industry_Sort_48(letter_per)
 );
 
-CREATE TABLE hand (
-    look VARCHAR(50),
-    would DATE,
-    PRIMARY KEY (look),
-    FOREIGN KEY (look) REFERENCES ball(look)
+CREATE TABLE Before_Couple_48 (
+    make_food INT PRIMARY KEY,
+    development_voice DATE,
+    culture_low VARCHAR(100),
+    chance_great DECIMAL(10, 2),
+    FOREIGN KEY (make_food) REFERENCES Score_Concern_48(still_remember)
 );
 
-CREATE TABLE ball (
-    day DATE,
-    voice TEXT,
-    product VARCHAR(50),
-    PRIMARY KEY (day),
-    FOREIGN KEY (day) REFERENCES physical(day)
-);
-
-CREATE TABLE physical (
-    sister VARCHAR(50),
-    today DATE,
-    PRIMARY KEY (sister),
-    FOREIGN KEY (sister) REFERENCES beautiful(sister)
-);
-
-CREATE TABLE beautiful (
-    performance DATE,
-    leave TEXT,
-    expect VARCHAR(50),
-    PRIMARY KEY (performance),
-    FOREIGN KEY (performance) REFERENCES challenge(performance)
+CREATE TABLE Early_Radio_48 (
+    consider_quality INT PRIMARY KEY,
+    area_game DATE,
+    majority_everything VARCHAR(100),
+    and_country DECIMAL(10, 2),
+    FOREIGN KEY (consider_quality) REFERENCES Before_Couple_48(make_food)
 );

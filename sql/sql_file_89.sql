@@ -1,90 +1,63 @@
 
-CREATE TABLE interview (
-    just DATE,
-    sure TEXT,
-    party VARCHAR(50),
-    PRIMARY KEY (just),
-    FOREIGN KEY (just) REFERENCES foot(just)
+CREATE TABLE Toward_Discover_89 (
+    bar_large INT PRIMARY KEY,
+    throw_eye DATE,
+    sister_manager VARCHAR(100),
+    line_see DECIMAL(10, 2)
 );
 
-CREATE TABLE foot (
-    writer VARCHAR(50),
-    PM DATE,
-    PRIMARY KEY (writer),
-    FOREIGN KEY (writer) REFERENCES work(writer)
+CREATE TABLE Poor_Reach_89 (
+    or_cut INT PRIMARY KEY,
+    protect_her DATE,
+    on_woman VARCHAR(100),
+    billion_ok DECIMAL(10, 2),
+    FOREIGN KEY (or_cut) REFERENCES Toward_Discover_89(bar_large)
 );
 
-CREATE TABLE work (
-    movie DATE,
-    rise TEXT,
-    station VARCHAR(50),
-    PRIMARY KEY (movie),
-    FOREIGN KEY (movie) REFERENCES professor(movie)
+CREATE TABLE Though_Foreign_89 (
+    amount_together INT PRIMARY KEY,
+    within_own DATE,
+    three_interview VARCHAR(100),
+    live_leader DECIMAL(10, 2),
+    FOREIGN KEY (amount_together) REFERENCES Poor_Reach_89(or_cut)
 );
 
-CREATE TABLE professor (
-    forward VARCHAR(50),
-    identify DATE,
-    PRIMARY KEY (forward),
-    FOREIGN KEY (forward) REFERENCES move(forward)
+CREATE TABLE Candidate_Knowledge_89 (
+    effort_hope INT PRIMARY KEY,
+    central_everything DATE,
+    professor_charge VARCHAR(100),
+    human_writer DECIMAL(10, 2),
+    FOREIGN KEY (effort_hope) REFERENCES Though_Foreign_89(amount_together)
 );
 
-CREATE TABLE move (
-    old DATE,
-    defense TEXT,
-    music VARCHAR(50),
-    PRIMARY KEY (old),
-    FOREIGN KEY (old) REFERENCES per(old)
+CREATE TABLE Chair_Win_89 (
+    environment_because INT PRIMARY KEY,
+    money_financial DATE,
+    indicate_goal VARCHAR(100),
+    kid_show DECIMAL(10, 2),
+    FOREIGN KEY (environment_because) REFERENCES Candidate_Knowledge_89(effort_hope)
 );
 
-CREATE TABLE per (
-    small VARCHAR(50),
-    none DATE,
-    PRIMARY KEY (small),
-    FOREIGN KEY (small) REFERENCES wife(small)
+CREATE TABLE Sometimes_Late_89 (
+    force_information INT PRIMARY KEY,
+    rock_response DATE,
+    executive_conference VARCHAR(100),
+    operation_future DECIMAL(10, 2),
+    FOREIGN KEY (force_information) REFERENCES Chair_Win_89(environment_because)
 );
 
-CREATE TABLE wife (
-    cold DATE,
-    score TEXT,
-    speech VARCHAR(50),
-    PRIMARY KEY (cold),
-    FOREIGN KEY (cold) REFERENCES modern(cold)
+CREATE TABLE Important_Country_89 (
+    week_animal INT PRIMARY KEY,
+    be_without DATE,
+    much_meeting VARCHAR(100),
+    air_spend DECIMAL(10, 2),
+    FOREIGN KEY (week_animal) REFERENCES Sometimes_Late_89(force_information)
 );
 
-CREATE TABLE modern (
-    back VARCHAR(50),
-    group DATE,
-    PRIMARY KEY (back),
-    FOREIGN KEY (back) REFERENCES allow(back)
-);
-
-CREATE TABLE allow (
-    country DATE,
-    with TEXT,
-    need VARCHAR(50),
-    PRIMARY KEY (country),
-    FOREIGN KEY (country) REFERENCES heart(country)
-);
-
-CREATE TABLE heart (
-    activity VARCHAR(50),
-    tend DATE,
-    PRIMARY KEY (activity),
-    FOREIGN KEY (activity) REFERENCES second(activity)
-);
-
-CREATE TABLE second (
-    purpose DATE,
-    test TEXT,
-    mean VARCHAR(50),
-    PRIMARY KEY (purpose),
-    FOREIGN KEY (purpose) REFERENCES past(purpose)
-);
-
-CREATE TABLE past (
-    modern VARCHAR(50),
-    wrong DATE,
-    PRIMARY KEY (modern),
-    FOREIGN KEY (modern) REFERENCES interview(modern)
+CREATE TABLE Still_All_89 (
+    affect_beautiful INT PRIMARY KEY,
+    friend_few DATE,
+    threat_reflect VARCHAR(100),
+    although_majority DECIMAL(10, 2),
+    FOREIGN KEY (affect_beautiful) REFERENCES Important_Country_89(week_animal)
 );

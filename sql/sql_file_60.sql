@@ -1,83 +1,47 @@
 
-CREATE TABLE growth (
-    animal DATE,
-    film TEXT,
-    agreement VARCHAR(50),
-    PRIMARY KEY (animal),
-    FOREIGN KEY (animal) REFERENCES American(animal)
+CREATE TABLE Perhaps_Establish_60 (
+    national_law INT PRIMARY KEY,
+    free_system DATE,
+    art_film VARCHAR(100),
+    process_from DECIMAL(10, 2)
 );
 
-CREATE TABLE American (
-    population VARCHAR(50),
-    sea DATE,
-    PRIMARY KEY (population),
-    FOREIGN KEY (population) REFERENCES notice(population)
+CREATE TABLE Large_Relate_60 (
+    it_analysis INT PRIMARY KEY,
+    fall_answer DATE,
+    table_fine VARCHAR(100),
+    voice_appear DECIMAL(10, 2),
+    FOREIGN KEY (it_analysis) REFERENCES Perhaps_Establish_60(national_law)
 );
 
-CREATE TABLE notice (
-    easy DATE,
-    nature TEXT,
-    light VARCHAR(50),
-    PRIMARY KEY (easy),
-    FOREIGN KEY (easy) REFERENCES you(easy)
+CREATE TABLE Per_Eye_60 (
+    somebody_nation INT PRIMARY KEY,
+    take_spend DATE,
+    identify_happy VARCHAR(100),
+    prove_allow DECIMAL(10, 2),
+    FOREIGN KEY (somebody_nation) REFERENCES Large_Relate_60(it_analysis)
 );
 
-CREATE TABLE you (
-    consumer VARCHAR(50),
-    interest DATE,
-    PRIMARY KEY (consumer),
-    FOREIGN KEY (consumer) REFERENCES continue(consumer)
+CREATE TABLE Democrat_May_60 (
+    inside_return INT PRIMARY KEY,
+    billion_loss DATE,
+    attention_sell VARCHAR(100),
+    instead_education DECIMAL(10, 2),
+    FOREIGN KEY (inside_return) REFERENCES Per_Eye_60(somebody_nation)
 );
 
-CREATE TABLE continue (
-    lay DATE,
-    happy TEXT,
-    environmental VARCHAR(50),
-    PRIMARY KEY (lay),
-    FOREIGN KEY (lay) REFERENCES industry(lay)
+CREATE TABLE Matter_Real_60 (
+    near_condition INT PRIMARY KEY,
+    eat_article DATE,
+    view_growth VARCHAR(100),
+    account_feel DECIMAL(10, 2),
+    FOREIGN KEY (near_condition) REFERENCES Democrat_May_60(inside_return)
 );
 
-CREATE TABLE industry (
-    drop VARCHAR(50),
-    final DATE,
-    PRIMARY KEY (drop),
-    FOREIGN KEY (drop) REFERENCES through(drop)
-);
-
-CREATE TABLE through (
-    suddenly DATE,
-    call TEXT,
-    finally VARCHAR(50),
-    PRIMARY KEY (suddenly),
-    FOREIGN KEY (suddenly) REFERENCES relate(suddenly)
-);
-
-CREATE TABLE relate (
-    throw VARCHAR(50),
-    set DATE,
-    PRIMARY KEY (throw),
-    FOREIGN KEY (throw) REFERENCES cultural(throw)
-);
-
-CREATE TABLE cultural (
-    seven DATE,
-    bit TEXT,
-    simply VARCHAR(50),
-    PRIMARY KEY (seven),
-    FOREIGN KEY (seven) REFERENCES likely(seven)
-);
-
-CREATE TABLE likely (
-    minute VARCHAR(50),
-    leader DATE,
-    PRIMARY KEY (minute),
-    FOREIGN KEY (minute) REFERENCES every(minute)
-);
-
-CREATE TABLE every (
-    everything DATE,
-    teacher TEXT,
-    town VARCHAR(50),
-    PRIMARY KEY (everything),
-    FOREIGN KEY (everything) REFERENCES growth(everything)
+CREATE TABLE Safe_Most_60 (
+    mission_week INT PRIMARY KEY,
+    method_during DATE,
+    upon_social VARCHAR(100),
+    store_we DECIMAL(10, 2),
+    FOREIGN KEY (mission_week) REFERENCES Matter_Real_60(near_condition)
 );

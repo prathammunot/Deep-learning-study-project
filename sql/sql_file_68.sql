@@ -1,83 +1,39 @@
 
-CREATE TABLE animal (
-    its DATE,
-    increase TEXT,
-    city VARCHAR(50),
-    PRIMARY KEY (its),
-    FOREIGN KEY (its) REFERENCES direction(its)
+CREATE TABLE Word_Sign_68 (
+    pass_along INT PRIMARY KEY,
+    final_campaign DATE,
+    together_in VARCHAR(100),
+    size_themselves DECIMAL(10, 2)
 );
 
-CREATE TABLE direction (
-    like VARCHAR(50),
-    finally DATE,
-    PRIMARY KEY (like),
-    FOREIGN KEY (like) REFERENCES water(like)
+CREATE TABLE A_Special_68 (
+    blood_audience INT PRIMARY KEY,
+    mother_television DATE,
+    participant_ok VARCHAR(100),
+    challenge_thought DECIMAL(10, 2),
+    FOREIGN KEY (blood_audience) REFERENCES Word_Sign_68(pass_along)
 );
 
-CREATE TABLE water (
-    table DATE,
-    company TEXT,
-    those VARCHAR(50),
-    PRIMARY KEY (table),
-    FOREIGN KEY (table) REFERENCES carry(table)
+CREATE TABLE Sense_Total_68 (
+    front_factor INT PRIMARY KEY,
+    radio_leader DATE,
+    activity_avoid VARCHAR(100),
+    understand_might DECIMAL(10, 2),
+    FOREIGN KEY (front_factor) REFERENCES A_Special_68(blood_audience)
 );
 
-CREATE TABLE carry (
-    myself VARCHAR(50),
-    mean DATE,
-    PRIMARY KEY (myself),
-    FOREIGN KEY (myself) REFERENCES either(myself)
+CREATE TABLE Before_Whose_68 (
+    who_book INT PRIMARY KEY,
+    actually_boy DATE,
+    partner_five VARCHAR(100),
+    series_moment DECIMAL(10, 2),
+    FOREIGN KEY (who_book) REFERENCES Sense_Total_68(front_factor)
 );
 
-CREATE TABLE either (
-    art DATE,
-    rate TEXT,
-    information VARCHAR(50),
-    PRIMARY KEY (art),
-    FOREIGN KEY (art) REFERENCES large(art)
-);
-
-CREATE TABLE large (
-    rather VARCHAR(50),
-    whether DATE,
-    PRIMARY KEY (rather),
-    FOREIGN KEY (rather) REFERENCES field(rather)
-);
-
-CREATE TABLE field (
-    eat DATE,
-    itself TEXT,
-    I VARCHAR(50),
-    PRIMARY KEY (eat),
-    FOREIGN KEY (eat) REFERENCES return(eat)
-);
-
-CREATE TABLE return (
-    suffer VARCHAR(50),
-    avoid DATE,
-    PRIMARY KEY (suffer),
-    FOREIGN KEY (suffer) REFERENCES laugh(suffer)
-);
-
-CREATE TABLE laugh (
-    deep DATE,
-    be TEXT,
-    good VARCHAR(50),
-    PRIMARY KEY (deep),
-    FOREIGN KEY (deep) REFERENCES property(deep)
-);
-
-CREATE TABLE property (
-    dream VARCHAR(50),
-    will DATE,
-    PRIMARY KEY (dream),
-    FOREIGN KEY (dream) REFERENCES that(dream)
-);
-
-CREATE TABLE that (
-    whose DATE,
-    stock TEXT,
-    table VARCHAR(50),
-    PRIMARY KEY (whose),
-    FOREIGN KEY (whose) REFERENCES animal(whose)
+CREATE TABLE Decision_Million_68 (
+    glass_wear INT PRIMARY KEY,
+    police_hundred DATE,
+    hot_simply VARCHAR(100),
+    beyond_region DECIMAL(10, 2),
+    FOREIGN KEY (glass_wear) REFERENCES Before_Whose_68(who_book)
 );

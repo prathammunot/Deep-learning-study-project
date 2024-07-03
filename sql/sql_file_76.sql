@@ -1,75 +1,63 @@
 
-CREATE TABLE yes (
-    reach DATE,
-    million TEXT,
-    fire VARCHAR(50),
-    PRIMARY KEY (reach),
-    FOREIGN KEY (reach) REFERENCES politics(reach)
+CREATE TABLE Alone_Picture_76 (
+    tough_international INT PRIMARY KEY,
+    film_high DATE,
+    far_professor VARCHAR(100),
+    center_structure DECIMAL(10, 2)
 );
 
-CREATE TABLE politics (
-    in VARCHAR(50),
-    chance DATE,
-    PRIMARY KEY (in),
-    FOREIGN KEY (in) REFERENCES each(in)
+CREATE TABLE Item_Citizen_76 (
+    eat_theory INT PRIMARY KEY,
+    gun_south DATE,
+    both_either VARCHAR(100),
+    dream_member DECIMAL(10, 2),
+    FOREIGN KEY (eat_theory) REFERENCES Alone_Picture_76(tough_international)
 );
 
-CREATE TABLE each (
-    south DATE,
-    agree TEXT,
-    mean VARCHAR(50),
-    PRIMARY KEY (south),
-    FOREIGN KEY (south) REFERENCES or(south)
+CREATE TABLE Top_Form_76 (
+    wish_guy INT PRIMARY KEY,
+    race_pass DATE,
+    point_happy VARCHAR(100),
+    find_add DECIMAL(10, 2),
+    FOREIGN KEY (wish_guy) REFERENCES Item_Citizen_76(eat_theory)
 );
 
-CREATE TABLE or (
-    score VARCHAR(50),
-    cold DATE,
-    PRIMARY KEY (score),
-    FOREIGN KEY (score) REFERENCES inside(score)
+CREATE TABLE Listen_So_76 (
+    southern_sit INT PRIMARY KEY,
+    clearly_yeah DATE,
+    at_we VARCHAR(100),
+    argue_region DECIMAL(10, 2),
+    FOREIGN KEY (southern_sit) REFERENCES Top_Form_76(wish_guy)
 );
 
-CREATE TABLE inside (
-    me DATE,
-    why TEXT,
-    answer VARCHAR(50),
-    PRIMARY KEY (me),
-    FOREIGN KEY (me) REFERENCES control(me)
+CREATE TABLE Also_With_76 (
+    feeling_year INT PRIMARY KEY,
+    example_operation DATE,
+    democratic_economy VARCHAR(100),
+    or_field DECIMAL(10, 2),
+    FOREIGN KEY (feeling_year) REFERENCES Listen_So_76(southern_sit)
 );
 
-CREATE TABLE control (
-    left VARCHAR(50),
-    couple DATE,
-    PRIMARY KEY (left),
-    FOREIGN KEY (left) REFERENCES skill(left)
+CREATE TABLE Statement_Interesting_76 (
+    production_admit INT PRIMARY KEY,
+    leader_court DATE,
+    avoid_every VARCHAR(100),
+    hand_that DECIMAL(10, 2),
+    FOREIGN KEY (production_admit) REFERENCES Also_With_76(feeling_year)
 );
 
-CREATE TABLE skill (
-    become DATE,
-    stock TEXT,
-    threat VARCHAR(50),
-    PRIMARY KEY (become),
-    FOREIGN KEY (become) REFERENCES involve(become)
+CREATE TABLE Worry_On_76 (
+    wall_prepare INT PRIMARY KEY,
+    lawyer_mother DATE,
+    can_city VARCHAR(100),
+    herself_will DECIMAL(10, 2),
+    FOREIGN KEY (wall_prepare) REFERENCES Statement_Interesting_76(production_admit)
 );
 
-CREATE TABLE involve (
-    station VARCHAR(50),
-    city DATE,
-    PRIMARY KEY (station),
-    FOREIGN KEY (station) REFERENCES end(station)
-);
-
-CREATE TABLE end (
-    family DATE,
-    television TEXT,
-    cause VARCHAR(50),
-    PRIMARY KEY (family),
-    FOREIGN KEY (family) REFERENCES body(family)
-);
-
-CREATE TABLE body (
-    notice VARCHAR(50),
-    five DATE,
-    PRIMARY KEY (notice),
-    FOREIGN KEY (notice) REFERENCES yes(notice)
+CREATE TABLE Quite_Home_76 (
+    wonder_increase INT PRIMARY KEY,
+    property_price DATE,
+    thousand_rock VARCHAR(100),
+    together_her DECIMAL(10, 2),
+    FOREIGN KEY (wonder_increase) REFERENCES Worry_On_76(wall_prepare)
 );

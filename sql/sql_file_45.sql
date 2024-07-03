@@ -1,68 +1,79 @@
 
-CREATE TABLE speak (
-    maybe DATE,
-    determine TEXT,
-    something VARCHAR(50),
-    PRIMARY KEY (maybe),
-    FOREIGN KEY (maybe) REFERENCES treatment(maybe)
+CREATE TABLE Situation_Challenge_45 (
+    think_reflect INT PRIMARY KEY,
+    better_market DATE,
+    somebody_site VARCHAR(100),
+    southern_chair DECIMAL(10, 2)
 );
 
-CREATE TABLE treatment (
-    kid VARCHAR(50),
-    six DATE,
-    PRIMARY KEY (kid),
-    FOREIGN KEY (kid) REFERENCES guess(kid)
+CREATE TABLE Mother_Book_45 (
+    particular_analysis INT PRIMARY KEY,
+    board_evening DATE,
+    almost_blue VARCHAR(100),
+    reality_size DECIMAL(10, 2),
+    FOREIGN KEY (particular_analysis) REFERENCES Situation_Challenge_45(think_reflect)
 );
 
-CREATE TABLE guess (
-    movie DATE,
-    produce TEXT,
-    share VARCHAR(50),
-    PRIMARY KEY (movie),
-    FOREIGN KEY (movie) REFERENCES skin(movie)
+CREATE TABLE Show_Art_45 (
+    store_decision INT PRIMARY KEY,
+    should_entire DATE,
+    law_ground VARCHAR(100),
+    from_act DECIMAL(10, 2),
+    FOREIGN KEY (store_decision) REFERENCES Mother_Book_45(particular_analysis)
 );
 
-CREATE TABLE skin (
-    strategy VARCHAR(50),
-    attack DATE,
-    PRIMARY KEY (strategy),
-    FOREIGN KEY (strategy) REFERENCES attack(strategy)
+CREATE TABLE Notice_Plan_45 (
+    arm_impact INT PRIMARY KEY,
+    character_election DATE,
+    they_tough VARCHAR(100),
+    appear_trade DECIMAL(10, 2),
+    FOREIGN KEY (arm_impact) REFERENCES Show_Art_45(store_decision)
 );
 
-CREATE TABLE attack (
-    away DATE,
-    left TEXT,
-    think VARCHAR(50),
-    PRIMARY KEY (away),
-    FOREIGN KEY (away) REFERENCES call(away)
+CREATE TABLE Explain_Record_45 (
+    forget_push INT PRIMARY KEY,
+    word_talk DATE,
+    near_thus VARCHAR(100),
+    democrat_approach DECIMAL(10, 2),
+    FOREIGN KEY (forget_push) REFERENCES Notice_Plan_45(arm_impact)
 );
 
-CREATE TABLE call (
-    benefit VARCHAR(50),
-    something DATE,
-    PRIMARY KEY (benefit),
-    FOREIGN KEY (benefit) REFERENCES police(benefit)
+CREATE TABLE Wide_Guess_45 (
+    ok_someone INT PRIMARY KEY,
+    meet_bit DATE,
+    draw_lot VARCHAR(100),
+    nation_model DECIMAL(10, 2),
+    FOREIGN KEY (ok_someone) REFERENCES Explain_Record_45(forget_push)
 );
 
-CREATE TABLE police (
-    writer DATE,
-    money TEXT,
-    stop VARCHAR(50),
-    PRIMARY KEY (writer),
-    FOREIGN KEY (writer) REFERENCES story(writer)
+CREATE TABLE Very_Father_45 (
+    attorney_least INT PRIMARY KEY,
+    place_our DATE,
+    why_believe VARCHAR(100),
+    one_arrive DECIMAL(10, 2),
+    FOREIGN KEY (attorney_least) REFERENCES Wide_Guess_45(ok_someone)
 );
 
-CREATE TABLE story (
-    finish VARCHAR(50),
-    agreement DATE,
-    PRIMARY KEY (finish),
-    FOREIGN KEY (finish) REFERENCES environment(finish)
+CREATE TABLE Study_Fall_45 (
+    ahead_write INT PRIMARY KEY,
+    eye_hand DATE,
+    happen_man VARCHAR(100),
+    leader_including DECIMAL(10, 2),
+    FOREIGN KEY (ahead_write) REFERENCES Very_Father_45(attorney_least)
 );
 
-CREATE TABLE environment (
-    friend DATE,
-    here TEXT,
-    record VARCHAR(50),
-    PRIMARY KEY (friend),
-    FOREIGN KEY (friend) REFERENCES speak(friend)
+CREATE TABLE Season_Strong_45 (
+    north_phone INT PRIMARY KEY,
+    heart_out DATE,
+    environment_morning VARCHAR(100),
+    role_who DECIMAL(10, 2),
+    FOREIGN KEY (north_phone) REFERENCES Study_Fall_45(ahead_write)
+);
+
+CREATE TABLE Policy_Room_45 (
+    result_mention INT PRIMARY KEY,
+    production_question DATE,
+    wait_level VARCHAR(100),
+    life_artist DECIMAL(10, 2),
+    FOREIGN KEY (result_mention) REFERENCES Season_Strong_45(north_phone)
 );

@@ -1,75 +1,55 @@
 
-CREATE TABLE identify (
-    allow DATE,
-    standard TEXT,
-    open VARCHAR(50),
-    PRIMARY KEY (allow),
-    FOREIGN KEY (allow) REFERENCES benefit(allow)
+CREATE TABLE Method_Suggest_34 (
+    current_which INT PRIMARY KEY,
+    thank_budget DATE,
+    behind_sense VARCHAR(100),
+    business_story DECIMAL(10, 2)
 );
 
-CREATE TABLE benefit (
-    me VARCHAR(50),
-    per DATE,
-    PRIMARY KEY (me),
-    FOREIGN KEY (me) REFERENCES five(me)
+CREATE TABLE Career_History_34 (
+    responsibility_point INT PRIMARY KEY,
+    special_born DATE,
+    since_option VARCHAR(100),
+    international_world DECIMAL(10, 2),
+    FOREIGN KEY (responsibility_point) REFERENCES Method_Suggest_34(current_which)
 );
 
-CREATE TABLE five (
-    attack DATE,
-    similar TEXT,
-    this VARCHAR(50),
-    PRIMARY KEY (attack),
-    FOREIGN KEY (attack) REFERENCES then(attack)
+CREATE TABLE Fact_Voice_34 (
+    cut_bank INT PRIMARY KEY,
+    decade_minute DATE,
+    why_send VARCHAR(100),
+    me_a DECIMAL(10, 2),
+    FOREIGN KEY (cut_bank) REFERENCES Career_History_34(responsibility_point)
 );
 
-CREATE TABLE then (
-    energy VARCHAR(50),
-    manage DATE,
-    PRIMARY KEY (energy),
-    FOREIGN KEY (energy) REFERENCES relationship(energy)
+CREATE TABLE Watch_Sometimes_34 (
+    scene_everyone INT PRIMARY KEY,
+    purpose_bar DATE,
+    child_situation VARCHAR(100),
+    or_dog DECIMAL(10, 2),
+    FOREIGN KEY (scene_everyone) REFERENCES Fact_Voice_34(cut_bank)
 );
 
-CREATE TABLE relationship (
-    current DATE,
-    where TEXT,
-    increase VARCHAR(50),
-    PRIMARY KEY (current),
-    FOREIGN KEY (current) REFERENCES education(current)
+CREATE TABLE Culture_Reality_34 (
+    risk_after INT PRIMARY KEY,
+    your_benefit DATE,
+    wife_outside VARCHAR(100),
+    their_local DECIMAL(10, 2),
+    FOREIGN KEY (risk_after) REFERENCES Watch_Sometimes_34(scene_everyone)
 );
 
-CREATE TABLE education (
-    or VARCHAR(50),
-    trial DATE,
-    PRIMARY KEY (or),
-    FOREIGN KEY (or) REFERENCES hard(or)
+CREATE TABLE Drop_Democratic_34 (
+    national_thousand INT PRIMARY KEY,
+    guy_worry DATE,
+    example_discuss VARCHAR(100),
+    ago_ok DECIMAL(10, 2),
+    FOREIGN KEY (national_thousand) REFERENCES Culture_Reality_34(risk_after)
 );
 
-CREATE TABLE hard (
-    hour DATE,
-    attack TEXT,
-    material VARCHAR(50),
-    PRIMARY KEY (hour),
-    FOREIGN KEY (hour) REFERENCES get(hour)
-);
-
-CREATE TABLE get (
-    purpose VARCHAR(50),
-    cold DATE,
-    PRIMARY KEY (purpose),
-    FOREIGN KEY (purpose) REFERENCES light(purpose)
-);
-
-CREATE TABLE light (
-    need DATE,
-    dark TEXT,
-    southern VARCHAR(50),
-    PRIMARY KEY (need),
-    FOREIGN KEY (need) REFERENCES since(need)
-);
-
-CREATE TABLE since (
-    lot VARCHAR(50),
-    chance DATE,
-    PRIMARY KEY (lot),
-    FOREIGN KEY (lot) REFERENCES identify(lot)
+CREATE TABLE Author_Movement_34 (
+    song_among INT PRIMARY KEY,
+    actually_dinner DATE,
+    media_rest VARCHAR(100),
+    people_break DECIMAL(10, 2),
+    FOREIGN KEY (song_among) REFERENCES Drop_Democratic_34(national_thousand)
 );

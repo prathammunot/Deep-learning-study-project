@@ -1,75 +1,39 @@
 
-CREATE TABLE public (
-    record DATE,
-    pass TEXT,
-    table VARCHAR(50),
-    PRIMARY KEY (record),
-    FOREIGN KEY (record) REFERENCES half(record)
+CREATE TABLE Budget_Ahead_25 (
+    late_into INT PRIMARY KEY,
+    kid_policy DATE,
+    reduce_weight VARCHAR(100),
+    certainly_quickly DECIMAL(10, 2)
 );
 
-CREATE TABLE half (
-    big VARCHAR(50),
-    think DATE,
-    PRIMARY KEY (big),
-    FOREIGN KEY (big) REFERENCES finish(big)
+CREATE TABLE Next_Seat_25 (
+    could_company INT PRIMARY KEY,
+    eat_expert DATE,
+    floor_support VARCHAR(100),
+    training_whose DECIMAL(10, 2),
+    FOREIGN KEY (could_company) REFERENCES Budget_Ahead_25(late_into)
 );
 
-CREATE TABLE finish (
-    religious DATE,
-    yes TEXT,
-    million VARCHAR(50),
-    PRIMARY KEY (religious),
-    FOREIGN KEY (religious) REFERENCES upon(religious)
+CREATE TABLE Drug_Raise_25 (
+    position_these INT PRIMARY KEY,
+    police_media DATE,
+    control_year VARCHAR(100),
+    election_former DECIMAL(10, 2),
+    FOREIGN KEY (position_these) REFERENCES Next_Seat_25(could_company)
 );
 
-CREATE TABLE upon (
-    message VARCHAR(50),
-    what DATE,
-    PRIMARY KEY (message),
-    FOREIGN KEY (message) REFERENCES memory(message)
+CREATE TABLE Record_It_25 (
+    you_at INT PRIMARY KEY,
+    produce_maintain DATE,
+    service_occur VARCHAR(100),
+    ability_natural DECIMAL(10, 2),
+    FOREIGN KEY (you_at) REFERENCES Drug_Raise_25(position_these)
 );
 
-CREATE TABLE memory (
-    data DATE,
-    investment TEXT,
-    sing VARCHAR(50),
-    PRIMARY KEY (data),
-    FOREIGN KEY (data) REFERENCES for(data)
-);
-
-CREATE TABLE for (
-    term VARCHAR(50),
-    wrong DATE,
-    PRIMARY KEY (term),
-    FOREIGN KEY (term) REFERENCES two(term)
-);
-
-CREATE TABLE two (
-    brother DATE,
-    campaign TEXT,
-    glass VARCHAR(50),
-    PRIMARY KEY (brother),
-    FOREIGN KEY (brother) REFERENCES idea(brother)
-);
-
-CREATE TABLE idea (
-    similar VARCHAR(50),
-    job DATE,
-    PRIMARY KEY (similar),
-    FOREIGN KEY (similar) REFERENCES late(similar)
-);
-
-CREATE TABLE late (
-    present DATE,
-    production TEXT,
-    billion VARCHAR(50),
-    PRIMARY KEY (present),
-    FOREIGN KEY (present) REFERENCES door(present)
-);
-
-CREATE TABLE door (
-    anything VARCHAR(50),
-    list DATE,
-    PRIMARY KEY (anything),
-    FOREIGN KEY (anything) REFERENCES public(anything)
+CREATE TABLE Eight_Place_25 (
+    successful_during INT PRIMARY KEY,
+    specific_grow DATE,
+    ago_role VARCHAR(100),
+    language_rest DECIMAL(10, 2),
+    FOREIGN KEY (successful_during) REFERENCES Record_It_25(you_at)
 );

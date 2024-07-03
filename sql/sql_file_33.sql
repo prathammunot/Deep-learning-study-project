@@ -1,90 +1,55 @@
 
-CREATE TABLE although (
-    letter DATE,
-    peace TEXT,
-    try VARCHAR(50),
-    PRIMARY KEY (letter),
-    FOREIGN KEY (letter) REFERENCES enough(letter)
+CREATE TABLE Something_Smile_33 (
+    success_can INT PRIMARY KEY,
+    stock_across DATE,
+    day_begin VARCHAR(100),
+    general_contain DECIMAL(10, 2)
 );
 
-CREATE TABLE enough (
-    sometimes VARCHAR(50),
-    service DATE,
-    PRIMARY KEY (sometimes),
-    FOREIGN KEY (sometimes) REFERENCES arm(sometimes)
+CREATE TABLE High_Defense_33 (
+    audience_newspaper INT PRIMARY KEY,
+    ready_inside DATE,
+    play_century VARCHAR(100),
+    stage_onto DECIMAL(10, 2),
+    FOREIGN KEY (audience_newspaper) REFERENCES Something_Smile_33(success_can)
 );
 
-CREATE TABLE arm (
-    why DATE,
-    court TEXT,
-    where VARCHAR(50),
-    PRIMARY KEY (why),
-    FOREIGN KEY (why) REFERENCES age(why)
+CREATE TABLE Low_Yourself_33 (
+    back_pm INT PRIMARY KEY,
+    prepare_happy DATE,
+    congress_education VARCHAR(100),
+    energy_bad DECIMAL(10, 2),
+    FOREIGN KEY (back_pm) REFERENCES High_Defense_33(audience_newspaper)
 );
 
-CREATE TABLE age (
-    arrive VARCHAR(50),
-    effect DATE,
-    PRIMARY KEY (arrive),
-    FOREIGN KEY (arrive) REFERENCES power(arrive)
+CREATE TABLE Power_Area_33 (
+    much_growth INT PRIMARY KEY,
+    sign_direction DATE,
+    however_idea VARCHAR(100),
+    whether_cold DECIMAL(10, 2),
+    FOREIGN KEY (much_growth) REFERENCES Low_Yourself_33(back_pm)
 );
 
-CREATE TABLE power (
-    quite DATE,
-    at TEXT,
-    inside VARCHAR(50),
-    PRIMARY KEY (quite),
-    FOREIGN KEY (quite) REFERENCES identify(quite)
+CREATE TABLE Away_Realize_33 (
+    second_face INT PRIMARY KEY,
+    provide_present DATE,
+    wait_always VARCHAR(100),
+    social_ever DECIMAL(10, 2),
+    FOREIGN KEY (second_face) REFERENCES Power_Area_33(much_growth)
 );
 
-CREATE TABLE identify (
-    health VARCHAR(50),
-    use DATE,
-    PRIMARY KEY (health),
-    FOREIGN KEY (health) REFERENCES staff(health)
+CREATE TABLE Else_Number_33 (
+    system_suffer INT PRIMARY KEY,
+    fight_office DATE,
+    challenge_yard VARCHAR(100),
+    skin_maybe DECIMAL(10, 2),
+    FOREIGN KEY (system_suffer) REFERENCES Away_Realize_33(second_face)
 );
 
-CREATE TABLE staff (
-    certain DATE,
-    easy TEXT,
-    coach VARCHAR(50),
-    PRIMARY KEY (certain),
-    FOREIGN KEY (certain) REFERENCES already(certain)
-);
-
-CREATE TABLE already (
-    rate VARCHAR(50),
-    everyone DATE,
-    PRIMARY KEY (rate),
-    FOREIGN KEY (rate) REFERENCES four(rate)
-);
-
-CREATE TABLE four (
-    bed DATE,
-    short TEXT,
-    during VARCHAR(50),
-    PRIMARY KEY (bed),
-    FOREIGN KEY (bed) REFERENCES specific(bed)
-);
-
-CREATE TABLE specific (
-    reality VARCHAR(50),
-    you DATE,
-    PRIMARY KEY (reality),
-    FOREIGN KEY (reality) REFERENCES population(reality)
-);
-
-CREATE TABLE population (
-    contain DATE,
-    do TEXT,
-    him VARCHAR(50),
-    PRIMARY KEY (contain),
-    FOREIGN KEY (contain) REFERENCES realize(contain)
-);
-
-CREATE TABLE realize (
-    chair VARCHAR(50),
-    old DATE,
-    PRIMARY KEY (chair),
-    FOREIGN KEY (chair) REFERENCES although(chair)
+CREATE TABLE Great_Decision_33 (
+    despite_information INT PRIMARY KEY,
+    occur_bit DATE,
+    wind_police VARCHAR(100),
+    player_investment DECIMAL(10, 2),
+    FOREIGN KEY (despite_information) REFERENCES Else_Number_33(system_suffer)
 );

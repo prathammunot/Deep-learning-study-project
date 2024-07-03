@@ -1,45 +1,47 @@
 
-CREATE TABLE before (
-    many DATE,
-    body TEXT,
-    enter VARCHAR(50),
-    PRIMARY KEY (many),
-    FOREIGN KEY (many) REFERENCES season(many)
+CREATE TABLE Charge_Tend_35 (
+    while_consider INT PRIMARY KEY,
+    mind_heart DATE,
+    strategy_as VARCHAR(100),
+    member_politics DECIMAL(10, 2)
 );
 
-CREATE TABLE season (
-    against VARCHAR(50),
-    head DATE,
-    PRIMARY KEY (against),
-    FOREIGN KEY (against) REFERENCES arm(against)
+CREATE TABLE Natural_Ground_35 (
+    pick_democrat INT PRIMARY KEY,
+    language_market DATE,
+    compare_identify VARCHAR(100),
+    we_south DECIMAL(10, 2),
+    FOREIGN KEY (pick_democrat) REFERENCES Charge_Tend_35(while_consider)
 );
 
-CREATE TABLE arm (
-    myself DATE,
-    attorney TEXT,
-    type VARCHAR(50),
-    PRIMARY KEY (myself),
-    FOREIGN KEY (myself) REFERENCES later(myself)
+CREATE TABLE Official_Project_35 (
+    reflect_measure INT PRIMARY KEY,
+    work_five DATE,
+    position_law VARCHAR(100),
+    enter_writer DECIMAL(10, 2),
+    FOREIGN KEY (reflect_measure) REFERENCES Natural_Ground_35(pick_democrat)
 );
 
-CREATE TABLE later (
-    happy VARCHAR(50),
-    produce DATE,
-    PRIMARY KEY (happy),
-    FOREIGN KEY (happy) REFERENCES consider(happy)
+CREATE TABLE Front_Pattern_35 (
+    prove_camera INT PRIMARY KEY,
+    southern_physical DATE,
+    perhaps_threat VARCHAR(100),
+    decide_most DECIMAL(10, 2),
+    FOREIGN KEY (prove_camera) REFERENCES Official_Project_35(reflect_measure)
 );
 
-CREATE TABLE consider (
-    paper DATE,
-    reduce TEXT,
-    commercial VARCHAR(50),
-    PRIMARY KEY (paper),
-    FOREIGN KEY (paper) REFERENCES heavy(paper)
+CREATE TABLE Paper_Hit_35 (
+    popular_say INT PRIMARY KEY,
+    individual_generation DATE,
+    future_television VARCHAR(100),
+    offer_us DECIMAL(10, 2),
+    FOREIGN KEY (popular_say) REFERENCES Front_Pattern_35(prove_camera)
 );
 
-CREATE TABLE heavy (
-    sure VARCHAR(50),
-    evidence DATE,
-    PRIMARY KEY (sure),
-    FOREIGN KEY (sure) REFERENCES before(sure)
+CREATE TABLE Mrs_Upon_35 (
+    hotel_foreign INT PRIMARY KEY,
+    thing_either DATE,
+    street_speech VARCHAR(100),
+    stay_model DECIMAL(10, 2),
+    FOREIGN KEY (hotel_foreign) REFERENCES Paper_Hit_35(popular_say)
 );

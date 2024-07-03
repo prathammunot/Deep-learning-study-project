@@ -1,83 +1,79 @@
 
-CREATE TABLE both (
-    team DATE,
-    small TEXT,
-    let VARCHAR(50),
-    PRIMARY KEY (team),
-    FOREIGN KEY (team) REFERENCES reality(team)
+CREATE TABLE Child_No_84 (
+    value_with INT PRIMARY KEY,
+    now_expert DATE,
+    buy_feel VARCHAR(100),
+    local_experience DECIMAL(10, 2)
 );
 
-CREATE TABLE reality (
-    daughter VARCHAR(50),
-    which DATE,
-    PRIMARY KEY (daughter),
-    FOREIGN KEY (daughter) REFERENCES Mrs(daughter)
+CREATE TABLE History_Six_84 (
+    case_general INT PRIMARY KEY,
+    hear_speak DATE,
+    treat_fill VARCHAR(100),
+    five_inside DECIMAL(10, 2),
+    FOREIGN KEY (case_general) REFERENCES Child_No_84(value_with)
 );
 
-CREATE TABLE Mrs (
-    career DATE,
-    policy TEXT,
-    maintain VARCHAR(50),
-    PRIMARY KEY (career),
-    FOREIGN KEY (career) REFERENCES child(career)
+CREATE TABLE Two_Leg_84 (
+    might_range INT PRIMARY KEY,
+    want_machine DATE,
+    open_major VARCHAR(100),
+    yet_actually DECIMAL(10, 2),
+    FOREIGN KEY (might_range) REFERENCES History_Six_84(case_general)
 );
 
-CREATE TABLE child (
-    rich VARCHAR(50),
-    prepare DATE,
-    PRIMARY KEY (rich),
-    FOREIGN KEY (rich) REFERENCES without(rich)
+CREATE TABLE Quickly_If_84 (
+    those_whatever INT PRIMARY KEY,
+    over_also DATE,
+    believe_most VARCHAR(100),
+    along_growth DECIMAL(10, 2),
+    FOREIGN KEY (those_whatever) REFERENCES Two_Leg_84(might_range)
 );
 
-CREATE TABLE without (
-    his DATE,
-    ask TEXT,
-    six VARCHAR(50),
-    PRIMARY KEY (his),
-    FOREIGN KEY (his) REFERENCES morning(his)
+CREATE TABLE Stay_Short_84 (
+    civil_possible INT PRIMARY KEY,
+    movement_fish DATE,
+    stand_common VARCHAR(100),
+    leave_could DECIMAL(10, 2),
+    FOREIGN KEY (civil_possible) REFERENCES Quickly_If_84(those_whatever)
 );
 
-CREATE TABLE morning (
-    do VARCHAR(50),
-    soldier DATE,
-    PRIMARY KEY (do),
-    FOREIGN KEY (do) REFERENCES on(do)
+CREATE TABLE Usually_Course_84 (
+    class_voice INT PRIMARY KEY,
+    place_guy DATE,
+    according_draw VARCHAR(100),
+    claim_into DECIMAL(10, 2),
+    FOREIGN KEY (class_voice) REFERENCES Stay_Short_84(civil_possible)
 );
 
-CREATE TABLE on (
-    last DATE,
-    religious TEXT,
-    policy VARCHAR(50),
-    PRIMARY KEY (last),
-    FOREIGN KEY (last) REFERENCES pass(last)
+CREATE TABLE Training_Around_84 (
+    head_after INT PRIMARY KEY,
+    report_a DATE,
+    style_have VARCHAR(100),
+    key_lay DECIMAL(10, 2),
+    FOREIGN KEY (head_after) REFERENCES Usually_Course_84(class_voice)
 );
 
-CREATE TABLE pass (
-    into VARCHAR(50),
-    movie DATE,
-    PRIMARY KEY (into),
-    FOREIGN KEY (into) REFERENCES nor(into)
+CREATE TABLE Example_Figure_84 (
+    relationship_table INT PRIMARY KEY,
+    white_economic DATE,
+    must_great VARCHAR(100),
+    point_eat DECIMAL(10, 2),
+    FOREIGN KEY (relationship_table) REFERENCES Training_Around_84(head_after)
 );
 
-CREATE TABLE nor (
-    others DATE,
-    man TEXT,
-    every VARCHAR(50),
-    PRIMARY KEY (others),
-    FOREIGN KEY (others) REFERENCES there(others)
+CREATE TABLE Rate_Near_84 (
+    image_boy INT PRIMARY KEY,
+    score_try DATE,
+    whether_sign VARCHAR(100),
+    however_beat DECIMAL(10, 2),
+    FOREIGN KEY (image_boy) REFERENCES Example_Figure_84(relationship_table)
 );
 
-CREATE TABLE there (
-    action VARCHAR(50),
-    thank DATE,
-    PRIMARY KEY (action),
-    FOREIGN KEY (action) REFERENCES process(action)
-);
-
-CREATE TABLE process (
-    movie DATE,
-    spring TEXT,
-    if VARCHAR(50),
-    PRIMARY KEY (movie),
-    FOREIGN KEY (movie) REFERENCES both(movie)
+CREATE TABLE Your_Support_84 (
+    create_production INT PRIMARY KEY,
+    loss_plan DATE,
+    cost_fund VARCHAR(100),
+    shoulder_scientist DECIMAL(10, 2),
+    FOREIGN KEY (create_production) REFERENCES Rate_Near_84(image_boy)
 );

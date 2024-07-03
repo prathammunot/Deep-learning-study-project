@@ -1,75 +1,47 @@
 
-CREATE TABLE space (
-    pattern DATE,
-    bit TEXT,
-    western VARCHAR(50),
-    PRIMARY KEY (pattern),
-    FOREIGN KEY (pattern) REFERENCES skin(pattern)
+CREATE TABLE Really_While_1 (
+    still_produce INT PRIMARY KEY,
+    measure_kid DATE,
+    hot_protect VARCHAR(100),
+    work_product DECIMAL(10, 2)
 );
 
-CREATE TABLE skin (
-    hope VARCHAR(50),
-    occur DATE,
-    PRIMARY KEY (hope),
-    FOREIGN KEY (hope) REFERENCES other(hope)
+CREATE TABLE Personal_Police_1 (
+    score_money INT PRIMARY KEY,
+    start_pretty DATE,
+    or_different VARCHAR(100),
+    admit_identify DECIMAL(10, 2),
+    FOREIGN KEY (score_money) REFERENCES Really_While_1(still_produce)
 );
 
-CREATE TABLE other (
-    relationship DATE,
-    idea TEXT,
-    mean VARCHAR(50),
-    PRIMARY KEY (relationship),
-    FOREIGN KEY (relationship) REFERENCES but(relationship)
+CREATE TABLE Appear_Always_1 (
+    medical_six INT PRIMARY KEY,
+    another_play DATE,
+    trade_pattern VARCHAR(100),
+    if_sign DECIMAL(10, 2),
+    FOREIGN KEY (medical_six) REFERENCES Personal_Police_1(score_money)
 );
 
-CREATE TABLE but (
-    job VARCHAR(50),
-    cell DATE,
-    PRIMARY KEY (job),
-    FOREIGN KEY (job) REFERENCES soldier(job)
+CREATE TABLE Job_Conference_1 (
+    test_reach INT PRIMARY KEY,
+    technology_wonder DATE,
+    report_yes VARCHAR(100),
+    mind_hospital DECIMAL(10, 2),
+    FOREIGN KEY (test_reach) REFERENCES Appear_Always_1(medical_six)
 );
 
-CREATE TABLE soldier (
-    low DATE,
-    situation TEXT,
-    right VARCHAR(50),
-    PRIMARY KEY (low),
-    FOREIGN KEY (low) REFERENCES citizen(low)
+CREATE TABLE Customer_Throughout_1 (
+    among_build INT PRIMARY KEY,
+    explain_kind DATE,
+    section_paper VARCHAR(100),
+    board_account DECIMAL(10, 2),
+    FOREIGN KEY (among_build) REFERENCES Job_Conference_1(test_reach)
 );
 
-CREATE TABLE citizen (
-    however VARCHAR(50),
-    television DATE,
-    PRIMARY KEY (however),
-    FOREIGN KEY (however) REFERENCES surface(however)
-);
-
-CREATE TABLE surface (
-    peace DATE,
-    possible TEXT,
-    than VARCHAR(50),
-    PRIMARY KEY (peace),
-    FOREIGN KEY (peace) REFERENCES catch(peace)
-);
-
-CREATE TABLE catch (
-    catch VARCHAR(50),
-    western DATE,
-    PRIMARY KEY (catch),
-    FOREIGN KEY (catch) REFERENCES easy(catch)
-);
-
-CREATE TABLE easy (
-    majority DATE,
-    four TEXT,
-    true VARCHAR(50),
-    PRIMARY KEY (majority),
-    FOREIGN KEY (majority) REFERENCES receive(majority)
-);
-
-CREATE TABLE receive (
-    very VARCHAR(50),
-    ahead DATE,
-    PRIMARY KEY (very),
-    FOREIGN KEY (very) REFERENCES space(very)
+CREATE TABLE Organization_Find_1 (
+    camera_hotel INT PRIMARY KEY,
+    human_value DATE,
+    fear_military VARCHAR(100),
+    so_business DECIMAL(10, 2),
+    FOREIGN KEY (camera_hotel) REFERENCES Customer_Throughout_1(among_build)
 );

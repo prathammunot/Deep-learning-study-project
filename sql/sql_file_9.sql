@@ -1,83 +1,63 @@
 
-CREATE TABLE guy (
-    box DATE,
-    policy TEXT,
-    like VARCHAR(50),
-    PRIMARY KEY (box),
-    FOREIGN KEY (box) REFERENCES always(box)
+CREATE TABLE Decade_Partner_9 (
+    which_nearly INT PRIMARY KEY,
+    prepare_fall DATE,
+    benefit_other VARCHAR(100),
+    language_black DECIMAL(10, 2)
 );
 
-CREATE TABLE always (
-    discover VARCHAR(50),
-    process DATE,
-    PRIMARY KEY (discover),
-    FOREIGN KEY (discover) REFERENCES mean(discover)
+CREATE TABLE Ten_Discover_9 (
+    morning_time INT PRIMARY KEY,
+    remember_population DATE,
+    ever_say VARCHAR(100),
+    family_chance DECIMAL(10, 2),
+    FOREIGN KEY (morning_time) REFERENCES Decade_Partner_9(which_nearly)
 );
 
-CREATE TABLE mean (
-    nor DATE,
-    debate TEXT,
-    note VARCHAR(50),
-    PRIMARY KEY (nor),
-    FOREIGN KEY (nor) REFERENCES both(nor)
+CREATE TABLE Party_Truth_9 (
+    thing_ground INT PRIMARY KEY,
+    quite_anyone DATE,
+    season_nice VARCHAR(100),
+    student_focus DECIMAL(10, 2),
+    FOREIGN KEY (thing_ground) REFERENCES Ten_Discover_9(morning_time)
 );
 
-CREATE TABLE both (
-    tree VARCHAR(50),
-    traditional DATE,
-    PRIMARY KEY (tree),
-    FOREIGN KEY (tree) REFERENCES fear(tree)
+CREATE TABLE Unit_Him_9 (
+    piece_college INT PRIMARY KEY,
+    weight_front DATE,
+    likely_can VARCHAR(100),
+    cold_five DECIMAL(10, 2),
+    FOREIGN KEY (piece_college) REFERENCES Party_Truth_9(thing_ground)
 );
 
-CREATE TABLE fear (
-    six DATE,
-    suffer TEXT,
-    despite VARCHAR(50),
-    PRIMARY KEY (six),
-    FOREIGN KEY (six) REFERENCES part(six)
+CREATE TABLE Collection_Draw_9 (
+    charge_through INT PRIMARY KEY,
+    probably_need DATE,
+    arm_agency VARCHAR(100),
+    structure_tonight DECIMAL(10, 2),
+    FOREIGN KEY (charge_through) REFERENCES Unit_Him_9(piece_college)
 );
 
-CREATE TABLE part (
-    operation VARCHAR(50),
-    soon DATE,
-    PRIMARY KEY (operation),
-    FOREIGN KEY (operation) REFERENCES pick(operation)
+CREATE TABLE Soldier_Eye_9 (
+    senior_feeling INT PRIMARY KEY,
+    beyond_follow DATE,
+    green_glass VARCHAR(100),
+    company_process DECIMAL(10, 2),
+    FOREIGN KEY (senior_feeling) REFERENCES Collection_Draw_9(charge_through)
 );
 
-CREATE TABLE pick (
-    chance DATE,
-    recognize TEXT,
-    parent VARCHAR(50),
-    PRIMARY KEY (chance),
-    FOREIGN KEY (chance) REFERENCES network(chance)
+CREATE TABLE Show_Animal_9 (
+    attention_bring INT PRIMARY KEY,
+    stop_station DATE,
+    near_least VARCHAR(100),
+    place_pm DECIMAL(10, 2),
+    FOREIGN KEY (attention_bring) REFERENCES Soldier_Eye_9(senior_feeling)
 );
 
-CREATE TABLE network (
-    training VARCHAR(50),
-    near DATE,
-    PRIMARY KEY (training),
-    FOREIGN KEY (training) REFERENCES American(training)
-);
-
-CREATE TABLE American (
-    hour DATE,
-    else TEXT,
-    east VARCHAR(50),
-    PRIMARY KEY (hour),
-    FOREIGN KEY (hour) REFERENCES option(hour)
-);
-
-CREATE TABLE option (
-    ground VARCHAR(50),
-    size DATE,
-    PRIMARY KEY (ground),
-    FOREIGN KEY (ground) REFERENCES plant(ground)
-);
-
-CREATE TABLE plant (
-    official DATE,
-    my TEXT,
-    all VARCHAR(50),
-    PRIMARY KEY (official),
-    FOREIGN KEY (official) REFERENCES guy(official)
+CREATE TABLE Lay_Hundred_9 (
+    add_responsibility INT PRIMARY KEY,
+    also_make DATE,
+    fly_occur VARCHAR(100),
+    item_very DECIMAL(10, 2),
+    FOREIGN KEY (add_responsibility) REFERENCES Show_Animal_9(attention_bring)
 );

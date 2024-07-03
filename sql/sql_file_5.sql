@@ -1,90 +1,71 @@
 
-CREATE TABLE pull (
-    next DATE,
-    such TEXT,
-    onto VARCHAR(50),
-    PRIMARY KEY (next),
-    FOREIGN KEY (next) REFERENCES sea(next)
+CREATE TABLE Some_Mouth_5 (
+    myself_reveal INT PRIMARY KEY,
+    shake_outside DATE,
+    sport_determine VARCHAR(100),
+    sometimes_hold DECIMAL(10, 2)
 );
 
-CREATE TABLE sea (
-    product VARCHAR(50),
-    could DATE,
-    PRIMARY KEY (product),
-    FOREIGN KEY (product) REFERENCES forget(product)
+CREATE TABLE Issue_Property_5 (
+    she_strategy INT PRIMARY KEY,
+    region_everybody DATE,
+    would_stage VARCHAR(100),
+    society_together DECIMAL(10, 2),
+    FOREIGN KEY (she_strategy) REFERENCES Some_Mouth_5(myself_reveal)
 );
 
-CREATE TABLE forget (
-    rise DATE,
-    medical TEXT,
-    or VARCHAR(50),
-    PRIMARY KEY (rise),
-    FOREIGN KEY (rise) REFERENCES direction(rise)
+CREATE TABLE High_Reflect_5 (
+    democrat_instead INT PRIMARY KEY,
+    official_accept DATE,
+    chair_any VARCHAR(100),
+    book_trial DECIMAL(10, 2),
+    FOREIGN KEY (democrat_instead) REFERENCES Issue_Property_5(she_strategy)
 );
 
-CREATE TABLE direction (
-    enjoy VARCHAR(50),
-    around DATE,
-    PRIMARY KEY (enjoy),
-    FOREIGN KEY (enjoy) REFERENCES threat(enjoy)
+CREATE TABLE Choice_Do_5 (
+    answer_movement INT PRIMARY KEY,
+    single_deal DATE,
+    notice_doctor VARCHAR(100),
+    west_scene DECIMAL(10, 2),
+    FOREIGN KEY (answer_movement) REFERENCES High_Reflect_5(democrat_instead)
 );
 
-CREATE TABLE threat (
-    represent DATE,
-    PM TEXT,
-    study VARCHAR(50),
-    PRIMARY KEY (represent),
-    FOREIGN KEY (represent) REFERENCES young(represent)
+CREATE TABLE Compare_Toward_5 (
+    win_rate INT PRIMARY KEY,
+    call_before DATE,
+    turn_despite VARCHAR(100),
+    else_again DECIMAL(10, 2),
+    FOREIGN KEY (win_rate) REFERENCES Choice_Do_5(answer_movement)
 );
 
-CREATE TABLE young (
-    capital VARCHAR(50),
-    degree DATE,
-    PRIMARY KEY (capital),
-    FOREIGN KEY (capital) REFERENCES really(capital)
+CREATE TABLE Wife_Mrs_5 (
+    mission_wait INT PRIMARY KEY,
+    pass_environmental DATE,
+    difficult_without VARCHAR(100),
+    much_know DECIMAL(10, 2),
+    FOREIGN KEY (mission_wait) REFERENCES Compare_Toward_5(win_rate)
 );
 
-CREATE TABLE really (
-    either DATE,
-    city TEXT,
-    these VARCHAR(50),
-    PRIMARY KEY (either),
-    FOREIGN KEY (either) REFERENCES machine(either)
+CREATE TABLE Action_Order_5 (
+    apply_century INT PRIMARY KEY,
+    simply_enough DATE,
+    once_be VARCHAR(100),
+    practice_right DECIMAL(10, 2),
+    FOREIGN KEY (apply_century) REFERENCES Wife_Mrs_5(mission_wait)
 );
 
-CREATE TABLE machine (
-    thing VARCHAR(50),
-    interview DATE,
-    PRIMARY KEY (thing),
-    FOREIGN KEY (thing) REFERENCES unit(thing)
+CREATE TABLE Against_Traditional_5 (
+    few_keep INT PRIMARY KEY,
+    down_guy DATE,
+    as_child VARCHAR(100),
+    size_form DECIMAL(10, 2),
+    FOREIGN KEY (few_keep) REFERENCES Action_Order_5(apply_century)
 );
 
-CREATE TABLE unit (
-    question DATE,
-    arm TEXT,
-    face VARCHAR(50),
-    PRIMARY KEY (question),
-    FOREIGN KEY (question) REFERENCES chair(question)
-);
-
-CREATE TABLE chair (
-    price VARCHAR(50),
-    thing DATE,
-    PRIMARY KEY (price),
-    FOREIGN KEY (price) REFERENCES different(price)
-);
-
-CREATE TABLE different (
-    son DATE,
-    around TEXT,
-    degree VARCHAR(50),
-    PRIMARY KEY (son),
-    FOREIGN KEY (son) REFERENCES their(son)
-);
-
-CREATE TABLE their (
-    back VARCHAR(50),
-    face DATE,
-    PRIMARY KEY (back),
-    FOREIGN KEY (back) REFERENCES pull(back)
+CREATE TABLE Represent_Along_5 (
+    three_there INT PRIMARY KEY,
+    state_late DATE,
+    matter_seven VARCHAR(100),
+    around_nation DECIMAL(10, 2),
+    FOREIGN KEY (three_there) REFERENCES Against_Traditional_5(few_keep)
 );

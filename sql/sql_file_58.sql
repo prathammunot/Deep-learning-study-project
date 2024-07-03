@@ -1,75 +1,47 @@
 
-CREATE TABLE number (
-    federal DATE,
-    without TEXT,
-    even VARCHAR(50),
-    PRIMARY KEY (federal),
-    FOREIGN KEY (federal) REFERENCES threat(federal)
+CREATE TABLE Wish_Weight_58 (
+    economic_possible INT PRIMARY KEY,
+    fight_practice DATE,
+    heavy_officer VARCHAR(100),
+    walk_fact DECIMAL(10, 2)
 );
 
-CREATE TABLE threat (
-    color VARCHAR(50),
-    lay DATE,
-    PRIMARY KEY (color),
-    FOREIGN KEY (color) REFERENCES ten(color)
+CREATE TABLE Leave_Degree_58 (
+    but_cost INT PRIMARY KEY,
+    far_marriage DATE,
+    money_also VARCHAR(100),
+    doctor_month DECIMAL(10, 2),
+    FOREIGN KEY (but_cost) REFERENCES Wish_Weight_58(economic_possible)
 );
 
-CREATE TABLE ten (
-    relate DATE,
-    wind TEXT,
-    future VARCHAR(50),
-    PRIMARY KEY (relate),
-    FOREIGN KEY (relate) REFERENCES natural(relate)
+CREATE TABLE Build_Knowledge_58 (
+    require_teach INT PRIMARY KEY,
+    unit_have DATE,
+    you_him VARCHAR(100),
+    next_painting DECIMAL(10, 2),
+    FOREIGN KEY (require_teach) REFERENCES Leave_Degree_58(but_cost)
 );
 
-CREATE TABLE natural (
-    may VARCHAR(50),
-    trouble DATE,
-    PRIMARY KEY (may),
-    FOREIGN KEY (may) REFERENCES involve(may)
+CREATE TABLE Fund_I_58 (
+    blue_need INT PRIMARY KEY,
+    break_service DATE,
+    hard_drive VARCHAR(100),
+    dark_concern DECIMAL(10, 2),
+    FOREIGN KEY (blue_need) REFERENCES Build_Knowledge_58(require_teach)
 );
 
-CREATE TABLE involve (
-    choose DATE,
-    air TEXT,
-    character VARCHAR(50),
-    PRIMARY KEY (choose),
-    FOREIGN KEY (choose) REFERENCES early(choose)
+CREATE TABLE Option_Career_58 (
+    skin_ten INT PRIMARY KEY,
+    pay_middle DATE,
+    popular_above VARCHAR(100),
+    local_specific DECIMAL(10, 2),
+    FOREIGN KEY (skin_ten) REFERENCES Fund_I_58(blue_need)
 );
 
-CREATE TABLE early (
-    point VARCHAR(50),
-    north DATE,
-    PRIMARY KEY (point),
-    FOREIGN KEY (point) REFERENCES perhaps(point)
-);
-
-CREATE TABLE perhaps (
-    early DATE,
-    until TEXT,
-    prepare VARCHAR(50),
-    PRIMARY KEY (early),
-    FOREIGN KEY (early) REFERENCES natural(early)
-);
-
-CREATE TABLE natural (
-    need VARCHAR(50),
-    do DATE,
-    PRIMARY KEY (need),
-    FOREIGN KEY (need) REFERENCES myself(need)
-);
-
-CREATE TABLE myself (
-    item DATE,
-    account TEXT,
-    poor VARCHAR(50),
-    PRIMARY KEY (item),
-    FOREIGN KEY (item) REFERENCES TV(item)
-);
-
-CREATE TABLE TV (
-    painting VARCHAR(50),
-    rate DATE,
-    PRIMARY KEY (painting),
-    FOREIGN KEY (painting) REFERENCES number(painting)
+CREATE TABLE Into_Discussion_58 (
+    college_price INT PRIMARY KEY,
+    power_mr DATE,
+    member_because VARCHAR(100),
+    benefit_score DECIMAL(10, 2),
+    FOREIGN KEY (college_price) REFERENCES Option_Career_58(skin_ten)
 );

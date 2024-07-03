@@ -1,60 +1,95 @@
 
-CREATE TABLE especially (
-    although DATE,
-    raise TEXT,
-    including VARCHAR(50),
-    PRIMARY KEY (although),
-    FOREIGN KEY (although) REFERENCES trial(although)
+CREATE TABLE Respond_Mrs_98 (
+    purpose_economic INT PRIMARY KEY,
+    dream_nothing DATE,
+    heavy_sign VARCHAR(100),
+    camera_money DECIMAL(10, 2)
 );
 
-CREATE TABLE trial (
-    nothing VARCHAR(50),
-    big DATE,
-    PRIMARY KEY (nothing),
-    FOREIGN KEY (nothing) REFERENCES suffer(nothing)
+CREATE TABLE Discuss_Building_98 (
+    seven_popular INT PRIMARY KEY,
+    cell_article DATE,
+    current_personal VARCHAR(100),
+    magazine_best DECIMAL(10, 2),
+    FOREIGN KEY (seven_popular) REFERENCES Respond_Mrs_98(purpose_economic)
 );
 
-CREATE TABLE suffer (
-    enjoy DATE,
-    visit TEXT,
-    exist VARCHAR(50),
-    PRIMARY KEY (enjoy),
-    FOREIGN KEY (enjoy) REFERENCES which(enjoy)
+CREATE TABLE Public_Ready_98 (
+    son_go INT PRIMARY KEY,
+    consumer_land DATE,
+    become_himself VARCHAR(100),
+    film_paper DECIMAL(10, 2),
+    FOREIGN KEY (son_go) REFERENCES Discuss_Building_98(seven_popular)
 );
 
-CREATE TABLE which (
-    ago VARCHAR(50),
-    course DATE,
-    PRIMARY KEY (ago),
-    FOREIGN KEY (ago) REFERENCES arm(ago)
+CREATE TABLE Speak_Deal_98 (
+    student_sister INT PRIMARY KEY,
+    similar_point DATE,
+    executive_gas VARCHAR(100),
+    store_wind DECIMAL(10, 2),
+    FOREIGN KEY (student_sister) REFERENCES Public_Ready_98(son_go)
 );
 
-CREATE TABLE arm (
-    knowledge DATE,
-    again TEXT,
-    least VARCHAR(50),
-    PRIMARY KEY (knowledge),
-    FOREIGN KEY (knowledge) REFERENCES morning(knowledge)
+CREATE TABLE Decade_On_98 (
+    try_hand INT PRIMARY KEY,
+    collection_pass DATE,
+    away_box VARCHAR(100),
+    century_economy DECIMAL(10, 2),
+    FOREIGN KEY (try_hand) REFERENCES Speak_Deal_98(student_sister)
 );
 
-CREATE TABLE morning (
-    official VARCHAR(50),
-    tell DATE,
-    PRIMARY KEY (official),
-    FOREIGN KEY (official) REFERENCES suddenly(official)
+CREATE TABLE Cup_Shake_98 (
+    national_network INT PRIMARY KEY,
+    down_wait DATE,
+    later_decide VARCHAR(100),
+    or_myself DECIMAL(10, 2),
+    FOREIGN KEY (national_network) REFERENCES Decade_On_98(try_hand)
 );
 
-CREATE TABLE suddenly (
-    they DATE,
-    maybe TEXT,
-    administration VARCHAR(50),
-    PRIMARY KEY (they),
-    FOREIGN KEY (they) REFERENCES own(they)
+CREATE TABLE Significant_They_98 (
+    goal_situation INT PRIMARY KEY,
+    claim_policy DATE,
+    prove_operation VARCHAR(100),
+    finally_want DECIMAL(10, 2),
+    FOREIGN KEY (goal_situation) REFERENCES Cup_Shake_98(national_network)
 );
 
-CREATE TABLE own (
-    respond VARCHAR(50),
-    father DATE,
-    PRIMARY KEY (respond),
-    FOREIGN KEY (respond) REFERENCES especially(respond)
+CREATE TABLE Attention_Success_98 (
+    avoid_herself INT PRIMARY KEY,
+    buy_majority DATE,
+    both_quickly VARCHAR(100),
+    fight_late DECIMAL(10, 2),
+    FOREIGN KEY (avoid_herself) REFERENCES Significant_They_98(goal_situation)
+);
+
+CREATE TABLE Whole_Pm_98 (
+    easy_where INT PRIMARY KEY,
+    language_after DATE,
+    democrat_even VARCHAR(100),
+    community_each DECIMAL(10, 2),
+    FOREIGN KEY (easy_where) REFERENCES Attention_Success_98(avoid_herself)
+);
+
+CREATE TABLE Another_Member_98 (
+    expert_southern INT PRIMARY KEY,
+    nor_machine DATE,
+    team_question VARCHAR(100),
+    air_recently DECIMAL(10, 2),
+    FOREIGN KEY (expert_southern) REFERENCES Whole_Pm_98(easy_where)
+);
+
+CREATE TABLE Onto_To_98 (
+    agency_owner INT PRIMARY KEY,
+    certainly_available DATE,
+    return_affect VARCHAR(100),
+    kid_his DECIMAL(10, 2),
+    FOREIGN KEY (agency_owner) REFERENCES Another_Member_98(expert_southern)
+);
+
+CREATE TABLE Country_Bill_98 (
+    offer_ability INT PRIMARY KEY,
+    attorney_stand DATE,
+    reason_environment VARCHAR(100),
+    street_statement DECIMAL(10, 2),
+    FOREIGN KEY (offer_ability) REFERENCES Onto_To_98(agency_owner)
 );

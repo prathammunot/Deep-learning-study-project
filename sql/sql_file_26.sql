@@ -1,90 +1,55 @@
 
-CREATE TABLE so (
-    much DATE,
-    one TEXT,
-    cultural VARCHAR(50),
-    PRIMARY KEY (much),
-    FOREIGN KEY (much) REFERENCES shake(much)
+CREATE TABLE Those_More_26 (
+    me_sign INT PRIMARY KEY,
+    per_address DATE,
+    rock_staff VARCHAR(100),
+    hand_individual DECIMAL(10, 2)
 );
 
-CREATE TABLE shake (
-    question VARCHAR(50),
-    camera DATE,
-    PRIMARY KEY (question),
-    FOREIGN KEY (question) REFERENCES reality(question)
+CREATE TABLE Country_Good_26 (
+    again_than INT PRIMARY KEY,
+    reflect_nature DATE,
+    short_we VARCHAR(100),
+    evidence_talk DECIMAL(10, 2),
+    FOREIGN KEY (again_than) REFERENCES Those_More_26(me_sign)
 );
 
-CREATE TABLE reality (
-    each DATE,
-    executive TEXT,
-    crime VARCHAR(50),
-    PRIMARY KEY (each),
-    FOREIGN KEY (each) REFERENCES by(each)
+CREATE TABLE Follow_Quality_26 (
+    state_manage INT PRIMARY KEY,
+    shoulder_maybe DATE,
+    agree_understand VARCHAR(100),
+    him_small DECIMAL(10, 2),
+    FOREIGN KEY (state_manage) REFERENCES Country_Good_26(again_than)
 );
 
-CREATE TABLE by (
-    throughout VARCHAR(50),
-    once DATE,
-    PRIMARY KEY (throughout),
-    FOREIGN KEY (throughout) REFERENCES letter(throughout)
+CREATE TABLE Child_Hair_26 (
+    number_significant INT PRIMARY KEY,
+    total_as DATE,
+    south_real VARCHAR(100),
+    poor_measure DECIMAL(10, 2),
+    FOREIGN KEY (number_significant) REFERENCES Follow_Quality_26(state_manage)
 );
 
-CREATE TABLE letter (
-    attention DATE,
-    activity TEXT,
-    thousand VARCHAR(50),
-    PRIMARY KEY (attention),
-    FOREIGN KEY (attention) REFERENCES education(attention)
+CREATE TABLE Only_Guy_26 (
+    site_fish INT PRIMARY KEY,
+    citizen_common DATE,
+    eye_region VARCHAR(100),
+    put_left DECIMAL(10, 2),
+    FOREIGN KEY (site_fish) REFERENCES Child_Hair_26(number_significant)
 );
 
-CREATE TABLE education (
-    test VARCHAR(50),
-    picture DATE,
-    PRIMARY KEY (test),
-    FOREIGN KEY (test) REFERENCES treatment(test)
+CREATE TABLE Letter_What_26 (
+    security_strong INT PRIMARY KEY,
+    hot_four DATE,
+    account_man VARCHAR(100),
+    six_summer DECIMAL(10, 2),
+    FOREIGN KEY (security_strong) REFERENCES Only_Guy_26(site_fish)
 );
 
-CREATE TABLE treatment (
-    run DATE,
-    seven TEXT,
-    network VARCHAR(50),
-    PRIMARY KEY (run),
-    FOREIGN KEY (run) REFERENCES during(run)
-);
-
-CREATE TABLE during (
-    senior VARCHAR(50),
-    any DATE,
-    PRIMARY KEY (senior),
-    FOREIGN KEY (senior) REFERENCES yes(senior)
-);
-
-CREATE TABLE yes (
-    market DATE,
-    study TEXT,
-    task VARCHAR(50),
-    PRIMARY KEY (market),
-    FOREIGN KEY (market) REFERENCES side(market)
-);
-
-CREATE TABLE side (
-    gun VARCHAR(50),
-    how DATE,
-    PRIMARY KEY (gun),
-    FOREIGN KEY (gun) REFERENCES Mrs(gun)
-);
-
-CREATE TABLE Mrs (
-    only DATE,
-    experience TEXT,
-    direction VARCHAR(50),
-    PRIMARY KEY (only),
-    FOREIGN KEY (only) REFERENCES a(only)
-);
-
-CREATE TABLE a (
-    nature VARCHAR(50),
-    effort DATE,
-    PRIMARY KEY (nature),
-    FOREIGN KEY (nature) REFERENCES so(nature)
+CREATE TABLE Road_Nice_26 (
+    list_first INT PRIMARY KEY,
+    oil_nearly DATE,
+    still_interview VARCHAR(100),
+    against_want DECIMAL(10, 2),
+    FOREIGN KEY (list_first) REFERENCES Letter_What_26(security_strong)
 );

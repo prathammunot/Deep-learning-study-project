@@ -1,75 +1,47 @@
 
-CREATE TABLE raise (
-    or DATE,
-    church TEXT,
-    north VARCHAR(50),
-    PRIMARY KEY (or),
-    FOREIGN KEY (or) REFERENCES for(or)
+CREATE TABLE Month_Rich_50 (
+    central_live INT PRIMARY KEY,
+    resource_cold DATE,
+    image_camera VARCHAR(100),
+    probably_minute DECIMAL(10, 2)
 );
 
-CREATE TABLE for (
-    lawyer VARCHAR(50),
-    away DATE,
-    PRIMARY KEY (lawyer),
-    FOREIGN KEY (lawyer) REFERENCES serve(lawyer)
+CREATE TABLE Training_Yes_50 (
+    participant_surface INT PRIMARY KEY,
+    nature_parent DATE,
+    ability_but VARCHAR(100),
+    poor_them DECIMAL(10, 2),
+    FOREIGN KEY (participant_surface) REFERENCES Month_Rich_50(central_live)
 );
 
-CREATE TABLE serve (
-    social DATE,
-    garden TEXT,
-    go VARCHAR(50),
-    PRIMARY KEY (social),
-    FOREIGN KEY (social) REFERENCES push(social)
+CREATE TABLE Little_Experience_50 (
+    must_leg INT PRIMARY KEY,
+    gun_american DATE,
+    high_late VARCHAR(100),
+    system_walk DECIMAL(10, 2),
+    FOREIGN KEY (must_leg) REFERENCES Training_Yes_50(participant_surface)
 );
 
-CREATE TABLE push (
-    perhaps VARCHAR(50),
-    front DATE,
-    PRIMARY KEY (perhaps),
-    FOREIGN KEY (perhaps) REFERENCES where(perhaps)
+CREATE TABLE Military_Traditional_50 (
+    eat_discussion INT PRIMARY KEY,
+    identify_be DATE,
+    none_relate VARCHAR(100),
+    series_decade DECIMAL(10, 2),
+    FOREIGN KEY (eat_discussion) REFERENCES Little_Experience_50(must_leg)
 );
 
-CREATE TABLE where (
-    age DATE,
-    operation TEXT,
-    interesting VARCHAR(50),
-    PRIMARY KEY (age),
-    FOREIGN KEY (age) REFERENCES hour(age)
+CREATE TABLE Find_A_50 (
+    discover_send INT PRIMARY KEY,
+    tree_town DATE,
+    large_special VARCHAR(100),
+    performance_film DECIMAL(10, 2),
+    FOREIGN KEY (discover_send) REFERENCES Military_Traditional_50(eat_discussion)
 );
 
-CREATE TABLE hour (
-    right VARCHAR(50),
-    radio DATE,
-    PRIMARY KEY (right),
-    FOREIGN KEY (right) REFERENCES people(right)
-);
-
-CREATE TABLE people (
-    hear DATE,
-    guy TEXT,
-    light VARCHAR(50),
-    PRIMARY KEY (hear),
-    FOREIGN KEY (hear) REFERENCES perhaps(hear)
-);
-
-CREATE TABLE perhaps (
-    important VARCHAR(50),
-    dog DATE,
-    PRIMARY KEY (important),
-    FOREIGN KEY (important) REFERENCES guy(important)
-);
-
-CREATE TABLE guy (
-    prevent DATE,
-    purpose TEXT,
-    trial VARCHAR(50),
-    PRIMARY KEY (prevent),
-    FOREIGN KEY (prevent) REFERENCES east(prevent)
-);
-
-CREATE TABLE east (
-    girl VARCHAR(50),
-    sell DATE,
-    PRIMARY KEY (girl),
-    FOREIGN KEY (girl) REFERENCES raise(girl)
+CREATE TABLE Recent_Visit_50 (
+    important_congress INT PRIMARY KEY,
+    suffer_as DATE,
+    day_yet VARCHAR(100),
+    wish_over DECIMAL(10, 2),
+    FOREIGN KEY (important_congress) REFERENCES Find_A_50(discover_send)
 );

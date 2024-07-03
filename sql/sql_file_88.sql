@@ -1,45 +1,47 @@
 
-CREATE TABLE miss (
-    which DATE,
-    manage TEXT,
-    cost VARCHAR(50),
-    PRIMARY KEY (which),
-    FOREIGN KEY (which) REFERENCES put(which)
+CREATE TABLE People_Wide_88 (
+    group_ground INT PRIMARY KEY,
+    high_radio DATE,
+    story_condition VARCHAR(100),
+    director_pattern DECIMAL(10, 2)
 );
 
-CREATE TABLE put (
-    carry VARCHAR(50),
-    property DATE,
-    PRIMARY KEY (carry),
-    FOREIGN KEY (carry) REFERENCES item(carry)
+CREATE TABLE Anything_Method_88 (
+    once_return INT PRIMARY KEY,
+    him_question DATE,
+    almost_nor VARCHAR(100),
+    defense_side DECIMAL(10, 2),
+    FOREIGN KEY (once_return) REFERENCES People_Wide_88(group_ground)
 );
 
-CREATE TABLE item (
-    dream DATE,
-    upon TEXT,
-    term VARCHAR(50),
-    PRIMARY KEY (dream),
-    FOREIGN KEY (dream) REFERENCES where(dream)
+CREATE TABLE Push_Soon_88 (
+    strong_option INT PRIMARY KEY,
+    song_arm DATE,
+    can_television VARCHAR(100),
+    rise_really DECIMAL(10, 2),
+    FOREIGN KEY (strong_option) REFERENCES Anything_Method_88(once_return)
 );
 
-CREATE TABLE where (
-    surface VARCHAR(50),
-    character DATE,
-    PRIMARY KEY (surface),
-    FOREIGN KEY (surface) REFERENCES yard(surface)
+CREATE TABLE Commercial_The_88 (
+    mean_sure INT PRIMARY KEY,
+    put_career DATE,
+    past_treatment VARCHAR(100),
+    energy_difference DECIMAL(10, 2),
+    FOREIGN KEY (mean_sure) REFERENCES Push_Soon_88(strong_option)
 );
 
-CREATE TABLE yard (
-    nice DATE,
-    serious TEXT,
-    friend VARCHAR(50),
-    PRIMARY KEY (nice),
-    FOREIGN KEY (nice) REFERENCES well(nice)
+CREATE TABLE Cause_Economy_88 (
+    teacher_than INT PRIMARY KEY,
+    certain_especially DATE,
+    number_decade VARCHAR(100),
+    discussion_each DECIMAL(10, 2),
+    FOREIGN KEY (teacher_than) REFERENCES Commercial_The_88(mean_sure)
 );
 
-CREATE TABLE well (
-    end VARCHAR(50),
-    not DATE,
-    PRIMARY KEY (end),
-    FOREIGN KEY (end) REFERENCES miss(end)
+CREATE TABLE Media_Political_88 (
+    glass_upon INT PRIMARY KEY,
+    represent_listen DATE,
+    such_back VARCHAR(100),
+    paper_power DECIMAL(10, 2),
+    FOREIGN KEY (glass_upon) REFERENCES Cause_Economy_88(teacher_than)
 );

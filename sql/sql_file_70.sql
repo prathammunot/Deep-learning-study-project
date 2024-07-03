@@ -1,68 +1,47 @@
 
-CREATE TABLE have (
-    defense DATE,
-    now TEXT,
-    anything VARCHAR(50),
-    PRIMARY KEY (defense),
-    FOREIGN KEY (defense) REFERENCES character(defense)
+CREATE TABLE Middle_Our_70 (
+    fund_mrs INT PRIMARY KEY,
+    shake_short DATE,
+    anything_six VARCHAR(100),
+    gas_physical DECIMAL(10, 2)
 );
 
-CREATE TABLE character (
-    certain VARCHAR(50),
-    call DATE,
-    PRIMARY KEY (certain),
-    FOREIGN KEY (certain) REFERENCES begin(certain)
+CREATE TABLE Fine_Information_70 (
+    serve_quickly INT PRIMARY KEY,
+    population_something DATE,
+    discussion_make VARCHAR(100),
+    organization_sound DECIMAL(10, 2),
+    FOREIGN KEY (serve_quickly) REFERENCES Middle_Our_70(fund_mrs)
 );
 
-CREATE TABLE begin (
-    newspaper DATE,
-    check TEXT,
-    owner VARCHAR(50),
-    PRIMARY KEY (newspaper),
-    FOREIGN KEY (newspaper) REFERENCES ever(newspaper)
+CREATE TABLE Similar_Them_70 (
+    recent_democrat INT PRIMARY KEY,
+    stuff_call DATE,
+    coach_stay VARCHAR(100),
+    positive_question DECIMAL(10, 2),
+    FOREIGN KEY (recent_democrat) REFERENCES Fine_Information_70(serve_quickly)
 );
 
-CREATE TABLE ever (
-    spring VARCHAR(50),
-    watch DATE,
-    PRIMARY KEY (spring),
-    FOREIGN KEY (spring) REFERENCES always(spring)
+CREATE TABLE Brother_There_70 (
+    head_hit INT PRIMARY KEY,
+    long_certainly DATE,
+    republican_establish VARCHAR(100),
+    new_necessary DECIMAL(10, 2),
+    FOREIGN KEY (head_hit) REFERENCES Similar_Them_70(recent_democrat)
 );
 
-CREATE TABLE always (
-    medical DATE,
-    walk TEXT,
-    personal VARCHAR(50),
-    PRIMARY KEY (medical),
-    FOREIGN KEY (medical) REFERENCES measure(medical)
+CREATE TABLE Of_Continue_70 (
+    month_even INT PRIMARY KEY,
+    seat_really DATE,
+    matter_network VARCHAR(100),
+    very_collection DECIMAL(10, 2),
+    FOREIGN KEY (month_even) REFERENCES Brother_There_70(head_hit)
 );
 
-CREATE TABLE measure (
-    weight VARCHAR(50),
-    lay DATE,
-    PRIMARY KEY (weight),
-    FOREIGN KEY (weight) REFERENCES pay(weight)
-);
-
-CREATE TABLE pay (
-    step DATE,
-    mention TEXT,
-    people VARCHAR(50),
-    PRIMARY KEY (step),
-    FOREIGN KEY (step) REFERENCES magazine(step)
-);
-
-CREATE TABLE magazine (
-    represent VARCHAR(50),
-    until DATE,
-    PRIMARY KEY (represent),
-    FOREIGN KEY (represent) REFERENCES market(represent)
-);
-
-CREATE TABLE market (
-    phone DATE,
-    foreign TEXT,
-    take VARCHAR(50),
-    PRIMARY KEY (phone),
-    FOREIGN KEY (phone) REFERENCES have(phone)
+CREATE TABLE Executive_Today_70 (
+    factor_back INT PRIMARY KEY,
+    may_financial DATE,
+    early_sport VARCHAR(100),
+    affect_body DECIMAL(10, 2),
+    FOREIGN KEY (factor_back) REFERENCES Of_Continue_70(month_even)
 );

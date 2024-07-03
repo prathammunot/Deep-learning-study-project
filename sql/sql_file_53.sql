@@ -1,45 +1,39 @@
 
-CREATE TABLE pattern (
-    themselves DATE,
-    age TEXT,
-    score VARCHAR(50),
-    PRIMARY KEY (themselves),
-    FOREIGN KEY (themselves) REFERENCES write(themselves)
+CREATE TABLE Difference_Already_53 (
+    argue_travel INT PRIMARY KEY,
+    course_less DATE,
+    usually_reach VARCHAR(100),
+    old_child DECIMAL(10, 2)
 );
 
-CREATE TABLE write (
-    under VARCHAR(50),
-    blood DATE,
-    PRIMARY KEY (under),
-    FOREIGN KEY (under) REFERENCES clearly(under)
+CREATE TABLE Former_Environmental_53 (
+    feeling_address INT PRIMARY KEY,
+    politics_free DATE,
+    story_view VARCHAR(100),
+    single_with DECIMAL(10, 2),
+    FOREIGN KEY (feeling_address) REFERENCES Difference_Already_53(argue_travel)
 );
 
-CREATE TABLE clearly (
-    get DATE,
-    young TEXT,
-    involve VARCHAR(50),
-    PRIMARY KEY (get),
-    FOREIGN KEY (get) REFERENCES avoid(get)
+CREATE TABLE Member_The_53 (
+    value_short INT PRIMARY KEY,
+    significant_general DATE,
+    account_product VARCHAR(100),
+    republican_week DECIMAL(10, 2),
+    FOREIGN KEY (value_short) REFERENCES Former_Environmental_53(feeling_address)
 );
 
-CREATE TABLE avoid (
-    oil VARCHAR(50),
-    really DATE,
-    PRIMARY KEY (oil),
-    FOREIGN KEY (oil) REFERENCES conference(oil)
+CREATE TABLE Enough_Husband_53 (
+    student_kid INT PRIMARY KEY,
+    gas_around DATE,
+    add_guy VARCHAR(100),
+    raise_others DECIMAL(10, 2),
+    FOREIGN KEY (student_kid) REFERENCES Member_The_53(value_short)
 );
 
-CREATE TABLE conference (
-    game DATE,
-    little TEXT,
-    sound VARCHAR(50),
-    PRIMARY KEY (game),
-    FOREIGN KEY (game) REFERENCES rest(game)
-);
-
-CREATE TABLE rest (
-    raise VARCHAR(50),
-    full DATE,
-    PRIMARY KEY (raise),
-    FOREIGN KEY (raise) REFERENCES pattern(raise)
+CREATE TABLE Instead_Last_53 (
+    claim_skin INT PRIMARY KEY,
+    quite_oil DATE,
+    firm_capital VARCHAR(100),
+    establish_class DECIMAL(10, 2),
+    FOREIGN KEY (claim_skin) REFERENCES Enough_Husband_53(student_kid)
 );

@@ -1,60 +1,63 @@
 
-CREATE TABLE consider (
-    hard DATE,
-    girl TEXT,
-    bag VARCHAR(50),
-    PRIMARY KEY (hard),
-    FOREIGN KEY (hard) REFERENCES food(hard)
+CREATE TABLE Still_Possible_14 (
+    open_explain INT PRIMARY KEY,
+    whole_own DATE,
+    husband_crime VARCHAR(100),
+    four_federal DECIMAL(10, 2)
 );
 
-CREATE TABLE food (
-    have VARCHAR(50),
-    should DATE,
-    PRIMARY KEY (have),
-    FOREIGN KEY (have) REFERENCES blood(have)
+CREATE TABLE Receive_Wear_14 (
+    citizen_follow INT PRIMARY KEY,
+    partner_back DATE,
+    write_public VARCHAR(100),
+    hope_over DECIMAL(10, 2),
+    FOREIGN KEY (citizen_follow) REFERENCES Still_Possible_14(open_explain)
 );
 
-CREATE TABLE blood (
-    late DATE,
-    father TEXT,
-    school VARCHAR(50),
-    PRIMARY KEY (late),
-    FOREIGN KEY (late) REFERENCES stuff(late)
+CREATE TABLE Pay_Result_14 (
+    hotel_fight INT PRIMARY KEY,
+    media_everybody DATE,
+    parent_state VARCHAR(100),
+    job_carry DECIMAL(10, 2),
+    FOREIGN KEY (hotel_fight) REFERENCES Receive_Wear_14(citizen_follow)
 );
 
-CREATE TABLE stuff (
-    machine VARCHAR(50),
-    enjoy DATE,
-    PRIMARY KEY (machine),
-    FOREIGN KEY (machine) REFERENCES shake(machine)
+CREATE TABLE Leave_Left_14 (
+    effect_choose INT PRIMARY KEY,
+    particular_human DATE,
+    trip_stuff VARCHAR(100),
+    response_company DECIMAL(10, 2),
+    FOREIGN KEY (effect_choose) REFERENCES Pay_Result_14(hotel_fight)
 );
 
-CREATE TABLE shake (
-    also DATE,
-    close TEXT,
-    draw VARCHAR(50),
-    PRIMARY KEY (also),
-    FOREIGN KEY (also) REFERENCES high(also)
+CREATE TABLE Language_Respond_14 (
+    method_shoulder INT PRIMARY KEY,
+    wall_civil DATE,
+    standard_teacher VARCHAR(100),
+    near_as DECIMAL(10, 2),
+    FOREIGN KEY (method_shoulder) REFERENCES Leave_Left_14(effect_choose)
 );
 
-CREATE TABLE high (
-    night VARCHAR(50),
-    series DATE,
-    PRIMARY KEY (night),
-    FOREIGN KEY (night) REFERENCES personal(night)
+CREATE TABLE Few_Hospital_14 (
+    now_baby INT PRIMARY KEY,
+    nearly_heavy DATE,
+    film_wrong VARCHAR(100),
+    market_right DECIMAL(10, 2),
+    FOREIGN KEY (now_baby) REFERENCES Language_Respond_14(method_shoulder)
 );
 
-CREATE TABLE personal (
-    light DATE,
-    resource TEXT,
-    address VARCHAR(50),
-    PRIMARY KEY (light),
-    FOREIGN KEY (light) REFERENCES wall(light)
+CREATE TABLE Walk_Record_14 (
+    others_raise INT PRIMARY KEY,
+    thousand_ability DATE,
+    out_entire VARCHAR(100),
+    second_never DECIMAL(10, 2),
+    FOREIGN KEY (others_raise) REFERENCES Few_Hospital_14(now_baby)
 );
 
-CREATE TABLE wall (
-    music VARCHAR(50),
-    account DATE,
-    PRIMARY KEY (music),
-    FOREIGN KEY (music) REFERENCES consider(music)
+CREATE TABLE Herself_Grow_14 (
+    amount_director INT PRIMARY KEY,
+    class_born DATE,
+    little_authority VARCHAR(100),
+    congress_property DECIMAL(10, 2),
+    FOREIGN KEY (amount_director) REFERENCES Walk_Record_14(others_raise)
 );

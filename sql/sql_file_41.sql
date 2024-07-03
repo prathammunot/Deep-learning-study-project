@@ -1,45 +1,47 @@
 
-CREATE TABLE level (
-    more DATE,
-    officer TEXT,
-    key VARCHAR(50),
-    PRIMARY KEY (more),
-    FOREIGN KEY (more) REFERENCES international(more)
+CREATE TABLE Factor_Reason_41 (
+    talk_light INT PRIMARY KEY,
+    oil_opportunity DATE,
+    join_role VARCHAR(100),
+    nearly_exist DECIMAL(10, 2)
 );
 
-CREATE TABLE international (
-    write VARCHAR(50),
-    hit DATE,
-    PRIMARY KEY (write),
-    FOREIGN KEY (write) REFERENCES challenge(write)
+CREATE TABLE All_True_41 (
+    they_attorney INT PRIMARY KEY,
+    floor_instead DATE,
+    might_institution VARCHAR(100),
+    western_mission DECIMAL(10, 2),
+    FOREIGN KEY (they_attorney) REFERENCES Factor_Reason_41(talk_light)
 );
 
-CREATE TABLE challenge (
-    three DATE,
-    white TEXT,
-    marriage VARCHAR(50),
-    PRIMARY KEY (three),
-    FOREIGN KEY (three) REFERENCES perform(three)
+CREATE TABLE Knowledge_Half_41 (
+    seven_need INT PRIMARY KEY,
+    boy_place DATE,
+    will_whatever VARCHAR(100),
+    happen_travel DECIMAL(10, 2),
+    FOREIGN KEY (seven_need) REFERENCES All_True_41(they_attorney)
 );
 
-CREATE TABLE perform (
-    example VARCHAR(50),
-    increase DATE,
-    PRIMARY KEY (example),
-    FOREIGN KEY (example) REFERENCES how(example)
+CREATE TABLE Push_Skill_41 (
+    person_society INT PRIMARY KEY,
+    article_unit DATE,
+    music_community VARCHAR(100),
+    set_fast DECIMAL(10, 2),
+    FOREIGN KEY (person_society) REFERENCES Knowledge_Half_41(seven_need)
 );
 
-CREATE TABLE how (
-    week DATE,
-    various TEXT,
-    chance VARCHAR(50),
-    PRIMARY KEY (week),
-    FOREIGN KEY (week) REFERENCES ready(week)
+CREATE TABLE Partner_Agree_41 (
+    account_control INT PRIMARY KEY,
+    win_hold DATE,
+    spend_past VARCHAR(100),
+    side_country DECIMAL(10, 2),
+    FOREIGN KEY (account_control) REFERENCES Push_Skill_41(person_society)
 );
 
-CREATE TABLE ready (
-    evening VARCHAR(50),
-    commercial DATE,
-    PRIMARY KEY (evening),
-    FOREIGN KEY (evening) REFERENCES level(evening)
+CREATE TABLE More_Positive_41 (
+    stand_himself INT PRIMARY KEY,
+    rock_today DATE,
+    fill_pass VARCHAR(100),
+    question_behavior DECIMAL(10, 2),
+    FOREIGN KEY (stand_himself) REFERENCES Partner_Agree_41(account_control)
 );

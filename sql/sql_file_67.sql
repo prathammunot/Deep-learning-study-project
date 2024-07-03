@@ -1,53 +1,47 @@
 
-CREATE TABLE draw (
-    wonder DATE,
-    such TEXT,
-    far VARCHAR(50),
-    PRIMARY KEY (wonder),
-    FOREIGN KEY (wonder) REFERENCES production(wonder)
+CREATE TABLE Improve_All_67 (
+    choice_with INT PRIMARY KEY,
+    cell_city DATE,
+    parent_let VARCHAR(100),
+    right_cut DECIMAL(10, 2)
 );
 
-CREATE TABLE production (
-    nature VARCHAR(50),
-    training DATE,
-    PRIMARY KEY (nature),
-    FOREIGN KEY (nature) REFERENCES toward(nature)
+CREATE TABLE Thus_These_67 (
+    market_figure INT PRIMARY KEY,
+    again_perform DATE,
+    notice_clear VARCHAR(100),
+    player_dog DECIMAL(10, 2),
+    FOREIGN KEY (market_figure) REFERENCES Improve_All_67(choice_with)
 );
 
-CREATE TABLE toward (
-    explain DATE,
-    despite TEXT,
-    power VARCHAR(50),
-    PRIMARY KEY (explain),
-    FOREIGN KEY (explain) REFERENCES impact(explain)
+CREATE TABLE Act_There_67 (
+    director_song INT PRIMARY KEY,
+    institution_ahead DATE,
+    your_goal VARCHAR(100),
+    nearly_source DECIMAL(10, 2),
+    FOREIGN KEY (director_song) REFERENCES Thus_These_67(market_figure)
 );
 
-CREATE TABLE impact (
-    challenge VARCHAR(50),
-    choose DATE,
-    PRIMARY KEY (challenge),
-    FOREIGN KEY (challenge) REFERENCES research(challenge)
+CREATE TABLE Citizen_What_67 (
+    research_few INT PRIMARY KEY,
+    box_skill DATE,
+    particularly_beautiful VARCHAR(100),
+    hope_person DECIMAL(10, 2),
+    FOREIGN KEY (research_few) REFERENCES Act_There_67(director_song)
 );
 
-CREATE TABLE research (
-    edge DATE,
-    hard TEXT,
-    move VARCHAR(50),
-    PRIMARY KEY (edge),
-    FOREIGN KEY (edge) REFERENCES size(edge)
+CREATE TABLE Thousand_While_67 (
+    certain_step INT PRIMARY KEY,
+    product_throw DATE,
+    conference_for VARCHAR(100),
+    finally_do DECIMAL(10, 2),
+    FOREIGN KEY (certain_step) REFERENCES Citizen_What_67(research_few)
 );
 
-CREATE TABLE size (
-    federal VARCHAR(50),
-    call DATE,
-    PRIMARY KEY (federal),
-    FOREIGN KEY (federal) REFERENCES goal(federal)
-);
-
-CREATE TABLE goal (
-    just DATE,
-    process TEXT,
-    stay VARCHAR(50),
-    PRIMARY KEY (just),
-    FOREIGN KEY (just) REFERENCES draw(just)
+CREATE TABLE Every_Community_67 (
+    body_mouth INT PRIMARY KEY,
+    statement_different DATE,
+    event_investment VARCHAR(100),
+    until_mrs DECIMAL(10, 2),
+    FOREIGN KEY (body_mouth) REFERENCES Thousand_While_67(certain_step)
 );

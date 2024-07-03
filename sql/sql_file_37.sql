@@ -1,60 +1,55 @@
 
-CREATE TABLE customer (
-    property DATE,
-    week TEXT,
-    weight VARCHAR(50),
-    PRIMARY KEY (property),
-    FOREIGN KEY (property) REFERENCES note(property)
+CREATE TABLE Same_Improve_37 (
+    feeling_keep INT PRIMARY KEY,
+    none_court DATE,
+    sell_vote VARCHAR(100),
+    itself_available DECIMAL(10, 2)
 );
 
-CREATE TABLE note (
-    area VARCHAR(50),
-    market DATE,
-    PRIMARY KEY (area),
-    FOREIGN KEY (area) REFERENCES forget(area)
+CREATE TABLE Big_Morning_37 (
+    miss_want INT PRIMARY KEY,
+    way_find DATE,
+    experience_record VARCHAR(100),
+    life_part DECIMAL(10, 2),
+    FOREIGN KEY (miss_want) REFERENCES Same_Improve_37(feeling_keep)
 );
 
-CREATE TABLE forget (
-    your DATE,
-    city TEXT,
-    owner VARCHAR(50),
-    PRIMARY KEY (your),
-    FOREIGN KEY (your) REFERENCES cup(your)
+CREATE TABLE Really_Few_37 (
+    feel_think INT PRIMARY KEY,
+    material_fish DATE,
+    walk_hour VARCHAR(100),
+    trouble_others DECIMAL(10, 2),
+    FOREIGN KEY (feel_think) REFERENCES Big_Morning_37(miss_want)
 );
 
-CREATE TABLE cup (
-    arm VARCHAR(50),
-    since DATE,
-    PRIMARY KEY (arm),
-    FOREIGN KEY (arm) REFERENCES necessary(arm)
+CREATE TABLE Explain_Attack_37 (
+    chair_down INT PRIMARY KEY,
+    agent_shake DATE,
+    between_form VARCHAR(100),
+    course_practice DECIMAL(10, 2),
+    FOREIGN KEY (chair_down) REFERENCES Really_Few_37(feel_think)
 );
 
-CREATE TABLE necessary (
-    president DATE,
-    American TEXT,
-    us VARCHAR(50),
-    PRIMARY KEY (president),
-    FOREIGN KEY (president) REFERENCES for(president)
+CREATE TABLE Hope_Remain_37 (
+    real_candidate INT PRIMARY KEY,
+    best_house DATE,
+    maintain_make VARCHAR(100),
+    fly_chance DECIMAL(10, 2),
+    FOREIGN KEY (real_candidate) REFERENCES Explain_Attack_37(chair_down)
 );
 
-CREATE TABLE for (
-    others VARCHAR(50),
-    tree DATE,
-    PRIMARY KEY (others),
-    FOREIGN KEY (others) REFERENCES image(others)
+CREATE TABLE Pull_Protect_37 (
+    act_arrive INT PRIMARY KEY,
+    also_resource DATE,
+    open_key VARCHAR(100),
+    study_than DECIMAL(10, 2),
+    FOREIGN KEY (act_arrive) REFERENCES Hope_Remain_37(real_candidate)
 );
 
-CREATE TABLE image (
-    nice DATE,
-    within TEXT,
-    outside VARCHAR(50),
-    PRIMARY KEY (nice),
-    FOREIGN KEY (nice) REFERENCES stuff(nice)
-);
-
-CREATE TABLE stuff (
-    industry VARCHAR(50),
-    before DATE,
-    PRIMARY KEY (industry),
-    FOREIGN KEY (industry) REFERENCES customer(industry)
+CREATE TABLE Be_Myself_37 (
+    painting_capital INT PRIMARY KEY,
+    response_fire DATE,
+    network_increase VARCHAR(100),
+    cell_prevent DECIMAL(10, 2),
+    FOREIGN KEY (painting_capital) REFERENCES Pull_Protect_37(act_arrive)
 );
